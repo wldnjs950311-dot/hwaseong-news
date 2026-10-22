@@ -353,13 +353,13 @@ dept_short_name = dept.split()[-1]  # 예: '문화관광국 관광진흥과' -> 
 if dept_short_name in article_content:
     dept_label = "소관"       # 또는 "소관부서"
 else:
-    dept_label = "관련"       # 또는 "관련부서"
+    dept_label = "참고"       # 또는 "참고부서"
 
 # processed_articles에 함께 저장
 processed_articles.append({
     ...
     "department": dept,
-    "dept_label": dept_label,  # "소관" 또는 "관련"
+    "dept_label": dept_label,  # "소관" 또는 "참고"
     ...
 })
 
