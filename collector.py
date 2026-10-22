@@ -163,39 +163,38 @@ def rule_match_department(title, text):
 
 
 def analyze_with_gemini(client, title, content, rule_dept):
-    """Gemini 2.5 Flash를 활용한 정밀 3줄 요약 및 소관부서·카테고리 확정"""
-    prompt = f"""당신은 화성시청 언론담당관실 수석 브리핑 담당관입니다.
-아래 기사 본문을 철저히 읽고 실무 보고용 JSON 데이터를 작성하십시오.
+    """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 요약"""
+    prompt = f"""당신은 화성시청 언론홍보 및 리스크 분석 수석 실무관입니다.
+아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 검증하고 JSON으로 출력하십시오.
 
 [기사 제목]: {title}
 [기사 내용]:
 {content}
 [1차 추천 소관부서]: {rule_dept}
 
-[작성 지침 - 엄수]
-1. bullets (핵심 요약 3줄):
-   - 절대로 기사 제목을 그대로 복사하거나 한 줄로 퉁치지 마십시오.
-   - 본문에 등장하는 구체적인 수치, 행사 일시·장소, 지원 대상, 추진 목적, 주요 참가 기관을 포함해 각 줄마다 1~2문장의 충실한 실무 문장으로 작성하십시오.
-   - 각 불릿은 반드시 '- '로 시작하십시오.
-   - 총 3개의 불릿을 작성하십시오.
+[작업 지침]
+1. is_hwaseong_news (화성시정 관련성 여부 - true 또는 false):
+   - true: 화성시(시청, 시장, 시의회, 산하기관, 관내 사업소 등)가 주체이거나, 화성시민을 위한 고유 정책·행사·인프라·사업·사건사고를 다룬 기사.
+   - false (제외 대상): 전국 증시/환율/거시경제 기사에서 '화성 사업장', '화성시 00구' 등이 단순 예시나 통계로 1회 스쳐 지나간 경우, 전국 아파트 시세 나열 기사, 화성시 행정과 무관한 전국 일반 뉴스.
 
-2. department:
-   - 기사 내용에 가장 적합한 화성시청 소관 실·과명을 명확히 지정하십시오. (예: 문화관광국 관광진흥과, 기업투자실 첨단산업과, 성평등가족국 청년청소년과 등)
-   - 1차 추천 부서가 엉뚱하면 기사 내용에 맞게 과감히 수정하십시오.
+2. category (is_hwaseong_news가 true일 때만 유효):
+   - RISK: 시정 비판, 비리/의혹, 수사/감사 적발, 집단 민원 갈등, 대형 안전/환경 사고.
+   - CULTURE: 행사, 축제, 대회, 전시, 포럼, 포상 수상.
+   - POLICY: 일반 시정 홍보, 지원 사업, 협약(MOU), 도시 인프라 개발.
 
-3. category:
-   - RISK: 시정 비판, 수사/감사 적발, 주민 반발/갈등, 안전사고. (단순 피해 '지원' 정책이나 '실태조사'는 POLICY임)
-   - CULTURE: 행사, 축제, 대회, 전시, 포럼, 포상/수상.
-   - POLICY: 일반 시정 정책, 복지 지원, MOU, 인프라 확충.
+3. department: 기사 내용에 가장 부합하는 화성시 소관 실·과명 (기사와 무관하면 "해당없음").
+
+4. bullets: 화성시 행정과 관련된 구체적 사실 중심의 3줄 핵심 요약 (각 줄은 '- '로 시작).
 
 [출력 JSON 형식]:
 {{
+  "is_hwaseong_news": true | false,
   "category": "POLICY" | "CULTURE" | "RISK",
   "department": "소관부서명",
   "bullets": [
-    "- 첫 번째 세부 요약",
-    "- 두 번째 세부 요약",
-    "- 세 번째 세부 요약"
+    "- 첫 번째 핵심 요약",
+    "- 두 번째 핵심 요약",
+    "- 세 번째 핵심 요약"
   ]
 }}
 """
@@ -207,14 +206,18 @@ def analyze_with_gemini(client, title, content, rule_dept):
         )
         if response and response.text:
             data = json.loads(response.text.strip())
-            bullets = data.get("bullets", [])
-            if len(bullets) >= 2:
-                return data.get("category", "POLICY"), data.get("department", rule_dept), bullets[:3]
+            is_valid = data.get("is_hwaseong_news", True)
+            return (
+                is_valid,
+                data.get("category", "POLICY"),
+                data.get("department", rule_dept),
+                data.get("bullets", [])[:3]
+            )
     except Exception as e:
         print(f"Gemini 호출 에러 ({title[:20]}): {e}")
 
-    # Fallback (API 실패 시 최소한의 형태 유지)
-    return "POLICY", rule_dept, [
+    # Fallback
+    return True, "POLICY", rule_dept, [
         f"- {title}",
         f"- {content[:120]}...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
