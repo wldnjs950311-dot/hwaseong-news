@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026.10.22. 15:47",
+  "updated_at": "2026.10.22. 16:10",
   "yesterday_label": "10.21",
   "stats": {
-    "total": 29,
-    "today_count": 12,
-    "yesterday_count": 17,
-    "policy": 19,
+    "total": 35,
+    "today_count": 14,
+    "yesterday_count": 21,
+    "policy": 25,
     "culture": 9,
     "risk": 1
   },
@@ -24,6 +24,11 @@
       ],
       "related_articles": [
         {
+          "media": "서울신문",
+          "title": "“댁까지 찾아가서 그냥드립니다”…화성시, ‘그냥드림’ 확대",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWnlESkRhM1Z0WEJPc0hOWEUtc3k5TlRPeDl3QjAxT3FudDdRM1pzQzNWT1BGWC1RZzc0YzVQWnQtTTNJdGl2N0tGNy1CYXZvdjhpbGRzdWpGTEd5WVdaLXZBNndoeDByLWVXR29kRVhQTXZod2dqbGFxWkxEejJoX3p6N0I?oc=5"
+        },
+        {
           "media": "경기뉴스광장",
           "title": "화성시, ‘찾아가는 그냥드림’ 전격 확대…복지 사각지대 해소 ‘총력’",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQlNzMEJCQUtZZ0o2SmRhSTRyNzROVGgxM00wUHdmSEhmektvRGczMjhhbFFwMWQ1cGFoUFFlVXpTbVJvNVN5VTNxYnNQVGR2clU3czFXVExud1V6S2tYYXl3?oc=5"
@@ -32,6 +37,11 @@
           "media": "기호일보",
           "title": "화성시 '찾아가는 그냥드림' 사업 확대",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwbFdBdVJlbkN2Umg4NTRvSTZtRjlyQ3YxcHIzdHZBc2Q3RWlJVllZNW5wZnRrdVo3VGNMWUhTb2tEWU1adUdrNmRNaXUtMTVkYm8zckpPRkNPVjNaUkZVWVBnOG1wSXBOekRoejNQYw?oc=5"
+        },
+        {
+          "media": "경기탑뉴스",
+          "title": "“‘그냥드림’ 사례관리사와 공무원이 댁까지 직접 찾아갑니다!”… 화성특례시,‘찾아가는 그냥드림’ 전격 확대",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5URzVjVzlIT2U4cEZ4c1dMQmxqV1dGclZKTTlXZFRLMVFUX1pOcVpRbDZpMDdLTkRmQVdZSGZjSkJ1RDBpNUNKazQwQWFpazFJOUlCZEhjZ2ZZVWVBQndRNjhUZw?oc=5"
         }
       ]
     },
@@ -124,6 +134,20 @@
       ]
     },
     {
+      "title": "화성특례시, 24일 학생동아리축제 개최…청소년이 직접 기획·운영",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yUE54RnRHUm4zaTJIcG1pYnBFUDJYcGNtMEtCSkM1NmxxLUN6aXVwbVZSNURQZ3FVUjVfNnJFZm81SmJyNHNVWWhQMG9VN3dwSUFhci1iNW95Z0hPRkk3eFpEMUhoRDd5TXVJSUZjbVrSAXRBVV95cUxPUzVXM1RSSWE4RTk2TDNxTmNJSjB0dmY4VndxT1lQd1FYX3pZQ2tqd2VKQjhtaGJ0TjNBWGZRc2pfLTdYb0pCSkVxTHllMWpmcmRKd0Y4emJtWFd0bkQwR0dGVVlubWJGYlZjOFZraHdyVFg0Zg?oc=5",
+      "media": "더페어",
+      "category": "CULTURE",
+      "department": "자치행정국 자치분권과",
+      "date_group": "TODAY",
+      "time_label": "오늘 13:14",
+      "pub_timestamp": "2026-10-22T13:14:03+09:00",
+      "bullets": [
+        "- 화성특례시, 24일 학생동아리축제 개최…청소년이 직접 기획·운영  더페어"
+      ],
+      "related_articles": []
+    },
+    {
       "title": "화성시, CCTV 관제요원 직무교육 실시…AI 기반 도시관제 역량 강화",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KOW51a241dWVDdkNkVkliSEYxc0tXUkx2SUdxdG1qa1Q3N2xFelIyRS1ha3NUVDQxNzhZZ25xcy1ZTU9hOFhNeF9yLWd0XzhnRGdNSnhhZ3MxOWZZc1E5UlZ1ejZvTUZOeWlpcA?oc=5",
       "media": "저널25방송",
@@ -159,6 +183,20 @@
       "pub_timestamp": "2026-10-22T09:52:23+09:00",
       "bullets": [
         "- HU공사, 화성시 적극행정 경진대회서 공공기관 부문 3관왕  화성시민신문"
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성시 복지시설에 노래방 기계 4대 기탁…어르신 여가 지원",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IcktkQURhVzI1US04T1cyeW1Mc0F5ZW9WY05vSDlSRTlOMWhzeHlPb1h3VDVMdVhrSEd4U09YMGNER0V1UEQwTnltb3hpLXJLLUJId0pJdlhoM19aV1JHVlBjUzhDLS12ZndLYnBDaWM?oc=5",
+      "media": "화성시민신문",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 09:49",
+      "pub_timestamp": "2026-10-22T09:49:34+09:00",
+      "bullets": [
+        "- 화성시 복지시설에 노래방 기계 4대 기탁…어르신 여가 지원  화성시민신문"
       ],
       "related_articles": []
     },
@@ -231,54 +269,11 @@
       "bullets": [
         "- 화성시, 수원 군공항 특별법안 반대 공동 대응…국방부 설문 재검토 요구  광교신문"
       ],
-      "related_articles": []
-    },
-    {
-      "title": "반도체·AI 강점 살려 우주산업까지…화성시, 미래 성장동력 확보 나선다",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hSTVDZ0JDckV1dW11UFFFekRQV0kxdFh4REh4T3pBdi1xQmhDN0cyYTd5WEhPZ25zb3JPWHg3dVg3azl6YWxxTFM5UGVIeWhYaWtMSTEwR25TV0JVTW9SWkVUZUQ2amx0MGQwN1JFZU9TVlBG0gF0QVVfeXFMTmFJNUNnQkNyRXV1bXVQUUV6RFBXSTF0WHhESHhPekF2LXFCaEM3RzJhN3lYSE9nbnNvck9YeDd1WDdrOXphbHFMUzlQZUh5aFhpa0xJMTBHblNXQlVNb1JaRVRlRDZqbHQwZDA3UkVlT1NWUEY?oc=5",
-      "media": "주간한국",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 23:29",
-      "pub_timestamp": "2026-10-21T23:29:13+09:00",
-      "bullets": [
-        "- 반도체·AI 강점 살려 우주산업까지…화성시, 미래 성장동력 확보 나선다  주간한국"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시의회, 기업 경영 걸림돌 해소에 의정 역량 집중…이계철 의장, 현장 소통 강조",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjWVR4dFZBNFJOYXlBLThHQ0RBd1FNTEd2d3VGd1JBclp5cFlUQmtWNzJvTUNsZkhMMWh3TS1wbmJCcnRCMnE5TGY5RFB0dG5rRjEyUHd2a2hiaE15VnBONmNJVll0QVlZdjZkbklnQVZ1WVZT0gF0QVVfeXFMUGNZVHh0VkE0Uk5heUEtOEdDREF3UU1MR3Z3dUZ3UkFyWnlwWVRCa1Y3Mm9NQ2xmSEwxaHdNLXBuYkJydEIycTlMZjlEUHR0bmtGMTJQd3ZraGJoTXlWcE42Y0lWWXRBWVl2NmRuSWdBVnVZVlM?oc=5",
-      "media": "주간한국",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 23:29",
-      "pub_timestamp": "2026-10-21T23:29:08+09:00",
-      "bullets": [
-        "- 화성시의회, 기업 경영 걸림돌 해소에 의정 역량 집중…이계철 의장, 현장 소통 강조  주간한국"
-      ],
       "related_articles": [
         {
-          "media": "글로벌이코노믹",
-          "title": "화성시의회, 동탄테크노밸리 기업 성장 지원 강화…산업 인프라 개선 논의",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTEREeHpWbzdmVE1JNXF2WGhBWHdOOFlONktSNkpLUUdFT2ctaWw3QzBrb1BjYVVnLWlLOFNvc0U0MTR1NS1pSm5aT2gtYVV3ak1WWFRiYVpRenUzT0VQbnpVT2dFQnpzNDhucE1RUm9wcHcxRjlOemEyd3FPUXdINkc5Qm1rOVV2NTRJ?oc=5"
-        },
-        {
-          "media": "신아일보",
-          "title": "화성시의회 경제환경위, 동탄테크노밸리 기업 지원 방안 논의",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCNjFaTjZ1YlQ4Zl9QbDRWNlVJbkNONGFjaWdBYXZndkhIQjhYSFhuUjZsM2x0UU1OWGZMQTcwblVINDBGallLLThWWjB5eWpPR2UxQ3RsS3hnNC1yc1NNWEtjUzlCMVZuSjVNNXpaX2g?oc=5"
-        },
-        {
-          "media": "매일일보",
-          "title": "이계철 화성시의회 의장, 경제인포럼 참석…기업 애로 청취",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwNVNtanM5M0pjTU1TWlN1a1ZvTTRGdmNiR1F2TjB0NjRLRnpEYWNKTkxOdHkydEx1TlJlQnpwUHdzMVg4TmlfenZyVXpvaHU4T0ViNFBYclhyc0huT2RIRW1oYVI?oc=5"
-        },
-        {
-          "media": "일간경기",
-          "title": "화성시의회 동탄테크노밸리 간담회…주차난·인프라 개선 촉구",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DaFBfeEtNdDJEcThMcERUc2pCb1Z5U1pDeURveHQ1UFZQbXRRNTNDMGtmcWRsQkZ6aGY2M19yQ2ZZVnhPOEh4QXdJcmtTWHhrb1FfSGZOa0dEbnZBeVRCREM3M3BFWUxn?oc=5"
+          "media": "아이뉴스24",
+          "title": "“수원 군공항 화성시 이전, 절대 반대!”…화성지역 ‘뜻’ 모아 끝가지 함께한다.",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44X09jLUJqSjJZV1RqejBWVmFhZlN6MXNNdVBZWkdLeTBsMFBTVy1QaERCTkRGMEh4dS1TeGpEeFZ2Z3pPWDAwSkN3Ri0?oc=5"
         }
       ]
     },
@@ -299,6 +294,11 @@
           "media": "머니투데이",
           "title": "\"망고야 긴장해라\" 화성시 송산 샤인머스캣, 한국 최초 필리핀 수출 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4TmFINFI1ZlZfTkFzWlZ1bTFENmlkeDM1NjVSVndjOEVDLTlQS2ZqZHVHVUd0ZWtfbnZQOURyZkhOcWt6TWhjc09TdlZKM2VEOG9wUVFBZVp5R2hRckRMQWhRclhNVVNHX2fSAW9BVV95cUxPTnBQN1dLUXdfcGtMUjRqamg2T2Y3MkxiVzJfLWFlNVRXX3VrRGtMM1lFR3d4VVNHaDd0RncyOFRZM2E1clRjcXFlckJQa29KS0ZFVkwtS0p6dFZBanlYVUUteGZJTjBlWG52QVkwUW8?oc=5"
+        },
+        {
+          "media": "머니투데이",
+          "title": "\"망고야 긴장해라\" 화성시 송산 샤인머스캣, 한국 최초 필리핀 수출 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RREp5elRQU3BKWS1OUk1kcXVuYUFxakphSUwtQ1ZvUUNQMTRJcHluN1ZxT2IyNGpWNFc1djZlaFJFWFBDY244RXYzUkVZQm40dWtqZGpaamM2NGhCa2hMU3h5LXFqSG5lVnltbGN5d01Oa1ozVERR0gF8QVVfeXFMTzFhQmhvcUp4LTY4WTg3NE8zdXF2eTFvb0RKQzEteVFoUmFVZDRIZklhOVlEaDJaY2VIS202OW1mZlJzU3lkQ0lYQktFNkxydm5ObzVNNVE1Z1l6MTBZQXZzRk1FT2FPbFlIOXMwUzhhSVYxZThWZi1ZWnhvQw?oc=5"
         }
       ]
     },
@@ -321,9 +321,9 @@
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44WHVJczBhdEljeVpFcVZDSXBLM0hud1JtWVI2MjhpRno2Wm91b1JEQ1NscjRqalI3VE1uZkEyNXVnN1pWNXpydG81SGhpZlpIaGJvYmZEcEM2NDFVSEppNw?oc=5"
         },
         {
-          "media": "쿠키뉴스",
-          "title": "화성시, 내달 3일 코엑스서 ‘MARS 2026’ 개최…우주항공산업 추진단 출범",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJbHZmXzVpQ2d4Nm42SURfLUJ6WXlEbVBUZk9oN0FoSkhCeFk3WEU4QUxjdktvSm1faWRKQ3RqZnNmX21jNFVDS1JJbVBYV3hfckhPQ2RaSkxkRTVtRnl6YXlHbw?oc=5"
+          "media": "머니투데이",
+          "title": "\"화성(MARS) 가자\" 이름값 하는 화성시…'우주항공 추진단' 출범 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5QkhkdDZTWWg2dm9NNHdmVmc3aTlLd1NQSXdDUmtzU3o1Vlc4YUZUempZUGNhVUo2QXBCVWFNRjF5blRhTHJMZkxCRl80OTZXRDJHUUlwR21VVGI5aVBFNXJjMDRsRG1ZNGfSAW9BVV95cUxPWEwzOHhudVFrTG9TdHh1RWdFRjcxanAzWEZ4NUluTUs3SnFTYm1QWWJIX1lJRVR6a2pTaXZrbFp0YzAwalRqQlpzanVYNjJfazg3QmcxdkRHdDFJcmpQZXEyTVdKVm9EMWsxYlJYNFE?oc=5"
         },
         {
           "media": "서울파이낸스",
@@ -331,16 +331,84 @@
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tN1NVVEN3X0lKeUF2R1lEa3JvRUUwX3lTbkV5RHhJVmVYdUNVLXFwQ1JXcHVnN1NFRUlmTDVQMkNQRmhHWjdlcDhmbENzRGwtdTEwLVFGVWNrWkQ2TU4yUktsVmQ4RmpJS2c?oc=5"
         },
         {
-          "media": "시사저널",
-          "title": "[화성 24시] 화성시, 우주항공산업 추진단 출범… ‘글로벌 우주·AI 중심도시’ 도약 선언",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuNWh5UkdadWxHc2lpdEw5SmZxejdqZkVNQkZmV25wbmk5eTRGNmpYWThGN0t2SFBmUG40TDNpN1ViTkFiVGQ4S0h0ZEFRR1VpNkQtM2VZY09mWkRiLWNTSTg4V0hkeUxGNVR0VmdfRlNkTm_SAXNBVV95cUxQbjVoeVJHWnVsR3NpaXRMOUpmcXo3amZFTUJGZlducG5pOXk0RjZqWFk4RjdLdkhQZlBuNEwzaTdVYk5BYlRkOEtIdGRBUUdVaTZELTNlWWNPZlpEYi1jU0k4OFdIZHlMRjVUdFZnX0ZTZE5v?oc=5"
+          "media": "아이뉴스24",
+          "title": "“화성(華城)이 화성(MARS) 으로”… 화성시 ‘우주항공산업 추진단’공식 출범",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94SkRjUFJNSklxZ2JyOC1BLUV1RVdQVmpkenBPUjVReXF6Y1VzVnF6ekFQU1hqOHNNOXpYVTVjNTFWVFR0VFNHMVNpd0Q?oc=5"
         },
         {
-          "media": "머니투데이",
-          "title": "\"화성(MARS) 가자\" 이름값 하는 화성시…'우주항공 추진단' 출범 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YTDM4eG51UWtMb1N0eHVFZ0VGNzFqcDNYRng1SW5NSzdKcVNibVBZYkhfWUlFVHpralNpdmtsWnRjMDBqVGpCWnNqdVg2Ml9rODdCZzF2REd0MUlyalBlcTJNV0pWb0QxazFiUlg0UdIBb0FVX3lxTE9YTDM4eG51UWtMb1N0eHVFZ0VGNzFqcDNYRng1SW5NSzdKcVNibVBZYkhfWUlFVHpralNpdmtsWnRjMDBqVGpCWnNqdVg2Ml9rODdCZzF2REd0MUlyalBlcTJNV0pWb0QxazFiUlg0UQ?oc=5"
+          "media": "서울경제",
+          "title": "화성시, AI 기반 우주항공산업 육성 본격화",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92NF8tUU5jcTB2ek13aEdnWU1YLWJ4UzdnM0M4a28xc0NfRGhHZHlaWkQwUE9XbjBFVFVsQzZ6dHRfQ2hlVmhMRFp0VkFfYS1feXfSAVNBVV95cUxNUFBZbDkxMVVLcUlOUU1RVjBpenRvVEREeTZWWTU2Wnd3Vl9abG9ybHlFbVFrVGs1aGhXblFhc0lYY1dtdkVZVEJlclZfSmJvYnlsWQ?oc=5"
         }
       ]
+    },
+    {
+      "title": "[오늘의 정책 픽] 화성시 100년 미래 먹거리 우주항공 쏘아올린다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40UC1QZnV5UXZnZlhGV3RyTzU2eWhUTHVudF9pZEF0VEpxRXV4UzhpelpjdUlIX0V4WG9CZC0wRTFzQnhZb1JnNXBNNExDNUhGLWtRSG9ZbFp5TWRheWxITA?oc=5",
+      "media": "NSP통신",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 17:44",
+      "pub_timestamp": "2026-10-21T17:44:27+09:00",
+      "bullets": [
+        "- [오늘의 정책 픽] 화성시 100년 미래 먹거리 우주항공 쏘아올린다  NSP통신"
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성시의회 경제환경위, 동탄테크노밸리 기업 지원 방안 논의",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCNjFaTjZ1YlQ4Zl9QbDRWNlVJbkNONGFjaWdBYXZndkhIQjhYSFhuUjZsM2x0UU1OWGZMQTcwblVINDBGallLLThWWjB5eWpPR2UxQ3RsS3hnNC1yc1NNWEtjUzlCMVZuSjVNNXpaX2g?oc=5",
+      "media": "신아일보",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 16:56",
+      "pub_timestamp": "2026-10-21T16:56:12+09:00",
+      "bullets": [
+        "- 화성시의회 경제환경위, 동탄테크노밸리 기업 지원 방안 논의  신아일보"
+      ],
+      "related_articles": [
+        {
+          "media": "글로벌이코노믹",
+          "title": "화성시의회, 동탄테크노밸리 기업 성장 지원 강화…산업 인프라 개선 논의",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTEREeHpWbzdmVE1JNXF2WGhBWHdOOFlONktSNkpLUUdFT2ctaWw3QzBrb1BjYVVnLWlLOFNvc0U0MTR1NS1pSm5aT2gtYVV3ak1WWFRiYVpRenUzT0VQbnpVT2dFQnpzNDhucE1RUm9wcHcxRjlOemEyd3FPUXdINkc5Qm1rOVV2NTRJ?oc=5"
+        },
+        {
+          "media": "매일일보",
+          "title": "이계철 화성시의회 의장, 경제인포럼 참석…기업 애로 청취",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwNVNtanM5M0pjTU1TWlN1a1ZvTTRGdmNiR1F2TjB0NjRLRnpEYWNKTkxOdHkydEx1TlJlQnpwUHdzMVg4TmlfenZyVXpvaHU4T0ViNFBYclhyc0huT2RIRW1oYVI?oc=5"
+        },
+        {
+          "media": "일간경기",
+          "title": "화성시의회 동탄테크노밸리 간담회…주차난·인프라 개선 촉구",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DaFBfeEtNdDJEcThMcERUc2pCb1Z5U1pDeURveHQ1UFZQbXRRNTNDMGtmcWRsQkZ6aGY2M19yQ2ZZVnhPOEh4QXdJcmtTWHhrb1FfSGZOa0dEbnZBeVRCREM3M3BFWUxn?oc=5"
+        },
+        {
+          "media": "비욘드포스트",
+          "title": "화성시의회 경제환경위, 동탄테크노밸리 기업 애로 청취",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tN3RBbHBCcTczV2hVWmZsUVBkNE5yUUlGV0g2SlZkN1J0dW9QdEVGMlBSR1lIbWdXMHdLamNpc0dhTkVwcWswMUkyU3pqTEswQVhaSUNWYnJOQjl3QnR6Y293NjNuSFhLb1hFZmFNUlU0RzY0WjBpR2lnQUg?oc=5"
+        },
+        {
+          "media": "경기일보",
+          "title": "화성특례시, 우주항공산업 중심도시로 도약한다…기업 유치·지원 전략 마련",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlSVQzS2d3c1l3cW9KaTRlaE5WY1ZLOS1WQ3pLSGNRNUYyaGQwT0NOSTNTUDdSaUdFLWNWOUsyeWVlNHJpeV9nR2hzSkNxS3V4dkExUWVpQjhwMEE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "화성시장학관 도봉나래관, 소방안전모범 우수상",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CdE4xMHA1SVp5V2d3R2hsNnNjS1l1U3lqbmNiMVdNWERQYVJyN0tUMmJWVU94cXY4Z3NMVm9xTEh3TERoSmFnODBoM2J2NWFOcG9mVjRweEFsV2tPNXNNbFZobURWOVBoSy0tbnN3?oc=5",
+      "media": "현대일보",
+      "category": "POLICY",
+      "department": "교육체육국 교육지원과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 16:54",
+      "pub_timestamp": "2026-10-21T16:54:45+09:00",
+      "bullets": [
+        "- 화성시장학관 도봉나래관, 소방안전모범 우수상  현대일보"
+      ],
+      "related_articles": []
     },
     {
       "title": "“학생 안전은 때에 맞춰 하면 ‘끝’”…화성시, 학생 안전보다 업체측 입장 ‘궤변’ 물의",
@@ -353,6 +421,20 @@
       "pub_timestamp": "2026-10-21T16:22:50+09:00",
       "bullets": [
         "- “학생 안전은 때에 맞춰 하면 ‘끝’”…화성시, 학생 안전보다 업체측 입장 ‘궤변’ 물의  아이뉴스24"
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "대전 자율방재단, 화성시와 재난 대응 협력체계 구축",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02MTA2MFhMb2FvQjBySTRNQk9QdkNyY3hjZ3JIeDlMU3hpNEw0d0FJRlZMLVNuR2Q1blBmZzZuSno4d3lLZVI5ZkdxSnZ3UFJqbkNIYmR4SzFhWVhPd3M1ODhra0phVzJVUEE?oc=5",
+      "media": "충청매일",
+      "category": "POLICY",
+      "department": "안전건설실 재난대응과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 16:05",
+      "pub_timestamp": "2026-10-21T16:05:14+09:00",
+      "bullets": [
+        "- 대전 자율방재단, 화성시와 재난 대응 협력체계 구축  충청매일"
       ],
       "related_articles": []
     },
@@ -370,19 +452,14 @@
       ],
       "related_articles": [
         {
-          "media": "뉴스핌",
-          "title": "화성시 '시민 행복' 시정 전반 정책 반영 위해 설문 조사 실시",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHZ2drb2pZaGMtWDE4THBlZ0xydVVMR0g5MzE4eElGRjNHWm9BUWVMRS13UW9JUzB4NHd3dUJlbk5mVU5Mb2YzRy1vMUFzWVRITXhfRHVvMHppLVlL?oc=5"
-        },
-        {
           "media": "아시아경제",
           "title": "화성시, 시민 1만명 행복 수준 살핀다…“정책 우선순위에 반영”",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rRGswcjFGZmZjVFFRcGJqZVVOT2pWSjdBc0w2RE1hX0l5N2hNNTE2U0ZOYUI3Nk9MRFpnaE41WFRnc0hmTmtXVV9xb0lTMDN0bXJNa2JqMmV5TFFIYllKcw?oc=5"
         },
         {
-          "media": "뉴시스",
-          "title": "화성시, 시민 1만명 '분야별 만족도' 조사…\"정책 진단\"",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96aVZOYUlyTG92QjR5YTZURU1ycXBwLW9WT2tZcEFNajBHcGVVSnJnSEptamhWUGZSM2JPTTdKNmZiczNHTkRTSkJ4b0VqN0xrYVlMWjVPZ3kybGNvWldBYUxiY0t0dmtFczRtRUNmMU5vSW5KUEZOS9IBeEFVX3lxTE96aVZOYUlyTG92QjR5YTZURU1ycXBwLW9WT2tZcEFNajBHcGVVSnJnSEptamhWUGZSM2JPTTdKNmZiczNHTkRTSkJ4b0VqN0xrYVlMWjVPZ3kybGNvWldBYUxiY0t0dmtFczRtRUNmMU5vSW5KUEZOSw?oc=5"
+          "media": "뉴스핌",
+          "title": "화성시 '시민 행복' 시정 전반 정책 반영 위해 설문 조사 실시",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHZ2drb2pZaGMtWDE4THBlZ0xydVVMR0g5MzE4eElGRjNHWm9BUWVMRS13UW9JUzB4NHd3dUJlbk5mVU5Mb2YzRy1vMUFzWVRITXhfRHVvMHppLVlL?oc=5"
         }
       ]
     },
@@ -408,20 +485,60 @@
           "media": "아시아경제",
           "title": "화성시 기업 6곳, 하노이 기계전시회서 수출상담 74건",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GaS1MMkxPYS1LZ0o3bkdVQ3VITTM0TjBsVC1jSDh4NjZwUGk5U2hidzRmeGFRdHpfSElUMWJFU0xYRTM2bnRBanpXVm0zSHVDUmJPRmVqdDFsempObVE2dg?oc=5"
+        },
+        {
+          "media": "경인미래신문",
+          "title": "화성시, 베트남 하노이 기계전시회서 수출상담 74건 달성",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3ZlFpdEJWRTVKM2VPZFVTWFlIR0NXbldqXzVQd3JlN3EzMENGLTNfQkptMi1leFFzZi1vdFNBN2c5QWlGTVcwMFItc1NYelF2cVZOMHlsZVdUek1hTmpKYnpB?oc=5"
+        },
+        {
+          "media": "아이뉴스24",
+          "title": "“베트남 하노이 수출길 뚫었다”…화성시 ‘하노이 기계전시회’ 기업 6개사 참여",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpeTNIYlJvR1RTc0dCZkhSMWdPeWdxcFNXRkxKRTViLUE1dUVJQXBRdWYzVU5ONUg2RFl1VDZSR1ZYMy0wXzVjRkhHbw?oc=5"
+        },
+        {
+          "media": "비욘드포스트",
+          "title": "화성시, 베트남 하노이서 수출상담 74건…북부 판로 공략",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiN0VLQW9EN3k5VDIwQ2ZVRnVvUF84RE1wWmRlV25ZVEc3MFlzNVI5VklSUUR6Z0pNNWJkb2F2aUo0RGJEOHRaZGp3RDhGZzdCaElyV05qSVVfRmdZS0ViemFERkY4d0FNcUJ5NENDcXZfbk5UWnExdVZyWVQ?oc=5"
         }
       ]
     },
     {
-      "title": "화성시 '기억청춘학교' 성료",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DM3N1cjN1Y1pNclRtNE1DdEttWkZ6Sk5rdWo1ZTd3LS1UZU1iMXAyUnBmOEZxZWY2XzB1WDBwbll6eFNFczNCN2haSkR2ZWg3ekhsajI2WlJuWWdYMF9vUldueGxja2xIejMwVG5abkU?oc=5",
-      "media": "인천일보",
+      "title": "기보, 화성시 소공인 현장 찾아 맞춤형 기술평가 방안 논의",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oT3JESFlpemllbE4xUmVGaDhLU2JScFVFVjRWVUh1MTRiNExvQzZaNTlnNHRzcmh6ZlQ5RDVHNVBEUWNBc3dBX1FCam56eXdKZHo0Zmdaekl3NlM3MjJqOVB2WTVYTFNMRHEtb0FiOGw?oc=5",
+      "media": "시장경제신문",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 15:18",
-      "pub_timestamp": "2026-10-21T15:18:00+09:00",
+      "time_label": "어제 15:20",
+      "pub_timestamp": "2026-10-21T15:20:59+09:00",
       "bullets": [
-        "- 화성시 '기억청춘학교' 성료  인천일보"
+        "- 기보, 화성시 소공인 현장 찾아 맞춤형 기술평가 방안 논의  시장경제신문"
+      ],
+      "related_articles": [
+        {
+          "media": "글로벌이코노믹",
+          "title": "기보, 소공인 맞춤형 기술평가 방안 논의… 화성시 소공인 현장 방문",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSU13R3pFd3NENHlhWWw4TFE2cGZ6QkczWm1Gd1ota21lcWtteW5oSUMyTmc2dHF1NWVxQTE1Z1cwNHBKQTd2V294TDZ6VWNhZ3c4VGlDdk9kY0xCSzQyTjNQWHpuRHh3ZHhNc0RJRXVVcWg4QzRsQWlSbFlCSElyMXQxdno?oc=5"
+        },
+        {
+          "media": "부산일보",
+          "title": "기보, 화성시 소공인 집적지구 찾아 현장 간담회 개최",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5McVJVS1pObGM1SzJQR2t5TVpYYlotRlI4REJoXzZ4eURIWldCR1NaZU45RWU5eFVtWlpVT0ZuSXNlenN0c2R6STUwQTRsRmFSdFpyWEtFQ05SRXk0Q0tDTXlmcjNfdDgtdGpzSjZFVUZqSXk2ak16ZTJfQkY?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "화성시 장학관 도봉나래관 .소방 안전 우수",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9tOG5wZndGY0xHSHlwemJId2p4eGtKWXFSbzJVVXFlVzYwbEdMLWFSd0VLVEo2ZHpoOTNEUk0wQXlkVTV5?oc=5",
+      "media": "화성 투데이",
+      "category": "POLICY",
+      "department": "교육체육국 교육지원과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:13",
+      "pub_timestamp": "2026-10-21T15:13:00+09:00",
+      "bullets": [
+        "- 화성시 장학관 도봉나래관 .소방 안전 우수  화성 투데이"
       ],
       "related_articles": []
     },
@@ -465,24 +582,18 @@
       ]
     },
     {
-      "title": "기보, 화성시 소공인 집적지구 찾아 현장 간담회 개최",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5McVJVS1pObGM1SzJQR2t5TVpYYlotRlI4REJoXzZ4eURIWldCR1NaZU45RWU5eFVtWlpVT0ZuSXNlenN0c2R6STUwQTRsRmFSdFpyWEtFQ05SRXk0Q0tDTXlmcjNfdDgtdGpzSjZFVUZqSXk2ak16ZTJfQkY?oc=5",
-      "media": "부산일보",
+      "title": "화성시장배 게이트볼대회 개최…400명 참가",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JUmpBeUJYNHRNRTVVc2VhUDRtQ2c3VWdIcmtGUi1rb0ZwQ1VLZzEwV3VXQjRadU9URWZyNThiSEEyT2Roa09WLVU5aVNleW9KbU4tM1VORzRqMk5iWkM3YWgtNXBSS1cyQkRtdDBFclY?oc=5",
+      "media": "SK브로드밴드 회사소개",
       "category": "CULTURE",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 13:50",
-      "pub_timestamp": "2026-10-21T13:50:02+09:00",
+      "time_label": "어제 13:29",
+      "pub_timestamp": "2026-10-21T13:29:42+09:00",
       "bullets": [
-        "- 기보, 화성시 소공인 집적지구 찾아 현장 간담회 개최  부산일보"
+        "- 화성시장배 게이트볼대회 개최…400명 참가  SK브로드밴드 회사소개"
       ],
-      "related_articles": [
-        {
-          "media": "글로벌이코노믹",
-          "title": "기보, 소공인 맞춤형 기술평가 방안 논의… 화성시 소공인 현장 방문",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSU13R3pFd3NENHlhWWw4TFE2cGZ6QkczWm1Gd1ota21lcWtteW5oSUMyTmc2dHF1NWVxQTE1Z1cwNHBKQTd2V294TDZ6VWNhZ3c4VGlDdk9kY0xCSzQyTjNQWHpuRHh3ZHhNc0RJRXVVcWg4QzRsQWlSbFlCSElyMXQxdno?oc=5"
-        }
-      ]
+      "related_articles": []
     },
     {
       "title": "화성시, 반도체 넘어 우주항공으로…AI 융합산업 육성",
@@ -499,8 +610,36 @@
       "related_articles": []
     },
     {
+      "title": "화성시인재육성재단, 2026년 화성시 공공기관 경영평가‘1위’달성",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QZ2ZVZDVqLVkyd1RReHVXZ2VtNEZzWUg1OUpxSVBmZWwzNjFWNFZtLXBKckFub1lMRWRvMFhtNGhhLXVBZXZiZ3ZIWUV3NTJncEM2bktsRDBUbXpweHI2ZWt2S2VVNGxRd01vNTNjOURTY3c?oc=5",
+      "media": "동방일보",
+      "category": "POLICY",
+      "department": "교육체육국 교육지원과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 11:32",
+      "pub_timestamp": "2026-10-21T11:32:35+09:00",
+      "bullets": [
+        "- 화성시인재육성재단, 2026년 화성시 공공기관 경영평가‘1위’달성  동방일보"
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성시, ‘시민의 행복 시정의 기준’ 마련… ‘2026 화성서베이’ 추진",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBUTdYZUl2YXJ5aUk5R21vVHhuWl9jNlZsQ3RKOXhBbWVwMlFPZHEwbkFGZ1FWY1B1WE91VDJnSmRTVWhlR0xkcGVMTEtpdUJ1d3NjRlVlekpqYS0xSW1Cb0NB?oc=5",
+      "media": "경기뉴스광장",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 11:29",
+      "pub_timestamp": "2026-10-21T11:29:32+09:00",
+      "bullets": [
+        "- 화성시, ‘시민의 행복 시정의 기준’ 마련… ‘2026 화성서베이’ 추진  경기뉴스광장"
+      ],
+      "related_articles": []
+    },
+    {
       "title": "화성시, 11월 3~5일 코엑스서 'MARS 2026' 개최",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tekVWczRWN1dJWjUzTFJXQzZkZE5uLTA1NlpWT3dDWFZzamRvMTBNcjFOSXFRaUtZUWI3Z3l1Y3pKMFJKTWhrNFg1NVF1VE50X0kwTVFiQXRNQkk3ZjkxSW1DdVE5bzd1NmJvYVAxNjh5a2xNVzFSddIBeEFVX3lxTE4tekVWczRWN1dJWjUzTFJXQzZkZE5uLTA1NlpWT3dDWFZzamRvMTBNcjFOSXFRaUtZUWI3Z3l1Y3pKMFJKTWhrNFg1NVF1VE50X0kwTVFiQXRNQkk3ZjkxSW1DdVE5bzd1NmJvYVAxNjh5a2xNVzFSdQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFMmk5Z3JOd09YZzlpa29fUGs1c2pIcEJ1TTVVenZDb0Iwb3VUZkZtcGpqMGtRcVlZbGhOVHJMUE1va0ZnZU00SkFEUThOalc4bXRzVkEyZmdHWDAxclJ2StIBeEFVX3lxTE4tekVWczRWN1dJWjUzTFJXQzZkZE5uLTA1NlpWT3dDWFZzamRvMTBNcjFOSXFRaUtZUWI3Z3l1Y3pKMFJKTWhrNFg1NVF1VE50X0kwTVFiQXRNQkk3ZjkxSW1DdVE5bzd1NmJvYVAxNjh5a2xNVzFSdQ?oc=5",
       "media": "뉴시스",
       "category": "CULTURE",
       "department": "화성시 소관부서 확인중",
@@ -540,17 +679,17 @@
       ],
       "related_articles": []
     },
-
-      "title": "화성시, 하노이 기계전시회서 '단체관'…수출상담은 74건",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RUkNjTV9PaGcwSUxIc0tvRGhMc0IwQ2NQTmprMlVwZ0JEUDh3VHBFMGE2MjRvWnkyRXFEdDVNN0RoN1BVbE1QSzZBVTBDdFpUbk9fTGlWdG9waUEycVZ0aWlpWS1OMkxRVWtnM21nRjFMYWdDbW9lcdIBeEFVX3lxTE1RUkNjTV9PaGcwSUxIc0tvRGhMc0IwQ2NQTmprMlVwZ0JEUDh3VHBFMGE2MjRvWnkyRXFEdDVNN0RoN1BVbE1QSzZBVTBDdFpUbk9fTGlWdG9waUEycVZ0aWlpWS1OMkxRVWtnM21nRjFMYWdDbW9lcQ?oc=5",
-      "media": "뉴시스",
-      "category": "CULTURE",
-      "department": "화성시 소관부서 확인중",
+    {
+      "title": "화성시연구원, 『화성-Insight』 제11호 발간",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DQndhZldpd1hQXzdIR2N3cXFET29sRUFidmpUZnBRbmtiTHYtRHB0TDQySG9MWVhvSGVVWUFUQWZ5T3hoeUhaWkhkSzRKYkVvWVRKVFZMcExyemdSNE0yZnR6Z1VoQjQ?oc=5",
+      "media": "경인신문",
+      "category": "POLICY",
+      "department": "기획조정실 정책기획관",
       "date_group": "YESTERDAY",
-      "time_label": "어제 09:08",
-      "pub_timestamp": "2026-10-21T09:08:11+09:00",
+      "time_label": "어제 10:04",
+      "pub_timestamp": "2026-10-21T10:04:09+09:00",
       "bullets": [
-        "- 화성시, 하노이 기계전시회서 '단체관'…수출상담은 74건  뉴시스"
+        "- 화성시연구원, 『화성-Insight』 제11호 발간  경인신문"
       ],
       "related_articles": []
     }
