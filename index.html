@@ -573,7 +573,7 @@ let yesterdayLabel = '';
 // 1. news_data.json 비동기 로드
 async function loadNewsData() {
   try {
-    const res = await fetch('./news_data.json');
+    const res = await fetch('./news_data.json?v=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error("파일 없음");
     const data = await res.json();
     
