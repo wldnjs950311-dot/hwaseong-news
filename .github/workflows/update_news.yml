@@ -1,0 +1,41 @@
+name: 1-Hour Hwaseong News Pipeline
+
+on:
+  schedule:
+    # 매시간 정각 실행 (UTC 기준)
+    - cron: '0 * * * *'
+  workflow_dispatch: # 수동 즉시 실행 지원
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설정
+        uses: setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 라이브러리 설치
+        run: |
+          pip install requests google-genai
+
+      - name: 뉴스 수집 및 가공
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python collector.py
+
+      - name: 갱신된 news_data.json 커밋 및 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add news_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: news_data.json" && git push)
