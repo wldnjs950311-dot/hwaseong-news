@@ -346,7 +346,22 @@ def main():
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
     print(f">> 완료: 총 {len(processed_articles)}건 분석 및 news_data.json 저장 성공")
+        # collector.py 내부
+dept_short_name = dept.split()[-1]  # 예: '문화관광국 관광진흥과' -> '관광진흥과'
 
+# 본문에 부서명이 직접 언급되었는지 판별
+if dept_short_name in article_content:
+    dept_label = "소관"       # 또는 "소관부서"
+else:
+    dept_label = "관련"       # 또는 "관련부서"
+
+# processed_articles에 함께 저장
+processed_articles.append({
+    ...
+    "department": dept,
+    "dept_label": dept_label,  # "소관" 또는 "관련"
+    ...
+})
 
 if __name__ == "__main__":
     main()
