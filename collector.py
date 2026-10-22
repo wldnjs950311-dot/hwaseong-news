@@ -299,7 +299,12 @@ def main():
 
         # 3. Gemini 실무 요약 및 판별
         print(f"분석 중: {title[:25]}...")
-        cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
+        is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
+
+        # 화성시정과 무관한 전국 경제/단순 지명 언급 기사는 자동 제외
+        if not is_valid:
+            print(f"   -> [제외] 화성시정 무관 기사 필터링: {title[:20]}")
+            continue
 
         is_today = (item_date == today_date)
         time_label = f"오늘 {pub_dt.strftime('%H:%M')}" if is_today else f"어제 {pub_dt.strftime('%H:%M')}"
