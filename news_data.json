@@ -1,26 +1,85 @@
 {
-  "updated_at": "2026.10.22. 15:21",
+  "updated_at": "2026.10.22. 15:47",
   "yesterday_label": "10.21",
   "stats": {
-    "total": 31,
-    "today_count": 11,
-    "yesterday_count": 20,
-    "policy": 21,
+    "total": 29,
+    "today_count": 12,
+    "yesterday_count": 17,
+    "policy": 19,
     "culture": 9,
     "risk": 1
   },
   "articles": [
     {
-      "title": "화성시, ‘찾아가는 그냥드림’ 전격 확대…복지 사각지대 해소 ‘총력’",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQlNzMEJCQUtZZ0o2SmRhSTRyNzROVGgxM00wUHdmSEhmektvRGczMjhhbFFwMWQ1cGFoUFFlVXpTbVJvNVN5VTNxYnNQVGR2clU3czFXVExud1V6S2tYYXl3?oc=5",
-      "media": "경기뉴스광장",
+      "title": "정명근 화성시장, '찾아가는 그냥드림' 확대…“복지 사각지대까지 따뜻한 손길”",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hdl9wdi1JY2FHNW9Gbkxqdk9LZHBweWNaUHFKOWNQYXdvRjJIQzF1TWxCdDhhSGpXaXhfUzZrNDcxUzVvcVNad21iN2NZRVhVSjYwYnZzY1dvVFJkUHRtb0JoMTZ6MVpac3VrLTc0UmctVzlyeUJ3WUw4SHQ?oc=5",
+      "media": "비욘드포스트",
       "category": "POLICY",
       "department": "돌봄복지국 통합돌봄과",
       "date_group": "TODAY",
-      "time_label": "오늘 14:54",
-      "pub_timestamp": "2026-10-22T14:54:47+09:00",
+      "time_label": "오늘 15:37",
+      "pub_timestamp": "2026-10-22T15:37:29+09:00",
       "bullets": [
-        "- 화성시, ‘찾아가는 그냥드림’ 전격 확대…복지 사각지대 해소 ‘총력’  경기뉴스광장"
+        "- 정명근 화성시장, '찾아가는 그냥드림' 확대…“복지 사각지대까지 따뜻한 손길”  비욘드포스트"
+      ],
+      "related_articles": [
+        {
+          "media": "경기뉴스광장",
+          "title": "화성시, ‘찾아가는 그냥드림’ 전격 확대…복지 사각지대 해소 ‘총력’",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQlNzMEJCQUtZZ0o2SmRhSTRyNzROVGgxM00wUHdmSEhmektvRGczMjhhbFFwMWQ1cGFoUFFlVXpTbVJvNVN5VTNxYnNQVGR2clU3czFXVExud1V6S2tYYXl3?oc=5"
+        },
+        {
+          "media": "기호일보",
+          "title": "화성시 '찾아가는 그냥드림' 사업 확대",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwbFdBdVJlbkN2Umg4NTRvSTZtRjlyQ3YxcHIzdHZBc2Q3RWlJVllZNW5wZnRrdVo3VGNMWUhTb2tEWU1adUdrNmRNaXUtMTVkYm8zckpPRkNPVjNaUkZVWVBnOG1wSXBOekRoejNQYw?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "[인터뷰] 최은희 화성시의원 “시민 목소리, 정책에 반영될 때까지 챙기겠다”",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BZFpUb3p1bjNiMU1ibUpXMzdDRHQwTTNLeWFWRkJOM1NYMFVJX1RfdnJ5a05DaktQd19wVVpvMXNRNlBYdnh2VjZwbmpZX2ZiUWxlM1QwZExNQklFRUxZTVFKbkZEaUlOVHlObHFR?oc=5",
+      "media": "아시아투데이",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 15:33",
+      "pub_timestamp": "2026-10-22T15:33:37+09:00",
+      "bullets": [
+        "- [인터뷰] 최은희 화성시의원 “시민 목소리, 정책에 반영될 때까지 챙기겠다”  아시아투데이"
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성시, '청소년 자율기획형 축제' 연다…기획·운영 직접 참여",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45eVg2eEpyUTd3Tk51RElKejJSaU9jYlRNVXdZVDluS2g2Z0RCV3doQ1Jtb2htYllCRGFJYm0zalVhWHBoRVF1aU9CNnJvSU1xbDBvRnU5c2lDaVRz?oc=5",
+      "media": "뉴스핌",
+      "category": "CULTURE",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 15:28",
+      "pub_timestamp": "2026-10-22T15:28:00+09:00",
+      "bullets": [
+        "- 화성시, '청소년 자율기획형 축제' 연다…기획·운영 직접 참여  뉴스핌"
+      ],
+      "related_articles": [
+        {
+          "media": "뉴스1",
+          "title": "화성시 학생들이 직접 만든 축제…24일 동탄서 개막",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnZ282bF8ycWp2NmNRT2VfT3pTcXFFNWlHWHJMck0yaTRaN3MwcnJaNnlsSmotalRaalVmSXpoamFDdTJVZnRuRnVVQVRtbEVJV3R1dnFB?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "KB부동산 \"서울서 강남구만 나홀로 하락…화성시 매매·전세 급등\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZX2diOS1HZGlGVjljMEN4dHNud1Q3ZmhwbFB6TVhGWFZKZFNISkV3X0VLNjBoRlAweHNacVJGcS1QbzJrTUN0YzVpTTFGUXpxcGpxTEUwa2J5NEliaDZxcldwTnNUSjFHUTU4dVE0eDFpdw?oc=5",
+      "media": "KB Think",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 15:19",
+      "pub_timestamp": "2026-10-22T15:19:13+09:00",
+      "bullets": [
+        "- KB부동산 \"서울서 강남구만 나홀로 하락…화성시 매매·전세 급등\"  KB Think"
       ],
       "related_articles": []
     },
@@ -65,20 +124,6 @@
       ]
     },
     {
-      "title": "화성시 학생들이 직접 만든 축제…24일 동탄서 개막",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnZ282bF8ycWp2NmNRT2VfT3pTcXFFNWlHWHJMck0yaTRaN3MwcnJaNnlsSmotalRaalVmSXpoamFDdTJVZnRuRnVVQVRtbEVJV3R1dnFB?oc=5",
-      "media": "뉴스1",
-      "category": "CULTURE",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "TODAY",
-      "time_label": "오늘 14:22",
-      "pub_timestamp": "2026-10-22T14:22:24+09:00",
-      "bullets": [
-        "- 화성시 학생들이 직접 만든 축제…24일 동탄서 개막  뉴스1"
-      ],
-      "related_articles": []
-    },
-    {
       "title": "화성시, CCTV 관제요원 직무교육 실시…AI 기반 도시관제 역량 강화",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KOW51a241dWVDdkNkVkliSEYxc0tXUkx2SUdxdG1qa1Q3N2xFelIyRS1ha3NUVDQxNzhZZ25xcy1ZTU9hOFhNeF9yLWd0XzhnRGdNSnhhZ3MxOWZZc1E5UlZ1ejZvTUZOeWlpcA?oc=5",
       "media": "저널25방송",
@@ -104,20 +149,6 @@
       ]
     },
     {
-      "title": "포토뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91cGFhVC03enVzNkpwQ0JzcWdDc2I4c0cwYm9EMGZLeHplaUdZOTV5RmhIV1BGUWhnTFFrNXVSUDFYMWRIcnFrbkY4cmVDV2hScFI3enlOeGJSb1BfLTNseGpOeU5FcllCLXNiSVhiOGtRZi00clVIMGJn?oc=5",
-      "media": "화성뉴스",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "TODAY",
-      "time_label": "오늘 12:08",
-      "pub_timestamp": "2026-10-22T12:08:05+09:00",
-      "bullets": [
-        "본문 정보 부족으로 세부 요약을 생략합니다."
-      ],
-      "related_articles": []
-    },
-    {
       "title": "HU공사, 화성시 적극행정 경진대회서 공공기관 부문 3관왕",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zdzdmRzUtNEJ3bWRGM0RPejAxRlhYQ1NTdzUzSHpFckpZa05ydmFBZlVMVm9iOTN2MEtSR0FxZ0ZhOGVyQ2dCbE0xN3hPTUoyQlJxTC0wNHFZNTRRLWs0d0stMkMwWEI4OG5rTGVNMC0?oc=5",
       "media": "화성시민신문",
@@ -132,16 +163,16 @@
       "related_articles": []
     },
     {
-      "title": "[축제 200% 즐기기] 우리끼리 즐겼던 화성시 ‘학생동아리축제’ 시민과 즐긴다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBYXVMZWswdnZEYVFFYlFjZUVSSmxmTzFXaUJtd0ZjRlItcWtkaUVUTWFFRzJrR09lWXFLdHFNX0RkYmJfYlcxRUo4bjJNaDUydVJWUkxyQ1l3Tkp3S3Q1bg?oc=5",
-      "media": "NSP통신",
+      "title": "화성시 다원이음터도서관, 지역 아동 독서 문화 지원 위한 업무협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42QW52aVZ6eEZXSXJ0RzYzRjdfWjB0dERJMlU1Tlh1SURPMmtuQTZkYi13Q1AxdkJrRVhPQW5LYWNwdUNZMHhGREVncTlscHFLUWRtdzlBQmx3SVhiZWk5U2drZU9PZE0?oc=5",
+      "media": "경인신문",
       "category": "CULTURE",
       "department": "화성시 소관부서 확인중",
       "date_group": "TODAY",
-      "time_label": "오늘 09:25",
-      "pub_timestamp": "2026-10-22T09:25:48+09:00",
+      "time_label": "오늘 09:21",
+      "pub_timestamp": "2026-10-22T09:21:17+09:00",
       "bullets": [
-        "- [축제 200% 즐기기] 우리끼리 즐겼던 화성시 ‘학생동아리축제’ 시민과 즐긴다  NSP통신"
+        "- 화성시 다원이음터도서관, 지역 아동 독서 문화 지원 위한 업무협약 체결  경인신문"
       ],
       "related_articles": []
     },
@@ -248,11 +279,6 @@
           "media": "일간경기",
           "title": "화성시의회 동탄테크노밸리 간담회…주차난·인프라 개선 촉구",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DaFBfeEtNdDJEcThMcERUc2pCb1Z5U1pDeURveHQ1UFZQbXRRNTNDMGtmcWRsQkZ6aGY2M19yQ2ZZVnhPOEh4QXdJcmtTWHhrb1FfSGZOa0dEbnZBeVRCREM3M3BFWUxn?oc=5"
-        },
-        {
-          "media": "비욘드포스트",
-          "title": "화성시의회 경제환경위, 동탄테크노밸리 기업 애로 청취",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tN3RBbHBCcTczV2hVWmZsUVBkNE5yUUlGV0g2SlZkN1J0dW9QdEVGMlBSR1lIbWdXMHdLamNpc0dhTkVwcWswMUkyU3pqTEswQVhaSUNWYnJOQjl3QnR6Y293NjNuSFhLb1hFZmFNUlU0RzY0WjBpR2lnQUg?oc=5"
         }
       ]
     },
@@ -315,34 +341,6 @@
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YTDM4eG51UWtMb1N0eHVFZ0VGNzFqcDNYRng1SW5NSzdKcVNibVBZYkhfWUlFVHpralNpdmtsWnRjMDBqVGpCWnNqdVg2Ml9rODdCZzF2REd0MUlyalBlcTJNV0pWb0QxazFiUlg0UdIBb0FVX3lxTE9YTDM4eG51UWtMb1N0eHVFZ0VGNzFqcDNYRng1SW5NSzdKcVNibVBZYkhfWUlFVHpralNpdmtsWnRjMDBqVGpCWnNqdVg2Ml9rODdCZzF2REd0MUlyalBlcTJNV0pWb0QxazFiUlg0UQ?oc=5"
         }
       ]
-    },
-    {
-      "title": "[오늘의 정책 픽] 화성시 100년 미래 먹거리 우주항공 쏘아올린다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40UC1QZnV5UXZnZlhGV3RyTzU2eWhUTHVudF9pZEF0VEpxRXV4UzhpelpjdUlIX0V4WG9CZC0wRTFzQnhZb1JnNXBNNExDNUhGLWtRSG9ZbFp5TWRheWxITA?oc=5",
-      "media": "NSP통신",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:44",
-      "pub_timestamp": "2026-10-21T17:44:27+09:00",
-      "bullets": [
-        "- [오늘의 정책 픽] 화성시 100년 미래 먹거리 우주항공 쏘아올린다  NSP통신"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시장학관 도봉나래관, 소방안전모범 우수상",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CdE4xMHA1SVp5V2d3R2hsNnNjS1l1U3lqbmNiMVdNWERQYVJyN0tUMmJWVU94cXY4Z3NMVm9xTEh3TERoSmFnODBoM2J2NWFOcG9mVjRweEFsV2tPNXNNbFZobURWOVBoSy0tbnN3?oc=5",
-      "media": "현대일보",
-      "category": "POLICY",
-      "department": "교육체육국 교육지원과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 16:54",
-      "pub_timestamp": "2026-10-21T16:54:45+09:00",
-      "bullets": [
-        "- 화성시장학관 도봉나래관, 소방안전모범 우수상  현대일보"
-      ],
-      "related_articles": []
     },
     {
       "title": "“학생 안전은 때에 맞춰 하면 ‘끝’”…화성시, 학생 안전보다 업체측 입장 ‘궤변’ 물의",
@@ -458,12 +456,17 @@
           "media": "이뉴스투데이",
           "title": "화성시문화관광재단, 청소년 뮤지컬 ‘FAME’ 11월 7일 무대 오른다",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KZWVJdVVCbzNaZEY4S1VYQ2w4dDVaTlhNOGpMNXVzdVhSaWN1WUs2ZU9vU0tvTzVJZFRPaHI4UWRLQ3NRWGRwOGVCM1hDeDlwdUc1RHlId2VHTlFxVkhQNWhLRXNpaVAtTUgxS3BXcS1qQdIBdEFVX3lxTE01dWNrZ2dieGhqWXBRSk5YTmI5NGRrMXlER0c1R3dLSlY1a2pHbmo5VTBxelJERkpSX2U5enZmNmVNaE9XbU1LcjhoWmNXbV92MHNndlVLUVcycVJMNF94SlBaVFZsT3hCUjJnU2E0cjZDTENt?oc=5"
+        },
+        {
+          "media": "화성인터넷신문",
+          "title": "화성시문화관광재단, 7일 청소년 뮤지컬 쇼케이스 `FAME`",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9LYmVIcTFrZ0J6dDgxdGdkb3Ntd3Z6RFNpalpZWnB6Y29MNmZldlh3ZlVVSWdJc2hIdjg0Smt1NUJhUQ?oc=5"
         }
       ]
     },
     {
       "title": "기보, 화성시 소공인 집적지구 찾아 현장 간담회 개최",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmT2ZnQThHYjB4NnBYMzd5UDVSdFpfcmdtazZLR3c2cGJwaGNicHVDbHVWd3o1UGp5ajlZd3U4OGJvOUxkNkNiSDh1MWlJaFlrQ2ppbEd6ZDBuckJyeE9IWjNfZFJzLVBQLUZhU1R5UkdCckpJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5McVJVS1pObGM1SzJQR2t5TVpYYlotRlI4REJoXzZ4eURIWldCR1NaZU45RWU5eFVtWlpVT0ZuSXNlenN0c2R6STUwQTRsRmFSdFpyWEtFQ05SRXk0Q0tDTXlmcjNfdDgtdGpzSjZFVUZqSXk2ak16ZTJfQkY?oc=5",
       "media": "부산일보",
       "category": "CULTURE",
       "department": "화성시 소관부서 확인중",
@@ -548,20 +551,6 @@
       "pub_timestamp": "2026-10-21T10:04:09+09:00",
       "bullets": [
         "- 화성시연구원, 『화성-Insight』 제11호 발간  경인신문"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시 동탄5동, 민원실 복지 상담 환경 개선",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EeFNrTXczRTBvYWloVTVsbmRXRGR5NmdsTlVPWGxoSWJrejlNUWNUWEpPRW55SEh1WUtnMmFlNDB0T1VBLW9XNHFFQVRIYS1nU2xKdk5IMEtpNEJfX3lhR0NlQ1NWNTVKeHc?oc=5",
-      "media": "경기도민일보 미디어",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 09:57",
-      "pub_timestamp": "2026-10-21T09:57:29+09:00",
-      "bullets": [
-        "- 화성시 동탄5동, 민원실 복지 상담 환경 개선  경기도민일보 미디어"
       ],
       "related_articles": []
     },
