@@ -1,381 +1,412 @@
 {
-  "updated_at": "2026.10.23. 07:37",
+  "updated_at": "2026.10.23. 07:56",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 22,
-    "today_count": 3,
-    "yesterday_count": 19,
-    "policy": 16,
-    "culture": 5,
-    "risk": 1
+    "total": 25,
+    "today_count": 16,
+    "yesterday_count": 9,
+    "policy": 25,
+    "culture": 0,
+    "risk": 0
   },
   "articles": [
     {
-      "title": "포토뉴스",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yQ3FuTl9lN2NLenE5UEk4ZHhBZ2pKcHhQRjJLU2hqakVEV0kxclkwR25HWXdQZkFFa21DX0NzWFVLNTNielJpNi1GcFBqcEktSXo5cFdXR0UzZ2d3V3dEendaaUJmTi1SdGVISWFqdTlNTzBLd1Zr?oc=5",
-      "media": "화성뉴스",
+      "title": "용인시의회 장정순 의장, 정례회 참석",
+      "link": "http://www.breaknews.com/1245134",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "date_group": "TODAY",
+      "time_label": "오늘 07:50",
+      "pub_timestamp": "2026-10-23T07:50:00+09:00",
+      "bullets": [
+        "- 용인시의회 장정순 의장, 정례회 참석",
+        "- 시작페이지로l즐겨찾기lRSSl편집 2026.10.23 [07:39] ▲ 사진=용인시의회제공  © 김정은 기자 [브레이크뉴스경기남부=용인 김정은기자] 용인특례시의회 장정순 의장은 22일 고양특례시 람사르 고양 장항습지...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성시, 지역 응급의료 간담회 열어",
+      "link": "http://www.breaknews.com/1245132",
+      "media": "언론사",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "TODAY",
-      "time_label": "오늘 06:58",
-      "pub_timestamp": "2026-10-23T06:58:34+09:00",
+      "time_label": "오늘 07:50",
+      "pub_timestamp": "2026-10-23T07:50:00+09:00",
       "bullets": [
-        "본문 정보 부족으로 세부 요약을 생략합니다."
+        "- 화성시, 지역 응급의료 간담회 열어",
+        "- 시작페이지로l즐겨찾기lRSSl편집 2026.10.23 [07:39] [브레이크뉴스경기남부=화성 김정은기자] 화성특례시가 지난 21일 화성 인공지능(AI) 무역지원센터에서 지역완결형 응급의료체계 구축을 위한 의료기관 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
-      "related_articles": []
-    },
     {
-      "title": "“우주·모빌리티·AX·글로벌 포럼까지”… 화성특례시 주최 ‘MARS 2026’, 다채로운 프로그램으로 시선 집중",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMGVTSzg3ajFxT1BiaW5YTFJKd1BOdXRuR0tDaTQ4Mlc1VEd6RUtUdlVCU0s4eG5Vc1B2Y1F5MDBrTFdNM3JvN2puRWpINkhCOUQwN2pHUVBiZWFVRXUzRmZUQlY0MjQ1VU5NV053?oc=5",
-      "media": "서프라이즈뉴스",
+      "title": "화성시, AI엑스포 「MARS 2026」 개최",
+      "link": "http://www.breaknews.com/1245133",
+      "media": "언론사",
       "category": "POLICY",
-      "department": "자치행정국 자치분권과",
+      "department": "기업투자실 첨단산업과",
       "date_group": "TODAY",
-      "time_label": "오늘 06:41",
-      "pub_timestamp": "2026-10-23T06:41:02+09:00",
+      "time_label": "오늘 07:50",
+      "pub_timestamp": "2026-10-23T07:50:00+09:00",
       "bullets": [
-        "- “우주·모빌리티·AX·글로벌 포럼까지”… 화성특례시 주최 ‘MARS 2026’, 다채로운 프로그램으로 시선 집중  서프라이즈뉴스"
+        "- 화성시, AI엑스포 「MARS 2026」 개최",
+        "- 시작페이지로l즐겨찾기lRSSl편집 2026.10.23 [07:39] [브레이크뉴스경기남부=화성 김정은기자] 화성특례시가 오는 11월 3일부터 5일까지 사흘간 서울 코엑스에서 글로벌 AI 엑스포 「MARS 2026」을...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
     {
-      "title": "화성시, 청소년이 기획한 ‘화성학생동아리축제’ 24일 동탄서 열린다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qa0YyWmt1dlRxMFpVN3RRcEpqRWZhVGRodTlrbDJxaXdtRkNBWm1BZ1QtZUVPWTdPVVUtdUdtSzdBbERRd09Jc1p6SWtSbV96blJZZXB6eVYtOWJoS1pHOA?oc=5",
+      "title": "화성시, 대한민국 AI 미래 연다…'MARS 2026' 11월 3일 코엑스서 개막",
+      "link": "https://view.asiae.co.kr/article/2026102307383023507",
       "media": "아시아경제",
-      "category": "CULTURE",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "date_group": "TODAY",
+      "time_label": "오늘 07:38",
+      "pub_timestamp": "2026-10-23T07:38:00+09:00",
+      "bullets": [
+        "- 화성시, 대한민국 AI 미래 연다…'MARS 2026' 11월 3일 코엑스서 개막",
+        "- 화성시, 내달 3~5일 코엑스서 ‘MARS 2026’ 현대차그룹·기아 등 56개 기업·기관 참여 우주항공·자율주행·공공행정 AI 전환 논의 샘 리처드 교수 기조연설…투자유치 설명회도 개최 정명근 시장 “AI CITY...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[오늘의 이슈] 주가 3% 빠졌는데 원화는 왜 강할까",
+      "link": "http://www.newskr.kr/news/articleView.html?idxno=107398",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "date_group": "TODAY",
+      "time_label": "오늘 07:22",
+      "pub_timestamp": "2026-10-23T07:22:00+09:00",
+      "bullets": [
+        "- [오늘의 이슈] 주가 3% 빠졌는데 원화는 왜 강할까",
+        "- 22일 뉴욕 기술주 급락…미 10년물 5% 아래로 서울 아파트 89주째 상승, 기준금리 3% 동결 오세훈 시장 항소심, 23일 오후 2시 선고 [센트럴경제 = 박일한 기자] 주가는 3% 넘게 빠졌는데 원화 가치는 2...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "달이 그리고 바다가 품다…전곡항 새 명물 12월 공개",
+      "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/23/2026102390012.html",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "농정해양국 해양수산과",
+      "date_group": "TODAY",
+      "time_label": "오늘 07:10",
+      "pub_timestamp": "2026-10-23T07:10:00+09:00",
+      "bullets": [
+        "- 달이 그리고 바다가 품다…전곡항 새 명물 12월 공개",
+        "- 사회 전체 달이 그리고 바다가 품다…전곡항 새 명물 12월 공개 김준석 기자 등록: 2026.10.23 오전 07:10 수정: 2026.10.23 오전 07:13 [앵커] '뱃놀이 축제'로 유명한 경기도 화성시 전곡...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[김병철 시선] 구호만으로 화옹 못 지킨다…화성 군공항 대응 반대를 넘...",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719463",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 군공항대응과",
+      "date_group": "TODAY",
+      "time_label": "오늘 07:00",
+      "pub_timestamp": "2026-10-23T07:00:00+09:00",
+      "bullets": [
+        "- [김병철 시선] 구호만으로 화옹 못 지킨다…화성 군공항 대응 반대를 넘...",
+        "- -추미애 지사, 경기국제공항 연구용역 재개 공식화 -화성호 간척지·화옹지구 후보지 지위는 여전히 유지 -국방부 건의와 의회 결의 넘어 ‘후보지 제외’ 결과로 답해야 김병철 대기자 [뉴스타운/김병철 대기자] 추미애 경...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[인터뷰] 정순영 화성시의회 의회운영위원장 “충분히 논의하고 책임 있...",
+      "link": "https://www.jasm.co.kr/news/view/322599/?sc=Naver",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "date_group": "TODAY",
+      "time_label": "오늘 06:30",
+      "pub_timestamp": "2026-10-23T06:30:00+09:00",
+      "bullets": [
+        "- [인터뷰] 정순영 화성시의회 의회운영위원장 “충분히 논의하고 책임 있...",
+        "- \"안건 검토에 필요한 자료, 시간 충분한지 살필 것…의회사무국-상임위 간 소통 중요\" \"시민이 접하기 쉬운 의회 만들 것…신청사도 함께 하는 공간으로 활용돼야\" “의원들이 충분히 논의하고 책임 있게 판단할 수 있도록...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[2026 뉴스핌 주거대상] DL이앤씨 'e편한세상 동탄역 어반원', 건축설계...",
+      "link": "https://www.newspim.com/news/view/20261022001173",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "교통국 철도전략과",
+      "date_group": "TODAY",
+      "time_label": "오늘 06:00",
+      "pub_timestamp": "2026-10-23T06:00:00+09:00",
+      "bullets": [
+        "- [2026 뉴스핌 주거대상] DL이앤씨 'e편한세상 동탄역 어반원', 건축설계...",
+        "- [2026 뉴스핌 주거대상] DL이앤씨 'e편한세상 동탄역 어반원', 건축설계혁신상 수상 기사입력 : 2026년10월23일 06:00 최종수정 : 2026년10월23일 06:00 카카오톡 페이스북 트위터 밴드 뉴스핌...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "대치·목동·평촌 아파트값, 지역 평균 웃돌아…학원가 프리미엄",
+      "link": "https://www.newsis.com/view/NISX20261022_0003836918",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 05:30",
+      "pub_timestamp": "2026-10-23T05:30:00+09:00",
+      "bullets": [
+        "- 대치·목동·평촌 아파트값, 지역 평균 웃돌아…학원가 프리미엄",
+        "- 목동 아파트, 양천구 평균보다 3.3㎡당 1123만원 비싸 [서울=뉴시스] 황준선 기자 = 국가데이터처와 교육부가 12일 발표한 '2025년 초중고 사교육비 조사 결과'에 따르면 지난해 초·중·고등학교 사교육비 총액...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[강대웅의 정문일침(頂門一鍼)] 정명근 화성시장, 시정 혁신을 이끄는 ...",
+      "link": "https://www.ajunews.com/view/20261022235125807",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 05:06",
+      "pub_timestamp": "2026-10-23T05:06:00+09:00",
+      "bullets": [
+        "- [강대웅의 정문일침(頂門一鍼)] 정명근 화성시장, 시정 혁신을 이끄는 ...",
+        "- [사진=화성시] '코리봇'. 전국 최초로 도입된 정명근표 '24시간 AI 행정비서' 이름이다. 민원 서비스를 24시간... 이는 정명근 화성시장이 민선 9기 공약으로 제시한 행정 혁신의 일환 중 하나이기도 했다. 당...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[영상]'불법 콜뛰기' 외국인 신고하려다...짓밟힌 50대 '뇌진탕'",
+      "link": "https://www.mt.co.kr/society/2026/10/23/2026102223112579860",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 05:05",
+      "pub_timestamp": "2026-10-23T05:05:00+09:00",
+      "bullets": [
+        "- [영상]'불법 콜뛰기' 외국인 신고하려다...짓밟힌 50대 '뇌진탕'",
+        "- 50대 택시기사가 외국인 남성의 불법 '콜뛰기' 영업을 제지하다 폭행당한 사건이 발생했다. 남성은 기사가 의식을 잃고 쓰러진 뒤에도 폭행을 이어갔다. /사진=JTBC '사건반장' 50대 택시기사가 외국인 남성의 불법...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[오늘의 주요일정]경기남부(10월23일 금요일)",
+      "link": "https://www.newsis.com/view/NISX20261018_0003830530",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "자치행정국 시민협력과",
+      "date_group": "TODAY",
+      "time_label": "오늘 05:00",
+      "pub_timestamp": "2026-10-23T05:00:00+09:00",
+      "bullets": [
+        "- [오늘의 주요일정]경기남부(10월23일 금요일)",
+        "- [수원=뉴시스] ◇경기도 ▲오전 10시30분, 경기도서관 기후 챕터 컨퍼런스, 경기도서관 ◇수원시 ▲오후 2시, SBS '뉴스브리핑' 생방송 출연, SBS 본사 ◇용인시 ▲오전 9시, 제2부시장 간부공무원 티타임, ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "“재정 탓 소방예산 깎더니”…秋, 이번엔 경기국제공항 추진 논란",
+      "link": "https://www.joongang.co.kr/article/25472159",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "공보실 언론담당관",
+      "date_group": "TODAY",
+      "time_label": "오늘 05:00",
+      "pub_timestamp": "2026-10-23T05:00:00+09:00",
+      "bullets": [
+        "- “재정 탓 소방예산 깎더니”…秋, 이번엔 경기국제공항 추진 논란",
+        "- 추미애 경기지사가 지난 19일 경기도 수원시 경기도청에서 열린 국회 국토교통위원회의 경기도에 대한 국정감사에서 위원 질의에 답변하고 있다. 연합뉴스 경기도가 국정 감사 후유증을 앓고 있다. 추미애 경기지사의 ‘소방 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "사내대출-성과급에 ‘반도체 벨트’ 집값 상승, 경기 남부로 확산",
+      "link": "https://www.donga.com/news/Society/article/all/20261023/134893540/2",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 04:32",
+      "pub_timestamp": "2026-10-23T04:32:00+09:00",
+      "bullets": [
+        "- 사내대출-성과급에 ‘반도체 벨트’ 집값 상승, 경기 남부로 확산",
+        "- 인근인 화성시 동탄구, 수원시 영통구의 집값이 오른 데 이어 매수세가 주변으로 번지고 있는 것이다. 보유 주택을 팔고 성남시 분당구, 용인시 수지구 등으로 갈아타려는 수요와 상대적으로 저렴한 군포시, 화성시......",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "[패트롤] 고양시-동두천시-양주시-의정부시-포천시",
+      "link": "https://www.ekn.kr/web/view.php?key=20261023026540135",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "TODAY",
+      "time_label": "오늘 00:32",
+      "pub_timestamp": "2026-10-23T00:32:00+09:00",
+      "bullets": [
+        "- [패트롤] 고양시-동두천시-양주시-의정부시-포천시",
+        "- 비반려인도 참여…고양동물교감치유문화제 24일 개최 동두천시, 인구감소지역 지정…연간 최대 120억 확보 2026 양주시 사회복지박람회 31일 개최…시민 이해↑ 의정부시, 경기 개발제한구역 정책발전 정기회의 개최 포천...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "“사실대로 말 안 한다며 고성”...선관위 직원 변호인, 강압수사 주장",
+      "link": "https://www.sedaily.com/article/20105116?ref=naver",
+      "media": "서울경제",
+      "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 21:10",
-      "pub_timestamp": "2026-10-22T21:10:38+09:00",
+      "time_label": "어제 23:39",
+      "pub_timestamp": "2026-10-22T23:39:00+09:00",
       "bullets": [
-        "- 화성시, 청소년이 기획한 ‘화성학생동아리축제’ 24일 동탄서 열린다  아시아경제"
+        "- “사실대로 말 안 한다며 고성”...선관위 직원 변호인, 강압수사 주장",
+        "- 선거관리위원회 특별검사팀의 조사를 받은 뒤 숨진 선관위 직원의 변호인이 특검 수사 과정에서 강압적인 조사가 이뤄졌다고 주장했다. 검사가 원하는 답변이 나오지 않자 소리를 지르며 압박하는 등 사실관계를 미리 정해놓고 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성특례시의회, 동탄테크노밸리 기업지원·주차 개선 논의",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719443",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 22:58",
+      "pub_timestamp": "2026-10-22T22:58:00+09:00",
+      "bullets": [
+        "- 화성특례시의회, 동탄테크노밸리 기업지원·주차 개선 논의",
+        "- -4500여 기업 입주…시 지식산업센터 56개 중 51개 집중 -원스톱 지원·청년창업·산업진흥원 재정지원 확대 논의 -총연합회 “산업 규모에 비해 기업지원·생활인프라 부족” 경제환경위원회 의원들과 동탄테크노밸리 총연...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "23명 사망 '아리셀 참사' 징역 4년...대폭 감형에 시민사회 분노",
+      "link": "https://www.newspost.kr/news/articleView.html?idxno=226631",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "공보실 언론담당관",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 22:28",
+      "pub_timestamp": "2026-10-22T22:28:00+09:00",
+      "bullets": [
+        "- 23명 사망 '아리셀 참사' 징역 4년...대폭 감형에 시민사회 분노",
+        "- 박순관 아리셀 대표, 징역 15년서 11년 감형 대법원, 징역 4년 선고한 2심 재판 결과 확정 시민단체·노조, 중대재해처벌법 무력화 지적 \"유족과의 합의가 감형 사유 돼서는 안 돼\" 22일 서울 서초구 대법원 앞에...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "경기도, 전국체전 5년 연속 종합 우승…'체조 스타' 여서정 MVP 영예",
+      "link": "http://www.yonhapnewstv.co.kr/news/AKR20261022221412qyL",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 22:14",
+      "pub_timestamp": "2026-10-22T22:14:00+09:00",
+      "bullets": [
+        "- 경기도, 전국체전 5년 연속 종합 우승…'체조 스타' 여서정 MVP 영예",
+        "- '전국체전 MVP' 체조 종목 여서정 [올댓스포츠] [올댓스포츠] 제주에서 열린 제107회 전국체육대회가 일주일간의 뜨거웠던 열전을 모두 마무리하고 막을 내렸습니다. 이번 대회 종합 우승의 영예는 총점 6만 7천여 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": []
+    },
+    {
+      "title": "화성 시민단체, 경기국제공항 추진에 \"백지화\" 규탄",
+      "link": "https://www.jasm.co.kr/news/view/322645/?sc=Naver",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "공보실 언론담당관",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 21:26",
+      "pub_timestamp": "2026-10-22T21:26:00+09:00",
+      "bullets": [
+        "- 화성 시민단체, 경기국제공항 추진에 \"백지화\" 규탄",
+        "- 추 지사 \"경기국제공항 계속 추진\" 발언에 항의 차원 기자회견 열어 경기 화성 지역 시민단체로 구성된 경기국제공항백지화공동행동은 22일 경기도의회 브리핑룸에서 기자회견을 열어 경기국제공항 건설 사업 추진 의사를 밝힌...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
     {
       "title": "[기획] “불편한데 오지 마세요”…화성시, 생필품 찾아가서 전달",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uWEYwMVMyRnVTenF6VUJDWmVmUW93a2RaZ3hOUGYxRkd0UXdkeHRPbndtZFVDVGM3cHdGUTlCcDFrVmNRWUpjeEs2X2RYVnIxNmdRV3BBR3JnMDFIVVlzT0pTUVp3QQ?oc=5",
-      "media": "수원일보",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 21:04",
-      "pub_timestamp": "2026-10-22T21:04:38+09:00",
-      "bullets": [
-        "- [기획] “불편한데 오지 마세요”…화성시, 생필품 찾아가서 전달  수원일보"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "바우처택시 부정사용, 적발 건수만으로 화성시 관리 부실 단정할 수 있나",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92WUluNklqb09VOVkya3BScG50anRlb3hEVkRySFhjMjEzZXlRQjh3a3VPX0I2MzhLNlhvVEpMZVh2eVg0T2RXMV9xbTgtU1owVjBIc3Z6bURGOE1aeGc?oc=5",
-      "media": "이런뉴스",
-      "category": "RISK",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 19:14",
-      "pub_timestamp": "2026-10-22T19:14:04+09:00",
-      "bullets": [
-        "- 바우처택시 부정사용, 적발 건수만으로 화성시 관리 부실 단정할 수 있나  이런뉴스"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시인재육성재단, ‘2026 화성학생동아리축제’ 10월 24일 개최",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DWXhKMl9KRldta25UMVUydW9YNUxkYkJfR3FPV3JkQ0JxOHVXWm93Z3l6U1Q3b1BqcmVxQS10RWNkX0lnS0g5WGdfY1pFZ2NQQTEtR243WGxBbWNMbE1qeGtfMHBwQQ?oc=5",
-      "media": "화성저널",
-      "category": "CULTURE",
-      "department": "교육체육국 교육지원과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 18:24",
-      "pub_timestamp": "2026-10-22T18:24:26+09:00",
-      "bullets": [
-        "- 화성시인재육성재단, ‘2026 화성학생동아리축제’ 10월 24일 개최  화성저널"
-      ],
-      "related_articles": [
-        {
-          "media": "데일리안",
-          "title": "화성시, 24일 '2026 화성학생동아리축제' 개최",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbFlPWG9uS1lERzBkM2NOa28wbnEyd2dZV0g4c2RoRWxUaURhTmk3SzdNNjQtZnBhUzFseE9kUjdOYzFqRlpSZE1LZzAwNTcwNnI3Q2JpZzR2cUp1eUlieHRZcUJRdUR1NnNWejRwSDdyTGlxSXZPWlNpX2hPbDRUbTczS1U3QkR3RGRfb2xIVEtQbl8zVlhaMWp0MXRrV2FzUW5BWUROR2xYTTF4THkzSC1BckdVWjd0RjZ6SUp6ckhyUHJteG5UNTQtQ0pVeXA3M1h5Y3pHMkp2bWE5TFUzVFo3cGRhZlFsRlhxeHlB?oc=5"
-        },
-        {
-          "media": "기호일보",
-          "title": "화성시 '2026 화성학생동아리축제' 24일 동탄 센트럴파크서 개최",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IaXpzOTV0b0thZTI4M0JUSE51Z1dFejVYRktDWkNQWGJqTUtRd3ZvSVVfY01YZ3FrX2pkdkMyODd4dDItUWdPSEt2UDlGNFRIMDVYQTJLZDd5dm4tVU02WmFYODBIS1luZmhDRmtvSQ?oc=5"
-        },
-        {
-          "media": "저널25방송",
-          "title": "화성시, 24일 ‘2026 화성학생동아리축제’ 개최…청소년 꿈과 끼 펼친다",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Td0NkSE8zVWQ4d0hDT1poLUZNVWo5dWlyRWlxYjlfbnpFWWczTlRMdXZPdWN5Vkw0WEo2RWtQWHNsNVU2czJtUUp5VGlzRHpJOHJ4STNwYU9wMlNSaEVsSTYwaElMUFYxbzRPRw?oc=5"
-        },
-        {
-          "media": "경인미래신문",
-          "title": "화성시, 동탄 센트럴파크서 열리는 화성학생동아리축제… 래퍼 수퍼비 출연",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ER0hvendXLUZzNXkxVzRTOUhBQndPa1NMbWtqakkxRnJhS3pZaWhkZVkyRmpTWmIybm5GWWk0MDZZZnhvRmlid094eVFRVXQtR3V1UFN2NFBLWUpUOFowMTlR?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "화성시, 복지 사각지대 해소 나선다…455개 물품으로 위기가구 지원망 가동",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xZFAwcnJFYjdNUGpuWW1lSDRKSFNWQTZhelF4bVg5RTFUV0UyQ1ItSnpGVnVWOHZFVUhJUllULXVGd1dXZEZTMGFHZEhTcjlqWDZlOWtnVElkLU9mYkxDa05oelJkUUdkVXFYLVFWWFF4eUM50gF0QVVfeXFMT3FkUDByckViN01Qam5ZbWVINEpIU1ZBNmF6UXhtWDlFMVRXRTJDUi1KekZWdVY4dkVVSElSWVQtdUZ3V1dkRlMwYUdkSFNyOWpYNmU5a2dUSWQtT2ZiTENrTmh6UmRRR2RVcVgtUVZYUXh5Qzk?oc=5",
-      "media": "주간한국",
+      "link": "https://www.suwonilbo.kr/view.html?id=L2610221700348ffe",
+      "media": "언론사",
       "category": "POLICY",
       "department": "돌봄복지국 통합돌봄과",
       "date_group": "YESTERDAY",
-      "time_label": "어제 18:16",
-      "pub_timestamp": "2026-10-22T18:16:26+09:00",
+      "time_label": "어제 21:06",
+      "pub_timestamp": "2026-10-22T21:06:00+09:00",
       "bullets": [
-        "- 화성시, 복지 사각지대 해소 나선다…455개 물품으로 위기가구 지원망 가동  주간한국"
+        "- [기획] “불편한데 오지 마세요”…화성시, 생필품 찾아가서 전달",
+        "- 사회 기획 “불편한데 오지 마세요”…화성시, 생필품 찾아가서 전달 천의현 기자 수원일보 업데이트 2026.10.22. 오후 9:04 입력 2026.10.22. 오후 9:04 업데이트 2026.10.22. 오후 9:0...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
     {
-      "title": "화성시, 위기 가구 직접 방문 '찾아가는 그냥드림' 추진",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pOURtUWxnaUotM3NCdnhSSVY2VEk3QkpjdlVQM2pVTnMwR0ZnWkctT0JhWnpRRDAybUFvM3RmZUFuN2xtdzdVMUhaMGVieGtQTkV2cVpsQXNGdm9ObEw0azN3?oc=5",
-      "media": "경인미래신문",
+      "title": "서울 원룸 월세, 한 달 새 5% 올라 ‘71만원’",
+      "link": "https://www.khan.co.kr/article/202610222050005",
+      "media": "언론사",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 17:48",
-      "pub_timestamp": "2026-10-22T17:48:19+09:00",
+      "time_label": "어제 20:50",
+      "pub_timestamp": "2026-10-22T20:50:00+09:00",
       "bullets": [
-        "- 화성시, 위기 가구 직접 방문 '찾아가는 그냥드림' 추진  경인미래신문"
-      ],
-      "related_articles": [
-        {
-          "media": "기호일보",
-          "title": "화성시 '찾아가는 그냥드림' 사업 확대",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwbFdBdVJlbkN2Umg4NTRvSTZtRjlyQ3YxcHIzdHZBc2Q3RWlJVllZNW5wZnRrdVo3VGNMWUhTb2tEWU1adUdrNmRNaXUtMTVkYm8zckpPRkNPVjNaUkZVWVBnOG1wSXBOekRoejNQYw?oc=5"
-        },
-        {
-          "media": "서울신문",
-          "title": "“댁까지 찾아가서 그냥드립니다”…화성시, ‘그냥드림’ 확대",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWnlESkRhM1Z0WEJPc0hOWEUtc3k5TlRPeDl3QjAxT3FudDdRM1pzQzNWT1BGWC1RZzc0YzVQWnQtTTNJdGl2N0tGNy1CYXZvdjhpbGRzdWpGTEd5WVdaLXZBNndoeDByLWVXR29kRVhQTXZod2dqbGFxWkxEejJoX3p6N0I?oc=5"
-        },
-        {
-          "media": "뉴데일리 경기",
-          "title": "화성시, 위기 가구를 위한 ‘찾아가는 그냥드림’ 확대",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSeU9qUVdhc1J3Q0hDR3ZFbUtWVjRyYktMa1V2MUk4aU01cjNjbWJ1Zmk2Nzl4cVF1V3ZRRUhHYW4xajJTWXRCZzREQkdSRS1BMm84Y1ZmT2dwOVBkSG1wYlJvZmEtVWpSZ2g5dzJVUk04SWw1eWYwLUdn0gF_QVVfeXFMUDJPcXZNczZnSG9ZYVVEdTFKYVJzV1pKZ1A4NlN6T05zQVo2UTA1UzJnZzBNeGh0UGQ0OHE3SXV3TTB6V29MVU1RcW1kMFlzM3ZkTXJ3cFh1bDc1bkFHS3VtWDl5UHJ2REVuaVNpRHhVUlZ5ZGhjR19OWHNCYUt2UQ?oc=5"
-        },
-        {
-          "media": "아이뉴스24",
-          "title": "화성시 \"위기가구 직접 찾아간다\"…'찾아가는 그냥드림' 사업 확대",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOd3dMdFp6U3F4Y19IY0ZLWkhIdkNzSjBDelhiQWh0OEFmWkRteGlVV0FVSG5taE5wdkZ0WXlyQnhZVnByNnJSWmRpNXg?oc=5"
-        },
-        {
-          "media": "데일리안",
-          "title": "화성시, '그냥드림' 사업 공무원이 직접 위기 가구 발굴하는 '찾아가는 그냥드림'으로 확대 개편",
-          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPejRvT0xvNXRUb0YzNEVDWE04SlVUbGJBYVFmQ2xWNXJCTkpVSTVDcDNBWVMzenduSkhac21uMU12NnZCSm1sYlhwcnVMUWZKaUtiMjFIMUhCUG41Um1KY3AyWVFDS1JtdWw2MEpMenBWT1dJa2pCX0lZcmJVTlBSNHQwaDJzTEdlWlF4TWtLWk9fYW8xVmhUd0Jid05zWjliZE82QWRNSkVfT29rRG0zbG9NUDV1LVNyM3FlbU5xcmpQczJYWXBwc05YSUtHZXNNdk5vU0FDdXd3UDY2dFVOQnRNNDNuRUdTRUw5U0lYNU1FN1BoRk9RXzRuZlMzUXVRUUVwVlVDWi14clZxbjZLa3RNVWpmeHky?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "[인터뷰] 김상수 화성시의회 경제환경위원장 \"정책 목적과 시민 실제 경험 연결해 의정활동해야\"",
-      "link": "https://news.google.com/rss/articles/CBMirgRBVV95cUxPbWhzZjVwaW5fdFktWjlkdVVUa2M3WmV2UWNYbWdRVnJjMzZDWG9RbVo2bzhsSkdpVUZUQVlobExvdUhnQTl1Um40ZC1fQUltQVNIdXdiZEUtOXhBX1d4Q2I2dWREZm91UE04MTZXU3Zyd3JlenBneko0SnlKOHpNcEtQLVppQ3B0TU8xSXVpLVhZWTJ3d3ZzanpNR3RwdjZDT04tYWtQTXhBZWtvZXJHZnlpRDNNeWE3VFQwdkVWemlGampkQm11b05OOXUzTVJzanhvMzZBbF9TOXI1ajh6WEEzWkV2UTRZakZaWkVfLWU1UnEzZFplQVZOT1J0M2FOUXhaZVp3ajJJUzNyV1dpV0VPOWRNVlVqbVBETUtsYjJKTFVHVDNFUFRfMTJCZ2x6bWxyUWl0OWtRdE1SUHFSS0tCSTVZMWwxYlRlYUhQSUQ4N0dTakNpbDIwODZDUnpBR09SeVVvS1VaUWlvMjdSVVhnYlhwVlhjMXhUSmR1Tk5hME53UXlHejl3a3FoSnJORTlvLUs5SGotR2tKUEp5eWxONVgtODlFV0YyMF95OWlXeE5nWUloSVoya0ViemVMV2ZISkZteFFkbFZ2d09MRVh2SWZISnlpVk9qQXZJNldHRWZhWWZMZXZvaXhfb21NR09ScnAwWWRyZjRIcDg5R3FKSFY3Rlp2RFJCRHMtWlNEVTBEUXBCSGJQSzJPT0V4RkNVVG5GVmNKbU9iMXc?oc=5",
-      "media": "중앙신문",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:24",
-      "pub_timestamp": "2026-10-22T17:24:00+09:00",
-      "bullets": [
-        "- [인터뷰] 김상수 화성시의회 경제환경위원장 \"정책 목적과 시민 실제 경험 연결해 의정활동해야\"  중앙신문"
-      ],
-      "related_articles": [
-        {
-          "media": "아시아투데이",
-          "title": "[인터뷰] 최은희 화성시의원 “시민 목소리, 정책에 반영될 때까지 챙기겠다”",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BZFpUb3p1bjNiMU1ibUpXMzdDRHQwTTNLeWFWRkJOM1NYMFVJX1RfdnJ5a05DaktQd19wVVpvMXNRNlBYdnh2VjZwbmpZX2ZiUWxlM1QwZExNQklFRUxZTVFKbkZEaUlOVHlObHFR?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "김미경 수원특례시의장, 특례시의회 협의회장 선출…이계철 화성시의장 대변인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jdVhJZllQSHBuRkNFVUFfbHJvYVAxVHBKTDZWY09oZjY0RDc0cWlvb3JUX29oVjd2MU85aVRZWWVYNTJocEs1bEg5UUZFRXlGQXJ6Vk43Y3RXRTlJcGVMMHluSUZ1dEUwYjJhYdIBb0FVX3lxTE9nQ2ZnM1FNeGJKZ1M4bEYwWG0zeXRLUms1NDVqb1R6NktEWkY0b1ZNOVVPcFlFbC01emw0djJjaVIzQUpQMnl2dEhTQmdoOS04RVQzNzZqV29TcDZjTUpvRExpWFZrNzFqMFVWZmdDVQ?oc=5",
-      "media": "한스경제",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:10",
-      "pub_timestamp": "2026-10-22T17:10:53+09:00",
-      "bullets": [
-        "- 김미경 수원특례시의장, 특례시의회 협의회장 선출…이계철 화성시의장 대변인  한스경제"
+        "- 서울 원룸 월세, 한 달 새 5% 올라 ‘71만원’",
+        "- 아파트값 89주 연속 상승 속 오름세 둔화…전월세는 불안 지속 서울 아파트값이 0.13% 올라 89주 연속 상승했다. 다만 오름폭은 전주(0.16%)보다 줄었다. 매매가는 ‘숨 고르기’에 들어간 양상이지만 서울의 전...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
     {
-      "title": "서수원라이온스클럽, 화성시남부종합사회복지관 봉담센터와 첫 인연... 지역사회 나눔 실천",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11bnVtbGtLRW01alFFM0lhQWJzTHA4YVg0cXlBX1Y2MkpQUENfYTJnZExLTFhoT1laTENkYnRMWVFDd3l1NzFMMXZGa245b2RnbU5Cd2JqaE1XLVkyM2VaX0J1dURIUm8?oc=5",
-      "media": "경인신문",
+      "title": "이원성 경기도 선수단장 우승 소감 [107회 전국체전-선수단장 인터뷰]",
+      "link": "https://www.kyeongin.com/article/1773234",
+      "media": "경인일보",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 16:58",
-      "pub_timestamp": "2026-10-22T16:58:46+09:00",
+      "time_label": "어제 20:30",
+      "pub_timestamp": "2026-10-22T20:30:00+09:00",
       "bullets": [
-        "- 서수원라이온스클럽, 화성시남부종합사회복지관 봉담센터와 첫 인연...",
-        "- 지역사회 나눔 실천  경인신문"
+        "- 이원성 경기도 선수단장 우승 소감 [107회 전국체전-선수단장 인터뷰]",
+        "- “선수 30명 다관왕… 내년도 만반의 준비” 제107회 전국체육대회 5연패를 달성한 경기도의 선수단장 이원성 경기도체육회장이 22일 종합우승 확정 직후 인터뷰를 하고 있다. 2026.10.22 제주/황성규기자 hom...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     },
     {
-      "title": "화성시, '청소년 자율기획형 축제' 연다…기획·운영 직접 참여",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45eVg2eEpyUTd3Tk51RElKejJSaU9jYlRNVXdZVDluS2g2Z0RCV3doQ1Jtb2htYllCRGFJYm0zalVhWHBoRVF1aU9CNnJvSU1xbDBvRnU5c2lDaVRz?oc=5",
-      "media": "뉴스핌",
-      "category": "CULTURE",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:28",
-      "pub_timestamp": "2026-10-22T15:28:00+09:00",
-      "bullets": [
-        "- 화성시, '청소년 자율기획형 축제' 연다…기획·운영 직접 참여  뉴스핌"
-      ],
-      "related_articles": [
-        {
-          "media": "뉴스1",
-          "title": "화성시 학생들이 직접 만든 축제…24일 동탄서 개막",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnZ282bF8ycWp2NmNRT2VfT3pTcXFFNWlHWHJMck0yaTRaN3MwcnJaNnlsSmotalRaalVmSXpoamFDdTJVZnRuRnVVQVRtbEVJV3R1dnFB?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "KB부동산 \"서울서 강남구만 나홀로 하락…화성시 매매·전세 급등\"",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZX2diOS1HZGlGVjljMEN4dHNud1Q3ZmhwbFB6TVhGWFZKZFNISkV3X0VLNjBoRlAweHNacVJGcS1QbzJrTUN0YzVpTTFGUXpxcGpxTEUwa2J5NEliaDZxcldwTnNUSjFHUTU4dVE0eDFpdw?oc=5",
-      "media": "KB Think",
+      "title": "제주서 열린 전국체전, 7일간 열전 마무리…경기도 5연패·MVP 여서정",
+      "link": "https://www.news1.kr/sports/general-sport/6329243",
+      "media": "뉴스1",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "date_group": "YESTERDAY",
-      "time_label": "어제 15:19",
-      "pub_timestamp": "2026-10-22T15:19:13+09:00",
+      "time_label": "어제 20:27",
+      "pub_timestamp": "2026-10-22T20:27:00+09:00",
       "bullets": [
-        "- KB부동산 \"서울서 강남구만 나홀로 하락…화성시 매매·전세 급등\"  KB Think"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시의회, 동탄테크노밸리 총연합회 통해 현장 애로사항 청취",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QVTNEY2EyRTlUM3FMLU90T0g3bmh0NUFscGJPc1Z6VUJJalRIQjdkbFRfUEc4emd2aG4yS0ZQQUxmMVF5NEdHVVlBQ3l3WFA0Zk5MWmhUWUo3TzFyVDMtWjRHcmZ2SjBY?oc=5",
-      "media": "환경일보",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:09",
-      "pub_timestamp": "2026-10-22T15:09:29+09:00",
-      "bullets": [
-        "- 화성시의회, 동탄테크노밸리 총연합회 통해 현장 애로사항 청취  환경일보"
-      ],
-      "related_articles": [
-        {
-          "media": "매일일보",
-          "title": "화성시의회 경제환경위원회, 동탄테크노밸리 총연합회와 간담회… 기업 현장 애로사항 청취",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BTlh4MEVzUzN0Z2VQSXNSNWhzelNaRDBNZ1RLYm51ZXBFY1RHTzdwYzBWaWxIN0ZqRnhmZ1VXcjRWMmtjLXFhQkFfYW5XNHRnVHNpcnBLMERIZ1hRYmFvejVUOC0?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "화성시, CCTV 관제요원 직무교육 실시…AI 기반 도시관제 역량 강화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KOW51a241dWVDdkNkVkliSEYxc0tXUkx2SUdxdG1qa1Q3N2xFelIyRS1ha3NUVDQxNzhZZ25xcy1ZTU9hOFhNeF9yLWd0XzhnRGdNSnhhZ3MxOWZZc1E5UlZ1ejZvTUZOeWlpcA?oc=5",
-      "media": "저널25방송",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 12:45",
-      "pub_timestamp": "2026-10-22T12:45:01+09:00",
-      "bullets": [
-        "- 화성시, CCTV 관제요원 직무교육 실시…AI 기반 도시관제 역량 강화  저널25방송"
-      ],
-      "related_articles": [
-        {
-          "media": "전자신문",
-          "title": "화성시, CCTV 관제요원 AI 교육…오탐·미탐 대응 역량 강화",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9udUFzUWRIQmdLYnZpMXFpaGx6X3JkcTZXeXB4V29NMEtqT3dXdVJITm0xU1k2aHFmWXVPYnZTR3U2NmxDcW1HbkFXN3gwQQ?oc=5"
-        }
-      ]
-    },
-    {
-      "title": "HU공사, 화성시 적극행정 경진대회서 공공기관 부문 3관왕",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zdzdmRzUtNEJ3bWRGM0RPejAxRlhYQ1NTdzUzSHpFckpZa05ydmFBZlVMVm9iOTN2MEtSR0FxZ0ZhOGVyQ2dCbE0xN3hPTUoyQlJxTC0wNHFZNTRRLWs0d0stMkMwWEI4OG5rTGVNMC0?oc=5",
-      "media": "화성시민신문",
-      "category": "CULTURE",
-      "department": "기획조정실 의회법무과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 09:52",
-      "pub_timestamp": "2026-10-22T09:52:23+09:00",
-      "bullets": [
-        "- HU공사, 화성시 적극행정 경진대회서 공공기관 부문 3관왕  화성시민신문"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시 복지시설에 노래방 기계 4대 기탁…어르신 여가 지원",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IcktkQURhVzI1US04T1cyeW1Mc0F5ZW9WY05vSDlSRTlOMWhzeHlPb1h3VDVMdVhrSEd4U09YMGNER0V1UEQwTnltb3hpLXJLLUJId0pJdlhoM19aV1JHVlBjUzhDLS12ZndLYnBDaWM?oc=5",
-      "media": "화성시민신문",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 09:49",
-      "pub_timestamp": "2026-10-22T09:49:34+09:00",
-      "bullets": [
-        "- 화성시 복지시설에 노래방 기계 4대 기탁…어르신 여가 지원  화성시민신문"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시 다원이음터도서관, 지역 아동 독서 문화 지원 위한 업무협약 체결",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42QW52aVZ6eEZXSXJ0RzYzRjdfWjB0dERJMlU1Tlh1SURPMmtuQTZkYi13Q1AxdkJrRVhPQW5LYWNwdUNZMHhGREVncTlscHFLUWRtdzlBQmx3SVhiZWk5U2drZU9PZE0?oc=5",
-      "media": "경인신문",
-      "category": "CULTURE",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 09:21",
-      "pub_timestamp": "2026-10-22T09:21:17+09:00",
-      "bullets": [
-        "- 화성시 다원이음터도서관, 지역 아동 독서 문화 지원 위한 업무협약 체결  경인신문"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "【단독】 화성시 복지관 회계 위반, 후원금 처리 위반까지.. 회계관리 도마 위",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4xbUpPUC15SlA0Rk9zZ251ZkdsWWRHWmlWeTVhaHlBWUltQzM4blFId0hWLWJJWWZvdXl1bWJSOGc1UGl5?oc=5",
-      "media": "화성 투데이",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:43",
-      "pub_timestamp": "2026-10-22T07:43:00+09:00",
-      "bullets": [
-        "- 【단독】 화성시 복지관 회계 위반, 후원금 처리 위반까지..",
-        "- 회계관리 도마 위  화성 투데이"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시, AI혁신센터서 CCTV 관제요원 직무교육 진행",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ycnlyYm5aUjhic3A4c0piQ2dUbEZhX3VQdXBnTE9seThiZTVWeTg2TmhHVWtYblBzUHp6RTM3ZmFtQjhXNUZqbG1iZ2xrck40T0JmYzRfcl9JQ0FldlRCamlR?oc=5",
-      "media": "경인미래신문",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:14",
-      "pub_timestamp": "2026-10-22T07:14:12+09:00",
-      "bullets": [
-        "- 화성시, AI혁신센터서 CCTV 관제요원 직무교육 진행  경인미래신문"
-      ],
-      "related_articles": []
-    },
-    {
-      "title": "화성시, 수원 군공항 특별법안 반대 공동 대응…국방부 설문 재검토 요구",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12Q1k2VFVfelJRclB3Q0tOQVJkaWFIWHJ6MUxPQ2x5aDRtc25PaENmVElJcEFsSjdPLVh0OGJLajJTN0V5cTNZT2MxeVVkbjBLV0xXdl9XUTZxaUVxRWpHa3hZa0VzWEla?oc=5",
-      "media": "광교신문",
-      "category": "POLICY",
-      "department": "기획조정실 군공항대응과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 03:46",
-      "pub_timestamp": "2026-10-22T03:46:54+09:00",
-      "bullets": [
-        "- 화성시, 수원 군공항 특별법안 반대 공동 대응…국방부 설문 재검토 요구  광교신문"
+        "- 제주서 열린 전국체전, 7일간 열전 마무리…경기도 5연패·MVP 여서정",
+        "- 가치를 함께 누릴 수 있도록 현장의 목소리에 귀 기울이며 대한민국 체육 발전을 위해 노력하겠다\"고 덧붙였다. 한편 제108회 전국체전은 내년 10월 8일부터 14일까지 화성시를 비롯한 경기도 일원에서 개최된다....",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": []
     }
