@@ -1,17 +1,125 @@
 {
-  "updated_at": "2026.10.23. 18:00",
+  "updated_at": "2026.10.23. 18:47",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 11,
+    "total": 14,
     "major_count": 3,
-    "live_count": 8,
-    "today_count": 11,
+    "live_count": 11,
+    "today_count": 14,
     "yesterday_count": 0,
-    "policy": 10,
+    "policy": 13,
     "culture": 0,
     "risk": 1
   },
   "articles": [
+    {
+      "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
+      "link": "http://www.osen.co.kr/article/G1112897322",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "자치행정국 행정지원과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 18:15",
+      "pub_timestamp": "2026-10-23T18:15:00+09:00",
+      "bullets": [
+        "- 37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
+        "- 독특한 창·제작 시스템 아래 탄생한 오페라 작품이 첫 무대를 갖는다. 그런데 그 공연이 전석 매진이라고 한다. 화성예술의전당에서 10월 24일 공연을 하는 창작오페라 ‘왕의 별’ 쇼케이스가 바로 그 화제의 무대다. ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231737772863_6adb242ec8c5a_300x.jpeg",
+      "telegram_sent": true
+    },
+    {
+      "title": "'생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16256155",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 18:14",
+      "pub_timestamp": "2026-10-23T18:14:00+09:00",
+      "bullets": [
+        "- '생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
+        "- (톱스타뉴스 장필구 기자) ‘생방송투데이’에서 소개한 경기도 화성시 소재 대왕해물전골 맛집과 가평군 소재 솥뚜껑닭매운탕 맛집이 화제다. 23일 SBS ‘생방송투데이’의 ‘맛불 작전’ 코너에서는 “솥뚜껑닭매운탕 VS ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.topstarnews.net/news/photo/202610/16256155_2064871_1254_crop.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610230165",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 18:12",
+      "pub_timestamp": "2026-10-23T18:12:00+09:00",
+      "bullets": [
+        "- 화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
+        "- SNP 유전자 분석으로 품종 일치 여부 확인…농협·미곡처리장 등에 우선 지원 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-2610 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000189.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610230162",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 18:12",
+      "pub_timestamp": "2026-10-23T18:12:00+09:00",
+      "bullets": [
+        "- 화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
+        "- 김상균 의원, 공공주택지구 기업유치 심의 근거 마련…관련 분야 전문가 참여 추진 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-261...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000186.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 임시회 폐회 안건 45건 처리",
+      "link": "http://www.breaknews.com/1245351",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 18:08",
+      "pub_timestamp": "2026-10-23T18:08:00+09:00",
+      "bullets": [
+        "- 화성시의회, 임시회 폐회 안건 45건 처리",
+        "- 시작페이지로l즐겨찾기lRSSl편집 2026.10.23 [18:40] ▲ 사진=화성시의회제공  © 김정은 기자 [브레이크뉴스경기남부=화성 김정은기자] 화성특례시의회(의장 이계철)가 10월 23일 제255회 임시회 제2...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
+          "link": "https://www.asiatime.co.kr/article/20261023500286",
+          "media": "언론사",
+          "time_label": "오늘 16:28",
+          "pub_timestamp": "2026-10-23T16:28:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://www.breaknewsi.com/imgdata/breaknewsi_com/202610/2026102330479293.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성시민들이 배우가 됐다…창작 오페라  전석 매진",
       "link": "https://www.hankyung.com/article/202610231715i",
@@ -176,62 +284,6 @@
       "telegram_sent": true
     },
     {
-      "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
-      "link": "https://www.asiatime.co.kr/article/20261023500286",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 16:28",
-      "pub_timestamp": "2026-10-23T16:28:00+09:00",
-      "bullets": [
-        "- 화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
-        "- 강성규 기자입력 2026-10-23 16:27 수정 2026-10-23 16:27 2027년도 예산 대비 주요업무계획 보고 청취·시정 현안 점검이은진·최청환·이민희 의원, 상수도·대중교통·폐기물 처리 개선 촉구 [아...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [
-        {
-          "title": "[위클리오늘] 화성시의회, 제255회 임시회 폐회",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799336",
-          "media": "언론사",
-          "time_label": "오늘 15:56",
-          "pub_timestamp": "2026-10-23T15:56:00+09:00"
-        },
-        {
-          "title": "[위클리오늘] 화성시의회 김상균 의원, 공공주택지구 기업유치 활성화 ...",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799335",
-          "media": "언론사",
-          "time_label": "오늘 15:52",
-          "pub_timestamp": "2026-10-23T15:52:00+09:00"
-        },
-        {
-          "title": "[위클리오늘] 화성시의회 최청환 의원, 시민 이동권 중심 대중교통 대책...",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799333",
-          "media": "언론사",
-          "time_label": "오늘 15:52",
-          "pub_timestamp": "2026-10-23T15:52:00+09:00"
-        },
-        {
-          "title": "화성시의회, 제255회 임시회 마무리",
-          "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/23/2026102300263.html",
-          "media": "언론사",
-          "time_label": "오늘 15:30",
-          "pub_timestamp": "2026-10-23T15:30:00+09:00"
-        },
-        {
-          "title": "화성특례시의회 김상균 위원장, 공사장 안전·기업유치 활성화 조례안 ...",
-          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2483995",
-          "media": "언론사",
-          "time_label": "오늘 15:40",
-          "pub_timestamp": "2026-10-23T15:40:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/10/23/.cache/512/20261023500287.jpg",
-      "telegram_sent": true
-    },
-    {
       "title": "추미애 경기국제공항 추진에 화성 반발… 군공항 이전 연계 우려",
       "link": "https://www.hankookilbo.com/news/article/A2026102310390003785?did=NA",
       "media": "언론사",
@@ -289,26 +341,6 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://img1.newsis.com/2026/07/08/NISI20260708_0002180961_web.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "수천만 년 전 공룡 흔적이 일냈다…화성 지질유산 이야기, 전국 무대서...",
-      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7190417",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "문화관광국 관광진흥과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 15:50",
-      "pub_timestamp": "2026-10-23T15:50:00+09:00",
-      "bullets": [
-        "- 수천만 년 전 공룡 흔적이 일냈다…화성 지질유산 이야기, 전국 무대서...",
-        "- 공룡 알화석의 비밀 풀어낸 해설·교육교구 나란히 장관상…전국 전문가들 앞에서 실력 입증 2024년 해설 부문 정상 이어 올해 두 분야 석권…화성국가지질공원 교육·관광 경쟁력 주목 화성국가지질공원 해설사와 관계자들이 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7190417_252021_3830_v150.jpg",
       "telegram_sent": true
     }
   ]
