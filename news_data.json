@@ -1,35 +1,98 @@
 {
-  "updated_at": "2026.10.23. 19:00",
+  "updated_at": "2026.10.23. 20:00",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 12,
-    "major_count": 4,
-    "live_count": 8,
-    "today_count": 12,
+    "total": 14,
+    "major_count": 5,
+    "live_count": 9,
+    "today_count": 14,
     "yesterday_count": 0,
-    "policy": 11,
+    "policy": 13,
     "culture": 0,
     "risk": 1
   },
   "articles": [
     {
-      "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
-      "link": "http://www.osen.co.kr/article/G1112897322",
+      "title": "화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대",
+      "link": "https://www.etoday.co.kr/news/view/2639606",
       "media": "언론사",
       "category": "POLICY",
       "department": "자치행정국 행정지원과",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 18:15",
-      "pub_timestamp": "2026-10-23T18:15:00+09:00",
+      "time_label": "오늘 19:58",
+      "pub_timestamp": "2026-10-23T19:58:00+09:00",
       "bullets": [
-        "- 37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
-        "- 독특한 창·제작 시스템 아래 탄생한 오페라 작품이 첫 무대를 갖는다. 그런데 그 공연이 전석 매진이라고 한다. 화성예술의전당에서 10월 24일 공연을 하는 창작오페라 ‘왕의 별’ 쇼케이스가 바로 그 화제의 무대다. ...",
+        "- 화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대",
+        "- 이투데이 문화·라이프 일반 화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대 입력 2026-10-23 19:57 김재은 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! 북마크 되었습니...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
+          "link": "http://www.osen.co.kr/article/G1112897322",
+          "media": "언론사",
+          "time_label": "오늘 18:15",
+          "pub_timestamp": "2026-10-23T18:15:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023195613_2406281_1079_1637.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079956",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "문화관광국 관광진흥과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 19:36",
+      "pub_timestamp": "2026-10-23T19:36:00+09:00",
+      "bullets": [
+        "- 화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
+        "- 지난 22일 영월 행사서 장관상 2관왕 달성… 지질 교육 역량 입증 화성국가지질공원 ‘별별화성 H4’팀이 교구재 경진대회 대상을 수상하고 기념촬영을 하고 있다. 화성시 제공 [뉴스클레임] 화성특례시가 강원특별자치도 ...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231737772863_6adb242ec8c5a_300x.jpeg",
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079956_122355_2912_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
+      "link": "http://www.beyondpost.co.kr/view.php?ud=2026102319083951834c878f8fa1_30",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 19:18",
+      "pub_timestamp": "2026-10-23T19:18:00+09:00",
+      "bullets": [
+        "- 화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
+        "- 2027년 주요업무계획 점검…상수도·대중교통·생활폐기물 개선 촉구 이계철 화성시의회 의장. /화성시의회 화성=비욘드포스트 송인호 기자  화성시의회(의장 이계철)는 23일 오전 본회의장에서 제255회 임시회 제2차 본...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성시의회, 임시회 폐회 안건 45건 처리",
+          "link": "http://www.breaknews.com/1245351",
+          "media": "언론사",
+          "time_label": "오늘 18:08",
+          "pub_timestamp": "2026-10-23T18:08:00+09:00"
+        },
+        {
+          "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
+          "link": "https://www.asiatime.co.kr/article/20261023500286",
+          "media": "언론사",
+          "time_label": "오늘 16:28",
+          "pub_timestamp": "2026-10-23T16:28:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610231913580414204c878f8fa118220943141.jpg&nmt=30",
       "telegram_sent": true
     },
     {
@@ -53,26 +116,6 @@
       "telegram_sent": true
     },
     {
-      "title": "화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
-      "link": "https://www.sentv.co.kr/article/view/sentv202610230165",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 18:12",
-      "pub_timestamp": "2026-10-23T18:12:00+09:00",
-      "bullets": [
-        "- 화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
-        "- SNP 유전자 분석으로 품종 일치 여부 확인…농협·미곡처리장 등에 우선 지원 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-2610 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000189.jpg",
-      "telegram_sent": true
-    },
-    {
       "title": "화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
       "link": "https://www.sentv.co.kr/article/view/sentv202610230162",
       "media": "언론사",
@@ -93,31 +136,23 @@
       "telegram_sent": true
     },
     {
-      "title": "화성시의회, 임시회 폐회 안건 45건 처리",
-      "link": "http://www.breaknews.com/1245351",
+      "title": "화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610230165",
       "media": "언론사",
       "category": "POLICY",
-      "department": "기획조정실 의회법무과",
+      "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 18:08",
-      "pub_timestamp": "2026-10-23T18:08:00+09:00",
+      "time_label": "오늘 18:12",
+      "pub_timestamp": "2026-10-23T18:12:00+09:00",
       "bullets": [
-        "- 화성시의회, 임시회 폐회 안건 45건 처리",
-        "- 시작페이지로l즐겨찾기lRSSl편집 2026.10.23 [18:40] ▲ 사진=화성시의회제공  © 김정은 기자 [브레이크뉴스경기남부=화성 김정은기자] 화성특례시의회(의장 이계철)가 10월 23일 제255회 임시회 제2...",
+        "- 화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
+        "- SNP 유전자 분석으로 품종 일치 여부 확인…농협·미곡처리장 등에 우선 지원 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-2610 ...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [
-        {
-          "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
-          "link": "https://www.asiatime.co.kr/article/20261023500286",
-          "media": "언론사",
-          "time_label": "오늘 16:28",
-          "pub_timestamp": "2026-10-23T16:28:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://www.breaknewsi.com/imgdata/breaknewsi_com/202610/2026102330479293.jpg",
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000189.jpg",
       "telegram_sent": true
     },
     {
@@ -186,6 +221,26 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/23/news-p.v1.20261023.881fc10a00f744f1a55ded05a798d59c_R.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "“경로당 부지, 이웃 동의 없인 안 되나요?”… 이장들 궁금증 풀어준 ...",
+      "link": "https://www.kyeongin.com/article/1773272",
+      "media": "경인일보",
+      "category": "POLICY",
+      "department": "재산관리과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 17:28",
+      "pub_timestamp": "2026-10-23T17:28:00+09:00",
+      "bullets": [
+        "- 캠코 경기지역본부가 화성시 봉담읍 행정복지센터에서 관내 이장 및 주민 100여 명을 대상으로 '찾아가는 국유재산 설명회'를 개최함",
+        "- 경로당 부지 마련 등 마을 숙원사업 해결을 위한 국유재산 공익사업 추진 및 대부·매수 절차 등 맞춤형 상담을 진행함",
+        "- 설명회 종료 후 캠코는 화성시 관내 취약계층 지원을 위해 화성시복지재단 등에 기부금 500만 원을 전달함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/23/news-p.v1.20261023.c9a5d9dcf68146739e46c862a8de7116_R.jpg",
       "telegram_sent": true
     },
     {
