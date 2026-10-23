@@ -1,75 +1,47 @@
 {
-  "updated_at": "2026.10.23. 16:00",
+  "updated_at": "2026.10.23. 17:00",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 11,
-    "major_count": 3,
+    "total": 12,
+    "major_count": 4,
     "live_count": 8,
-    "today_count": 11,
+    "today_count": 12,
     "yesterday_count": 0,
     "policy": 9,
     "culture": 2,
-    "risk": 0
+    "risk": 1
   },
   "articles": [
     {
-      "title": "[위클리오늘] 화성시의회, 제255회 임시회 폐회",
-      "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799336",
+      "title": "장민우·이평찬·나경화, 배우 염정아 등과 화성시 매력 알린다",
+      "link": "https://www.kpinews.kr/newsView/1065597771403263",
       "media": "언론사",
       "category": "POLICY",
-      "department": "기획조정실 의회법무과",
+      "department": "트램건설추진단",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 15:56",
-      "pub_timestamp": "2026-10-23T15:56:00+09:00",
+      "time_label": "오늘 16:48",
+      "pub_timestamp": "2026-10-23T16:48:00+09:00",
       "bullets": [
-        "- 화성특례시의회가 8일간의 제255회 임시회 일정을 마치고 조례안 및 동의안 등 총 45건의 안건을 원안 가결함",
-        "- 5분 자유발언을 통해 상수도 원격검침 도입, 광역버스 증차 등 대중교통 개선, 생활폐기물 소각시설 신설 및 상생 방안 촉구",
-        "- 2027년 예산 관련 주요업무계획 점검과 함께 정기분 공유재산 관리계획안 및 수원시의회 간 우호도시 협약 동의안 처리"
-      ],
-      "related_articles": [
-        {
-          "title": "[위클리오늘] 화성시의회 김상균 의원, 공공주택지구 기업유치 활성화 ...",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799335",
-          "media": "언론사",
-          "time_label": "오늘 15:52",
-          "pub_timestamp": "2026-10-23T15:52:00+09:00"
-        },
-        {
-          "title": "[위클리오늘] 화성시의회 최청환 의원, 시민 이동권 중심 대중교통 대책...",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799333",
-          "media": "언론사",
-          "time_label": "오늘 15:52",
-          "pub_timestamp": "2026-10-23T15:52:00+09:00"
-        },
-        {
-          "title": "화성시의회, 제255회 임시회 마무리",
-          "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/23/2026102300263.html",
-          "media": "언론사",
-          "time_label": "오늘 15:30",
-          "pub_timestamp": "2026-10-23T15:30:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://cdn.weeklytoday.com/news/thumbnail/202610/799336_993775_5312_v150.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시, 장민우·이평찬·나경화 홍보대사 위촉",
-      "link": "https://www.sportsseoul.com/news/read/1643582?ref=naver",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "공보실 홍보담당관",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 15:53",
-      "pub_timestamp": "2026-10-23T15:53:00+09:00",
-      "bullets": [
-        "- 화성시, 장민우·이평찬·나경화 홍보대사 위촉",
-        "- -23일 시청서 위촉식 개최... 2년간 주요 행사 및 홍보활동 참여 〔스포츠서울│화성=좌승훈기자〕경기 화성시는 23일 시청 본관 2층 중앙회의실에서 장민우 대한민국 재향군인회 캐나다 서부지회장과 가수 이평찬, 국악...",
+        "- 장민우·이평찬·나경화, 배우 염정아 등과 화성시 매력 알린다",
+        "- 화성시가 장민우 대한민국 재향군인회 캐나다 서부지회장과 가수 이평찬, 국악인 나경화를 홍보대사로 위촉했다. 장민우 홍보대사는 2014년부터 화성시의 자매도시인 캐나다 버나비시와의 교류를 지원해 왔으며, 지난해 자매결...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [
+        {
+          "title": "화성시, 장민우·이평찬·나경화 홍보대사 위촉",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/23/2026102300269.html",
+          "media": "언론사",
+          "time_label": "오늘 16:36",
+          "pub_timestamp": "2026-10-23T16:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 신규 홍보대사 장민우·이평찬·나경화 3인 위촉",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=396114",
+          "media": "언론사",
+          "time_label": "오늘 16:34",
+          "pub_timestamp": "2026-10-23T16:34:00+09:00"
+        },
         {
           "title": "화성시, 새 홍보대사 3명 위촉",
           "link": "https://www.sedaily.com/article/20105424?ref=naver",
@@ -100,7 +72,136 @@
         }
       ],
       "is_major": true,
-      "image_url": "https://file.sportsseoul.com/news/cms/2026/10/23/news-p.v1.20261023.062e64511f4c47349d2e16d7cd3a9a47_T1.jpg",
+      "image_url": "https://kpinews.kr/data/upi/image/2026/10/23/p1065597771403263_295_thum.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성국가지질공원, 전국 경연대회 2개 부문 대상",
+      "link": "https://news.skbroadband.com/news/articleView.html?idxno=241164",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "문화관광국 관광진흥과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 16:38",
+      "pub_timestamp": "2026-10-23T16:38:00+09:00",
+      "bullets": [
+        "- 화성국가지질공원, 전국 경연대회 2개 부문 대상",
+        "- 화성국가지질공원이 전국 지질공원 해설사들이 참여하는 '2026년 지질공원한마당'에서 2개 부문 대상을 차지했습니다. 지질유산을 쉽게 설명하는 해설 경연에서는 김영미 해설사가 공룡과 알화석을 주제로 발표해 대상을 받았...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.news.skbroadband.com/news/photo/202610/241164_248702_3533.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
+      "link": "https://www.asiatime.co.kr/article/20261023500286",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 16:28",
+      "pub_timestamp": "2026-10-23T16:28:00+09:00",
+      "bullets": [
+        "- 화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
+        "- 강성규 기자입력 2026-10-23 16:27 수정 2026-10-23 16:27 2027년도 예산 대비 주요업무계획 보고 청취·시정 현안 점검이은진·최청환·이민희 의원, 상수도·대중교통·폐기물 처리 개선 촉구 [아...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시의회, 제255회 임시회 폐회",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799336",
+          "media": "언론사",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-10-23T15:56:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회 김상균 의원, 공공주택지구 기업유치 활성화 ...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799335",
+          "media": "언론사",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-10-23T15:52:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회 최청환 의원, 시민 이동권 중심 대중교통 대책...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799333",
+          "media": "언론사",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-10-23T15:52:00+09:00"
+        },
+        {
+          "title": "화성시의회, 제255회 임시회 마무리",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/23/2026102300263.html",
+          "media": "언론사",
+          "time_label": "오늘 15:30",
+          "pub_timestamp": "2026-10-23T15:30:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/10/23/.cache/512/20261023500287.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "추미애 경기국제공항 추진에 화성 반발… 군공항 이전 연계 우려",
+      "link": "https://www.hankookilbo.com/news/article/A2026102310390003785?did=NA",
+      "media": "언론사",
+      "category": "RISK",
+      "department": "군공항대응과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 16:10",
+      "pub_timestamp": "2026-10-23T16:10:00+09:00",
+      "bullets": [
+        "- 경기도의 경기국제공항 추진에 대해 수원군공항 이전을 위한 꼼수라며 화성시 시민사회단체의 반발 및 백지화 요구 확산",
+        "- 수원전투비행장 화성이전반대 범시민대책위원회는 긴급회의를 소집하고 정명근 화성시장, 시의장 등과 함께 공동 대응 기자회견 예정",
+        "- 화성시는 국방부의 화성 화옹지구 예비이전후보지 지정 철회를 지속 촉구하며 경기국제공항 연계 추진에 강력 반대 입장 고수"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://newsimg.hankookilbo.com/2026/10/23/e903ab5e-1da6-4962-b8e3-13c532175269.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "“아파서 못 가던 지원, 집으로”... 화성특례시, ‘찾아가는 그냥드림...",
+      "link": "https://www.kgnews.co.kr/news/article.html?no=916397",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "돌봄복지국 통합돌봄과",
+      "dept_label": "소관",
+      "date_group": "TODAY",
+      "time_label": "오늘 16:02",
+      "pub_timestamp": "2026-10-23T16:02:00+09:00",
+      "bullets": [
+        "- “아파서 못 가던 지원, 집으로”... 화성특례시, ‘찾아가는 그냥드림...",
+        "- 화성특례시가 거동이 불편하거나 정보 부족으로 복지 혜택을 받지 못하던 위기 가구를 직접 찾아가는 ‘찾아가는 그냥드림’ 사업을 본격 확대 시행한다. 기존 ‘그냥드림’ 사업이 시민이 직접 지정된 푸드뱅크나 사업장을 방문...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.kgnews.co.kr/data/photos/20261043/art_17926718781468_b96fe3.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 농산물품질관리원 '품종 검정기관'으로 지정",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838944",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "기본사회담당관",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 16:02",
+      "pub_timestamp": "2026-10-23T16:02:00+09:00",
+      "bullets": [
+        "- 화성시, 농산물품질관리원 '품종 검정기관'으로 지정",
+        "- 'SNP 유전자 마커'기반 벼·쌀·현미 품종 검정 화성시, 농협·RPC·푸드통합지원센터 우선 서비스 [화성=뉴시스] 화성시청 전경. (사진=뉴시스 DB). [email protected] *재판매 및 DB 금지 [화...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/07/08/NISI20260708_0002180961_web.jpg",
       "telegram_sent": true
     },
     {
@@ -229,66 +330,6 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "",
-      "telegram_sent": true
-    },
-    {
-      "title": "다음 주 전국 5555가구 공급...경기 화성· 부산 해운대 등 기대감",
-      "link": "https://www.fnnews.com/news/202610231351243757",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 13:56",
-      "pub_timestamp": "2026-10-23T13:56:00+09:00",
-      "bullets": [
-        "- 다음 주 전국 5555가구 공급...경기 화성· 부산 해운대 등 기대감",
-        "- 10월 마지막 주, 알짜 물량 쏟아진다 서울 주거 단지. 사진=연합뉴스 [파이낸셜뉴스] 10월 마지막 주 전국 분양 시장은 수도권과 부산 지역을 중심으로 알짜 물량이 쏟아지며 활기를 띨 전망이다. 23일 부동산 전문...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://image.fnnews.com/resource/media/image/2026/10/22/202610220601403942_e.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\"",
-      "link": "https://www.sidae.com/article/2026102312501556020",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 13:47",
-      "pub_timestamp": "2026-10-23T13:47:00+09:00",
-      "bullets": [
-        "- 김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\"",
-        "- 김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\" 화성=김동우 기자 2026.10.23 | 13:47:39 가- 100 % 가+ 김미영 문화체육위원장은 \"시민이 실제로 체감할 수 있는 현장 여건과 목소리를...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://menu.sidae.com/moneyweek/thumb/2026/10/23/00/2026102312501556020_1.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시 “우주·미래차·인공지능 혁신기술 한자리에”",
-      "link": "https://www.naeil.com/news/read/606220?ref=naver",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기업투자실 첨단산업과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 12:58",
-      "pub_timestamp": "2026-10-23T12:58:00+09:00",
-      "bullets": [
-        "- 화성시 “우주·미래차·인공지능 혁신기술 한자리에”",
-        "- 11월 3~5일 코엑스서 ‘MARS 2026’ 개최 현대차·기아 등 56개 기업·기관 참여 경기 화성특례시가 우주항공과 미래차, 인공지능 기술을 한자리에서 선보이는 국제 행사를 개최한다. 화성시는 오는 11월 3일부...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://wimg.naeil.com/news/cms/2026/10/23/news-p.v1.20261023.750c8a0bf2924c5092de28dea5bc070b_R.jpg",
       "telegram_sent": true
     }
   ]
