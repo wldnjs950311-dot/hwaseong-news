@@ -59,10 +59,29 @@ header {
   white-space: nowrap;
 }
 
-/* 부서 자동완성 검색 */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.header-update-time {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  background: transparent;
+  padding: 4px 6px;
+  border: none;
+}
+.header-update-time b {
+  color: var(--ink);
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+/* 부서 및 키워드 통합 검색 */
 .dept-search-box {
   position: relative;
-  width: 250px;
+  width: 270px;
 }
 .dept-input-wrap {
   position: relative;
@@ -74,7 +93,7 @@ header {
   border: 1.5px solid #CBD5E1;
   border-radius: 8px;
   padding: 8px 32px 8px 12px;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
   color: var(--ink);
   outline: none;
@@ -128,28 +147,79 @@ header {
   font-size: 11.5px;
 }
 
-/* 날짜 & 탭 네비게이션 */
-.nav-section {
-  margin-top: 18px;
+/* 1-2. 내 부서 Pin 및 버튼 스타일 */
+.my-dept-wrap {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 6px;
 }
-.date-badge-wrap {
-  display: flex;
-  justify-content: flex-end;
-}
-.date-badge {
+.my-dept-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1.5px solid var(--border);
+  background: #FFFFFF;
+  color: var(--sub);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.my-dept-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.my-dept-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+}
+.my-dept-btn .pin-tag {
+  font-size: 11px;
+  font-weight: 800;
+  background: #2563EB;
+  color: #FFFFFF;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.my-dept-btn.active .pin-tag {
+  background: #FFFFFF;
+  color: var(--primary);
+}
+.my-dept-edit-btn {
+  font-size: 12px;
   font-weight: 600;
   color: var(--muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  text-decoration: underline;
 }
-.date-badge b {
-  color: var(--sub);
-  font-weight: 700;
+.my-dept-edit-btn:hover {
+  color: var(--primary);
+}
+.my-dept-badge {
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+  color: #1D4ED8;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 2.5px 7px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+.news-box.is-my-dept {
+  border-top: 3px solid #3B82F6;
 }
 
+/* 2-1. 탭 네비게이션 & 탭 건수 뱃지 */
 .tab-bar {
+  margin-top: 20px;
   display: flex;
   gap: 6px;
   border-bottom: 2px solid var(--ink);
@@ -159,14 +229,16 @@ header {
   border: 1px solid #CBD5E1;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
-  padding: 9px 18px;
-  font-size: 15.5px;
+  padding: 9px 16px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--muted);
   cursor: pointer;
   transition: all 0.15s ease;
   position: relative;
   bottom: -2px;
+  display: inline-flex;
+  align-items: center;
 }
 .tab-btn:hover {
   background: #F1F5F9;
@@ -181,8 +253,26 @@ header {
   background: var(--risk);
   border-color: var(--risk);
 }
+.tab-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: #E2E8F0;
+  color: var(--sub);
+  margin-left: 6px;
+}
+.tab-btn.active .tab-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+.tab-btn.risk-tab.active .tab-badge {
+  background: rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+}
 
-/* 통계 바 */
+/* 2-1. 슬림해진 통계 바 & 인쇄/전체선택 툴바 */
 .stats-bar {
   display: flex;
   justify-content: space-between;
@@ -190,7 +280,7 @@ header {
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 12px 18px;
+  padding: 11px 18px;
   margin: 18px 0 20px 0;
   flex-wrap: wrap;
   gap: 12px;
@@ -205,25 +295,122 @@ header {
   font-size: 17px;
   margin-left: 2px;
 }
-.stat-chips {
+.stat-sub {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-weight: 600;
+  margin-left: 4px;
+}
+.stat-actions {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 10px;
   flex-wrap: wrap;
 }
-.stat-chip {
+.check-all-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
-  font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 14px;
-  background: #F1F5F9;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  background: #F8FAFC;
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: 6px;
+  user-select: none;
+  transition: background 0.15s;
+}
+.check-all-label:hover {
+  background: #EDF2F7;
+}
+.check-all-label input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  accent-color: var(--primary);
+}
+/* 1-3 & 5. 선택 기사 인쇄 버튼 (기본: 전체선택/접기와 동일한 내부색, 선택 시: 강조색) */
+.print-btn {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
   color: var(--sub);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
 }
-.stat-chip.risk {
-  background: var(--risk-bg);
-  color: var(--risk);
+.print-btn:hover {
+  background: #F1F5F9;
+  color: var(--primary);
+  border-color: var(--primary);
 }
-.stat-chip b {
-  margin-left: 2px;
+.print-btn #selectedCountBadge {
+  background: #E2E8F0;
+  color: var(--sub);
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 11.5px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.print-btn.active {
+  background: #1E293B;
+  border-color: #0F172A;
+  color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15);
+}
+.print-btn.active:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+.print-btn.active #selectedCountBadge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+
+/* 6. 출력 / 미출력 태그 스타일 (오늘 07:50 박스 좌측) */
+.print-status-tag {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.print-status-tag.printed {
+  background: #F1F5F9;
+  color: #64748B;
+  border: 1px solid #CBD5E1;
+}
+.print-status-tag.printed:hover {
+  background: #E2E8F0;
+  color: #0F172A;
+}
+.print-status-tag.unprinted {
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+}
+.print-status-tag.unprinted:hover {
+  background: #DBEAFE;
+  color: #1D4ED8;
+}
+.news-box.is-already-reported {
+  background: #FAFAFC;
+  opacity: 0.88;
+}
+.news-box.is-already-reported:hover {
+  background: #FFFFFF;
+  opacity: 1;
 }
 
 /* 타임라인 날짜 구분선 */
@@ -249,22 +436,29 @@ header {
   letter-spacing: -0.01em;
 }
 
-/* 뉴스 카드 */
+/* 5. 뉴스 카드 및 카테고리별 좌측 컬러 라인 (주요 뉴스 및 실시간 뉴스 공통 적용) */
 .news-box {
   background: var(--card-bg);
   border: 1px solid var(--border);
+  border-left: 4.5px solid #0EA5E9; /* 기본: 시정정책 하늘색 */
   border-radius: 12px;
   padding: 22px 24px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
   margin-bottom: 18px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, opacity 0.2s;
 }
 .news-box:hover {
   border-color: #94A3B8;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
-.news-box.risk-box {
-  border-left: 4px solid var(--risk);
+.news-box.cat-policy {
+  border-left: 4.5px solid #0EA5E9 !important; /* 시정정책: 하늘색 */
+}
+.news-box.cat-culture {
+  border-left: 4.5px solid #16A34A !important; /* 문화행사: 초록색 */
+}
+.news-box.cat-risk {
+  border-left: 4.5px solid #DC2626 !important; /* 비판지적: 레드 */
 }
 
 /* 제목 및 메타 행 */
@@ -273,7 +467,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   gap: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 .main-head-link {
   font-size: 18.5px;
@@ -282,6 +476,9 @@ header {
   color: var(--ink);
   text-decoration: none;
   flex: 1;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 .main-head-link:hover {
   color: var(--primary);
@@ -316,79 +513,212 @@ header {
   white-space: nowrap;
 }
 
-/* 타 언론사 동일 보도 링크 목록 */
+/* 하이라이트 뱃지 (이모티콘 제거) */
+.card-header-badge-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.cluster-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #FFF7ED;
+  border: 1px solid #FFEDD5;
+  color: #C2410C;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 6px;
+}
+.cluster-badge b {
+  color: #EA580C;
+  font-weight: 800;
+}
+
+/* 기사 카드 가로 레이아웃 (좌측 사진, 우측 텍스트) */
+.news-content-row {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.news-thumb-col {
+  width: 210px;
+  height: 147px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #F1F5F9;
+  border: 1px solid var(--border);
+}
+.news-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+.news-box:hover .news-thumb-img {
+  transform: scale(1.04);
+}
+.news-body-col {
+  flex: 1;
+  min-width: 0;
+}
+@media (max-width: 640px) {
+  .news-content-row {
+    flex-direction: column;
+  }
+  .news-thumb-col {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+/* 타 언론사 동일 보도 링크 목록 (인터랙티브 아코디언, 이모티콘 제거) */
 .sub-headlines-area {
   margin-bottom: 14px;
-  padding: 8px 12px;
-  background: #FAFAFC;
-  border-left: 2.5px solid #CBD5E1;
-  border-radius: 0 6px 6px 0;
+  border: 1px solid #E2E8F0;
+  border-left: 3.5px solid var(--primary);
+  border-radius: 8px;
+  background: #F8FAFC;
+  overflow: hidden;
+  transition: all 0.2s;
 }
-.sub-headlines-area .sub-label {
-  display: block;
-  font-size: 11.5px;
-  font-weight: 800;
-  color: var(--muted);
-  margin-bottom: 4px;
+.sub-headlines-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  cursor: pointer;
+  user-select: none;
+  background: #F8FAFC;
+  transition: background 0.15s;
+}
+.sub-headlines-header:hover {
+  background: #F1F5F9;
+}
+.sub-headlines-header .sub-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1E293B;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sub-toggle-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.sub-headlines-area.collapsed .sub-headlines {
+  display: none;
 }
 .sub-headlines {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
+  padding: 8px 14px 12px 14px;
+  border-top: 1px solid #E2E8F0;
+  background: #FFFFFF;
 }
 .sub-headlines li a {
   font-size: 13.5px;
-  color: #475569;
+  color: #334155;
   font-weight: 600;
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: all 0.15s;
 }
 .sub-headlines li a:hover {
+  background: #F1F5F9;
   color: var(--primary);
-  text-decoration: underline;
 }
-.sub-headlines li a span.sub-media {
+.sub-headlines .sub-media-tag {
+  font-size: 11.5px;
   font-weight: 700;
+  background: #E2E8F0;
   color: var(--sub);
-  margin-right: 4px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+.sub-headlines .sub-time {
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  font-weight: 500;
 }
 
-/* 불릿 AI 핵심 요약 */
+/* 불릿 AI 핵심 요약 (제목 및 푸터와의 간격 최적화, 가독성 높은 줄간격) */
 .summary-bullets {
   background: #F8FAFC;
   border-radius: 8px;
-  padding: 14px 16px;
+  padding: 10px 15px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 14px;
+  gap: 6px;
+  margin-bottom: 7px;
   border: 1px solid #EDF2F7;
 }
 .summary-item {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.68;
   color: #1E293B;
   display: flex;
   gap: 6px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 .summary-item .bullet {
   color: var(--primary);
-  font-weight: 800;
+  font-weight: 700;
   flex-shrink: 0;
 }
 .news-box.risk-box .summary-item .bullet {
   color: var(--risk);
 }
 
-/* 카드 하단 소관 부서 */
+/* 카드 하단 메타 (소관부서 좌측, 카테고리 우측) */
 .news-footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  padding-top: 10px;
+  padding-top: 7px;
   border-top: 1px dashed var(--border);
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+.dept-type-tag {
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: #F1F5F9;
+  color: #64748B;
+  border: 1px solid #E2E8F0;
+}
+.dept-type-tag.primary {
+  background: #E0E7FF;
+  color: #1E40AF;
+  border-color: #C7D2FE;
 }
 .meta-dept {
   font-weight: 700;
@@ -402,12 +732,450 @@ header {
   background: var(--risk-bg);
 }
 
+.cat-tag {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 2.5px 8px;
+  border-radius: 4px;
+  letter-spacing: -0.01em;
+}
+.cat-tag.policy {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #DBEAFE;
+}
+.cat-tag.culture {
+  background: #F0FDF4;
+  color: #15803D;
+  border: 1px solid #DCFCE7;
+}
+.cat-tag.risk {
+  background: #FEF2F2;
+  color: #B91C1C;
+  border: 1px solid #FEE2E2;
+}
+
 /* 상태 메시지 */
 .state-msg {
   text-align: center;
-  padding: 60px 0;
+  padding: 50px 0;
   color: var(--muted);
   font-size: 15px;
+}
+
+/* 섹션 아코디언 및 그룹 스타일 (이모티콘 제거) */
+.news-section {
+  margin-bottom: 28px;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 24px; /* 기존 14px 18px 대비 세로 1.5배 확대 */
+  min-height: 76px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  margin-bottom: 16px;
+}
+.section-header:hover {
+  background: #F8FAFC;
+  border-color: #CBD5E1;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+.major-section .section-header {
+  border-left: 5px solid var(--primary);
+}
+.live-section .section-header {
+  border-left: 5px solid var(--primary);
+}
+
+.section-title-wrap {
+  display: flex;
+  align-items: center;
+}
+.section-title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.section-title {
+  font-size: 19px; /* 1.5배 블록에 맞춰 시원하게 확대 */
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+.badge.major-badge {
+  background: #FFEDD5;
+  color: #C2410C;
+}
+.badge.live-badge {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.section-desc {
+  font-size: 13.5px;
+  color: var(--muted);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.section-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--sub);
+  background: #F1F5F9;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.section-header:hover .section-toggle-btn {
+  background: #E2E8F0;
+  color: var(--ink);
+}
+
+/* 섹션 접힘 아코디언 애니메이션 */
+.section-content {
+  transition: opacity 0.25s ease, max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+.section-content.collapsed {
+  display: none;
+}
+.section-empty-msg {
+  padding: 30px 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px dashed var(--border);
+  margin-bottom: 12px;
+}
+
+/* 전체 펼치기/접기 버튼 */
+.expand-all-btn {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sub);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s;
+}
+.expand-all-btn:hover {
+  background: #F1F5F9;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* 1, 2. 주요 뉴스 및 실시간 뉴스 좌측 들여쓰기 (오렌지 가이드라인 삭제 완료) */
+#majorNewsList,
+#liveNewsList {
+  margin-left: 20px;
+}
+#majorNewsList .news-box {
+  background: #FFFBFA; /* 주요 뉴스 전용 은은한 웜톤 배경 유지 */
+}
+@media (max-width: 640px) {
+  #majorNewsList,
+  #liveNewsList {
+    margin-left: 10px;
+  }
+}
+
+/* 1-3. 기사 카드 내 체크박스 및 선택 하이라이트 */
+.title-left-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+}
+.article-check {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  cursor: pointer;
+  accent-color: var(--primary);
+  flex-shrink: 0;
+}
+.news-box.is-checked {
+  background: #F0F7FF !important;
+  border-color: #93C5FD !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.12) !important;
+}
+
+/* 1-2. 내 부서 설정 팝업 모달 */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  backdrop-filter: blur(2px);
+}
+.modal-box {
+  background: #fff;
+  border-radius: 12px;
+  width: 92%;
+  max-width: 440px;
+  padding: 20px 24px;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.modal-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--ink);
+}
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--muted);
+  line-height: 1;
+}
+.modal-input {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.modal-input:focus {
+  border-color: var(--primary);
+}
+.modal-dept-list {
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  list-style: none;
+}
+.modal-dept-item {
+  padding: 9px 14px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid #F1F5F9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-dept-item:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.modal-dept-item small {
+  color: var(--muted);
+  font-size: 11.5px;
+}
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.modal-btn-clear {
+  background: none;
+  border: none;
+  color: var(--risk);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 6px 8px;
+}
+.modal-btn-clear:hover {
+  text-decoration: underline;
+}
+.modal-btn-close {
+  background: #F1F5F9;
+  border: 1px solid var(--border);
+  color: var(--sub);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.modal-btn-close:hover {
+  background: #E2E8F0;
+}
+
+/* 1-3. 인쇄 및 PDF 서식 최적화 (A4 1페이지 3기사 컴팩트 수납 최적화) */
+.print-only-header {
+  display: none;
+}
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 10mm 8mm 10mm;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    padding-bottom: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  header,
+  .tab-bar,
+  .stats-bar,
+  .section-header,
+  .section-toggle-btn,
+  .expand-all-btn,
+  .article-check,
+  .sub-toggle-btn,
+  .modal-overlay,
+  .state-msg,
+  .date-divider,
+  .reported-badge,
+  .print-status-tag,
+  .print-meta {
+    display: none !important;
+  }
+  .wrap {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  .print-only-header {
+    display: block !important;
+    border-bottom: 2px solid #0F1733;
+    padding-bottom: 4px;
+    margin-bottom: 7px;
+  }
+  .print-title {
+    font-size: 15.5px;
+    font-weight: 800;
+    color: #0F1733;
+    margin-bottom: 0;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+  #majorNewsList,
+  #liveNewsList {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+  }
+  /* 1페이지 3개 기사 안정적 수납 (1.5배 사진 확대 + 3줄 요약 줄간격 확대 + 제목/푸터 간격 축소) */
+  .news-box {
+    border: 1px solid #CBD5E1 !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    margin-bottom: 6px !important;
+    padding: 7px 11px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    background: #FFFFFF !important;
+  }
+  .news-content-row {
+    gap: 12px !important;
+  }
+  /* 인쇄 시에도 사진 크기 1.5배 확대 (기존 88x62 -> 132x93) */
+  .news-thumb-col {
+    width: 132px !important;
+    height: 93px !important;
+    min-width: 132px !important;
+    border-radius: 4px !important;
+  }
+  /* 제목 및 3줄 요약 박스 간격 축소 */
+  .title-row {
+    gap: 8px !important;
+    margin-bottom: 2px !important;
+  }
+  .main-head-link {
+    font-size: 13px !important;
+    line-height: 1.32 !important;
+    font-weight: 800 !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+    word-break: keep-all !important;
+    overflow-wrap: break-word !important;
+  }
+  .time-tag, .media-tag {
+    font-size: 10.5px !important;
+    padding: 1px 5px !important;
+  }
+  /* 3줄 요약 박스: 상하 여백을 줄이고 내부 텍스트 줄간격은 시원하게 넓힘 */
+  .summary-bullets {
+    margin-top: 0 !important;
+    margin-bottom: 2px !important;
+    padding: 3px 8px !important;
+    gap: 2px !important;
+  }
+  .summary-item {
+    font-size: 11px !important;
+    line-height: 1.56 !important;
+    gap: 5px !important;
+    color: #1E293B !important;
+    word-break: keep-all !important;
+    overflow-wrap: break-word !important;
+    text-wrap: pretty !important;
+  }
+  .summary-item .bullet {
+    font-size: 11px !important;
+    color: #64748B !important;
+  }
+  /* 하단 푸터(참고, 소관부서 등)와 요약 박스 간격 축소 */
+  .news-footer {
+    margin-top: 2px !important;
+    padding-top: 3px !important;
+    border-top: 1px solid #F1F5F9 !important;
+  }
+  .dept-type-tag,
+  .meta-dept,
+  .cat-tag {
+    font-size: 10.5px !important;
+    padding: 1px 5px !important;
+  }
+  .card-header-badge-row {
+    margin-bottom: 2px !important;
+  }
+  .card-header-badge-row span {
+    font-size: 9.5px !important;
+    padding: 1px 4px !important;
+  }
+  /* 선택 인쇄 모드 시 미선택 기사 숨김 */
+  body.print-checked-only .news-box:not(.is-checked) {
+    display: none !important;
+  }
+  /* 인쇄 시 하위 묶음 기사 목록 숨김 (핵심 요약 중심 단정 출력) */
+  .sub-headlines-area {
+    display: none !important;
+  }
 }
 </style>
 </head>
@@ -416,59 +1184,145 @@ header {
 <!-- 상단 헤더 -->
 <header>
   <div class="wrap header-in">
-    <div class="app-title">화성시 뉴스 알리미</div>
+    <div class="app-title" onclick="resetAllFilters()" style="cursor:pointer;" title="화성시 뉴스 알리미 초기화">화성시 뉴스 알리미</div>
     
-    <!-- 82개 전 부서 자동완성 검색 -->
-    <div class="dept-search-box">
-      <div class="dept-input-wrap">
-        <input type="text" id="deptSearchInput" class="dept-input" placeholder="부서명 검색 (예: 농업, 교통)" autocomplete="off" oninput="onDeptInput()" onfocus="onDeptInput()">
-        <button id="clearDeptBtn" class="clear-btn" onclick="clearDeptSearch()">✕</button>
+    <div class="header-right">
+      <div class="header-update-time">
+        <span>업데이트 기준:</span>
+        <b id="updateTimeText">데이터 로딩 중...</b>
       </div>
-      <ul id="autocompleteList" class="autocomplete-list"></ul>
+
+      <!-- 1-2. 내 부서 Pin 및 모아보기 버튼 -->
+      <div class="my-dept-wrap" id="myDeptWrap"></div>
+
+      <!-- 1-4. 82개 부서 자동완성 및 실시간 통합 키워드 검색 -->
+      <div class="dept-search-box">
+        <div class="dept-input-wrap">
+          <input type="text" id="deptSearchInput" class="dept-input" placeholder="부서명 또는 키워드 (예: 도로과, 트램)" autocomplete="off" oninput="onSearchInput()" onfocus="onSearchInput()">
+          <button id="clearDeptBtn" class="clear-btn" onclick="clearDeptSearch()">×</button>
+        </div>
+        <ul id="autocompleteList" class="autocomplete-list"></ul>
+      </div>
     </div>
   </div>
 </header>
 
 <div class="wrap">
-  <!-- 날짜 & 탭 네비게이션 -->
-  <div class="nav-section">
-    <div class="date-badge-wrap">
-      <div class="date-badge">
-        <span>업데이트 기준:</span>
-        <b id="updateTimeText">데이터 로딩 중...</b>
+  <!-- 1-3. 인쇄 전용 헤더 (화면에서는 숨김) -->
+  <div class="print-only-header">
+    <div class="print-title" id="printHeaderTitle">화성시 언론보도</div>
+  </div>
+
+  <!-- 2-1. 탭 네비게이션 (건수 뱃지 통합) -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchCategory('ALL', this)">
+      전체 <span class="tab-badge" id="tabCountAll">0</span>
+    </button>
+    <button class="tab-btn" onclick="switchCategory('POLICY', this)">
+      시정정책 <span class="tab-badge" id="tabCountPolicy">0</span>
+    </button>
+    <button class="tab-btn" onclick="switchCategory('CULTURE', this)">
+      문화행사 <span class="tab-badge" id="tabCountCulture">0</span>
+    </button>
+    <button class="tab-btn risk-tab" onclick="switchCategory('RISK', this)">
+      비판지적 <span class="tab-badge risk" id="tabCountRisk">0</span>
+    </button>
+  </div>
+
+  <!-- 2-1. 슬림해진 통계 바 & 1-3. 체크박스 선택/인쇄 툴바 -->
+  <div class="stats-bar">
+    <div class="stat-left">
+      <div class="stat-main">
+        최근 48시간 보도 <b id="statTotal">0</b>건 
+        <span class="stat-sub">
+          (주요 <span id="statMajor" style="color:#EA580C;font-weight:700;">0</span>건 / 
+          실시간 <span id="statLive" style="color:var(--primary);font-weight:700;">0</span>건)
+        </span>
       </div>
     </div>
-    <div class="tab-bar">
-      <button class="tab-btn active" onclick="switchCategory('ALL', this)">홈</button>
-      <button class="tab-btn" onclick="switchCategory('POLICY', this)">시정정책</button>
-      <button class="tab-btn" onclick="switchCategory('CULTURE', this)">문화행사</button>
-      <button class="tab-btn risk-tab" onclick="switchCategory('RISK', this)">비판지적</button>
+    <div class="stat-actions">
+      <!-- 1-3. 전체선택 체크박스 (기 출력자료 제외 확인 팝업) -->
+      <label class="check-all-label" title="클릭 시 기 출력자료 제외 여부를 선택할 수 있습니다">
+        <input type="checkbox" id="checkAllBox" onchange="toggleSelectAll(this)">
+        <span>전체선택</span>
+      </label>
+      <!-- 1-3 & 5. 인쇄 버튼 -->
+      <button class="print-btn" id="printBtn" onclick="printSelectedArticles()">
+        인쇄 <span id="selectedCountBadge">(0)</span>
+      </button>
+      <button class="expand-all-btn" id="toggleAllBtn" onclick="toggleAllSections()">
+        <span id="toggleAllText">전체 접기</span>
+      </button>
     </div>
   </div>
 
-  <!-- 통계 바 -->
-  <div class="stats-bar">
-    <div class="stat-main">
-      최근 48시간 보도 <b id="statTotal">0</b>건 
-      <span style="font-size:12.5px;color:var(--muted);font-weight:600;margin-left:4px;">
-        (오늘 <span id="statToday" style="color:var(--primary);font-weight:700;">0</span>건 / 
-        어제 <span id="statYesterday" style="color:var(--sub);font-weight:700;">0</span>건)
-      </span>
+  <!-- 1. 주요 뉴스 섹션 (다수 언론사 보도 묶음 및 주요 이슈) -->
+  <section class="news-section major-section" id="majorSection">
+    <div class="section-header" onclick="toggleSection('major')" id="majorHeader">
+      <div class="section-title-wrap">
+        <div class="section-title-box">
+          <div class="section-title">
+            주요 뉴스 <span class="badge major-badge" id="majorCountBadge">0건</span>
+          </div>
+          <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안</div>
+        </div>
+      </div>
+      <div class="section-toggle-btn">
+        <span id="majorToggleText">접기</span>
+      </div>
     </div>
-    <div class="stat-chips">
-      <span class="stat-chip">시정정책 <b id="statPolicy">0</b></span>
-      <span class="stat-chip">문화행사 <b id="statCulture">0</b></span>
-      <span class="stat-chip risk">비판지적 <b id="statRisk">0</b></span>
+    <div class="section-content" id="majorContent">
+      <div id="majorNewsList"></div>
+      <div id="emptyMajorNotice" class="section-empty-msg" style="display:none;">
+        선택하신 조건에 해당하는 주요 뉴스가 없습니다.
+      </div>
     </div>
-  </div>
+  </section>
 
-  <!-- 뉴스 타임라인 컨테이너 -->
-  <div id="newsListContainer">
-    <div id="loadingMsg" class="state-msg">최신 뉴스를 불러오고 있습니다...</div>
-  </div>
+  <!-- 2. 실시간 최신 뉴스 섹션 -->
+  <section class="news-section live-section" id="liveSection">
+    <div class="section-header" onclick="toggleSection('live')" id="liveHeader">
+      <div class="section-title-wrap">
+        <div class="section-title-box">
+          <div class="section-title">
+            실시간 뉴스 <span class="badge live-badge" id="liveCountBadge">0건</span>
+          </div>
+          <div class="section-desc">최신 시간 순 실시간 시정 보도 타임라인</div>
+        </div>
+      </div>
+      <div class="section-toggle-btn">
+        <span id="liveToggleText">접기</span>
+      </div>
+    </div>
+    <div class="section-content" id="liveContent">
+      <div id="liveNewsList"></div>
+      <div id="emptyLiveNotice" class="section-empty-msg" style="display:none;">
+        선택하신 조건에 해당하는 실시간 뉴스가 없습니다.
+      </div>
+    </div>
+  </section>
 
   <div id="emptyNotice" class="state-msg" style="display: none;">
-    선택하신 조건에 해당하는 뉴스가 없습니다.
+    선택하신 조건에 해당하는 뉴스가 전혀 없습니다.
+  </div>
+</div>
+
+<!-- 1-2. 내 부서 설정 모달 -->
+<div id="myDeptModal" class="modal-overlay" style="display:none;" onclick="closeMyDeptModal(event)">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <div class="modal-title">내 소속 부서 설정</div>
+      <button type="button" class="modal-close" onclick="closeMyDeptModal()">&times;</button>
+    </div>
+    <p style="font-size:13px; color:var(--muted); margin-bottom:12px; line-height:1.5;">
+      소속 부서를 등록해 두시면 언제든 '내 부서' 버튼을 눌러 담당 시정 보도를 빠르게 모아볼 수 있습니다.
+    </p>
+    <input type="text" id="modalDeptSearch" class="modal-input" placeholder="부서명 검색 (예: 도로과, 농업, 보건...)" oninput="filterModalDeptList()">
+    <ul id="modalDeptList" class="modal-dept-list"></ul>
+    <div class="modal-footer">
+      <button type="button" class="modal-btn-clear" onclick="clearMyDeptSetting()">내 부서 등록 해제</button>
+      <button type="button" class="modal-btn-close" onclick="closeMyDeptModal()">닫기</button>
+    </div>
   </div>
 </div>
 
@@ -567,8 +1421,22 @@ const DEPARTMENTS = [
 
 let globalArticles = [];
 let currentCategory = 'ALL';
+let currentSearchKeyword = '';
 let selectedDeptFilter = '';
 let yesterdayLabel = '';
+
+// 1-2. 내 부서 관리
+let myDept = localStorage.getItem('hwaseong_my_dept') || '';
+let filterMyDeptOnly = false;
+
+// 1-3. 체크박스 선택 기사 관리
+const checkedArticleLinks = new Set();
+
+// 섹션 접힘 상태 관리
+const sectionStates = {
+  major: true, // true: 펼침, false: 접힘
+  live: true
+};
 
 // 1. news_data.json 비동기 로드
 async function loadNewsData() {
@@ -581,10 +1449,11 @@ async function loadNewsData() {
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
     
+    updateMyDeptUI();
     renderTimeline();
   } catch (err) {
     document.getElementById('updateTimeText').textContent = "오프라인";
-    document.getElementById('newsListContainer').innerHTML = `
+    document.getElementById('majorNewsList').innerHTML = `
       <div class="state-msg">
         'news_data.json' 파일이 없습니다.<br>
         터미널에서 <code>python collector.py</code>를 먼저 실행하여 데이터를 생성해 주세요.
@@ -593,81 +1462,326 @@ async function loadNewsData() {
   }
 }
 
-// 2. 타임라인 동적 렌더링 (날짜 구분선 자동 삽입)
-function renderTimeline() {
-  const container = document.getElementById('newsListContainer');
-  container.innerHTML = '';
+// 1-2. 내 부서 헤더 UI 갱신 및 토글
+function updateMyDeptUI() {
+  const wrap = document.getElementById('myDeptWrap');
+  if (!wrap) return;
 
-  let visibleCount = 0;
-  let todayCount = 0;
-  let yesterdayCount = 0;
-  let policyCount = 0;
-  let cultureCount = 0;
-  let riskCount = 0;
-
-  let hasInsertedYesterdayDivider = false;
-
-  const filtered = globalArticles.filter(item => {
-    const matchCat = (currentCategory === 'ALL') || (item.category === currentCategory);
-    const matchDept = (!selectedDeptFilter) || (item.department.includes(selectedDeptFilter));
-    return matchCat && matchDept;
-  });
-
-  filtered.forEach(item => {
-    visibleCount++;
-    if (item.date_group === 'TODAY') todayCount++;
-    if (item.date_group === 'YESTERDAY') yesterdayCount++;
-    if (item.category === 'POLICY') policyCount++;
-    if (item.category === 'CULTURE') cultureCount++;
-    if (item.category === 'RISK') riskCount++;
-
-    // 오늘 기사가 끝나고 어제 기사가 시작되는 지점에 구분선 삽입
-    if (item.date_group === 'YESTERDAY' && !hasInsertedYesterdayDivider) {
-      const divider = document.createElement('div');
-      divider.className = 'date-divider';
-      divider.innerHTML = `<span>📅 어제 보도 (${yesterdayLabel})</span>`;
-      container.appendChild(divider);
-      hasInsertedYesterdayDivider = true;
-    }
-
-    const card = createNewsCard(item);
-    container.appendChild(card);
-  });
-
-  document.getElementById('statTotal').textContent = visibleCount;
-  document.getElementById('statToday').textContent = todayCount;
-  document.getElementById('statYesterday').textContent = yesterdayCount;
-  document.getElementById('statPolicy').textContent = policyCount;
-  document.getElementById('statCulture').textContent = cultureCount;
-  document.getElementById('statRisk').textContent = riskCount;
-
-  document.getElementById('emptyNotice').style.display = (visibleCount === 0) ? 'block' : 'none';
+  if (myDept) {
+    wrap.innerHTML = `
+      <button type="button" class="my-dept-btn ${filterMyDeptOnly ? 'active' : ''}" onclick="toggleMyDeptFilter()" title="${filterMyDeptOnly ? '전체 기사 보기로 복귀' : '내 부서 기사만 모아보기'}">
+        <span class="pin-tag">내 부서</span>
+        <span>${myDept}</span>
+      </button>
+      <button type="button" class="my-dept-edit-btn" onclick="openMyDeptModal()" title="소속 부서 변경">변경</button>
+    `;
+  } else {
+    wrap.innerHTML = `
+      <button type="button" class="my-dept-btn" onclick="openMyDeptModal()" title="소속 부서를 등록하면 담당 보도를 빠르게 확인할 수 있습니다">
+        <span>내 부서 등록</span>
+      </button>
+    `;
+  }
 }
 
-// 3. 카드 엘리먼트 생성
-function createNewsCard(item) {
+function toggleMyDeptFilter() {
+  filterMyDeptOnly = !filterMyDeptOnly;
+  updateMyDeptUI();
+  renderTimeline();
+}
+
+function openMyDeptModal() {
+  const modal = document.getElementById('myDeptModal');
+  const searchInput = document.getElementById('modalDeptSearch');
+  searchInput.value = '';
+  filterModalDeptList('');
+  modal.style.display = 'flex';
+  setTimeout(() => searchInput.focus(), 50);
+}
+
+function closeMyDeptModal(e) {
+  if (e && e.target && e.target.classList && 
+      !e.target.classList.contains('modal-overlay') && 
+      !e.target.classList.contains('modal-close') && 
+      !e.target.classList.contains('modal-btn-close')) {
+    return;
+  }
+  document.getElementById('myDeptModal').style.display = 'none';
+}
+
+function filterModalDeptList(term) {
+  const listEl = document.getElementById('modalDeptList');
+  const q = (term !== undefined ? term : document.getElementById('modalDeptSearch').value).trim().toLowerCase();
+  
+  const filtered = DEPARTMENTS.filter(d => 
+    !q || d.dept.toLowerCase().includes(q) || d.bureau.toLowerCase().includes(q)
+  );
+
+  if (filtered.length === 0) {
+    listEl.innerHTML = `<li style="padding:16px;text-align:center;color:var(--muted);font-size:13px;">일치하는 부서가 없습니다.</li>`;
+    return;
+  }
+
+  listEl.innerHTML = filtered.map(d => `
+    <li class="modal-dept-item" onclick="selectMyDept('${d.dept}')">
+      <span>${d.dept}</span>
+      <small>${d.bureau}</small>
+    </li>
+  `).join('');
+}
+
+function selectMyDept(deptName) {
+  myDept = deptName;
+  localStorage.setItem('hwaseong_my_dept', deptName);
+  filterMyDeptOnly = false;
+  closeMyDeptModal();
+  updateMyDeptUI();
+  renderTimeline();
+}
+
+function clearMyDeptSetting() {
+  myDept = '';
+  localStorage.removeItem('hwaseong_my_dept');
+  filterMyDeptOnly = false;
+  closeMyDeptModal();
+  updateMyDeptUI();
+  renderTimeline();
+}
+
+// 2. 주요 뉴스 및 실시간 뉴스 렌더링
+function renderTimeline() {
+  const majorContainer = document.getElementById('majorNewsList');
+  const liveContainer = document.getElementById('liveNewsList');
+  majorContainer.innerHTML = '';
+  liveContainer.innerHTML = '';
+
+  // 통합 검색 및 내 부서 필터 판별 헬퍼
+  function matchesSearch(item) {
+    // 내 부서 모아보기 모드
+    if (filterMyDeptOnly && myDept) {
+      if (!item.department || !item.department.includes(myDept)) return false;
+    }
+    // 부서 자동완성 선택 시 정확 매칭
+    if (selectedDeptFilter) {
+      if (!item.department || !item.department.includes(selectedDeptFilter)) return false;
+    } else if (currentSearchKeyword) {
+      // 1-4. 부서명 + 핵심 키워드(제목, 요약 불릿, 관련기사 제목) 통합 검색
+      const matchDept = item.department && item.department.toLowerCase().includes(currentSearchKeyword);
+      const matchTitle = item.title && item.title.toLowerCase().includes(currentSearchKeyword);
+      const matchBullets = (item.bullets || []).some(b => b.toLowerCase().includes(currentSearchKeyword));
+      const matchRelated = (item.related_articles || []).some(r => r.title.toLowerCase().includes(currentSearchKeyword));
+      if (!(matchDept || matchTitle || matchBullets || matchRelated)) return false;
+    }
+    return true;
+  }
+
+  // 2-1. 상단 탭 버튼 내 건수 카운트 갱신 (현재 검색 조건 반영)
+  let countAll = 0;
+  let countPolicy = 0;
+  let countCulture = 0;
+  let countRisk = 0;
+
+  globalArticles.forEach(item => {
+    if (matchesSearch(item)) {
+      countAll++;
+      if (item.category === 'POLICY') countPolicy++;
+      if (item.category === 'CULTURE') countCulture++;
+      if (item.category === 'RISK') countRisk++;
+    }
+  });
+
+  document.getElementById('tabCountAll').textContent = countAll;
+  document.getElementById('tabCountPolicy').textContent = countPolicy;
+  document.getElementById('tabCountCulture').textContent = countCulture;
+  document.getElementById('tabCountRisk').textContent = countRisk;
+
+  // 현재 선택된 카테고리 탭으로 최종 필터링
+  const filtered = globalArticles.filter(item => {
+    const matchCat = (currentCategory === 'ALL') || (item.category === currentCategory);
+    return matchCat && matchesSearch(item);
+  });
+
+  // 주요 뉴스와 실시간 뉴스 분류 (is_major 또는 다수 언론사 묶음 보도)
+  const majorArticles = filtered.filter(item => item.is_major || (item.related_articles && item.related_articles.length > 0));
+  const liveArticles = filtered.filter(item => !majorArticles.includes(item));
+
+  // 1) 주요 뉴스 렌더링
+  if (majorArticles.length > 0) {
+    document.getElementById('emptyMajorNotice').style.display = 'none';
+    majorArticles.forEach(item => {
+      majorContainer.appendChild(createNewsCard(item, true));
+    });
+  } else {
+    document.getElementById('emptyMajorNotice').style.display = 'block';
+  }
+  document.getElementById('majorCountBadge').textContent = `${majorArticles.length}건`;
+
+  // 2) 실시간 뉴스 렌더링 (어제 보도 구분선 포함)
+  let hasInsertedYesterdayDivider = false;
+  if (liveArticles.length > 0) {
+    document.getElementById('emptyLiveNotice').style.display = 'none';
+    liveArticles.forEach(item => {
+      if (item.date_group === 'YESTERDAY' && !hasInsertedYesterdayDivider) {
+        const divider = document.createElement('div');
+        divider.className = 'date-divider';
+        divider.innerHTML = `<span>어제 보도 (${yesterdayLabel})</span>`;
+        liveContainer.appendChild(divider);
+        hasInsertedYesterdayDivider = true;
+      }
+      liveContainer.appendChild(createNewsCard(item, false));
+    });
+  } else {
+    document.getElementById('emptyLiveNotice').style.display = 'block';
+  }
+  document.getElementById('liveCountBadge').textContent = `${liveArticles.length}건`;
+
+  // 3) 슬림 통계 바 수치 갱신
+  document.getElementById('statTotal').textContent = filtered.length;
+  document.getElementById('statMajor').textContent = majorArticles.length;
+  document.getElementById('statLive').textContent = liveArticles.length;
+
+  // 결과 없을 시 안내 메시지
+  document.getElementById('emptyNotice').style.display = (filtered.length === 0) ? 'block' : 'none';
+
+  // 1-3. 체크박스 UI 상태 동기화
+  updateSelectionUI();
+}
+
+// 6. 보고/출력 이력 관리 (localStorage)
+function getPrintedHistory() {
+  try {
+    return JSON.parse(localStorage.getItem('hwaseong_printed_history') || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function savePrintedHistory(historyObj) {
+  try {
+    localStorage.setItem('hwaseong_printed_history', JSON.stringify(historyObj));
+  } catch (e) {}
+}
+
+function markArticlesAsPrinted(links) {
+  if (!links || links.length === 0) return;
+  const history = getPrintedHistory();
+  const now = new Date();
+  const dateStr = `${now.getFullYear()}.${String(now.getMonth() + 1).padStart(2, '0')}.${String(now.getDate()).padStart(2, '0')}`;
+  links.forEach(link => {
+    history[link] = { date: dateStr };
+  });
+  savePrintedHistory(history);
+}
+
+function toggleReportedStatus(event, link) {
+  if (event) event.stopPropagation();
+  const history = getPrintedHistory();
+  if (history[link]) {
+    delete history[link];
+  } else {
+    const now = new Date();
+    const dateStr = `${now.getFullYear()}.${String(now.getMonth() + 1).padStart(2, '0')}.${String(now.getDate()).padStart(2, '0')}`;
+    history[link] = { date: dateStr };
+  }
+  savePrintedHistory(history);
+  renderTimeline();
+}
+
+// 6. 어제 이미 보고된 기사를 제외하고 오늘 신규 기사만 1초 만에 자동 선택
+function selectUnreportedArticles() {
+  const history = getPrintedHistory();
+  const visibleChecks = document.querySelectorAll('.article-check');
+  let selectedNewCount = 0;
+
+  visibleChecks.forEach(chk => {
+    const link = chk.dataset.link;
+    const isReported = Boolean(history[link]);
+    const box = chk.closest('.news-box');
+
+    if (!isReported) {
+      chk.checked = true;
+      checkedArticleLinks.add(link);
+      if (box) box.classList.add('is-checked');
+      selectedNewCount++;
+    } else {
+      chk.checked = false;
+      checkedArticleLinks.delete(link);
+      if (box) box.classList.remove('is-checked');
+    }
+  });
+
+  updateSelectionUI();
+
+  if (selectedNewCount === 0) {
+    alert("현재 화면의 모든 기사가 이미 보고(출력) 완료된 기사입니다.");
+  }
+}
+
+// 3. 뉴스 카드 DOM 생성
+function createNewsCard(item, isMajor) {
   const isRisk = (item.category === 'RISK');
   const box = document.createElement('div');
-  box.className = `news-box ${isRisk ? 'risk-box' : ''}`;
+  const isChecked = checkedArticleLinks.has(item.link);
+  const isMyDeptArticle = (myDept && item.department && item.department.includes(myDept));
 
+  // 6. 보고/출력 완료 여부 확인
+  const history = getPrintedHistory();
+  const reportedInfo = history[item.link];
+  const isReported = Boolean(reportedInfo);
+
+  // 5. 카테고리별 클래스 부여 (좌측 컬러 바 적용: cat-policy, cat-culture, cat-risk)
+  const catClass = (item.category || 'POLICY').toLowerCase();
+
+  box.className = `news-box cat-${catClass} ${isRisk ? 'risk-box' : ''} ${isChecked ? 'is-checked' : ''} ${isMyDeptArticle ? 'is-my-dept' : ''} ${isReported ? 'is-already-reported' : ''}`;
+
+  // 상단 뱃지: 1-2. 내 부서 소관 뱃지 + 다수 언론사 보도 묶음 뱃지
+  let badgeHtml = '';
+  const badges = [];
+  if (isMyDeptArticle) {
+    badges.push(`<span class="my-dept-badge">내 부서 소관</span>`);
+  }
+  const relCount = (item.related_articles || []).length;
+  if (relCount > 0) {
+    badges.push(`<span class="cluster-badge">다수 언론사 보도 <b>(${relCount + 1}개사)</b></span>`);
+  }
+  if (badges.length > 0) {
+    badgeHtml = `<div class="card-header-badge-row">${badges.join('')}</div>`;
+  }
+
+  // 2-2. 묶음 기사: 기본 접힘(collapsed) 상태로 생성
   let subHeadHtml = '';
-  if (item.related_articles && item.related_articles.length > 0) {
+  if (relCount > 0) {
     const links = item.related_articles.map(r => `
       <li>
         <a href="${r.link}" target="_blank" rel="noopener noreferrer">
-          <span class="sub-media">[${r.media}]</span> ${r.title} ↗
+          <div style="display:flex; align-items:center; gap:6px; overflow:hidden;">
+            <span class="sub-media-tag">${r.media}</span>
+            <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${r.title}</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
+            <span class="sub-time">${r.time_label || ''}</span>
+          </div>
         </a>
       </li>
     `).join('');
 
     subHeadHtml = `
-      <div class="sub-headlines-area">
-        <span class="sub-label">동일 사안 타 언론사 보도 (${item.related_articles.length}건)</span>
+      <div class="sub-headlines-area collapsed">
+        <div class="sub-headlines-header" onclick="toggleSubHeadlines(event, this)">
+          <span class="sub-label">
+            <span>동일 사안 타 언론사 보도</span>
+            <b style="color:var(--primary); font-size:12px;">(${relCount}건)</b>
+          </span>
+          <span class="sub-toggle-btn">
+            <span class="sub-toggle-text">펼치기</span>
+          </span>
+        </div>
         <ul class="sub-headlines">${links}</ul>
       </div>
     `;
   }
 
+  // 3줄 AI 핵심 요약 (단정한 대시 불릿)
   const bullets = (item.bullets || []).map(b => {
     const text = b.replace(/^-\s*/, '');
     return `
@@ -678,32 +1792,311 @@ function createNewsCard(item) {
     `;
   }).join('');
 
-  box.innerHTML = `
-    <div class="title-row">
-      <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="main-head-link">
-        ${item.title} ↗
-      </a>
-      <div class="meta-right">
-        <span class="time-tag">${item.time_label}</span>
-        <span class="media-tag">${item.media}</span>
+  // 소관/참고 부서 판별 (본문 직접 언급 시 소관, 아니면 참고)
+  const deptLabel = item.dept_label || "소관";
+  const isPrimaryDept = (deptLabel === "소관");
+
+  // 좌측 사진 썸네일
+  let thumbHtml = '';
+  if (item.image_url && item.image_url.trim()) {
+    thumbHtml = `
+      <div class="news-thumb-col">
+        <img src="${item.image_url}" alt="보도 사진" class="news-thumb-img" onerror="this.closest('.news-thumb-col').style.display='none'">
       </div>
-    </div>
+    `;
+  }
 
-    ${subHeadHtml}
+  // 카테고리 태그
+  const catMap = {
+    'POLICY': '시정정책',
+    'CULTURE': '문화행사',
+    'RISK': '비판지적'
+  };
+  const catName = catMap[item.category] || item.category || '시정정책';
 
-    <div class="summary-bullets">
-      ${bullets}
-    </div>
+  box.innerHTML = `
+    <div class="news-content-row">
+      ${thumbHtml}
+      <div class="news-body-col">
+        ${badgeHtml}
+        <div class="title-row">
+          <div class="title-left-group">
+            <input type="checkbox" class="article-check" data-link="${item.link}" ${isChecked ? 'checked' : ''} onchange="onArticleCheckChange(this)">
+            <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="main-head-link">
+              ${item.title}
+            </a>
+          </div>
+          <div class="meta-right">
+            <span class="print-status-tag ${isReported ? 'printed' : 'unprinted'}" 
+                  onclick="toggleReportedStatus(event, '${item.link}')" 
+                  title="${isReported ? `클릭 시 미출력 상태로 변경 (출력일: ${reportedInfo.date || ''})` : '클릭 시 출력 상태로 변경'}">
+              ${isReported ? '출력' : '미출력'}
+            </span>
+            <span class="time-tag">${item.time_label}</span>
+            <span class="media-tag">${item.media}</span>
+          </div>
+        </div>
 
-    <div class="news-footer">
-      <span class="meta-dept ${isRisk ? 'risk' : ''}">소관: ${item.department}</span>
+        ${subHeadHtml}
+
+        <div class="summary-bullets">
+          ${bullets}
+        </div>
+
+        <div class="news-footer">
+          <div class="footer-left">
+            <span class="dept-type-tag ${isPrimaryDept ? 'primary' : ''}">${deptLabel}</span>
+            <span class="meta-dept ${isRisk ? 'risk' : ''}">${item.department}</span>
+          </div>
+          <div class="footer-right">
+            <span class="cat-tag ${catClass}">${catName}</span>
+          </div>
+        </div>
+      </div>
     </div>
   `;
 
   return box;
 }
 
-// 4. 카테고리 탭 전환
+// 1-3. 체크박스 개별 선택 핸들러
+function onArticleCheckChange(chkEl) {
+  const link = chkEl.dataset.link;
+  const box = chkEl.closest('.news-box');
+  if (chkEl.checked) {
+    checkedArticleLinks.add(link);
+    if (box) box.classList.add('is-checked');
+  } else {
+    checkedArticleLinks.delete(link);
+    if (box) box.classList.remove('is-checked');
+  }
+  updateSelectionUI();
+}
+
+// 1-3 & 6. 전체 선택 토글 (기 출력자료 제외 확인 팝업)
+function toggleSelectAll(masterChk) {
+  const isChecked = masterChk.checked;
+  const allArticleChecks = document.querySelectorAll('.article-check');
+  const history = getPrintedHistory();
+
+  if (!isChecked) {
+    // 체크 해제 시: 모든 기사 선택 해제
+    allArticleChecks.forEach(chk => {
+      chk.checked = false;
+      const link = chk.dataset.link;
+      const box = chk.closest('.news-box');
+      checkedArticleLinks.delete(link);
+      if (box) box.classList.remove('is-checked');
+    });
+    updateSelectionUI();
+    return;
+  }
+
+  // 체크 시: 현재 화면에 기 출력 자료가 있는지 확인
+  let reportedCount = 0;
+  let unreportedCount = 0;
+  allArticleChecks.forEach(chk => {
+    const link = chk.dataset.link;
+    if (history[link]) {
+      reportedCount++;
+    } else {
+      unreportedCount++;
+    }
+  });
+
+  // 기 출력 자료가 존재하는 경우 팝업으로 제외 여부 확인
+  let excludeReported = false;
+  if (reportedCount > 0) {
+    excludeReported = confirm("기 출력자료는 제외할까요?\n\n• [확인] : 미출력 신규 기사만 선택\n• [취소] : 기 출력자료 포함 전체 선택");
+  }
+
+  let selectedCount = 0;
+  allArticleChecks.forEach(chk => {
+    const link = chk.dataset.link;
+    const isReported = Boolean(history[link]);
+    const box = chk.closest('.news-box');
+
+    if (excludeReported && isReported) {
+      chk.checked = false;
+      checkedArticleLinks.delete(link);
+      if (box) box.classList.remove('is-checked');
+    } else {
+      chk.checked = true;
+      checkedArticleLinks.add(link);
+      if (box) box.classList.add('is-checked');
+      selectedCount++;
+    }
+  });
+
+  if (excludeReported && selectedCount === 0) {
+    alert("현재 화면에 표시된 모든 기사가 이미 출력 완료된 기사입니다.");
+  }
+
+  updateSelectionUI();
+}
+
+// 1-3 & 5. 선택 개수 및 전체선택 체크박스, 인쇄 버튼 색상 상태 동기화
+function updateSelectionUI() {
+  const visibleChecks = document.querySelectorAll('.article-check');
+  const checkedBoxes = document.querySelectorAll('.article-check:checked');
+  const badge = document.getElementById('selectedCountBadge');
+  const masterBox = document.getElementById('checkAllBox');
+  const printBtn = document.getElementById('printBtn');
+
+  if (badge) {
+    badge.textContent = `(${checkedBoxes.length})`;
+  }
+
+  // 5. 체크박스 선택 시 지금 색상(active), 미선택 시 전체선택/접기 박스와 동일한 색상
+  if (printBtn) {
+    if (checkedBoxes.length > 0) {
+      printBtn.classList.add('active');
+    } else {
+      printBtn.classList.remove('active');
+    }
+  }
+
+  if (masterBox) {
+    if (visibleChecks.length > 0 && checkedBoxes.length === visibleChecks.length) {
+      masterBox.checked = true;
+      masterBox.indeterminate = false;
+    } else if (checkedBoxes.length > 0 && checkedBoxes.length < visibleChecks.length) {
+      masterBox.checked = false;
+      masterBox.indeterminate = true;
+    } else {
+      masterBox.checked = false;
+      masterBox.indeterminate = false;
+    }
+  }
+}
+
+// 1-3 & 6. 선택 기사 인쇄 및 보고 이력 자동 저장
+function printSelectedArticles() {
+  const visibleCards = document.querySelectorAll('#majorNewsList .news-box, #liveNewsList .news-box');
+  if (visibleCards.length === 0) {
+    alert("인쇄할 기사가 없습니다.");
+    return;
+  }
+
+  const checkedCards = document.querySelectorAll('.news-box.is-checked');
+  const printTitleEl = document.getElementById('printHeaderTitle');
+
+  // 날짜 및 요일, 시간 포맷팅: [2026. 10. 23.(금) 10:05]
+  const now = new Date();
+  const days = ['일', '월', '화', '수', '목', '금', '토'];
+  const dayStr = days[now.getDay()];
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  const hh = String(now.getHours()).padStart(2, '0');
+  const min = String(now.getMinutes()).padStart(2, '0');
+  const formattedTitle = `화성시 언론보도 [${yyyy}. ${mm}. ${dd}.(${dayStr}) ${hh}:${min}]`;
+
+  if (printTitleEl) {
+    printTitleEl.textContent = formattedTitle;
+  }
+
+  // 브라우저 PDF 저장 기본 파일명도 깔끔하게 통일
+  const origDocTitle = document.title;
+  document.title = formattedTitle;
+
+  const targetLinks = [];
+
+  if (checkedCards.length === 0) {
+    const doAll = confirm(`선택된 기사가 없습니다.\n현재 화면에 표시된 모든 기사(${visibleCards.length}건)를 인쇄하시겠습니까?`);
+    if (!doAll) {
+      document.title = origDocTitle;
+      return;
+    }
+    document.body.classList.remove('print-checked-only');
+    visibleCards.forEach(c => {
+      const chk = c.querySelector('.article-check');
+      if (chk && chk.dataset.link) targetLinks.push(chk.dataset.link);
+    });
+  } else {
+    document.body.classList.add('print-checked-only');
+    checkedCards.forEach(c => {
+      const chk = c.querySelector('.article-check');
+      if (chk && chk.dataset.link) targetLinks.push(chk.dataset.link);
+    });
+  }
+
+  // 6. 출력된 기사들을 자동으로 보고 완료 이력에 등록
+  markArticlesAsPrinted(targetLinks);
+
+  window.print();
+
+  // 인쇄 완료 후 문서 제목 복원 및 화면 배지 즉시 동기화
+  setTimeout(() => {
+    document.title = origDocTitle;
+    renderTimeline();
+  }, 800);
+}
+
+// 4. 섹션 접기/펼치기 토글 함수
+function toggleSection(type) {
+  const isExpanding = !sectionStates[type];
+  sectionStates[type] = isExpanding;
+
+  const header = document.getElementById(`${type}Header`);
+  const content = document.getElementById(`${type}Content`);
+  const toggleText = document.getElementById(`${type}ToggleText`);
+
+  if (isExpanding) {
+    header.classList.remove('collapsed');
+    content.classList.remove('collapsed');
+    toggleText.textContent = "접기";
+  } else {
+    header.classList.add('collapsed');
+    content.classList.add('collapsed');
+    toggleText.textContent = "펼치기";
+  }
+
+  updateToggleAllBtn();
+}
+
+// 전체 펼치기 / 전체 접기 토글
+function toggleAllSections() {
+  const shouldExpand = (!sectionStates.major && !sectionStates.live);
+
+  ['major', 'live'].forEach(type => {
+    sectionStates[type] = shouldExpand;
+    const header = document.getElementById(`${type}Header`);
+    const content = document.getElementById(`${type}Content`);
+    const toggleText = document.getElementById(`${type}ToggleText`);
+
+    if (shouldExpand) {
+      header.classList.remove('collapsed');
+      content.classList.remove('collapsed');
+      toggleText.textContent = "접기";
+    } else {
+      header.classList.add('collapsed');
+      content.classList.add('collapsed');
+      toggleText.textContent = "펼치기";
+    }
+  });
+
+  updateToggleAllBtn();
+}
+
+function updateToggleAllBtn() {
+  const isAnyExpanded = (sectionStates.major || sectionStates.live);
+  const text = document.getElementById('toggleAllText');
+  text.textContent = isAnyExpanded ? "전체 접기" : "전체 펼치기";
+}
+
+// 5. 2-2. 타 언론사 동일 보도 묶음 아코디언 토글
+function toggleSubHeadlines(event, headerEl) {
+  if (event) event.stopPropagation();
+  const area = headerEl.closest('.sub-headlines-area');
+  const isCollapsed = area.classList.toggle('collapsed');
+  const textEl = headerEl.querySelector('.sub-toggle-text');
+  if (textEl) {
+    textEl.textContent = isCollapsed ? "펼치기" : "접기";
+  }
+}
+
+// 6. 2-1. 카테고리 탭 전환
 function switchCategory(cat, btn) {
   currentCategory = cat;
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -711,45 +2104,51 @@ function switchCategory(cat, btn) {
   renderTimeline();
 }
 
-// 5. 부서 자동완성 핸들러
-function onDeptInput() {
+// 7. 1-4. 부서명 + 키워드 통합 실시간 검색 핸들러
+function onSearchInput() {
   const input = document.getElementById('deptSearchInput');
-  const val = input.value.trim().toLowerCase();
+  const val = input.value.trim();
   const listEl = document.getElementById('autocompleteList');
   const clearBtn = document.getElementById('clearDeptBtn');
 
   clearBtn.style.display = val.length > 0 ? 'block' : 'none';
 
   if (!val) {
+    currentSearchKeyword = '';
     selectedDeptFilter = '';
     listEl.style.display = 'none';
     renderTimeline();
     return;
   }
 
-  const matched = DEPARTMENTS.filter(d => 
-    d.dept.toLowerCase().includes(val) || d.bureau.toLowerCase().includes(val)
+  currentSearchKeyword = val.toLowerCase();
+  selectedDeptFilter = ''; // 타이핑 시 자유 키워드 검색 모드로 전환
+
+  // 부서 자동완성 목록 필터링
+  const matchedDepts = DEPARTMENTS.filter(d => 
+    d.dept.toLowerCase().includes(currentSearchKeyword) || d.bureau.toLowerCase().includes(currentSearchKeyword)
   );
 
-  if (matched.length === 0) {
-    listEl.innerHTML = `<li style="padding:10px;font-size:13px;color:var(--muted);text-align:center;">일치하는 부서 없음</li>`;
+  if (matchedDepts.length > 0) {
+    listEl.innerHTML = matchedDepts.slice(0, 10).map(d => `
+      <li class="autocomplete-item" onclick="selectDepartment('${d.dept}')">
+        <span>${d.dept}</span>
+        <small>${d.bureau}</small>
+      </li>
+    `).join('');
     listEl.style.display = 'block';
-    return;
+  } else {
+    listEl.style.display = 'none';
   }
 
-  listEl.innerHTML = matched.map(d => `
-    <li class="autocomplete-item" onclick="selectDepartment('${d.dept}')">
-      <span>${d.dept}</span>
-      <small>${d.bureau}</small>
-    </li>
-  `).join('');
-  listEl.style.display = 'block';
+  renderTimeline();
 }
 
 function selectDepartment(deptName) {
   const input = document.getElementById('deptSearchInput');
   input.value = deptName;
   selectedDeptFilter = deptName;
+  currentSearchKeyword = '';
   document.getElementById('autocompleteList').style.display = 'none';
   document.getElementById('clearDeptBtn').style.display = 'block';
   renderTimeline();
@@ -759,15 +2158,36 @@ function clearDeptSearch() {
   const input = document.getElementById('deptSearchInput');
   input.value = '';
   selectedDeptFilter = '';
+  currentSearchKeyword = '';
   document.getElementById('clearDeptBtn').style.display = 'none';
   document.getElementById('autocompleteList').style.display = 'none';
   renderTimeline();
 }
 
+// 전체 필터 초기화 (타이틀 클릭 시)
+function resetAllFilters() {
+  currentCategory = 'ALL';
+  currentSearchKeyword = '';
+  selectedDeptFilter = '';
+  filterMyDeptOnly = false;
+  const input = document.getElementById('deptSearchInput');
+  if (input) input.value = '';
+  const clearBtn = document.getElementById('clearDeptBtn');
+  if (clearBtn) clearBtn.style.display = 'none';
+  const listEl = document.getElementById('autocompleteList');
+  if (listEl) listEl.style.display = 'none';
+  document.querySelectorAll('.tab-btn').forEach((b, idx) => {
+    b.classList.toggle('active', idx === 0);
+  });
+  updateMyDeptUI();
+  renderTimeline();
+}
+
 document.addEventListener('click', function(e) {
   const box = document.querySelector('.dept-search-box');
-  if (!box.contains(e.target)) {
-    document.getElementById('autocompleteList').style.display = 'none';
+  if (box && !box.contains(e.target)) {
+    const listEl = document.getElementById('autocompleteList');
+    if (listEl) listEl.style.display = 'none';
   }
 });
 

@@ -10,7 +10,20 @@ from bs4 import BeautifulSoup
 from google import genai
 import requests
 
-# 1. 환경변수 확인
+# 1. 환경변수 및 .env 파일 로드
+def load_env_file():
+    env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    if os.path.exists(env_path):
+        with open(env_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    if k.strip() not in os.environ:
+                        os.environ[k.strip()] = v.strip()
+
+load_env_file()
+
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 NAVER_CLIENT_ID = os.environ.get("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET = os.environ.get("NAVER_CLIENT_SECRET")
@@ -95,19 +108,35 @@ def parse_pub_date(date_str):
         return datetime.now(timezone(timedelta(hours=9)))
 
 
-def scrape_full_body(url):
-    """국내 지역 언론사 CMS 대응 정밀 본문 스크래퍼"""
+def scrape_full_body_and_image(url):
+    """국내 지역 언론사 CMS 대응 정밀 본문 및 대표 사진 스크래퍼"""
     if not url:
-        return ""
+        return "", ""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
     try:
-        res = requests.get(url, headers=headers, timeout=4)
+        res = requests.get(url, headers=headers, timeout=5)
         if not res.ok:
-            return ""
+            return "", ""
         res.encoding = res.apparent_encoding
         soup = BeautifulSoup(res.text, "html.parser")
+
+        # 1. 대표 사진 추출 (og:image, twitter:image 등)
+        image_url = ""
+        og_img = (
+            soup.find("meta", property="og:image")
+            or soup.find("meta", attrs={"name": "og:image"})
+            or soup.find("meta", attrs={"name": "twitter:image"})
+            or soup.find("meta", attrs={"name": "image"})
+        )
+        if og_img and og_img.get("content"):
+            content = og_img["content"].strip()
+            if content.startswith("/"):
+                content = urllib.parse.urljoin(url, content)
+            # 로고나 파비콘, 빈 이미지 제외
+            if content.startswith("http") and not any(kw in content.lower() for kw in ["logo", "favicon", "icon", "blank", "default", "noimage", "sporbiz_logo", "ico_"]):
+                image_url = content
 
         # 광고 및 불필요한 태그 제거
         for tag in soup(["script", "style", "nav", "header", "footer", "aside", "iframe", "form"]):
@@ -126,18 +155,34 @@ def scrape_full_body(url):
             or soup.find("article")
         )
 
+        # og:image가 없거나 부적합했던 경우 본문 첫 번째 이미지 fallback
+        if not image_url:
+            search_area = body_container if body_container else soup
+            for img in search_area.find_all("img"):
+                src = img.get("src") or img.get("data-src") or ""
+                if src.startswith("/"):
+                    src = urllib.parse.urljoin(url, src)
+                if src.startswith("http") and any(ext in src.lower() for ext in [".jpg", ".jpeg", ".png", ".webp"]):
+                    if not any(kw in src.lower() for kw in ["logo", "icon", "banner", "skin", "btn", "arrow", "ico_"]):
+                        image_url = src
+                        break
+
+        body_text = ""
         if body_container:
             text = body_container.get_text(separator=" ", strip=True)
             if len(text) > 80:
-                return text[:2000]
+                body_text = text[:2000]
 
         # 문단 태그 폴백
-        paras = [p.get_text(strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 20]
-        if paras:
-            return " ".join(paras)[:2000]
+        if not body_text:
+            paras = [p.get_text(strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 20]
+            if paras:
+                body_text = " ".join(paras)[:2000]
+
+        return body_text, image_url
     except Exception:
         pass
-    return ""
+    return "", ""
 
 
 def rule_match_department(title, text):
@@ -162,26 +207,57 @@ def rule_match_department(title, text):
     return "화성시 소관부서 확인중"
 
 
+def is_candidate_hwaseong_news(title, content):
+    """
+    화성시정 핵심 기사 여부 1차 고속 필터링:
+    본문 1~2회 단순 지명 언급, 타 지자체 중심 기사, 전국 거시경제/증시 기사를 사전에 엄격 배제
+    """
+    clean_t = title.strip()
+    full_text = f"{clean_t} {content}"
+
+    # 1. 전국 거시경제 / 증시 / 환율 / 유가 단순 통계 기사 배제
+    macro_keywords = ["[오늘의 이슈]", "코스피", "코스닥", "원·달러", "국제유가", "뉴욕증시", "증시", "원화", "기준금리", "주가 3%", "환율"]
+    if any(mk in clean_t for mk in macro_keywords) and ("화성" not in clean_t):
+        return False, "거시경제/증시 단순 기사"
+
+    # 2. 타 지자체 중심 기사 배제 (제목에 타 지자체명이 주어로 나오고 화성은 없는 경우)
+    other_cities = ["용인", "수원", "고양", "평택", "성남", "안산", "오산", "남양주", "의정부", "포천", "동두천", "양주", "부천", "광명", "이천", "안성"]
+    for city in other_cities:
+        if city in clean_t and ("화성" not in clean_t):
+            hwaseong_count = full_text.count("화성")
+            if hwaseong_count <= 2:
+                return False, f"타 지자체({city}) 중심 기사 (화성 단순 1~2회 언급)"
+
+    # 3. 제목에 화성이 없으면서 본문 내 '화성' 단어 언급 빈도가 2회 이하인 기사 배제
+    if "화성" not in clean_t:
+        hwaseong_count = full_text.count("화성")
+        if hwaseong_count <= 2:
+            return False, f"화성시 단순 1~2회 스쳐가는 언급 (언급 {hwaseong_count}회)"
+
+    return True, "통과"
+
+
 def analyze_with_gemini(client, title, content, rule_dept):
     """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 요약"""
     prompt = f"""당신은 화성시청 언론홍보 및 리스크 분석 수석 실무관입니다.
-아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 검증하고 JSON으로 출력하십시오.
+아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 엄격히 검증하고 JSON으로 출력하십시오.
 
 [기사 제목]: {title}
 [기사 내용]:
 {content}
 [1차 추천 소관부서]: {rule_dept}
 
-[작업 지침]
-1. is_hwaseong_news (화성시정 핵심 관련성 판별 - true 또는 false):
+[작업 지침 - 매우 엄격한 화성시정 핵심 관련성 검증]
+1. is_hwaseong_news (반드시 true 또는 false):
    - [반드시 true로 판별할 조건]:
-     * 기사의 '주된 보도 대상(핵심 주제)'이 화성시(시청, 시장, 시의회, 시의장, 산하기관, 관내 사업소 등)의 고유 정책, 자체 추진 사업, 직접 주최/주관 행사, 관내 주요 현안 및 사건사고인 경우.
-     * 기사 분량의 절반 이상이 화성시의 행정과 시민에 초점을 맞추고 있는 경우.
+     * 기사의 '주된 보도 대상(핵심 주제)'이 화성시(시청, 시장, 시의회, 산하기관, 관내 사업소 등)의 고유 정책, 자체 추진 사업, 직접 주최 행사, 관내 주요 현안 및 중대 사건사고인 경우.
+     * 기사 분량의 대부분이 화성시의 행정과 시민에 초점을 맞추고 있는 경우.
 
-   - [반드시 false로 제외할 조건 - 엄격 적용]:
-     * 타 지자체/타 기관 중심 기사의 단순 참석: 타 시·군·구(예: 용인시의회, 수원시, 평택시 등)나 경기도, 협의체 회의에서 화성시장·화성시의장 등이 단순 참석자/내빈으로 1~2줄 언급된 경우 (예: "용인시의회 정례회에 화성시의장 참석", "경기도 시장군수협의회 참석").
-     * 광역/전국 지자체 단순 나열: 도청이나 중앙부처 기사에서 경기도 내 여러 시·군 목록 중 하나로 '화성시'가 곁가지로 나열된 경우.
-     * 거시경제 및 단순 지명 통계: 전국 증시/환율, 거시경제 분석, 전국 아파트 분양/시세 통계 기사에서 '화성 사업장', '화성시 OO구' 등이 단순 예시나 수치로 1회 스쳐 지나간 경우.
+   - [반드시 false로 엄격 제외할 조건 - 예외 없음]:
+     * 본문에 '화성'이나 '화성시'가 1~2회 단순 참석, 내빈 나열, 타 지자체 경유 등으로 스쳐 지나간 기사 (예: 타 지자체 의회나 협의회 행사에 화성시 관계자가 단순 참석한 기사).
+     * 거시경제, 전국 증시, 환율, 금리, 전국 부동산 아파트 분양/시세 통계 기사에서 '화성 사업장', '화성시 반송동' 등이 단순 수치나 지명 예시로 1줄 언급된 경우.
+     * 전국 지자체 목록 중 하나로 화성시가 곁가지로 나열된 기사.
+     * 기사의 주어와 주된 내용이 화성시정이 아닌 기사.
 
 2. category (is_hwaseong_news가 true일 때만 유효):
    - RISK: 시정 비판, 비리/의혹, 수사/감사 적발, 집단 민원 갈등, 대형 안전/환경 사고.
@@ -212,7 +288,7 @@ def analyze_with_gemini(client, title, content, rule_dept):
         )
         if response and response.text:
             data = json.loads(response.text.strip())
-            is_valid = data.get("is_hwaseong_news", True)
+            is_valid = data.get("is_hwaseong_news", False)
             return (
                 is_valid,
                 data.get("category", "POLICY"),
@@ -222,12 +298,82 @@ def analyze_with_gemini(client, title, content, rule_dept):
     except Exception as e:
         print(f"Gemini 호출 에러 ({title[:20]}): {e}")
 
-    # Fallback
-    return True, "POLICY", rule_dept, [
+    # Fallback: 제목에 '화성'이 명시되어 있지 않으면 무관한 기사로 탈락
+    is_fallback_valid = ("화성" in title)
+    return is_fallback_valid, "POLICY", rule_dept, [
         f"- {title}",
         f"- {content[:120]}...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
     ]
+
+
+STOPWORDS = {
+    "화성", "화성시", "화성특례시", "특례시", "경기도", "오늘", "어제", "내일", 
+    "개최", "열려", "열린다", "추진", "진행", "발표", "계획", "마련", "위한", 
+    "본격", "종합", "사업", "지원", "대응", "참석", "논의", "기자", "뉴스", 
+    "보도", "시정", "시장", "시의회", "의장", "의원", "관내", "일원", "통해"
+}
+
+
+def extract_meaningful_tokens(text):
+    """특수문자 제거 후 2글자 이상의 의미 있는 토큰 추출"""
+    tokens = re.findall(r"[a-zA-Z0-9가-힣]{2,}", text)
+    return [t for t in tokens if t not in STOPWORDS]
+
+
+def calculate_title_similarity(title1, title2):
+    """
+    기사 제목 간 유사도 계산 (0.0 ~ 1.0)
+    1. 고유 키워드(영문/숫자/고유명사) 매칭
+    2. 토큰 자카드 유사도
+    3. 문자 2-gram(바이그램) 자카드 유사도
+    """
+    tokens1 = set(extract_meaningful_tokens(title1))
+    tokens2 = set(extract_meaningful_tokens(title2))
+    if not tokens1 or not tokens2:
+        return 0.0
+
+    common_tokens = tokens1 & tokens2
+    all_tokens = tokens1 | tokens2
+    token_jaccard = len(common_tokens) / len(all_tokens)
+
+    # 영문/숫자/3글자 이상 고유 토큰이 겹치는지 확인
+    specific_matches = [
+        t for t in common_tokens 
+        if re.search(r"[0-9a-zA-Z]", t) or len(t) >= 3 or t in {"미호", "트램", "화옹", "봉담", "동탄", "전곡항", "코리봇", "군공항", "아리셀", "체전"}
+    ]
+
+    # 문자 bi-gram 유사도
+    c1 = re.sub(r"[^\w]", "", title1)
+    c2 = re.sub(r"[^\w]", "", title2)
+    bg1 = set(c1[i:i+2] for i in range(len(c1)-1))
+    bg2 = set(c2[i:i+2] for i in range(len(c2)-1))
+    bg_jaccard = len(bg1 & bg2) / len(bg1 | bg2) if (bg1 and bg2) else 0.0
+
+    if len(specific_matches) >= 2 and bg_jaccard >= 0.18:
+        return 0.85
+    if len(specific_matches) >= 1 and (token_jaccard >= 0.30 or bg_jaccard >= 0.30):
+        return 0.75
+
+    return (token_jaccard * 0.5) + (bg_jaccard * 0.5)
+
+
+def find_matching_article(title, articles, min_score=0.45):
+    """이미 수집된 기사 중 동일 사안(클러스터 대상) 탐색"""
+    best_match = None
+    best_score = 0.0
+    for art in articles:
+        score = calculate_title_similarity(title, art["title"])
+        for rel in art.get("related_articles", []):
+            rel_score = calculate_title_similarity(title, rel["title"])
+            if rel_score > score:
+                score = rel_score
+        if score > best_score:
+            best_score = score
+            best_match = art
+    if best_score >= min_score:
+        return best_match
+    return None
 
 
 def fetch_news():
@@ -270,7 +416,6 @@ def main():
     yesterday_date = today_date - timedelta(days=1)
 
     processed_articles = []
-    seen_titles = set()
 
     for item in raw_items:
         pub_dt = parse_pub_date(item.get("pubDate", ""))
@@ -284,20 +429,43 @@ def main():
         link = item.get("originallink", "") or item.get("link", "")
         media = extract_media_name(item.get("link", ""), item.get("originallink", ""))
 
-        # 중복 제목 단순 스킵
-        core_title = re.sub(r"[^\w]", "", title)[:18]
-        if core_title in seen_titles:
-            continue
-        seen_titles.add(core_title)
+        is_today = (item_date == today_date)
+        time_label = f"오늘 {pub_dt.strftime('%H:%M')}" if is_today else f"어제 {pub_dt.strftime('%H:%M')}"
+        date_group = "TODAY" if is_today else "YESTERDAY"
 
-        # 1. 기사 본문 추출 (실패 시 description 대체)
-        scraped_text = scrape_full_body(link)
+        # 동일 사안 클러스터링 검사 (다른 언론사가 시차를 두고 올린 동일/유사 기사 묶음)
+        matched_art = find_matching_article(title, processed_articles, min_score=0.45)
+        if matched_art:
+            is_dup = any(r.get("link") == link or r.get("title") == title for r in matched_art.get("related_articles", []))
+            if matched_art.get("link") == link or matched_art.get("title") == title:
+                is_dup = True
+            if not is_dup:
+                matched_art["related_articles"].append({
+                    "title": title,
+                    "link": link,
+                    "media": media,
+                    "time_label": time_label,
+                    "pub_timestamp": pub_dt.isoformat()
+                })
+                # 다수 언론사가 집중 보도한 사안 -> 주요 뉴스로 승격!
+                matched_art["is_major"] = True
+                print(f"   -> [클러스터링 묶음] '{matched_art['title'][:16]}...' 기사에 [{media}] 동일 사안 연결 (총 {len(matched_art['related_articles'])}건)")
+            continue
+
+        # 1. 기사 본문 및 대표 이미지 추출 (실패 시 description 대체)
+        scraped_text, article_img = scrape_full_body_and_image(link)
         article_content = scraped_text if len(scraped_text) > 80 else desc
 
-        # 2. 1차 부서 매칭
+        # 2. 화성시정 핵심 기사 1차 고속 필터링 (단순 1~2회 지명 언급, 타 지자체 중심, 증시/환율 배제)
+        is_candidate, filter_reason = is_candidate_hwaseong_news(title, article_content)
+        if not is_candidate:
+            print(f"   -> [사전 제외] {filter_reason}: {title[:22]}")
+            continue
+
+        # 3. 1차 부서 매칭
         rule_dept = rule_match_department(title, article_content)
 
-        # 3. Gemini 실무 요약 및 판별
+        # 4. Gemini 실무 요약 및 판별
         print(f"분석 중: {title[:25]}...")
         is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
 
@@ -306,9 +474,13 @@ def main():
             print(f"   -> [제외] 화성시정 무관 기사 필터링: {title[:20]}")
             continue
 
-        is_today = (item_date == today_date)
-        time_label = f"오늘 {pub_dt.strftime('%H:%M')}" if is_today else f"어제 {pub_dt.strftime('%H:%M')}"
-        date_group = "TODAY" if is_today else "YESTERDAY"
+        # 소관 vs 참고 부서 판별 (기사 본문에 해당 부서가 직접 언급되어 있으면 '소관', 아니면 '참고')
+        dept_short_name = dept.split()[-1] if dept else ""
+        is_mentioned = bool(dept_short_name and (dept_short_name in article_content or (dept and dept in article_content)))
+        dept_label = "소관" if is_mentioned else "참고"
+
+        # 주요 뉴스 판별 (비판/리스크 기사는 기본 주요 뉴스로 등록)
+        is_major = (cat == "RISK")
 
         processed_articles.append({
             "title": title,
@@ -316,11 +488,14 @@ def main():
             "media": media,
             "category": cat,
             "department": dept,
+            "dept_label": dept_label,
             "date_group": date_group,
             "time_label": time_label,
             "pub_timestamp": pub_dt.isoformat(),
             "bullets": bullets,
-            "related_articles": []
+            "related_articles": [],
+            "is_major": is_major,
+            "image_url": article_img
         })
 
         if len(processed_articles) >= 25:
@@ -328,11 +503,16 @@ def main():
 
     # 통계 집계
     now_str = now_kst.strftime("%Y.%m.%d. %H:%M")
+    major_count = sum(1 for a in processed_articles if a.get("is_major", False))
+    live_count = len(processed_articles) - major_count
+
     result_data = {
         "updated_at": now_str,
         "yesterday_label": yesterday_date.strftime("%m.%d"),
         "stats": {
             "total": len(processed_articles),
+            "major_count": major_count,
+            "live_count": live_count,
             "today_count": sum(1 for a in processed_articles if a["date_group"] == "TODAY"),
             "yesterday_count": sum(1 for a in processed_articles if a["date_group"] == "YESTERDAY"),
             "policy": sum(1 for a in processed_articles if a["category"] == "POLICY"),
@@ -345,23 +525,8 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
-    print(f">> 완료: 총 {len(processed_articles)}건 분석 및 news_data.json 저장 성공")
-        # collector.py 내부
-dept_short_name = dept.split()[-1]  # 예: '문화관광국 관광진흥과' -> '관광진흥과'
+    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건) 및 news_data.json 저장 성공")
 
-# 본문에 부서명이 직접 언급되었는지 판별
-if dept_short_name in article_content:
-    dept_label = "소관"       # 또는 "소관부서"
-else:
-    dept_label = "참고"       # 또는 "참고부서"
-
-# processed_articles에 함께 저장
-processed_articles.append({
-    ...
-    "department": dept,
-    "dept_label": dept_label,  # "소관" 또는 "참고"
-    ...
-})
 
 if __name__ == "__main__":
     main()
