@@ -3,12 +3,19 @@ import html
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 from google import genai
 import requests
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 # 1. 환경변수 및 .env 파일 로드
 def load_env_file():
@@ -236,11 +243,16 @@ def is_candidate_hwaseong_news(title, content):
         if hwaseong_count <= 2:
             return False, f"화성시 단순 1~2회 스쳐가는 언급 (언급 {hwaseong_count}회)"
 
+    # 4. 민간 아파트 분양/청약/견본주택 홍보 기사 사전 배제 (Gemini 호출 비용 원천 차단)
+    ad_keywords = ["견본주택", "모델하우스", "청약", "입주자 모집", "시그니처", "롯데캐슬", "오피스텔 분양", "재건축 수주전"]
+    if any(ak in clean_t for ak in ad_keywords) and not any(pk in clean_t for pk in ["공공임대", "LH", "시의회", "정명근"]):
+        return False, "민간 아파트 분양/청약 홍보 기사"
+
     return True, "통과"
 
 
 def analyze_with_gemini(client, title, content, rule_dept):
-    """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 요약"""
+    """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 요약 (기사 본문 전체 정밀 분석)"""
     prompt = f"""당신은 화성시청 언론홍보 및 리스크 분석 수석 실무관입니다.
 아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 엄격히 검증하고 JSON으로 출력하십시오.
 
@@ -484,14 +496,24 @@ def main():
     today_date = now_kst.date()
     yesterday_date = today_date - timedelta(days=1)
 
-    # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지용)
+    # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지 및 Gemini API 캐시 재활용)
     existing_sent_links = set()
+    existing_articles_map = {}
+    existing_title_map = {}
     if os.path.exists("news_data.json"):
         try:
             with open("news_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
                 for old_art in old_data.get("articles", []):
-                    existing_sent_links.add(old_art.get("link"))
+                    old_link = old_art.get("link")
+                    old_title = re.sub(r"[^\w가-힣]", "", old_art.get("title", ""))
+                    if old_link:
+                        existing_sent_links.add(old_link)
+                    if old_art.get("bullets"):
+                        if old_link:
+                            existing_articles_map[old_link] = old_art
+                        if old_title:
+                            existing_title_map[old_title] = old_art
         except Exception as e:
             print(f"기존 news_data.json 로드 참고: {e}")
 
@@ -530,6 +552,31 @@ def main():
                 # 다수 언론사가 집중 보도한 사안 -> 주요 뉴스로 승격!
                 matched_art["is_major"] = True
                 print(f"   -> [클러스터링 묶음] '{matched_art['title'][:16]}...' 기사에 [{media}] 동일 사안 연결 (총 {len(matched_art['related_articles'])}건)")
+            continue
+
+        # ★ [비용 90% 절감 캐시] 이미 분석된 기사는 본문 스크래핑 및 Gemini 호출을 아예 건너뛰고 기존 분석 결과 즉시 재활용!
+        clean_t = re.sub(r"[^\w가-힣]", "", title)
+        cached = existing_articles_map.get(link) or existing_title_map.get(clean_t)
+        if cached:
+            processed_articles.append({
+                "title": title,
+                "link": link,
+                "media": media,
+                "category": cached.get("category", "POLICY"),
+                "department": cached.get("department", "공보실"),
+                "dept_label": cached.get("dept_label", "참고"),
+                "date_group": date_group,
+                "time_label": time_label,
+                "pub_timestamp": pub_dt.isoformat(),
+                "bullets": cached.get("bullets", []),
+                "related_articles": cached.get("related_articles", []),
+                "is_major": cached.get("is_major", False),
+                "image_url": cached.get("image_url", ""),
+                "telegram_sent": True
+            })
+            print(f"   -> [API 캐시 재활용 (비용 0원)] {title[:20]}...")
+            if len(processed_articles) >= 25:
+                break
             continue
 
         # 1. 기사 본문 및 대표 이미지 추출 (실패 시 description 대체)
