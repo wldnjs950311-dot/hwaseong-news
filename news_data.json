@@ -44,7 +44,8 @@
         }
       ],
       "is_major": true,
-      "image_url": "https://cdn.weeklytoday.com/news/thumbnail/202610/799256_993607_5111_v150.jpg"
+      "image_url": "https://cdn.weeklytoday.com/news/thumbnail/202610/799256_993607_5111_v150.jpg",
+      "telegram_sent": true
     },
     {
       "title": "'라보엠' 공연 한달 앞두고 화성아트홀 전석 매진...라벨라오페라단의 ...",
@@ -63,7 +64,8 @@
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1417749_1596772_4423_v150.jpg"
+      "image_url": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1417749_1596772_4423_v150.jpg",
+      "telegram_sent": true
     },
     {
       "title": "화성시, 지질공원 해설·교육콘텐츠 우수성 입증",
@@ -82,7 +84,8 @@
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://img1.newsis.com/2026/10/23/NISI20261023_0002271566_web.jpg"
+      "image_url": "https://img1.newsis.com/2026/10/23/NISI20261023_0002271566_web.jpg",
+      "telegram_sent": true
     },
     {
       "title": "화성시문화관광재단, 한수민 작가 '연(蓮)의 시간' 개최",
@@ -101,7 +104,8 @@
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202610/2483711_1328973_193_v150.jpg"
+      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202610/2483711_1328973_193_v150.jpg",
+      "telegram_sent": true
     },
     {
       "title": "정명근 화성시장, 화성 지질유산 교육·관광 자원으로 키운다…전국 경...",
@@ -120,7 +124,8 @@
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32471_35464_472_v150.jpg"
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32471_35464_472_v150.jpg",
+      "telegram_sent": true
     },
     {
       "title": "화성시 동탄구보건소, 아빠도 함께하는 육아교육…영아 발달·부부 출산...",
@@ -139,7 +144,8 @@
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32470_35463_3242_v150.jpg"
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32470_35463_3242_v150.jpg",
+      "telegram_sent": true
     }
   ]
 }

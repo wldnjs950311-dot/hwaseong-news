@@ -27,6 +27,8 @@ load_env_file()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 NAVER_CLIENT_ID = os.environ.get("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET = os.environ.get("NAVER_CLIENT_SECRET")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 # 2. 부서 매핑 룰 ('특례시' 단독 키워드 제거 및 실무 핵심어 보강)
 DEPT_RULES = [
@@ -395,7 +397,74 @@ def fetch_news():
             return res.json().get("items", [])
     except Exception as e:
         print(f"네이버 수집 에러: {e}")
-    return []
+def send_telegram_alert(article):
+    """신규 기사를 단정하고 품격 있는 포맷으로 텔레그램 봇으로 전송"""
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        return False
+
+    cat_map = {
+        "POLICY": "시정정책",
+        "CULTURE": "문화행사",
+        "RISK": "비판지적"
+    }
+    cat_name = cat_map.get(article.get("category"), "시정정책")
+    sec_title = "화성시 주요뉴스" if article.get("is_major") else "화성시 실시간뉴스"
+    dept_label = article.get("dept_label", "참고")
+    dept = article.get("department", "공보실")
+    media = article.get("media", "언론사")
+    time_lbl = article.get("time_label", "")
+
+    # 3줄 핵심 요약 정리 (대시 불릿 형태)
+    bullets = article.get("bullets", [])
+    clean_bullets = "\n".join([f"- {html.escape(b.lstrip('- ').lstrip('• '))}" for b in bullets])
+
+    # 다수 언론사 보도 묶음 안내
+    related = article.get("related_articles", [])
+    cluster_text = f"\n다수 언론사 보도: 총 {len(related) + 1}개사 집중 보도" if related else ""
+
+    caption = (
+        f"<b>[{sec_title} | {cat_name}]</b>\n"
+        f"<a href=\"{article['link']}\"><b>{html.escape(article['title'])}</b></a>\n\n"
+        f"{clean_bullets}\n\n"
+        f"소관: {dept_label} {dept} | {media} ({time_lbl}){cluster_text}"
+    )
+
+    img_url = article.get("image_url")
+    sent = False
+
+    # 1. 보도 사진이 있는 경우 사진과 함께 캡션으로 전송
+    if img_url:
+        try:
+            photo_url = f"https://api.telegram.org/bot{token}/sendPhoto"
+            res = requests.post(photo_url, json={
+                "chat_id": chat_id,
+                "photo": img_url,
+                "caption": caption,
+                "parse_mode": "HTML"
+            }, timeout=10).json()
+            if res.get("ok"):
+                sent = True
+        except Exception as e:
+            print(f"   [텔레그램] sendPhoto 예외: {e}")
+
+    # 2. 사진이 없거나 sendPhoto 실패 시 일반 메시지로 fallback 전송
+    if not sent:
+        try:
+            msg_url = f"https://api.telegram.org/bot{token}/sendMessage"
+            res = requests.post(msg_url, json={
+                "chat_id": chat_id,
+                "text": caption,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": False
+            }, timeout=10).json()
+            if res.get("ok"):
+                sent = True
+        except Exception as e:
+            print(f"   [텔레그램] sendMessage 예외: {e}")
+
+    return sent
 
 
 def main():
@@ -414,6 +483,17 @@ def main():
     now_kst = datetime.now(kst)
     today_date = now_kst.date()
     yesterday_date = today_date - timedelta(days=1)
+
+    # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지용)
+    existing_sent_links = set()
+    if os.path.exists("news_data.json"):
+        try:
+            with open("news_data.json", "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                for old_art in old_data.get("articles", []):
+                    existing_sent_links.add(old_art.get("link"))
+        except Exception as e:
+            print(f"기존 news_data.json 로드 참고: {e}")
 
     processed_articles = []
 
@@ -500,6 +580,30 @@ def main():
 
         if len(processed_articles) >= 25:
             break
+
+    # 신규 기사 텔레그램 알림 자동 발송 (새로 수집된 기사만 선별 전송)
+    telegram_enabled = bool(os.environ.get("TELEGRAM_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+    new_sent_count = 0
+
+    for art in processed_articles:
+        link = art.get("link")
+        # 이미 이전 실행에서 수집/전송된 기사는 건너뜀
+        if link in existing_sent_links:
+            art["telegram_sent"] = True
+            continue
+
+        if telegram_enabled:
+            print(f">> [텔레그램 신규 기사 발송] {art['title'][:25]}...")
+            success = send_telegram_alert(art)
+            art["telegram_sent"] = success
+            if success:
+                new_sent_count += 1
+                time.sleep(1)  # 텔레그램 API 호출 제한 준수
+        else:
+            art["telegram_sent"] = False
+
+    if telegram_enabled:
+        print(f">> 텔레그램 알림: 총 {new_sent_count}건의 신규 기사 발송 완료")
 
     # 통계 집계
     now_str = now_kst.strftime("%Y.%m.%d. %H:%M")
