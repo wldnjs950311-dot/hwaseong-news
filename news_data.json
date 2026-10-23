@@ -1,43 +1,130 @@
 {
-  "updated_at": "2026.10.23. 20:00",
-  "yesterday_label": "10.22",
+  "updated_at": "2026.10.24. 06:00",
+  "yesterday_label": "10.23",
   "stats": {
-    "total": 14,
-    "major_count": 5,
-    "live_count": 9,
-    "today_count": 14,
-    "yesterday_count": 0,
-    "policy": 13,
+    "total": 15,
+    "major_count": 2,
+    "live_count": 13,
+    "today_count": 1,
+    "yesterday_count": 14,
+    "policy": 15,
     "culture": 0,
-    "risk": 1
+    "risk": 0
   },
   "articles": [
     {
-      "title": "화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대",
-      "link": "https://www.etoday.co.kr/news/view/2639606",
+      "title": "'반도체 메가 벨트' 용인·화성, 연계 교통망 구축",
+      "link": "https://www.ytn.co.kr/_ln/0115_202610240315014016",
       "media": "언론사",
       "category": "POLICY",
-      "department": "자치행정국 행정지원과",
+      "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 19:58",
-      "pub_timestamp": "2026-10-23T19:58:00+09:00",
+      "time_label": "오늘 03:15",
+      "pub_timestamp": "2026-10-24T03:15:00+09:00",
       "bullets": [
-        "- 화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대",
-        "- 이투데이 문화·라이프 일반 화성 시민 37명이 만드는 창작오페라 '왕의 별'…24일 첫 무대 입력 2026-10-23 19:57 김재은 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! 북마크 되었습니...",
+        "- '반도체 메가 벨트' 용인·화성, 연계 교통망 구축",
+        "- 대한민국 반도체 산업의 핵심 거점인 용인시와 화성시가 두 지역을 연결하는 대규모 교통망 구축에 손을... [기자] 경기 용인시 남사읍과 화성시 동탄 신동을 연결하는 도로 예정지입니다. 용인시와 화성시가 두 지역을.....",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://image.ytn.co.kr/general/jpg/2026/1024/202610240315014016_t.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시·샘 리처드·56개 기업 한자리에…글로벌 AI 엑스포 'MARS 202...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3731116",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 21:00",
+      "pub_timestamp": "2026-10-23T21:00:00+09:00",
+      "bullets": [
+        "- 화성특례시·샘 리처드·56개 기업 한자리에…글로벌 AI 엑스포 'MARS 202...",
+        "- 우주·모빌리티·산업·도시·일상 5대 AI 생태계 혁신 기술 선보여 샘 리처드 교수 기조연설 및 56개 기업 참여 대규모 전시 진행 화성시, AI 행정 성과와 미래 비전 전 세계에 알릴 계획 『MARS 2026』 포스...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [
         {
-          "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
-          "link": "http://www.osen.co.kr/article/G1112897322",
+          "title": "정명근, 'MARS 2026'으로 글로벌 AI 도시 도약… 우주항공부터 행정 혁신...",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003278105&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
           "media": "언론사",
-          "time_label": "오늘 18:15",
-          "pub_timestamp": "2026-10-23T18:15:00+09:00"
+          "time_label": "어제 17:31",
+          "pub_timestamp": "2026-10-23T17:31:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, ‘AI CITY 화성’ 세계에 알린다…MARS 2026 글로벌 무...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026102316512924444c878f8fa1_30",
+          "media": "언론사",
+          "time_label": "어제 17:14",
+          "pub_timestamp": "2026-10-23T17:14:00+09:00"
         }
       ],
       "is_major": true,
-      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023195613_2406281_1079_1637.jpg",
+      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202610/3731116_3909347_2633_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "월남전참전자회 화성시지회 해외파병용사의 날 기념식",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079957",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "돌봄복지국 복지정책과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 20:50",
+      "pub_timestamp": "2026-10-23T20:50:00+09:00",
+      "bullets": [
+        "- 월남전참전자회 화성시지회 해외파병용사의 날 기념식",
+        "- 유공자 표창·결의문 낭독 진행… 해외파병 장병 공헌 기려 월남전참전자회 화성시지회 회원들이 ‘제4회 해외파병용사의 날 기념식’에서 주먹을 들어 힘찬 결의를 다지고 있다. 화성시 제공 [뉴스클레임] 월남전참전자회 화성...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079957_122356_5225_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 동탄8동 민관경 합동순찰로 골목길 안전 점검",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079958",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "자치행정국 시민협력과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 20:50",
+      "pub_timestamp": "2026-10-23T20:50:00+09:00",
+      "bullets": [
+        "- 화성 동탄8동 민관경 합동순찰로 골목길 안전 점검",
+        "- 경찰·구청·자율방범대 등 40여 명 참여해 학교 주변과 주택가 순찰 동탄8동 민·관·경 합동순찰 참여자들이 안전한 마을 조성을 다짐하며 기념촬영을 하고 있다. 화성시 제공 [뉴스클레임] 화성특례시 동탄구 동탄8동은 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079958_122357_112_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장]",
+      "link": "https://www.etoday.co.kr/news/view/2639607",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "자치행정국 행정지원과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 20:02",
+      "pub_timestamp": "2026-10-23T20:02:00+09:00",
+      "bullets": [
+        "- 화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장]",
+        "- 이투데이 문화·라이프 공연/출판 화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장] 입력 2026-10-23 20:00 장영준 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023195747_2406282_650_366.jpg",
       "telegram_sent": true
     },
     {
@@ -47,8 +134,8 @@
       "category": "POLICY",
       "department": "문화관광국 관광진흥과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 19:36",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 19:36",
       "pub_timestamp": "2026-10-23T19:36:00+09:00",
       "bullets": [
         "- 화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
@@ -67,8 +154,8 @@
       "category": "POLICY",
       "department": "기획조정실 의회법무과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 19:18",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 19:18",
       "pub_timestamp": "2026-10-23T19:18:00+09:00",
       "bullets": [
         "- 화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
@@ -96,14 +183,34 @@
       "telegram_sent": true
     },
     {
+      "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
+      "link": "http://www.osen.co.kr/article/G1112897322",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "자치행정국 행정지원과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 18:15",
+      "pub_timestamp": "2026-10-23T18:15:00+09:00",
+      "bullets": [
+        "- 37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
+        "- 독특한 창·제작 시스템 아래 탄생한 오페라 작품이 첫 무대를 갖는다. 그런데 그 공연이 전석 매진이라고 한다. 화성예술의전당에서 10월 24일 공연을 하는 창작오페라 ‘왕의 별’ 쇼케이스가 바로 그 화제의 무대다. ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231737772863_6adb242ec8c5a_300x.jpeg",
+      "telegram_sent": true
+    },
+    {
       "title": "'생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16256155",
       "media": "언론사",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 18:14",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 18:14",
       "pub_timestamp": "2026-10-23T18:14:00+09:00",
       "bullets": [
         "- '생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
@@ -122,8 +229,8 @@
       "category": "POLICY",
       "department": "기획조정실 의회법무과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 18:12",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 18:12",
       "pub_timestamp": "2026-10-23T18:12:00+09:00",
       "bullets": [
         "- 화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
@@ -142,8 +249,8 @@
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 18:12",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 18:12",
       "pub_timestamp": "2026-10-23T18:12:00+09:00",
       "bullets": [
         "- 화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
@@ -162,8 +269,8 @@
       "category": "POLICY",
       "department": "자치행정국 행정지원과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 17:46",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 17:46",
       "pub_timestamp": "2026-10-23T17:46:00+09:00",
       "bullets": [
         "- 화성시민들이 배우가 됐다…창작 오페라  전석 매진",
@@ -176,42 +283,14 @@
       "telegram_sent": true
     },
     {
-      "title": "정명근, 'MARS 2026'으로 글로벌 AI 도시 도약… 우주항공부터 행정 혁신...",
-      "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003278105&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "첨단산업과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 17:31",
-      "pub_timestamp": "2026-10-23T17:31:00+09:00",
-      "bullets": [
-        "- 정명근 화성특례시장이 글로벌 AI 엑스포 'MARS 2026'을 추진하며 화성시를 대한민국 대표 AI 선도도시로 도약시키겠다는 구상을 밝힘",
-        "- 화성시가 구축해 온 AI 행정 혁신 노하우를 국내외 도시 및 기업들과 적극 공유할 방침임",
-        "- 우주항공 및 첨단 산업과 연계한 행정 혁신을 바탕으로 글로벌 AI 도시 경쟁력을 강화할 계획임"
-      ],
-      "related_articles": [
-        {
-          "title": "정명근 화성시장, ‘AI CITY 화성’ 세계에 알린다…MARS 2026 글로벌 무...",
-          "link": "http://www.beyondpost.co.kr/view.php?ud=2026102316512924444c878f8fa1_30",
-          "media": "언론사",
-          "time_label": "오늘 17:14",
-          "pub_timestamp": "2026-10-23T17:14:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://ojsfile.ohmynews.com/BIG_IMG_FILE/2026/1021/IE003687425_BIG.jpg",
-      "telegram_sent": true
-    },
-    {
       "title": "화성시의회 “원격검침 0%·광역버스 난립·소각장 진통”",
       "link": "https://www.kyeongin.com/article/1773273",
       "media": "경인일보",
       "category": "POLICY",
       "department": "기획조정실 의회법무과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 17:30",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 17:30",
       "pub_timestamp": "2026-10-23T17:30:00+09:00",
       "bullets": [
         "- 화성시의회 “원격검침 0%·광역버스 난립·소각장 진통”",
@@ -230,8 +309,8 @@
       "category": "POLICY",
       "department": "재산관리과",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 17:28",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 17:28",
       "pub_timestamp": "2026-10-23T17:28:00+09:00",
       "bullets": [
         "- 캠코 경기지역본부가 화성시 봉담읍 행정복지센터에서 관내 이장 및 주민 100여 명을 대상으로 '찾아가는 국유재산 설명회'를 개최함",
@@ -250,8 +329,8 @@
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 17:27",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 17:27",
       "pub_timestamp": "2026-10-23T17:27:00+09:00",
       "bullets": [
         "- 캠코 경기지역본부, 화성특례시 효행구 취약계층 지원하고 국유재산 정...",
@@ -261,109 +340,6 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/23/134897145.1.jpeg",
-      "telegram_sent": true
-    },
-    {
-      "title": "장민우·이평찬·나경화, 배우 염정아 등과 화성시 매력 알린다",
-      "link": "https://www.kpinews.kr/newsView/1065597771403263",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "트램건설추진단",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 16:48",
-      "pub_timestamp": "2026-10-23T16:48:00+09:00",
-      "bullets": [
-        "- 장민우·이평찬·나경화, 배우 염정아 등과 화성시 매력 알린다",
-        "- 화성시가 장민우 대한민국 재향군인회 캐나다 서부지회장과 가수 이평찬, 국악인 나경화를 홍보대사로 위촉했다. 장민우 홍보대사는 2014년부터 화성시의 자매도시인 캐나다 버나비시와의 교류를 지원해 왔으며, 지난해 자매결...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [
-        {
-          "title": "화성시, 장민우·이평찬·나경화 홍보대사 위촉",
-          "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/23/2026102300269.html",
-          "media": "언론사",
-          "time_label": "오늘 16:36",
-          "pub_timestamp": "2026-10-23T16:36:00+09:00"
-        },
-        {
-          "title": "화성특례시, 신규 홍보대사 장민우·이평찬·나경화 3인 위촉",
-          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=396114",
-          "media": "언론사",
-          "time_label": "오늘 16:34",
-          "pub_timestamp": "2026-10-23T16:34:00+09:00"
-        },
-        {
-          "title": "화성시, 새 홍보대사 3명 위촉",
-          "link": "https://www.sedaily.com/article/20105424?ref=naver",
-          "media": "서울경제",
-          "time_label": "오늘 15:52",
-          "pub_timestamp": "2026-10-23T15:52:00+09:00"
-        },
-        {
-          "title": "정명근 화성시장, 장민우·이평찬·나경화 홍보대사 위촉...국제교류·문...",
-          "link": "https://www.ajunews.com/view/20261023153349522",
-          "media": "언론사",
-          "time_label": "오늘 15:50",
-          "pub_timestamp": "2026-10-23T15:50:00+09:00"
-        },
-        {
-          "title": "[위클리오늘] 화성시, 장민우·이평찬·나경화 홍보대사 신규 위촉",
-          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799324",
-          "media": "언론사",
-          "time_label": "오늘 15:44",
-          "pub_timestamp": "2026-10-23T15:44:00+09:00"
-        },
-        {
-          "title": "정명근 화성시장, 국제교류부터 시민 문화행사까지…도시 브랜드 홍보 ...",
-          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32493",
-          "media": "언론사",
-          "time_label": "오늘 15:28",
-          "pub_timestamp": "2026-10-23T15:28:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://kpinews.kr/data/upi/image/2026/10/23/p1065597771403263_295_thum.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성국가지질공원, 전국 경연대회 2개 부문 대상",
-      "link": "https://news.skbroadband.com/news/articleView.html?idxno=241164",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "문화관광국 관광진흥과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 16:38",
-      "pub_timestamp": "2026-10-23T16:38:00+09:00",
-      "bullets": [
-        "- 화성국가지질공원, 전국 경연대회 2개 부문 대상",
-        "- 화성국가지질공원이 전국 지질공원 해설사들이 참여하는 '2026년 지질공원한마당'에서 2개 부문 대상을 차지했습니다. 지질유산을 쉽게 설명하는 해설 경연에서는 김영미 해설사가 공룡과 알화석을 주제로 발표해 대상을 받았...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.news.skbroadband.com/news/photo/202610/241164_248702_3533.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "추미애 경기국제공항 추진에 화성 반발… 군공항 이전 연계 우려",
-      "link": "https://www.hankookilbo.com/news/article/A2026102310390003785?did=NA",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "군공항대응과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 16:10",
-      "pub_timestamp": "2026-10-23T16:10:00+09:00",
-      "bullets": [
-        "- 경기도의 경기국제공항 추진에 대해 수원군공항 이전을 위한 꼼수라며 화성시 시민사회단체의 반발 및 백지화 요구 확산",
-        "- 수원전투비행장 화성이전반대 범시민대책위원회는 긴급회의를 소집하고 정명근 화성시장, 시의장 등과 함께 공동 대응 기자회견 예정",
-        "- 화성시는 국방부의 화성 화옹지구 예비이전후보지 지정 철회를 지속 촉구하며 경기국제공항 연계 추진에 강력 반대 입장 고수"
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://newsimg.hankookilbo.com/2026/10/23/e903ab5e-1da6-4962-b8e3-13c532175269.jpg",
       "telegram_sent": true
     }
   ]
