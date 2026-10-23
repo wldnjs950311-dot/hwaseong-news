@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026.10.23. 11:33",
+  "updated_at": "2026.10.23. 12:00",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 2,
+    "total": 1,
     "major_count": 1,
-    "live_count": 1,
-    "today_count": 2,
+    "live_count": 0,
+    "today_count": 1,
     "yesterday_count": 0,
     "policy": 0,
-    "culture": 2,
+    "culture": 1,
     "risk": 0
   },
   "articles": [
@@ -73,26 +73,6 @@
       ],
       "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/10/23/.cache/512/20261023500123.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "'라보엠' 공연 한달 앞두고 화성아트홀 전석 매진...라벨라오페라단의 ...",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1417749",
-      "media": "언론사",
-      "category": "CULTURE",
-      "department": "문화예술과",
-      "dept_label": "참고",
-      "date_group": "TODAY",
-      "time_label": "오늘 09:48",
-      "pub_timestamp": "2026-10-23T09:48:00+09:00",
-      "bullets": [
-        "- 화성시문화관광재단 주최 및 라벨라오페라단 제작 오페라 '라보엠'이 공연을 한 달 앞두고 전석 매진을 기록함",
-        "- 11월 21일 유앤아이센터 화성아트홀에서 개최되며, 전 등급 좌석이 조기 소진되어 높은 시민 호응을 입증함",
-        "- 지역 문화재단의 기획력과 민간 오페라단의 제작 역량을 결합한 협업 공연으로 지역 문화예술 향유 기회를 확대함"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1417749_1596772_4423_v150.jpg",
       "telegram_sent": true
     }
   ]
