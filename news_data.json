@@ -1,366 +1,145 @@
 {
-  "updated_at": "2026.10.23. 08:00",
+  "updated_at": "2026.10.23. 10:55",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 18,
-    "today_count": 11,
-    "yesterday_count": 7,
-    "policy": 7,
+    "total": 6,
+    "major_count": 1,
+    "live_count": 5,
+    "today_count": 6,
+    "yesterday_count": 0,
+    "policy": 1,
     "culture": 5,
-    "risk": 6,
-    "major_count": 7,
-    "live_count": 11
+    "risk": 0
   },
   "articles": [
     {
-      "title": "찰진 밥맛 K-가공쌀 '미호', 급식·도시락 시장 석권",
-      "link": "https://www.nongup.net/news/articleView.html?idxno=33900",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "농정해양국 농식품유통과",
-      "date_group": "TODAY",
-      "time_label": "오늘 07:58",
-      "pub_timestamp": "2026-10-23T07:58:00+09:00",
-      "bullets": [
-        "- 국립식량과학원은 22일 경기도 화성시 친환경 재배단지에서 저아밀로스 쌀 품종 '미호'의 현장 연시회를 열고, 냉장·냉동 후에도 찰기와 식감이 유지되어 가공 및 급식에 최적화된 품종 특성을 소개함.",
-        "- 화성시 조암농협은 친환경 쌀 생산 기반과 도정·가공 시스템을 구축해 '미호'를 인근 대형 자동차 공장 구내식당, 학교 급식 및 본도시락 등에 납품 중이며, 2025년 전체 가공용 소비량 3,445톤 중 약 1,200톤을 공급함.",
-        "- 전국 재배면적이 7년간 13.5배(288ha→3,899ha) 증가하고 장관상 최우수상을 수상한 '미호'의 확산을 위해 한국농업기술진흥원은 보급종 생산을 확대하고 국립식량과학원은 거점 미곡종합처리장 중심의 민관 협업 생태계를 지속 구축할 계획임."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://www.nongup.net/news/thumbnail/202610/33900_17951_5056_v150.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "화성시, AI엑스포 「MARS 2026」 개최",
-      "link": "http://www.breaknews.com/1245133",
+      "title": "[위클리오늘] 화성시, 글로벌 AI 엑스포 'MARS 2026' 11월 3일 개막",
+      "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799256",
       "media": "언론사",
       "category": "CULTURE",
-      "department": "기업투자실 첨단산업과",
+      "department": "첨단산업과",
+      "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 07:50",
-      "pub_timestamp": "2026-10-23T07:50:00+09:00",
+      "time_label": "오늘 10:52",
+      "pub_timestamp": "2026-10-23T10:52:00+09:00",
       "bullets": [
-        "- 화성특례시는 11월 3일부터 5일까지 서울 코엑스에서 ‘AI CITY IN ACTION’을 슬로건으로 모빌리티·제조·헬스케어 등 5대 핵심 AI 생태계 성과를 선보이는 글로벌 AI 엑스포 「MARS 2026」을 개최함.",
-        "- 행사 기간 중 세계적 석학 샘 리처드 교수의 기조연설과 ‘MARS 얼라이언스 출정식’을 비롯해, 글로벌 기업 어플라이드 머티어리얼즈(AMAT)와의 투자협력 MOU 체결 및 공공AX포럼 등이 순차적으로 진행될 예정임.",
-        "- 코엑스 D홀 전시장에는 현대차그룹, 기아, 카이스트 연구팀을 비롯한 총 56개 주요 기업 및 기관이 참가하며, 관내 소재 31개 기업이 참여해 최신 AI 솔루션과 로봇 기술 실증 모델을 대거 공개함."
+        "- 화성특례시가 11월 3일부터 사흘간 서울 코엑스에서 글로벌 AI 엑스포 'MARS 2026'을 개최함",
+        "- 5대 AI 핵심 생태계 전시와 함께 샘 리처드 교수 기조연설 및 우주항공산업추진단 출범식 등 진행",
+        "- 행사 2일차에는 투자유치설명회, 글로벌 반도체 기업 협약식, 화성 AI 포럼 등 비즈니스·행정 혁신 행사 마련"
       ],
       "related_articles": [
         {
-          "title": "화성시, 대한민국 AI 미래 연다…'MARS 2026' 11월 3일 코엑스서 개막",
-          "link": "https://view.asiae.co.kr/article/2026102307383023507",
-          "media": "아시아경제",
-          "time_label": "오늘 07:38",
-          "pub_timestamp": "2026-10-23T07:38:00+09:00"
+          "title": "화성특례시, 내달 3~5일 글로벌 AI 엑스포 'MARS 2026' 개최",
+          "link": "https://www.pressian.com/pages/articles/2026102310414100469?utm_source=naver&utm_medium=search",
+          "media": "언론사",
+          "time_label": "오늘 10:42",
+          "pub_timestamp": "2026-10-23T10:42:00+09:00"
+        },
+        {
+          "title": "[금주의 화성시] 화성특례시, 11월 코엑스서 AI 엑스포 'MARS 2026' 개최外",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363740249",
+          "media": "중부일보",
+          "time_label": "오늘 10:32",
+          "pub_timestamp": "2026-10-23T10:32:00+09:00"
         }
       ],
       "is_major": true,
-      "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
-      "dept_label": "참고"
+      "image_url": "https://cdn.weeklytoday.com/news/thumbnail/202610/799256_993607_5111_v150.jpg"
     },
     {
-      "title": "화성시, 지역 응급의료 간담회 열어",
-      "link": "http://www.breaknews.com/1245132",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시보건소 의약관리과",
-      "date_group": "TODAY",
-      "time_label": "오늘 07:50",
-      "pub_timestamp": "2026-10-23T07:50:00+09:00",
-      "bullets": [
-        "- 화성시는 지난 21일 화성 인공지능(AI) 무역지원센터에서 응급환자의 골든타임 확보와 지역완결형 응급의료체계 구축을 위한 의료기관 간담회를 개최함.",
-        "- 간담회에는 한림대학교동탄성심병원, 화성중앙종합병원, 원광종합병원, 동탄시티병원, 화성유일병원 등 관내 5개 핵심 의료기관이 참석하여 환자 중증도 맞춤형 이송체계 및 수용 가능 문의 절차 효율화 방안을 논의함.",
-        "- 시는 현장에서 제기된 의료진의 업무 부담 완화 및 수도권 응급의료 사각지대 제도 보완 의견을 바탕으로 관계기관과의 협업을 지속해 화성형 맞춤 응급의료 정책을 구체화할 방침임."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "달이 그리고 바다가 품다…전곡항 새 명물 12월 공개",
-      "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/23/2026102390012.html",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "문화관광국 문화예술과",
-      "date_group": "TODAY",
-      "time_label": "오늘 07:10",
-      "pub_timestamp": "2026-10-23T07:10:00+09:00",
-      "bullets": [
-        "- 화성시문화재단이 서해안 관광 매력과 예술적 깊이를 더하기 위해 추진하는 '전곡항 1090 플린스 퍼블릭아트 프로젝트'의 일환으로 전곡항 일대에 공공 조형물 조성을 본격화함.",
-        "- 국내외 4개 설계팀 경합 끝에 영국 아자예 건축스튜디오와 정소영 작가 컨소시엄의 '연흔(바람과 물결의 흔적)'이 최종 선정되었으며, 갯벌의 물결 무늬와 조수간만의 차를 만드는 달의 형상을 곡선형 흙벽으로 구현함.",
-        "- 이달 터파기 공사에 착수해 오는 12월 완공될 예정으로, 향후 '화성 뱃놀이축제' 등과 연계해 시민과 관광객을 위한 휴식·소통 공간이자 전곡항의 새로운 관광 랜드마크가 될 것으로 기대됨."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://img.tvchosun.com/sitedata/image/202610/23/2026102390012_thumb.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "[김병철 시선] 구호만으로 화옹 못 지킨다…화성 군공항 대응 반대를 넘...",
-      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719463",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "군공항대응과",
-      "date_group": "TODAY",
-      "time_label": "오늘 07:00",
-      "pub_timestamp": "2026-10-23T07:00:00+09:00",
-      "bullets": [
-        "- 경기도가 화성호 간척지 등을 포함한 경기국제공항 복수 후보지 연구용역 재개를 공식화함에 따라 화옹지구 일대 공항 건설 및 수원 군공항 이전 갈등이 재점화되고 있습니다.",
-        "- 정명근 화성시장의 국방부 장관 면담 건의와 화성시의회의 반대 특위 활동 및 결의문 발표 등 대응이 이어졌으나, 국방부 갈등관리용역 설문(주민 약 1,000명 대상 중 만세구 60% 배분 등) 진행과 관련한 실질적 후보지 지정 철회 성과 도출이 과제로 제기되고 있습니다.",
-        "- 시는 경기국제공항 관련 현안 추가 및 참여 단체 의견 조율을 위해 23일 예정된 반대 공동입장문 발표 기자회견을 잠정 연기했으며, 구호성 반대를 넘어 정부 행정절차 변화를 이끌 구체적 실무 전략 마련이 요구됩니다."
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://cdn.newstown.co.kr/news/thumbnail/202610/719463_675410_70_v150.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "[인터뷰] 정순영 화성시의회 의회운영위원장 “충분히 논의하고 책임 있...",
-      "link": "https://www.jasm.co.kr/news/view/322599/?sc=Naver",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "date_group": "TODAY",
-      "time_label": "오늘 06:30",
-      "pub_timestamp": "2026-10-23T06:30:00+09:00",
-      "bullets": [
-        "- 정순영 화성시의회 의회운영위원장이 취임 100일을 맞아 언론 인터뷰를 통해 의원들의 충분한 안건 검토와 책임 있는 판단을 뒷받침하는 의회 지원 체계 구축 방향을 제시했습니다.",
-        "- 조례·예산 심의 및 행정사무감사 대비 맞춤형 교육과 정책지원 전문 인력 연계를 강화하고, 의회사무국과 상임위원회 간 소통과 협업 여건을 지속 점검할 방침입니다.",
-        "- 향후 건립되는 시의회 신청사를 시민 소통과 참여 공간으로 적극 활용하고, 의회 접근성 향상과 알기 쉬운 의정활동 공유를 통해 일하는 의회 환경을 조성하겠다고 밝혔습니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.jasm.co.kr/news/photo/202610/news_1792651780_322599_m_1.png",
-      "dept_label": "참고"
-    },
-    {
-      "title": "[2026 뉴스핌 주거대상] DL이앤씨 'e편한세상 동탄역 어반원', 건축설계...",
-      "link": "https://www.newspim.com/news/view/20261022001173",
+      "title": "'라보엠' 공연 한달 앞두고 화성아트홀 전석 매진...라벨라오페라단의 ...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1417749",
       "media": "언론사",
       "category": "CULTURE",
-      "department": "도시주택국 주택과",
+      "department": "문화예술과",
+      "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 06:00",
-      "pub_timestamp": "2026-10-23T06:00:00+09:00",
+      "time_label": "오늘 09:48",
+      "pub_timestamp": "2026-10-23T09:48:00+09:00",
       "bullets": [
-        "- DL이앤씨가 화성시 오산동 일원에 공급한 'e편한세상 동탄역 어반원'이 뉴스핌 주최 '2026 대한민국 주거복지·공간혁신 대상'에서 건축설계혁신상을 수상함.",
-        "- 해당 단지는 지하 3층~지상 26층 1개동, 총 240실 규모의 주거형 오피스텔로 전용면적 34~59㎡의 1~2인 가구 맞춤형 평면 설계 및 특화 커뮤니티 시설을 갖춤.",
-        "- 동탄역 도보권 역세권 입지로 GTX-A 및 SRT 이용이 편리하며, 지난 3월 평균 12.68대 1의 청약 경쟁률을 기록한 뒤 2028년 7월 입주를 목표로 사업이 추진 중임."
+        "- 화성시문화관광재단 주최 및 라벨라오페라단 제작 오페라 '라보엠'이 공연을 한 달 앞두고 전석 매진을 기록함",
+        "- 11월 21일 유앤아이센터 화성아트홀에서 개최되며, 전 등급 좌석이 조기 소진되어 높은 시민 호응을 입증함",
+        "- 지역 문화재단의 기획력과 민간 오페라단의 제작 역량을 결합한 협업 공연으로 지역 문화예술 향유 기회를 확대함"
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://img.newspim.com/news/2024/08/14/2408141412370750_t1.jpg",
-      "dept_label": "참고"
+      "image_url": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1417749_1596772_4423_v150.jpg"
     },
     {
-      "title": "[강대웅의 정문일침(頂門一鍼)] 정명근 화성시장, 시정 혁신을 이끄는 ...",
-      "link": "https://www.ajunews.com/view/20261022235125807",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "AI스마트전략실",
-      "date_group": "TODAY",
-      "time_label": "오늘 05:06",
-      "pub_timestamp": "2026-10-23T05:06:00+09:00",
-      "bullets": [
-        "- 화성시는 전국 최초 24시간 AI 행정비서 '코리봇' 도입에 이어, 시청 및 신설 4개 구청에 한국어·영어·중국어·일본어 등 4개 국어 민원 안내가 가능한 'AI 당직봇'을 배치해 선도적으로 가동함.",
-        "- 'AI 당직봇'은 평일 오후 6시~익일 오전 9시 및 주말·공휴일 24시간 동안 야간·휴일 민원 전화를 1차 응대하고, 긴급 사안은 현장 근무자에게 문자로 전달해 당직 공무원의 후속 대응 집중을 지원함.",
-        "- 시는 2024년 전국 기초지자체 최초 AI 전담부서 신설 및 MARS 박람회 2년 연속 주최에 이어, AI스마트전략실 내 'AI공무원TF팀'을 신설하여 문서 작성 및 정책 정보 제공 등 행정 전반의 자동화 혁신을 추진함."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://image.ajunews.com/content/image/2026/10/23/20261023003120831460.jpg",
-      "dept_label": "소관"
-    },
-    {
-      "title": "[영상]'불법 콜뛰기' 외국인 신고하려다...짓밟힌 50대 '뇌진탕'",
-      "link": "https://www.mt.co.kr/society/2026/10/23/2026102223112579860",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "교통국 대중교통과",
-      "date_group": "TODAY",
-      "time_label": "오늘 05:05",
-      "pub_timestamp": "2026-10-23T05:05:00+09:00",
-      "bullets": [
-        "- 18일 새벽 경기 화성시 번화가에서 50대 택시기사가 외국인의 자가용 불법 유상운송('콜뛰기')을 제지하고 경찰에 신고하려다 무차별 폭행을 당해 뇌진탕 등 중상을 입는 사건이 발생함.",
-        "- 피해자는 텔레그램을 통한 외국인 불법 영업과 난폭 운전 문제를 지속해서 제보했으나 지자체와 경찰이 증거 부족 등을 이유로 책임을 떠넘기며 단속을 소홀히 했다고 주장함.",
-        "- 화성시는 자체 처벌 권한 부재로 인한 단속 한계를 밝히며 신고 포상금 안내를 추진 중이며, 경찰은 연내 출입국·외국인청과 공조해 불법 영업 합동 집중 단속에 나설 계획임."
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=729,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026102223112579860_1.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "“재정 탓 소방예산 깎더니”…秋, 이번엔 경기국제공항 추진 논란",
-      "link": "https://www.joongang.co.kr/article/25472159",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "군공항대응과",
-      "date_group": "TODAY",
-      "time_label": "오늘 05:00",
-      "pub_timestamp": "2026-10-23T05:00:00+09:00",
-      "bullets": [
-        "- 추미애 경기지사가 19일 국회 국토교통위 국감에서 화성시 화성호 간척지 등이 포함된 경기국제공항 개발 용역 재추진 의사를 공식화하며 사업 재개 방침을 표명함.",
-        "- 이에 화성시는 지역 시민사회단체와 조만간 수원 군공항 특별법 추진 반대 기자회견을 열고, 국방부와 수원시의 일방적인 군공항 이전 시도에 대해 총력 저지 대응을 예고함.",
-        "- 경기국제공항백지화공동행동 및 도의회(화성1 이홍근 의원)는 2017년 지정된 군공항 예비후보지에 민간공항을 추진하는 모순과 재정 부담·경제성 미흡을 지적하며 즉각적인 백지화를 촉구함."
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202610/23/285a805b-391e-46c3-8d34-cdc025513ffc.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "[오늘의 주요일정]경기남부(10월23일 금요일)",
-      "link": "https://www.newsis.com/view/NISX20261018_0003830530",
+      "title": "화성시, 지질공원 해설·교육콘텐츠 우수성 입증",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837786",
       "media": "뉴시스",
       "category": "CULTURE",
-      "department": "복지국 복지정책과",
+      "department": "관광진흥과",
+      "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 05:00",
-      "pub_timestamp": "2026-10-23T05:00:00+09:00",
+      "time_label": "오늘 09:07",
+      "pub_timestamp": "2026-10-23T09:07:00+09:00",
       "bullets": [
-        "- 10월 23일(금) 오전 10시 화성시의회 본회의장에서 제255회 화성시의회 임시회 제2차 본회의가 진행됨.",
-        "- 같은 날 오전 10시 화성현충공원 현충탑에서 국가를 위해 헌신한 유공자를 기리는 '제4회 해외 파병 용사의 날 기념식'이 개최됨.",
-        "- 오후 1시 30분에는 효행구청 접견실에서 관내 취약계층 지원 및 나눔 문화 확산을 위한 '한국자산관리공사 기부금 전달식'이 열림."
+        "- 화성시가 정부 주최 '지질공원한마당' 경연대회에서 해설 및 교구재 경연 2개 부문 대상을 석권함",
+        "- 화성국가지질공원 김영미 해설사와 '별별화성 H4'팀이 각각 장관상을 수상하며 교육콘텐츠 우수성을 입증함",
+        "- 정명근 화성시장은 지질유산 가치 확산과 내실 있는 국가지질공원 교육·관광 프로그램 운영 방침을 밝힘"
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "",
-      "dept_label": "참고"
+      "image_url": "https://img1.newsis.com/2026/10/23/NISI20261023_0002271566_web.jpg"
     },
     {
-      "title": "“사실대로 말 안 한다며 고성”...선관위 직원 변호인, 강압수사 주장",
-      "link": "https://www.sedaily.com/article/20105116?ref=naver",
-      "media": "서울경제",
-      "category": "RISK",
-      "department": "시민안전국 안전정책과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 23:39",
-      "pub_timestamp": "2026-10-22T23:39:00+09:00",
-      "bullets": [
-        "- 선관위 특검 조사를 받은 뒤 21일 경기 화성시 봉담읍 소재 아파트에서 숨진 채 발견된 중앙선관위 소속 피의자 A 씨 측 변호인이 특검의 고성 압박 등 강압적인 짜맞추기식 수사가 있었다고 주장함.",
-        "- 변호인에 따르면 20일 피의자 조사 당시 검사가 사실관계를 미리 정해둔 채 진술을 유도했고, 장시간 조사에 따른 종료 요청에도 규정을 이유로 오후 8시 55분까지 조사를 강행했다고 지적함.",
-        "- 이에 대해 특검팀은 조사 전 과정에 변호인이 입회했고 조서 내용 등에 대한 이의 제기가 전혀 없었으며 야간 조사를 원치 않아 오후 9시 전에 종료했다며 강압 수사 의혹을 전면 부인함."
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://wimg.sedaily.com/news/cms/2026/10/22/news-p.v1.20261022.acde23c90299495abcf8b8401e58cfb1_Z1.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "화성특례시의회, 동탄테크노밸리 기업지원·주차 개선 논의",
-      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719443",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기업투자실 기업지원과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 22:58",
-      "pub_timestamp": "2026-10-22T22:58:00+09:00",
-      "bullets": [
-        "- 화성특례시의회 경제환경위원회는 지난 20일 의회 2층 다목적강당에서 동탄테크노밸리 총연합회 및 화성산업진흥원과 함께 입주기업 지원체계와 정주여건 개선을 위한 간담회를 개최함.",
-        "- 동탄테크노밸리는 155만 6,000㎡ 부지에 4,500여 개 기업이 입주해 있고 관내 지식산업센터의 약 91%(56개 중 51개)가 밀집해 있으나, 규모에 비해 기업지원 및 생활인프라가 부족하다는 현장 의견이 제기됨.",
-        "- 참석자들은 기업지원 원스톱 플랫폼 구축, 교통·주차 환경 개선, 화성산업진흥원 재정지원 확대, 청년창업 지원 및 민관 협력체계 마련 등 실질적인 정책 지원 방안을 다각도로 검토해 나가기로 함."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "http://www.newstown.co.kr/news/thumbnail/202610/719443_675384_1014_v150.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "23명 사망 '아리셀 참사' 징역 4년...대폭 감형에 시민사회 분노",
-      "link": "https://www.newspost.kr/news/articleView.html?idxno=226631",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "시민안전국 안전정책과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 22:28",
-      "pub_timestamp": "2026-10-22T22:28:00+09:00",
-      "bullets": [
-        "- 2024년 6월 화성시 리튬전지 제조공장에서 노동자 23명이 사망한 '아리셀 참사'와 관련해, 대법원이 1심 징역 15년에서 11년이 감형된 박순관 아리셀 대표의 징역 4년(박중언 총괄본부장 징역 7년) 원심 판결을 최종 확정했습니다.",
-        "- 17개 시민단체로 구성된 '중대재해전문가넷'은 22일 서울 서초구 대법원 앞에서 규탄 기자회견을 열고, 유족 합의를 이유로 한 대폭 감형은 중대재해처벌법의 실효성을 무력화한 판결이라며 양형기준 전면 개편을 촉구했습니다.",
-        "- 민주노총과 한국노총 등 노동계 또한 이번 대법원 판결이 기업의 안전 투자 대신 사후 합의와 면죄부를 조장하는 사법적 선례를 남겼다며 사법 정의 훼손에 대해 강력한 규탄 성명을 발표했습니다."
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://cdn.newspost.kr/news/thumbnail/202610/226631_229104_300_v150.jpg",
-      "dept_label": "참고"
-    },
-    {
-      "title": "경기도, 전국체전 5년 연속 종합 우승…'체조 스타' 여서정 MVP 영예",
-      "link": "http://www.yonhapnewstv.co.kr/news/AKR20261022221412qyL",
+      "title": "화성시문화관광재단, 한수민 작가 '연(蓮)의 시간' 개최",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2483711",
       "media": "언론사",
       "category": "CULTURE",
-      "department": "문화교육국 체육진흥과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 22:14",
-      "pub_timestamp": "2026-10-22T22:14:00+09:00",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 09:00",
+      "pub_timestamp": "2026-10-23T09:00:00+09:00",
       "bullets": [
-        "- 제주에서 열린 제107회 전국체육대회에서 경기도가 총점 6만 7천여 점을 획득해 경상북도와 서울특별시를 제치고 5년 연속 종합 우승을 달성함.",
-        "- 대회 최우수선수(MVP)에는 기계체조 개인종합, 도마, 평균대, 마루운동을 석권하며 4관왕에 오른 여서정 선수가 기자단 과반 투표로 선정됨.",
-        "- 이번 대회의 공식 폐막과 함께 차기 대회기가 경기도로 인계되었으며, 제108회 전국체육대회는 내년 10월 화성시를 비롯한 경기도 일원에서 개최될 예정임."
+        "- 화성시문화관광재단이 10월 27일부터 11월 13일까지 동탄복합문화센터 동탄아트스퀘어에서 한수민 작가의 '연(蓮)의 시간' 전시를 개최함",
+        "- 이번 전시는 '스퀘어 시리즈'의 세 번째 기획전으로, 연꽃의 생명력과 시간의 순환을 회화와 미디어아트 영상으로 선보임",
+        "- 작가와의 만남, 전문 도슨트 해설, 나만의 연꽃 거울 그리기 체험 등 다채로운 연계 프로그램이 무료로 운영됨"
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://media.yonhapnewstv.co.kr/article/AKR/20261022/AKR20261022221412qyL_01_i.jpg",
-      "dept_label": "참고"
+      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202610/2483711_1328973_193_v150.jpg"
     },
     {
-      "title": "화성 시민단체, 경기국제공항 추진에 \"백지화\" 규탄",
-      "link": "https://www.jasm.co.kr/news/view/322645/?sc=Naver",
+      "title": "정명근 화성시장, 화성 지질유산 교육·관광 자원으로 키운다…전국 경...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32471",
       "media": "언론사",
-      "category": "RISK",
-      "department": "시민협력국 군공항대응과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 21:26",
-      "pub_timestamp": "2026-10-22T21:26:00+09:00",
+      "category": "CULTURE",
+      "department": "관광진흥과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 08:48",
+      "pub_timestamp": "2026-10-23T08:48:00+09:00",
       "bullets": [
-        "- 경기 화성 지역 시민단체로 구성된 '경기국제공항백지화공동행동'과 이홍근 도의원 등 화성 지역 도의원 3명은 22일 경기도의회 브리핑룸에서 기자회견을 열고 경기국제공항 건설 사업의 전면 백지화를 강력히 촉구했습니다.",
-        "- 참가자들은 지난 19일 국회 국정감사에서 도지사가 반도체 수출과 항공화물 수요를 명분으로 공항 추진 의사를 밝힌 것에 반발하며, 막대한 건설비와 유지관리비가 수반되는 지방공항 건설을 중단하고 사업 필요성을 원점에서 재검토할 것을 요구했습니다.",
-        "- 경기도는 화성호 간척지, 평택 서탄면, 이천 모가면 등 3곳을 예비 후보지로 두고 지난해 8월 개발 전략 연구용역에 착수했으나 업체 선정 공정성 논란으로 중단된 상태이며, 의원 측은 권한 밖의 공항 용역 추진을 정치적 행정이라고 강하게 비판했습니다."
+        "- 화성국가지질공원이 전국 지질공원 관계자가 모인 '2026년 지질공원한마당'에서 해설 경연과 교구재 경진 2개 부문 모두 대상을 수상함",
+        "- 김영미 해설사의 공룡 스토리텔링 시연과 '별별화성 H4'팀의 공룡 알화석 형성 교구재가 각각 최고 평가를 받으며 장관상을 차지함",
+        "- 화성시는 이번 수상작과 우수 사례를 향후 지질교육 및 탐방 프로그램에 적극 활용해 교육·관광 자원으로 육성할 방침임"
       ],
       "related_articles": [],
-      "is_major": true,
-      "image_url": "https://cdn.jasm.co.kr/news/photo/202610/news_1792671877_322645_m_1.jpg",
-      "dept_label": "참고"
+      "is_major": false,
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32471_35464_472_v150.jpg"
     },
     {
-      "title": "[기획] “불편한데 오지 마세요”…화성시, 생필품 찾아가서 전달",
-      "link": "https://www.suwonilbo.kr/view.html?id=L2610221700348ffe",
+      "title": "화성시 동탄구보건소, 아빠도 함께하는 육아교육…영아 발달·부부 출산...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32470",
       "media": "언론사",
       "category": "POLICY",
-      "department": "돌봄복지국 통합돌봄과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 21:06",
-      "pub_timestamp": "2026-10-22T21:06:00+09:00",
+      "department": "동탄보건소",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 08:34",
+      "pub_timestamp": "2026-10-23T08:34:00+09:00",
       "bullets": [
-        "- 화성특례시는 거동이 불편한 위기 가구를 위해 공무원과 사례관리사가 직접 방문해 생필품을 전달하고 맞춤형 복지 서비스를 연계하는 '찾아가는 그냥드림' 사업을 10월부터 12월까지 시범 추진한 뒤 2027년부터 본격 확대 시행합니다.",
-        "- 시청 통합돌봄과를 중심으로 푸드뱅크·마켓과 구청, 읍면동을 잇는 6단계 운영 체계를 구축하고, 행복이음 복지사각지대 데이터를 토대로 4개 구청 관할 33개 기관에 총 455개의 그냥드림 물품을 배분했습니다.",
-        "- 현재 시는 보건복지부 연계 국가형 거점 3개소와 복지관 및 읍면동 등 화성형 38개소를 운영 중이며, 이번 방문형 서비스 도입을 통해 제도권 밖 사각지대에 놓인 취약계층을 선제적으로 발굴·지원할 방침입니다."
+        "- 화성시 동탄구보건소가 임신·출산·영유아 양육 단계별 맞춤형 모자보건교육 프로그램을 11월 중 운영함",
+        "- '오감발달교실', '아빠와 함께하는 베이비마사지교실', '토요일 부부 출산교실' 등 3개 과정을 무료로 개설함",
+        "- 관할 지역 주민등록 대상자로 화성시 통합예약시스템을 통해 선착순 접수를 진행함"
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://www.suwonilbo.kr/img/write/p34b2de7d1f58bb67158bb21e8e770d2bb1b0c2f7.jpg",
-      "dept_label": "소관"
-    },
-    {
-      "title": "이원성 경기도 선수단장 우승 소감 [107회 전국체전-선수단장 인터뷰]",
-      "link": "https://www.kyeongin.com/article/1773234",
-      "media": "경인일보",
-      "category": "CULTURE",
-      "department": "문화교육국 체육진흥과",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 20:30",
-      "pub_timestamp": "2026-10-22T20:30:00+09:00",
-      "bullets": [
-        "- 제107회 전국체육대회에서 경기도 선수단이 금 147개, 은 135개, 동 142개 등 총 424개의 메달을 획득하며 종합우승 5연패를 달성함.",
-        "- 역도 박혜정 선수를 비롯해 총 30명의 다관왕을 배출하고 한국 주니어 신기록을 경신하는 등 우수한 성과를 거둠과 동시에 철저한 안전 관리로 대회를 성공적으로 마무리함.",
-        "- 차기 대회인 제108회 전국체전이 2027년 10월 8일부터 14일까지 화성시에서 개최됨에 따라 경기도와 도체육회, 화성시가 긴밀히 협의하여 대회 준비에 만전을 기하고 있음."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/22/news-p.v1.20261022.5e564ea993d4461c96a6a5153254bb3d_R.jpg",
-      "dept_label": "참고"
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32470_35463_3242_v150.jpg"
     }
   ]
 }
