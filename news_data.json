@@ -1,17 +1,77 @@
 {
-  "updated_at": "2026.10.23. 14:00",
+  "updated_at": "2026.10.23. 15:00",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 7,
+    "total": 10,
     "major_count": 2,
-    "live_count": 5,
-    "today_count": 7,
+    "live_count": 8,
+    "today_count": 10,
     "yesterday_count": 0,
-    "policy": 6,
+    "policy": 9,
     "culture": 1,
     "risk": 0
   },
   "articles": [
+    {
+      "title": "정조의 화성 행차, 창작오페라로…'왕의 별' 24일 쇼케이스",
+      "link": "https://view.asiae.co.kr/article/2026102314522826956",
+      "media": "아시아경제",
+      "category": "POLICY",
+      "department": "자치행정국 행정지원과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 14:52",
+      "pub_timestamp": "2026-10-23T14:52:00+09:00",
+      "bullets": [
+        "- 정조의 화성 행차, 창작오페라로…'왕의 별' 24일 쇼케이스",
+        "- 1795년 화성 원행·한강 배다리 건설 소재 화성예술의전당 창·제작 시리즈 첫 작품 시민 37명도 공연 참여…신곡 15곡 선보여 정조의 화성 원행과 한강 배다리 건설을 소재로 한 창작오페라 '왕의 별' 쇼케이스가 2...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cphoto.asiae.co.kr/listimglink/1/2026102314483572277_1792734515.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 시민 37명 무대 오른다…화성예술의전당, 창작오페라 ‘왕의 별’...",
+      "link": "http://www.metroseoul.co.kr/article/20261023500191",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "자치행정국 행정지원과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 14:48",
+      "pub_timestamp": "2026-10-23T14:48:00+09:00",
+      "bullets": [
+        "- 화성 시민 37명 무대 오른다…화성예술의전당, 창작오페라 ‘왕의 별’...",
+        "- 등 화성 시민 37명 오디션 선발 창작오페라 '왕의 별' 쇼케이스 팸플릿. /안드로메다픽처스 정조의 개혁 구상과 백성들의 협력을 음악극으로 풀어낸 창작오페라가 화성 시민들의 목소리로 완성된다.......",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "다음 주 전국 5555가구 공급...경기 화성· 부산 해운대 등 기대감",
+      "link": "https://www.fnnews.com/news/202610231351243757",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 13:56",
+      "pub_timestamp": "2026-10-23T13:56:00+09:00",
+      "bullets": [
+        "- 다음 주 전국 5555가구 공급...경기 화성· 부산 해운대 등 기대감",
+        "- 10월 마지막 주, 알짜 물량 쏟아진다 서울 주거 단지. 사진=연합뉴스 [파이낸셜뉴스] 10월 마지막 주 전국 분양 시장은 수도권과 부산 지역을 중심으로 알짜 물량이 쏟아지며 활기를 띨 전망이다. 23일 부동산 전문...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://image.fnnews.com/resource/media/image/2026/10/22/202610220601403942_e.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\"",
       "link": "https://www.sidae.com/article/2026102312501556020",
