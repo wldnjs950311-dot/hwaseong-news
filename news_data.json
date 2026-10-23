@@ -1,17 +1,57 @@
 {
-  "updated_at": "2026.10.23. 12:53",
+  "updated_at": "2026.10.23. 14:00",
   "yesterday_label": "10.22",
   "stats": {
-    "total": 5,
+    "total": 7,
     "major_count": 2,
-    "live_count": 3,
-    "today_count": 5,
+    "live_count": 5,
+    "today_count": 7,
     "yesterday_count": 0,
-    "policy": 4,
+    "policy": 6,
     "culture": 1,
     "risk": 0
   },
   "articles": [
+    {
+      "title": "김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\"",
+      "link": "https://www.sidae.com/article/2026102312501556020",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 13:47",
+      "pub_timestamp": "2026-10-23T13:47:00+09:00",
+      "bullets": [
+        "- 김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\"",
+        "- 김미영 화성시의회 문화체육위원장 \"일상 속 문화·체육 확대\" 화성=김동우 기자 2026.10.23 | 13:47:39 가- 100 % 가+ 김미영 문화체육위원장은 \"시민이 실제로 체감할 수 있는 현장 여건과 목소리를...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://menu.sidae.com/moneyweek/thumb/2026/10/23/00/2026102312501556020_1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시 “우주·미래차·인공지능 혁신기술 한자리에”",
+      "link": "https://www.naeil.com/news/read/606220?ref=naver",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 12:58",
+      "pub_timestamp": "2026-10-23T12:58:00+09:00",
+      "bullets": [
+        "- 화성시 “우주·미래차·인공지능 혁신기술 한자리에”",
+        "- 11월 3~5일 코엑스서 ‘MARS 2026’ 개최 현대차·기아 등 56개 기업·기관 참여 경기 화성특례시가 우주항공과 미래차, 인공지능 기술을 한자리에서 선보이는 국제 행사를 개최한다. 화성시는 오는 11월 3일부...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.naeil.com/news/cms/2026/10/23/news-p.v1.20261023.750c8a0bf2924c5092de28dea5bc070b_R.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "[23일 화성시] ‘지질공원한마당’ 2개 부문 대상 수상 등",
       "link": "https://www.asiatime.co.kr/article/20261023500130",
