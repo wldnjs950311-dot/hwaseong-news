@@ -1,345 +1,143 @@
 {
-  "updated_at": "2026.10.24. 06:00",
-  "yesterday_label": "10.23",
+  "updated_at": "2026.10.25. 06:00",
+  "yesterday_label": "10.24",
   "stats": {
-    "total": 15,
+    "total": 6,
     "major_count": 2,
-    "live_count": 13,
+    "live_count": 4,
     "today_count": 1,
-    "yesterday_count": 14,
-    "policy": 15,
-    "culture": 0,
-    "risk": 0
+    "yesterday_count": 5,
+    "policy": 4,
+    "culture": 1,
+    "risk": 1
   },
   "articles": [
     {
-      "title": "'반도체 메가 벨트' 용인·화성, 연계 교통망 구축",
-      "link": "https://www.ytn.co.kr/_ln/0115_202610240315014016",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
+      "title": "“불법 ‘콜뛰기’ 택시 막으려다 의식 잃었다”…50대 기사 폭행한 외...",
+      "link": "https://www.sedaily.com/article/20105643?ref=naver",
+      "media": "서울경제",
+      "category": "RISK",
+      "department": "대중교통과",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 03:15",
-      "pub_timestamp": "2026-10-24T03:15:00+09:00",
+      "time_label": "오늘 01:01",
+      "pub_timestamp": "2026-10-25T01:01:00+09:00",
       "bullets": [
-        "- '반도체 메가 벨트' 용인·화성, 연계 교통망 구축",
-        "- 대한민국 반도체 산업의 핵심 거점인 용인시와 화성시가 두 지역을 연결하는 대규모 교통망 구축에 손을... [기자] 경기 용인시 남사읍과 화성시 동탄 신동을 연결하는 도로 예정지입니다. 용인시와 화성시가 두 지역을.....",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+        "- 화성시 향남읍 도로에서 불법 유상운송('콜뛰기') 호객 행위를 제지하던 택시기사가 외국인 남성에게 폭행당하는 사건 발생",
+        "- 향남·발안·남양 등 외국인 밀집 지역을 중심으로 불법 자가용 유상운송이 성행해 관내 택시업계와의 갈등 심화",
+        "- 무면허 운전 등 불법 콜뛰기에 대한 경찰 단속이 이어지고 있으나 지인 무료 탑승 주장 등 증거 확보 한계로 단속 애로"
       ],
       "related_articles": [],
-      "is_major": false,
-      "image_url": "https://image.ytn.co.kr/general/jpg/2026/1024/202610240315014016_t.jpg",
+      "is_major": true,
+      "image_url": "https://wimg.sedaily.com/news/cms/2026/10/24/news-p.v1.20261024.68a50150b550481d9c4519c15c8fde2c_Z1.jpg",
       "telegram_sent": true
     },
     {
-      "title": "화성특례시·샘 리처드·56개 기업 한자리에…글로벌 AI 엑스포 'MARS 202...",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3731116",
+      "title": "화성특례시의회, 제255회 임시회 마무리…안건 45건 의결",
+      "link": "http://www.metroseoul.co.kr/article/20261023500351",
       "media": "언론사",
       "category": "POLICY",
-      "department": "기업투자실 첨단산업과",
+      "department": "의회법무과",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 21:00",
-      "pub_timestamp": "2026-10-23T21:00:00+09:00",
+      "time_label": "어제 20:22",
+      "pub_timestamp": "2026-10-24T20:22:00+09:00",
       "bullets": [
-        "- 화성특례시·샘 리처드·56개 기업 한자리에…글로벌 AI 엑스포 'MARS 202...",
-        "- 우주·모빌리티·산업·도시·일상 5대 AI 생태계 혁신 기술 선보여 샘 리처드 교수 기조연설 및 56개 기업 참여 대규모 전시 진행 화성시, AI 행정 성과와 미래 비전 전 세계에 알릴 계획 『MARS 2026』 포스...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+        "- 화성특례시의회가 제255회 임시회 제2차 본회의를 열고 총 45건의 안건을 의결하며 임시회 일정을 마무리함",
+        "- 본회의에서 이은진 의원은 화성시의 상수도 원격검침 도입률이 0%임을 지적하며 구체적인 도입 일정과 단계별 확대를 촉구함",
+        "- 시의회는 시민 생활과 직결된 주요 조례안 및 당면 현안 안건들을 면밀히 심의·가결 처리함"
       ],
       "related_articles": [
         {
-          "title": "정명근, 'MARS 2026'으로 글로벌 AI 도시 도약… 우주항공부터 행정 혁신...",
-          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003278105&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "title": "화성특례시의회, 생활밀착 안건 등 45건 원안 가결",
+          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719570",
           "media": "언론사",
-          "time_label": "어제 17:31",
-          "pub_timestamp": "2026-10-23T17:31:00+09:00"
-        },
-        {
-          "title": "정명근 화성시장, ‘AI CITY 화성’ 세계에 알린다…MARS 2026 글로벌 무...",
-          "link": "http://www.beyondpost.co.kr/view.php?ud=2026102316512924444c878f8fa1_30",
-          "media": "언론사",
-          "time_label": "어제 17:14",
-          "pub_timestamp": "2026-10-23T17:14:00+09:00"
+          "time_label": "어제 08:11",
+          "pub_timestamp": "2026-10-24T08:11:00+09:00"
         }
       ],
       "is_major": true,
-      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202610/3731116_3909347_2633_v150.jpg",
+      "image_url": "",
       "telegram_sent": true
     },
     {
-      "title": "월남전참전자회 화성시지회 해외파병용사의 날 기념식",
-      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079957",
+      "title": "화성특례시, 쌀 품종 검정기관 지정…브랜드 쌀 품질관리 강화",
+      "link": "http://www.metroseoul.co.kr/article/20261023500345",
       "media": "언론사",
       "category": "POLICY",
-      "department": "돌봄복지국 복지정책과",
+      "department": "기본사회담당관",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 20:50",
-      "pub_timestamp": "2026-10-23T20:50:00+09:00",
+      "time_label": "어제 20:20",
+      "pub_timestamp": "2026-10-24T20:20:00+09:00",
       "bullets": [
-        "- 월남전참전자회 화성시지회 해외파병용사의 날 기념식",
-        "- 유공자 표창·결의문 낭독 진행… 해외파병 장병 공헌 기려 월남전참전자회 화성시지회 회원들이 ‘제4회 해외파병용사의 날 기념식’에서 주먹을 들어 힘찬 결의를 다지고 있다. 화성시 제공 [뉴스클레임] 월남전참전자회 화성...",
+        "- 화성특례시, 쌀 품종 검정기관 지정…브랜드 쌀 품질관리 강화",
+        "- 높이고, 화성시 브랜드 쌀의 차별화와 시장 경쟁력을 강화할 계획이다. 검정 서비스는 관내 농업협동조합과 종합미곡처리장(RPC), 화성푸드통합지원센터, 화성시명품쌀발전위원회 등을 대상으로 우선 제공한다. 기관......",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079957_122356_5225_v150.jpg",
+      "image_url": "",
       "telegram_sent": true
     },
     {
-      "title": "화성 동탄8동 민관경 합동순찰로 골목길 안전 점검",
-      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079958",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "자치행정국 시민협력과",
+      "title": "“마이너스도 플러스로”…이계철 화성시의장, 청소년 무대 응원",
+      "link": "https://www.etnews.com/20261024000030",
+      "media": "전자신문",
+      "category": "CULTURE",
+      "department": "의회사무국",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 20:50",
-      "pub_timestamp": "2026-10-23T20:50:00+09:00",
+      "time_label": "어제 19:56",
+      "pub_timestamp": "2026-10-24T19:56:00+09:00",
       "bullets": [
-        "- 화성 동탄8동 민관경 합동순찰로 골목길 안전 점검",
-        "- 경찰·구청·자율방범대 등 40여 명 참여해 학교 주변과 주택가 순찰 동탄8동 민·관·경 합동순찰 참여자들이 안전한 마을 조성을 다짐하며 기념촬영을 하고 있다. 화성시 제공 [뉴스클레임] 화성특례시 동탄구 동탄8동은 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+        "- 이계철 화성시의회 의장 등 시의회 및 읍 관계자들이 향남1지구 도원체육공원에서 열린 청소년 문화예술 축제에 참석함",
+        "- 향남문화의집과 향남읍주민자치회가 공동 주관하여 관내 청소년들이 직접 기획·공연한 '청소년 덕후 DAY' 행사 격려",
+        "- 화성시의회는 관내 청소년들의 재능 실현을 위한 문화예술 활동 기회 및 공간 확충 지원을 약속함"
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079958_122357_112_v150.jpg",
+      "image_url": "https://img.etnews.com/news/article/2026/10/24/news-p.v1.20261024.14a7f7d4bd73473eb0c969610e65faa9_P1.jpg",
       "telegram_sent": true
     },
     {
-      "title": "화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장]",
-      "link": "https://www.etoday.co.kr/news/view/2639607",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "자치행정국 행정지원과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 20:02",
-      "pub_timestamp": "2026-10-23T20:02:00+09:00",
-      "bullets": [
-        "- 화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장]",
-        "- 이투데이 문화·라이프 공연/출판 화성 시민 37명 무대 오른다⋯창작오페라 '왕의 별' 24일 첫선 [현장] 입력 2026-10-23 20:00 장영준 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023195747_2406282_650_366.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
-      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3079956",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "문화관광국 관광진흥과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 19:36",
-      "pub_timestamp": "2026-10-23T19:36:00+09:00",
-      "bullets": [
-        "- 화성시 지질공원한마당서 해설과 교구재 부문 모두 대상",
-        "- 지난 22일 영월 행사서 장관상 2관왕 달성… 지질 교육 역량 입증 화성국가지질공원 ‘별별화성 H4’팀이 교구재 경진대회 대상을 수상하고 기념촬영을 하고 있다. 화성시 제공 [뉴스클레임] 화성특례시가 강원특별자치도 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202610/3079956_122355_2912_v150.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
-      "link": "http://www.beyondpost.co.kr/view.php?ud=2026102319083951834c878f8fa1_30",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 19:18",
-      "pub_timestamp": "2026-10-23T19:18:00+09:00",
-      "bullets": [
-        "- 화성시의회, 제255회 임시회 폐회…안건 45건 원안 가결",
-        "- 2027년 주요업무계획 점검…상수도·대중교통·생활폐기물 개선 촉구 이계철 화성시의회 의장. /화성시의회 화성=비욘드포스트 송인호 기자  화성시의회(의장 이계철)는 23일 오전 본회의장에서 제255회 임시회 제2차 본...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [
-        {
-          "title": "화성시의회, 임시회 폐회 안건 45건 처리",
-          "link": "http://www.breaknews.com/1245351",
-          "media": "언론사",
-          "time_label": "오늘 18:08",
-          "pub_timestamp": "2026-10-23T18:08:00+09:00"
-        },
-        {
-          "title": "화성시의회, 제255회 임시회 폐회… 조례안 등 45건 처리",
-          "link": "https://www.asiatime.co.kr/article/20261023500286",
-          "media": "언론사",
-          "time_label": "오늘 16:28",
-          "pub_timestamp": "2026-10-23T16:28:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610231913580414204c878f8fa118220943141.jpg&nmt=30",
-      "telegram_sent": true
-    },
-    {
-      "title": "37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
-      "link": "http://www.osen.co.kr/article/G1112897322",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "자치행정국 행정지원과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 18:15",
-      "pub_timestamp": "2026-10-23T18:15:00+09:00",
-      "bullets": [
-        "- 37명의 시민과 함께 만드는 창작오페라...화성예술의전당 ‘왕의 별’",
-        "- 독특한 창·제작 시스템 아래 탄생한 오페라 작품이 첫 무대를 갖는다. 그런데 그 공연이 전석 매진이라고 한다. 화성예술의전당에서 10월 24일 공연을 하는 창작오페라 ‘왕의 별’ 쇼케이스가 바로 그 화제의 무대다. ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "http://file.osen.co.kr/article_thumb/2026/10/23/202610231737772863_6adb242ec8c5a_300x.jpeg",
-      "telegram_sent": true
-    },
-    {
-      "title": "'생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16256155",
+      "title": "화성, 가을날 바다와 만나는 다채로운 풍경 속 가볼 만한 곳",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16246609",
       "media": "언론사",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 18:14",
-      "pub_timestamp": "2026-10-23T18:14:00+09:00",
+      "time_label": "어제 12:00",
+      "pub_timestamp": "2026-10-24T12:00:00+09:00",
       "bullets": [
-        "- '생방송투데이' 매운맛 맛불 작전, 화성 향남읍 대왕해물전골 vs 가평 설...",
-        "- (톱스타뉴스 장필구 기자) ‘생방송투데이’에서 소개한 경기도 화성시 소재 대왕해물전골 맛집과 가평군 소재 솥뚜껑닭매운탕 맛집이 화제다. 23일 SBS ‘생방송투데이’의 ‘맛불 작전’ 코너에서는 “솥뚜껑닭매운탕 VS ...",
+        "- 화성, 가을날 바다와 만나는 다채로운 풍경 속 가볼 만한 곳",
+        "- (톱스타뉴스 김명수 기자) 화성시는 서해안을 따라 펼쳐지는 자연경관과 도심의 편리함이 조화롭게 어우러진 도시다. 갯벌과 섬이 만들어내는 독특한 풍경부터, 역동적인 스포츠 시설, 교육적 의미를 지닌 유적지까지 다채로운...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.topstarnews.net/news/photo/202610/16256155_2064871_1254_crop.jpg",
+      "image_url": "https://cdn.topstarnews.net/news/photo/202610/16246609_2054601_4825_crop.jpg",
       "telegram_sent": true
     },
     {
-      "title": "화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
-      "link": "https://www.sentv.co.kr/article/view/sentv202610230162",
+      "title": "규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세",
+      "link": "https://www.etoday.co.kr/news/view/2639224",
       "media": "언론사",
       "category": "POLICY",
-      "department": "기획조정실 의회법무과",
+      "department": "교통국 철도전략과",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 18:12",
-      "pub_timestamp": "2026-10-23T18:12:00+09:00",
+      "time_label": "어제 08:02",
+      "pub_timestamp": "2026-10-24T08:02:00+09:00",
       "bullets": [
-        "- 화성시의회, 집만 늘어나는 신도시 막는다…자족기능 강화 추진",
-        "- 김상균 의원, 공공주택지구 기업유치 심의 근거 마련…관련 분야 전문가 참여 추진 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-261...",
+        "- 규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세",
+        "- 이투데이 부동산 일반 규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세 입력 2026-10-24 08:00 조유정 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! 북마크 되었습니다. 마...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000186.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
-      "link": "https://www.sentv.co.kr/article/view/sentv202610230165",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 18:12",
-      "pub_timestamp": "2026-10-23T18:12:00+09:00",
-      "bullets": [
-        "- 화성시, 쌀 품종 혼입 여부 과학적으로 확인한다",
-        "- SNP 유전자 분석으로 품종 일치 여부 확인…농협·미곡처리장 등에 우선 지원 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) 3153-2610 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000189.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시민들이 배우가 됐다…창작 오페라  전석 매진",
-      "link": "https://www.hankyung.com/article/202610231715i",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "자치행정국 행정지원과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:46",
-      "pub_timestamp": "2026-10-23T17:46:00+09:00",
-      "bullets": [
-        "- 화성시민들이 배우가 됐다…창작 오페라  전석 매진",
-        "- 안드로메다픽처스 제공 화성예술의전당 개관 첫해를 맞아 기획한 창작오페라 <왕의별> 쇼케이스가 전석 매진됐다. 화성시문화관광재단(이사장 정명근)에 따르면 <왕의별>은 창·제작 중심 시리즈 ‘HAC Creation’의 ...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://img.hankyung.com/photo/202610/01.46168864.1.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성시의회 “원격검침 0%·광역버스 난립·소각장 진통”",
-      "link": "https://www.kyeongin.com/article/1773273",
-      "media": "경인일보",
-      "category": "POLICY",
-      "department": "기획조정실 의회법무과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:30",
-      "pub_timestamp": "2026-10-23T17:30:00+09:00",
-      "bullets": [
-        "- 화성시의회 “원격검침 0%·광역버스 난립·소각장 진통”",
-        "- 시의회 임시회서 상수도·대중교통 등 문제 제기 예산심사 앞두고 현안 점검, 조례 등 45건 의결 23일 오전 화성시의회는 본회의장에서 제255회 임시회 제2차 본회의를 개의하고, 지난 16일부터 8일간 이어진 의사일...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/23/news-p.v1.20261023.881fc10a00f744f1a55ded05a798d59c_R.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "“경로당 부지, 이웃 동의 없인 안 되나요?”… 이장들 궁금증 풀어준 ...",
-      "link": "https://www.kyeongin.com/article/1773272",
-      "media": "경인일보",
-      "category": "POLICY",
-      "department": "재산관리과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:28",
-      "pub_timestamp": "2026-10-23T17:28:00+09:00",
-      "bullets": [
-        "- 캠코 경기지역본부가 화성시 봉담읍 행정복지센터에서 관내 이장 및 주민 100여 명을 대상으로 '찾아가는 국유재산 설명회'를 개최함",
-        "- 경로당 부지 마련 등 마을 숙원사업 해결을 위한 국유재산 공익사업 추진 및 대부·매수 절차 등 맞춤형 상담을 진행함",
-        "- 설명회 종료 후 캠코는 화성시 관내 취약계층 지원을 위해 화성시복지재단 등에 기부금 500만 원을 전달함"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/23/news-p.v1.20261023.c9a5d9dcf68146739e46c862a8de7116_R.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "캠코 경기지역본부, 화성특례시 효행구 취약계층 지원하고 국유재산 정...",
-      "link": "https://sports.donga.com/region/article/all/20261023/134897142/1",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 17:27",
-      "pub_timestamp": "2026-10-23T17:27:00+09:00",
-      "bullets": [
-        "- 캠코 경기지역본부, 화성특례시 효행구 취약계층 지원하고 국유재산 정...",
-        "- Copyright © 스포츠동아. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지 Copyright by sports.donga.com...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/23/134897145.1.jpeg",
+      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023090054_2405810_1200_748.jpg",
       "telegram_sent": true
     }
   ]
