@@ -1,78 +1,30 @@
 {
-  "updated_at": "2026.10.25. 06:00",
-  "yesterday_label": "10.24",
+  "updated_at": "2026.10.26. 06:00",
+  "yesterday_label": "10.25",
   "stats": {
-    "total": 6,
-    "major_count": 2,
-    "live_count": 4,
+    "total": 14,
+    "major_count": 5,
+    "live_count": 9,
     "today_count": 1,
-    "yesterday_count": 5,
-    "policy": 4,
-    "culture": 1,
-    "risk": 1
+    "yesterday_count": 13,
+    "policy": 8,
+    "culture": 4,
+    "risk": 2
   },
   "articles": [
     {
-      "title": "“불법 ‘콜뛰기’ 택시 막으려다 의식 잃었다”…50대 기사 폭행한 외...",
-      "link": "https://www.sedaily.com/article/20105643?ref=naver",
-      "media": "서울경제",
-      "category": "RISK",
-      "department": "대중교통과",
+      "title": "화성은 얼마나 먼 미래일까…돌봄부터 우주까지 코엑스서 찾는 'AI 미래...",
+      "link": "https://www.etnews.com/20261024000010",
+      "media": "전자신문",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 01:01",
-      "pub_timestamp": "2026-10-25T01:01:00+09:00",
+      "time_label": "오늘 04:01",
+      "pub_timestamp": "2026-10-26T04:01:00+09:00",
       "bullets": [
-        "- 화성시 향남읍 도로에서 불법 유상운송('콜뛰기') 호객 행위를 제지하던 택시기사가 외국인 남성에게 폭행당하는 사건 발생",
-        "- 향남·발안·남양 등 외국인 밀집 지역을 중심으로 불법 자가용 유상운송이 성행해 관내 택시업계와의 갈등 심화",
-        "- 무면허 운전 등 불법 콜뛰기에 대한 경찰 단속이 이어지고 있으나 지인 무료 탑승 주장 등 증거 확보 한계로 단속 애로"
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://wimg.sedaily.com/news/cms/2026/10/24/news-p.v1.20261024.68a50150b550481d9c4519c15c8fde2c_Z1.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성특례시의회, 제255회 임시회 마무리…안건 45건 의결",
-      "link": "http://www.metroseoul.co.kr/article/20261023500351",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "의회법무과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 20:22",
-      "pub_timestamp": "2026-10-24T20:22:00+09:00",
-      "bullets": [
-        "- 화성특례시의회가 제255회 임시회 제2차 본회의를 열고 총 45건의 안건을 의결하며 임시회 일정을 마무리함",
-        "- 본회의에서 이은진 의원은 화성시의 상수도 원격검침 도입률이 0%임을 지적하며 구체적인 도입 일정과 단계별 확대를 촉구함",
-        "- 시의회는 시민 생활과 직결된 주요 조례안 및 당면 현안 안건들을 면밀히 심의·가결 처리함"
-      ],
-      "related_articles": [
-        {
-          "title": "화성특례시의회, 생활밀착 안건 등 45건 원안 가결",
-          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719570",
-          "media": "언론사",
-          "time_label": "어제 08:11",
-          "pub_timestamp": "2026-10-24T08:11:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성특례시, 쌀 품종 검정기관 지정…브랜드 쌀 품질관리 강화",
-      "link": "http://www.metroseoul.co.kr/article/20261023500345",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "기본사회담당관",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 20:20",
-      "pub_timestamp": "2026-10-24T20:20:00+09:00",
-      "bullets": [
-        "- 화성특례시, 쌀 품종 검정기관 지정…브랜드 쌀 품질관리 강화",
-        "- 높이고, 화성시 브랜드 쌀의 차별화와 시장 경쟁력을 강화할 계획이다. 검정 서비스는 관내 농업협동조합과 종합미곡처리장(RPC), 화성푸드통합지원센터, 화성시명품쌀발전위원회 등을 대상으로 우선 제공한다. 기관......",
+        "- 화성은 얼마나 먼 미래일까…돌봄부터 우주까지 코엑스서 찾는 'AI 미래...",
+        "- 같은 날 화성시 우주항공산업 추진단 출범식과 우주항공 AI 포럼도 열린다. 저궤도 위성통신과 우주 AI... 것”이라며 “화성시가 쌓아온 AI 행정 노하우를 국내외 도시·기업들과 공유하며 글로벌 AI 생태계의 성장을...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
@@ -81,63 +33,301 @@
       "telegram_sent": true
     },
     {
-      "title": "“마이너스도 플러스로”…이계철 화성시의장, 청소년 무대 응원",
-      "link": "https://www.etnews.com/20261024000030",
-      "media": "전자신문",
+      "title": "화성특례시, 전국장애인 배드민턴대회",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719601",
+      "media": "언론사",
       "category": "CULTURE",
-      "department": "의회사무국",
+      "department": "체육진흥과",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 19:56",
-      "pub_timestamp": "2026-10-24T19:56:00+09:00",
+      "time_label": "어제 23:27",
+      "pub_timestamp": "2026-10-25T23:27:00+09:00",
       "bullets": [
-        "- 이계철 화성시의회 의장 등 시의회 및 읍 관계자들이 향남1지구 도원체육공원에서 열린 청소년 문화예술 축제에 참석함",
-        "- 향남문화의집과 향남읍주민자치회가 공동 주관하여 관내 청소년들이 직접 기획·공연한 '청소년 덕후 DAY' 행사 격려",
-        "- 화성시의회는 관내 청소년들의 재능 실현을 위한 문화예술 활동 기회 및 공간 확충 지원을 약속함"
+        "- 화성특례시가 지난 24일 화성실내배드민턴장에서 선수·관계자 350여 명이 참가한 ‘제1회 화성특례시장배 전국장애인 배드민턴대회’를 개최함.",
+        "- 장애인과 비장애인이 한 팀으로 출전하는 어울림 혼성 복식 등 5개 부문 경기를 통해 화합과 생활체육 교류를 도모함.",
+        "- 시는 2027년 제47회 전국장애인체육대회 주 개최도시로서 체육 기반시설 확충 및 안전한 경기 환경 조성을 추진할 계획임."
       ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://img.etnews.com/news/article/2026/10/24/news-p.v1.20261024.14a7f7d4bd73473eb0c969610e65faa9_P1.jpg",
+      "related_articles": [
+        {
+          "title": "[화성소식]제1회 시장배 전국장애인 배드민턴대회 개최 등",
+          "link": "https://www.newsis.com/view/NISX20261025_0003840089",
+          "media": "뉴시스",
+          "time_label": "어제 15:55",
+          "pub_timestamp": "2026-10-25T15:55:00+09:00"
+        },
+        {
+          "title": "화성특례시, 전국장애인 배드민턴대회 첫 개최…350여명 화합의 경기",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2484184",
+          "media": "언론사",
+          "time_label": "어제 15:00",
+          "pub_timestamp": "2026-10-25T15:00:00+09:00"
+        },
+        {
+          "title": "화성서 첫 전국장애인 배드민턴대회…전국 선수·관계자 350명 참가",
+          "link": "https://www.betanews.net/article/view/beta202610250017",
+          "media": "언론사",
+          "time_label": "어제 13:58",
+          "pub_timestamp": "2026-10-25T13:58:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "http://www.newstown.co.kr/news/thumbnail/202610/719601_675567_5726_v150.jpg",
       "telegram_sent": true
     },
     {
-      "title": "화성, 가을날 바다와 만나는 다채로운 풍경 속 가볼 만한 곳",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16246609",
+      "title": "이계철 화성시의회 의장 \"각자의 속도 존중\"...누구도 소외되지 않는 화...",
+      "link": "https://www.ajunews.com/view/20261025220120585",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "장애인복지과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 22:24",
+      "pub_timestamp": "2026-10-25T22:24:00+09:00",
+      "bullets": [
+        "- 이계철 화성시의회 의장이 다원이음터에서 열린 비영리단체 '견고한맘' 성과공유회 및 발표회에 참석해 참가자와 가족들을 격려함",
+        "- 발달장애·느린학습자·비장애 아동이 함께하는 무대를 통해 서로의 다름과 성장 속도를 존중하는 지역공동체 조성을 강조함",
+        "- 화성특례시의회는 장애 유무와 관계없이 문화예술 활동에 참여할 수 있도록 현장 의견 수렴 및 제도적 지원 방안을 검토할 방침임"
+      ],
+      "related_articles": [
+        {
+          "title": "이계철 화성시의회 의장 “서로의 속도를 존중하는 공동체 만들 것”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026102520495269414c878f8fa1_30",
+          "media": "언론사",
+          "time_label": "어제 21:06",
+          "pub_timestamp": "2026-10-25T21:06:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025221135338354.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "상수도 원격검침 0%·광역버스 만차… ‘대책 촉구’ 쏟아진 화성시의회",
+      "link": "https://www.kyeongin.com/article/1773354",
+      "media": "경인일보",
+      "category": "RISK",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 20:10",
+      "pub_timestamp": "2026-10-25T20:10:00+09:00",
+      "bullets": [
+        "- 화성시의회 제255회 임시회 5분 발언에서 생활 인프라 개선 및 시정 대책을 촉구하는 지적이 잇따름",
+        "- 이은진 의원은 수도 원격검침 0% 문제를 짚으며 디지털 전환을, 최청환 의원은 광역버스 만차 해소와 교통 편의 개선을 요구함",
+        "- 이민희 의원은 생활폐기물 소각시설 확충에 앞서 주민 의견 수렴 및 지역 상생 방안 마련이 선행되어야 한다고 강조함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/25/news-p.v1.20261025.3e5bbd06fa034e719896350b4cf39146_R.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "정명근표 임신·출산 가족교육 강화...임산부 가족 출산준비교실 운영",
+      "link": "https://www.ajunews.com/view/20261025150740153",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "만세구보건소",
+      "dept_label": "소관",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:56",
+      "pub_timestamp": "2026-10-25T15:56:00+09:00",
+      "bullets": [
+        "- 화성특례시 만세구보건소가 임산부 가정의 불안감을 해소하고 가족 간 이해를 돕기 위한 체험형 출산준비교실을 운영함",
+        "- 24일 남양읍 모두누림센터에서 임산부 체험복 착용 등 실질적인 체험 프로그램과 모자보건 교육을 진행함",
+        "- 오는 11월 11일 새솔동 추가 운영을 비롯해 권역별 맞춤형 출산준비교실 및 모자보건교육을 순차적으로 확대할 계획임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025151022113697.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "‘공공디자인, 삶을 바꾸다’… 화성 소다미술관, 기획전 ‘SUPERBLIC’ 개...",
+      "link": "https://www.kyeonggi.com/article/20261025580175",
       "media": "언론사",
       "category": "POLICY",
       "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 12:00",
-      "pub_timestamp": "2026-10-24T12:00:00+09:00",
+      "time_label": "어제 15:23",
+      "pub_timestamp": "2026-10-25T15:23:00+09:00",
       "bullets": [
-        "- 화성, 가을날 바다와 만나는 다채로운 풍경 속 가볼 만한 곳",
-        "- (톱스타뉴스 김명수 기자) 화성시는 서해안을 따라 펼쳐지는 자연경관과 도심의 편리함이 조화롭게 어우러진 도시다. 갯벌과 섬이 만들어내는 독특한 풍경부터, 역동적인 스포츠 시설, 교육적 의미를 지닌 유적지까지 다채로운...",
+        "- ‘공공디자인, 삶을 바꾸다’… 화성 소다미술관, 기획전 ‘SUPERBLIC’ 개...",
+        "- 구글 검색에서 경기일보 기사를우선적으로 보여줍니다. 소다미술관의 2026 SUPERBLIC 전시 전경. 소다미술관 제공공간에 인간의 온기와 삶의 궤적이 스며들 때 단순한 구역은 비로소 의미 있는 ‘장소’로 거듭난다....",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://cdn.topstarnews.net/news/photo/202610/16246609_2054601_4825_crop.jpg",
+      "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025580178.jpg?v=20261026061429",
       "telegram_sent": true
     },
     {
-      "title": "규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세",
-      "link": "https://www.etoday.co.kr/news/view/2639224",
+      "title": "화성특례시, 'MARS 2026'서 AI 전시·분야별 포럼 개최",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009856",
       "media": "언론사",
-      "category": "POLICY",
-      "department": "교통국 철도전략과",
+      "category": "CULTURE",
+      "department": "첨단산업과",
       "dept_label": "참고",
       "date_group": "YESTERDAY",
-      "time_label": "어제 08:02",
-      "pub_timestamp": "2026-10-24T08:02:00+09:00",
+      "time_label": "어제 15:02",
+      "pub_timestamp": "2026-10-25T15:02:00+09:00",
       "bullets": [
-        "- 규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세",
-        "- 이투데이 부동산 일반 규제 피한 수도권 집값 '들썩'⋯부천·화성 이어 의정부도 상승세 입력 2026-10-24 08:00 조유정 기자 기자 이름을 클릭하면 더 자세한 정보를 확인할 수 있어요! 북마크 되었습니다. 마...",
+        "- 화성특례시는 11월 3일부터 5일까지 서울 코엑스에서 글로벌 AI 엑스포 'MARS 2026'을 개최하고 5대 분야 AI 기술 전시를 선보임",
+        "- 행사 기간 중 샘 리처드 교수 기조연설, 우주항공산업추진단 출범식, 모빌리티·돌봄 등 분야별 학술 컨퍼런스가 진행됨",
+        "- 글로벌 기업 AMAT와의 투자협약 체결, 기업 투자유치설명회 및 행정 혁신을 다루는 '화성AI 포럼' 등 다양한 연계 프로그램이 운영됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009856_2009920_5547.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "최청환 화성특례시의회 의원, 이동권 중심 대중교통 대책 촉구",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009870",
+      "media": "언론사",
+      "category": "RISK",
+      "department": "대중교통과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:02",
+      "pub_timestamp": "2026-10-25T15:02:00+09:00",
+      "bullets": [
+        "- 최청환 화성특례시의회 의원은 제255회 임시회 5분 발언을 통해 인구 108만 대도시 규모에 미치지 못하는 대중교통 체계를 지적하고 이동권 중심 대책 마련을 촉구함",
+        "- GTX-C, 동탄트램 등 철도망 연계 버스 환승체계 구축 및 조암·향남·봉담 발 광역버스의 만차 문제 해결을 위한 전세버스 증차 등 실효성 있는 대책을 요구함",
+        "- 관내 생활권 이동권 보장을 위한 촘촘한 노선망 구축과 함께 똑버스·행복택시 등 맞춤형 교통수단을 통합 연계하는 교통정책으로의 전환을 주문함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009870_2009934_5247.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의회, 제255회 임시회서 안건 45건 원안 가결",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009854",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:00",
+      "pub_timestamp": "2026-10-25T15:00:00+09:00",
+      "bullets": [
+        "- 화성특례시의회가 제255회 임시회 제2차 본회의를 열고 조례안 및 동의안 등 안건 45건을 원안 가결함",
+        "- 5분 자유발언을 통해 상수도 원격검침 디지털 전환, 대중교통 이동권 개선, 폐기물 소각시설 신설 및 상생방안 등이 제기됨",
+        "- 생활민원 처리 지원 조례안 및 통학로 교통안전 조례 개정안, 수원시의회와의 우호도시 협약 체결 동의안 등이 처리됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009854_2009914_4053.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 민간외교·문화예술 인사 3명 홍보대사 위촉…국내외 도시...",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261025010008372",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "홍보담당관",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 14:54",
+      "pub_timestamp": "2026-10-25T14:54:00+09:00",
+      "bullets": [
+        "- 화성시가 국제교류 및 문화예술 분야 인사 3명(장민우·이평찬·나경화)을 신규 홍보대사로 공식 위촉함",
+        "- 위촉된 홍보대사들은 2026년 10월부터 2년간 화성시 시정 홍보와 주요 행사 참여를 통해 도시 브랜드 제고에 나설 예정임",
+        "- 시는 민간 외교관 및 지역 기반 예술인들의 전문성을 바탕으로 국내외 도시 경쟁력과 가치를 적극 홍보할 방침임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/10m/25d/2026102501001538200083721.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "금속 찍고 공구 살피고…화성 기업자문단, 제조현장 혁신 해법 공유회",
+      "link": "https://www.etnews.com/20261025000077",
+      "media": "전자신문",
+      "category": "CULTURE",
+      "department": "기업지원과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 13:55",
+      "pub_timestamp": "2026-10-25T13:55:00+09:00",
+      "bullets": [
+        "- 화성시 중소기업지원 자문단이 금속 3D프린팅 및 AI 기술의 제조현장 적용 방안을 논의함",
+        "- 자동차·스타트업·기계장비제조 3개 분과가 참여하는 합동 세미나를 관내 기업 현장에서 개최함",
+        "- 관내 중소제조기업의 혁신 해법 공유 및 첨단 공정 도입 지원 방안을 모색함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "정명근 화성시장, 교통망 확충부터 생활체육까지...시민 일상 챙긴 한 주...",
+      "link": "https://www.ajunews.com/view/20261025133413907",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "교육체육국 체육진흥과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 13:46",
+      "pub_timestamp": "2026-10-25T13:46:00+09:00",
+      "bullets": [
+        "- 정명근 화성시장, 교통망 확충부터 생활체육까지...시민 일상 챙긴 한 주...",
+        "- [사진=정명근 화성시장 SNS 캡처] 정명근 화성특례시장이 용인시와의 광역교통망 확충 협력부터 생활체육 현장 방문까지 시민 생활과 맞닿은 일정을 소화하며 지역 현안 해결에 힘을 쏟았다. 정 시장은 25일 자신의 사회...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [],
       "is_major": false,
-      "image_url": "https://img.etoday.co.kr/pto_db/2026/10/20261023090054_2405810_1200_748.jpg",
+      "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025134242411827.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시 만세구보건소, 임산부 혼자가 아닌 가족이 함께…체험 중심 출산...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32506",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "공보실 언론담당관",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 12:56",
+      "pub_timestamp": "2026-10-25T12:56:00+09:00",
+      "bullets": [
+        "- 화성시 만세구보건소, 임산부 혼자가 아닌 가족이 함께…체험 중심 출산...",
+        "- [사진=화성시] [필드뉴스=화성 강성원 기자] 화성특례시 만세구보건소가 출산을 앞둔 가정이 임신과 출산 과정을 함께 이해할 수 있도록 가족 참여형 출산준비교실을 운영했다. 임산부의 신체 변화와 일상생활의 불편을 직접...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32506_35501_5444_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "정명근 화성시장, 누구나 스포츠 즐기는 도시 만든다…장애인 체육시설...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32505",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "교육체육국 체육진흥과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 12:26",
+      "pub_timestamp": "2026-10-25T12:26:00+09:00",
+      "bullets": [
+        "- 정명근 화성시장, 누구나 스포츠 즐기는 도시 만든다…장애인 체육시설...",
+        "- [사진=화성시] [필드뉴스=화성 강성원 기자] 화성특례시에서 처음 열린 전국장애인 배드민턴대회에 전국 선수와 관계자 350여 명이 참가했다. 장애유형별 경기뿐 아니라 장애인과 비장애인이 한 팀을 이루는 혼성 복식도 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "정명근 화성시장, 장애인 체육 참여 기회 확대...전국 배드민턴대회 350...",
+          "link": "https://www.ajunews.com/view/20261025112035763",
+          "media": "언론사",
+          "time_label": "어제 11:32",
+          "pub_timestamp": "2026-10-25T11:32:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32505_35500_247_v150.jpg",
       "telegram_sent": true
     }
   ]
