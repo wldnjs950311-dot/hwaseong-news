@@ -1,33 +1,80 @@
 {
-  "updated_at": "2026.10.26. 08:00",
+  "updated_at": "2026.10.26. 08:39",
   "yesterday_label": "10.25",
   "stats": {
-    "total": 19,
+    "total": 18,
     "major_count": 7,
-    "live_count": 12,
-    "today_count": 5,
-    "yesterday_count": 14,
+    "live_count": 11,
+    "today_count": 7,
+    "yesterday_count": 11,
     "policy": 12,
-    "culture": 5,
+    "culture": 4,
     "risk": 2
   },
   "articles": [
     {
-      "title": "정명근 화성시장, 우주항공산업 추진단 출범…우주항공클러스터 조성 조...",
-      "link": "https://www.tournews21.com/news/articleView.html?idxno=146630",
+      "title": "화성시, '2026화성 루나빛축제' 개최",
+      "link": "http://www.breaknews.com/1245530",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 08:24",
+      "pub_timestamp": "2026-10-26T08:24:00+09:00",
+      "bullets": [
+        "- 화성시 산하기관 화성시문화관광재단 주관 '2026화성 루나빛축제' 개최 추진",
+        "- 일상 속 문화예술 향유 및 시민 간 따뜻한 추억 공유를 목적으로 기획",
+        "- 정명근 화성특례시장의 시민 상상력 및 문화복지 증진 메시지 반영"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 「우리가 빛나는 순간」장애.비장애 화합",
+      "link": "http://www.breaknews.com/1245508",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 08:24",
+      "pub_timestamp": "2026-10-26T08:24:00+09:00",
+      "bullets": [
+        "- 화성시의회, 「우리가 빛나는 순간」장애.비장애 화합",
+        "- 더불어 이번 무대는 소외 없는 사회를 지향하는 화성시의 미래상을 보여주는 상징적인 자리임을 명시했다. 장애 여부와 무관하게 모든 구성원이 차별 없이 문화......",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "정명근 화성시장, 반도체·AI 이어 우주항공 육성…전문가 60명 추진단 ...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32513",
       "media": "언론사",
       "category": "POLICY",
       "department": "기업투자실 첨단산업과",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 07:56",
-      "pub_timestamp": "2026-10-26T07:56:00+09:00",
+      "time_label": "오늘 08:04",
+      "pub_timestamp": "2026-10-26T08:04:00+09:00",
       "bullets": [
-        "- 정명근 화성시장, 우주항공산업 추진단 출범…우주항공클러스터 조성 조...",
-        "- SNS 기사보내기 다른 공유 찾기 기사스크랩하기 인쇄 이 기사를 공유합니다 본문 글씨 키우기 가 본문 글씨 줄이기 정명근 시장이 관내 우주항공 기업인들과 간담회를 가지고 있다/투어코리아뉴스 정명달 기자 사진=화성시 ...",
+        "- 정명근 화성시장, 반도체·AI 이어 우주항공 육성…전문가 60명 추진단 ...",
+        "- [사진=화성시] [필드뉴스=화성 강성원 기자] 화성특례시가 우주항공산업을 전담할 민·관·학·연 협력체계를 새로 구축한다. 정책·기획과 우주, 항공, 인공지능(AI) 등 4개 전문 분과에 60명의 전문가를 배치해 향후...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [
+        {
+          "title": "정명근 화성시장, 우주항공산업 추진단 출범…우주항공클러스터 조성 조...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=146630",
+          "media": "언론사",
+          "time_label": "오늘 07:56",
+          "pub_timestamp": "2026-10-26T07:56:00+09:00"
+        },
         {
           "title": "정명근 화성시장, 우주항공산업 육성 시동…전문가 60명 추진단 가동",
           "link": "http://www.beyondpost.co.kr/view.php?ud=2026102607422315854c878f8fa1_30",
@@ -44,25 +91,32 @@
         }
       ],
       "is_major": true,
-      "image_url": "https://cdn.tournews21.com/news/photo/202610/146630_273188_4725.jpg",
+      "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32513_35512_596_v150.jpg",
       "telegram_sent": true
     },
     {
-      "title": "정명근 화성시장 \"시민의 상상력으로 가을밤 밝힌다\"…31일 루나빛축제...",
-      "link": "https://www.tournews21.com/news/articleView.html?idxno=146629",
+      "title": "정명근 화성시장 “시민 상상력으로 가을밤 밝힌다”…루나빛축제 31일...",
+      "link": "http://www.beyondpost.co.kr/view.php?ud=202610260754308004c878f8fa1_30",
       "media": "언론사",
-      "category": "CULTURE",
-      "department": "관광진흥과",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
       "dept_label": "참고",
       "date_group": "TODAY",
-      "time_label": "오늘 07:56",
-      "pub_timestamp": "2026-10-26T07:56:00+09:00",
+      "time_label": "오늘 08:02",
+      "pub_timestamp": "2026-10-26T08:02:00+09:00",
       "bullets": [
-        "- 화성시가 주최하고 화성시문화관광재단이 주관하는 '2026 화성 루나빛축제'가 오는 31일 동탄호수공원 운답원 일원에서 개최됨",
-        "- '사라진 달빛을 찾아서'를 주제로 어린이 그림 기반 드론 500대 공연, 빛 놀이터·갤러리 체험, 루나쇼 등 다채로운 시민 참여형 프로그램 운영",
-        "- 정명근 화성시장은 시민과 지역 예술가, 기업의 참여와 상상력으로 완성되는 축제를 통해 문화예술 향유와 지역사회 화합을 강조함"
+        "- 정명근 화성시장 “시민 상상력으로 가을밤 밝힌다”…루나빛축제 31일...",
+        "- 동탄호수공원서 드론 500대·불꽃공연…체험·전시·공연 풍성 2026 화성 루나빛축제 홍보 포스터. /화성시 화성=비욘드포스트 송인호 기자  정명근 화성시장이 시민과 어린이, 지역 예술가가 함께 만드는 빛 축제로 가을...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
       "related_articles": [
+        {
+          "title": "정명근 화성시장 \"시민의 상상력으로 가을밤 밝힌다\"…31일 루나빛축제...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=146629",
+          "media": "언론사",
+          "time_label": "오늘 07:56",
+          "pub_timestamp": "2026-10-26T07:56:00+09:00"
+        },
         {
           "title": "화성시, 31일 동탄호수공원서 ‘루나빛축제’",
           "link": "https://www.sportsseoul.com/news/read/1643991?ref=naver",
@@ -72,7 +126,7 @@
         }
       ],
       "is_major": true,
-      "image_url": "https://cdn.tournews21.com/news/photo/202610/146629_273187_3918.jpg",
+      "image_url": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610260758320852204c878f8fa118220943141.jpg&nmt=30",
       "telegram_sent": true
     },
     {
@@ -334,26 +388,6 @@
       "telegram_sent": true
     },
     {
-      "title": "최청환 화성특례시의회 의원, 이동권 중심 대중교통 대책 촉구",
-      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009870",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "대중교통과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:02",
-      "pub_timestamp": "2026-10-25T15:02:00+09:00",
-      "bullets": [
-        "- 최청환 화성특례시의회 의원은 제255회 임시회 5분 발언을 통해 인구 108만 대도시 규모에 미치지 못하는 대중교통 체계를 지적하고 이동권 중심 대책 마련을 촉구함",
-        "- GTX-C, 동탄트램 등 철도망 연계 버스 환승체계 구축 및 조암·향남·봉담 발 광역버스의 만차 문제 해결을 위한 전세버스 증차 등 실효성 있는 대책을 요구함",
-        "- 관내 생활권 이동권 보장을 위한 촘촘한 노선망 구축과 함께 똑버스·행복택시 등 맞춤형 교통수단을 통합 연계하는 교통정책으로의 전환을 주문함"
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009870_2009934_5247.jpg",
-      "telegram_sent": true
-    },
-    {
       "title": "화성특례시, 'MARS 2026'서 AI 전시·분야별 포럼 개최",
       "link": "https://www.m-i.kr/news/articleView.html?idxno=2009856",
       "media": "언론사",
@@ -374,6 +408,26 @@
       "telegram_sent": true
     },
     {
+      "title": "최청환 화성특례시의회 의원, 이동권 중심 대중교통 대책 촉구",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009870",
+      "media": "언론사",
+      "category": "RISK",
+      "department": "대중교통과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:02",
+      "pub_timestamp": "2026-10-25T15:02:00+09:00",
+      "bullets": [
+        "- 최청환 화성특례시의회 의원은 제255회 임시회 5분 발언을 통해 인구 108만 대도시 규모에 미치지 못하는 대중교통 체계를 지적하고 이동권 중심 대책 마련을 촉구함",
+        "- GTX-C, 동탄트램 등 철도망 연계 버스 환승체계 구축 및 조암·향남·봉담 발 광역버스의 만차 문제 해결을 위한 전세버스 증차 등 실효성 있는 대책을 요구함",
+        "- 관내 생활권 이동권 보장을 위한 촘촘한 노선망 구축과 함께 똑버스·행복택시 등 맞춤형 교통수단을 통합 연계하는 교통정책으로의 전환을 주문함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009870_2009934_5247.jpg",
+      "telegram_sent": true
+    },
+    {
       "title": "화성특례시의회, 제255회 임시회서 안건 45건 원안 가결",
       "link": "https://www.m-i.kr/news/articleView.html?idxno=2009854",
       "media": "언론사",
@@ -391,66 +445,6 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://cdn.m-i.kr/news/photo/202610/2009854_2009914_4053.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성특례시, 민간외교·문화예술 인사 3명 홍보대사 위촉…국내외 도시...",
-      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261025010008372",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "홍보담당관",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 14:54",
-      "pub_timestamp": "2026-10-25T14:54:00+09:00",
-      "bullets": [
-        "- 화성시가 국제교류 및 문화예술 분야 인사 3명(장민우·이평찬·나경화)을 신규 홍보대사로 공식 위촉함",
-        "- 위촉된 홍보대사들은 2026년 10월부터 2년간 화성시 시정 홍보와 주요 행사 참여를 통해 도시 브랜드 제고에 나설 예정임",
-        "- 시는 민간 외교관 및 지역 기반 예술인들의 전문성을 바탕으로 국내외 도시 경쟁력과 가치를 적극 홍보할 방침임"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://img.asiatoday.co.kr/file/2026y/10m/25d/2026102501001538200083721.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "금속 찍고 공구 살피고…화성 기업자문단, 제조현장 혁신 해법 공유회",
-      "link": "https://www.etnews.com/20261025000077",
-      "media": "전자신문",
-      "category": "CULTURE",
-      "department": "기업지원과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 13:55",
-      "pub_timestamp": "2026-10-25T13:55:00+09:00",
-      "bullets": [
-        "- 화성시 중소기업지원 자문단이 금속 3D프린팅 및 AI 기술의 제조현장 적용 방안을 논의함",
-        "- 자동차·스타트업·기계장비제조 3개 분과가 참여하는 합동 세미나를 관내 기업 현장에서 개최함",
-        "- 관내 중소제조기업의 혁신 해법 공유 및 첨단 공정 도입 지원 방안을 모색함"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "",
-      "telegram_sent": true
-    },
-    {
-      "title": "정명근 화성시장, 교통망 확충부터 생활체육까지...시민 일상 챙긴 한 주...",
-      "link": "https://www.ajunews.com/view/20261025133413907",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "교육체육국 체육진흥과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 13:46",
-      "pub_timestamp": "2026-10-25T13:46:00+09:00",
-      "bullets": [
-        "- 정명근 화성시장, 교통망 확충부터 생활체육까지...시민 일상 챙긴 한 주...",
-        "- [사진=정명근 화성시장 SNS 캡처] 정명근 화성특례시장이 용인시와의 광역교통망 확충 협력부터 생활체육 현장 방문까지 시민 생활과 맞닿은 일정을 소화하며 지역 현안 해결에 힘을 쏟았다. 정 시장은 25일 자신의 사회...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025134242411827.png",
       "telegram_sent": true
     }
   ]
