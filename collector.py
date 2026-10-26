@@ -325,18 +325,28 @@ def is_candidate_hwaseong_news(title, content):
         if hwaseong_count <= 2:
             return False, f"화성시 단순 1~2회 스쳐가는 언급 (언급 {hwaseong_count}회)"
 
-    # 4. 민간 아파트 분양/청약/견본주택 홍보 기사 사전 배제 (Gemini 호출 비용 원천 차단)
+        # 4. 민간 아파트 분양/청약/견본주택 홍보 기사 사전 배제 (Gemini 호출 비용 원천 차단)
     ad_keywords = ["견본주택", "모델하우스", "청약", "입주자 모집", "시그니처", "롯데캐슬", "오피스텔 분양", "재건축 수주전"]
     if any(ak in clean_t for ak in ad_keywords) and not any(pk in clean_t for pk in ["공공임대", "LH", "시의회", "정명근"]):
         return False, "민간 아파트 분양/청약 홍보 기사"
 
-    return True, "통과"
+    # 5. 로또, 복권, 상업 경품/당첨, 주식/가상화폐, 단순 사건사고 기사 원천 차단 (시정 무관 기사 & 토큰 낭비 방지)
+    lotto_keywords = [
+        "로또", "복권", "스피또", "연금복권", "당첨", "추첨", "1등 당첨", "수동 3장", "판매점", 
+        "비트코인", "가상화폐", "암호화폐", "주가", "상한가", "환율", "코인", "음주운전", "단속 적발",
+        "토토", "경마", "경륜", "사기 혐의"
+    ]
+    if any(lk in clean_t for lk in lotto_keywords):
+        return False, "로또/복권/시정무관 상업·단순사건 기사"
+
+    return True, "통과" 
 
 
 def analyze_with_gemini(client, title, content, rule_dept):
     """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 핵심 요약 도출 (토큰 최적화)"""
     # 입력 토큰 대폭 절감을 위해 기사 본문 최대 1,200자로 제한
-    short_content = content[:1200] if len(content) > 1200 else content
+    # 입력 토큰 70% 대폭 절감을 위해 기사 본문 앞부분 최대 350자로 압축 (핵심 육하원칙만 전달)
+    short_content = content[:350] if len(content) > 350 else content
 
     prompt = f"""당신은 화성시청 언론홍보 수석 실무관입니다.
 아래 기사가 화성시 행정/시정과 실질적으로 관련된 기사인지 엄격히 판별하고 JSON으로 요약하십시오.
@@ -607,14 +617,21 @@ def extract_macro_pulse(client, articles):
             "theme_stats": []
         }
 
-    # 1. 7대 테마별 통계 집계
+    # 1. 5대 핵심 테마별 24시간 통계 집계 (Item 4: 24시간 룰 적용)
     theme_counts = {t["id"]: 0 for t in POLICY_THEMES}
     for art in articles:
-        tid = art.get("theme_id", "INDUSTRY")
-        if tid in theme_counts:
-            theme_counts[tid] += 1
-        else:
-            theme_counts["INDUSTRY"] += 1
+        tid = art.get("theme_id", "INDUSTRY_AGRI")
+        # 하위 호환 매핑
+        norm_tid = (
+            "INDUSTRY_AGRI" if tid in ("INDUSTRY", "INDUSTRY_AGRI") else
+            "TRANSIT_INFRA" if tid in ("TRANSIT", "TRANSIT_INFRA") else
+            "CULTURE_ECO" if tid in ("CULTURE", "CULTURE_ECO") else
+            "WELFARE_SAFETY" if tid in ("WELFARE", "SAFETY", "WELFARE_SAFETY") else
+            "AUTONOMY_ADMIN" if tid in ("AUTONOMY", "CITIZEN", "AUTONOMY_ADMIN") else
+            "INDUSTRY_AGRI"
+        )
+        if norm_tid in theme_counts:
+            theme_counts[norm_tid] += 1
 
     total_articles = len(articles)
     theme_stats = []
@@ -1035,14 +1052,32 @@ def main():
     major_count = sum(1 for a in cumulative_articles if a.get("is_major", False))
     live_count = len(cumulative_articles) - major_count
 
-    # 1. 언론동향 인기 이슈 키워드 TOP 5 추출 (최근 활성 기사 30건 기준)
-    trending_topics = extract_trending_topics(client, cumulative_articles[:30])
-    print(f">> 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
+    # [토큰 대폭 절감] 24시간 기준 분석 대상 기사 추출
+    cycle_articles = [a for a in cumulative_articles if a.get("date_group") in ("TODAY_LIVE", "MORNING_SCRAP")]
+    target_articles_24h = cycle_articles if len(cycle_articles) >= 3 else cumulative_articles[:15]
 
-    # 2. 시장·정책관 주간 언론동향 진단 및 7대 테마별 점유율 산출 (최근 7일간 기사 기준)
-    recent_week_articles = cumulative_articles[:40]
-    macro_pulse = extract_macro_pulse(client, recent_week_articles)
-    print(f">> 주간 언론동향 진단 완료 (개요 및 5줄 주요내용, 주의사항 건수: {len(macro_pulse.get('risk_cautions', []))})")
+    # 신규 분석 기사가 전혀 없는 경우 기존 macro_pulse와 trending_topics 즉시 재활용 (비용 0원!)
+    reused_cache = False
+    if new_gemini_analyzed == 0 and os.path.exists("news_data.json"):
+        try:
+            with open("news_data.json", "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                if old_data.get("macro_pulse") and old_data.get("trending_topics"):
+                    macro_pulse = old_data["macro_pulse"]
+                    trending_topics = old_data["trending_topics"]
+                    reused_cache = True
+                    print(">> [토큰 100% 절감 (비용 0원)] 신규 기사가 없어 기존 언론동향 및 키워드 분석을 즉시 재활용합니다.")
+        except Exception:
+            pass
+
+    if not reused_cache:
+        # 1. 24시간 언론동향 인기 이슈 키워드 TOP 5 추출 (최근 24시간 기사 우선)
+        trending_topics = extract_trending_topics(client, target_articles_24h)
+        print(f">> 24시간 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
+
+        # 2. 24시간 언론동향 진단 및 5대 테마별 24시간 점유율 산출 (Item 4: 24시간 룰 적용)
+        macro_pulse = extract_macro_pulse(client, target_articles_24h)
+        print(f">> 24시간 언론동향 진단 완료 (개요 및 5줄 주요내용, 24시간 테마 통계: {len(macro_pulse.get('theme_stats', []))}개)")
 
     result_data = {
         "updated_at": now_str,

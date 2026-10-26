@@ -769,6 +769,58 @@ header {
   border: 1px solid #FEE2E2;
 }
 
+/* 5대 테마 뉴스 카드 푸터 뱃지 (Item 6) */
+.theme-footer-tag {
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 2.5px 8px;
+  border-radius: 4px;
+  letter-spacing: -0.01em;
+}
+.theme-ftag-INDUSTRY_AGRI {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #DBEAFE;
+}
+.theme-ftag-TRANSIT_INFRA {
+  background: #F0F9FF;
+  color: #0284C7;
+  border: 1px solid #BAE6FD;
+}
+.theme-ftag-CULTURE_ECO {
+  background: #ECFDF5;
+  color: #047857;
+  border: 1px solid #A7F3D0;
+}
+.theme-ftag-WELFARE_SAFETY {
+  background: #FFFBEB;
+  color: #B45309;
+  border: 1px solid #FDE68A;
+}
+.theme-ftag-AUTONOMY_ADMIN {
+  background: #F5F3FF;
+  color: #6D28D9;
+  border: 1px solid #DDD6FE;
+}
+
+/* 주요 뉴스 24시간 범위 토글 버튼 (Item 10) */
+.major-scope-btn {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #1E40AF;
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+  padding: 3px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: all 0.15s ease;
+}
+.major-scope-btn:hover {
+  background: #DBEAFE;
+  color: #1D4ED8;
+}
+
 /* 상태 메시지 */
 .state-msg {
   text-align: center;
@@ -1964,9 +2016,8 @@ header {
     
     <div class="header-right">
       <div class="header-update-time">
-        <span id="scrapPeriodLabel" style="font-weight:700; color:var(--primary); margin-right:4px;">조간 08:00 기준:</span>
-        <b id="updateTimeText">데이터 로딩 중...</b>
-        <span class="scrap-badge" id="scrapPeriodBadge" style="display:inline-block; font-size:11.5px; font-weight:700; color:#1E40AF; background:#EFF6FF; border:1px solid #BFDBFE; padding:2px 7px; border-radius:4px; margin-left:6px;">24시간 조간 스크랩</span>
+        <b id="todayDateText" style="font-size:14.5px; color:var(--ink); font-weight:800;">[2026.10.26.(월)]</b>
+        <span class="scrap-time-note" id="scrapPeriodNote" style="font-size:12.5px; font-weight:600; color:var(--muted); margin-left:6px;">(기준: 전일 08:00 ~ 금일 08:00)</span>
       </div>
 
       <!-- 1-2. 내 부서 Pin 및 모아보기 버튼 -->
@@ -2055,7 +2106,6 @@ header {
             <span class="trending-badge">
               <span>24시간 언론동향</span>
             </span>
-            <span style="font-size:12px; font-weight:700; color:var(--muted); margin-left:8px;" id="trendingPeriodLabel">조간 스크랩 (전일 08:00 ~ 현재)</span>
             <!-- 롤링 티커 (실시간 1위~5위 롤링) -->
             <div class="trending-ticker-wrap" onclick="clickActiveTicker()" title="클릭 시 해당 이슈 뉴스로 바로 이동합니다">
               <div class="trending-ticker-inner" id="trendingTickerInner"></div>
@@ -2071,16 +2121,7 @@ header {
       </div>
     </section>
 
-    <!-- 2. 핵심 뉴스 (구 실시간 시정 핵심 뉴스) -->
-    <section class="home-highlights-card">
-      <div class="highlights-header">
-        <span class="highlights-title">핵심 뉴스</span>
-        <button type="button" class="view-all-link-btn" onclick="switchMainTab('ALL', document.getElementById('tabBtnAll'))">
-          전체기사 보러가기 →
-        </button>
-      </div>
-      <div class="highlights-list" id="homeHighlightsList"></div>
-    </section>
+
 
     <!-- 3. 주간 언론동향 (금주 언론동향 네비게이션, 개요, 주요내용 5줄, 주의사항 전수 수록) -->
     <section class="weekly-trend-card" id="weeklyTrendCard">
@@ -2090,7 +2131,7 @@ header {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
             <span>저번 주</span>
           </button>
-          <span class="weekly-main-title" id="weeklyMainTitle">이번주 언론동향</span>
+          <span class="weekly-main-title" id="weeklyMainTitle">언론동향</span>
           <button type="button" class="week-nav-btn" id="nextWeekBtn" onclick="navigateWeek(1)" title="다음 주 언론동향" disabled>
             <span>다음 주</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -2130,12 +2171,11 @@ header {
       </div>
     </section>
 
-    <!-- 4. 5대 핵심 시정 테마별 현황 (농축수산 1차 산업 포함 5대 테마 재구성) -->
+    <!-- 4. 테마별 현황 (Item 4: 24시간 룰 적용) -->
     <section class="themes-card">
       <div class="themes-header">
         <div class="themes-title-group">
-          <span class="themes-title">5대 핵심 시정 테마별 현황</span>
-          <span class="themes-sub">농축수산 1차 산업부터 첨단산업·교통·복지·자치까지 클릭 시 해당 기사 모아보기</span>
+          <span class="themes-title">테마별 현황</span>
         </div>
       </div>
       <!-- 테마별 점유율 비중 스택 바 -->
@@ -2184,6 +2224,9 @@ header {
           <div class="section-title-box">
             <div class="section-title">
               주요 뉴스 <span class="badge major-badge" id="majorCountBadge">0건</span>
+              <button type="button" class="major-scope-btn" id="majorScopeBtn" onclick="toggleMajorNewsScope(event)" title="24시간 보도와 과거 전체 보도 전환">
+                과거 주요뉴스 모두표시
+              </button>
             </div>
             <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안</div>
           </div>
@@ -2358,8 +2401,11 @@ let tickerInterval = null;
 let currentTickerIndex = 0;
 let isTrendingExpanded = false; // 화성시 언론동향 최초 상태: 접힘
 
-// 주간 언론동향 주차 네비게이션 상태 (0: 금주, -1: 1주 전, -2: 2주 전 ...)
+// 언론동향 주차 네비게이션 상태 (0: 이번주, -1: 1주 전, -2: 2주 전 ...)
 let currentWeekOffset = 0;
+
+// 전체기사 탭 주요 뉴스 24시간 표시 범위 토글 (Item 10: 기본 false = 24시간만 표시)
+let showAllMajorNews = false;
 
 // 상세 검색 필터 상태
 let advFilterStartDate = '';
@@ -2389,13 +2435,21 @@ async function loadNewsData() {
     if (!res.ok) throw new Error("파일 없음");
     const data = await res.json();
     
-    document.getElementById('updateTimeText').textContent = data.updated_at || "최신";
-    if (data.scrap_period) {
-      const pBadge = document.getElementById('scrapPeriodBadge');
-      if (pBadge) pBadge.textContent = "조간 08:00 스크랩";
-      const tLabel = document.getElementById('trendingPeriodLabel');
-      if (tLabel) tLabel.textContent = `조간 스크랩 (${data.scrap_period})`;
+    // 오늘 날짜 및 요일 동적 포맷팅: [2026.10.26.(월)] (Item 1 & 9)
+    const now = new Date();
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, '0');
+    const dd = String(now.getDate()).padStart(2, '0');
+    const dayStr = days[now.getDay()];
+    const todayEl = document.getElementById('todayDateText');
+    if (todayEl) todayEl.textContent = `[${yyyy}.${mm}.${dd}.(${dayStr})]`;
+    
+    const noteEl = document.getElementById('scrapPeriodNote');
+    if (noteEl) {
+      noteEl.textContent = `(기준: ${data.scrap_period || '전일 08:00 ~ 금일 08:00'})`;
     }
+
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
     globalTrendingTopics = data.trending_topics || extractClientTrendingTopics(globalArticles);
@@ -2468,7 +2522,7 @@ function updateWeekDisplay() {
   const prevBtn = document.getElementById('prevWeekBtn');
   if (titleEl) {
     if (currentWeekOffset === 0) {
-      titleEl.textContent = '이번주 언론동향';
+      titleEl.textContent = '언론동향';
     } else {
       titleEl.textContent = `${Math.abs(currentWeekOffset)}주 전 언론동향`;
     }
@@ -2481,20 +2535,24 @@ function updateWeekDisplay() {
   }
 }
 
+// 주요 뉴스 24시간 범위 토글 함수 (Item 10)
+function toggleMajorNewsScope(event) {
+  if (event) event.stopPropagation();
+  showAllMajorNews = !showAllMajorNews;
+  renderTimeline();
+}
+
 // ========================================================
 // [홈 탭 대시보드] 화성시정 거시동향 총망라 렌더링
 // ========================================================
 function renderHomeDashboard() {
-  // 1. 화성시 언론동향 위젯 렌더링 (최상단)
+  // 1. 24시간 언론동향 위젯 렌더링 (최상단)
   renderTrendingUI();
 
-  // 2. 핵심 뉴스 렌더링 (구 실시간 시정 핵심 뉴스)
-  renderHomeHighlights();
-
-  // 3. 주간 언론동향 렌더링 (개요, 주요내용 5줄, 주의사항 전수)
+  // 2. 언론동향 렌더링 (개요, 주요내용 5줄, 주의사항 전수 - 24시간 기준)
   renderWeeklyTrend();
 
-  // 4. 시정 7대 전략 테마 현황 렌더링 (맨 아래)
+  // 3. 테마별 현황 렌더링 (24시간 기준 스택 바 & 카드)
   renderThemesOverview();
 }
 
@@ -2618,14 +2676,43 @@ function renderWeeklyTrend() {
   }).join('');
 }
 
-// 5대 핵심 시정 테마별 현황 렌더링 (게이지 바 & 옅은 파스텔 틴트 카드 그리드)
+// 테마별 현황 렌더링 (Item 4: 24시간 룰 적용 집계 스택 바 & 파스텔 틴트 카드)
 function renderThemesOverview() {
   const ratioBar = document.getElementById('themesRatioBar');
   const grid = document.getElementById('themesGrid');
   if (!ratioBar || !grid) return;
 
-  const stats = (globalMacroPulse && globalMacroPulse.theme_stats) ? globalMacroPulse.theme_stats : [];
-  if (stats.length === 0) return;
+  // 24시간 기사 기준으로 테마별 통계 직접 산출 (Item 4: 24시간 룰 엄격 일치)
+  const articles24h = globalArticles.filter(a => a.date_group === 'TODAY_LIVE' || a.date_group === 'MORNING_SCRAP');
+  const targetArticles = (articles24h.length >= 3) ? articles24h : globalArticles;
+
+  const themesDef = [
+    { id: 'INDUSTRY_AGRI', name: '미래 첨단산업 · 스마트 농축수산', short_name: '산업·농정' },
+    { id: 'TRANSIT_INFRA', name: '광역 교통망 · 균형발전 도시인프라', short_name: '교통·도시' },
+    { id: 'CULTURE_ECO', name: '문화관광 · 해양생태 도시브랜드', short_name: '문화·관광' },
+    { id: 'WELFARE_SAFETY', name: '포용 복지안전 · 생활환경 돌봄', short_name: '복지·안전' },
+    { id: 'AUTONOMY_ADMIN', name: '특례시 자치분권 · 시민소통 행정', short_name: '특례시·자치' }
+  ];
+
+  const counts = { INDUSTRY_AGRI: 0, TRANSIT_INFRA: 0, CULTURE_ECO: 0, WELFARE_SAFETY: 0, AUTONOMY_ADMIN: 0 };
+  targetArticles.forEach(a => {
+    let tid = a.theme_id || 'INDUSTRY_AGRI';
+    if (tid === 'INDUSTRY') tid = 'INDUSTRY_AGRI';
+    if (tid === 'TRANSIT') tid = 'TRANSIT_INFRA';
+    if (tid === 'CULTURE') tid = 'CULTURE_ECO';
+    if (tid === 'WELFARE' || tid === 'SAFETY') tid = 'WELFARE_SAFETY';
+    if (tid === 'AUTONOMY' || tid === 'CITIZEN') tid = 'AUTONOMY_ADMIN';
+    if (counts[tid] !== undefined) counts[tid]++;
+  });
+
+  const total = targetArticles.length;
+  const stats = themesDef.map(t => ({
+    id: t.id,
+    name: t.name,
+    short_name: t.short_name,
+    count: counts[t.id] || 0,
+    ratio: total > 0 ? Math.round(((counts[t.id] || 0) / total) * 100) : 0
+  }));
 
   const segClasses = {
     'INDUSTRY_AGRI': 'theme-seg-industry-agri',
@@ -3161,8 +3248,11 @@ function renderTimeline() {
   // 현재 탭 및 검색 조건으로 최종 필터링된 기사 목록
   const filtered = globalArticles.filter(item => matchesSearchCriteria(item, true));
 
-  // 주요 뉴스와 실시간 뉴스 분류 (is_major 또는 다수 언론사 묶음 보도)
-  const majorArticles = filtered.filter(item => item.is_major || (item.related_articles && item.related_articles.length > 0));
+  // 주요 뉴스와 실시간 뉴스 분류 (Item 10: 기본 24시간 기사만 필터, showAllMajorNews 시 과거 포함 전체 표시)
+  const allMajorArticles = filtered.filter(item => item.is_major || (item.related_articles && item.related_articles.length > 0));
+  const majorArticles = showAllMajorNews 
+    ? allMajorArticles 
+    : allMajorArticles.filter(item => item.date_group === 'TODAY_LIVE' || item.date_group === 'MORNING_SCRAP');
   const liveArticles = filtered.filter(item => !majorArticles.includes(item));
 
   // 1) 주요 뉴스 렌더링
@@ -3174,7 +3264,13 @@ function renderTimeline() {
   } else {
     document.getElementById('emptyMajorNotice').style.display = 'block';
   }
-  setSafeText('majorCountBadge', `${majorArticles.length}건`);
+  
+  // 주요 뉴스 뱃지 및 토글 버튼 상태 갱신
+  setSafeText('majorCountBadge', showAllMajorNews ? `${majorArticles.length}건 (전체)` : `${majorArticles.length}건 (24시간)`);
+  const scopeBtn = document.getElementById('majorScopeBtn');
+  if (scopeBtn) {
+    scopeBtn.textContent = showAllMajorNews ? '24시간 주요뉴스만 보기' : '과거 주요뉴스 모두표시';
+  }
 
   // 2) 실시간 뉴스 렌더링 (공보실 08:00 스크랩 및 실시간 구분선)
   let hasInsertedLiveDivider = false;
@@ -3391,14 +3487,28 @@ function createNewsCard(item, isMajor) {
     `;
   }
 
-  // 카테고리 태그
-  const catMap = {
-    'POLICY': '시정정책',
-    'CULTURE': '문화행사',
-    'RISK': '비판지적'
+  // 5대 테마명 태그 매핑 (Item 6)
+  const themeNameMap = {
+    'INDUSTRY_AGRI': '산업·농정',
+    'TRANSIT_INFRA': '교통·도시',
+    'CULTURE_ECO': '문화·관광',
+    'WELFARE_SAFETY': '복지·안전',
+    'AUTONOMY_ADMIN': '특례시·자치',
+    'INDUSTRY': '산업·농정',
+    'TRANSIT': '교통·도시',
+    'CULTURE': '문화·관광',
+    'WELFARE': '복지·안전',
+    'SAFETY': '복지·안전',
+    'AUTONOMY': '특례시·자치',
+    'CITIZEN': '특례시·자치'
   };
-  const catName = catMap[item.category] || item.category || '시정정책';
-
+  const normThemeId = (item.theme_id === 'INDUSTRY') ? 'INDUSTRY_AGRI' :
+                      (item.theme_id === 'TRANSIT') ? 'TRANSIT_INFRA' :
+                      (item.theme_id === 'CULTURE') ? 'CULTURE_ECO' :
+                      (item.theme_id === 'WELFARE' || item.theme_id === 'SAFETY') ? 'WELFARE_SAFETY' :
+                      (item.theme_id === 'AUTONOMY' || item.theme_id === 'CITIZEN') ? 'AUTONOMY_ADMIN' :
+                      (item.theme_id || 'INDUSTRY_AGRI');
+  const themeShort = themeNameMap[normThemeId] || item.theme_short || '산업·농정';
   box.innerHTML = `
     <div class="news-content-row">
       ${thumbHtml}
@@ -3434,7 +3544,8 @@ function createNewsCard(item, isMajor) {
             <span class="meta-dept ${isRisk ? 'risk' : ''}">${item.department}</span>
           </div>
           <div class="footer-right">
-            <span class="cat-tag ${catClass}">${catName}</span>
+            ${isRisk ? '<span class="cat-tag risk" style="margin-right:6px;">비판지적</span>' : ''}
+            <span class="theme-footer-tag theme-ftag-${normThemeId}">${themeShort}</span>
           </div>
         </div>
       </div>

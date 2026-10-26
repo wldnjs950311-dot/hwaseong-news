@@ -2,8 +2,8 @@
   "updated_at": "2026.10.26. 09:00",
   "yesterday_label": "10.25",
   "stats": {
-    "total": 17,
-    "major_count": 6,
+    "total": 16,
+    "major_count": 5,
     "live_count": 11,
     "today_count": 5,
     "yesterday_count": 9,
@@ -380,37 +380,6 @@
       "theme_short": "복지·안전"
     },
     {
-      "title": "제1247회 로또 1등 8명 각 36.3억…화성 한곳서 수동 3장 나왔다",
-      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=97709",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "화성시 소관부서 확인중",
-      "dept_label": "참고",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "어제 17:54",
-      "pub_timestamp": "2026-10-25T17:54:00+09:00",
-      "bullets": [
-        "- 제1247회 로또 1등 8명 각 36.3억…화성 한곳서 수동 3장 나왔다",
-        "- [사진=챗GPT] [뉴시안 = 최문수 기자] 24일 진행된 제1247회 동행복권 로또 추첨에서 ‘8, 14, 21, 22, 42, 45’가 1등 당첨 번호로 뽑혔다. 2등 보너스 번호는 ‘24’다. 당첨 번호 6개를...",
-        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-      ],
-      "related_articles": [
-        {
-          "title": "로또 1등 3장 한곳서 나왔다…한 사람이면 109억원 잭팟",
-          "link": "https://www.wikitree.co.kr/articles/1168981",
-          "media": "언론사",
-          "time_label": "어제 16:12",
-          "pub_timestamp": "2026-10-25T16:12:00+09:00"
-        }
-      ],
-      "is_major": true,
-      "image_url": "https://cdn.newsian.co.kr/news/thumbnail/202610/97709_92661_5029_v150.jpg",
-      "telegram_sent": true,
-      "theme_id": "INDUSTRY_AGRI",
-      "theme": "미래 첨단산업 · 스마트 농축수산",
-      "theme_short": "산업·농정"
-    },
-    {
       "title": "정명근표 임신·출산 가족교육 강화...임산부 가족 출산준비교실 운영",
       "link": "https://www.ajunews.com/view/20261025150740153",
       "media": "언론사",
@@ -533,8 +502,8 @@
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 6,
-        "ratio": 35
+        "count": 5,
+        "ratio": 31
       },
       {
         "id": "TRANSIT_INFRA",
@@ -548,21 +517,21 @@
         "name": "문화관광 · 해양생태 도시브랜드",
         "short_name": "문화·관광",
         "count": 3,
-        "ratio": 18
+        "ratio": 19
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 4,
-        "ratio": 24
+        "ratio": 25
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 3,
-        "ratio": 18
+        "ratio": 19
       }
     ],
     "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(6건, 35%) 및 「복지·안전」(4건, 24%) 분야를 중심으로 시정 핵심 정책이 활발히 추진되고 있습니다.",
