@@ -84,6 +84,82 @@ DEPT_RULES = [
     {"dept": "공원녹지사업소 보타닉가든추진단", "keywords": ["보타닉가든", "보타닉가든화성", "도심수목원", "사계절온실"]}
 ]
 
+# 3. 시장 및 정책기획관 관점의 화성시정 7대 전략 테마
+POLICY_THEMES = [
+    {
+        "id": "INDUSTRY",
+        "name": "미래 첨단산업 · 혁신성장",
+        "short_name": "미래 첨단산업",
+        "keywords": ["AI", "반도체", "MARS", "모빌리티", "자율주행", "로봇", "테크노폴", "기업지원", "지역화폐", "산업진흥", "첨단산업", "우주항공", "투자협력", "클러스터", "스마트도시", "빅데이터", "AX", "UAM"],
+        "depts": ["첨단산업과", "기업지원과", "지역경제과", "AI스마트전략실"]
+    },
+    {
+        "id": "TRANSIT",
+        "name": "광역 교통망 · 균형발전",
+        "short_name": "광역 교통망",
+        "keywords": ["트램", "동탄트램", "도시철도", "GTX", "인덕원선", "철도", "시내버스", "광역버스", "도로", "환승센터", "국제테마파크", "균형발전", "도로망", "국도", "지방도", "주차물류"],
+        "depts": ["철도전략과", "대중교통과", "도로과", "건설과", "트램건설추진단", "균형발전과", "주차물류과"]
+    },
+    {
+        "id": "CULTURE",
+        "name": "문화관광 · 도시브랜드",
+        "short_name": "문화관광·브랜드",
+        "keywords": ["축제", "문화재단", "예술", "관광", "전시", "공연", "오페라", "라보엠", "루나빛", "뱃놀이", "보타닉가든", "수목원", "식물원", "체육", "지질공원", "해양관광", "전곡항", "궁평항", "예술의전당"],
+        "depts": ["문화예술과", "관광진흥과", "체육진흥과", "보타닉가든추진단", "공원조성과", "홍보담당관", "해양수산과"]
+    },
+    {
+        "id": "WELFARE",
+        "name": "포용복지 · 생애주기 돌봄",
+        "short_name": "포용복지·돌봄",
+        "keywords": ["복지", "기초수급", "돌봄", "장애인", "노인", "어르신", "경로당", "출산", "저출생", "어린이집", "보육", "보건소", "의료급여", "기본사회", "기본소득", "고독사", "여성친화"],
+        "depts": ["복지정책과", "통합돌봄과", "장애인복지과", "중장년노인과", "저출생대응과", "영유아보육과", "기본사회담당관", "보건소", "만세구보건소"]
+    },
+    {
+        "id": "SAFETY",
+        "name": "시민안전 · 환경재난 대응",
+        "short_name": "시민안전·환경",
+        "keywords": ["재난", "안전", "중대재해", "소방", "수방", "소하천", "소각장", "환경", "폐기물", "상수도", "원격검침", "가축방역", "하천정비", "배수펌프장", "과적단속", "맑은물"],
+        "depts": ["안전정책과", "재난대응과", "건설과", "축산정책과", "맑은물사업소", "농업정책과"]
+    },
+    {
+        "id": "AUTONOMY",
+        "name": "특례시 자치분권 · 행정혁신",
+        "short_name": "특례시·자치분권",
+        "keywords": ["특례시", "특례권한", "구청설치", "자치분권", "행정구역", "예산", "추경", "지방예산", "자체감사", "청렴도", "공직기강", "정책기획", "업무계획", "군공항", "수원군공항", "화옹지구"],
+        "depts": ["자치분권과", "행정지원과", "예산재정과", "감사관", "정책기획관", "인사과", "군공항대응과"]
+    },
+    {
+        "id": "CITIZEN",
+        "name": "미래 인재양성 · 시민소통",
+        "short_name": "인재양성·시민소통",
+        "keywords": ["교육", "교육발전특구", "장학", "청소년", "학생", "주민자치", "마을공동체", "시의회", "임시회", "행정사무감사", "소통", "협치", "자원봉사", "시민옴부즈만", "의회"],
+        "depts": ["교육지원과", "청년청소년과", "시민협력과", "의회법무과", "언론담당관"]
+    }
+]
+
+
+def match_policy_theme(title, text, dept):
+    """기사 내용을 바탕으로 시장/정책관 관점의 7대 전략 테마 매칭"""
+    full_text = f"{title} {text} {dept}"
+    best_theme = POLICY_THEMES[0]
+    max_score = -1
+
+    for theme in POLICY_THEMES:
+        score = 0
+        for d in theme["depts"]:
+            if d in dept:
+                score += 5
+        for kw in theme["keywords"]:
+            if kw in title:
+                score += 3
+            elif kw in full_text:
+                score += 1
+        if score > max_score:
+            max_score = score
+            best_theme = theme
+
+    return best_theme["id"], best_theme["name"], best_theme["short_name"]
+
 
 def clean_html(text):
     if not text:
@@ -530,6 +606,104 @@ def extract_trending_topics(client, articles):
     return fallback_topics[:5]
 
 
+def extract_macro_pulse(client, articles):
+    """
+    시장 및 정책기획관 관점의 화성시정 거시 기류 총괄 진단 및 7대 전략 테마별 점유율 산출
+    (이모티콘 사용 배제, 단정하고 신뢰감 있는 정통 행정 문체)
+    """
+    if not articles:
+        return {
+            "summary_bullets": ["현재 수집된 기사가 충분하지 않습니다."],
+            "theme_stats": []
+        }
+
+    # 1. 7대 테마별 통계 집계
+    theme_counts = {t["id"]: 0 for t in POLICY_THEMES}
+    for art in articles:
+        tid = art.get("theme_id", "INDUSTRY")
+        if tid in theme_counts:
+            theme_counts[tid] += 1
+        else:
+            theme_counts["INDUSTRY"] += 1
+
+    total_articles = len(articles)
+    theme_stats = []
+    for t in POLICY_THEMES:
+        c = theme_counts[t["id"]]
+        ratio = round((c / total_articles) * 100) if total_articles > 0 else 0
+        theme_stats.append({
+            "id": t["id"],
+            "name": t["name"],
+            "short_name": t["short_name"],
+            "count": c,
+            "ratio": ratio
+        })
+
+    # 보도 비중 순 정렬
+    sorted_themes = sorted(theme_stats, key=lambda x: x["count"], reverse=True)
+    top_theme_names = [st["short_name"] for st in sorted_themes if st["count"] > 0][:2]
+    top_themes_str = ", ".join(top_theme_names) if top_theme_names else "시정 일반"
+
+    # 2. Gemini를 활용한 시장/정책관 주간 거시 맥락 진단 (이모티콘 철저 배제)
+    summary_bullets = []
+    if client and GEMINI_API_KEY:
+        try:
+            briefs = []
+            for idx, a in enumerate(articles[:12], 1):
+                b_text = a.get("bullets", [""])[0].lstrip("- ")
+                briefs.append(f"{idx}. [{a.get('theme_short', '')}] {a['title']} - {b_text}")
+            articles_text = "\n".join(briefs)
+
+            prompt = f"""당신은 화성시장 및 정책기획관의 수석 정책보좌관입니다.
+아래 수집된 화성시 주요 뉴스들을 종합 분석하여, 시장 및 정책관이 시정 전체 맥락을 한눈에 파악할 수 있는 '화성시정 종합 맥락 진단 (3문장)'을 작성하십시오.
+
+[수집된 주요 기사 목록]:
+{articles_text}
+
+[작업 지침 - 매우 중요]:
+1. 이모티콘(이모지)은 절대로 단 하나도 사용하지 마십시오. 공공 지자체 공식 보고서의 격조 높고 단정한 문체로 작성하십시오.
+2. 아래 3가지 관점으로 각각 1문장씩, 총 3개 문장으로 작성하십시오 (각 줄은 '- '로 시작):
+   - 첫 번째 줄: 시정 핵심 드라이브 (현재 화성시정이 가장 강하게 주력하고 있는 핵심 정책 분야와 그 배경)
+   - 두 번째 줄: 시민 체감 기류 (문화, 축제, 복지, 생활 편의 등 시민 생활 현장에서 나타나는 주요 흐름)
+   - 세 번째 줄: 주요 현안 및 점검 사항 (시의회 질의, 공사 안전, 주민 민원 등 선제적 관리가 필요한 사안)
+3. JSON 형식으로 출력하십시오.
+
+[출력 JSON 형식]:
+{{
+  "summary_bullets": [
+    "- 첫 번째 줄 (시정 핵심 드라이브)",
+    "- 두 번째 줄 (시민 체감 기류)",
+    "- 세 번째 줄 (주요 현안 및 점검 사항)"
+  ]
+}}
+"""
+            res = client.models.generate_content(
+                model="gemini-3.8-flash",
+                contents=prompt,
+                config={"response_mime_type": "application/json"}
+            )
+            if res and res.text:
+                parsed = json.loads(res.text.strip())
+                bullets = parsed.get("summary_bullets", [])
+                if bullets and len(bullets) >= 2:
+                    summary_bullets = bullets[:3]
+        except Exception as e:
+            print(f"거시 맥락 진단 Gemini 도출 예외 ({e}), Fallback 적용")
+
+    # Fallback 진단문 (Gemini 실패 또는 미연결 시)
+    if not summary_bullets:
+        summary_bullets = [
+            f"- 화성특례시 출범을 앞두고 {top_themes_str} 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
+            "- 동탄호수공원 등 도심 수변 공간을 활용한 가을 문화 축제와 시민 체감형 복지 소통이 활기를 띠고 있습니다.",
+            "- 시의회 임시회 현안 질의 및 공사 현장 보행자 안전 등 대민 접점 생활 인프라에 대한 사전 점검이 필요합니다."
+        ]
+
+    return {
+        "summary_bullets": summary_bullets,
+        "theme_stats": theme_stats
+    }
+
+
 def send_telegram_alert(article):
     """신규 기사를 단정하고 품격 있는 포맷으로 텔레그램 봇으로 전송"""
     token = os.environ.get("TELEGRAM_TOKEN")
@@ -553,9 +727,9 @@ def send_telegram_alert(article):
     bullets = article.get("bullets", [])
     clean_bullets = "\n".join([f"- {html.escape(b.lstrip('- ').lstrip('• '))}" for b in bullets])
 
-    # 지적성(RISK) 기사 대응방향 요약 안내
+    # 지적성(RISK) 기사 대응방향 요약 안내 (이모티콘 없이 정통 행정 서식)
     resp_dir = article.get("response_direction")
-    resp_text = f"\n\n💡 <b>실무 대응방향:</b> {html.escape(resp_dir)}" if (resp_dir and article.get("category") == "RISK") else ""
+    resp_text = f"\n\n[실무 대응방향] {html.escape(resp_dir)}" if (resp_dir and article.get("category") == "RISK") else ""
 
     # 다수 언론사 보도 묶음 안내
     related = article.get("related_articles", [])
@@ -683,13 +857,18 @@ def main():
         clean_t = re.sub(r"[^\w가-힣]", "", title)
         cached = existing_articles_map.get(link) or existing_title_map.get(clean_t)
         if cached:
+            c_dept = cached.get("department", "공보실")
+            t_id, t_name, t_short = match_policy_theme(title, "", c_dept)
             processed_articles.append({
                 "title": title,
                 "link": link,
                 "media": media,
                 "category": cached.get("category", "POLICY"),
-                "department": cached.get("department", "공보실"),
+                "department": c_dept,
                 "dept_label": cached.get("dept_label", "참고"),
+                "theme_id": cached.get("theme_id", t_id),
+                "theme": cached.get("theme", t_name),
+                "theme_short": cached.get("theme_short", t_short),
                 "date_group": date_group,
                 "time_label": time_label,
                 "pub_timestamp": pub_dt.isoformat(),
@@ -732,6 +911,9 @@ def main():
         is_mentioned = bool(dept_short_name and (dept_short_name in article_content or (dept and dept in article_content)))
         dept_label = "소관" if is_mentioned else "참고"
 
+        # 5. 시장·정책관 관점 7대 전략 테마 매칭
+        theme_id, theme_name, theme_short = match_policy_theme(title, article_content, dept)
+
         # 주요 뉴스 판별 (비판/리스크 기사는 기본 주요 뉴스로 등록)
         is_major = (cat == "RISK")
 
@@ -742,6 +924,9 @@ def main():
             "category": cat,
             "department": dept,
             "dept_label": dept_label,
+            "theme_id": theme_id,
+            "theme": theme_name,
+            "theme_short": theme_short,
             "date_group": date_group,
             "time_label": time_label,
             "pub_timestamp": pub_dt.isoformat(),
@@ -784,13 +969,18 @@ def main():
     major_count = sum(1 for a in processed_articles if a.get("is_major", False))
     live_count = len(processed_articles) - major_count
 
-    # 실시간 언론동향 인기 이슈 키워드 TOP 5 추출
+    # 1. 실시간 언론동향 인기 이슈 키워드 TOP 5 추출
     trending_topics = extract_trending_topics(client, processed_articles)
     print(f">> 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
+
+    # 2. 시장·정책관 관점 거시 기류 총괄 진단 및 7대 테마별 점유율 산출
+    macro_pulse = extract_macro_pulse(client, processed_articles)
+    print(f">> 시정 종합 맥락 진단 완료 (7대 테마 산출 건수: {len(macro_pulse['theme_stats'])})")
 
     result_data = {
         "updated_at": now_str,
         "yesterday_label": yesterday_date.strftime("%m.%d"),
+        "macro_pulse": macro_pulse,
         "trending_topics": trending_topics,
         "stats": {
             "total": len(processed_articles),
@@ -808,7 +998,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
-    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건, 언론동향 {len(trending_topics)}건) 및 news_data.json 저장 성공")
+    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건) 및 news_data.json 저장 성공")
 
 
 if __name__ == "__main__":

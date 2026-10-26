@@ -31,7 +31,10 @@
       "is_major": false,
       "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202610/1335050_676937_4655_v150.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     },
     {
       "title": "화성시, '2026화성 루나빛축제' 개최",
@@ -52,7 +55,10 @@
       "is_major": false,
       "image_url": "",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "CULTURE",
+      "theme": "문화관광 · 도시브랜드",
+      "theme_short": "문화관광·브랜드"
     },
     {
       "title": "화성시의회, 「우리가 빛나는 순간」장애.비장애 화합",
@@ -73,7 +79,10 @@
       "is_major": false,
       "image_url": "",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "CITIZEN",
+      "theme": "미래 인재양성 · 시민소통",
+      "theme_short": "인재양성·시민소통"
     },
     {
       "title": "정명근 화성시장, 반도체·AI 이어 우주항공 육성…전문가 60명 추진단 ...",
@@ -116,7 +125,10 @@
       "is_major": true,
       "image_url": "https://cdn.fieldnews.kr/news/thumbnail/202610/32513_35512_596_v150.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     },
     {
       "title": "정명근 화성시장 “시민 상상력으로 가을밤 밝힌다”…루나빛축제 31일...",
@@ -152,7 +164,10 @@
       "is_major": true,
       "image_url": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202610260758320852204c878f8fa118220943141.jpg&nmt=30",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "CULTURE",
+      "theme": "문화관광 · 도시브랜드",
+      "theme_short": "문화관광·브랜드"
     },
     {
       "title": "정명근“화성형 우주항공 클러스터 성공시켜 기업 성장 이끌겠다”",
@@ -173,7 +188,10 @@
       "is_major": false,
       "image_url": "https://file.sportsseoul.com/news/cms/2026/10/26/news-p.v1.20261026.d7c935d0ff6f4fbbadb510fd64a366d1_T1.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     },
     {
       "title": "수원 “옮겨야” vs 화성 “못 받는다”… 군공항 9년 표류, 홍보 예산 ...",
@@ -194,7 +212,10 @@
       "is_major": false,
       "image_url": "https://biz.chosun.com/resizer/v2/C4BWRUSGQZFATK62PTUW4UDJGQ.jpg?auth=14e124698a3cf728fded55d3f9fc63041fe4b293b45285f3dd54fd550a5aa57a&width=640&height=336&focal=243,387",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "AUTONOMY",
+      "theme": "특례시 자치분권 · 행정혁신",
+      "theme_short": "특례시·자치분권"
     },
     {
       "title": "화성은 얼마나 먼 미래일까…돌봄부터 우주까지 코엑스서 찾는 'AI 미래...",
@@ -215,7 +236,10 @@
       "is_major": false,
       "image_url": "",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     },
     {
       "title": "화성특례시, 전국장애인 배드민턴대회",
@@ -258,7 +282,10 @@
       "is_major": true,
       "image_url": "http://www.newstown.co.kr/news/thumbnail/202610/719601_675567_5726_v150.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "CULTURE",
+      "theme": "문화관광 · 도시브랜드",
+      "theme_short": "문화관광·브랜드"
     },
     {
       "title": "이계철 화성시의회 의장 \"각자의 속도 존중\"...누구도 소외되지 않는 화...",
@@ -287,7 +314,10 @@
       "is_major": true,
       "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025221135338354.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "WELFARE",
+      "theme": "포용복지 · 생애주기 돌봄",
+      "theme_short": "포용복지·돌봄"
     },
     {
       "title": "의왕시, 초등학생 가족 대상 화성 친환경 벼베기 및 RPC 견학 체험행사...",
@@ -308,7 +338,10 @@
       "is_major": false,
       "image_url": "https://cdn.webeconomy.co.kr/news/photo/202610/2347107_1157268_4152.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "SAFETY",
+      "theme": "시민안전 · 환경재난 대응",
+      "theme_short": "시민안전·환경"
     },
     {
       "title": "상수도 원격검침 0%·광역버스 만차… ‘대책 촉구’ 쏟아진 화성시의회",
@@ -329,7 +362,10 @@
       "is_major": true,
       "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/25/news-p.v1.20261025.3e5bbd06fa034e719896350b4cf39146_R.jpg",
       "telegram_sent": true,
-      "response_direction": "소관 부서(맑은물사업소·대중교통과) 사실관계 긴급 파악 및 시의회 5분 발언 지적사항 조치 계획 수립 후 해명·설명자료 배포 검토"
+      "response_direction": "소관 부서(맑은물사업소·대중교통과) 사실관계 긴급 파악 및 시의회 5분 발언 지적사항 조치 계획 수립 후 해명·설명자료 배포 검토",
+      "theme_id": "CITIZEN",
+      "theme": "미래 인재양성 · 시민소통",
+      "theme_short": "인재양성·시민소통"
     },
     {
       "title": "국유지에 경로당… 이웃 동의가 ‘걸림돌’",
@@ -350,7 +386,10 @@
       "is_major": false,
       "image_url": "https://wimg.kyeongin.com/news/cms/2026/10/25/news-p.v1.20261023.c9a5d9dcf68146739e46c862a8de7116_R.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "WELFARE",
+      "theme": "포용복지 · 생애주기 돌봄",
+      "theme_short": "포용복지·돌봄"
     },
     {
       "title": "제1247회 로또 1등 8명 각 36.3억…화성 한곳서 수동 3장 나왔다",
@@ -379,7 +418,10 @@
       "is_major": true,
       "image_url": "https://cdn.newsian.co.kr/news/thumbnail/202610/97709_92661_5029_v150.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     },
     {
       "title": "정명근표 임신·출산 가족교육 강화...임산부 가족 출산준비교실 운영",
@@ -400,7 +442,10 @@
       "is_major": false,
       "image_url": "https://image.ajunews.com/content/image/2026/10/25/20261025151022113697.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "WELFARE",
+      "theme": "포용복지 · 생애주기 돌봄",
+      "theme_short": "포용복지·돌봄"
     },
     {
       "title": "\"동탄인덕원선 동탄역 이용수요 해명에 오류 있었다\"",
@@ -421,7 +466,10 @@
       "is_major": false,
       "image_url": "https://img1.newsis.com/2026/10/08/NISI20261008_0002258554_web.jpg",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "TRANSIT",
+      "theme": "광역 교통망 · 균형발전",
+      "theme_short": "광역 교통망"
     },
     {
       "title": "‘공공디자인, 삶을 바꾸다’… 화성 소다미술관, 기획전 ‘SUPERBLIC’ 개...",
@@ -442,7 +490,10 @@
       "is_major": false,
       "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025580178.jpg?v=20261026061429",
       "telegram_sent": true,
-      "response_direction": ""
+      "response_direction": "",
+      "theme_id": "INDUSTRY",
+      "theme": "미래 첨단산업 · 혁신성장",
+      "theme_short": "미래 첨단산업"
     }
   ],
   "trending_topics": [
@@ -486,5 +537,63 @@
       "dept": "교통국 철도전략과",
       "summary": "동탄인덕원선 동탄역 하루 이용수요 오류 인정 및 출입구 증설 비용 분담 재검토"
     }
-  ]
+  ],
+  "macro_pulse": {
+    "summary_bullets": [
+      "- 화성특례시 출범을 앞두고 미래 첨단산업, 문화관광·브랜드 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
+      "- 동탄호수공원 등 도심 수변 공간을 활용한 가을 문화 축제와 시민 체감형 복지 소통이 활기를 띠고 있습니다.",
+      "- 시의회 임시회 현안 질의 및 공사 현장 보행자 안전 등 대민 접점 생활 인프라에 대한 사전 점검이 필요합니다."
+    ],
+    "theme_stats": [
+      {
+        "id": "INDUSTRY",
+        "name": "미래 첨단산업 · 혁신성장",
+        "short_name": "미래 첨단산업",
+        "count": 6,
+        "ratio": 35
+      },
+      {
+        "id": "TRANSIT",
+        "name": "광역 교통망 · 균형발전",
+        "short_name": "광역 교통망",
+        "count": 1,
+        "ratio": 6
+      },
+      {
+        "id": "CULTURE",
+        "name": "문화관광 · 도시브랜드",
+        "short_name": "문화관광·브랜드",
+        "count": 3,
+        "ratio": 18
+      },
+      {
+        "id": "WELFARE",
+        "name": "포용복지 · 생애주기 돌봄",
+        "short_name": "포용복지·돌봄",
+        "count": 3,
+        "ratio": 18
+      },
+      {
+        "id": "SAFETY",
+        "name": "시민안전 · 환경재난 대응",
+        "short_name": "시민안전·환경",
+        "count": 1,
+        "ratio": 6
+      },
+      {
+        "id": "AUTONOMY",
+        "name": "특례시 자치분권 · 행정혁신",
+        "short_name": "특례시·자치분권",
+        "count": 1,
+        "ratio": 6
+      },
+      {
+        "id": "CITIZEN",
+        "name": "미래 인재양성 · 시민소통",
+        "short_name": "인재양성·시민소통",
+        "count": 2,
+        "ratio": 12
+      }
+    ]
+  }
 }

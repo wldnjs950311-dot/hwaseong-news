@@ -1176,21 +1176,111 @@ header {
   .sub-headlines-area {
     display: none !important;
   }
-  /* 인쇄 시 언론동향 인기검색어 바 숨김 */
-  .trending-section {
+  /* 인쇄 시 언론동향 및 홈 대시보드 숨김 */
+  .trending-section,
+  .home-dashboard-view {
     display: none !important;
   }
 }
 
 /* ========================================================
-   [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 티커)
+   [홈 탭 대시보드] 화성시정 거시동향 & 7대 전략 테마 스타일
    ======================================================== */
+.home-dashboard-view {
+  display: block;
+  margin-top: 14px;
+}
+
+/* 1. 시정 종합 맥락 진단 카드 */
+.macro-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
+}
+.macro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F1F5F9;
+  margin-bottom: 12px;
+}
+.macro-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.macro-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.macro-sub {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.macro-badge {
+  font-size: 11.5px;
+  font-weight: 700;
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.macro-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.macro-bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1E293B;
+  font-weight: 600;
+}
+.macro-tag {
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: #F1F5F9;
+  color: #475569;
+  flex-shrink: 0;
+  margin-top: 1px;
+  letter-spacing: -0.01em;
+}
+.macro-tag.tag-drive {
+  background: #EFF6FF;
+  color: #1D4ED8;
+}
+.macro-tag.tag-citizen {
+  background: #F0FDF4;
+  color: #15803D;
+}
+.macro-tag.tag-issue {
+  background: #FFF7ED;
+  color: #C2410C;
+}
+.macro-text {
+  flex: 1;
+}
+
+/* 2. 화성시 언론동향 (홈 대시보드 내부 카드) */
 .trending-section {
   background: #FFFFFF;
   border: 1.5px solid var(--border);
   border-radius: 12px;
   padding: 12px 18px;
-  margin: 16px 0 14px 0;
+  margin-bottom: 14px;
   box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
   transition: all 0.2s ease;
 }
@@ -1213,19 +1303,16 @@ header {
 .trending-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  background: #FEF2F2;
-  color: #DC2626;
+  gap: 6px;
+  background: var(--primary-light);
+  color: var(--primary);
   font-size: 12px;
   font-weight: 800;
-  padding: 4px 9px;
+  padding: 4px 10px;
   border-radius: 6px;
   white-space: nowrap;
   letter-spacing: -0.02em;
-  border: 1px solid #FECACA;
-}
-.trending-badge .fire-icon {
-  font-size: 13px;
+  border: 1px solid #C7D2FE;
 }
 .trending-ticker-wrap {
   height: 26px;
@@ -1268,7 +1355,7 @@ header {
   flex-shrink: 0;
 }
 .trending-ticker-item .t-rank.top1 {
-  background: #DC2626;
+  background: #1B2F8F;
 }
 .trending-ticker-item .t-keyword {
   overflow: hidden;
@@ -1323,7 +1410,6 @@ header {
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px solid #F1F5F9;
-  transition: all 0.2s ease;
 }
 .trending-chips-wrap.collapsed {
   display: none;
@@ -1332,7 +1418,7 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 11px;
+  padding: 5px 12px;
   border-radius: 20px;
   font-size: 12.5px;
   font-weight: 600;
@@ -1372,12 +1458,12 @@ header {
   color: var(--primary);
 }
 .trending-chip.top1 .chip-rank {
-  background: #FEE2E2;
-  color: #DC2626;
+  background: #EEF2FF;
+  color: var(--primary);
 }
 .trending-chip.active.top1 .chip-rank {
   background: #FFFFFF;
-  color: #DC2626;
+  color: var(--primary);
 }
 .trending-chip .chip-count {
   font-size: 11px;
@@ -1385,9 +1471,183 @@ header {
   font-weight: 500;
 }
 
-/* ========================================================
-   [신규 기능 2] 지적성(RISK) 기사 전용 실무 대응방향 박스
-   ======================================================== */
+/* 3. 시정 7대 전략 테마 카드 */
+.themes-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
+}
+.themes-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.themes-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.themes-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.themes-sub {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.themes-ratio-bar {
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  background: #F1F5F9;
+  margin-bottom: 14px;
+}
+.theme-bar-seg {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.theme-seg-industry { background: #1B2F8F; }
+.theme-seg-transit  { background: #0284C7; }
+.theme-seg-culture  { background: #059669; }
+.theme-seg-welfare  { background: #D97706; }
+.theme-seg-safety   { background: #DC2626; }
+.theme-seg-autonomy { background: #7C3AED; }
+.theme-seg-citizen  { background: #475569; }
+
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+}
+.theme-grid-item {
+  background: #F8FAFC;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.theme-grid-item:hover {
+  background: #FFFFFF;
+  border-color: var(--primary);
+  box-shadow: 0 4px 10px rgba(27, 47, 143, 0.08);
+  transform: translateY(-1px);
+}
+.theme-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme-item-name {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--ink);
+}
+.theme-item-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #E2E8F0;
+  color: #334155;
+}
+.theme-grid-item:hover .theme-item-badge {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.theme-item-meta {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* 4. 실시간 시정 핵심 뉴스 프리뷰 */
+.home-highlights-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
+}
+.highlights-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F1F5F9;
+  margin-bottom: 14px;
+}
+.highlights-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.view-all-link-btn {
+  background: transparent;
+  border: none;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 6px;
+  transition: all 0.2s;
+}
+.view-all-link-btn:hover {
+  text-decoration: underline;
+}
+.highlights-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.highlight-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #F8FAFC;
+  transition: all 0.2s;
+}
+.highlight-item:hover {
+  background: var(--primary-light);
+}
+.highlight-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.highlight-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.highlight-meta {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* 지적성(RISK) 기사 전용 실무 대응방향 박스 (이모티콘 없이 단정함 유지) */
 .risk-response-box {
   background: #FEF2F2;
   border: 1.5px solid #FECACA;
@@ -1451,121 +1711,172 @@ header {
     <div class="print-title" id="printHeaderTitle">화성시 언론보도</div>
   </div>
 
-  <!-- [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 롤링 티커) -->
-  <section class="trending-section" id="trendingSection" style="display:none;">
-    <div class="trending-container">
-      <div class="trending-header-row">
-        <div class="trending-label-group">
-          <span class="trending-badge">
-            <span class="fire-icon">🔥</span>
-            <span>화성시 언론동향</span>
-          </span>
-          <!-- 롤링 티커 (실시간 1위~5위 롤링) -->
-          <div class="trending-ticker-wrap" onclick="clickActiveTicker()" title="클릭 시 해당 이슈 뉴스로 바로 이동합니다">
-            <div class="trending-ticker-inner" id="trendingTickerInner"></div>
-          </div>
-        </div>
-        <button type="button" class="trending-toggle-btn" id="trendingToggleBtn" onclick="toggleTrendingExpand()">
-          <span id="trendingToggleText">전체 순위 접기</span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </button>
-      </div>
-      <!-- 전체 인기 키워드 칩 바 (클릭 시 해당 키워드 즉시 필터링) -->
-      <div class="trending-chips-wrap" id="trendingChipsWrap"></div>
-    </div>
-  </section>
-
-  <!-- 2-1. 탭 네비게이션 (건수 뱃지 통합) -->
+  <!-- 2-1. 탭 네비게이션: 홈 / 전체기사 / 시정정책 / 문화행사 / 비판지적 -->
   <div class="tab-bar">
-    <button class="tab-btn active" onclick="switchCategory('ALL', this)">
-      전체 <span class="tab-badge" id="tabCountAll">0</span>
+    <button class="tab-btn active" id="tabBtnHome" onclick="switchMainTab('HOME', this)">
+      홈
     </button>
-    <button class="tab-btn" onclick="switchCategory('POLICY', this)">
+    <button class="tab-btn" id="tabBtnAll" onclick="switchMainTab('ALL', this)">
+      전체기사 <span class="tab-badge" id="tabCountAll">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnPolicy" onclick="switchMainTab('POLICY', this)">
       시정정책 <span class="tab-badge" id="tabCountPolicy">0</span>
     </button>
-    <button class="tab-btn" onclick="switchCategory('CULTURE', this)">
+    <button class="tab-btn" id="tabBtnCulture" onclick="switchMainTab('CULTURE', this)">
       문화행사 <span class="tab-badge" id="tabCountCulture">0</span>
     </button>
-    <button class="tab-btn risk-tab" onclick="switchCategory('RISK', this)">
+    <button class="tab-btn risk-tab" id="tabBtnRisk" onclick="switchMainTab('RISK', this)">
       비판지적 <span class="tab-badge risk" id="tabCountRisk">0</span>
     </button>
   </div>
 
-  <!-- 2-1. 슬림해진 통계 바 & 1-3. 체크박스 선택/인쇄 툴바 -->
-  <div class="stats-bar">
-    <div class="stat-left">
-      <div class="stat-main">
-        최근 48시간 보도 <b id="statTotal">0</b>건 
-        <span class="stat-sub">
-          (주요 <span id="statMajor" style="color:#EA580C;font-weight:700;">0</span>건 / 
-          실시간 <span id="statLive" style="color:var(--primary);font-weight:700;">0</span>건)
-        </span>
+  <!-- [신규 기능 3] 홈 탭: 화성시정 거시동향 총망라 종합 대시보드 -->
+  <div id="homeDashboardView" class="home-dashboard-view">
+    
+    <!-- 1. 화성시정 종합 맥락 진단 (시장 및 정책기획관 총괄 진단 리포트) -->
+    <section class="macro-card">
+      <div class="macro-header">
+        <div class="macro-title-group">
+          <span class="macro-title">시정 종합 맥락 진단</span>
+          <span class="macro-sub">시장 및 정책기획관 거시 기류 분석</span>
+        </div>
+        <span class="macro-badge">주간 종합 진단</span>
       </div>
-    </div>
-    <div class="stat-actions">
-      <!-- 1-3. 전체선택 체크박스 (기 출력자료 제외 확인 팝업) -->
-      <label class="check-all-label" title="클릭 시 기 출력자료 제외 여부를 선택할 수 있습니다">
-        <input type="checkbox" id="checkAllBox" onchange="toggleSelectAll(this)">
-        <span>전체선택</span>
-      </label>
-      <!-- 1-3 & 5. 인쇄 버튼 -->
-      <button class="print-btn" id="printBtn" onclick="printSelectedArticles()">
-        인쇄 <span id="selectedCountBadge">(0)</span>
-      </button>
-      <button class="expand-all-btn" id="toggleAllBtn" onclick="toggleAllSections()">
-        <span id="toggleAllText">전체 접기</span>
-      </button>
-    </div>
+      <div class="macro-bullets" id="macroBulletsList">
+        <!-- JS로 동적 렌더링 -->
+      </div>
+    </section>
+
+    <!-- 2. 화성시 언론동향 (홈 대시보드 내부 이동 및 불 이모티콘 삭제) -->
+    <section class="trending-section" id="trendingSection" style="display:none;">
+      <div class="trending-container">
+        <div class="trending-header-row">
+          <div class="trending-label-group">
+            <span class="trending-badge">
+              <span>화성시 언론동향</span>
+            </span>
+            <!-- 롤링 티커 (실시간 1위~5위 롤링) -->
+            <div class="trending-ticker-wrap" onclick="clickActiveTicker()" title="클릭 시 해당 이슈 뉴스로 바로 이동합니다">
+              <div class="trending-ticker-inner" id="trendingTickerInner"></div>
+            </div>
+          </div>
+          <button type="button" class="trending-toggle-btn" id="trendingToggleBtn" onclick="toggleTrendingExpand()">
+            <span id="trendingToggleText">전체 순위 접기</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+        </div>
+        <!-- 전체 인기 키워드 칩 바 (클릭 시 전체기사 탭으로 즉시 필터링 이동) -->
+        <div class="trending-chips-wrap" id="trendingChipsWrap"></div>
+      </div>
+    </section>
+
+    <!-- 3. 시정 7대 전략 테마 현황 (시장·정책관 관점) -->
+    <section class="themes-card">
+      <div class="themes-header">
+        <div class="themes-title-group">
+          <span class="themes-title">시정 7대 전략 테마 현황</span>
+          <span class="themes-sub">클릭 시 해당 테마 기사 모아보기</span>
+        </div>
+      </div>
+      <!-- 테마별 점유율 비중 스택 바 -->
+      <div class="themes-ratio-bar" id="themesRatioBar"></div>
+      <!-- 7대 테마 카드 그리드 -->
+      <div class="themes-grid" id="themesGrid"></div>
+    </section>
+
+    <!-- 4. 실시간 시정 핵심 뉴스 (주요 보도 프리뷰) -->
+    <section class="home-highlights-card">
+      <div class="highlights-header">
+        <span class="highlights-title">실시간 시정 핵심 뉴스</span>
+        <button type="button" class="view-all-link-btn" onclick="switchMainTab('ALL', document.getElementById('tabBtnAll'))">
+          전체기사 보러가기 →
+        </button>
+      </div>
+      <div class="highlights-list" id="homeHighlightsList"></div>
+    </section>
+
   </div>
 
-  <!-- 1. 주요 뉴스 섹션 (다수 언론사 보도 묶음 및 주요 이슈) -->
-  <section class="news-section major-section" id="majorSection">
-    <div class="section-header" onclick="toggleSection('major')" id="majorHeader">
-      <div class="section-title-wrap">
-        <div class="section-title-box">
-          <div class="section-title">
-            주요 뉴스 <span class="badge major-badge" id="majorCountBadge">0건</span>
-          </div>
-          <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안</div>
+  <!-- [기사 목록 타임라인 뷰] 전체기사, 시정정책, 문화행사, 비판지적 탭 선택 시 표시 -->
+  <div id="timelineView" style="display:none;">
+
+    <!-- 2-1. 슬림해진 통계 바 & 1-3. 체크박스 선택/인쇄 툴바 -->
+    <div class="stats-bar">
+      <div class="stat-left">
+        <div class="stat-main">
+          최근 48시간 보도 <b id="statTotal">0</b>건 
+          <span class="stat-sub">
+            (주요 <span id="statMajor" style="color:#EA580C;font-weight:700;">0</span>건 / 
+            실시간 <span id="statLive" style="color:var(--primary);font-weight:700;">0</span>건)
+          </span>
         </div>
       </div>
-      <div class="section-toggle-btn">
-        <span id="majorToggleText">접기</span>
+      <div class="stat-actions">
+        <!-- 1-3. 전체선택 체크박스 (기 출력자료 제외 확인 팝업) -->
+        <label class="check-all-label" title="클릭 시 기 출력자료 제외 여부를 선택할 수 있습니다">
+          <input type="checkbox" id="checkAllBox" onchange="toggleSelectAll(this)">
+          <span>전체선택</span>
+        </label>
+        <!-- 1-3 & 5. 인쇄 버튼 -->
+        <button class="print-btn" id="printBtn" onclick="printSelectedArticles()">
+          인쇄 <span id="selectedCountBadge">(0)</span>
+        </button>
+        <button class="expand-all-btn" id="toggleAllBtn" onclick="toggleAllSections()">
+          <span id="toggleAllText">전체 접기</span>
+        </button>
       </div>
     </div>
-    <div class="section-content" id="majorContent">
-      <div id="majorNewsList"></div>
-      <div id="emptyMajorNotice" class="section-empty-msg" style="display:none;">
-        선택하신 조건에 해당하는 주요 뉴스가 없습니다.
-      </div>
-    </div>
-  </section>
 
-  <!-- 2. 실시간 최신 뉴스 섹션 -->
-  <section class="news-section live-section" id="liveSection">
-    <div class="section-header" onclick="toggleSection('live')" id="liveHeader">
-      <div class="section-title-wrap">
-        <div class="section-title-box">
-          <div class="section-title">
-            실시간 뉴스 <span class="badge live-badge" id="liveCountBadge">0건</span>
+    <!-- 1. 주요 뉴스 섹션 (다수 언론사 보도 묶음 및 주요 이슈) -->
+    <section class="news-section major-section" id="majorSection">
+      <div class="section-header" onclick="toggleSection('major')" id="majorHeader">
+        <div class="section-title-wrap">
+          <div class="section-title-box">
+            <div class="section-title">
+              주요 뉴스 <span class="badge major-badge" id="majorCountBadge">0건</span>
+            </div>
+            <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안</div>
           </div>
-          <div class="section-desc">최신 시간 순 실시간 시정 보도 타임라인</div>
+        </div>
+        <div class="section-toggle-btn">
+          <span id="majorToggleText">접기</span>
         </div>
       </div>
-      <div class="section-toggle-btn">
-        <span id="liveToggleText">접기</span>
+      <div class="section-content" id="majorContent">
+        <div id="majorNewsList"></div>
+        <div id="emptyMajorNotice" class="section-empty-msg" style="display:none;">
+          선택하신 조건에 해당하는 주요 뉴스가 없습니다.
+        </div>
       </div>
-    </div>
-    <div class="section-content" id="liveContent">
-      <div id="liveNewsList"></div>
-      <div id="emptyLiveNotice" class="section-empty-msg" style="display:none;">
-        선택하신 조건에 해당하는 실시간 뉴스가 없습니다.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <div id="emptyNotice" class="state-msg" style="display: none;">
-    선택하신 조건에 해당하는 뉴스가 전혀 없습니다.
+    <!-- 2. 실시간 최신 뉴스 섹션 -->
+    <section class="news-section live-section" id="liveSection">
+      <div class="section-header" onclick="toggleSection('live')" id="liveHeader">
+        <div class="section-title-wrap">
+          <div class="section-title-box">
+            <div class="section-title">
+              실시간 뉴스 <span class="badge live-badge" id="liveCountBadge">0건</span>
+            </div>
+            <div class="section-desc">최신 시간 순 실시간 시정 보도 타임라인</div>
+          </div>
+        </div>
+        <div class="section-toggle-btn">
+          <span id="liveToggleText">접기</span>
+        </div>
+      </div>
+      <div class="section-content" id="liveContent">
+        <div id="liveNewsList"></div>
+        <div id="emptyLiveNotice" class="section-empty-msg" style="display:none;">
+          선택하신 조건에 해당하는 실시간 뉴스가 없습니다.
+        </div>
+      </div>
+    </section>
+
+    <div id="emptyNotice" class="state-msg" style="display: none;">
+      선택하신 조건에 해당하는 뉴스가 전혀 없습니다.
+    </div>
+
   </div>
 </div>
 
@@ -1682,13 +1993,16 @@ const DEPARTMENTS = [
 ];
 
 let globalArticles = [];
+let currentMainTab = 'HOME'; // 기본 활성 탭: 홈
 let currentCategory = 'ALL';
 let currentSearchKeyword = '';
 let selectedDeptFilter = '';
+let selectedThemeFilter = '';
 let yesterdayLabel = '';
 
-// [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 티커 상태)
+// [신규 기능 1 & 3] 실시간 화성시 언론동향 및 거시동향 상태
 let globalTrendingTopics = [];
+let globalMacroPulse = null;
 let activeTrendingKeyword = null;
 let tickerInterval = null;
 let currentTickerIndex = 0;
@@ -1718,9 +2032,10 @@ async function loadNewsData() {
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
     globalTrendingTopics = data.trending_topics || extractClientTrendingTopics(globalArticles);
+    globalMacroPulse = data.macro_pulse || extractClientMacroPulse(globalArticles);
     
     updateMyDeptUI();
-    renderTrendingUI();
+    renderHomeDashboard();
     renderTimeline();
   } catch (err) {
     document.getElementById('updateTimeText').textContent = "오프라인";
@@ -1731,6 +2046,149 @@ async function loadNewsData() {
       </div>
     `;
   }
+}
+
+// 탭 전환 (홈 / 전체기사 / 시정정책 / 문화행사 / 비판지적)
+function switchMainTab(tabKey, btnEl) {
+  currentMainTab = tabKey;
+
+  // 탭 버튼 active 클래스 동기화
+  document.querySelectorAll('.tab-bar .tab-btn').forEach(btn => btn.classList.remove('active'));
+  if (btnEl) btnEl.classList.add('active');
+
+  const homeView = document.getElementById('homeDashboardView');
+  const timelineView = document.getElementById('timelineView');
+
+  if (tabKey === 'HOME') {
+    homeView.style.display = 'block';
+    timelineView.style.display = 'none';
+    renderHomeDashboard();
+  } else {
+    homeView.style.display = 'none';
+    timelineView.style.display = 'block';
+    currentCategory = tabKey;
+    renderTimeline();
+  }
+}
+
+// ========================================================
+// [홈 탭 대시보드] 화성시정 거시동향 총망라 렌더링
+// ========================================================
+function renderHomeDashboard() {
+  // 1. 화성시정 종합 맥락 진단 (3줄 브리프)
+  const bulletsContainer = document.getElementById('macroBulletsList');
+  if (bulletsContainer && globalMacroPulse && globalMacroPulse.summary_bullets) {
+    const tagClasses = ['tag-drive', 'tag-citizen', 'tag-issue'];
+    const tagNames = ['추진 중점', '시민 체감', '현안 점검'];
+    
+    bulletsContainer.innerHTML = globalMacroPulse.summary_bullets.map((b, idx) => {
+      const cleanText = b.replace(/^-\s*/, '');
+      const tagClass = tagClasses[idx] || 'tag-drive';
+      const tagName = tagNames[idx] || '시정 동향';
+      return `
+        <div class="macro-bullet-item">
+          <span class="macro-tag ${tagClass}">${tagName}</span>
+          <span class="macro-text">${cleanText}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // 2. 화성시 언론동향 위젯 렌더링
+  renderTrendingUI();
+
+  // 3. 시정 7대 전략 테마 현황 렌더링
+  renderThemesOverview();
+
+  // 4. 실시간 시정 핵심 뉴스 프리뷰
+  renderHomeHighlights();
+}
+
+// 7대 전략 테마 현황 렌더링 (게이지 바 & 카드 그리드)
+function renderThemesOverview() {
+  const ratioBar = document.getElementById('themesRatioBar');
+  const grid = document.getElementById('themesGrid');
+  if (!ratioBar || !grid) return;
+
+  const stats = (globalMacroPulse && globalMacroPulse.theme_stats) ? globalMacroPulse.theme_stats : [];
+  if (stats.length === 0) return;
+
+  const segClasses = {
+    'INDUSTRY': 'theme-seg-industry',
+    'TRANSIT': 'theme-seg-transit',
+    'CULTURE': 'theme-seg-culture',
+    'WELFARE': 'theme-seg-welfare',
+    'SAFETY': 'theme-seg-safety',
+    'AUTONOMY': 'theme-seg-autonomy',
+    'CITIZEN': 'theme-seg-citizen'
+  };
+
+  // 1) 게이지 스택 바
+  ratioBar.innerHTML = stats.map(st => {
+    if (st.ratio <= 0) return '';
+    const segCls = segClasses[st.id] || 'theme-seg-industry';
+    return `<div class="theme-bar-seg ${segCls}" style="width: ${st.ratio}%;" title="${st.name}: ${st.count}건 (${st.ratio}%)"></div>`;
+  }).join('');
+
+  // 2) 카드 그리드
+  grid.innerHTML = stats.map(st => {
+    return `
+      <div class="theme-grid-item" onclick="filterByTheme('${st.name.replace(/'/g, "\\'")}')" title="클릭 시 '${st.name}' 관련 기사를 모아봅니다">
+        <div class="theme-item-top">
+          <span class="theme-item-name">${st.short_name}</span>
+          <span class="theme-item-badge">${st.count}건 (${st.ratio}%)</span>
+        </div>
+        <span class="theme-item-meta">${st.name}</span>
+      </div>
+    `;
+  }).join('');
+}
+
+// 테마 클릭 시 기사 필터링 (전체기사 탭으로 전환)
+function filterByTheme(themeFullName) {
+  selectedThemeFilter = themeFullName;
+  selectedDeptFilter = '';
+  currentSearchKeyword = '';
+  activeTrendingKeyword = null;
+  const input = document.getElementById('deptSearchInput');
+  if (input) input.value = '';
+  const clearBtn = document.getElementById('clearDeptBtn');
+  if (clearBtn) clearBtn.style.display = 'none';
+
+  // 전체기사 탭으로 이동
+  const allTabBtn = document.getElementById('tabBtnAll');
+  switchMainTab('ALL', allTabBtn);
+}
+
+// 홈 탭 실시간 핵심 뉴스 프리뷰
+function renderHomeHighlights() {
+  const listEl = document.getElementById('homeHighlightsList');
+  if (!listEl) return;
+
+  const majorArticles = globalArticles.filter(a => a.is_major || (a.related_articles && a.related_articles.length > 0));
+  const targetArticles = (majorArticles.length > 0 ? majorArticles : globalArticles).slice(0, 4);
+
+  if (targetArticles.length === 0) {
+    listEl.innerHTML = '<div style="font-size:13px; color:var(--muted); padding:8px;">표시할 주요 뉴스가 없습니다.</div>';
+    return;
+  }
+
+  listEl.innerHTML = targetArticles.map(a => {
+    const relCount = (a.related_articles || []).length;
+    const relTag = relCount > 0 ? ` [${relCount + 1}개사 보도]` : '';
+    const dept = a.department ? a.department.split(' ').pop() : '';
+    return `
+      <div class="highlight-item">
+        <a href="${a.link}" target="_blank" rel="noopener noreferrer" class="highlight-link" title="${a.title}">
+          ${a.title}
+        </a>
+        <div class="highlight-meta">
+          <span>${dept}</span>
+          <span style="color:var(--primary); font-weight:700;">${relTag}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 // ========================================================
@@ -1820,7 +2278,14 @@ function filterByTrendingKeyword(keyword) {
     searchInput.value = keyword;
     currentSearchKeyword = keyword.toLowerCase();
     selectedDeptFilter = '';
+    selectedThemeFilter = ''; // 키워드 검색 시 테마 필터 해제
     if (clearBtn) clearBtn.style.display = 'block';
+
+    // 홈 탭에 머물러 있었다면 전체기사 탭으로 자동 전환
+    if (currentMainTab === 'HOME') {
+      const allTabBtn = document.getElementById('tabBtnAll');
+      switchMainTab('ALL', allTabBtn);
+    }
   }
 
   // 칩 UI active 클래스 갱신
@@ -1970,6 +2435,10 @@ function renderTimeline() {
 
   // 통합 검색 및 내 부서 필터 판별 헬퍼
   function matchesSearch(item) {
+    // 7대 전략 테마 필터 모드
+    if (selectedThemeFilter && item.theme !== selectedThemeFilter) {
+      return false;
+    }
     // 내 부서 모아보기 모드
     if (filterMyDeptOnly && myDept) {
       if (!item.department || !item.department.includes(myDept)) return false;
@@ -2552,6 +3021,13 @@ function onSearchInput() {
 
   currentSearchKeyword = val.toLowerCase();
   selectedDeptFilter = ''; // 타이핑 시 자유 키워드 검색 모드로 전환
+  selectedThemeFilter = ''; // 테마 필터 해제
+
+  // 홈 탭에 있었다면 검색 결과 표시를 위해 전체기사 탭으로 자동 전환
+  if (currentMainTab === 'HOME') {
+    const allTabBtn = document.getElementById('tabBtnAll');
+    switchMainTab('ALL', allTabBtn);
+  }
 
   // 부서 자동완성 목록 필터링
   const matchedDepts = DEPARTMENTS.filter(d => 
@@ -2578,8 +3054,16 @@ function selectDepartment(deptName) {
   input.value = deptName;
   selectedDeptFilter = deptName;
   currentSearchKeyword = '';
+  selectedThemeFilter = '';
   document.getElementById('autocompleteList').style.display = 'none';
   document.getElementById('clearDeptBtn').style.display = 'block';
+
+  // 홈 탭에 있었다면 전체기사 탭으로 자동 전환
+  if (currentMainTab === 'HOME') {
+    const allTabBtn = document.getElementById('tabBtnAll');
+    switchMainTab('ALL', allTabBtn);
+  }
+
   renderTimeline();
 }
 
@@ -2587,6 +3071,7 @@ function clearDeptSearch() {
   const input = document.getElementById('deptSearchInput');
   input.value = '';
   selectedDeptFilter = '';
+  selectedThemeFilter = '';
   currentSearchKeyword = '';
   activeTrendingKeyword = null;
   document.querySelectorAll('.trending-chip').forEach(c => c.classList.remove('active'));
@@ -2595,11 +3080,12 @@ function clearDeptSearch() {
   renderTimeline();
 }
 
-// 전체 필터 초기화 (타이틀 클릭 시)
+// 전체 필터 초기화 (타이틀 클릭 시 홈 탭 복귀 및 모든 필터 리셋)
 function resetAllFilters() {
   currentCategory = 'ALL';
   currentSearchKeyword = '';
   selectedDeptFilter = '';
+  selectedThemeFilter = '';
   filterMyDeptOnly = false;
   activeTrendingKeyword = null;
   document.querySelectorAll('.trending-chip').forEach(c => c.classList.remove('active'));
@@ -2609,11 +3095,67 @@ function resetAllFilters() {
   if (clearBtn) clearBtn.style.display = 'none';
   const listEl = document.getElementById('autocompleteList');
   if (listEl) listEl.style.display = 'none';
+
+  // 하단 카테고리 탭 초기화
   document.querySelectorAll('.tab-btn').forEach((b, idx) => {
     b.classList.toggle('active', idx === 0);
   });
   updateMyDeptUI();
-  renderTimeline();
+
+  // 홈 탭 대시보드로 복귀
+  const homeTabBtn = document.getElementById('tabBtnHome');
+  switchMainTab('HOME', homeTabBtn);
+}
+
+// data.macro_pulse가 없을 때를 대비한 브라우저 클라이언트 측 자동 계산 Fallback
+function extractClientMacroPulse(articles) {
+  const themesDef = [
+    { id: 'INDUSTRY', name: '미래 첨단산업 · 혁신성장', short_name: '첨단산업' },
+    { id: 'TRANSIT', name: '광역 교통망 · 균형발전', short_name: '교통망' },
+    { id: 'CULTURE', name: '문화관광 · 도시브랜드', short_name: '문화관광' },
+    { id: 'WELFARE', name: '포용복지 · 생애주기 돌봄', short_name: '포용복지' },
+    { id: 'SAFETY', name: '시민안전 · 환경재난 대응', short_name: '시민안전' },
+    { id: 'AUTONOMY', name: '특례시 자치분권 · 행정혁신', short_name: '특례시자치' },
+    { id: 'CITIZEN', name: '미래 인재양성 · 시민소통', short_name: '시민소통' }
+  ];
+
+  const counts = {};
+  themesDef.forEach(t => counts[t.name] = 0);
+  const total = articles.length;
+
+  articles.forEach(a => {
+    if (a.theme && counts[a.theme] !== undefined) {
+      counts[a.theme]++;
+    }
+  });
+
+  const theme_stats = themesDef.map(t => {
+    const c = counts[t.name] || 0;
+    const r = total > 0 ? Math.round((c / total) * 1000) / 10 : 0;
+    return {
+      id: t.id,
+      name: t.name,
+      short_name: t.short_name,
+      count: c,
+      ratio: r
+    };
+  });
+
+  const sorted = [...theme_stats].sort((a, b) => b.count - a.count);
+  const top1 = sorted[0];
+  const top2 = sorted[1];
+
+  const overview_bullets = [
+    `화성특례시 출범과 민선8기 전략을 선도하는 「${top1.short_name}」(${top1.count}건, ${top1.ratio}%) 분야가 시정 전반의 최대 보도 비중을 차지하고 있습니다.`,
+    `시민 일상과 직결된 「${top2.short_name}」(${top2.count}건, ${top2.ratio}%) 정책 홍보가 긴밀히 연계되며 시정 체감도를 견인하고 있습니다.`,
+    `재정·안전 및 시정 쟁점에 대한 언론의 선제적 모니터링을 상시 강화하여 시민 소통의 신뢰를 제고하고 있습니다.`
+  ];
+
+  return {
+    summary_bullets: overview_bullets,
+    overview_bullets: overview_bullets,
+    theme_stats: theme_stats
+  };
 }
 
 document.addEventListener('click', function(e) {
