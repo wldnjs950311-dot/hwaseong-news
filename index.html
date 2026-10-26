@@ -1176,6 +1176,244 @@ header {
   .sub-headlines-area {
     display: none !important;
   }
+  /* 인쇄 시 언론동향 인기검색어 바 숨김 */
+  .trending-section {
+    display: none !important;
+  }
+}
+
+/* ========================================================
+   [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 티커)
+   ======================================================== */
+.trending-section {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin: 16px 0 14px 0;
+  box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
+  transition: all 0.2s ease;
+}
+.trending-section:hover {
+  border-color: #CBD5E1;
+}
+.trending-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.trending-label-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  overflow: hidden;
+}
+.trending-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #FEF2F2;
+  color: #DC2626;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+  border: 1px solid #FECACA;
+}
+.trending-badge .fire-icon {
+  font-size: 13px;
+}
+.trending-ticker-wrap {
+  height: 26px;
+  overflow: hidden;
+  position: relative;
+  flex: 1;
+  cursor: pointer;
+}
+.trending-ticker-inner {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s ease-in-out;
+}
+.trending-ticker-item {
+  height: 26px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.trending-ticker-item:hover {
+  color: var(--primary);
+}
+.trending-ticker-item .t-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--primary);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.trending-ticker-item .t-rank.top1 {
+  background: #DC2626;
+}
+.trending-ticker-item .t-keyword {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.trending-ticker-item .t-count {
+  font-size: 11.5px;
+  color: var(--muted);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.trending-ticker-item .t-dept {
+  font-size: 11px;
+  background: var(--bg);
+  color: var(--sub);
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.trending-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.trending-toggle-btn:hover {
+  background: #F8FAFC;
+  color: var(--ink);
+  border-color: #CBD5E1;
+}
+.trending-toggle-btn svg {
+  transition: transform 0.2s ease;
+}
+.trending-toggle-btn.is-collapsed svg {
+  transform: rotate(-90deg);
+}
+.trending-chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #F1F5F9;
+  transition: all 0.2s ease;
+}
+.trending-chips-wrap.collapsed {
+  display: none;
+}
+.trending-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 600;
+  background: #F8FAFC;
+  border: 1px solid var(--border);
+  color: var(--sub);
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+}
+.trending-chip:hover {
+  background: var(--primary-light);
+  border-color: #CBD5E1;
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+.trending-chip.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(27, 47, 143, 0.25);
+}
+.trending-chip .chip-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  font-size: 10.5px;
+  font-weight: 800;
+  background: #E2E8F0;
+  color: var(--ink);
+}
+.trending-chip.active .chip-rank {
+  background: #FFFFFF;
+  color: var(--primary);
+}
+.trending-chip.top1 .chip-rank {
+  background: #FEE2E2;
+  color: #DC2626;
+}
+.trending-chip.active.top1 .chip-rank {
+  background: #FFFFFF;
+  color: #DC2626;
+}
+.trending-chip .chip-count {
+  font-size: 11px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* ========================================================
+   [신규 기능 2] 지적성(RISK) 기사 전용 실무 대응방향 박스
+   ======================================================== */
+.risk-response-box {
+  background: #FEF2F2;
+  border: 1.5px solid #FECACA;
+  border-left: 4.5px solid #DC2626;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.risk-response-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #B91C1C;
+  letter-spacing: -0.01em;
+}
+.risk-response-content {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1F2937;
+  line-height: 1.55;
+  padding-left: 2px;
 }
 </style>
 </head>
@@ -1212,6 +1450,30 @@ header {
   <div class="print-only-header">
     <div class="print-title" id="printHeaderTitle">화성시 언론보도</div>
   </div>
+
+  <!-- [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 롤링 티커) -->
+  <section class="trending-section" id="trendingSection" style="display:none;">
+    <div class="trending-container">
+      <div class="trending-header-row">
+        <div class="trending-label-group">
+          <span class="trending-badge">
+            <span class="fire-icon">🔥</span>
+            <span>화성시 언론동향</span>
+          </span>
+          <!-- 롤링 티커 (실시간 1위~5위 롤링) -->
+          <div class="trending-ticker-wrap" onclick="clickActiveTicker()" title="클릭 시 해당 이슈 뉴스로 바로 이동합니다">
+            <div class="trending-ticker-inner" id="trendingTickerInner"></div>
+          </div>
+        </div>
+        <button type="button" class="trending-toggle-btn" id="trendingToggleBtn" onclick="toggleTrendingExpand()">
+          <span id="trendingToggleText">전체 순위 접기</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+      </div>
+      <!-- 전체 인기 키워드 칩 바 (클릭 시 해당 키워드 즉시 필터링) -->
+      <div class="trending-chips-wrap" id="trendingChipsWrap"></div>
+    </div>
+  </section>
 
   <!-- 2-1. 탭 네비게이션 (건수 뱃지 통합) -->
   <div class="tab-bar">
@@ -1425,6 +1687,13 @@ let currentSearchKeyword = '';
 let selectedDeptFilter = '';
 let yesterdayLabel = '';
 
+// [신규 기능 1] 실시간 화성시 언론동향 (인기 이슈 키워드 랭킹 & 티커 상태)
+let globalTrendingTopics = [];
+let activeTrendingKeyword = null;
+let tickerInterval = null;
+let currentTickerIndex = 0;
+let isTrendingExpanded = true;
+
 // 1-2. 내 부서 관리
 let myDept = localStorage.getItem('hwaseong_my_dept') || '';
 let filterMyDeptOnly = false;
@@ -1448,8 +1717,10 @@ async function loadNewsData() {
     document.getElementById('updateTimeText').textContent = data.updated_at || "최신";
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
+    globalTrendingTopics = data.trending_topics || extractClientTrendingTopics(globalArticles);
     
     updateMyDeptUI();
+    renderTrendingUI();
     renderTimeline();
   } catch (err) {
     document.getElementById('updateTimeText').textContent = "오프라인";
@@ -1460,6 +1731,148 @@ async function loadNewsData() {
       </div>
     `;
   }
+}
+
+// ========================================================
+// [신규 기능 1] 실시간 언론동향 인기 이슈 키워드 UI 렌더링 & 티커 제어
+// ========================================================
+function renderTrendingUI() {
+  const section = document.getElementById('trendingSection');
+  const tickerInner = document.getElementById('trendingTickerInner');
+  const chipsWrap = document.getElementById('trendingChipsWrap');
+  if (!section || !tickerInner || !chipsWrap) return;
+
+  if (!globalTrendingTopics || globalTrendingTopics.length === 0) {
+    section.style.display = 'none';
+    if (tickerInterval) clearInterval(tickerInterval);
+    return;
+  }
+
+  section.style.display = 'block';
+
+  // 1. 롤링 티커 아이템 생성
+  tickerInner.innerHTML = globalTrendingTopics.map((topic, idx) => {
+    const isTop1 = (topic.rank === 1);
+    const countText = topic.count > 1 ? `보도 ${topic.count}건` : '보도 1건';
+    const deptText = topic.dept ? topic.dept.split(' ').pop() : '';
+    return `
+      <div class="trending-ticker-item" data-index="${idx}" data-keyword="${topic.keyword}">
+        <span class="t-rank ${isTop1 ? 'top1' : ''}">${topic.rank}</span>
+        <span class="t-keyword">${topic.keyword}</span>
+        <span class="t-count">(${countText})</span>
+        ${deptText ? `<span class="t-dept">${deptText}</span>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  // 2. 전체 인기 키워드 칩 바 생성
+  chipsWrap.innerHTML = globalTrendingTopics.map(topic => {
+    const isTop1 = (topic.rank === 1);
+    const isActive = (activeTrendingKeyword === topic.keyword);
+    return `
+      <div class="trending-chip ${isActive ? 'active' : ''} ${isTop1 ? 'top1' : ''}" 
+           onclick="filterByTrendingKeyword('${topic.keyword.replace(/'/g, "\\'")}')"
+           title="클릭 시 '${topic.keyword}' 관련 뉴스를 즉시 모아봅니다 (${topic.summary || ''})">
+        <span class="chip-rank">${topic.rank}</span>
+        <span class="chip-name">${topic.keyword}</span>
+        <span class="chip-count">${topic.count}건</span>
+      </div>
+    `;
+  }).join('');
+
+  // 3. 롤링 티커 타이머 시작 (3.5초 주기)
+  if (tickerInterval) clearInterval(tickerInterval);
+  currentTickerIndex = 0;
+  tickerInner.style.transform = `translateY(0px)`;
+
+  if (globalTrendingTopics.length > 1) {
+    tickerInterval = setInterval(() => {
+      currentTickerIndex = (currentTickerIndex + 1) % globalTrendingTopics.length;
+      tickerInner.style.transform = `translateY(-${currentTickerIndex * 26}px)`;
+    }, 3500);
+  }
+}
+
+// 롤링 티커 클릭 시 현재 표시 중인 키워드로 필터링
+function clickActiveTicker() {
+  if (!globalTrendingTopics || globalTrendingTopics.length === 0) return;
+  const currentTopic = globalTrendingTopics[currentTickerIndex];
+  if (currentTopic) {
+    filterByTrendingKeyword(currentTopic.keyword);
+  }
+}
+
+// 인기 키워드 칩 클릭 시 해당 키워드로 기사 필터링 (토글)
+function filterByTrendingKeyword(keyword) {
+  const searchInput = document.getElementById('deptSearchInput');
+  const clearBtn = document.getElementById('clearDeptBtn');
+
+  if (activeTrendingKeyword === keyword) {
+    // 이미 선택된 키워드 클릭 시 필터 해제
+    activeTrendingKeyword = null;
+    searchInput.value = '';
+    currentSearchKeyword = '';
+    selectedDeptFilter = '';
+    if (clearBtn) clearBtn.style.display = 'none';
+  } else {
+    // 신규 키워드 선택
+    activeTrendingKeyword = keyword;
+    searchInput.value = keyword;
+    currentSearchKeyword = keyword.toLowerCase();
+    selectedDeptFilter = '';
+    if (clearBtn) clearBtn.style.display = 'block';
+  }
+
+  // 칩 UI active 클래스 갱신
+  document.querySelectorAll('.trending-chip').forEach(chip => {
+    const chipName = chip.querySelector('.chip-name')?.textContent;
+    chip.classList.toggle('active', chipName === activeTrendingKeyword);
+  });
+
+  renderTimeline();
+}
+
+// 전체 순위 칩 바 펼치기 / 접기 토글
+function toggleTrendingExpand() {
+  const chipsWrap = document.getElementById('trendingChipsWrap');
+  const btn = document.getElementById('trendingToggleBtn');
+  const textEl = document.getElementById('trendingToggleText');
+  if (!chipsWrap || !btn) return;
+
+  isTrendingExpanded = !isTrendingExpanded;
+  chipsWrap.classList.toggle('collapsed', !isTrendingExpanded);
+  btn.classList.toggle('is-collapsed', !isTrendingExpanded);
+  if (textEl) {
+    textEl.textContent = isTrendingExpanded ? '전체 순위 접기' : '전체 순위 보기';
+  }
+}
+
+// data.trending_topics가 없을 때를 대비한 브라우저 클라이언트 측 자동 추출 Fallback
+function extractClientTrendingTopics(articles) {
+  if (!articles || articles.length === 0) return [];
+  const sorted = [...articles].sort((a, b) => {
+    const countA = 1 + (a.related_articles ? a.related_articles.length : 0);
+    const countB = 1 + (b.related_articles ? b.related_articles.length : 0);
+    return countB - countA;
+  });
+
+  return sorted.slice(0, 5).map((a, idx) => {
+    const count = 1 + (a.related_articles ? a.related_articles.length : 0);
+    const t = a.title;
+    const match = t.match(/['‘"]([^'’\"]+)['’"]/);
+    let kw = match ? match[1].trim() : '';
+    if (!kw || kw.length < 2) {
+      kw = t.replace(/화성시|화성특례시|화성/g, '').trim().slice(0, 15);
+    }
+    return {
+      rank: idx + 1,
+      keyword: kw,
+      count: count,
+      category: a.category || 'POLICY',
+      dept: a.department || '공보실',
+      summary: (a.bullets && a.bullets[0]) ? a.bullets[0].replace(/^[-\s]+/, '') : t
+    };
+  });
 }
 
 // 1-2. 내 부서 헤더 UI 갱신 및 토글
@@ -1792,6 +2205,20 @@ function createNewsCard(item, isMajor) {
     `;
   }).join('');
 
+  // [신규 기능 2] 지적성(RISK) 기사 공무원 실무 대응방향 박스
+  let riskResponseHtml = '';
+  if (isRisk && item.response_direction && item.response_direction.trim()) {
+    riskResponseHtml = `
+      <div class="risk-response-box critical">
+        <div class="risk-response-badge-row">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          <span>실무 대응방향 (1줄 요약)</span>
+        </div>
+        <div class="risk-response-content">${item.response_direction}</div>
+      </div>
+    `;
+  }
+
   // 소관/참고 부서 판별 (본문 직접 언급 시 소관, 아니면 참고)
   const deptLabel = item.dept_label || "소관";
   const isPrimaryDept = (deptLabel === "소관");
@@ -1838,6 +2265,8 @@ function createNewsCard(item, isMajor) {
         </div>
 
         ${subHeadHtml}
+
+        ${riskResponseHtml}
 
         <div class="summary-bullets">
           ${bullets}
@@ -2159,6 +2588,8 @@ function clearDeptSearch() {
   input.value = '';
   selectedDeptFilter = '';
   currentSearchKeyword = '';
+  activeTrendingKeyword = null;
+  document.querySelectorAll('.trending-chip').forEach(c => c.classList.remove('active'));
   document.getElementById('clearDeptBtn').style.display = 'none';
   document.getElementById('autocompleteList').style.display = 'none';
   renderTimeline();
@@ -2170,6 +2601,8 @@ function resetAllFilters() {
   currentSearchKeyword = '';
   selectedDeptFilter = '';
   filterMyDeptOnly = false;
+  activeTrendingKeyword = null;
+  document.querySelectorAll('.trending-chip').forEach(c => c.classList.remove('active'));
   const input = document.getElementById('deptSearchInput');
   if (input) input.value = '';
   const clearBtn = document.getElementById('clearDeptBtn');

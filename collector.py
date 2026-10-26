@@ -252,7 +252,7 @@ def is_candidate_hwaseong_news(title, content):
 
 
 def analyze_with_gemini(client, title, content, rule_dept):
-    """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 요약 (기사 본문 전체 정밀 분석)"""
+    """Gemini 3.8 Flash를 활용한 시정 관련성 판별, 3줄 요약 및 리스크 대응방향 도출"""
     prompt = f"""당신은 화성시청 언론홍보 및 리스크 분석 수석 실무관입니다.
 아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 엄격히 검증하고 JSON으로 출력하십시오.
 
@@ -282,6 +282,12 @@ def analyze_with_gemini(client, title, content, rule_dept):
 
 4. bullets: 화성시 행정과 관련된 구체적 사실 중심의 3줄 핵심 요약 (각 줄은 '- '로 시작).
 
+5. response_direction:
+   - 기사가 'RISK'(비판/지적/의혹/갈등/사고)인 경우:
+     지자체 담당 공무원이 취해야 할 실무 대응방향을 신속한 현장 조치 및 공보 대응 관점에서 명확하고 객관적인 1줄 요약으로 제시하십시오.
+     (예: "관내 현장 사실관계 즉시 확인 및 왜곡 보도 여부 검토 후 공보실과 정정·해명자료 배포 검토", "소관 부서 긴급 대책회의 소집 및 재발 방지 종합 대책 수립")
+   - RISK가 아닌 일반 정책(POLICY)이나 문화행사(CULTURE)인 경우 반드시 빈 문자열 ""을 반환하십시오.
+
 [출력 JSON 형식]:
 {{
   "is_hwaseong_news": true | false,
@@ -291,7 +297,8 @@ def analyze_with_gemini(client, title, content, rule_dept):
     "- 첫 번째 핵심 요약",
     "- 두 번째 핵심 요약",
     "- 세 번째 핵심 요약"
-  ]
+  ],
+  "response_direction": "실무 대응방향 1줄 요약 (RISK일 때만 작성, 그 외에는 빈 문자열)"
 }}
 """
     try:
@@ -303,11 +310,13 @@ def analyze_with_gemini(client, title, content, rule_dept):
         if response and response.text:
             data = json.loads(response.text.strip())
             is_valid = data.get("is_hwaseong_news", False)
+            resp_dir = data.get("response_direction", "").strip() if data.get("category") == "RISK" else ""
             return (
                 is_valid,
                 data.get("category", "POLICY"),
                 data.get("department", rule_dept),
-                data.get("bullets", [])[:3]
+                data.get("bullets", [])[:3],
+                resp_dir
             )
     except Exception as e:
         print(f"Gemini 호출 에러 ({title[:20]}): {e}")
@@ -318,7 +327,7 @@ def analyze_with_gemini(client, title, content, rule_dept):
         f"- {title}",
         f"- {content[:120]}...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-    ]
+    ], ""
 
 
 STOPWORDS = {
@@ -409,6 +418,118 @@ def fetch_news():
             return res.json().get("items", [])
     except Exception as e:
         print(f"네이버 수집 에러: {e}")
+    return []
+
+
+def extract_trending_topics(client, articles):
+    """
+    수집된 화성시 뉴스 목록을 바탕으로 실시간 언론동향 인기 이슈 키워드 TOP 5 추출.
+    보도량(클러스터 건수) 및 화제성을 종합하여 Gemini 또는 규칙 기반으로 도출.
+    """
+    if not articles:
+        return []
+
+    # 기사별 총 보도량 계산 (메인 1건 + 묶인 관련 기사 수)
+    articles_with_count = []
+    for art in articles:
+        total_count = 1 + len(art.get("related_articles", []))
+        articles_with_count.append({
+            "title": art["title"],
+            "category": art.get("category", "POLICY"),
+            "department": art.get("department", "공보실"),
+            "count": total_count,
+            "bullets": art.get("bullets", [])
+        })
+
+    # 보도량 내림차순 정렬
+    articles_with_count.sort(key=lambda x: x["count"], reverse=True)
+
+    # 1. Gemini를 활용한 고유명사/이슈 중심의 인기 키워드 정제
+    if client and GEMINI_API_KEY:
+        try:
+            summary_list = []
+            for idx, a in enumerate(articles_with_count[:10], 1):
+                first_bullet = a["bullets"][0] if a["bullets"] else a["title"]
+                summary_list.append(f"{idx}. [{a['category']}/{a['department']}] {a['title']} (언론보도 {a['count']}건) - 요약: {first_bullet}")
+            articles_text = "\n".join(summary_list)
+
+            prompt = f"""당신은 화성시청 언론동향 분석관입니다.
+아래 화성시 주요 뉴스 목록(보도량 순)을 분석하여, 지자체 공무원과 시민이 현재 언론 지형을 한눈에 파악할 수 있는 '실시간 화성시 언론동향 인기 이슈 키워드 TOP 5'를 도출하십시오.
+
+[수집된 뉴스 목록]:
+{articles_text}
+
+[작업 지침]:
+1. 키워드는 '화성', '화성시', '개최', '추진', '본격', '기자', '특례시' 같은 불필요한 행정 수식어를 철저히 제거하십시오.
+2. 시민과 공무원이 단번에 사안을 인지할 수 있는 명확한 고유명사, 사업명, 행사명, 핵심 이슈명(예: 'MARS 2026', '루나빛축제', '오페라 라보엠', '동탄트램', '장애인 배드민턴대회')으로 1~4단어 이내로 간결히 제시하십시오.
+3. 보도 건수가 많은 사안(다수 언론사 집중 보도 사안) 및 리스크/주요 이슈를 우선순위(rank 1부터)로 배치하십시오.
+4. 최대 5개(기사가 5개 미만이면 기사 수만큼)를 출력하십시오.
+
+[출력 JSON 형식]:
+[
+  {{
+    "rank": 1,
+    "keyword": "이슈 키워드 (예: MARS 2026)",
+    "count": 보도건수(숫자),
+    "category": "POLICY" | "CULTURE" | "RISK",
+    "dept": "대표 소관부서",
+    "summary": "어떤 사안인지 1문장 설명"
+  }}
+]
+"""
+            res = client.models.generate_content(
+                model="gemini-3.8-flash",
+                contents=prompt,
+                config={"response_mime_type": "application/json"}
+            )
+            if res and res.text:
+                topics = json.loads(res.text.strip())
+                if isinstance(topics, list) and len(topics) > 0:
+                    for i, t in enumerate(topics, 1):
+                        t["rank"] = i
+                    return topics[:5]
+        except Exception as e:
+            print(f"언론동향 키워드 Gemini 추출 실패 ({e}), 규칙 기반 fallback 적용")
+
+    # 2. 규칙 기반 Fallback: 제목에서 따옴표, 영문/고유명사, 핵심 어구 지능적 추출
+    fallback_topics = []
+    seen_keywords = set()
+
+    for idx, a in enumerate(articles_with_count[:5], 1):
+        t = a["title"]
+        # 1) 따옴표 안의 단어 ('MARS 2026', '라보엠' 등)
+        quotes = re.findall(r"['‘\"]([^'’\"]+)['’\"]", t)
+        kw = None
+        for q in quotes:
+            clean_q = q.strip()
+            if len(clean_q) >= 2 and clean_q not in STOPWORDS and not clean_q.startswith("화성"):
+                kw = clean_q
+                break
+
+        # 2) 따옴표가 없으면 핵심 토큰 조합
+        if not kw:
+            tokens = extract_meaningful_tokens(t)
+            tokens = [tk for tk in tokens if tk not in {"특례시", "화성특례시", "코엑스", "경기도"}]
+            if tokens:
+                kw = " ".join(tokens[:2])
+            else:
+                kw = t[:15]
+
+        if kw and kw not in seen_keywords:
+            seen_keywords.add(kw)
+            first_bullet = a["bullets"][0] if a["bullets"] else t
+            fallback_topics.append({
+                "rank": len(fallback_topics) + 1,
+                "keyword": kw,
+                "count": a["count"],
+                "category": a["category"],
+                "dept": a["department"],
+                "summary": first_bullet.lstrip("- ")[:60]
+            })
+
+    return fallback_topics[:5]
+
+
 def send_telegram_alert(article):
     """신규 기사를 단정하고 품격 있는 포맷으로 텔레그램 봇으로 전송"""
     token = os.environ.get("TELEGRAM_TOKEN")
@@ -432,6 +553,10 @@ def send_telegram_alert(article):
     bullets = article.get("bullets", [])
     clean_bullets = "\n".join([f"- {html.escape(b.lstrip('- ').lstrip('• '))}" for b in bullets])
 
+    # 지적성(RISK) 기사 대응방향 요약 안내
+    resp_dir = article.get("response_direction")
+    resp_text = f"\n\n💡 <b>실무 대응방향:</b> {html.escape(resp_dir)}" if (resp_dir and article.get("category") == "RISK") else ""
+
     # 다수 언론사 보도 묶음 안내
     related = article.get("related_articles", [])
     cluster_text = f"\n다수 언론사 보도: 총 {len(related) + 1}개사 집중 보도" if related else ""
@@ -439,7 +564,7 @@ def send_telegram_alert(article):
     caption = (
         f"<b>[{sec_title} | {cat_name}]</b>\n"
         f"<a href=\"{article['link']}\"><b>{html.escape(article['title'])}</b></a>\n\n"
-        f"{clean_bullets}\n\n"
+        f"{clean_bullets}{resp_text}\n\n"
         f"소관: {dept_label} {dept} | {media} ({time_lbl}){cluster_text}"
     )
 
@@ -572,6 +697,7 @@ def main():
                 "related_articles": cached.get("related_articles", []),
                 "is_major": cached.get("is_major", False),
                 "image_url": cached.get("image_url", ""),
+                "response_direction": cached.get("response_direction", ""),
                 "telegram_sent": True
             })
             print(f"   -> [API 캐시 재활용 (비용 0원)] {title[:20]}...")
@@ -594,7 +720,7 @@ def main():
 
         # 4. Gemini 실무 요약 및 판별
         print(f"분석 중: {title[:25]}...")
-        is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
+        is_valid, cat, dept, bullets, resp_dir = analyze_with_gemini(client, title, article_content, rule_dept)
 
         # 화성시정과 무관한 전국 경제/단순 지명 언급 기사는 자동 제외
         if not is_valid:
@@ -622,7 +748,8 @@ def main():
             "bullets": bullets,
             "related_articles": [],
             "is_major": is_major,
-            "image_url": article_img
+            "image_url": article_img,
+            "response_direction": resp_dir
         })
 
         if len(processed_articles) >= 25:
@@ -657,9 +784,14 @@ def main():
     major_count = sum(1 for a in processed_articles if a.get("is_major", False))
     live_count = len(processed_articles) - major_count
 
+    # 실시간 언론동향 인기 이슈 키워드 TOP 5 추출
+    trending_topics = extract_trending_topics(client, processed_articles)
+    print(f">> 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
+
     result_data = {
         "updated_at": now_str,
         "yesterday_label": yesterday_date.strftime("%m.%d"),
+        "trending_topics": trending_topics,
         "stats": {
             "total": len(processed_articles),
             "major_count": major_count,
@@ -676,7 +808,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
-    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건) 및 news_data.json 저장 성공")
+    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건, 언론동향 {len(trending_topics)}건) 및 news_data.json 저장 성공")
 
 
 if __name__ == "__main__":
