@@ -1200,14 +1200,59 @@ header {
   margin-bottom: 14px;
   box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
 }
+/* 3. 주간 언론동향 카드 (구 시정 종합 맥락 진단) */
+.weekly-trend-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(15, 23, 51, 0.04);
+}
 .weekly-trend-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-bottom: 12px;
+  justify-content: center;
+  padding-bottom: 14px;
   border-bottom: 1px solid #F1F5F9;
   margin-bottom: 14px;
 }
+.weekly-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.weekly-main-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.week-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #F8FAFC;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 11px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--sub);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.week-nav-btn:hover:not(:disabled) {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.week-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
 .trend-sub-section {
   display: flex;
   flex-direction: column;
@@ -1220,12 +1265,11 @@ header {
   font-size: 13.5px;
   font-weight: 800;
   color: var(--ink);
-  letter-spacing: -0.01em;
 }
 .trend-badge-pill {
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 800;
-  padding: 3px 8px;
+  padding: 3px 9px;
   border-radius: 4px;
   white-space: nowrap;
   letter-spacing: -0.01em;
@@ -1280,12 +1324,6 @@ header {
   font-size: 14px;
   line-height: 1.6;
   flex-shrink: 0;
-}
-.caution-desc-text {
-  font-size: 12.5px;
-  color: var(--muted);
-  line-height: 1.5;
-  margin-top: -2px;
 }
 .caution-count-badge {
   font-size: 11.5px;
@@ -1349,24 +1387,11 @@ header {
 .risk-caution-title:hover {
   text-decoration: underline;
 }
-.risk-caution-resp {
-  background: #FEF2F2;
-  border: 1px dashed #F87171;
-  border-radius: 6px;
-  padding: 7px 10px;
-  font-size: 12.5px;
-  line-height: 1.5;
-  color: #991B1B;
-}
-.risk-caution-resp b {
-  color: #7F1D1D;
-  margin-right: 4px;
-}
 .risk-caution-bullets {
-  font-size: 12.5px;
+  font-size: 13px;
   color: #475569;
   line-height: 1.5;
-  padding-left: 4px;
+  padding-left: 2px;
 }
 
 /* 상세 검색 (Advanced Search) 패널 */
@@ -1417,7 +1442,7 @@ header {
 .adv-input, .adv-select {
   border: 1.5px solid #CBD5E1;
   border-radius: 6px;
-  padding: 5px 8px;
+  padding: 6px 9px;
   font-size: 12.5px;
   font-weight: 600;
   color: var(--ink);
@@ -1435,7 +1460,7 @@ header {
   color: #FFF;
   border: none;
   border-radius: 6px;
-  padding: 6px 12px;
+  padding: 6px 14px;
   font-size: 12.5px;
   font-weight: 700;
   cursor: pointer;
@@ -1445,10 +1470,35 @@ header {
   color: #475569;
   border: 1px solid #CBD5E1;
   border-radius: 6px;
-  padding: 6px 10px;
+  padding: 6px 11px;
   font-size: 12.5px;
   font-weight: 600;
   cursor: pointer;
+}
+
+/* 타임라인 메인 검색창 */
+.timeline-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 10px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(15, 23, 51, 0.03);
+}
+.timeline-search-bar:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(27, 47, 143, 0.1);
+}
+.timeline-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
 }
 
 /* 2. 화성시 언론동향 (홈 대시보드 내부 카드) */
@@ -1705,8 +1755,6 @@ header {
   gap: 10px;
 }
 .theme-grid-item {
-  background: #F8FAFC;
-  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 12px 14px;
   cursor: pointer;
@@ -1714,13 +1762,63 @@ header {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  border: 1.5px solid var(--border);
 }
 .theme-grid-item:hover {
-  background: #FFFFFF;
-  border-color: var(--primary);
-  box-shadow: 0 4px 10px rgba(27, 47, 143, 0.08);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 51, 0.08);
 }
+
+/* 7대 테마별 차별화된 옅은 색 배경 (스택 바와 직관적 일치) */
+.theme-grid-item.theme-card-INDUSTRY {
+  background: #F0F7FF;
+  border-color: #BFDBFE;
+}
+.theme-grid-item.theme-card-INDUSTRY .theme-item-name { color: #1B2F8F; }
+.theme-grid-item.theme-card-INDUSTRY .theme-item-badge { background: #DBEAFE; color: #1E40AF; }
+
+.theme-grid-item.theme-card-TRANSIT {
+  background: #F0F9FF;
+  border-color: #BAE6FD;
+}
+.theme-grid-item.theme-card-TRANSIT .theme-item-name { color: #0284C7; }
+.theme-grid-item.theme-card-TRANSIT .theme-item-badge { background: #E0F2FE; color: #0369A1; }
+
+.theme-grid-item.theme-card-CULTURE {
+  background: #ECFDF5;
+  border-color: #A7F3D0;
+}
+.theme-grid-item.theme-card-CULTURE .theme-item-name { color: #059669; }
+.theme-grid-item.theme-card-CULTURE .theme-item-badge { background: #D1FAE5; color: #047857; }
+
+.theme-grid-item.theme-card-WELFARE {
+  background: #FFFBEB;
+  border-color: #FDE68A;
+}
+.theme-grid-item.theme-card-WELFARE .theme-item-name { color: #D97706; }
+.theme-grid-item.theme-card-WELFARE .theme-item-badge { background: #FEF3C7; color: #B45309; }
+
+.theme-grid-item.theme-card-SAFETY {
+  background: #FEF2F2;
+  border-color: #FECACA;
+}
+.theme-grid-item.theme-card-SAFETY .theme-item-name { color: #DC2626; }
+.theme-grid-item.theme-card-SAFETY .theme-item-badge { background: #FEE2E2; color: #B91C1C; }
+
+.theme-grid-item.theme-card-AUTONOMY {
+  background: #F5F3FF;
+  border-color: #DDD6FE;
+}
+.theme-grid-item.theme-card-AUTONOMY .theme-item-name { color: #7C3AED; }
+.theme-grid-item.theme-card-AUTONOMY .theme-item-badge { background: #EDE9FE; color: #6D28D9; }
+
+.theme-grid-item.theme-card-CITIZEN {
+  background: #F8FAFC;
+  border-color: #CBD5E1;
+}
+.theme-grid-item.theme-card-CITIZEN .theme-item-name { color: #475569; }
+.theme-grid-item.theme-card-CITIZEN .theme-item-badge { background: #E2E8F0; color: #334155; }
+
 .theme-item-top {
   display: flex;
   align-items: center;
@@ -1729,23 +1827,16 @@ header {
 .theme-item-name {
   font-size: 13.5px;
   font-weight: 800;
-  color: var(--ink);
 }
 .theme-item-badge {
   font-size: 11px;
-  font-weight: 700;
-  padding: 1px 6px;
+  font-weight: 800;
+  padding: 2px 7px;
   border-radius: 4px;
-  background: #E2E8F0;
-  color: #334155;
-}
-.theme-grid-item:hover .theme-item-badge {
-  background: var(--primary-light);
-  color: var(--primary);
 }
 .theme-item-meta {
   font-size: 12px;
-  color: var(--muted);
+  color: #64748B;
   font-weight: 500;
 }
 
@@ -1889,9 +1980,13 @@ header {
 </header>
 
 <div class="wrap">
-  <!-- 상세 검색 (Advanced Search) 패널 (기본 접힘) -->
+  <!-- 상세 검색 (Advanced Search) 패널 (기본 접힘, 검색 결과 내 검색 지원) -->
   <div class="advanced-search-panel" id="advancedSearchPanel">
     <div class="adv-search-row">
+      <div class="adv-field">
+        <span style="font-weight:800; color:var(--primary);">검색어:</span>
+        <input type="text" id="advKeywordInput" class="adv-input" placeholder="키워드 입력 (결과 내 검색)" style="width:170px;" onkeydown="if(event.key==='Enter') applyAdvancedSearch()">
+      </div>
       <div class="adv-field">
         <span>발행기간:</span>
         <input type="date" id="advStartDate" class="adv-input" title="시작일">
@@ -1904,17 +1999,8 @@ header {
           <option value="">전체 언론사</option>
         </select>
       </div>
-      <div class="adv-field">
-        <span>보도분류:</span>
-        <select id="advCategorySelect" class="adv-select">
-          <option value="">전체 분류</option>
-          <option value="POLICY">시정정책</option>
-          <option value="CULTURE">문화행사</option>
-          <option value="RISK">비판지적</option>
-        </select>
-      </div>
       <div class="adv-actions">
-        <button type="button" class="adv-apply-btn" onclick="applyAdvancedSearch()">필터 적용</button>
+        <button type="button" class="adv-apply-btn" onclick="applyAdvancedSearch()">검색 필터 적용</button>
         <button type="button" class="adv-reset-btn" onclick="resetAdvancedSearch()">초기화</button>
       </div>
     </div>
@@ -1925,7 +2011,7 @@ header {
     <div class="print-title" id="printHeaderTitle">화성시 언론보도</div>
   </div>
 
-  <!-- 2-1. 탭 네비게이션: 홈 / 전체기사 / 시정정책 / 문화행사 / 비판지적 -->
+  <!-- 2-1. 탭 네비게이션: 홈 / 전체기사 / 7대 전략 테마 탭 / 비판지적 -->
   <div class="tab-bar">
     <button class="tab-btn active" id="tabBtnHome" onclick="switchMainTab('HOME', this)">
       홈
@@ -1933,11 +2019,26 @@ header {
     <button class="tab-btn" id="tabBtnAll" onclick="switchMainTab('ALL', this)">
       전체기사 <span class="tab-badge" id="tabCountAll">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnPolicy" onclick="switchMainTab('POLICY', this)">
-      시정정책 <span class="tab-badge" id="tabCountPolicy">0</span>
+    <button class="tab-btn" id="tabBtnIndustry" onclick="switchMainTab('INDUSTRY', this)">
+      첨단산업 <span class="tab-badge" id="tabCountIndustry">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnTransit" onclick="switchMainTab('TRANSIT', this)">
+      교통망 <span class="tab-badge" id="tabCountTransit">0</span>
     </button>
     <button class="tab-btn" id="tabBtnCulture" onclick="switchMainTab('CULTURE', this)">
-      문화행사 <span class="tab-badge" id="tabCountCulture">0</span>
+      문화관광 <span class="tab-badge" id="tabCountCulture">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnWelfare" onclick="switchMainTab('WELFARE', this)">
+      포용복지 <span class="tab-badge" id="tabCountWelfare">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnSafety" onclick="switchMainTab('SAFETY', this)">
+      시민안전 <span class="tab-badge" id="tabCountSafety">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnAutonomy" onclick="switchMainTab('AUTONOMY', this)">
+      특례시자치 <span class="tab-badge" id="tabCountAutonomy">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtnCitizen" onclick="switchMainTab('CITIZEN', this)">
+      시민소통 <span class="tab-badge" id="tabCountCitizen">0</span>
     </button>
     <button class="tab-btn risk-tab" id="tabBtnRisk" onclick="switchMainTab('RISK', this)">
       비판지적 <span class="tab-badge risk" id="tabCountRisk">0</span>
@@ -1981,47 +2082,47 @@ header {
       <div class="highlights-list" id="homeHighlightsList"></div>
     </section>
 
-    <!-- 3. 주간 언론동향 (개요, 주요내용 5줄, 주의사항 전수 수록) -->
+    <!-- 3. 주간 언론동향 (금주 언론동향 네비게이션, 개요, 주요내용 5줄, 주의사항 전수 수록) -->
     <section class="weekly-trend-card" id="weeklyTrendCard">
       <div class="weekly-trend-header">
-        <div class="macro-title-group">
-          <span class="macro-title">주간 언론동향</span>
-          <span class="macro-sub">시장 및 정책기획관 종합 리포트</span>
+        <div class="weekly-nav-row">
+          <button type="button" class="week-nav-btn" onclick="navigateWeek(-1)" title="저번 주 언론동향">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <span>저번 주</span>
+          </button>
+          <span class="weekly-main-title" id="weeklyTrendTitleText">금주 언론동향</span>
+          <button type="button" class="week-nav-btn" id="nextWeekBtn" onclick="navigateWeek(1)" title="다음 주 언론동향" disabled>
+            <span>다음 주</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
         </div>
-        <span class="macro-badge">주간 종합 진단</span>
       </div>
 
-      <!-- 1) 개요 (추진중점 내용) -->
+      <!-- 1) 개요 (부제 문구 없이 배지만 깔끔하게 단독 노출) -->
       <div class="trend-sub-section">
         <div class="trend-sub-title">
           <span class="trend-badge-pill pill-overview">개요</span>
-          <span>시정 핵심 전략 및 정책 추진 동향</span>
         </div>
         <div class="trend-overview-box" id="weeklyTrendOverview">
           <!-- JS로 동적 렌더링 -->
         </div>
       </div>
 
-      <!-- 2) 주요내용 (시민체감 포함 5줄) -->
+      <!-- 2) 주요내용 (부제 문구 없이 배지만 노출, 5줄) -->
       <div class="trend-sub-section" style="margin-top:16px;">
         <div class="trend-sub-title">
           <span class="trend-badge-pill pill-main">주요내용</span>
-          <span>시민 체감 및 주간 언론동향 핵심 흐름 (5대 기류)</span>
         </div>
         <div class="weekly-main-points-list" id="weeklyMainPointsList">
           <!-- JS로 동적 렌더링 (5줄) -->
         </div>
       </div>
 
-      <!-- 3) 주의사항 (제한 없음 - 비판/지적성 보도 전수 수록) -->
+      <!-- 3) 주의사항 (부제 및 설명 문구 삭제, 뱃지만 단독 노출) -->
       <div class="trend-sub-section caution-section" style="margin-top:20px;">
         <div class="trend-sub-title">
           <span class="trend-badge-pill pill-caution">주의사항</span>
-          <span style="font-weight:800; color:#B91C1C;">선제 대응 및 행정 점검 과제</span>
           <span class="caution-count-badge" id="weeklyRiskCountBadge">0건</span>
-        </div>
-        <div class="caution-desc-text">
-          시민 안전 확보와 올바른 행정 집행을 위해 이번 주 발행된 비판·지적성 보도를 전수 점검하고 실무 대응방향을 안내합니다.
         </div>
         <div class="weekly-risk-cautions-list" id="weeklyRiskCautionsList">
           <!-- JS로 동적 렌더링 (비판 기사 전수 카드) -->
@@ -2029,11 +2130,11 @@ header {
       </div>
     </section>
 
-    <!-- 4. 시정 7대 전략 테마 현황 (시장·정책관 관점, 맨 아래 배치) -->
+    <!-- 4. 7대 테마별 현황 (제목 변경 & 파스텔 틴트 카드 배경) -->
     <section class="themes-card">
       <div class="themes-header">
         <div class="themes-title-group">
-          <span class="themes-title">시정 7대 전략 테마 현황</span>
+          <span class="themes-title">7대 테마별 현황</span>
           <span class="themes-sub">클릭 시 해당 테마 기사 모아보기</span>
         </div>
       </div>
@@ -2045,19 +2146,20 @@ header {
 
   </div>
 
-  <!-- [기사 목록 타임라인 뷰] 전체기사, 시정정책, 문화행사, 비판지적 탭 선택 시 표시 -->
+  <!-- [기사 목록 타임라인 뷰] 전체기사, 7대 테마, 비판지적 탭 선택 시 표시 -->
   <div id="timelineView" style="display:none;">
 
-    <!-- 2-1. 슬림해진 통계 바 & 1-3. 체크박스 선택/인쇄 툴바 -->
-    <div class="stats-bar">
+    <!-- 타임라인 뷰 메인 검색창 (검색 결과 내 검색 지원) -->
+    <div class="timeline-search-bar">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="text" id="timelineSearchInput" class="timeline-search-input" placeholder="기사 검색 및 결과 내 검색 (제목, 부서, 키워드 입력 후 엔터)" oninput="onTimelineSearchInput(this.value)">
+      <button type="button" class="adv-search-btn" onclick="toggleAdvancedSearch()" title="상세 조건 필터">상세검색</button>
+    </div>
+
+    <!-- 슬림해진 액션 툴바 (누적보도 문구 완전 삭제) -->
+    <div class="stats-bar" style="padding: 10px 0;">
       <div class="stat-left">
-        <div class="stat-main">
-          누적 보도 <b id="statTotal">0</b>건 
-          <span class="stat-sub">
-            (주요 <span id="statMajor" style="color:#EA580C;font-weight:700;">0</span>건 / 
-            실시간 <span id="statLive" style="color:var(--primary);font-weight:700;">0</span>건)
-          </span>
-        </div>
+        <!-- 누적보도 문구 삭제 완료 -->
       </div>
       <div class="stat-actions">
         <!-- 1-3. 전체선택 체크박스 (기 출력자료 제외 확인 팝업) -->
@@ -2256,11 +2358,15 @@ let tickerInterval = null;
 let currentTickerIndex = 0;
 let isTrendingExpanded = false; // 화성시 언론동향 최초 상태: 접힘
 
+// 주간 언론동향 주차 네비게이션 상태 (0: 금주, -1: 1주 전, -2: 2주 전 ...)
+let currentWeekOffset = 0;
+
 // 상세 검색 필터 상태
 let advFilterStartDate = '';
 let advFilterEndDate = '';
 let advFilterMedia = '';
 let advFilterCategory = '';
+let advFilterKeyword = '';
 let isAdvSearchOpen = false;
 
 // 1-2. 내 부서 관리
@@ -2289,6 +2395,7 @@ async function loadNewsData() {
     globalTrendingTopics = data.trending_topics || extractClientTrendingTopics(globalArticles);
     globalMacroPulse = data.macro_pulse || extractClientMacroPulse(globalArticles);
     
+    updateWeekDisplay();
     updateMyDeptUI();
     populateMediaSelectOptions();
     renderHomeDashboard();
@@ -2304,12 +2411,19 @@ async function loadNewsData() {
   }
 }
 
-// 탭 전환 (홈 / 전체기사 / 시정정책 / 문화행사 / 비판지적)
+// 탭 전환 (홈 / 전체기사 / 7대 테마 7종 / 비판지적)
 function switchMainTab(tabKey, btnEl) {
   currentMainTab = tabKey;
 
   // 탭 버튼 active 클래스 동기화
   document.querySelectorAll('.tab-bar .tab-btn').forEach(btn => btn.classList.remove('active'));
+  if (!btnEl) {
+    const btnId = tabKey === 'HOME' ? 'tabBtnHome' : 
+                  tabKey === 'ALL' ? 'tabBtnAll' : 
+                  tabKey === 'RISK' ? 'tabBtnRisk' :
+                  ('tabBtn' + tabKey.charAt(0).toUpperCase() + tabKey.slice(1).toLowerCase());
+    btnEl = document.getElementById(btnId);
+  }
   if (btnEl) btnEl.classList.add('active');
 
   const homeView = document.getElementById('homeDashboardView');
@@ -2322,8 +2436,35 @@ function switchMainTab(tabKey, btnEl) {
   } else {
     homeView.style.display = 'none';
     timelineView.style.display = 'block';
-    currentCategory = tabKey;
     renderTimeline();
+  }
+}
+
+// 주간 언론동향 주차 이동 (금주, 저번 주, 다음 주 네비게이션)
+function navigateWeek(delta) {
+  currentWeekOffset += delta;
+  if (currentWeekOffset > 0) currentWeekOffset = 0;
+  if (currentWeekOffset < -12) currentWeekOffset = -12; // 최근 3개월 (최대 12주 전)
+  updateWeekDisplay();
+  renderWeeklyTrend();
+}
+
+function updateWeekDisplay() {
+  const titleEl = document.getElementById('weeklyMainTitle');
+  const nextBtn = document.getElementById('nextWeekBtn');
+  const prevBtn = document.getElementById('prevWeekBtn');
+  if (titleEl) {
+    if (currentWeekOffset === 0) {
+      titleEl.textContent = '금주 언론동향';
+    } else {
+      titleEl.textContent = `${Math.abs(currentWeekOffset)}주 전 언론동향`;
+    }
+  }
+  if (nextBtn) {
+    nextBtn.disabled = (currentWeekOffset >= 0);
+  }
+  if (prevBtn) {
+    prevBtn.disabled = (currentWeekOffset <= -12);
   }
 }
 
@@ -2344,7 +2485,7 @@ function renderHomeDashboard() {
   renderThemesOverview();
 }
 
-// 주간 언론동향 렌더링 (개요, 주요내용 5줄, 주의사항 비판·지적 보도 전수)
+// 주간 언론동향 렌더링 (금주 및 이전 주차 네비게이션 지원, 개요, 주요내용 5줄, 주의사항 전수 - 실무대응방향 삭제)
 function renderWeeklyTrend() {
   const overviewBox = document.getElementById('weeklyTrendOverview');
   const pointsList = document.getElementById('weeklyMainPointsList');
@@ -2352,13 +2493,50 @@ function renderWeeklyTrend() {
   const riskBadge = document.getElementById('weeklyRiskCountBadge');
   if (!overviewBox || !pointsList || !riskList) return;
 
-  const mp = globalMacroPulse || extractClientMacroPulse(globalArticles);
+  let mp = null;
+  let weekArticles = [];
 
-  // 1) 개요 (시정 핵심 전략 및 정책 추진 동향)
+  if (currentWeekOffset === 0) {
+    mp = globalMacroPulse || extractClientMacroPulse(globalArticles);
+  } else {
+    // 과거 주차 데이터 필터링 (최근 3개월 보관 데이터 기반)
+    const now = new Date();
+    const daysAgoEnd = (Math.abs(currentWeekOffset) - 1) * 7;
+    const daysAgoStart = Math.abs(currentWeekOffset) * 7;
+    const endDate = new Date(now.getTime() - daysAgoEnd * 24 * 60 * 60 * 1000);
+    const startDate = new Date(now.getTime() - daysAgoStart * 24 * 60 * 60 * 1000);
+
+    weekArticles = globalArticles.filter(a => {
+      if (!a.pub_timestamp) return false;
+      const t = new Date(a.pub_timestamp).getTime();
+      return t >= startDate.getTime() && t < endDate.getTime();
+    });
+
+    if (weekArticles.length > 0) {
+      mp = extractClientMacroPulse(weekArticles);
+    } else {
+      overviewBox.textContent = `해당 주차(${Math.abs(currentWeekOffset)}주 전)에 보관된 보도 데이터가 없습니다. (최근 3개월 보관 데이터 기준)`;
+      pointsList.innerHTML = `
+        <div class="main-point-item">
+          <span class="main-point-dot">•</span>
+          <span>해당 주차에 수집된 추가 보도 데이터가 없습니다.</span>
+        </div>
+      `;
+      if (riskBadge) riskBadge.textContent = '0건';
+      riskList.innerHTML = `
+        <div style="font-size:13px; color:var(--muted); padding:10px 4px;">
+          해당 주간에 확인된 비판·지적성 기사가 없습니다. 올바른 행정과 시민 안전 관리가 원활히 유지되고 있습니다.
+        </div>
+      `;
+      return;
+    }
+  }
+
+  // 1) 개요 (단독 배지 아래 내용 바로 노출)
   const overviewText = mp.overview || (mp.summary_bullets && mp.summary_bullets[0]) || '화성특례시 출범과 민선8기 미래 전략산업 육성을 중심으로 시정 핵심 정책이 본궤도에 오르고 있습니다.';
   overviewBox.textContent = overviewText.replace(/^-\s*/, '');
 
-  // 2) 주요내용 (시민체감 포함 5줄)
+  // 2) 주요내용 (5줄 확대)
   let points = (mp.main_points && mp.main_points.length > 0) ? mp.main_points : [];
   if (points.length === 0 && mp.summary_bullets) {
     points = mp.summary_bullets.slice(1, 6);
@@ -2383,10 +2561,11 @@ function renderWeeklyTrend() {
     `;
   }).join('');
 
-  // 3) 주의사항 (제한 없음 - 비판/지적성 보도 전수 수록)
+  // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 완전 삭제, 제목+1줄요약 불릿만 노출)
   let riskArticles = mp.risk_cautions || [];
   if (riskArticles.length === 0) {
-    riskArticles = globalArticles.filter(a => a.category === 'RISK');
+    const pool = (currentWeekOffset === 0) ? globalArticles : weekArticles;
+    riskArticles = pool.filter(a => a.category === 'RISK');
   }
 
   if (riskBadge) riskBadge.textContent = `${riskArticles.length}건`;
@@ -2405,7 +2584,6 @@ function renderWeeklyTrend() {
     const media = r.media || '언론사';
     const link = r.link || '#';
     const time = r.time_label || '';
-    const resp = r.response_direction || '관련 부서 사실관계 점검 및 신속한 언론 대응 필요';
     const bulletText = (r.bullets && r.bullets.length > 0) ? r.bullets[0].replace(/^-\s*/, '') : '';
 
     return `
@@ -2417,16 +2595,13 @@ function renderWeeklyTrend() {
         <a href="${link}" target="_blank" rel="noopener noreferrer" class="risk-caution-title" title="${title}">
           ${title}
         </a>
-        <div class="risk-caution-resp">
-          <b>[실무 대응방향]</b> ${resp}
-        </div>
         ${bulletText ? `<div class="risk-caution-bullets">• ${bulletText}</div>` : ''}
       </div>
     `;
   }).join('');
 }
 
-// 7대 전략 테마 현황 렌더링 (게이지 바 & 카드 그리드)
+// 7대 테마별 현황 렌더링 (게이지 바 & 각 테마 색의 옅은 배경 적용 카드 그리드)
 function renderThemesOverview() {
   const ratioBar = document.getElementById('themesRatioBar');
   const grid = document.getElementById('themesGrid');
@@ -2452,10 +2627,10 @@ function renderThemesOverview() {
     return `<div class="theme-bar-seg ${segCls}" style="width: ${st.ratio}%;" title="${st.name}: ${st.count}건 (${st.ratio}%)"></div>`;
   }).join('');
 
-  // 2) 카드 그리드
+  // 2) 카드 그리드 (해당 테마 그래프 색의 옅은 파스텔 틴트 배경 적용)
   grid.innerHTML = stats.map(st => {
     return `
-      <div class="theme-grid-item" onclick="filterByTheme('${st.name.replace(/'/g, "\\'")}')" title="클릭 시 '${st.name}' 관련 기사를 모아봅니다">
+      <div class="theme-grid-item theme-card-${st.id}" onclick="filterByTheme('${st.name.replace(/'/g, "\\'")}')" title="클릭 시 '${st.name}' 관련 기사를 모아봅니다">
         <div class="theme-item-top">
           <span class="theme-item-name">${st.short_name}</span>
           <span class="theme-item-badge">${st.count}건 (${st.ratio}%)</span>
@@ -2466,9 +2641,19 @@ function renderThemesOverview() {
   }).join('');
 }
 
-// 테마 클릭 시 기사 필터링 (전체기사 탭으로 전환)
+// 테마 클릭 시 기사 필터링 (7대 테마 탭으로 직접 이동)
 function filterByTheme(themeFullName) {
-  selectedThemeFilter = themeFullName;
+  const themeMap = {
+    '미래 첨단산업 · 혁신성장': 'INDUSTRY',
+    '광역 교통망 · 균형발전': 'TRANSIT',
+    '문화관광 · 도시브랜드': 'CULTURE',
+    '포용복지 · 생애주기 돌봄': 'WELFARE',
+    '시민안전 · 환경재난 대응': 'SAFETY',
+    '특례시 자치분권 · 행정혁신': 'AUTONOMY',
+    '미래 인재양성 · 시민소통': 'CITIZEN'
+  };
+  const themeId = themeMap[themeFullName] || 'ALL';
+  selectedThemeFilter = '';
   selectedDeptFilter = '';
   currentSearchKeyword = '';
   activeTrendingKeyword = null;
@@ -2477,9 +2662,7 @@ function filterByTheme(themeFullName) {
   const clearBtn = document.getElementById('clearDeptBtn');
   if (clearBtn) clearBtn.style.display = 'none';
 
-  // 전체기사 탭으로 이동
-  const allTabBtn = document.getElementById('tabBtnAll');
-  switchMainTab('ALL', allTabBtn);
+  switchMainTab(themeId);
 }
 
 // 홈 탭 실시간 핵심 뉴스 프리뷰
@@ -2661,12 +2844,32 @@ function populateMediaSelectOptions() {
     mediaList.map(m => `<option value="${m}" ${m === currentVal ? 'selected' : ''}>${m}</option>`).join('');
 }
 
-// 상세 검색 필터 적용
+// 타임라인 상단 메인 검색창 입력 핸들러 (결과 내 검색 지원)
+function onTimelineSearchInput(val) {
+  const trimmed = (val || '').trim();
+  currentSearchKeyword = trimmed.toLowerCase();
+  selectedDeptFilter = '';
+  selectedThemeFilter = '';
+
+  const headerInput = document.getElementById('deptSearchInput');
+  const clearBtn = document.getElementById('clearDeptBtn');
+  if (headerInput && headerInput.value !== val) {
+    headerInput.value = val;
+  }
+  if (clearBtn) {
+    clearBtn.style.display = trimmed.length > 0 ? 'block' : 'none';
+  }
+
+  renderTimeline();
+}
+
+// 상세 검색 필터 적용 (결과 내 검색 지원)
 function applyAdvancedSearch() {
   advFilterStartDate = document.getElementById('advStartDate')?.value || '';
   advFilterEndDate = document.getElementById('advEndDate')?.value || '';
   advFilterMedia = document.getElementById('advMediaSelect')?.value || '';
   advFilterCategory = document.getElementById('advCategorySelect')?.value || '';
+  advFilterKeyword = (document.getElementById('advKeywordInput')?.value || '').trim().toLowerCase();
 
   // 홈 탭에 있었다면 결과 확인을 위해 전체기사 탭으로 자동 전환
   if (currentMainTab === 'HOME') {
@@ -2683,15 +2886,18 @@ function resetAdvancedSearch() {
   advFilterEndDate = '';
   advFilterMedia = '';
   advFilterCategory = '';
+  advFilterKeyword = '';
 
   const startIn = document.getElementById('advStartDate');
   const endIn = document.getElementById('advEndDate');
   const mediaSel = document.getElementById('advMediaSelect');
   const catSel = document.getElementById('advCategorySelect');
+  const kwIn = document.getElementById('advKeywordInput');
   if (startIn) startIn.value = '';
   if (endIn) endIn.value = '';
   if (mediaSel) mediaSel.value = '';
   if (catSel) catSel.value = '';
+  if (kwIn) kwIn.value = '';
 
   renderTimeline();
 }
@@ -2814,72 +3020,114 @@ function clearMyDeptSetting() {
 function renderTimeline() {
   const majorContainer = document.getElementById('majorNewsList');
   const liveContainer = document.getElementById('liveNewsList');
+  if (!majorContainer || !liveContainer) return;
+
   majorContainer.innerHTML = '';
   liveContainer.innerHTML = '';
 
-  // 통합 검색, 내 부서 및 상세 검색 필터 판별 헬퍼
-  function matchesSearch(item) {
-    // 7대 전략 테마 필터 모드
-    if (selectedThemeFilter && item.theme !== selectedThemeFilter) {
+  // 통합 검색, 7대 테마 탭, 내 부서 및 상세 검색 필터 판별 헬퍼
+  function matchesSearchCriteria(item, checkMainTab = true) {
+    // 1) 탭 필터링 (checkMainTab=true 시 적용)
+    if (checkMainTab && currentMainTab !== 'ALL' && currentMainTab !== 'HOME') {
+      if (currentMainTab === 'RISK') {
+        if (item.category !== 'RISK') return false;
+      } else {
+        // 7대 테마 탭: INDUSTRY, TRANSIT, CULTURE, WELFARE, SAFETY, AUTONOMY, CITIZEN
+        if (item.theme_id !== currentMainTab) return false;
+      }
+    }
+
+    // 2) 7대 전략 테마 직접 필터 모드
+    if (selectedThemeFilter && item.theme !== selectedThemeFilter && item.theme_id !== selectedThemeFilter) {
       return false;
     }
-    // 내 부서 모아보기 모드
+
+    // 3) 내 부서 모아보기 모드
     if (filterMyDeptOnly && myDept) {
       if (!item.department || !item.department.includes(myDept)) return false;
     }
-    // [상세검색 1] 언론사 필터
+
+    // 4) [상세검색 1] 언론사 필터
     if (advFilterMedia && item.media !== advFilterMedia) {
       return false;
     }
-    // [상세검색 2] 보도분류(카테고리) 필터
+
+    // 5) [상세검색 2] 보도분류(카테고리) 필터
     if (advFilterCategory && item.category !== advFilterCategory) {
       return false;
     }
-    // [상세검색 3] 발행일자 범위 필터 (YYYY-MM-DD)
+
+    // 6) [상세검색 3] 발행일자 범위 필터 (YYYY-MM-DD)
     if (item.pub_timestamp) {
       const pubDateStr = item.pub_timestamp.slice(0, 10);
       if (advFilterStartDate && pubDateStr < advFilterStartDate) return false;
       if (advFilterEndDate && pubDateStr > advFilterEndDate) return false;
     }
-    // 부서 자동완성 선택 시 정확 매칭
+
+    // 7) [상세검색 4] 상세 검색어 필터 (결과 내 검색 지원)
+    if (advFilterKeyword) {
+      const matchAdvDept = item.department && item.department.toLowerCase().includes(advFilterKeyword);
+      const matchAdvTitle = item.title && item.title.toLowerCase().includes(advFilterKeyword);
+      const matchAdvBullets = (item.bullets || []).some(b => b.toLowerCase().includes(advFilterKeyword));
+      const matchAdvRel = (item.related_articles || []).some(r => r.title.toLowerCase().includes(advFilterKeyword));
+      if (!(matchAdvDept || matchAdvTitle || matchAdvBullets || matchAdvRel)) return false;
+    }
+
+    // 8) 부서 자동완성 선택 시 정확 매칭
     if (selectedDeptFilter) {
       if (!item.department || !item.department.includes(selectedDeptFilter)) return false;
     } else if (currentSearchKeyword) {
-      // 1-4. 부서명 + 핵심 키워드(제목, 요약 불릿, 관련기사 제목) 통합 검색
+      // 9) 메인 검색어 (타임라인 상단 검색창 or 헤더 검색창)
       const matchDept = item.department && item.department.toLowerCase().includes(currentSearchKeyword);
       const matchTitle = item.title && item.title.toLowerCase().includes(currentSearchKeyword);
       const matchBullets = (item.bullets || []).some(b => b.toLowerCase().includes(currentSearchKeyword));
       const matchRelated = (item.related_articles || []).some(r => r.title.toLowerCase().includes(currentSearchKeyword));
       if (!(matchDept || matchTitle || matchBullets || matchRelated)) return false;
     }
+
     return true;
   }
 
-  // 2-1. 상단 탭 버튼 내 건수 카운트 갱신 (현재 검색 조건 반영)
+  // 상단 탭 버튼 내 건수 카운트 갱신 (전체기사, 7대 테마 7종, 비판지적)
+  const themeCounts = {
+    INDUSTRY: 0,
+    TRANSIT: 0,
+    CULTURE: 0,
+    WELFARE: 0,
+    SAFETY: 0,
+    AUTONOMY: 0,
+    CITIZEN: 0,
+    RISK: 0
+  };
   let countAll = 0;
-  let countPolicy = 0;
-  let countCulture = 0;
-  let countRisk = 0;
 
   globalArticles.forEach(item => {
-    if (matchesSearch(item)) {
+    if (matchesSearchCriteria(item, false)) {
       countAll++;
-      if (item.category === 'POLICY') countPolicy++;
-      if (item.category === 'CULTURE') countCulture++;
-      if (item.category === 'RISK') countRisk++;
+      if (item.category === 'RISK') themeCounts.RISK++;
+      if (item.theme_id && themeCounts[item.theme_id] !== undefined) {
+        themeCounts[item.theme_id]++;
+      }
     }
   });
 
-  document.getElementById('tabCountAll').textContent = countAll;
-  document.getElementById('tabCountPolicy').textContent = countPolicy;
-  document.getElementById('tabCountCulture').textContent = countCulture;
-  document.getElementById('tabCountRisk').textContent = countRisk;
+  const setSafeText = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+  };
 
-  // 현재 선택된 카테고리 탭으로 최종 필터링
-  const filtered = globalArticles.filter(item => {
-    const matchCat = (currentCategory === 'ALL') || (item.category === currentCategory);
-    return matchCat && matchesSearch(item);
-  });
+  setSafeText('tabCountAll', countAll);
+  setSafeText('tabCountIndustry', themeCounts.INDUSTRY);
+  setSafeText('tabCountTransit', themeCounts.TRANSIT);
+  setSafeText('tabCountCulture', themeCounts.CULTURE);
+  setSafeText('tabCountWelfare', themeCounts.WELFARE);
+  setSafeText('tabCountSafety', themeCounts.SAFETY);
+  setSafeText('tabCountAutonomy', themeCounts.AUTONOMY);
+  setSafeText('tabCountCitizen', themeCounts.CITIZEN);
+  setSafeText('tabCountRisk', themeCounts.RISK);
+
+  // 현재 탭 및 검색 조건으로 최종 필터링된 기사 목록
+  const filtered = globalArticles.filter(item => matchesSearchCriteria(item, true));
 
   // 주요 뉴스와 실시간 뉴스 분류 (is_major 또는 다수 언론사 묶음 보도)
   const majorArticles = filtered.filter(item => item.is_major || (item.related_articles && item.related_articles.length > 0));
@@ -2894,7 +3142,7 @@ function renderTimeline() {
   } else {
     document.getElementById('emptyMajorNotice').style.display = 'block';
   }
-  document.getElementById('majorCountBadge').textContent = `${majorArticles.length}건`;
+  setSafeText('majorCountBadge', `${majorArticles.length}건`);
 
   // 2) 실시간 뉴스 렌더링 (어제 보도 구분선 포함)
   let hasInsertedYesterdayDivider = false;
@@ -2913,17 +3161,20 @@ function renderTimeline() {
   } else {
     document.getElementById('emptyLiveNotice').style.display = 'block';
   }
-  document.getElementById('liveCountBadge').textContent = `${liveArticles.length}건`;
+  setSafeText('liveCountBadge', `${liveArticles.length}건`);
 
-  // 3) 슬림 통계 바 수치 갱신
-  document.getElementById('statTotal').textContent = filtered.length;
-  document.getElementById('statMajor').textContent = majorArticles.length;
-  document.getElementById('statLive').textContent = liveArticles.length;
+  // 3) 슬림 통계 수치 갱신 (요소 존재 시 안전 갱신)
+  setSafeText('statTotal', filtered.length);
+  setSafeText('statMajor', majorArticles.length);
+  setSafeText('statLive', liveArticles.length);
 
   // 결과 없을 시 안내 메시지
-  document.getElementById('emptyNotice').style.display = (filtered.length === 0) ? 'block' : 'none';
+  const emptyNoticeEl = document.getElementById('emptyNotice');
+  if (emptyNoticeEl) {
+    emptyNoticeEl.style.display = (filtered.length === 0) ? 'block' : 'none';
+  }
 
-  // 1-3. 체크박스 UI 상태 동기화
+  // 체크박스 UI 상태 동기화
   updateSelectionUI();
 }
 
@@ -2997,7 +3248,7 @@ function selectUnreportedArticles() {
   }
 }
 
-// 3. 뉴스 카드 DOM 생성
+// 3. 뉴스 카드 DOM 생성 (실무 대응방향 박스 전면 삭제 완료)
 function createNewsCard(item, isMajor) {
   const isRisk = (item.category === 'RISK');
   const box = document.createElement('div');
@@ -3072,20 +3323,6 @@ function createNewsCard(item, isMajor) {
     `;
   }).join('');
 
-  // [신규 기능 2] 지적성(RISK) 기사 공무원 실무 대응방향 박스
-  let riskResponseHtml = '';
-  if (isRisk && item.response_direction && item.response_direction.trim()) {
-    riskResponseHtml = `
-      <div class="risk-response-box critical">
-        <div class="risk-response-badge-row">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-          <span>실무 대응방향 (1줄 요약)</span>
-        </div>
-        <div class="risk-response-content">${item.response_direction}</div>
-      </div>
-    `;
-  }
-
   // 소관/참고 부서 판별 (본문 직접 언급 시 소관, 아니면 참고)
   const deptLabel = item.dept_label || "소관";
   const isPrimaryDept = (deptLabel === "소관");
@@ -3132,8 +3369,6 @@ function createNewsCard(item, isMajor) {
         </div>
 
         ${subHeadHtml}
-
-        ${riskResponseHtml}
 
         <div class="summary-bullets">
           ${bullets}
@@ -3409,6 +3644,12 @@ function onSearchInput() {
 
   clearBtn.style.display = val.length > 0 ? 'block' : 'none';
 
+  // 타임라인 메인 검색창과 양방향 동기화
+  const timelineInput = document.getElementById('timelineSearchInput');
+  if (timelineInput && timelineInput.value !== input.value) {
+    timelineInput.value = input.value;
+  }
+
   if (!val) {
     currentSearchKeyword = '';
     selectedDeptFilter = '';
@@ -3560,7 +3801,6 @@ function extractClientMacroPulse(articles) {
     link: a.link,
     time_label: a.time_label || '',
     department: a.department || '공보실',
-    response_direction: a.response_direction || '관련 부서 사실관계 점검 및 신속한 언론 대응 필요',
     bullets: a.bullets || []
   }));
 

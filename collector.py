@@ -328,53 +328,39 @@ def is_candidate_hwaseong_news(title, content):
 
 
 def analyze_with_gemini(client, title, content, rule_dept):
-    """Gemini 3.8 Flash를 활용한 시정 관련성 판별, 3줄 요약 및 리스크 대응방향 도출"""
-    prompt = f"""당신은 화성시청 언론홍보 및 리스크 분석 수석 실무관입니다.
-아래 기사를 정밀 분석하여 화성시 행정/시정과 관련된 기사인지 엄격히 검증하고 JSON으로 출력하십시오.
+    """Gemini 3.8 Flash를 활용한 시정 관련성 판별 및 3줄 핵심 요약 도출 (토큰 최적화)"""
+    # 입력 토큰 대폭 절감을 위해 기사 본문 최대 1,200자로 제한
+    short_content = content[:1200] if len(content) > 1200 else content
+
+    prompt = f"""당신은 화성시청 언론홍보 수석 실무관입니다.
+아래 기사가 화성시 행정/시정과 실질적으로 관련된 기사인지 엄격히 판별하고 JSON으로 요약하십시오.
 
 [기사 제목]: {title}
 [기사 내용]:
-{content}
-[1차 추천 소관부서]: {rule_dept}
+{short_content}
+[추천 소관부서]: {rule_dept}
 
-[작업 지침 - 매우 엄격한 화성시정 핵심 관련성 검증]
-1. is_hwaseong_news (반드시 true 또는 false):
-   - [반드시 true로 판별할 조건]:
-     * 기사의 '주된 보도 대상(핵심 주제)'이 화성시(시청, 시장, 시의회, 산하기관, 관내 사업소 등)의 고유 정책, 자체 추진 사업, 직접 주최 행사, 관내 주요 현안 및 중대 사건사고인 경우.
-     * 기사 분량의 대부분이 화성시의 행정과 시민에 초점을 맞추고 있는 경우.
-
-   - [반드시 false로 엄격 제외할 조건 - 예외 없음]:
-     * 본문에 '화성'이나 '화성시'가 1~2회 단순 참석, 내빈 나열, 타 지자체 경유 등으로 스쳐 지나간 기사 (예: 타 지자체 의회나 협의회 행사에 화성시 관계자가 단순 참석한 기사).
-     * 거시경제, 전국 증시, 환율, 금리, 전국 부동산 아파트 분양/시세 통계 기사에서 '화성 사업장', '화성시 반송동' 등이 단순 수치나 지명 예시로 1줄 언급된 경우.
-     * 전국 지자체 목록 중 하나로 화성시가 곁가지로 나열된 기사.
-     * 기사의 주어와 주된 내용이 화성시정이 아닌 기사.
-
-2. category (is_hwaseong_news가 true일 때만 유효):
+[작업 지침]:
+1. is_hwaseong_news (true 또는 false):
+   - 화성시(시청, 시장, 시의회, 산하기관, 관내 현안)의 고유 정책, 자체 추진 사업, 직접 주최 행사, 주요 사건사고면 true.
+   - 단순 1~2회 지명 언급, 타 지자체 경유, 전국 증시/환율/아파트 분양 통계 기사는 반드시 false.
+2. category:
    - RISK: 시정 비판, 비리/의혹, 수사/감사 적발, 집단 민원 갈등, 대형 안전/환경 사고.
-   - CULTURE: 행사, 축제, 대회, 전시, 포럼, 포상 수상.
+   - CULTURE: 행사, 축제, 체육, 전시, 포럼, 포상 수상.
    - POLICY: 일반 시정 홍보, 지원 사업, 협약(MOU), 도시 인프라 개발.
-
-3. department: 기사 내용에 가장 부합하는 화성시 소관 실·과명 (기사와 무관하면 "해당없음").
-
-4. bullets: 화성시 행정과 관련된 구체적 사실 중심의 3줄 핵심 요약 (각 줄은 '- '로 시작).
-
-5. response_direction:
-   - 기사가 'RISK'(비판/지적/의혹/갈등/사고)인 경우:
-     지자체 담당 공무원이 취해야 할 실무 대응방향을 신속한 현장 조치 및 공보 대응 관점에서 명확하고 객관적인 1줄 요약으로 제시하십시오.
-     (예: "관내 현장 사실관계 즉시 확인 및 왜곡 보도 여부 검토 후 공보실과 정정·해명자료 배포 검토", "소관 부서 긴급 대책회의 소집 및 재발 방지 종합 대책 수립")
-   - RISK가 아닌 일반 정책(POLICY)이나 문화행사(CULTURE)인 경우 반드시 빈 문자열 ""을 반환하십시오.
+3. department: 화성시 소관 실·과명.
+4. bullets: 화성시 행정 관련 구체적 사실 중심의 3줄 핵심 요약 (각 줄은 '- '로 시작).
 
 [출력 JSON 형식]:
 {{
-  "is_hwaseong_news": true | false,
-  "category": "POLICY" | "CULTURE" | "RISK",
+  "is_hwaseong_news": true,
+  "category": "POLICY",
   "department": "소관부서명",
   "bullets": [
     "- 첫 번째 핵심 요약",
     "- 두 번째 핵심 요약",
     "- 세 번째 핵심 요약"
-  ],
-  "response_direction": "실무 대응방향 1줄 요약 (RISK일 때만 작성, 그 외에는 빈 문자열)"
+  ]
 }}
 """
     try:
@@ -386,13 +372,11 @@ def analyze_with_gemini(client, title, content, rule_dept):
         if response and response.text:
             data = json.loads(response.text.strip())
             is_valid = data.get("is_hwaseong_news", False)
-            resp_dir = data.get("response_direction", "").strip() if data.get("category") == "RISK" else ""
             return (
                 is_valid,
                 data.get("category", "POLICY"),
                 data.get("department", rule_dept),
-                data.get("bullets", [])[:3],
-                resp_dir
+                data.get("bullets", [])[:3]
             )
     except Exception as e:
         print(f"Gemini 호출 에러 ({title[:20]}): {e}")
@@ -401,9 +385,9 @@ def analyze_with_gemini(client, title, content, rule_dept):
     is_fallback_valid = ("화성" in title)
     return is_fallback_valid, "POLICY", rule_dept, [
         f"- {title}",
-        f"- {content[:120]}...",
+        f"- {content[:100]}...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
-    ], ""
+    ]
 
 
 STOPWORDS = {
@@ -659,7 +643,6 @@ def extract_macro_pulse(client, articles):
                 "link": a.get("link", ""),
                 "time_label": a.get("time_label", ""),
                 "department": a.get("department", "공보실"),
-                "response_direction": a.get("response_direction", "현안 사실관계 확인 및 신속한 언론 대응 필요"),
                 "bullets": a.get("bullets", [])
             })
 
@@ -760,10 +743,6 @@ def send_telegram_alert(article):
     bullets = article.get("bullets", [])
     clean_bullets = "\n".join([f"- {html.escape(b.lstrip('- ').lstrip('• '))}" for b in bullets])
 
-    # 지적성(RISK) 기사 대응방향 요약 안내 (이모티콘 없이 정통 행정 서식)
-    resp_dir = article.get("response_direction")
-    resp_text = f"\n\n[실무 대응방향] {html.escape(resp_dir)}" if (resp_dir and article.get("category") == "RISK") else ""
-
     # 다수 언론사 보도 묶음 안내
     related = article.get("related_articles", [])
     cluster_text = f"\n다수 언론사 보도: 총 {len(related) + 1}개사 집중 보도" if related else ""
@@ -771,7 +750,7 @@ def send_telegram_alert(article):
     caption = (
         f"<b>[{sec_title} | {cat_name}]</b>\n"
         f"<a href=\"{article['link']}\"><b>{html.escape(article['title'])}</b></a>\n\n"
-        f"{clean_bullets}{resp_text}\n\n"
+        f"{clean_bullets}\n\n"
         f"소관: {dept_label} {dept} | {media} ({time_lbl}){cluster_text}"
     )
 
@@ -827,6 +806,10 @@ def main():
     now_kst = datetime.now(kst)
     today_date = now_kst.date()
     yesterday_date = today_date - timedelta(days=1)
+
+    # 3개월(90일) 보관 기간 컷오프 기준일 계산
+    cutoff_dt = now_kst - timedelta(days=90)
+    cutoff_iso = cutoff_dt.isoformat()
 
     # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지, Gemini API 캐시 재활용 및 과거 기사 영구 누적)
     existing_sent_links = set()
@@ -918,7 +901,6 @@ def main():
                 "related_articles": cached.get("related_articles", []),
                 "is_major": cached.get("is_major", False),
                 "image_url": cached.get("image_url", ""),
-                "response_direction": cached.get("response_direction", ""),
                 "telegram_sent": True
             })
             print(f"   -> [API 캐시 재활용 (비용 0원)] {title[:20]}...")
@@ -941,9 +923,9 @@ def main():
         # 3. 1차 부서 매칭
         rule_dept = rule_match_department(title, article_content)
 
-        # 4. Gemini 실무 요약 및 판별
+        # 4. Gemini 실무 요약 및 판별 (토큰 최적화)
         print(f"분석 중: {title[:25]}...")
-        is_valid, cat, dept, bullets, resp_dir = analyze_with_gemini(client, title, article_content, rule_dept)
+        is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
         new_gemini_analyzed += 1
 
         # 화성시정과 무관한 전국 경제/단순 지명 언급 기사는 자동 제외
@@ -978,12 +960,10 @@ def main():
             "bullets": bullets,
             "related_articles": [],
             "is_major": is_major,
-            "image_url": article_img,
-            "response_direction": resp_dir
+            "image_url": article_img
         })
 
-    # [과거 기사 영구 보존 및 누적 머지]
-    # 기존 기사 중 이번 수집에서 다루지 않은 과거 기사들을 모두 유지하여 영구 누적 저장
+    # [과거 기사 보존 및 3개월(90일) 보관 기간 제한 적용]
     seen_processed_links = {a.get("link") for a in processed_articles if a.get("link")}
     seen_processed_titles = {re.sub(r"[^\w가-힣]", "", a.get("title", "")) for a in processed_articles}
 
@@ -995,11 +975,16 @@ def main():
             continue
         if old_clean_t and old_clean_t in seen_processed_titles:
             continue
+        
+        # 3개월(90일) 지난 기사는 파일 비대화 및 성능 저하 방지를 위해 자동 정리
+        if old_art.get("pub_timestamp", "") < cutoff_iso:
+            continue
+
         cumulative_articles.append(old_art)
 
     # 전체 누적 기사를 최신 발행시각(pub_timestamp) 기준 내림차순 정렬
     cumulative_articles.sort(key=lambda x: x.get("pub_timestamp", ""), reverse=True)
-    print(f">> 전체 누적 보존 기사 건수: {len(cumulative_articles)}건 (이번 신규/수집: {len(processed_articles)}건)")
+    print(f">> 전체 3개월 누적 보존 기사 건수: {len(cumulative_articles)}건 (이번 신규/수집: {len(processed_articles)}건)")
 
     # 신규 기사 텔레그램 알림 자동 발송 (새로 수집된 기사만 선별 전송)
     telegram_enabled = bool(os.environ.get("TELEGRAM_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
