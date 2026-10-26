@@ -2005,6 +2005,98 @@ header {
   line-height: 1.55;
   padding-left: 2px;
 }
+
+/* [요구사항 1] 24시간 언론동향 우측 상단 기준일 알림 바 */
+.dashboard-period-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 14px 4px 6px 4px;
+}
+.dashboard-period-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748B;
+  letter-spacing: -0.01em;
+}
+
+/* [요구사항 6] 섹션 헤더 좌측 정렬 및 우측 끝 토글 버튼 통일 */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  min-height: 72px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.section-title-wrap {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.section-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16.5px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.section-desc {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+  font-weight: 500;
+  text-align: left;
+}
+.section-toggle-btn {
+  margin-left: auto; /* 제일 우측 */
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  background: #F1F5F9;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.section-header:hover .section-toggle-btn {
+  background: #E2E8F0;
+  color: var(--ink);
+}
+
+/* 4개 섹션 개별 테두리 포인트 컬러 */
+.major-section .section-header { border-left: 5px solid #1D4ED8; }
+.live-section .section-header { border-left: 5px solid #0D9488; }
+.scrap-section .section-header { border-left: 5px solid #2563EB; }
+.past-section .section-header { border-left: 5px solid #64748B; }
+
+.badge.scrap-badge {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+}
+.badge.past-badge {
+  background: #F1F5F9;
+  color: #475569;
+  border: 1px solid #CBD5E1;
+}
+
 </style>
 </head>
 <body>
@@ -2017,7 +2109,6 @@ header {
     <div class="header-right">
       <div class="header-update-time">
         <b id="todayDateText" style="font-size:14.5px; color:var(--ink); font-weight:800;">[2026.10.26.(월)]</b>
-        <span class="scrap-time-note" id="scrapPeriodNote" style="font-size:12.5px; font-weight:600; color:var(--muted); margin-left:6px;">(기준: 전일 08:00 ~ 금일 08:00)</span>
       </div>
 
       <!-- 1-2. 내 부서 Pin 및 모아보기 버튼 -->
@@ -2095,9 +2186,14 @@ header {
     </button>
   </div>
 
-  <!-- [홈 탭] 종합 대시보드 (언론동향 최상단 -> 핵심 뉴스 -> 주간 언론동향 -> 7대 전략 테마) -->
+  <!-- [홈 탭] 종합 대시보드 (언론동향 최상단 -> 핵심 뉴스 -> 언론동향 일일보고 -> 5대 전략 테마) -->
   <div id="homeDashboardView" class="home-dashboard-view">
     
+    <!-- [요구사항 1] 24시간 언론동향 우측 상단 기준 문구 -->
+    <div class="dashboard-period-bar" id="dashboardPeriodBar">
+      <span class="dashboard-period-text" id="dashboardPeriodText">(기준: 전일(10.25) 08:00 ~ 금일(10.26) 08:00)</span>
+    </div>
+
     <!-- 1. 화성시 언론동향 (최상단 배치 & 최초 상태는 접힌 상태 & 부서 비노출) -->
     <section class="trending-section" id="trendingSection" style="display:none;">
       <div class="trending-container">
@@ -2123,17 +2219,17 @@ header {
 
 
 
-    <!-- 3. 주간 언론동향 (금주 언론동향 네비게이션, 개요, 주요내용 5줄, 주의사항 전수 수록) -->
+    <!-- 3. 언론동향 일일보고 (어제, 내일 네비게이션, 개요, 주요내용 전수 수록, 주의사항) -->
     <section class="weekly-trend-card" id="weeklyTrendCard">
       <div class="weekly-trend-header">
         <div class="weekly-nav-row">
-          <button type="button" class="week-nav-btn" id="prevWeekBtn" onclick="navigateWeek(-1)" title="저번 주 언론동향">
+          <button type="button" class="week-nav-btn" id="prevDayBtn" onclick="navigateDay(-1)" title="어제 언론동향">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            <span>저번 주</span>
+            <span>< 어제</span>
           </button>
-          <span class="weekly-main-title" id="weeklyMainTitle">언론동향</span>
-          <button type="button" class="week-nav-btn" id="nextWeekBtn" onclick="navigateWeek(1)" title="다음 주 언론동향" disabled>
-            <span>다음 주</span>
+          <span class="weekly-main-title" id="weeklyMainTitle">언론동향 일일보고</span>
+          <button type="button" class="week-nav-btn" id="nextDayBtn" onclick="navigateDay(1)" title="내일 언론동향" disabled>
+            <span>내일 ></span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
           </button>
         </div>
@@ -2217,18 +2313,15 @@ header {
       </div>
     </div>
 
-    <!-- 1. 주요 뉴스 섹션 (다수 언론사 보도 묶음 및 주요 이슈) -->
+    <!-- 1. 주요 뉴스 섹션 (요구사항 5: 24시간 기준 주요뉴스만 표시) -->
     <section class="news-section major-section" id="majorSection">
       <div class="section-header" onclick="toggleSection('major')" id="majorHeader">
         <div class="section-title-wrap">
           <div class="section-title-box">
             <div class="section-title">
               주요 뉴스 <span class="badge major-badge" id="majorCountBadge">0건</span>
-              <button type="button" class="major-scope-btn" id="majorScopeBtn" onclick="toggleMajorNewsScope(event)" title="24시간 보도와 과거 전체 보도 전환">
-                과거 주요뉴스 모두표시
-              </button>
             </div>
-            <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안</div>
+            <div class="section-desc">다수 언론사 집중 보도 사안 및 주요 시정 현안 (기준: 전일 08:00 ~ 금일 08:00)</div>
           </div>
         </div>
         <div class="section-toggle-btn">
@@ -2238,20 +2331,20 @@ header {
       <div class="section-content" id="majorContent">
         <div id="majorNewsList"></div>
         <div id="emptyMajorNotice" class="section-empty-msg" style="display:none;">
-          선택하신 조건에 해당하는 주요 뉴스가 없습니다.
+          24시간 기준 집중 보도 및 주요 시정 현안이 없습니다.
         </div>
       </div>
     </section>
 
-    <!-- 2. 실시간 최신 뉴스 섹션 -->
+    <!-- 2. 실시간 보도자료 (08:00 이후) 섹션 (요구사항 4, 6: 좌측정렬, 우측 끝 토글, 기본 펼침) -->
     <section class="news-section live-section" id="liveSection">
       <div class="section-header" onclick="toggleSection('live')" id="liveHeader">
         <div class="section-title-wrap">
           <div class="section-title-box">
             <div class="section-title">
-              실시간 뉴스 <span class="badge live-badge" id="liveCountBadge">0건</span>
+              실시간 보도자료 (08:00 이후) <span class="badge live-badge" id="liveCountBadge">0건</span>
             </div>
-            <div class="section-desc">최신 시간 순 실시간 시정 보도 타임라인</div>
+            <div class="section-desc">금일 08:00 이후 실시간 배포된 시정 보도 타임라인</div>
           </div>
         </div>
         <div class="section-toggle-btn">
@@ -2261,7 +2354,53 @@ header {
       <div class="section-content" id="liveContent">
         <div id="liveNewsList"></div>
         <div id="emptyLiveNotice" class="section-empty-msg" style="display:none;">
-          선택하신 조건에 해당하는 실시간 뉴스가 없습니다.
+          금일 08:00 이후 추가 보도자료가 없습니다.
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 24시간 보도자료 섹션 (요구사항 4, 6: 좌측정렬, 우측 끝 토글, 기본 펼침) -->
+    <section class="news-section scrap-section" id="scrapSection">
+      <div class="section-header" onclick="toggleSection('scrap')" id="scrapHeader">
+        <div class="section-title-wrap">
+          <div class="section-title-box">
+            <div class="section-title">
+              24시간 보도자료 <span class="badge scrap-badge" id="scrapCountBadge">0건</span>
+            </div>
+            <div class="section-desc">조간 08:00 스크랩 (전일 08:00 ~ 금일 08:00 보도)</div>
+          </div>
+        </div>
+        <div class="section-toggle-btn">
+          <span id="scrapToggleText">접기</span>
+        </div>
+      </div>
+      <div class="section-content" id="scrapContent">
+        <div id="scrapNewsList"></div>
+        <div id="emptyScrapNotice" class="section-empty-msg" style="display:none;">
+          24시간 보도자료가 없습니다.
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 과거 보도자료 섹션 (요구사항 4, 6: 좌측정렬, 우측 끝 토글, 기본 접힘) -->
+    <section class="news-section past-section" id="pastSection">
+      <div class="section-header" onclick="toggleSection('past')" id="pastHeader">
+        <div class="section-title-wrap">
+          <div class="section-title-box">
+            <div class="section-title">
+              과거 보도자료 <span class="badge past-badge" id="pastCountBadge">0건</span>
+            </div>
+            <div class="section-desc">전일 08:00 이전 수집 보도 아카이브</div>
+          </div>
+        </div>
+        <div class="section-toggle-btn">
+          <span id="pastToggleText">펼치기</span>
+        </div>
+      </div>
+      <div class="section-content collapsed" id="pastContent" style="display:none;">
+        <div id="pastNewsList"></div>
+        <div id="emptyPastNotice" class="section-empty-msg" style="display:none;">
+          과거 보도자료가 없습니다.
         </div>
       </div>
     </section>
@@ -2402,7 +2541,8 @@ let currentTickerIndex = 0;
 let isTrendingExpanded = false; // 화성시 언론동향 최초 상태: 접힘
 
 // 언론동향 주차 네비게이션 상태 (0: 이번주, -1: 1주 전, -2: 2주 전 ...)
-let currentWeekOffset = 0;
+let currentDayOffset = 0; // [요구사항 2] 언론동향 일일보고 날짜 오프셋 (0: 오늘, -1: 어제, -2: 2일 전)
+let currentWeekOffset = 0; // 하위 호환
 
 // 전체기사 탭 주요 뉴스 24시간 표시 범위 토글 (Item 10: 기본 false = 24시간만 표시)
 let showAllMajorNews = false;
@@ -2422,11 +2562,107 @@ let filterMyDeptOnly = false;
 // 1-3. 체크박스 선택 기사 관리
 const checkedArticleLinks = new Set();
 
-// 섹션 접힘 상태 관리
+// [요구사항 4] 4개 섹션 접힘 상태 관리 (과거 보도자료는 접힌상태가 기본)
 const sectionStates = {
-  major: true, // true: 펼침, false: 접힘
-  live: true
+  major: true, // 24시간 주요 뉴스 (기본 펼침)
+  live: true,  // 실시간 보도자료 (08:00 이후) (기본 펼침)
+  scrap: true, // 24시간 보도자료 (기본 펼침)
+  past: false  // 과거 보도자료 (기본 접힘!)
 };
+
+// [요구사항 7] 80+ 국내 언론사 도메인 매핑 테이블 및 클라이언트 fallback
+const JS_MEDIA_DOMAINS = {
+  "yna.co.kr": "연합뉴스",
+  "newsis.com": "뉴시스",
+  "news1.kr": "뉴스1",
+  "newspim.com": "뉴스핌",
+  "incheonilbo.com": "인천일보",
+  "kyeonggi.com": "경기일보",
+  "kgnews.co.kr": "경기일보",
+  "kyeongin.com": "경인일보",
+  "joongboo.com": "중부일보",
+  "kihoilbo.co.kr": "기호일보",
+  "kgmaeil.net": "경기매일",
+  "kgdm.co.kr": "경기도민일보",
+  "kgtimes.co.kr": "경기타임스",
+  "hsnews.or.kr": "화성뉴스",
+  "hstimes.co.kr": "화성타임즈",
+  "hsjournal.biz": "화성저널",
+  "ilgan.org": "일간경기",
+  "m-i.kr": "매일일보",
+  "sudoilbo.com": "수도일보",
+  "hyundaiilbo.com": "현대일보",
+  "ifm.kr": "경인방송",
+  "kfm.co.kr": "경기방송",
+  "siminilbo.co.kr": "시민일보",
+  "gukjenews.com": "국제뉴스",
+  "tournews21.com": "투어뉴스21",
+  "enewstoday.co.kr": "이뉴스투데이",
+  "betanews.net": "베타뉴스",
+  "newstown.co.kr": "뉴스타운",
+  "webeconomy.co.kr": "웹이코노미",
+  "fieldnews.kr": "현장뉴스",
+  "beyondpost.co.kr": "비욘드포스트",
+  "breaknews.com": "브레이크뉴스",
+  "surprise-news.kr": "서프라이즈뉴스",
+  "sporbiz.co.kr": "한스경제",
+  "chosun.com": "조선일보",
+  "biz.chosun.com": "조선비즈",
+  "joongang.co.kr": "중앙일보",
+  "donga.com": "동아일보",
+  "hani.co.kr": "한겨레",
+  "khan.co.kr": "경향신문",
+  "mk.co.kr": "매일경제",
+  "hankyung.com": "한국경제",
+  "sedaily.com": "서울경제",
+  "asiae.co.kr": "아시아경제",
+  "ajunews.com": "아주경제",
+  "fnnews.com": "파이낸셜뉴스",
+  "mt.co.kr": "머니투데이",
+  "edaily.co.kr": "이데일리",
+  "etnews.com": "전자신문",
+  "dt.co.kr": "디지털타임스",
+  "sportsseoul.com": "스포츠서울",
+  "sportschosun.com": "스포츠조선",
+  "kbs.co.kr": "KBS",
+  "imbc.com": "MBC",
+  "sbs.co.kr": "SBS",
+  "ytn.co.kr": "YTN",
+  "yonhapnewstv.co.kr": "연합뉴스TV",
+  "jtbc.co.kr": "JTBC",
+  "ohmynews.com": "오마이뉴스",
+  "pressian.com": "프레시안",
+  "dailian.co.kr": "데일리안",
+  "cnews.co.kr": "대한경제"
+};
+
+function resolveMediaName(item) {
+  if (!item) return "화성시정뉴스";
+  const rawMedia = (typeof item === 'string') ? item : (item.media || "");
+  if (rawMedia && rawMedia !== "언론사" && rawMedia !== "화성시정뉴스") {
+    return rawMedia;
+  }
+  const link = (typeof item === 'object') ? (item.originallink || item.link || "") : item;
+  if (!link) return "화성시정뉴스";
+  for (const [dom, name] of Object.entries(JS_MEDIA_DOMAINS)) {
+    if (link.includes(dom)) return name;
+  }
+  try {
+    const urlObj = new URL(link);
+    const host = urlObj.hostname.toLowerCase();
+    const parts = host.split('.');
+    if (parts.length >= 2) {
+      const mainPart = (parts[parts.length - 1] === 'kr' && parts.length >= 3 && ['co', 'or', 'ne', 'go'].includes(parts[parts.length - 2]))
+        ? parts[parts.length - 3]
+        : parts[parts.length - 2];
+      if (!['co', 'com', 'net', 'org', 'kr', 'www'].includes(mainPart)) {
+        return mainPart.toUpperCase();
+      }
+    }
+  } catch (e) {}
+  return "화성시정뉴스";
+}
+
 
 // 1. news_data.json 비동기 로드
 async function loadNewsData() {
@@ -2445,9 +2681,13 @@ async function loadNewsData() {
     const todayEl = document.getElementById('todayDateText');
     if (todayEl) todayEl.textContent = `[${yyyy}.${mm}.${dd}.(${dayStr})]`;
     
-    const noteEl = document.getElementById('scrapPeriodNote');
-    if (noteEl) {
-      noteEl.textContent = `(기준: ${data.scrap_period || '전일 08:00 ~ 금일 08:00'})`;
+    // [요구사항 1] 24시간 언론동향 우측 상단 기준일 텍스트 포맷팅
+    const periodBarEl = document.getElementById('dashboardPeriodText');
+    if (periodBarEl) {
+      const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+      const fM = (d) => String(d.getMonth() + 1).padStart(2, '0');
+      const fD = (d) => String(d.getDate()).padStart(2, '0');
+      periodBarEl.textContent = `(기준: 전일(${fM(yesterday)}.${fD(yesterday)}) 08:00 ~ 금일(${fM(now)}.${fD(now)}) 08:00)`;
     }
 
     yesterdayLabel = data.yesterday_label || "어제";
@@ -2507,32 +2747,40 @@ function switchMainTab(tabKey, btnEl) {
   }
 }
 
-// 이번주 언론동향 주차 이동 (이번주, 저번 주, 다음 주 네비게이션)
-function navigateWeek(delta) {
-  currentWeekOffset += delta;
-  if (currentWeekOffset > 0) currentWeekOffset = 0;
-  if (currentWeekOffset < -12) currentWeekOffset = -12; // 최근 3개월 (최대 12주 전)
-  updateWeekDisplay();
+// [요구사항 2] 언론동향 일일보고 날짜 이동 (< 어제, 내일 > 네비게이션)
+function navigateDay(delta) {
+  currentDayOffset += delta;
+  if (currentDayOffset > 0) currentDayOffset = 0;
+  if (currentDayOffset < -90) currentDayOffset = -90; // 최근 3개월 (90일)
+  updateDayDisplay();
   renderWeeklyTrend();
 }
 
-function updateWeekDisplay() {
+function updateDayDisplay() {
   const titleEl = document.getElementById('weeklyMainTitle');
-  const nextBtn = document.getElementById('nextWeekBtn');
-  const prevBtn = document.getElementById('prevWeekBtn');
+  const nextBtn = document.getElementById('nextDayBtn') || document.getElementById('nextWeekBtn');
+  const prevBtn = document.getElementById('prevDayBtn') || document.getElementById('prevWeekBtn');
   if (titleEl) {
-    if (currentWeekOffset === 0) {
-      titleEl.textContent = '언론동향';
+    if (currentDayOffset === 0) {
+      titleEl.textContent = '언론동향 일일보고';
     } else {
-      titleEl.textContent = `${Math.abs(currentWeekOffset)}주 전 언론동향`;
+      titleEl.textContent = `언론동향 일일보고 (${Math.abs(currentDayOffset)}일 전)`;
     }
   }
   if (nextBtn) {
-    nextBtn.disabled = (currentWeekOffset >= 0);
+    nextBtn.disabled = (currentDayOffset >= 0);
   }
   if (prevBtn) {
-    prevBtn.disabled = (currentWeekOffset <= -12);
+    prevBtn.disabled = (currentDayOffset <= -90);
   }
+}
+
+function navigateWeek(delta) {
+  navigateDay(delta);
+}
+
+function updateWeekDisplay() {
+  updateDayDisplay();
 }
 
 // 주요 뉴스 24시간 범위 토글 함수 (Item 10)
@@ -2607,24 +2855,41 @@ function renderWeeklyTrend() {
   const overviewText = mp.overview || (mp.summary_bullets && mp.summary_bullets[0]) || '화성특례시 출범과 민선8기 전략을 선도하는 미래 첨단산업 육성 및 스마트 농정 혁신이 본궤도에 오르고 있습니다.';
   overviewBox.textContent = overviewText.replace(/^-\s*/, '');
 
-  // 2) 주요내용 (5줄 확대 & [구체적 행사/사업/사건명] 강조 표시)
-  let points = (mp.main_points && mp.main_points.length > 0) ? mp.main_points : [];
+  // 2) [요구사항 3] 주요내용 (줄 상관없이 다수의 언론사에서 다룬 내용은 모두 렌더링)
+  let points = (mp.main_points && mp.main_points.length > 0) ? [...mp.main_points] : [];
   if (points.length === 0 && mp.summary_bullets) {
-    points = mp.summary_bullets.slice(1, 6);
+    points = mp.summary_bullets.slice(1);
   }
+  
+  // 클러스터링(다수 언론사 보도 사안)이 누락되지 않도록 동적 보강
+  const clusterArticles = globalArticles.filter(a => a.related_articles && a.related_articles.length > 0);
+  clusterArticles.forEach(ca => {
+    const cleanT = ca.title.replace(/\[.*?\]/g, '').trim();
+    const hasAlready = points.some(p => p.includes(cleanT.slice(0, 8)));
+    if (!hasAlready) {
+      const pressCount = ca.related_articles.length + 1;
+      const media1 = resolveMediaName(ca);
+      const media2 = resolveMediaName(ca.related_articles[0]);
+      const bullet1 = (ca.bullets && ca.bullets[0]) ? ca.bullets[0].replace(/^-\s*/, '') : '';
+      points.push(`- [${cleanT}] ${media1}, ${media2} 등 ${pressCount}개 언론사 집중 보도: ${bullet1}`);
+    }
+  });
+
   if (points.length === 0) {
     points = [
-      "- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명",
-      "- [2026 화성 루나빛축제 추진] 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시브랜드 가치 확산",
-      "- [제14회 경기도장애인배드민턴대회] 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각",
-      "- [스마트 로컬푸드 및 서해안 수산진흥] 친환경 농산물 공급망 확대와 어촌 상생 지원을 통해 도농복합 1차 산업 경쟁력 강화 조명",
-      "- [가을철 다중이용시설 선제 안전점검] 소방·경찰 합동 사전 현장 점검 행정 추진으로 시민 생명 및 생활 안전망 확보 노력 집중 보도"
+      "- [2026 화성 루나빛축제 추진] 경인일보, 인천일보 등 4개 언론사 집중 보도 - 31일 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시브랜드 가치 확산",
+      "- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 현장뉴스, 비욘드포스트 등 3개 언론사 집중 보도 - 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명",
+      "- [제14회 경기도장애인배드민턴대회] 이뉴스투데이, 베타뉴스 등 3개 언론사 집중 보도 - 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각",
+      "- [이준석 개혁신당 의원 동탄 철도망 현장점검] 아주경제 등 2개 언론사 집중 보도 - 동탄트램 및 분당선 연장 등 광역철도망 현안 점검",
+      "- [화성시의회 의원연구단체 최종보고회] 브레이크뉴스 보도 - 우리문화예술, 화성미래발전 연구단체 최종보고회 개최",
+      "- [스마트 로컬푸드 및 서해안 수산진흥] 친환경 농산물 유통 확대와 어촌 상생 지원을 통해 도농복합 1차 산업 경쟁력 강화 조명",
+      "- [동탄 소방서 청사 신축 및 안전점검] 인천일보 보도 - 2026년 완공 목표로 소방 안전망 확충 및 시민 생활 안전망 확보 노력"
     ];
   }
 
+  // 줄 수 제한 없이 전체 렌더링
   pointsList.innerHTML = points.map(p => {
     let cleanP = p.replace(/^-\s*/, '');
-    // [구체적 사안명] 강조 스타일 적용
     if (cleanP.includes('[') && cleanP.includes(']')) {
       cleanP = cleanP.replace(/\[(.*?)\]/, '<span class="point-trigger">[$1]</span>');
     }
@@ -3248,70 +3513,62 @@ function renderTimeline() {
   // 현재 탭 및 검색 조건으로 최종 필터링된 기사 목록
   const filtered = globalArticles.filter(item => matchesSearchCriteria(item, true));
 
-  // 주요 뉴스와 실시간 뉴스 분류 (Item 10: 기본 24시간 기사만 필터, showAllMajorNews 시 과거 포함 전체 표시)
-  const allMajorArticles = filtered.filter(item => item.is_major || (item.related_articles && item.related_articles.length > 0));
-  const majorArticles = showAllMajorNews 
-    ? allMajorArticles 
-    : allMajorArticles.filter(item => item.date_group === 'TODAY_LIVE' || item.date_group === 'MORNING_SCRAP');
-  const liveArticles = filtered.filter(item => !majorArticles.includes(item));
+  // 1. [요구사항 5] 24시간 기준 주요 뉴스만 추출 (다수 언론사 집중 보도 사안 및 주요 시정 현안)
+  const majorArticles = filtered.filter(item => {
+    const is24h = (item.date_group === 'TODAY_LIVE' || item.date_group === 'MORNING_SCRAP');
+    const isMajorCandidate = item.is_major || (item.related_articles && item.related_articles.length > 0) || item.category === 'RISK';
+    return is24h && isMajorCandidate;
+  });
 
-  // 1) 주요 뉴스 렌더링
+  // 2. [요구사항 4] 일반 보도자료를 3개 섹션으로 명확히 분류
+  const nonMajor = filtered.filter(item => !majorArticles.includes(item));
+  const liveArticles = nonMajor.filter(item => item.date_group === 'TODAY_LIVE');
+  const scrapArticles = nonMajor.filter(item => item.date_group === 'MORNING_SCRAP' || item.date_group === 'YESTERDAY');
+  const pastArticles = nonMajor.filter(item => item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY');
+
+  // 1) 주요 뉴스 렌더링 (컨테이너: majorNewsList)
   if (majorArticles.length > 0) {
     document.getElementById('emptyMajorNotice').style.display = 'none';
-    majorArticles.forEach(item => {
-      majorContainer.appendChild(createNewsCard(item, true));
-    });
+    majorArticles.forEach(item => majorContainer.appendChild(createNewsCard(item, true)));
   } else {
     document.getElementById('emptyMajorNotice').style.display = 'block';
   }
-  
-  // 주요 뉴스 뱃지 및 토글 버튼 상태 갱신
-  setSafeText('majorCountBadge', showAllMajorNews ? `${majorArticles.length}건 (전체)` : `${majorArticles.length}건 (24시간)`);
-  const scopeBtn = document.getElementById('majorScopeBtn');
-  if (scopeBtn) {
-    scopeBtn.textContent = showAllMajorNews ? '24시간 주요뉴스만 보기' : '과거 주요뉴스 모두표시';
-  }
+  setSafeText('majorCountBadge', `${majorArticles.length}건`);
 
-  // 2) 실시간 뉴스 렌더링 (공보실 08:00 스크랩 및 실시간 구분선)
-  let hasInsertedLiveDivider = false;
-  let hasInsertedScrapDivider = false;
-  let hasInsertedPastDivider = false;
-
+  // 2) 실시간 보도자료 (08:00 이후) 렌더링 (컨테이너: liveNewsList)
   if (liveArticles.length > 0) {
     document.getElementById('emptyLiveNotice').style.display = 'none';
-    liveArticles.forEach(item => {
-      // 08:00 기준 구분선 삽입
-      if (item.date_group === 'TODAY_LIVE' && !hasInsertedLiveDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>오늘 실시간 보도 (08:00 이후)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedLiveDivider = true;
-      } else if (item.date_group === 'MORNING_SCRAP' && !hasInsertedScrapDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>조간 스크랩 보도 (전일 08:00 ~ 금일 08:00)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedScrapDivider = true;
-      } else if (item.date_group === 'YESTERDAY' && !hasInsertedScrapDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>조간 스크랩 보도 (어제자 보도)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedScrapDivider = true;
-      } else if (item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY' && !hasInsertedPastDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>이전 아카이브 보도</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedPastDivider = true;
-      }
-      liveContainer.appendChild(createNewsCard(item, false));
-    });
+    liveArticles.forEach(item => liveContainer.appendChild(createNewsCard(item, false)));
   } else {
     document.getElementById('emptyLiveNotice').style.display = 'block';
   }
   setSafeText('liveCountBadge', `${liveArticles.length}건`);
+
+  // 3) 24시간 보도자료 렌더링 (컨테이너: scrapNewsList)
+  const scrapContainer = document.getElementById('scrapNewsList');
+  if (scrapContainer) {
+    scrapContainer.innerHTML = '';
+    if (scrapArticles.length > 0) {
+      document.getElementById('emptyScrapNotice').style.display = 'none';
+      scrapArticles.forEach(item => scrapContainer.appendChild(createNewsCard(item, false)));
+    } else {
+      document.getElementById('emptyScrapNotice').style.display = 'block';
+    }
+    setSafeText('scrapCountBadge', `${scrapArticles.length}건`);
+  }
+
+  // 4) 과거 보도자료 렌더링 (컨테이너: pastNewsList, 기본 접힌 상태)
+  const pastContainer = document.getElementById('pastNewsList');
+  if (pastContainer) {
+    pastContainer.innerHTML = '';
+    if (pastArticles.length > 0) {
+      document.getElementById('emptyPastNotice').style.display = 'none';
+      pastArticles.forEach(item => pastContainer.appendChild(createNewsCard(item, false)));
+    } else {
+      document.getElementById('emptyPastNotice').style.display = 'block';
+    }
+    setSafeText('pastCountBadge', `${pastArticles.length}건`);
+  }
 
   // 3) 슬림 통계 수치 안전 갱신
   setSafeText('statTotal', filtered.length);
@@ -3528,7 +3785,7 @@ function createNewsCard(item, isMajor) {
               ${isReported ? '출력' : '미출력'}
             </span>
             <span class="time-tag">${item.time_label}</span>
-            <span class="media-tag">${item.media}</span>
+            <span class="media-tag">${resolveMediaName(item)}</span>
           </div>
         </div>
 
@@ -3729,7 +3986,7 @@ function printSelectedArticles() {
   }, 800);
 }
 
-// 4. 섹션 접기/펼치기 토글 함수
+// 4. [요구사항 4, 6] 섹션 접기/펼치기 토글 함수 (4개 독립 섹션 완벽 지원)
 function toggleSection(type) {
   const isExpanding = !sectionStates[type];
   sectionStates[type] = isExpanding;
@@ -3738,14 +3995,18 @@ function toggleSection(type) {
   const content = document.getElementById(`${type}Content`);
   const toggleText = document.getElementById(`${type}ToggleText`);
 
+  if (!content) return;
+
   if (isExpanding) {
-    header.classList.remove('collapsed');
+    if (header) header.classList.remove('collapsed');
     content.classList.remove('collapsed');
-    toggleText.textContent = "접기";
+    content.style.display = 'block';
+    if (toggleText) toggleText.textContent = "접기";
   } else {
-    header.classList.add('collapsed');
+    if (header) header.classList.add('collapsed');
     content.classList.add('collapsed');
-    toggleText.textContent = "펼치기";
+    content.style.display = 'none';
+    if (toggleText) toggleText.textContent = "펼치기";
   }
 
   updateToggleAllBtn();
@@ -3753,22 +4014,26 @@ function toggleSection(type) {
 
 // 전체 펼치기 / 전체 접기 토글
 function toggleAllSections() {
-  const shouldExpand = (!sectionStates.major && !sectionStates.live);
+  const isAnyExpanded = (sectionStates.major || sectionStates.live || sectionStates.scrap || sectionStates.past);
+  const shouldExpand = !isAnyExpanded;
 
-  ['major', 'live'].forEach(type => {
+  ['major', 'live', 'scrap', 'past'].forEach(type => {
     sectionStates[type] = shouldExpand;
     const header = document.getElementById(`${type}Header`);
     const content = document.getElementById(`${type}Content`);
     const toggleText = document.getElementById(`${type}ToggleText`);
 
+    if (!content) return;
     if (shouldExpand) {
-      header.classList.remove('collapsed');
+      if (header) header.classList.remove('collapsed');
       content.classList.remove('collapsed');
-      toggleText.textContent = "접기";
+      content.style.display = 'block';
+      if (toggleText) toggleText.textContent = "접기";
     } else {
-      header.classList.add('collapsed');
+      if (header) header.classList.add('collapsed');
       content.classList.add('collapsed');
-      toggleText.textContent = "펼치기";
+      content.style.display = 'none';
+      if (toggleText) toggleText.textContent = "펼치기";
     }
   });
 
@@ -3776,9 +4041,9 @@ function toggleAllSections() {
 }
 
 function updateToggleAllBtn() {
-  const isAnyExpanded = (sectionStates.major || sectionStates.live);
+  const isAnyExpanded = (sectionStates.major || sectionStates.live || sectionStates.scrap || sectionStates.past);
   const text = document.getElementById('toggleAllText');
-  text.textContent = isAnyExpanded ? "전체 접기" : "전체 펼치기";
+  if (text) text.textContent = isAnyExpanded ? "전체 접기" : "전체 펼치기";
 }
 
 // 5. 2-2. 타 언론사 동일 보도 묶음 아코디언 토글

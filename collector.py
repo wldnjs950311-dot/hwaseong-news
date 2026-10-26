@@ -174,20 +174,139 @@ def clean_html(text):
     return re.sub(r"<[^>]+>", "", unescaped).strip()
 
 
-def extract_media_name(link, originallink):
+# 80+ 국내 주요 일간지, 경제지, IT지, 통신사, 방송사, 수도권/경기 지역지 도메인 정밀 매핑 테이블
+MEDIA_DOMAINS = {
+    # 통신사 및 포털
+    "yna.co.kr": "연합뉴스",
+    "newsis.com": "뉴시스",
+    "news1.kr": "뉴스1",
+    "newspim.com": "뉴스핌",
+    "nbntv.kr": "NBN뉴스",
+    "nbnnews.co.kr": "NBN뉴스",
+    "newstree.kr": "뉴스트리",
+    # 경기도 및 수도권 지역 언론사
+    "incheonilbo.com": "인천일보",
+    "kyeonggi.com": "경기일보",
+    "kgnews.co.kr": "경기일보",
+    "kyeongin.com": "경인일보",
+    "joongboo.com": "중부일보",
+    "kihoilbo.co.kr": "기호일보",
+    "kgmaeil.net": "경기매일",
+    "kgdm.co.kr": "경기도민일보",
+    "kgtimes.co.kr": "경기타임스",
+    "hsnews.or.kr": "화성뉴스",
+    "hstimes.co.kr": "화성타임즈",
+    "hsjournal.biz": "화성저널",
+    "ilgan.org": "일간경기",
+    "m-i.kr": "매일일보",
+    "sudoilbo.com": "수도일보",
+    "hyundaiilbo.com": "현대일보",
+    "ifm.kr": "경인방송",
+    "kfm.co.kr": "경기방송",
+    "siminilbo.co.kr": "시민일보",
+    "gukjenews.com": "국제뉴스",
+    "tournews21.com": "투어뉴스21",
+    "enewstoday.co.kr": "이뉴스투데이",
+    "betanews.net": "베타뉴스",
+    "newstown.co.kr": "뉴스타운",
+    "webeconomy.co.kr": "웹이코노미",
+    "fieldnews.kr": "현장뉴스",
+    "beyondpost.co.kr": "비욘드포스트",
+    "breaknews.com": "브레이크뉴스",
+    "surprise-news.kr": "서프라이즈뉴스",
+    "sporbiz.co.kr": "한스경제",
+    "ecolover.co.kr": "에코저널",
+    "safetimes.co.kr": "세이프타임즈",
+    "lawissue.co.kr": "로이슈",
+    "sisame.co.kr": "시사의창",
+    "thefairnews.co.kr": "더페어",
+    "pointdaily.co.kr": "포인트데일리",
+    "newsfreezone.co.kr": "뉴스프리존",
+    "pinpointnews.co.kr": "핀포인트뉴스",
+    "cnews.co.kr": "대한경제",
+    "thebell.co.kr": "더벨",
+    "topdaily.kr": "톱데일리",
+    # 중앙 종합일간지
+    "chosun.com": "조선일보",
+    "biz.chosun.com": "조선비즈",
+    "joongang.co.kr": "중앙일보",
+    "donga.com": "동아일보",
+    "hani.co.kr": "한겨레",
+    "khan.co.kr": "경향신문",
+    "hankookilbo.com": "한국일보",
+    "kmib.co.kr": "국민일보",
+    "segye.com": "세계일보",
+    "munhwa.com": "문화일보",
+    "seoul.co.kr": "서울신문",
+    # 경제지 및 전문지
+    "mk.co.kr": "매일경제",
+    "hankyung.com": "한국경제",
+    "sedaily.com": "서울경제",
+    "asiae.co.kr": "아시아경제",
+    "ajunews.com": "아주경제",
+    "fnnews.com": "파이낸셜뉴스",
+    "mt.co.kr": "머니투데이",
+    "edaily.co.kr": "이데일리",
+    "etnews.com": "전자신문",
+    "dt.co.kr": "디지털타임스",
+    "heraldcorp.com": "헤럴드경제",
+    "bizwatch.co.kr": "비즈워치",
+    "newstomato.com": "뉴스토마토",
+    # 방송 및 인터넷 언론
+    "kbs.co.kr": "KBS",
+    "imbc.com": "MBC",
+    "sbs.co.kr": "SBS",
+    "ytn.co.kr": "YTN",
+    "yonhapnewstv.co.kr": "연합뉴스TV",
+    "jtbc.co.kr": "JTBC",
+    "mbn.co.kr": "MBN",
+    "ichannela.com": "채널A",
+    "tvchosun.com": "TV조선",
+    "sportsseoul.com": "스포츠서울",
+    "sportschosun.com": "스포츠조선",
+    "sportsworldi.com": "스포츠월드",
+    "ohmynews.com": "오마이뉴스",
+    "pressian.com": "프레시안",
+    "dailian.co.kr": "데일리안",
+    "nocutnews.co.kr": "노컷뉴스",
+    "kukinews.com": "쿠키뉴스",
+    "wikitree.co.kr": "위키트리",
+    "insight.co.kr": "인사이트"
+}
+
+
+def extract_media_name(link, originallink, og_site_name=None):
+    """신문사 및 방송사 이름 정밀 추출 (og:site_name, 도메인 사전, 스마트 fallback)"""
+    if og_site_name and len(og_site_name.strip()) >= 2:
+        clean_og = og_site_name.strip()
+        # 일반적인 사이트 설명 제외
+        if not any(kw in clean_og.lower() for kw in ["naver", "daum", "nate", "뉴스", "홈페이지"]):
+            return clean_og
+
     target = originallink if originallink else link
-    if "yna.co.kr" in target: return "연합뉴스"
-    if "kyeongin.com" in target: return "경인일보"
-    if "kgnews.co.kr" in target: return "경기일보"
-    if "joongboo.com" in target: return "중부일보"
-    if "newsis.com" in target: return "뉴시스"
-    if "news1.kr" in target: return "뉴스1"
-    if "kihoilbo.co.kr" in target: return "기호일보"
-    if "etnews.com" in target: return "전자신문"
-    if "sedaily.com" in target: return "서울경제"
-    if "asiae.co.kr" in target: return "아시아경제"
-    if "surprise-news.kr" in target or "sporbiz" in target: return "서프라이즈뉴스"
-    return "언론사"
+    if not target:
+        return "화성시정뉴스"
+
+    # 1. 사전 매핑 검사
+    for domain, name in MEDIA_DOMAINS.items():
+        if domain in target:
+            return name
+
+    # 2. 도메인 호스트명 기반 스마트 이름 추출 (절대 generic한 '언론사' 단독 반환 배제)
+    try:
+        parsed = urllib.parse.urlparse(target)
+        host = parsed.netloc.lower()
+        # www, news 등 서브도메인 제거
+        parts = host.split(".")
+        if len(parts) >= 2:
+            # kr, com 등 앞의 주요 도메인 명칭
+            main_part = parts[-3] if (parts[-1] == "kr" and len(parts) >= 3 and parts[-2] in ("co", "or", "ne", "go")) else parts[-2]
+            if main_part not in ("co", "com", "net", "org", "kr"):
+                return main_part.upper()
+    except Exception:
+        pass
+
+    return "화성시정뉴스"
 
 
 def parse_pub_date(date_str):
@@ -200,18 +319,29 @@ def parse_pub_date(date_str):
 
 
 def scrape_full_body_and_image(url):
-    """국내 지역 언론사 CMS 대응 정밀 본문 및 대표 사진 스크래퍼"""
+    """국내 지역 언론사 CMS 대응 정밀 본문 및 대표 사진, 언론사명 스크래퍼"""
     if not url:
-        return "", ""
+        return "", "", ""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
     try:
         res = requests.get(url, headers=headers, timeout=5)
         if not res.ok:
-            return "", ""
+            return "", "", ""
         res.encoding = res.apparent_encoding
         soup = BeautifulSoup(res.text, "html.parser")
+
+        # 언론사명 (og:site_name, author, twitter:creator 등)
+        og_site_name = ""
+        meta_site = (
+            soup.find("meta", property="og:site_name")
+            or soup.find("meta", attrs={"name": "og:site_name"})
+            or soup.find("meta", attrs={"name": "twitter:site"})
+            or soup.find("meta", attrs={"name": "publisher"})
+        )
+        if meta_site and meta_site.get("content"):
+            og_site_name = meta_site["content"].strip()
 
         # 1. 대표 사진 추출 (og:image, twitter:image 등)
         image_url = ""
@@ -270,10 +400,10 @@ def scrape_full_body_and_image(url):
             if paras:
                 body_text = " ".join(paras)[:2000]
 
-        return body_text, image_url
+        return body_text, image_url, og_site_name
     except Exception:
         pass
-    return "", ""
+    return "", "", ""
 
 
 def rule_match_department(title, text):
@@ -690,11 +820,12 @@ def extract_macro_pulse(client, articles):
 [작성 지침 - 엄수]:
 1. 이모티콘(이모지)은 절대로 단 하나도 사용하지 마십시오.
 2. 'overview'(개요): 화성시정이 가장 강하게 주력하는 핵심 정책 방향 및 전략 사업 추진 동향을 1문장으로 작성하십시오.
-3. 'main_points'(주요내용): 언론 동향이 도출된 [구체적 원인·계기·행사/사업/사건명]을 반드시 대괄호 [ ] 안에 가장 먼저 명시하고, 그로 인해 어떤 시정 흐름과 언론 조명이 일어났는지 인과관계를 명확히 1줄로 서술하십시오. (정확히 5개 문장, 각 문장은 '- '로 시작)
-   ※ 중요: 추상적인 미사여구는 배제하고, 반드시 기사에 명시된 실제 행사명·사업명·계기(예: 'MARS 2026 AI 엑스포 & 우주항공추진단 발족', '2026 화성 루나빛축제 개최', '제14회 경기도장애인배드민턴대회', '로컬푸드 유통 현대화', '가을철 소방 합동 안전점검' 등)를 명확히 [ ]에 적으십시오.
+3. 'main_points'(주요내용): 줄 수에 상관없이 다수의 언론사에서 다룬 사안(클러스터링 사안 및 2개 이상 언론사가 보도한 사안)과 핵심 시정 현안을 빠짐없이 모두 알려주십시오.
+   - 언론 동향이 도출된 [구체적 원인·계기·행사/사업/사건명]을 반드시 대괄호 [ ] 안에 가장 먼저 명시하고, 몇 개 사가 집중 보도했는지와 핵심 내용을 명확히 1줄로 서술하십시오. (각 문장은 '- '로 시작)
+   ※ 중요: 줄 수 제한은 전혀 없으며, 다수 언론사가 다룬 주요 사안은 단 하나도 누락하지 말고 모두 나열하십시오.
 
 형식:
-"- [구체적 행사/사업/사건명] ~추진(발족/개최)에 따라 ~언론 보도 집중 조명"
+"- [구체적 행사/사업/사건명] (N개사 집중 보도) ~추진(발족/개최)에 따라 ~언론 보도 집중 조명"
 
 [출력 JSON 스키마]:
 {{
@@ -717,8 +848,8 @@ def extract_macro_pulse(client, articles):
                 parsed = json.loads(res.text.strip())
                 overview_text = parsed.get("overview", "")
                 pts = parsed.get("main_points", [])
-                if pts and len(pts) >= 3:
-                    main_points = [p if p.startswith("- ") else f"- {p}" for p in pts[:5]]
+                if pts and len(pts) >= 1:
+                    main_points = [p if p.startswith("- ") else f"- {p}" for p in pts]
         except Exception as e:
             print(f"주간 언론동향 Gemini 도출 예외 ({e}), Fallback 적용")
 
@@ -948,8 +1079,9 @@ def main():
         if new_gemini_analyzed >= 30:
             continue
 
-        # 1. 기사 본문 및 대표 이미지 추출 (실패 시 description 대체)
-        scraped_text, article_img = scrape_full_body_and_image(link)
+        # 1. 기사 본문 및 대표 이미지, 언론사명 추출 (실패 시 description 대체)
+        scraped_text, article_img, og_site = scrape_full_body_and_image(originallink or link)
+        article_media = extract_media_name(link, originallink, og_site)
         article_content = scraped_text if len(scraped_text) > 80 else desc
 
         # 2. 화성시정 핵심 기사 1차 고속 필터링 (단순 1~2회 지명 언급, 타 지자체 중심, 증시/환율 배제)
@@ -985,7 +1117,8 @@ def main():
         processed_articles.append({
             "title": title,
             "link": link,
-            "media": media,
+            "originallink": originallink,
+            "media": article_media,
             "category": cat,
             "department": dept,
             "dept_label": dept_label,
@@ -1034,8 +1167,19 @@ def main():
             art["telegram_sent"] = True
             continue
 
+        # [요구사항 8] 텔레그램 발송은 '24시간 주요뉴스'만 선별 발송
+        is_major_issue = (
+            art.get("is_major", False)
+            or (art.get("related_articles") and len(art.get("related_articles")) > 0)
+            or art.get("category") == "RISK"
+        )
+        if not is_major_issue:
+            # 24시간 주요뉴스가 아닌 일반 단순 보도자료는 텔레그램 발송 생략
+            art["telegram_sent"] = False
+            continue
+
         if telegram_enabled:
-            print(f">> [텔레그램 신규 기사 발송] {art['title'][:25]}...")
+            print(f">> [텔레그램 24시간 주요뉴스 선별 발송] {art['title'][:25]}...")
             success = send_telegram_alert(art)
             art["telegram_sent"] = success
             if success:
