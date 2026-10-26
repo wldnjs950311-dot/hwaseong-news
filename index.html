@@ -223,14 +223,23 @@ header {
   display: flex;
   gap: 6px;
   border-bottom: 2px solid var(--ink);
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox 스크롤바 숨김 */
+}
+.tab-bar::-webkit-scrollbar {
+  display: none; /* Chrome, Edge, Safari 스크롤바 숨김 */
 }
 .tab-btn {
   background: transparent;
   border: 1px solid #CBD5E1;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
-  padding: 9px 16px;
-  font-size: 15px;
+  padding: 9px 13px;
+  font-size: 14.5px;
   font-weight: 700;
   color: var(--muted);
   cursor: pointer;
@@ -238,7 +247,12 @@ header {
   position: relative;
   bottom: -2px;
   display: inline-flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+  gap: 5px;
 }
 .tab-btn:hover {
   background: #F1F5F9;
@@ -1303,11 +1317,23 @@ header {
 .weekly-main-points-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
   background: #FAFCFE;
   border: 1px solid #E2E8F0;
+  border-left: 4px solid #059669; /* 초록색 좌측 포인트 라인 추가 */
   border-radius: 8px;
-  padding: 12px 14px;
+  padding: 14px 16px;
+}
+.point-trigger {
+  font-weight: 800;
+  color: #065F46;
+  background: #D1FAE5;
+  border: 1px solid #A7F3D0;
+  padding: 1px 7px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 12.5px;
+  display: inline-block;
 }
 .main-point-item {
   display: flex;
@@ -1741,27 +1767,25 @@ header {
   height: 100%;
   transition: width 0.3s ease;
 }
-.theme-seg-industry { background: #1B2F8F; }
-.theme-seg-transit  { background: #0284C7; }
-.theme-seg-culture  { background: #059669; }
-.theme-seg-welfare  { background: #D97706; }
-.theme-seg-safety   { background: #DC2626; }
-.theme-seg-autonomy { background: #7C3AED; }
-.theme-seg-citizen  { background: #475569; }
+.theme-seg-industry-agri { background: #1B2F8F; }
+.theme-seg-transit-infra  { background: #0284C7; }
+.theme-seg-culture-eco    { background: #059669; }
+.theme-seg-welfare-safety { background: #D97706; }
+.theme-seg-autonomy-admin { background: #7C3AED; }
 
 .themes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
 }
 .theme-grid-item {
   border-radius: 8px;
-  padding: 12px 14px;
+  padding: 13px 15px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   border: 1.5px solid var(--border);
 }
 .theme-grid-item:hover {
@@ -1769,55 +1793,41 @@ header {
   box-shadow: 0 4px 12px rgba(15, 23, 51, 0.08);
 }
 
-/* 7대 테마별 차별화된 옅은 색 배경 (스택 바와 직관적 일치) */
-.theme-grid-item.theme-card-INDUSTRY {
+/* 5대 핵심 테마별 옅은 파스텔 틴트 배경 (스택 바와 직관적 일치) */
+.theme-grid-item.theme-card-INDUSTRY_AGRI {
   background: #F0F7FF;
   border-color: #BFDBFE;
 }
-.theme-grid-item.theme-card-INDUSTRY .theme-item-name { color: #1B2F8F; }
-.theme-grid-item.theme-card-INDUSTRY .theme-item-badge { background: #DBEAFE; color: #1E40AF; }
+.theme-grid-item.theme-card-INDUSTRY_AGRI .theme-item-name { color: #1B2F8F; }
+.theme-grid-item.theme-card-INDUSTRY_AGRI .theme-item-badge { background: #DBEAFE; color: #1E40AF; }
 
-.theme-grid-item.theme-card-TRANSIT {
+.theme-grid-item.theme-card-TRANSIT_INFRA {
   background: #F0F9FF;
   border-color: #BAE6FD;
 }
-.theme-grid-item.theme-card-TRANSIT .theme-item-name { color: #0284C7; }
-.theme-grid-item.theme-card-TRANSIT .theme-item-badge { background: #E0F2FE; color: #0369A1; }
+.theme-grid-item.theme-card-TRANSIT_INFRA .theme-item-name { color: #0284C7; }
+.theme-grid-item.theme-card-TRANSIT_INFRA .theme-item-badge { background: #E0F2FE; color: #0369A1; }
 
-.theme-grid-item.theme-card-CULTURE {
+.theme-grid-item.theme-card-CULTURE_ECO {
   background: #ECFDF5;
   border-color: #A7F3D0;
 }
-.theme-grid-item.theme-card-CULTURE .theme-item-name { color: #059669; }
-.theme-grid-item.theme-card-CULTURE .theme-item-badge { background: #D1FAE5; color: #047857; }
+.theme-grid-item.theme-card-CULTURE_ECO .theme-item-name { color: #059669; }
+.theme-grid-item.theme-card-CULTURE_ECO .theme-item-badge { background: #D1FAE5; color: #047857; }
 
-.theme-grid-item.theme-card-WELFARE {
+.theme-grid-item.theme-card-WELFARE_SAFETY {
   background: #FFFBEB;
   border-color: #FDE68A;
 }
-.theme-grid-item.theme-card-WELFARE .theme-item-name { color: #D97706; }
-.theme-grid-item.theme-card-WELFARE .theme-item-badge { background: #FEF3C7; color: #B45309; }
+.theme-grid-item.theme-card-WELFARE_SAFETY .theme-item-name { color: #D97706; }
+.theme-grid-item.theme-card-WELFARE_SAFETY .theme-item-badge { background: #FEF3C7; color: #B45309; }
 
-.theme-grid-item.theme-card-SAFETY {
-  background: #FEF2F2;
-  border-color: #FECACA;
-}
-.theme-grid-item.theme-card-SAFETY .theme-item-name { color: #DC2626; }
-.theme-grid-item.theme-card-SAFETY .theme-item-badge { background: #FEE2E2; color: #B91C1C; }
-
-.theme-grid-item.theme-card-AUTONOMY {
+.theme-grid-item.theme-card-AUTONOMY_ADMIN {
   background: #F5F3FF;
   border-color: #DDD6FE;
 }
-.theme-grid-item.theme-card-AUTONOMY .theme-item-name { color: #7C3AED; }
-.theme-grid-item.theme-card-AUTONOMY .theme-item-badge { background: #EDE9FE; color: #6D28D9; }
-
-.theme-grid-item.theme-card-CITIZEN {
-  background: #F8FAFC;
-  border-color: #CBD5E1;
-}
-.theme-grid-item.theme-card-CITIZEN .theme-item-name { color: #475569; }
-.theme-grid-item.theme-card-CITIZEN .theme-item-badge { background: #E2E8F0; color: #334155; }
+.theme-grid-item.theme-card-AUTONOMY_ADMIN .theme-item-name { color: #7C3AED; }
+.theme-grid-item.theme-card-AUTONOMY_ADMIN .theme-item-badge { background: #EDE9FE; color: #6D28D9; }
 
 .theme-item-top {
   display: flex;
@@ -1954,27 +1964,22 @@ header {
     
     <div class="header-right">
       <div class="header-update-time">
-        <span>업데이트 기준:</span>
+        <span id="scrapPeriodLabel" style="font-weight:700; color:var(--primary); margin-right:4px;">조간 08:00 기준:</span>
         <b id="updateTimeText">데이터 로딩 중...</b>
+        <span class="scrap-badge" id="scrapPeriodBadge" style="display:inline-block; font-size:11.5px; font-weight:700; color:#1E40AF; background:#EFF6FF; border:1px solid #BFDBFE; padding:2px 7px; border-radius:4px; margin-left:6px;">24시간 조간 스크랩</span>
       </div>
 
       <!-- 1-2. 내 부서 Pin 및 모아보기 버튼 -->
       <div class="my-dept-wrap" id="myDeptWrap"></div>
 
-      <!-- 1-4. 부서 자동완성, 통합 검색 및 상세검색 토글 버튼 -->
+      <!-- 1-4. 부서 자동완성 및 통합 검색 -->
       <div class="dept-search-box">
         <div class="dept-input-wrap">
-          <input type="text" id="deptSearchInput" class="dept-input" placeholder="부서명 또는 키워드 (예: 도로과, 트램)" autocomplete="off" oninput="onSearchInput()" onfocus="onSearchInput()">
+          <input type="text" id="deptSearchInput" class="dept-input" placeholder="부서명 또는 키워드 (예: 도로과, 농업)" autocomplete="off" oninput="onSearchInput()" onfocus="onSearchInput()">
           <button id="clearDeptBtn" class="clear-btn" onclick="clearDeptSearch()">×</button>
         </div>
         <ul id="autocompleteList" class="autocomplete-list"></ul>
       </div>
-
-      <!-- 상세검색 열기/닫기 토글 버튼 -->
-      <button type="button" class="adv-search-btn" id="advSearchToggleBtn" onclick="toggleAdvancedSearch()" title="기간, 언론사, 카테고리 등 상세 조건 필터">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-        <span>상세검색</span>
-      </button>
     </div>
   </div>
 </header>
@@ -2011,7 +2016,7 @@ header {
     <div class="print-title" id="printHeaderTitle">화성시 언론보도</div>
   </div>
 
-  <!-- 2-1. 탭 네비게이션: 홈 / 전체기사 / 7대 전략 테마 탭 / 비판지적 -->
+  <!-- 2-1. 탭 네비게이션: 홈 / 전체기사 / 5대 전략 테마 탭 / 비판지적 (한 줄 배치) -->
   <div class="tab-bar">
     <button class="tab-btn active" id="tabBtnHome" onclick="switchMainTab('HOME', this)">
       홈
@@ -2019,26 +2024,20 @@ header {
     <button class="tab-btn" id="tabBtnAll" onclick="switchMainTab('ALL', this)">
       전체기사 <span class="tab-badge" id="tabCountAll">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnIndustry" onclick="switchMainTab('INDUSTRY', this)">
-      첨단산업 <span class="tab-badge" id="tabCountIndustry">0</span>
+    <button class="tab-btn" id="tabBtnIndustryAgri" onclick="switchMainTab('INDUSTRY_AGRI', this)">
+      산업·농정 <span class="tab-badge" id="tabCountIndustryAgri">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnTransit" onclick="switchMainTab('TRANSIT', this)">
-      교통망 <span class="tab-badge" id="tabCountTransit">0</span>
+    <button class="tab-btn" id="tabBtnTransitInfra" onclick="switchMainTab('TRANSIT_INFRA', this)">
+      교통·도시 <span class="tab-badge" id="tabCountTransitInfra">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnCulture" onclick="switchMainTab('CULTURE', this)">
-      문화관광 <span class="tab-badge" id="tabCountCulture">0</span>
+    <button class="tab-btn" id="tabBtnCultureEco" onclick="switchMainTab('CULTURE_ECO', this)">
+      문화·관광 <span class="tab-badge" id="tabCountCultureEco">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnWelfare" onclick="switchMainTab('WELFARE', this)">
-      포용복지 <span class="tab-badge" id="tabCountWelfare">0</span>
+    <button class="tab-btn" id="tabBtnWelfareSafety" onclick="switchMainTab('WELFARE_SAFETY', this)">
+      복지·안전 <span class="tab-badge" id="tabCountWelfareSafety">0</span>
     </button>
-    <button class="tab-btn" id="tabBtnSafety" onclick="switchMainTab('SAFETY', this)">
-      시민안전 <span class="tab-badge" id="tabCountSafety">0</span>
-    </button>
-    <button class="tab-btn" id="tabBtnAutonomy" onclick="switchMainTab('AUTONOMY', this)">
-      특례시자치 <span class="tab-badge" id="tabCountAutonomy">0</span>
-    </button>
-    <button class="tab-btn" id="tabBtnCitizen" onclick="switchMainTab('CITIZEN', this)">
-      시민소통 <span class="tab-badge" id="tabCountCitizen">0</span>
+    <button class="tab-btn" id="tabBtnAutonomyAdmin" onclick="switchMainTab('AUTONOMY_ADMIN', this)">
+      특례시·자치 <span class="tab-badge" id="tabCountAutonomyAdmin">0</span>
     </button>
     <button class="tab-btn risk-tab" id="tabBtnRisk" onclick="switchMainTab('RISK', this)">
       비판지적 <span class="tab-badge risk" id="tabCountRisk">0</span>
@@ -2054,8 +2053,9 @@ header {
         <div class="trending-header-row">
           <div class="trending-label-group">
             <span class="trending-badge">
-              <span>화성시 언론동향</span>
+              <span>24시간 언론동향</span>
             </span>
+            <span style="font-size:12px; font-weight:700; color:var(--muted); margin-left:8px;" id="trendingPeriodLabel">조간 스크랩 (전일 08:00 ~ 현재)</span>
             <!-- 롤링 티커 (실시간 1위~5위 롤링) -->
             <div class="trending-ticker-wrap" onclick="clickActiveTicker()" title="클릭 시 해당 이슈 뉴스로 바로 이동합니다">
               <div class="trending-ticker-inner" id="trendingTickerInner"></div>
@@ -2086,11 +2086,11 @@ header {
     <section class="weekly-trend-card" id="weeklyTrendCard">
       <div class="weekly-trend-header">
         <div class="weekly-nav-row">
-          <button type="button" class="week-nav-btn" onclick="navigateWeek(-1)" title="저번 주 언론동향">
+          <button type="button" class="week-nav-btn" id="prevWeekBtn" onclick="navigateWeek(-1)" title="저번 주 언론동향">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
             <span>저번 주</span>
           </button>
-          <span class="weekly-main-title" id="weeklyTrendTitleText">금주 언론동향</span>
+          <span class="weekly-main-title" id="weeklyMainTitle">이번주 언론동향</span>
           <button type="button" class="week-nav-btn" id="nextWeekBtn" onclick="navigateWeek(1)" title="다음 주 언론동향" disabled>
             <span>다음 주</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -2130,12 +2130,12 @@ header {
       </div>
     </section>
 
-    <!-- 4. 7대 테마별 현황 (제목 변경 & 파스텔 틴트 카드 배경) -->
+    <!-- 4. 5대 핵심 시정 테마별 현황 (농축수산 1차 산업 포함 5대 테마 재구성) -->
     <section class="themes-card">
       <div class="themes-header">
         <div class="themes-title-group">
-          <span class="themes-title">7대 테마별 현황</span>
-          <span class="themes-sub">클릭 시 해당 테마 기사 모아보기</span>
+          <span class="themes-title">5대 핵심 시정 테마별 현황</span>
+          <span class="themes-sub">농축수산 1차 산업부터 첨단산업·교통·복지·자치까지 클릭 시 해당 기사 모아보기</span>
         </div>
       </div>
       <!-- 테마별 점유율 비중 스택 바 -->
@@ -2390,6 +2390,12 @@ async function loadNewsData() {
     const data = await res.json();
     
     document.getElementById('updateTimeText').textContent = data.updated_at || "최신";
+    if (data.scrap_period) {
+      const pBadge = document.getElementById('scrapPeriodBadge');
+      if (pBadge) pBadge.textContent = "조간 08:00 스크랩";
+      const tLabel = document.getElementById('trendingPeriodLabel');
+      if (tLabel) tLabel.textContent = `조간 스크랩 (${data.scrap_period})`;
+    }
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
     globalTrendingTopics = data.trending_topics || extractClientTrendingTopics(globalArticles);
@@ -2411,17 +2417,24 @@ async function loadNewsData() {
   }
 }
 
-// 탭 전환 (홈 / 전체기사 / 7대 테마 7종 / 비판지적)
+// 탭 전환 (홈 / 전체기사 / 5대 전략 테마 5종 / 비판지적)
 function switchMainTab(tabKey, btnEl) {
   currentMainTab = tabKey;
 
   // 탭 버튼 active 클래스 동기화
   document.querySelectorAll('.tab-bar .tab-btn').forEach(btn => btn.classList.remove('active'));
   if (!btnEl) {
-    const btnId = tabKey === 'HOME' ? 'tabBtnHome' : 
-                  tabKey === 'ALL' ? 'tabBtnAll' : 
-                  tabKey === 'RISK' ? 'tabBtnRisk' :
-                  ('tabBtn' + tabKey.charAt(0).toUpperCase() + tabKey.slice(1).toLowerCase());
+    const tabMap = {
+      'HOME': 'tabBtnHome',
+      'ALL': 'tabBtnAll',
+      'INDUSTRY_AGRI': 'tabBtnIndustryAgri',
+      'TRANSIT_INFRA': 'tabBtnTransitInfra',
+      'CULTURE_ECO': 'tabBtnCultureEco',
+      'WELFARE_SAFETY': 'tabBtnWelfareSafety',
+      'AUTONOMY_ADMIN': 'tabBtnAutonomyAdmin',
+      'RISK': 'tabBtnRisk'
+    };
+    const btnId = tabMap[tabKey] || 'tabBtnAll';
     btnEl = document.getElementById(btnId);
   }
   if (btnEl) btnEl.classList.add('active');
@@ -2440,7 +2453,7 @@ function switchMainTab(tabKey, btnEl) {
   }
 }
 
-// 주간 언론동향 주차 이동 (금주, 저번 주, 다음 주 네비게이션)
+// 이번주 언론동향 주차 이동 (이번주, 저번 주, 다음 주 네비게이션)
 function navigateWeek(delta) {
   currentWeekOffset += delta;
   if (currentWeekOffset > 0) currentWeekOffset = 0;
@@ -2455,7 +2468,7 @@ function updateWeekDisplay() {
   const prevBtn = document.getElementById('prevWeekBtn');
   if (titleEl) {
     if (currentWeekOffset === 0) {
-      titleEl.textContent = '금주 언론동향';
+      titleEl.textContent = '이번주 언론동향';
     } else {
       titleEl.textContent = `${Math.abs(currentWeekOffset)}주 전 언론동향`;
     }
@@ -2485,7 +2498,7 @@ function renderHomeDashboard() {
   renderThemesOverview();
 }
 
-// 주간 언론동향 렌더링 (금주 및 이전 주차 네비게이션 지원, 개요, 주요내용 5줄, 주의사항 전수 - 실무대응방향 삭제)
+// 주간 언론동향 렌더링 (이번주 및 이전 주차 네비게이션, [구체적 사안명] 인과관계 명시, 주의사항 전수 수록)
 function renderWeeklyTrend() {
   const overviewBox = document.getElementById('weeklyTrendOverview');
   const pointsList = document.getElementById('weeklyMainPointsList');
@@ -2533,26 +2546,30 @@ function renderWeeklyTrend() {
   }
 
   // 1) 개요 (단독 배지 아래 내용 바로 노출)
-  const overviewText = mp.overview || (mp.summary_bullets && mp.summary_bullets[0]) || '화성특례시 출범과 민선8기 미래 전략산업 육성을 중심으로 시정 핵심 정책이 본궤도에 오르고 있습니다.';
+  const overviewText = mp.overview || (mp.summary_bullets && mp.summary_bullets[0]) || '화성특례시 출범과 민선8기 전략을 선도하는 미래 첨단산업 육성 및 스마트 농정 혁신이 본궤도에 오르고 있습니다.';
   overviewBox.textContent = overviewText.replace(/^-\s*/, '');
 
-  // 2) 주요내용 (5줄 확대)
+  // 2) 주요내용 (5줄 확대 & [구체적 행사/사업/사건명] 강조 표시)
   let points = (mp.main_points && mp.main_points.length > 0) ? mp.main_points : [];
   if (points.length === 0 && mp.summary_bullets) {
     points = mp.summary_bullets.slice(1, 6);
   }
   if (points.length === 0) {
     points = [
-      "- 동탄호수공원 루나빛축제 등 가을철 도심 수변 문화 행사에 대규모 시민 인파가 집중되며 도시브랜드 가치가 확산되었습니다.",
-      "- 미래 첨단산업 육성 및 AI 스마트 행정 고도화에 관한 언론의 긍정적 조명이 이어졌습니다.",
-      "- 동서 균형발전과 철도·도로망 확충 등 대도시 교통 인프라 조성을 위한 정책 추진이 가시화되고 있습니다.",
-      "- 생애주기별 포용복지 정책과 장애인·어르신 체감형 복지 지원으로 희망화성 공동체를 실현하고 있습니다.",
-      "- 시민 생활 안전망 구축과 쾌적한 도시환경 조성을 위한 현장 중심 사전 점검 행정이 지속 강화되고 있습니다."
+      "- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명",
+      "- [2026 화성 루나빛축제 추진] 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시브랜드 가치 확산",
+      "- [제14회 경기도장애인배드민턴대회] 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각",
+      "- [스마트 로컬푸드 및 서해안 수산진흥] 친환경 농산물 공급망 확대와 어촌 상생 지원을 통해 도농복합 1차 산업 경쟁력 강화 조명",
+      "- [가을철 다중이용시설 선제 안전점검] 소방·경찰 합동 사전 현장 점검 행정 추진으로 시민 생명 및 생활 안전망 확보 노력 집중 보도"
     ];
   }
 
   pointsList.innerHTML = points.map(p => {
-    const cleanP = p.replace(/^-\s*/, '');
+    let cleanP = p.replace(/^-\s*/, '');
+    // [구체적 사안명] 강조 스타일 적용
+    if (cleanP.includes('[') && cleanP.includes(']')) {
+      cleanP = cleanP.replace(/\[(.*?)\]/, '<span class="point-trigger">[$1]</span>');
+    }
     return `
       <div class="main-point-item">
         <span class="main-point-dot">•</span>
@@ -2561,7 +2578,7 @@ function renderWeeklyTrend() {
     `;
   }).join('');
 
-  // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 완전 삭제, 제목+1줄요약 불릿만 노출)
+  // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 삭제, 제목+1줄요약 불릿만 노출)
   let riskArticles = mp.risk_cautions || [];
   if (riskArticles.length === 0) {
     const pool = (currentWeekOffset === 0) ? globalArticles : weekArticles;
@@ -2601,7 +2618,7 @@ function renderWeeklyTrend() {
   }).join('');
 }
 
-// 7대 테마별 현황 렌더링 (게이지 바 & 각 테마 색의 옅은 배경 적용 카드 그리드)
+// 5대 핵심 시정 테마별 현황 렌더링 (게이지 바 & 옅은 파스텔 틴트 카드 그리드)
 function renderThemesOverview() {
   const ratioBar = document.getElementById('themesRatioBar');
   const grid = document.getElementById('themesGrid');
@@ -2611,26 +2628,32 @@ function renderThemesOverview() {
   if (stats.length === 0) return;
 
   const segClasses = {
-    'INDUSTRY': 'theme-seg-industry',
-    'TRANSIT': 'theme-seg-transit',
-    'CULTURE': 'theme-seg-culture',
-    'WELFARE': 'theme-seg-welfare',
-    'SAFETY': 'theme-seg-safety',
-    'AUTONOMY': 'theme-seg-autonomy',
-    'CITIZEN': 'theme-seg-citizen'
+    'INDUSTRY_AGRI': 'theme-seg-industry-agri',
+    'TRANSIT_INFRA': 'theme-seg-transit-infra',
+    'CULTURE_ECO': 'theme-seg-culture-eco',
+    'WELFARE_SAFETY': 'theme-seg-welfare-safety',
+    'AUTONOMY_ADMIN': 'theme-seg-autonomy-admin',
+    // 하위 호환 매핑
+    'INDUSTRY': 'theme-seg-industry-agri',
+    'TRANSIT': 'theme-seg-transit-infra',
+    'CULTURE': 'theme-seg-culture-eco',
+    'WELFARE': 'theme-seg-welfare-safety',
+    'SAFETY': 'theme-seg-welfare-safety',
+    'AUTONOMY': 'theme-seg-autonomy-admin',
+    'CITIZEN': 'theme-seg-autonomy-admin'
   };
 
-  // 1) 게이지 스택 바
+  // 1) 게이지 스택 바 (5대 테마 비율)
   ratioBar.innerHTML = stats.map(st => {
     if (st.ratio <= 0) return '';
-    const segCls = segClasses[st.id] || 'theme-seg-industry';
+    const segCls = segClasses[st.id] || 'theme-seg-industry-agri';
     return `<div class="theme-bar-seg ${segCls}" style="width: ${st.ratio}%;" title="${st.name}: ${st.count}건 (${st.ratio}%)"></div>`;
   }).join('');
 
-  // 2) 카드 그리드 (해당 테마 그래프 색의 옅은 파스텔 틴트 배경 적용)
+  // 2) 5대 테마 카드 그리드 (각 테마별 옅은 파스텔 틴트 배경)
   grid.innerHTML = stats.map(st => {
     return `
-      <div class="theme-grid-item theme-card-${st.id}" onclick="filterByTheme('${st.name.replace(/'/g, "\\'")}')" title="클릭 시 '${st.name}' 관련 기사를 모아봅니다">
+      <div class="theme-grid-item theme-card-${st.id}" onclick="filterByTheme('${st.name.replace(/'/g, "\\'")}', '${st.id}')" title="클릭 시 '${st.name}' 관련 기사를 모아봅니다">
         <div class="theme-item-top">
           <span class="theme-item-name">${st.short_name}</span>
           <span class="theme-item-badge">${st.count}건 (${st.ratio}%)</span>
@@ -2641,18 +2664,16 @@ function renderThemesOverview() {
   }).join('');
 }
 
-// 테마 클릭 시 기사 필터링 (7대 테마 탭으로 직접 이동)
-function filterByTheme(themeFullName) {
+// 테마 클릭 시 기사 필터링 (5대 테마 탭으로 직접 이동)
+function filterByTheme(themeFullName, themeId) {
   const themeMap = {
-    '미래 첨단산업 · 혁신성장': 'INDUSTRY',
-    '광역 교통망 · 균형발전': 'TRANSIT',
-    '문화관광 · 도시브랜드': 'CULTURE',
-    '포용복지 · 생애주기 돌봄': 'WELFARE',
-    '시민안전 · 환경재난 대응': 'SAFETY',
-    '특례시 자치분권 · 행정혁신': 'AUTONOMY',
-    '미래 인재양성 · 시민소통': 'CITIZEN'
+    '미래 첨단산업 · 스마트 농축수산': 'INDUSTRY_AGRI',
+    '광역 교통망 · 균형발전 도시인프라': 'TRANSIT_INFRA',
+    '문화관광 · 해양생태 도시브랜드': 'CULTURE_ECO',
+    '포용 복지안전 · 생활환경 돌봄': 'WELFARE_SAFETY',
+    '특례시 자치분권 · 시민소통 행정': 'AUTONOMY_ADMIN'
   };
-  const themeId = themeMap[themeFullName] || 'ALL';
+  const targetId = themeId || themeMap[themeFullName] || 'ALL';
   selectedThemeFilter = '';
   selectedDeptFilter = '';
   currentSearchKeyword = '';
@@ -2662,7 +2683,7 @@ function filterByTheme(themeFullName) {
   const clearBtn = document.getElementById('clearDeptBtn');
   if (clearBtn) clearBtn.style.display = 'none';
 
-  switchMainTab(themeId);
+  switchMainTab(targetId);
 }
 
 // 홈 탭 실시간 핵심 뉴스 프리뷰
@@ -3016,7 +3037,7 @@ function clearMyDeptSetting() {
   renderTimeline();
 }
 
-// 2. 주요 뉴스 및 실시간 뉴스 렌더링
+// 2. 주요 뉴스 및 실시간 뉴스 렌더링 (공보실 08:00 조간 스크랩 및 실시간 타임라인 구분)
 function renderTimeline() {
   const majorContainer = document.getElementById('majorNewsList');
   const liveContainer = document.getElementById('liveNewsList');
@@ -3025,19 +3046,26 @@ function renderTimeline() {
   majorContainer.innerHTML = '';
   liveContainer.innerHTML = '';
 
-  // 통합 검색, 7대 테마 탭, 내 부서 및 상세 검색 필터 판별 헬퍼
+  // 통합 검색, 5대 테마 탭, 내 부서 및 상세 검색 필터 판별 헬퍼
   function matchesSearchCriteria(item, checkMainTab = true) {
     // 1) 탭 필터링 (checkMainTab=true 시 적용)
     if (checkMainTab && currentMainTab !== 'ALL' && currentMainTab !== 'HOME') {
       if (currentMainTab === 'RISK') {
         if (item.category !== 'RISK') return false;
       } else {
-        // 7대 테마 탭: INDUSTRY, TRANSIT, CULTURE, WELFARE, SAFETY, AUTONOMY, CITIZEN
-        if (item.theme_id !== currentMainTab) return false;
+        // 5대 테마 탭 매칭 (하위 호환 매핑 포함)
+        const themeId = item.theme_id;
+        const normThemeId = (themeId === 'INDUSTRY') ? 'INDUSTRY_AGRI' :
+                            (themeId === 'TRANSIT') ? 'TRANSIT_INFRA' :
+                            (themeId === 'CULTURE') ? 'CULTURE_ECO' :
+                            (themeId === 'WELFARE' || themeId === 'SAFETY') ? 'WELFARE_SAFETY' :
+                            (themeId === 'AUTONOMY' || themeId === 'CITIZEN') ? 'AUTONOMY_ADMIN' :
+                            themeId;
+        if (normThemeId !== currentMainTab) return false;
       }
     }
 
-    // 2) 7대 전략 테마 직접 필터 모드
+    // 2) 테마 직접 필터
     if (selectedThemeFilter && item.theme !== selectedThemeFilter && item.theme_id !== selectedThemeFilter) {
       return false;
     }
@@ -3088,15 +3116,13 @@ function renderTimeline() {
     return true;
   }
 
-  // 상단 탭 버튼 내 건수 카운트 갱신 (전체기사, 7대 테마 7종, 비판지적)
+  // 상단 탭 버튼 내 건수 카운트 갱신 (전체기사, 5대 테마 5종, 비판지적)
   const themeCounts = {
-    INDUSTRY: 0,
-    TRANSIT: 0,
-    CULTURE: 0,
-    WELFARE: 0,
-    SAFETY: 0,
-    AUTONOMY: 0,
-    CITIZEN: 0,
+    INDUSTRY_AGRI: 0,
+    TRANSIT_INFRA: 0,
+    CULTURE_ECO: 0,
+    WELFARE_SAFETY: 0,
+    AUTONOMY_ADMIN: 0,
     RISK: 0
   };
   let countAll = 0;
@@ -3105,8 +3131,16 @@ function renderTimeline() {
     if (matchesSearchCriteria(item, false)) {
       countAll++;
       if (item.category === 'RISK') themeCounts.RISK++;
-      if (item.theme_id && themeCounts[item.theme_id] !== undefined) {
-        themeCounts[item.theme_id]++;
+      
+      const themeId = item.theme_id;
+      const normThemeId = (themeId === 'INDUSTRY') ? 'INDUSTRY_AGRI' :
+                          (themeId === 'TRANSIT') ? 'TRANSIT_INFRA' :
+                          (themeId === 'CULTURE') ? 'CULTURE_ECO' :
+                          (themeId === 'WELFARE' || themeId === 'SAFETY') ? 'WELFARE_SAFETY' :
+                          (themeId === 'AUTONOMY' || themeId === 'CITIZEN') ? 'AUTONOMY_ADMIN' :
+                          themeId;
+      if (themeCounts[normThemeId] !== undefined) {
+        themeCounts[normThemeId]++;
       }
     }
   });
@@ -3117,13 +3151,11 @@ function renderTimeline() {
   };
 
   setSafeText('tabCountAll', countAll);
-  setSafeText('tabCountIndustry', themeCounts.INDUSTRY);
-  setSafeText('tabCountTransit', themeCounts.TRANSIT);
-  setSafeText('tabCountCulture', themeCounts.CULTURE);
-  setSafeText('tabCountWelfare', themeCounts.WELFARE);
-  setSafeText('tabCountSafety', themeCounts.SAFETY);
-  setSafeText('tabCountAutonomy', themeCounts.AUTONOMY);
-  setSafeText('tabCountCitizen', themeCounts.CITIZEN);
+  setSafeText('tabCountIndustryAgri', themeCounts.INDUSTRY_AGRI);
+  setSafeText('tabCountTransitInfra', themeCounts.TRANSIT_INFRA);
+  setSafeText('tabCountCultureEco', themeCounts.CULTURE_ECO);
+  setSafeText('tabCountWelfareSafety', themeCounts.WELFARE_SAFETY);
+  setSafeText('tabCountAutonomyAdmin', themeCounts.AUTONOMY_ADMIN);
   setSafeText('tabCountRisk', themeCounts.RISK);
 
   // 현재 탭 및 검색 조건으로 최종 필터링된 기사 목록
@@ -3144,17 +3176,39 @@ function renderTimeline() {
   }
   setSafeText('majorCountBadge', `${majorArticles.length}건`);
 
-  // 2) 실시간 뉴스 렌더링 (어제 보도 구분선 포함)
-  let hasInsertedYesterdayDivider = false;
+  // 2) 실시간 뉴스 렌더링 (공보실 08:00 스크랩 및 실시간 구분선)
+  let hasInsertedLiveDivider = false;
+  let hasInsertedScrapDivider = false;
+  let hasInsertedPastDivider = false;
+
   if (liveArticles.length > 0) {
     document.getElementById('emptyLiveNotice').style.display = 'none';
     liveArticles.forEach(item => {
-      if (item.date_group === 'YESTERDAY' && !hasInsertedYesterdayDivider) {
+      // 08:00 기준 구분선 삽입
+      if (item.date_group === 'TODAY_LIVE' && !hasInsertedLiveDivider) {
         const divider = document.createElement('div');
         divider.className = 'date-divider';
-        divider.innerHTML = `<span>어제 보도 (${yesterdayLabel})</span>`;
+        divider.innerHTML = `<span>오늘 실시간 보도 (08:00 이후)</span>`;
         liveContainer.appendChild(divider);
-        hasInsertedYesterdayDivider = true;
+        hasInsertedLiveDivider = true;
+      } else if (item.date_group === 'MORNING_SCRAP' && !hasInsertedScrapDivider) {
+        const divider = document.createElement('div');
+        divider.className = 'date-divider';
+        divider.innerHTML = `<span>조간 스크랩 보도 (전일 08:00 ~ 금일 08:00)</span>`;
+        liveContainer.appendChild(divider);
+        hasInsertedScrapDivider = true;
+      } else if (item.date_group === 'YESTERDAY' && !hasInsertedScrapDivider) {
+        const divider = document.createElement('div');
+        divider.className = 'date-divider';
+        divider.innerHTML = `<span>조간 스크랩 보도 (어제자 보도)</span>`;
+        liveContainer.appendChild(divider);
+        hasInsertedScrapDivider = true;
+      } else if (item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY' && !hasInsertedPastDivider) {
+        const divider = document.createElement('div');
+        divider.className = 'date-divider';
+        divider.innerHTML = `<span>이전 아카이브 보도</span>`;
+        liveContainer.appendChild(divider);
+        hasInsertedPastDivider = true;
       }
       liveContainer.appendChild(createNewsCard(item, false));
     });
@@ -3163,7 +3217,7 @@ function renderTimeline() {
   }
   setSafeText('liveCountBadge', `${liveArticles.length}건`);
 
-  // 3) 슬림 통계 수치 갱신 (요소 존재 시 안전 갱신)
+  // 3) 슬림 통계 수치 안전 갱신
   setSafeText('statTotal', filtered.length);
   setSafeText('statMajor', majorArticles.length);
   setSafeText('statLive', liveArticles.length);
@@ -3750,28 +3804,33 @@ function resetAllFilters() {
 // data.macro_pulse가 없을 때를 대비한 브라우저 클라이언트 측 자동 계산 Fallback
 function extractClientMacroPulse(articles) {
   const themesDef = [
-    { id: 'INDUSTRY', name: '미래 첨단산업 · 혁신성장', short_name: '첨단산업' },
-    { id: 'TRANSIT', name: '광역 교통망 · 균형발전', short_name: '교통망' },
-    { id: 'CULTURE', name: '문화관광 · 도시브랜드', short_name: '문화관광' },
-    { id: 'WELFARE', name: '포용복지 · 생애주기 돌봄', short_name: '포용복지' },
-    { id: 'SAFETY', name: '시민안전 · 환경재난 대응', short_name: '시민안전' },
-    { id: 'AUTONOMY', name: '특례시 자치분권 · 행정혁신', short_name: '특례시자치' },
-    { id: 'CITIZEN', name: '미래 인재양성 · 시민소통', short_name: '시민소통' }
+    { id: 'INDUSTRY_AGRI', name: '미래 첨단산업 · 스마트 농축수산', short_name: '산업·농정' },
+    { id: 'TRANSIT_INFRA', name: '광역 교통망 · 균형발전 도시인프라', short_name: '교통·도시' },
+    { id: 'CULTURE_ECO', name: '문화관광 · 해양생태 도시브랜드', short_name: '문화·관광' },
+    { id: 'WELFARE_SAFETY', name: '포용 복지안전 · 생활환경 돌봄', short_name: '복지·안전' },
+    { id: 'AUTONOMY_ADMIN', name: '특례시 자치분권 · 시민소통 행정', short_name: '특례시·자치' }
   ];
 
   const counts = {};
-  themesDef.forEach(t => counts[t.name] = 0);
+  themesDef.forEach(t => counts[t.id] = 0);
   const total = articles.length;
 
   articles.forEach(a => {
-    if (a.theme && counts[a.theme] !== undefined) {
-      counts[a.theme]++;
+    let tid = a.theme_id || 'INDUSTRY_AGRI';
+    if (tid === 'INDUSTRY') tid = 'INDUSTRY_AGRI';
+    if (tid === 'TRANSIT') tid = 'TRANSIT_INFRA';
+    if (tid === 'CULTURE') tid = 'CULTURE_ECO';
+    if (tid === 'WELFARE' || tid === 'SAFETY') tid = 'WELFARE_SAFETY';
+    if (tid === 'AUTONOMY' || tid === 'CITIZEN') tid = 'AUTONOMY_ADMIN';
+
+    if (counts[tid] !== undefined) {
+      counts[tid]++;
     }
   });
 
   const theme_stats = themesDef.map(t => {
-    const c = counts[t.name] || 0;
-    const r = total > 0 ? Math.round((c / total) * 1000) / 10 : 0;
+    const c = counts[t.id] || 0;
+    const r = total > 0 ? Math.round((c / total) * 100) : 0;
     return {
       id: t.id,
       name: t.name,
@@ -3785,14 +3844,14 @@ function extractClientMacroPulse(articles) {
   const top1 = sorted[0] || themesDef[0];
   const top2 = sorted[1] || themesDef[1];
 
-  const overview = `화성특례시 출범과 민선8기 전략을 선도하는 「${top1.short_name}」(${top1.count}건, ${top1.ratio}%) 분야가 시정 전반의 최대 보도 비중을 차지하며 미래 전략 사업이 본궤도에 오르고 있습니다.`;
+  const overview = `화성특례시 출범과 민선8기 전략을 선도하는 「${top1.short_name}」(${top1.count}건, ${top1.ratio}%) 분야를 중심으로 시정 핵심 정책 및 현안이 본궤도에 오르고 있습니다.`;
 
   const main_points = [
-    `동탄호수공원 루나빛축제 등 가을철 도심 수변 문화 행사에 대규모 시민 인파가 집중되며 도시 브랜드 가치가 확산되었습니다.`,
-    `미래 첨단산업 육성 및 AI 스마트 행정 고도화에 관한 언론의 긍정적 조명이 집중되고 있습니다.`,
-    `동서 균형발전과 철도·도로망 확충 등 대도시 교통 인프라 조성을 위한 다각적 협력이 강화되고 있습니다.`,
-    `생애주기별 맞춤형 포용복지와 장애인·어르신 체감형 복합 복지 지원으로 따뜻한 공동체를 실현하고 있습니다.`,
-    `시민 생활 안전망 구축과 맑고 쾌적한 도시환경 조성을 위한 현장 중심 사전 점검 행정이 지속 강화되고 있습니다.`
+    `- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명`,
+    `- [2026 화성 루나빛축제 추진] 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시브랜드 가치 확산`,
+    `- [제14회 경기도장애인배드민턴대회] 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각`,
+    `- [스마트 로컬푸드 및 서해안 수산진흥] 친환경 농산물 공급망 확대와 어촌 상생 지원을 통해 도농복합 1차 산업 경쟁력 강화 조명`,
+    `- [가을철 다중이용시설 선제 안전점검] 소방·경찰 합동 사전 현장 점검 행정 추진으로 시민 생활 안전망 및 도시 신뢰도 제고`
   ];
 
   const risk_cautions = articles.filter(a => a.category === 'RISK').map(a => ({
