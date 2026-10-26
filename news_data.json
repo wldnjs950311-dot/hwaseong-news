@@ -1,18 +1,556 @@
 {
-  "updated_at": "2026.10.26. 09:00",
+  "updated_at": "2026.10.26. 15:00",
+  "scrap_period": "전일(10.25) 08:00 ~ 금일(10.26) 08:00",
   "yesterday_label": "10.25",
+  "macro_pulse": {
+    "overview": "화성특례시 출범을 앞두고 우주항공 미래 신산업 육성과 시민 중심 문화·교통 인프라 확충, 수원 군공항 이전 저지를 위한 민·관·정 공조 체계가 본격 가동되고 있습니다.",
+    "main_points": [
+      "- [우주항공산업 추진단 공식 발족] 민·관·학·연 전문가 60명이 참여하는 추진단 출범을 계기로 반도체·제조업 기반을 우주항공 미래 산업으로 확장하는 산업 대전환에 언론 조명 집중",
+      "- [2026 화성 루나빛축제 개최] 동탄호수공원 운답원 일원에서 드론 500대를 투입한 대규모 야경 축제가 마련되며 시민 일상 속 문화예술 향유 및 관광 활성화 보도 확산",
+      "- [수원 군공항 화성 이전 대응 민·관·정 간담회] 화성시의회 군공항 특위, 정명근 시장, 범시민대책위가 공동 대응 방안을 논의하며 화성특례시 자치권 수호와 이전 반대 결집력 부각",
+      "- [동탄2신도시 주민 예산 수요 조사 발표] 응답자의 78.6%가 교통 개선을 최우선 투자 분야로 지목함에 따라 버스 등 대중교통 인프라 확충 요구에 언론 관심 집중",
+      "- [제3회 샤인머스캣 품평회 개최] 관내 포도 농가를 대상으로 한 엄격한 품질 심사와 우수 농가 시상이 진행되며 지역 농산물 브랜드 가치 제고 및 농가 경쟁력 강화 조명"
+    ],
+    "risk_cautions": [
+      {
+        "title": "화성시의회 군공한 특위, 시장·범대위와 민·관·정 간담회...\"추미애발...",
+        "media": "언론사",
+        "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66439",
+        "time_label": "오늘 11:18",
+        "department": "군공항대응과",
+        "bullets": [
+          "- 화성특례시의회 수원 군공항 화성시 이전 반대 특위가 정명근 화성시장, 범대위와 함께 민·관·정 간담회를 개최함",
+          "- 국방부의 갈등관리 용역 및 특별법안 발의, 경기국제공항 재추진 등에 대응한 공동 협력 방안을 집중 논의함",
+          "- 정명근 시장은 수원 군공항 화성 이전 저지를 위해 시 차원의 지원과 협조를 적극적으로 이어가겠다고 밝힘"
+        ]
+      },
+      {
+        "title": "상수도 원격검침 0%·광역버스 만차… ‘대책 촉구’ 쏟아진 화성시의회",
+        "media": "경인일보",
+        "link": "https://www.kyeongin.com/article/1773354",
+        "time_label": "어제 20:10",
+        "department": "의회법무과",
+        "bullets": [
+          "- 화성시의회 제255회 임시회 5분 발언에서 생활 인프라 개선 및 시정 대책을 촉구하는 지적이 잇따름",
+          "- 이은진 의원은 수도 원격검침 0% 문제를 짚으며 디지털 전환을, 최청환 의원은 광역버스 만차 해소와 교통 편의 개선을 요구함",
+          "- 이민희 의원은 생활폐기물 소각시설 확충에 앞서 주민 의견 수렴 및 지역 상생 방안 마련이 선행되어야 한다고 강조함"
+        ]
+      }
+    ],
+    "summary_bullets": [
+      "화성특례시 출범을 앞두고 우주항공 미래 신산업 육성과 시민 중심 문화·교통 인프라 확충, 수원 군공항 이전 저지를 위한 민·관·정 공조 체계가 본격 가동되고 있습니다.",
+      "- [우주항공산업 추진단 공식 발족] 민·관·학·연 전문가 60명이 참여하는 추진단 출범을 계기로 반도체·제조업 기반을 우주항공 미래 산업으로 확장하는 산업 대전환에 언론 조명 집중",
+      "- [2026 화성 루나빛축제 개최] 동탄호수공원 운답원 일원에서 드론 500대를 투입한 대규모 야경 축제가 마련되며 시민 일상 속 문화예술 향유 및 관광 활성화 보도 확산"
+    ],
+    "theme_stats": [
+      {
+        "id": "INDUSTRY_AGRI",
+        "name": "미래 첨단산업 · 스마트 농축수산",
+        "short_name": "산업·농정",
+        "count": 8,
+        "ratio": 27
+      },
+      {
+        "id": "TRANSIT_INFRA",
+        "name": "광역 교통망 · 균형발전 도시인프라",
+        "short_name": "교통·도시",
+        "count": 2,
+        "ratio": 7
+      },
+      {
+        "id": "CULTURE_ECO",
+        "name": "문화관광 · 해양생태 브랜드",
+        "short_name": "문화·관광",
+        "count": 6,
+        "ratio": 20
+      },
+      {
+        "id": "WELFARE_SAFETY",
+        "name": "포용 복지안전 · 생활환경 돌봄",
+        "short_name": "복지·안전",
+        "count": 5,
+        "ratio": 17
+      },
+      {
+        "id": "AUTONOMY_ADMIN",
+        "name": "특례시 자치분권 · 시민소통 행정",
+        "short_name": "특례시·자치",
+        "count": 9,
+        "ratio": 30
+      }
+    ]
+  },
+  "trending_topics": [
+    {
+      "rank": 1,
+      "keyword": "우주항공산업 추진단",
+      "count": 11,
+      "category": "POLICY",
+      "dept": "기업투자실 첨단산업과",
+      "summary": "우주항공산업 육성을 위해 전 항우연 원장 등 민·관·학·연 전문가 60명으로 구성된 추진단을 출범함"
+    },
+    {
+      "rank": 2,
+      "keyword": "수원 군공항 이전 대응",
+      "count": 6,
+      "category": "RISK",
+      "dept": "군공항대응과",
+      "summary": "수원 군공항 이전 문제에 대응하기 위해 시의회 특위, 시장, 범시민대책위가 참여하는 민·관·정 간담회를 열고 공동 대응을 강화함"
+    },
+    {
+      "rank": 3,
+      "keyword": "루나빛축제",
+      "count": 4,
+      "category": "CULTURE",
+      "dept": "문화예술과",
+      "summary": "오는 31일 동탄호수공원 운답원 일원에서 500대 드론 라이트쇼 등 가을밤을 밝히는 축제를 염"
+    },
+    {
+      "rank": 4,
+      "keyword": "전국장애인 배드민턴대회",
+      "count": 4,
+      "category": "CULTURE",
+      "dept": "체육진흥과",
+      "summary": "실내배드민턴장에서 선수와 관계자 350여 명이 참여한 가운데 제1회 시장배 대회를 진행함"
+    },
+    {
+      "rank": 5,
+      "keyword": "ASM코리아 현장 방문",
+      "count": 4,
+      "category": "POLICY",
+      "dept": "기획조정실 의회법무과",
+      "summary": "시의회 경제환경위원회가 동탄2인큐베이팅센터, ASM코리아, 아이젤 등 주요 산업현장을 찾아 현안을 점검함"
+    }
+  ],
   "stats": {
-    "total": 16,
-    "major_count": 5,
-    "live_count": 11,
-    "today_count": 5,
-    "yesterday_count": 9,
-    "policy": 13,
-    "culture": 3,
-    "risk": 1,
-    "scrap_count": 12
+    "total": 30,
+    "major_count": 10,
+    "live_count": 20,
+    "today_count": 19,
+    "scrap_count": 11,
+    "yesterday_count": 0,
+    "policy": 20,
+    "culture": 8,
+    "risk": 2
   },
   "articles": [
+    {
+      "title": "화성시 \"동탄호수공원 운답원 일원 드론 500대 모여 밤하늘 수놓는다\"",
+      "link": "https://www.newspim.com/news/view/20261026000807",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:55",
+      "pub_timestamp": "2026-10-26T14:55:00+09:00",
+      "bullets": [
+        "- 화성시가 오는 31일 동탄호수공원 운답원 일원에서 '루나빛축제'를 개최함",
+        "- 이번 축제는 다채로운 공연, 전시, 체험 프로그램 등으로 구성되어 시민 참여를 유도함",
+        "- 드론 500대를 활용한 라이트쇼와 불꽃, 조명, 음악이 어우러진 야간 공연이 펼쳐질 예정임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.newspim.com/news/2026/10/26/2610261439111870_t1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "가족 체험으로 잇는 탄소중립… 화성 감탄탐사대 마무리",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261026010008786",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "환경정책과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:54",
+      "pub_timestamp": "2026-10-26T14:54:00+09:00",
+      "bullets": [
+        "- 화성시환경재단이 가족 단위 환경체험 프로그램인 '감탄탐사대'를 성공적으로 마무리함",
+        "- '감(축)탄(소) 화성 온도 낮추기' 사업의 일환으로 5월부터 10월까지 총 6회에 걸쳐 운영됨",
+        "- 전곡항, 비봉습지공원 등 관내 생태 현장에서 현장 체험을 통해 일상 속 탄소중립 실천을 유도함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/10m/26d/2026102601001613900087861.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시 동탄2 주민 예산 수요 조사…교통 개선 1순위",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261026010008763",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "예산담당관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:54",
+      "pub_timestamp": "2026-10-26T14:54:00+09:00",
+      "bullets": [
+        "- 화성시 동탄2신도시 주민 대상 예산 수요 조사 결과 교통 개선이 최우선 투입 분야로 꼽힘",
+        "- 동별 수요 조사에서는 문화체육, 일자리 및 상권 활성화 등 세부 분야별 차이를 보임",
+        "- 화성시을 이준석 국회의원실을 통해 발표된 이번 결과는 향후 시정 예산 편성 및 정책 수립에 반영될 전망"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 우주항공산업 이끌 전문가 60명 집결… 김승조·김선우 등 참여",
+      "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/26/2026102600238.html",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:50",
+      "pub_timestamp": "2026-10-26T14:50:00+09:00",
+      "bullets": [
+        "- 화성시는 우주항공산업 육성을 위해 김승조 전 항우연 원장 등 민·관·학·연 전문가 60명이 참여하는 '우주항공산업 추진단'을 구성함",
+        "- 추진단은 정책·기획, 우주, 항공, AI 등 4개 분과로 나누어 화성특례시의 우주항공산업 추진을 전폭 지원할 예정임",
+        "- 오는 11월 3일 코엑스 글로벌 AI 엑스포 'MARS 2026' 개막 세션에서 공식 출범식을 가질 계획임"
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시, 전문가 60명 참여 '우주항공산업 추진단' 출범 예정",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2010246",
+          "media": "언론사",
+          "time_label": "오늘 14:24",
+          "pub_timestamp": "2026-10-26T14:24:00+09:00"
+        },
+        {
+          "title": "우주·항공·AI 한데 묶는다…화성시, 미래 산업 키울 전문가 60명 구성",
+          "link": "https://www.cwn.kr/news/articleView.html?idxno=60146",
+          "media": "언론사",
+          "time_label": "오늘 14:18",
+          "pub_timestamp": "2026-10-26T14:18:00+09:00"
+        },
+        {
+          "title": "화성시, '마스(MARS) 2026'에서 '우주항공산업 추진단' 출범",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1541657",
+          "media": "언론사",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-10-26T14:12:00+09:00"
+        },
+        {
+          "title": "[사업 추진 브리핑] 화성시, 전문가 60명 포진 우주항공 추진단 뜬다",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=833158",
+          "media": "언론사",
+          "time_label": "오늘 13:14",
+          "pub_timestamp": "2026-10-26T13:14:00+09:00"
+        },
+        {
+          "title": "화성시, 'MARS 2026' 행사장서 우주항공산업 추진단 출범",
+          "link": "https://www.yna.co.kr/view/AKR20261026066400061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 11:10",
+          "pub_timestamp": "2026-10-26T11:10:00+09:00"
+        },
+        {
+          "title": "화성시 '우주항공산업 추진단' 60인 최고 전문가 전면 배치",
+          "link": "https://www.asiatime.co.kr/article/20261026500139",
+          "media": "언론사",
+          "time_label": "오늘 11:08",
+          "pub_timestamp": "2026-10-26T11:08:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.newdaily.co.kr/site/data/img/2026/10/26/2026102600238_0.jpg?u=20261026143724?u=20261026143724",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, ASM코라아 등 동탄 산업현장 방문",
+      "link": "https://www.newsis.com/view/NISX20261026_0003841258",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:33",
+      "pub_timestamp": "2026-10-26T14:33:00+09:00",
+      "bullets": [
+        "- 화성시의회 경제환경위원회가 동탄2인큐베이팅센터, ASM코리아, 아이젤 등 동탄구 산업현장 3곳을 방문함",
+        "- 입주 시설 및 반도체 장비 기업 등을 둘러보며 운영 현황을 점검하고 기업 애로사항을 청취함",
+        "- 시의회는 관내 기업 지원 방안 논의 및 기업하기 좋은 환경 조성을 위한 현장 중심 의정활동을 전개함"
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시의회 경제환경위원회, 동탄 산업 현장 3곳 방문해 현...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799519",
+          "media": "언론사",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-10-26T14:30:00+09:00"
+        },
+        {
+          "title": "화성시의회 경제환경委, 동탄 첨단산업 현장 방문… 현장 중심 의정 역...",
+          "link": "https://www.asiatime.co.kr/article/20261026500317",
+          "media": "언론사",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-10-26T14:30:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회 도시건설위, 지역 건축행정 현안·개선방안 논...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=799437",
+          "media": "언론사",
+          "time_label": "오늘 11:28",
+          "pub_timestamp": "2026-10-26T11:28:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img1.newsis.com/2026/10/26/NISI20261026_0002274017_web.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회 군공항 이전 반대 특위, 민·관·정 공동 대응 강화",
+      "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/26/2026102600227.html",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "군공항대응과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:24",
+      "pub_timestamp": "2026-10-26T14:24:00+09:00",
+      "bullets": [
+        "- 화성시의회 군공항 이전 반대 특위, 정명근 시장, 범시민대책위 등이 참석한 민·관·정 간담회 개최",
+        "- 국방부 갈등관리 용역 및 관련 특별법안 발의에 대응하기 위한 민·관·정 협의체 구성 논의",
+        "- 수원 군공항의 화성 이전 저지와 시민 의견 반영을 위한 공동 대응 체계 강화 합의"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시의회, 군공항 이전 반대 공동대응",
+          "link": "http://www.breaknews.com/1245676",
+          "media": "언론사",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-10-26T14:12:00+09:00"
+        },
+        {
+          "title": "수원 군공항 이전 갈등 다시 수면 위로…화성시 민·관·정 공동 대응 강...",
+          "link": "https://www.ekn.kr/web/view.php?key=20261026020251041",
+          "media": "언론사",
+          "time_label": "오늘 14:10",
+          "pub_timestamp": "2026-10-26T14:10:00+09:00"
+        },
+        {
+          "title": "[현장 의정 리포트] 화성시의회, 군공항 이전 저지 민관정 뭉쳤다",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=833150",
+          "media": "언론사",
+          "time_label": "오늘 13:14",
+          "pub_timestamp": "2026-10-26T13:14:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.newdaily.co.kr/site/data/img/2026/10/26/2026102600227_0.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 건축제도 개선 방안 모색",
+      "link": "http://www.breaknews.com/1245675",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:12",
+      "pub_timestamp": "2026-10-26T14:12:00+09:00",
+      "bullets": [
+        "- 화성특례시의회 도시건설위원회가 대한건축사협회 화성·오산지역건축사회와 건축행정 현안 간담회를 개최함",
+        "- 현장의 실질적 애로사항을 청취하고 시민 편의와 지역 경제 활성화를 위한 제도 개선 방향을 모색함",
+        "- 위반건축물 양성화를 위한 제도적 지원 방안 등 주요 현안에 대해 심도 있는 논의를 진행함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.breaknewsi.com/imgdata/breaknewsi_com/202610/2026102635115466.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의회, 수원 군공항 이전 관련 민관·정 간담회 개최",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3038845",
+      "media": "기호일보",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:50",
+      "pub_timestamp": "2026-10-26T13:50:00+09:00",
+      "bullets": [
+        "- 화성시의회가 수원 군공항 화성시 이전 문제에 대응하기 위한 민·관·정 간담회 개최",
+        "- 정명근 화성시장, 시의회 이전반대 특위 위원, 범시민대책위 관계자 등이 참석해 국방부 용역 등 최근 현안 공유",
+        "- 화성시와 시의회, 시민사회의 긴밀한 협력을 바탕으로 실효성 있는 공동 대응 방안 모색 추진"
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시의회, 수원 군공항 이전 반대 민·관·정 협력 방안 논의",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2010251",
+          "media": "언론사",
+          "time_label": "오늘 13:10",
+          "pub_timestamp": "2026-10-26T13:10:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202610/3038845_583391_4920.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "동탄2 주민 78.6% ‘교통 개선’ 우선… 교통 세부사업은 버스 관련 47.9...",
+      "link": "https://gg.newdaily.co.kr/site/data/html/2026/10/26/2026102600168.html",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "트램건설추진단",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:30",
+      "pub_timestamp": "2026-10-26T13:30:00+09:00",
+      "bullets": [
+        "- 이준석 국회의원실 조사 결과 동탄2신도시 주민의 78.6%가 화성시 예산의 최우선 투자 분야로 '교통 개선'을 선택함",
+        "- 교통 세부 분야에서는 버스 관련 사업(47.9%) 선호도가 가장 높았으며, 동별로 도로 및 트램 등에 대한 수요 차이를 보임",
+        "- 화성특례시 출범을 앞두고 동탄4·6·7·8·9동 주민들의 교통 및 인프라 예산 편성 요구가 구체화됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://image.newdaily.co.kr/site/data/img/2026/10/26/2026102600168_0.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 31일 '2026 화성 루나빛축제' 개최",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3038834",
+      "media": "기호일보",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:12",
+      "pub_timestamp": "2026-10-26T13:12:00+09:00",
+      "bullets": [
+        "- 화성시가 31일 동탄호수공원 운답원에서 '2026 화성 루나빛축제'를 개최함",
+        "- 화성시가 주최하고 화성시문화관광재단이 주관하며 '사라진 달빛을 찾아서'를 주제로 공연·전시·체험 등이 마련됨",
+        "- 빛 놀이터 및 갤러리 상설 운영과 버블쇼, 랜덤 플레이댄스, 재즈 공연 및 오후 7시 개막 공연이 진행됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202610/3038834_583375_1056.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "엄격한 심사…화성시, 샤인머스캣 톱5 우수 농가 뽑았다",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008814976&plink=ORI&cooper=NAVER",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "농업기술센터",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 12:39",
+      "pub_timestamp": "2026-10-26T12:39:00+09:00",
+      "bullets": [
+        "- 화성시가 관내 포도 농장을 대상으로 '제3회 샤인머스캣 품평회'를 개최함",
+        "- 지역 학부모와 영양사 등이 심사위원으로 참여해 엄격한 심사를 진행함",
+        "- 출품된 22개 농가 중 품질이 뛰어난 우수 농가 5곳을 최종 선발함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.sbs.co.kr/newimg/news/20261026/202234829_1280.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "정명근의 승부수…화성 산업 대전환, 우주에서 미래를 열다",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261026010008643",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기획조정실 균형발전과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:22",
+      "pub_timestamp": "2026-10-26T11:22:00+09:00",
+      "bullets": [
+        "- 화성시가 기존 반도체·제조업 기반을 우주항공 분야로 확장하는 산업 대전환 성장전략 추진",
+        "- 우주항공산업 추진단을 출범하고 산·학·연 협력을 통한 우주항공 산업 생태계 조성 본격화",
+        "- R&D부터 기업 유치, 생산, 실증, 데이터 활용까지 이어지는 미래 성장동력 실행 기반 마련"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/10m/26d/2026102601001589500086431.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회 군공한 특위, 시장·범대위와 민·관·정 간담회...\"추미애발...",
+      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=66439",
+      "media": "언론사",
+      "category": "RISK",
+      "department": "군공항대응과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:18",
+      "pub_timestamp": "2026-10-26T11:18:00+09:00",
+      "bullets": [
+        "- 화성특례시의회 수원 군공항 화성시 이전 반대 특위가 정명근 화성시장, 범대위와 함께 민·관·정 간담회를 개최함",
+        "- 국방부의 갈등관리 용역 및 특별법안 발의, 경기국제공항 재추진 등에 대응한 공동 협력 방안을 집중 논의함",
+        "- 정명근 시장은 수원 군공항 화성 이전 저지를 위해 시 차원의 지원과 협조를 적극적으로 이어가겠다고 밝힘"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.newsroad.co.kr/news/thumbnail/202610/66439_90140_319_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "[26일 화성시] 동탄호수공원서 ‘화성 루나빛축제’ 개최 등",
+      "link": "https://www.asiatime.co.kr/article/20261026500159",
+      "media": "언론사",
+      "category": "CULTURE",
+      "department": "관광진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:10",
+      "pub_timestamp": "2026-10-26T11:10:00+09:00",
+      "bullets": [
+        "- 화성시가 오는 31일 동탄호수공원 운답원 일원에서 시민 참여형 축제인 ‘화성 루나빛축제’를 개최함",
+        "- ‘사라진 달빛을 찾아서’를 주제로 화성특례시가 주최하고 화성시문화관광재단이 주관하여 다양한 공연·전시·체험 진행",
+        "- 빛 놀이터와 빛 갤러리 등 상설 프로그램과 더불어 버블·벌룬쇼, 랜덤플레이댄스 등 시민 참여 행사 운영"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/10/26/.cache/512/20261026500164.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성특례시, 미래먹거리 '우주항공산업' 본격 시동",
       "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335050",
@@ -448,114 +986,5 @@
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정"
     }
-  ],
-  "trending_topics": [
-    {
-      "rank": 1,
-      "keyword": "우주항공산업 추진단 (MARS 2026)",
-      "count": 8,
-      "category": "POLICY",
-      "dept": "기업투자실 첨단산업과",
-      "summary": "민·관·학·연 전문가 60명으로 구성된 우주항공산업 추진단 발족 및 11월 코엑스 공식 출범식"
-    },
-    {
-      "rank": 2,
-      "keyword": "루나빛축제",
-      "count": 4,
-      "category": "CULTURE",
-      "dept": "문화관광국 문화예술과",
-      "summary": "동탄호수공원 운답원 일원에서 시민 상상력을 담은 2026 루나빛축제 개최"
-    },
-    {
-      "rank": 3,
-      "keyword": "상수도 원격검침·광역버스 대책",
-      "count": 2,
-      "category": "RISK",
-      "dept": "기획조정실 의회법무과",
-      "summary": "화성시의회 임시회 5분 발언에서 생활 인프라 개선 및 시정 대책을 촉구하는 지적 잇따름"
-    },
-    {
-      "rank": 4,
-      "keyword": "전국장애인 배드민턴대회",
-      "count": 2,
-      "category": "CULTURE",
-      "dept": "교육체육국 체육진흥과",
-      "summary": "전국 선수 및 관계자 350여 명이 참가하는 제1회 전국장애인 배드민턴대회 개최"
-    },
-    {
-      "rank": 5,
-      "keyword": "동탄인덕원선 동탄역",
-      "count": 2,
-      "category": "POLICY",
-      "dept": "교통국 철도전략과",
-      "summary": "동탄인덕원선 동탄역 하루 이용수요 오류 인정 및 출입구 증설 비용 분담 재검토"
-    }
-  ],
-  "macro_pulse": {
-    "summary_bullets": [
-      "화성특례시 출범과 민선8기 미래 전략산업 및 도시브랜드 육성을 중심으로 시정 핵심 정책이 본궤도에 오르고 있습니다.",
-      "- 동탄호수공원 루나빛축제 등 가을철 도심 수변 문화 행사에 대규모 시민 인파가 집중되며 도시브랜드 가치가 크게 확산되었습니다.",
-      "- 미래 첨단산업 육성 및 AI 스마트 행정 고도화를 통해 특례시 성장동력 확보에 관한 언론의 집중 조명이 이어졌습니다."
-    ],
-    "theme_stats": [
-      {
-        "id": "INDUSTRY_AGRI",
-        "name": "미래 첨단산업 · 스마트 농축수산",
-        "short_name": "산업·농정",
-        "count": 5,
-        "ratio": 31
-      },
-      {
-        "id": "TRANSIT_INFRA",
-        "name": "광역 교통망 · 균형발전 도시인프라",
-        "short_name": "교통·도시",
-        "count": 1,
-        "ratio": 6
-      },
-      {
-        "id": "CULTURE_ECO",
-        "name": "문화관광 · 해양생태 도시브랜드",
-        "short_name": "문화·관광",
-        "count": 3,
-        "ratio": 19
-      },
-      {
-        "id": "WELFARE_SAFETY",
-        "name": "포용 복지안전 · 생활환경 돌봄",
-        "short_name": "복지·안전",
-        "count": 4,
-        "ratio": 25
-      },
-      {
-        "id": "AUTONOMY_ADMIN",
-        "name": "특례시 자치분권 · 시민소통 행정",
-        "short_name": "특례시·자치",
-        "count": 3,
-        "ratio": 19
-      }
-    ],
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(6건, 35%) 및 「복지·안전」(4건, 24%) 분야를 중심으로 시정 핵심 정책이 활발히 추진되고 있습니다.",
-    "main_points": [
-      "- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비가 보도되며 미래 첨단산업 성장동력 확보에 관심 집중",
-      "- [2026 화성 루나빛축제 추진] 동탄호수공원 수변 야경 축제 기획으로 일상 속 도심 문화예술 향유 및 시민 문화복지 증진 보도 확산",
-      "- [제14회 경기도장애인배드민턴대회 개최] 200여 명 선수단 참가 속에 대회가 성료되며 생활밀착형 장애인 체육 진흥 및 포용복지 실현 조명",
-      "- [스마트 로컬푸드 및 서해안 수산자원 대책] 친환경 농산물 유통 확대와 어촌 소득 증대 지원 사업으로 1차 산업 경쟁력 강화 부각",
-      "- [가을철 다중이용시설 선제 안전점검] 소방·경찰 합동 사전 현장 점검 행정 추진으로 시민 생명 및 생활 안전망 확보 노력 집중 보도"
-    ],
-    "risk_cautions": [
-      {
-        "title": "상수도 원격검침 0%·광역버스 만차… ‘대책 촉구’ 쏟아진 화성시의회",
-        "media": "경인일보",
-        "link": "https://www.kyeongin.com/article/1773354",
-        "time_label": "어제 20:10",
-        "department": "의회법무과",
-        "bullets": [
-          "- 화성시의회 제255회 임시회 5분 발언에서 생활 인프라 개선 및 시정 대책을 촉구하는 지적이 잇따름",
-          "- 이은진 의원은 수도 원격검침 0% 문제를 짚으며 디지털 전환을, 최청환 의원은 광역버스 만차 해소와 교통 편의 개선을 요구함",
-          "- 이민희 의원은 생활폐기물 소각시설 확충에 앞서 주민 의견 수렴 및 지역 상생 방안 마련이 선행되어야 한다고 강조함"
-        ]
-      }
-    ]
-  },
-  "scrap_period": "전일(10.25) 08:00 ~ 금일(10.26) 08:00"
+  ]
 }
