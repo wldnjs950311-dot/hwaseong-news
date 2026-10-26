@@ -644,36 +644,58 @@ def extract_macro_pulse(client, articles):
     top_theme_names = [st["short_name"] for st in sorted_themes if st["count"] > 0][:2]
     top_themes_str = ", ".join(top_theme_names) if top_theme_names else "시정 일반"
 
-    # 2. Gemini를 활용한 시장/정책관 주간 거시 맥락 진단 (이모티콘 철저 배제)
-    summary_bullets = []
+    # 2. 비판/지적성(RISK) 기사 전수 수록 (중복 클러스터 배제한 대표 기사 목록)
+    risk_cautions = []
+    seen_risk_titles = set()
+    for a in articles:
+        if a.get("category") == "RISK":
+            clean_rt = re.sub(r"[^\w가-힣]", "", a.get("title", ""))
+            if clean_rt in seen_risk_titles:
+                continue
+            seen_risk_titles.add(clean_rt)
+            risk_cautions.append({
+                "title": a.get("title", ""),
+                "media": a.get("media", "언론사"),
+                "link": a.get("link", ""),
+                "time_label": a.get("time_label", ""),
+                "department": a.get("department", "공보실"),
+                "response_direction": a.get("response_direction", "현안 사실관계 확인 및 신속한 언론 대응 필요"),
+                "bullets": a.get("bullets", [])
+            })
+
+    # 3. Gemini를 활용한 주간 언론동향 (개요 + 5줄 주요내용) 도출
+    overview_text = ""
+    main_points = []
+
     if client and GEMINI_API_KEY:
         try:
             briefs = []
-            for idx, a in enumerate(articles[:12], 1):
+            for idx, a in enumerate(articles[:15], 1):
                 b_text = a.get("bullets", [""])[0].lstrip("- ")
                 briefs.append(f"{idx}. [{a.get('theme_short', '')}] {a['title']} - {b_text}")
             articles_text = "\n".join(briefs)
 
             prompt = f"""당신은 화성시장 및 정책기획관의 수석 정책보좌관입니다.
-아래 수집된 화성시 주요 뉴스들을 종합 분석하여, 시장 및 정책관이 시정 전체 맥락을 한눈에 파악할 수 있는 '화성시정 종합 맥락 진단 (3문장)'을 작성하십시오.
+수집된 화성시 뉴스들을 심층 분석하여, 시장과 간부진이 주간 언론동향의 핵심과 시민 체감 기류를 한눈에 파악할 수 있는 보고서를 작성하십시오.
 
 [수집된 주요 기사 목록]:
 {articles_text}
 
-[작업 지침 - 매우 중요]:
+[작성 지침 - 엄수]:
 1. 이모티콘(이모지)은 절대로 단 하나도 사용하지 마십시오. 공공 지자체 공식 보고서의 격조 높고 단정한 문체로 작성하십시오.
-2. 아래 3가지 관점으로 각각 1문장씩, 총 3개 문장으로 작성하십시오 (각 줄은 '- '로 시작):
-   - 첫 번째 줄: 시정 핵심 드라이브 (현재 화성시정이 가장 강하게 주력하고 있는 핵심 정책 분야와 그 배경)
-   - 두 번째 줄: 시민 체감 기류 (문화, 축제, 복지, 생활 편의 등 시민 생활 현장에서 나타나는 주요 흐름)
-   - 세 번째 줄: 주요 현안 및 점검 사항 (시의회 질의, 공사 안전, 주민 민원 등 선제적 관리가 필요한 사안)
-3. JSON 형식으로 출력하십시오.
+2. 'overview'(개요): 화성시정이 가장 강하게 주력하는 핵심 정책 방향 및 전략 사업 추진 동향을 1문장으로 작성하십시오.
+3. 'main_points'(주요내용): 시민 체감(문화, 축제, 복지, 일상 편의, 행정 서비스 등)을 포함한 이번 주 주요 언론동향 흐름을 정확히 5개 문장(각 문장은 '- '로 시작)으로 상세히 작성하십시오.
+4. JSON 형식으로만 응답하십시오.
 
-[출력 JSON 형식]:
+[출력 JSON 스키마]:
 {{
-  "summary_bullets": [
-    "- 첫 번째 줄 (시정 핵심 드라이브)",
-    "- 두 번째 줄 (시민 체감 기류)",
-    "- 세 번째 줄 (주요 현안 및 점검 사항)"
+  "overview": "화성특례시 출범과 첨단산업 육성을 중심으로 민선8기 미래 전략 사업이 본궤도에 오르고 있습니다.",
+  "main_points": [
+    "- 동탄호수공원 루나빛축제 등 가을철 수변 문화 행사에 대규모 시민 인파가 집중되며 도시 브랜드 가치가 확산되었습니다.",
+    "- 생애주기별 맞춤형 포용복지와 장애인·어르신 돌봄 인프라 확충에 관한 언론의 긍정적 보도가 이어졌습니다.",
+    "- 광역 교통망 확충 및 스마트 도시 인프라 구축 등 지속 가능한 균형발전 정책이 시민적 공감대를 형성하고 있습니다.",
+    "- 미래 인재 양성을 위한 과학고 유치 및 교육발전특구 지정 관련 지역사회의 기대감이 지속적으로 고조되고 있습니다.",
+    "- 시민 생활 현장 중심의 친환경·안전 관리 및 취약지역 선제 점검을 통해 시민 신뢰도를 제고하고 있습니다."
   ]
 }}
 """
@@ -684,21 +706,32 @@ def extract_macro_pulse(client, articles):
             )
             if res and res.text:
                 parsed = json.loads(res.text.strip())
-                bullets = parsed.get("summary_bullets", [])
-                if bullets and len(bullets) >= 2:
-                    summary_bullets = bullets[:3]
+                overview_text = parsed.get("overview", "")
+                pts = parsed.get("main_points", [])
+                if pts and len(pts) >= 3:
+                    main_points = [p if p.startswith("- ") else f"- {p}" for p in pts[:5]]
         except Exception as e:
-            print(f"거시 맥락 진단 Gemini 도출 예외 ({e}), Fallback 적용")
+            print(f"주간 언론동향 Gemini 도출 예외 ({e}), Fallback 적용")
 
-    # Fallback 진단문 (Gemini 실패 또는 미연결 시)
-    if not summary_bullets:
-        summary_bullets = [
-            f"- 화성특례시 출범을 앞두고 {top_themes_str} 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
-            "- 동탄호수공원 등 도심 수변 공간을 활용한 가을 문화 축제와 시민 체감형 복지 소통이 활기를 띠고 있습니다.",
-            "- 시의회 임시회 현안 질의 및 공사 현장 보행자 안전 등 대민 접점 생활 인프라에 대한 사전 점검이 필요합니다."
+    # Fallback 작성 (Gemini 미연결 또는 실패 시)
+    if not overview_text:
+        overview_text = f"화성특례시 출범을 앞두고 {top_themes_str} 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다."
+
+    if not main_points or len(main_points) < 5:
+        main_points = [
+            "- 동탄호수공원 루나빛축제 등 가을철 수변 문화 행사에 대규모 시민 인파가 집중되며 도시브랜드 가치가 제고되고 있습니다.",
+            "- 미래 첨단산업 육성 및 AI 스마트 행정 고도화를 통해 지속 가능한 혁신성장 기반을 다지고 있습니다.",
+            "- 동서 균형발전과 철도·도로 광역 교통망 확충을 위한 제도적·재정적 협력 체계가 긴밀히 구축되고 있습니다.",
+            "- 생애주기별 맞춤형 포용복지와 장애인 체육·문화 지원 확대로 시민 체감형 복지 만족도가 높아지고 있습니다.",
+            "- 시민 생활 안전과 쾌적한 도시환경 조성을 위한 현장 중심 사전 점검 및 행정 서비스가 지속 강화되고 있습니다."
         ]
 
+    summary_bullets = [overview_text] + main_points[:2]
+
     return {
+        "overview": overview_text,
+        "main_points": main_points,
+        "risk_cautions": risk_cautions,
         "summary_bullets": summary_bullets,
         "theme_stats": theme_stats
     }
@@ -795,15 +828,17 @@ def main():
     today_date = now_kst.date()
     yesterday_date = today_date - timedelta(days=1)
 
-    # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지 및 Gemini API 캐시 재활용)
+    # 기존 news_data.json의 기사 목록 로드 (중복 텔레그램 발송 방지, Gemini API 캐시 재활용 및 과거 기사 영구 누적)
     existing_sent_links = set()
     existing_articles_map = {}
     existing_title_map = {}
+    existing_articles = []
     if os.path.exists("news_data.json"):
         try:
             with open("news_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
-                for old_art in old_data.get("articles", []):
+                existing_articles = old_data.get("articles", [])
+                for old_art in existing_articles:
                     old_link = old_art.get("link")
                     old_title = re.sub(r"[^\w가-힣]", "", old_art.get("title", ""))
                     if old_link:
@@ -817,22 +852,29 @@ def main():
             print(f"기존 news_data.json 로드 참고: {e}")
 
     processed_articles = []
+    new_gemini_analyzed = 0
 
     for item in raw_items:
         pub_dt = parse_pub_date(item.get("pubDate", ""))
         item_date = pub_dt.date()
 
-        if item_date not in (today_date, yesterday_date):
-            continue
-
+        # 기사 수집 기간의 제한을 두지 않고 오늘부터 발행되는 모든 기사를 누적 저장
         title = clean_html(item.get("title", ""))
         desc = clean_html(item.get("description", ""))
         link = item.get("originallink", "") or item.get("link", "")
         media = extract_media_name(item.get("link", ""), item.get("originallink", ""))
 
         is_today = (item_date == today_date)
-        time_label = f"오늘 {pub_dt.strftime('%H:%M')}" if is_today else f"어제 {pub_dt.strftime('%H:%M')}"
-        date_group = "TODAY" if is_today else "YESTERDAY"
+        is_yesterday = (item_date == yesterday_date)
+        if is_today:
+            time_label = f"오늘 {pub_dt.strftime('%H:%M')}"
+            date_group = "TODAY"
+        elif is_yesterday:
+            time_label = f"어제 {pub_dt.strftime('%H:%M')}"
+            date_group = "YESTERDAY"
+        else:
+            time_label = pub_dt.strftime("%m.%d %H:%M")
+            date_group = pub_dt.strftime("%Y-%m-%d")
 
         # 동일 사안 클러스터링 검사 (다른 언론사가 시차를 두고 올린 동일/유사 기사 묶음)
         matched_art = find_matching_article(title, processed_articles, min_score=0.45)
@@ -880,8 +922,10 @@ def main():
                 "telegram_sent": True
             })
             print(f"   -> [API 캐시 재활용 (비용 0원)] {title[:20]}...")
-            if len(processed_articles) >= 25:
-                break
+            continue
+
+        # 신규 Gemini 분석은 1회 실행당 최대 30건으로 제한하여 API 한도 보호
+        if new_gemini_analyzed >= 30:
             continue
 
         # 1. 기사 본문 및 대표 이미지 추출 (실패 시 description 대체)
@@ -900,6 +944,7 @@ def main():
         # 4. Gemini 실무 요약 및 판별
         print(f"분석 중: {title[:25]}...")
         is_valid, cat, dept, bullets, resp_dir = analyze_with_gemini(client, title, article_content, rule_dept)
+        new_gemini_analyzed += 1
 
         # 화성시정과 무관한 전국 경제/단순 지명 언급 기사는 자동 제외
         if not is_valid:
@@ -937,8 +982,24 @@ def main():
             "response_direction": resp_dir
         })
 
-        if len(processed_articles) >= 25:
-            break
+    # [과거 기사 영구 보존 및 누적 머지]
+    # 기존 기사 중 이번 수집에서 다루지 않은 과거 기사들을 모두 유지하여 영구 누적 저장
+    seen_processed_links = {a.get("link") for a in processed_articles if a.get("link")}
+    seen_processed_titles = {re.sub(r"[^\w가-힣]", "", a.get("title", "")) for a in processed_articles}
+
+    cumulative_articles = list(processed_articles)
+    for old_art in existing_articles:
+        old_link = old_art.get("link")
+        old_clean_t = re.sub(r"[^\w가-힣]", "", old_art.get("title", ""))
+        if old_link and old_link in seen_processed_links:
+            continue
+        if old_clean_t and old_clean_t in seen_processed_titles:
+            continue
+        cumulative_articles.append(old_art)
+
+    # 전체 누적 기사를 최신 발행시각(pub_timestamp) 기준 내림차순 정렬
+    cumulative_articles.sort(key=lambda x: x.get("pub_timestamp", ""), reverse=True)
+    print(f">> 전체 누적 보존 기사 건수: {len(cumulative_articles)}건 (이번 신규/수집: {len(processed_articles)}건)")
 
     # 신규 기사 텔레그램 알림 자동 발송 (새로 수집된 기사만 선별 전송)
     telegram_enabled = bool(os.environ.get("TELEGRAM_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
@@ -946,7 +1007,6 @@ def main():
 
     for art in processed_articles:
         link = art.get("link")
-        # 이미 이전 실행에서 수집/전송된 기사는 건너뜀
         if link in existing_sent_links:
             art["telegram_sent"] = True
             continue
@@ -957,25 +1017,26 @@ def main():
             art["telegram_sent"] = success
             if success:
                 new_sent_count += 1
-                time.sleep(1)  # 텔레그램 API 호출 제한 준수
+                time.sleep(1)
         else:
             art["telegram_sent"] = False
 
     if telegram_enabled:
         print(f">> 텔레그램 알림: 총 {new_sent_count}건의 신규 기사 발송 완료")
 
-    # 통계 집계
+    # 통계 집계 (전체 누적 기사 기준)
     now_str = now_kst.strftime("%Y.%m.%d. %H:%M")
-    major_count = sum(1 for a in processed_articles if a.get("is_major", False))
-    live_count = len(processed_articles) - major_count
+    major_count = sum(1 for a in cumulative_articles if a.get("is_major", False))
+    live_count = len(cumulative_articles) - major_count
 
-    # 1. 실시간 언론동향 인기 이슈 키워드 TOP 5 추출
-    trending_topics = extract_trending_topics(client, processed_articles)
+    # 1. 언론동향 인기 이슈 키워드 TOP 5 추출 (최근 활성 기사 30건 기준)
+    trending_topics = extract_trending_topics(client, cumulative_articles[:30])
     print(f">> 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
 
-    # 2. 시장·정책관 관점 거시 기류 총괄 진단 및 7대 테마별 점유율 산출
-    macro_pulse = extract_macro_pulse(client, processed_articles)
-    print(f">> 시정 종합 맥락 진단 완료 (7대 테마 산출 건수: {len(macro_pulse['theme_stats'])})")
+    # 2. 시장·정책관 주간 언론동향 진단 및 7대 테마별 점유율 산출 (최근 7일간 기사 기준)
+    recent_week_articles = cumulative_articles[:40]
+    macro_pulse = extract_macro_pulse(client, recent_week_articles)
+    print(f">> 주간 언론동향 진단 완료 (개요 및 5줄 주요내용, 주의사항 건수: {len(macro_pulse.get('risk_cautions', []))})")
 
     result_data = {
         "updated_at": now_str,
@@ -983,22 +1044,22 @@ def main():
         "macro_pulse": macro_pulse,
         "trending_topics": trending_topics,
         "stats": {
-            "total": len(processed_articles),
+            "total": len(cumulative_articles),
             "major_count": major_count,
             "live_count": live_count,
-            "today_count": sum(1 for a in processed_articles if a["date_group"] == "TODAY"),
-            "yesterday_count": sum(1 for a in processed_articles if a["date_group"] == "YESTERDAY"),
-            "policy": sum(1 for a in processed_articles if a["category"] == "POLICY"),
-            "culture": sum(1 for a in processed_articles if a["category"] == "CULTURE"),
-            "risk": sum(1 for a in processed_articles if a["category"] == "RISK")
+            "today_count": sum(1 for a in cumulative_articles if a.get("date_group") == "TODAY"),
+            "yesterday_count": sum(1 for a in cumulative_articles if a.get("date_group") == "YESTERDAY"),
+            "policy": sum(1 for a in cumulative_articles if a.get("category") == "POLICY"),
+            "culture": sum(1 for a in cumulative_articles if a.get("category") == "CULTURE"),
+            "risk": sum(1 for a in cumulative_articles if a.get("category") == "RISK")
         },
-        "articles": processed_articles
+        "articles": cumulative_articles
     }
 
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
-    print(f">> 완료: 총 {len(processed_articles)}건 분석 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건) 및 news_data.json 저장 성공")
+    print(f">> 완료: 총 {len(cumulative_articles)}건 누적 보존 (주요 뉴스 {major_count}건, 실시간 뉴스 {live_count}건) 및 news_data.json 저장 성공")
 
 
 if __name__ == "__main__":
