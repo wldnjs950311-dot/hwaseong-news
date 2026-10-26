@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026.10.26. 08:39",
+  "updated_at": "2026.10.26. 09:00",
   "yesterday_label": "10.25",
   "stats": {
-    "total": 18,
-    "major_count": 7,
+    "total": 17,
+    "major_count": 6,
     "live_count": 11,
-    "today_count": 7,
-    "yesterday_count": 11,
-    "policy": 12,
-    "culture": 4,
-    "risk": 2
+    "today_count": 8,
+    "yesterday_count": 9,
+    "policy": 13,
+    "culture": 3,
+    "risk": 1
   },
   "articles": [
+    {
+      "title": "화성특례시, 미래먹거리 '우주항공산업' 본격 시동",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335050",
+      "media": "언론사",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "date_group": "TODAY",
+      "time_label": "오늘 08:50",
+      "pub_timestamp": "2026-10-26T08:50:00+09:00",
+      "bullets": [
+        "- 화성시가 미래 신성장 동력 확보를 위해 민·관·학·연 전문가 60명 규모의 '우주항공산업 추진단'을 공식 발족함",
+        "- 추진단은 정책·기획, 우주, 항공, AI 등 4개 분과로 구성되어 향후 2년간 마스터플랜 수립 및 우수 기업 유치 컨트롤타워를 수행함",
+        "- 오는 11월 3일 코엑스 AI 엑스포 'MARS 2026'에서 출범식을 열고 반도체·모빌리티에 이은 우주항공 산업 생태계 조성에 나설 계획임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202610/1335050_676937_4655_v150.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성시, '2026화성 루나빛축제' 개최",
       "link": "http://www.breaknews.com/1245530",
@@ -368,6 +388,26 @@
       "telegram_sent": true
     },
     {
+      "title": "\"동탄인덕원선 동탄역 이용수요 해명에 오류 있었다\"",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840067",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "철도전략과",
+      "dept_label": "참고",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 15:27",
+      "pub_timestamp": "2026-10-25T15:27:00+09:00",
+      "bullets": [
+        "- 국가철도공단이 국정감사에서 동탄인덕원선 동탄역의 하루 이용수요 해명자료 수치 오류를 공식 인정함",
+        "- 화성시는 동탄역 출입구 2곳 추가 설치(공사비 약 260억원)를 요구 중이나 공단과 비용 부담을 두고 이견을 보여옴",
+        "- 수요 재산정 결과에 따라 출입구 규모 및 화성시의 추가 설치비 분담 논의가 재검토될 예정임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/10/08/NISI20261008_0002258554_web.jpg",
+      "telegram_sent": true
+    },
+    {
       "title": "‘공공디자인, 삶을 바꾸다’… 화성 소다미술관, 기획전 ‘SUPERBLIC’ 개...",
       "link": "https://www.kyeonggi.com/article/20261025580175",
       "media": "언론사",
@@ -385,66 +425,6 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/25/.cache/512/20261025580178.jpg?v=20261026061429",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성특례시, 'MARS 2026'서 AI 전시·분야별 포럼 개최",
-      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009856",
-      "media": "언론사",
-      "category": "CULTURE",
-      "department": "첨단산업과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:02",
-      "pub_timestamp": "2026-10-25T15:02:00+09:00",
-      "bullets": [
-        "- 화성특례시는 11월 3일부터 5일까지 서울 코엑스에서 글로벌 AI 엑스포 'MARS 2026'을 개최하고 5대 분야 AI 기술 전시를 선보임",
-        "- 행사 기간 중 샘 리처드 교수 기조연설, 우주항공산업추진단 출범식, 모빌리티·돌봄 등 분야별 학술 컨퍼런스가 진행됨",
-        "- 글로벌 기업 AMAT와의 투자협약 체결, 기업 투자유치설명회 및 행정 혁신을 다루는 '화성AI 포럼' 등 다양한 연계 프로그램이 운영됨"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009856_2009920_5547.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "최청환 화성특례시의회 의원, 이동권 중심 대중교통 대책 촉구",
-      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009870",
-      "media": "언론사",
-      "category": "RISK",
-      "department": "대중교통과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:02",
-      "pub_timestamp": "2026-10-25T15:02:00+09:00",
-      "bullets": [
-        "- 최청환 화성특례시의회 의원은 제255회 임시회 5분 발언을 통해 인구 108만 대도시 규모에 미치지 못하는 대중교통 체계를 지적하고 이동권 중심 대책 마련을 촉구함",
-        "- GTX-C, 동탄트램 등 철도망 연계 버스 환승체계 구축 및 조암·향남·봉담 발 광역버스의 만차 문제 해결을 위한 전세버스 증차 등 실효성 있는 대책을 요구함",
-        "- 관내 생활권 이동권 보장을 위한 촘촘한 노선망 구축과 함께 똑버스·행복택시 등 맞춤형 교통수단을 통합 연계하는 교통정책으로의 전환을 주문함"
-      ],
-      "related_articles": [],
-      "is_major": true,
-      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009870_2009934_5247.jpg",
-      "telegram_sent": true
-    },
-    {
-      "title": "화성특례시의회, 제255회 임시회서 안건 45건 원안 가결",
-      "link": "https://www.m-i.kr/news/articleView.html?idxno=2009854",
-      "media": "언론사",
-      "category": "POLICY",
-      "department": "의회법무과",
-      "dept_label": "참고",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 15:00",
-      "pub_timestamp": "2026-10-25T15:00:00+09:00",
-      "bullets": [
-        "- 화성특례시의회가 제255회 임시회 제2차 본회의를 열고 조례안 및 동의안 등 안건 45건을 원안 가결함",
-        "- 5분 자유발언을 통해 상수도 원격검침 디지털 전환, 대중교통 이동권 개선, 폐기물 소각시설 신설 및 상생방안 등이 제기됨",
-        "- 생활민원 처리 지원 조례안 및 통학로 교통안전 조례 개정안, 수원시의회와의 우호도시 협약 체결 동의안 등이 처리됨"
-      ],
-      "related_articles": [],
-      "is_major": false,
-      "image_url": "https://cdn.m-i.kr/news/photo/202610/2009854_2009914_4053.jpg",
       "telegram_sent": true
     }
   ]
