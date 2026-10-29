@@ -1009,8 +1009,9 @@ def main():
         # 기사 수집 기간의 제한을 두지 않고 오늘부터 발행되는 모든 기사를 누적 저장
         title = clean_html(item.get("title", ""))
         desc = clean_html(item.get("description", ""))
-        link = item.get("originallink", "") or item.get("link", "")
-        media = extract_media_name(item.get("link", ""), item.get("originallink", ""))
+        originallink = item.get("originallink", "")
+        link = originallink or item.get("link", "")
+        media = extract_media_name(item.get("link", ""), originallink)
 
         # 08:00 출근 및 공보실 조간 스크랩 기준에 맞춘 정밀 시간/날짜 그룹핑
         if pub_dt >= today_08:
@@ -1054,6 +1055,7 @@ def main():
             processed_articles.append({
                 "title": title,
                 "link": link,
+                "originallink": cached.get("originallink", originallink),
                 "media": media,
                 "category": cached.get("category", "POLICY"),
                 "department": c_dept,
