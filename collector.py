@@ -605,26 +605,43 @@ def find_matching_article(title, articles, min_score=0.45):
     return None
 
 
-def fetch_news():
+def fetch_news(max_pages=3):
     if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
         print("네이버 API 인증 정보가 누락되었습니다.")
         return []
 
     enc_query = urllib.parse.quote("화성시")
-    url = f"https://naverapihub.apigw.ntruss.com/search/v1/news?query={enc_query}&display=60&start=1&sort=date&format=json"
     headers = {
         "X-NCP-APIGW-API-KEY-ID": NAVER_CLIENT_ID.strip(),
         "X-NCP-APIGW-API-KEY": NAVER_CLIENT_SECRET.strip(),
         "User-Agent": "Mozilla/5.0"
     }
 
-    try:
-        res = requests.get(url, headers=headers, timeout=8)
-        if res.ok:
-            return res.json().get("items", [])
-    except Exception as e:
-        print(f"네이버 수집 에러: {e}")
-    return []
+    all_items = []
+    seen_links = set()
+
+    for page in range(max_pages):
+        start = page * 100 + 1
+        url = f"https://naverapihub.apigw.ntruss.com/search/v1/news?query={enc_query}&display=100&start={start}&sort=date&format=json"
+        try:
+            res = requests.get(url, headers=headers, timeout=8)
+            if res.ok:
+                items = res.json().get("items", [])
+                if not items:
+                    break
+                for item in items:
+                    link = item.get("originallink") or item.get("link")
+                    if link and link not in seen_links:
+                        seen_links.add(link)
+                        all_items.append(item)
+            else:
+                break
+        except Exception as e:
+            print(f"네이버 수집 에러 (page {page+1}): {e}")
+            break
+        time.sleep(0.3)
+
+    return all_items
 
 
 def extract_trending_topics(client, articles):
@@ -1075,10 +1092,6 @@ def main():
             print(f"   -> [API 캐시 재활용 (비용 0원)] {title[:20]}...")
             continue
 
-        # 신규 Gemini 분석은 1회 실행당 최대 30건으로 제한하여 API 한도 보호
-        if new_gemini_analyzed >= 30:
-            continue
-
         # 1. 기사 본문 및 대표 이미지, 언론사명 추출 (실패 시 description 대체)
         scraped_text, article_img, og_site = scrape_full_body_and_image(originallink or link)
         article_media = extract_media_name(link, originallink, og_site)
@@ -1093,15 +1106,31 @@ def main():
         # 3. 1차 부서 매칭
         rule_dept = rule_match_department(title, article_content)
 
-        # 4. Gemini 실무 요약 및 판별 (토큰 최적화)
-        print(f"분석 중: {title[:25]}...")
-        is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
-        new_gemini_analyzed += 1
-
-        # 화성시정과 무관한 전국 경제/단순 지명 언급 기사는 자동 제외
-        if not is_valid:
-            print(f"   -> [제외] 화성시정 무관 기사 필터링: {title[:20]}")
-            continue
+        # 4. Gemini 실무 요약 및 판별 (신규 30건까지는 Gemini, 이후는 규칙 기반 폴백 처리하여 3개월 누적 보존)
+        if new_gemini_analyzed < 30 and client and GEMINI_API_KEY:
+            print(f"분석 중: {title[:25]}...")
+            is_valid, cat, dept, bullets = analyze_with_gemini(client, title, article_content, rule_dept)
+            new_gemini_analyzed += 1
+            if not is_valid:
+                print(f"   -> [제외] 화성시정 무관 기사 필터링: {title[:20]}")
+                continue
+        else:
+            # Gemini 한도 초과 시 또는 대량 기사 누적용 규칙 기반 자동 분류 (기사 유실 방지)
+            risk_kws = ["비판", "논란", "지적", "촉구", "갈등", "의혹", "사고", "피해", "우려", "반발", "진통", "만차", "미흡", "부실"]
+            culture_kws = ["축제", "문화", "예술", "공연", "전시", "행사", "체육", "대회", "관광", "배드민턴", "빛축제"]
+            if any(k in title for k in risk_kws):
+                cat = "RISK"
+            elif any(k in title for k in culture_kws):
+                cat = "CULTURE"
+            else:
+                cat = "POLICY"
+            dept = rule_dept
+            summary_first = article_content[:120].strip().replace("\n", " ") + "..."
+            bullets = [
+                f"- {title}",
+                f"- {summary_first}",
+                "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+            ]
 
         # 소관 vs 참고 부서 판별 (기사 본문에 해당 부서가 직접 언급되어 있으면 '소관', 아니면 '참고')
         dept_short_name = dept.split()[-1] if dept else ""
@@ -1152,6 +1181,28 @@ def main():
             continue
 
         cumulative_articles.append(old_art)
+
+    # [핵심] 전체 3개월 누적 기사의 date_group 및 time_label을 현재 실행 시점(now_kst) 기준으로 일괄 동적 재계산!
+    for art in cumulative_articles:
+        pts = art.get("pub_timestamp")
+        if pts:
+            try:
+                p_dt = datetime.fromisoformat(pts)
+                p_item_date = p_dt.date()
+                if p_dt >= today_08:
+                    art["time_label"] = f"오늘 {p_dt.strftime('%H:%M')}"
+                    art["date_group"] = "TODAY_LIVE"
+                elif p_dt >= scrap_start_dt:
+                    art["time_label"] = f"스크랩 {p_dt.strftime('%m.%d %H:%M')}"
+                    art["date_group"] = "MORNING_SCRAP"
+                elif p_item_date == yesterday_date:
+                    art["time_label"] = f"어제 {p_dt.strftime('%H:%M')}"
+                    art["date_group"] = "YESTERDAY"
+                else:
+                    art["time_label"] = p_dt.strftime("%m.%d %H:%M")
+                    art["date_group"] = p_dt.strftime("%Y-%m-%d")
+            except Exception:
+                pass
 
     # 전체 누적 기사를 최신 발행시각(pub_timestamp) 기준 내림차순 정렬
     cumulative_articles.sort(key=lambda x: x.get("pub_timestamp", ""), reverse=True)

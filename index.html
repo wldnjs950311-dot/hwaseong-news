@@ -2615,6 +2615,35 @@ function resolveMediaName(item) {
   return "화성시정뉴스";
 }
 
+// 기사 발행 시각(pub_timestamp) 기반 실시간 동적 시간/날짜 라벨 포맷터
+function formatDynamicTimeLabel(pub_timestamp, fallback) {
+  if (!pub_timestamp) return fallback || '';
+  try {
+    const pubDt = new Date(pub_timestamp);
+    if (isNaN(pubDt.getTime())) return fallback || '';
+    const now = new Date();
+    const fYMD = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    const pubDateStr = fYMD(pubDt);
+    const nowDateStr = fYMD(now);
+    const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+    const yesterdayDateStr = fYMD(yesterday);
+
+    const hh = String(pubDt.getHours()).padStart(2, '0');
+    const min = String(pubDt.getMinutes()).padStart(2, '0');
+    const mm = String(pubDt.getMonth() + 1).padStart(2, '0');
+    const dd = String(pubDt.getDate()).padStart(2, '0');
+
+    if (pubDateStr === nowDateStr) {
+      return `오늘 ${hh}:${min}`;
+    } else if (pubDateStr === yesterdayDateStr) {
+      return `어제 ${hh}:${min}`;
+    } else {
+      return `${mm}.${dd} ${hh}:${min}`;
+    }
+  } catch (e) {
+    return fallback || '';
+  }
+}
 
 // 1. news_data.json 비동기 로드
 async function loadNewsData() {
@@ -2868,9 +2897,19 @@ function renderWeeklyTrend() {
   }).join('');
 
   // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 삭제, 제목+1줄요약 불릿만 노출)
-  let riskArticles = mp.risk_cautions || [];
-  if (riskArticles.length === 0 && dayArticles.length > 0) {
-    riskArticles = dayArticles.filter(a => a.category === 'RISK');
+  let riskArticles = [];
+  if (currentDayOffset === 0) {
+    // 오늘 탭: 24시간(최근 28시간) 이내에 발행된 실제 리스크 기사만 선별하여 과거 일자 기사 누출 원천 차단
+    const rawRisks = (mp.risk_cautions && mp.risk_cautions.length > 0) ? mp.risk_cautions : dayArticles.filter(a => a.category === 'RISK');
+    riskArticles = rawRisks.filter(r => {
+      const pts = r.pub_timestamp || (globalArticles.find(a => a.link === r.link || a.title === r.title) || {}).pub_timestamp;
+      if (!pts) return true;
+      const pubTime = new Date(pts).getTime();
+      return (Date.now() - pubTime <= 30 * 60 * 60 * 1000);
+    });
+  } else {
+    // 과거 일자 탭: 해당 날짜 기사 중 리스크 기사 전수 수록
+    riskArticles = (mp.risk_cautions && mp.risk_cautions.length > 0) ? mp.risk_cautions : dayArticles.filter(a => a.category === 'RISK');
   }
 
   if (riskBadge) riskBadge.textContent = `${riskArticles.length}건`;
@@ -2888,7 +2927,8 @@ function renderWeeklyTrend() {
     const title = r.title || '';
     const media = resolveMediaName(r);
     const link = r.link || '#';
-    const time = r.time_label || '';
+    const pts = r.pub_timestamp || (globalArticles.find(a => a.link === r.link || a.title === r.title) || {}).pub_timestamp;
+    const time = formatDynamicTimeLabel(pts, r.time_label);
     const bulletText = (r.bullets && r.bullets.length > 0) ? r.bullets[0].replace(/^[-•*]\s*/, '') : '';
 
     return `
@@ -3480,7 +3520,14 @@ function renderTimeline() {
 
   // 1. 주요 뉴스 및 실시간 뉴스 분류 (24시간 주요뉴스 우선)
   const majorArticles = filtered.filter(item => {
-    const is24h = (item.date_group === 'TODAY_LIVE' || item.date_group === 'MORNING_SCRAP');
+    let is24h = (item.date_group === 'TODAY_LIVE' || item.date_group === 'MORNING_SCRAP');
+    if (item.pub_timestamp) {
+      const pubTime = new Date(item.pub_timestamp).getTime();
+      // 28시간 이상 지난 과거 기사는 24시간 주요뉴스에서 제외하여 아카이브로 이동
+      if (Date.now() - pubTime > 28 * 60 * 60 * 1000) {
+        is24h = false;
+      }
+    }
     const isMajorCandidate = item.is_major || (item.related_articles && item.related_articles.length > 0) || item.category === 'RISK';
     return is24h && isMajorCandidate;
   });
@@ -3505,29 +3552,31 @@ function renderTimeline() {
   if (liveArticles.length > 0) {
     document.getElementById('emptyLiveNotice').style.display = 'none';
     liveArticles.forEach(item => {
+      const isPastArticle = item.pub_timestamp && (Date.now() - new Date(item.pub_timestamp).getTime() > 28 * 60 * 60 * 1000);
+
       // 08:00 기준 구분선 삽입
-      if (item.date_group === 'TODAY_LIVE' && !hasInsertedLiveDivider) {
+      if (!isPastArticle && item.date_group === 'TODAY_LIVE' && !hasInsertedLiveDivider) {
         const divider = document.createElement('div');
         divider.className = 'date-divider';
         divider.innerHTML = `<span>오늘 실시간 보도 (08:00 이후)</span>`;
         liveContainer.appendChild(divider);
         hasInsertedLiveDivider = true;
-      } else if (item.date_group === 'MORNING_SCRAP' && !hasInsertedScrapDivider) {
+      } else if (!isPastArticle && item.date_group === 'MORNING_SCRAP' && !hasInsertedScrapDivider) {
         const divider = document.createElement('div');
         divider.className = 'date-divider';
         divider.innerHTML = `<span>조간 스크랩 보도 (전일 08:00 ~ 금일 08:00)</span>`;
         liveContainer.appendChild(divider);
         hasInsertedScrapDivider = true;
-      } else if (item.date_group === 'YESTERDAY' && !hasInsertedScrapDivider) {
+      } else if (!isPastArticle && item.date_group === 'YESTERDAY' && !hasInsertedScrapDivider) {
         const divider = document.createElement('div');
         divider.className = 'date-divider';
         divider.innerHTML = `<span>조간 스크랩 보도 (어제자 보도)</span>`;
         liveContainer.appendChild(divider);
         hasInsertedScrapDivider = true;
-      } else if (item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY' && !hasInsertedPastDivider) {
+      } else if ((isPastArticle || (item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY')) && !hasInsertedPastDivider) {
         const divider = document.createElement('div');
         divider.className = 'date-divider';
-        divider.innerHTML = `<span>이전 아카이브 보도</span>`;
+        divider.innerHTML = `<span>이전 아카이브 보도 (최근 3개월)</span>`;
         liveContainer.appendChild(divider);
         hasInsertedPastDivider = true;
       }
@@ -3665,7 +3714,7 @@ function createNewsCard(item, isMajor) {
             <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${r.title}</span>
           </div>
           <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
-            <span class="sub-time">${r.time_label || ''}</span>
+            <span class="sub-time">${formatDynamicTimeLabel(r.pub_timestamp, r.time_label)}</span>
           </div>
         </a>
       </li>
@@ -3752,7 +3801,7 @@ function createNewsCard(item, isMajor) {
                   title="${isReported ? `클릭 시 미출력 상태로 변경 (출력일: ${reportedInfo.date || ''})` : '클릭 시 출력 상태로 변경'}">
               ${isReported ? '출력' : '미출력'}
             </span>
-            <span class="time-tag">${item.time_label}</span>
+            <span class="time-tag">${formatDynamicTimeLabel(item.pub_timestamp, item.time_label)}</span>
             <span class="media-tag">${resolveMediaName(item)}</span>
           </div>
         </div>
