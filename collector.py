@@ -557,8 +557,14 @@ def calculate_title_similarity(title1, title2):
     2. 토큰 자카드 유사도
     3. 문자 2-gram(바이그램) 자카드 유사도
     """
-    tokens1 = set(extract_meaningful_tokens(title1))
-    tokens2 = set(extract_meaningful_tokens(title2))
+    clean1 = re.sub(r"\[.*?\]|<.*?>|【.*?】", " ", title1)
+    clean2 = re.sub(r"\[.*?\]|<.*?>|【.*?】", " ", title2)
+
+    tokens1 = set(extract_meaningful_tokens(clean1))
+    tokens2 = set(extract_meaningful_tokens(clean2))
+    if not tokens1 or not tokens2:
+        tokens1 = set(extract_meaningful_tokens(title1))
+        tokens2 = set(extract_meaningful_tokens(title2))
     if not tokens1 or not tokens2:
         return 0.0
 
@@ -569,20 +575,22 @@ def calculate_title_similarity(title1, title2):
     # 영문/숫자/3글자 이상 고유 토큰이 겹치는지 확인
     specific_matches = [
         t for t in common_tokens 
-        if re.search(r"[0-9a-zA-Z]", t) or len(t) >= 3 or t in {"미호", "트램", "화옹", "봉담", "동탄", "전곡항", "코리봇", "군공항", "아리셀", "체전"}
+        if re.search(r"[0-9a-zA-Z]", t) or len(t) >= 3 or t in {"화재", "위험", "지도", "미호", "트램", "화옹", "봉담", "동탄", "전곡항", "코리봇", "군공항", "아리셀", "체전", "평화학교", "체험교실", "공시지가"}
     ]
 
-    # 문자 bi-gram 유사도
-    c1 = re.sub(r"[^\w]", "", title1)
-    c2 = re.sub(r"[^\w]", "", title2)
-    bg1 = set(c1[i:i+2] for i in range(len(c1)-1))
-    bg2 = set(c2[i:i+2] for i in range(len(c2)-1))
+    # 문자 bi-gram 유사도 (공통 지자체명 제외)
+    c1 = re.sub(r"[^\w가-힣]", "", clean1)
+    c2 = re.sub(r"[^\w가-힣]", "", clean2)
+    for sw in ["화성시", "화성특례시", "화성"]:
+        c1 = c1.replace(sw, "")
+        c2 = c2.replace(sw, "")
+
+    bg1 = set(c1[i:i+2] for i in range(len(c1)-1)) if len(c1) >= 2 else set()
+    bg2 = set(c2[i:i+2] for i in range(len(c2)-1)) if len(c2) >= 2 else set()
     bg_jaccard = len(bg1 & bg2) / len(bg1 | bg2) if (bg1 and bg2) else 0.0
 
-    if len(specific_matches) >= 2 and bg_jaccard >= 0.18:
-        return 0.85
-    if len(specific_matches) >= 1 and (token_jaccard >= 0.30 or bg_jaccard >= 0.30):
-        return 0.75
+    if len(specific_matches) >= 2 or (len(specific_matches) >= 1 and (token_jaccard >= 0.20 or bg_jaccard >= 0.14)):
+        return max(0.75, token_jaccard, bg_jaccard)
 
     return (token_jaccard * 0.5) + (bg_jaccard * 0.5)
 
@@ -899,13 +907,14 @@ def send_telegram_alert(article):
     if not token or not chat_id:
         return False
 
-    cat_map = {
-        "POLICY": "시정정책",
-        "CULTURE": "문화행사",
-        "RISK": "비판지적"
-    }
-    cat_name = cat_map.get(article.get("category"), "시정정책")
-    sec_title = "화성시 주요뉴스" if article.get("is_major") else "화성시 실시간뉴스"
+    # 제목 태그 결정 ('시정정책' 불필요한 단어 전면 제거)
+    if article.get("category") == "RISK":
+        header_tag = "화성시 주요뉴스 · 비판지적"
+    elif article.get("category") == "CULTURE":
+        header_tag = "화성시 주요뉴스 · 문화관광"
+    else:
+        header_tag = "화성시 주요뉴스"
+
     dept_label = article.get("dept_label", "참고")
     dept = article.get("department", "공보실")
     media = article.get("media", "언론사")
@@ -920,7 +929,7 @@ def send_telegram_alert(article):
     cluster_text = f"\n다수 언론사 보도: 총 {len(related) + 1}개사 집중 보도" if related else ""
 
     caption = (
-        f"<b>[{sec_title} | {cat_name}]</b>\n"
+        f"<b>[{header_tag}]</b>\n"
         f"<a href=\"{article['link']}\"><b>{html.escape(article['title'])}</b></a>\n\n"
         f"{clean_bullets}\n\n"
         f"소관: {dept_label} {dept} | {media} ({time_lbl}){cluster_text}"
@@ -1044,8 +1053,8 @@ def main():
             time_label = pub_dt.strftime("%m.%d %H:%M")
             date_group = pub_dt.strftime("%Y-%m-%d")
 
-        # 동일 사안 클러스터링 검사 (다른 언론사가 시차를 두고 올린 동일/유사 기사 묶음)
-        matched_art = find_matching_article(title, processed_articles, min_score=0.45)
+        # 동일 사안 클러스터링 검사 (현재 배치 기사 및 기존 누적 기사 전수 대조)
+        matched_art = find_matching_article(title, processed_articles, min_score=0.40) or find_matching_article(title, existing_articles, min_score=0.40)
         if matched_art:
             is_dup = any(r.get("link") == link or r.get("title") == title for r in matched_art.get("related_articles", []))
             if matched_art.get("link") == link or matched_art.get("title") == title:
@@ -1208,17 +1217,46 @@ def main():
     cumulative_articles.sort(key=lambda x: x.get("pub_timestamp", ""), reverse=True)
     print(f">> 전체 3개월 누적 보존 기사 건수: {len(cumulative_articles)}건 (이번 신규/수집: {len(processed_articles)}건)")
 
-    # 신규 기사 텔레그램 알림 자동 발송 (새로 수집된 기사만 선별 전송)
-    telegram_enabled = bool(os.environ.get("TELEGRAM_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
-    new_sent_count = 0
+    # 텔레그램 중복 발송 방지를 위한 기발송 식별 세트 (URL, 원본URL, 정규화 제목, 48시간 내 발송 주요사안)
+    already_sent_urls = set()
+    already_sent_titles = set()
+    already_sent_major_articles = []
+
+    for old_art in existing_articles:
+        if old_art.get("telegram_sent"):
+            already_sent_major_articles.append(old_art)
+            if old_art.get("link"):
+                already_sent_urls.add(old_art.get("link"))
+            if old_art.get("originallink"):
+                already_sent_urls.add(old_art.get("originallink"))
+            clean_t = re.sub(r"[^\w가-힣]", "", old_art.get("title", ""))
+            if clean_t:
+                already_sent_titles.add(clean_t)
+            for r in old_art.get("related_articles", []):
+                if r.get("link"):
+                    already_sent_urls.add(r.get("link"))
+                if r.get("originallink"):
+                    already_sent_urls.add(r.get("originallink"))
+                rel_clean_t = re.sub(r"[^\w가-힣]", "", r.get("title", ""))
+                if rel_clean_t:
+                    already_sent_titles.add(rel_clean_t)
 
     for art in processed_articles:
         link = art.get("link")
-        if link in existing_sent_links:
+        orig_link = art.get("originallink")
+        clean_t = re.sub(r"[^\w가-힣]", "", art.get("title", ""))
+
+        # 1. 이미 발송된 URL(링크 또는 원본링크)이거나 관련 기사 URL에 포함된 경우 중복 발송 배제
+        if (link and link in already_sent_urls) or (orig_link and orig_link in already_sent_urls):
             art["telegram_sent"] = True
             continue
 
-        # [요구사항 8] 텔레그램 발송은 '24시간 주요뉴스'만 선별 발송
+        # 2. 이미 발송된 기사와 동일한 제목인 경우 중복 발송 배제
+        if clean_t and clean_t in already_sent_titles:
+            art["telegram_sent"] = True
+            continue
+
+        # 3. 주요뉴스 발송 자격 검사 (24시간 주요뉴스만 선별)
         is_major_issue = (
             art.get("is_major", False)
             or (art.get("related_articles") and len(art.get("related_articles")) > 0)
@@ -1229,12 +1267,29 @@ def main():
             art["telegram_sent"] = False
             continue
 
+        # 4. 동일 사안 중복 검사: 최근 48시간 내 이미 텔레그램으로 전송된 주요 사안과 유사도가 높은 경우 재발송 절대 금지!
+        matched_sent = find_matching_article(art["title"], already_sent_major_articles, min_score=0.38)
+        if matched_sent:
+            print(f"   -> [텔레그램 기발송 사안 중복 차단] '{art['title'][:20]}...' (기발송 '{matched_sent['title'][:16]}' 동일 사안)")
+            art["telegram_sent"] = True
+            already_sent_urls.add(link)
+            if orig_link:
+                already_sent_urls.add(orig_link)
+            already_sent_titles.add(clean_t)
+            continue
+
+        # 신규 미발송 주요뉴스 전송
         if telegram_enabled:
-            print(f">> [텔레그램 24시간 주요뉴스 선별 발송] {art['title'][:25]}...")
+            print(f">> [텔레그램 24시간 신규 주요뉴스 발송] {art['title'][:25]}...")
             success = send_telegram_alert(art)
             art["telegram_sent"] = success
             if success:
                 new_sent_count += 1
+                already_sent_urls.add(link)
+                if orig_link:
+                    already_sent_urls.add(orig_link)
+                already_sent_titles.add(clean_t)
+                already_sent_major_articles.append(art)
                 time.sleep(1)
         else:
             art["telegram_sent"] = False
