@@ -2699,11 +2699,42 @@ function switchMainTab(tabKey, btnEl) {
   }
 }
 
+// 기사 목록에서 기준일(최신 일자) 산출
+function getBaseDate() {
+  if (globalArticles && globalArticles.length > 0) {
+    for (const a of globalArticles) {
+      if (a.pub_timestamp) {
+        const d = new Date(a.pub_timestamp);
+        if (!isNaN(d.getTime())) {
+          return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+        }
+      }
+    }
+  }
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate());
+}
+
+function getTargetDateForOffset(offset) {
+  const base = getBaseDate();
+  const target = new Date(base.getTime() + offset * 24 * 60 * 60 * 1000);
+  return target;
+}
+
+function formatDateLabel(dateObj) {
+  const mm = String(dateObj.getMonth() + 1).padStart(2, '0');
+  const dd = String(dateObj.getDate()).padStart(2, '0');
+  const days = ['일', '월', '화', '수', '목', '금', '토'];
+  const dayStr = days[dateObj.getDay()];
+  return `${mm}.${dd}.(${dayStr})`;
+}
+
 // [요구사항 2] 언론동향 일일보고 날짜 이동 (< 어제, 내일 > 네비게이션)
 function navigateDay(delta) {
   currentDayOffset += delta;
   if (currentDayOffset > 0) currentDayOffset = 0;
   if (currentDayOffset < -90) currentDayOffset = -90; // 최근 3개월 (90일)
+  currentWeekOffset = currentDayOffset;
   updateDayDisplay();
   renderWeeklyTrend();
 }
@@ -2712,11 +2743,14 @@ function updateDayDisplay() {
   const titleEl = document.getElementById('weeklyMainTitle');
   const nextBtn = document.getElementById('nextDayBtn') || document.getElementById('nextWeekBtn');
   const prevBtn = document.getElementById('prevDayBtn') || document.getElementById('prevWeekBtn');
+  const targetDate = getTargetDateForOffset(currentDayOffset);
+  const dateStr = formatDateLabel(targetDate);
+
   if (titleEl) {
     if (currentDayOffset === 0) {
-      titleEl.textContent = '언론동향 일일보고';
+      titleEl.textContent = `언론동향 일일보고 (${dateStr})`;
     } else {
-      titleEl.textContent = `언론동향 일일보고 (${Math.abs(currentDayOffset)}일 전)`;
+      titleEl.textContent = `언론동향 일일보고 (${Math.abs(currentDayOffset)}일 전 · ${dateStr})`;
     }
   }
   if (nextBtn) {
@@ -2756,7 +2790,7 @@ function renderHomeDashboard() {
   renderThemesOverview();
 }
 
-// 주간 언론동향 렌더링 (이번주 및 이전 주차 네비게이션, [구체적 사안명] 인과관계 명시, 주의사항 전수 수록)
+// 언론동향 일일보고 렌더링 (오늘 및 이전 일자 네비게이션, [구체적 사안명] 인과관계 명시, 주의사항 전수 수록)
 function renderWeeklyTrend() {
   const overviewBox = document.getElementById('weeklyTrendOverview');
   const pointsList = document.getElementById('weeklyMainPointsList');
@@ -2764,39 +2798,39 @@ function renderWeeklyTrend() {
   const riskBadge = document.getElementById('weeklyRiskCountBadge');
   if (!overviewBox || !pointsList || !riskList) return;
 
+  const targetDate = getTargetDateForOffset(currentDayOffset);
+  const yyyy = targetDate.getFullYear();
+  const mm = String(targetDate.getMonth() + 1).padStart(2, '0');
+  const dd = String(targetDate.getDate()).padStart(2, '0');
+  const targetDatePrefix = `${yyyy}-${mm}-${dd}`;
+  const dateLabel = formatDateLabel(targetDate);
+
   let mp = null;
-  let weekArticles = [];
+  let dayArticles = [];
 
-  if (currentWeekOffset === 0) {
-    mp = globalMacroPulse || extractClientMacroPulse(globalArticles);
+  if (currentDayOffset === 0) {
+    // 오늘(최신 일일보고)의 경우 사전 생성된 Gemini 거시동향 최우선 활용 (없을 시 클라이언트 자동 분석)
+    const todayArts = globalArticles.filter(a => a.pub_timestamp && a.pub_timestamp.startsWith(targetDatePrefix));
+    dayArticles = todayArts.length > 0 ? todayArts : globalArticles;
+    mp = globalMacroPulse || extractClientMacroPulse(dayArticles);
   } else {
-    // 과거 주차 데이터 필터링 (최근 3개월 보관 데이터 기반)
-    const now = new Date();
-    const daysAgoEnd = (Math.abs(currentWeekOffset) - 1) * 7;
-    const daysAgoStart = Math.abs(currentWeekOffset) * 7;
-    const endDate = new Date(now.getTime() - daysAgoEnd * 24 * 60 * 60 * 1000);
-    const startDate = new Date(now.getTime() - daysAgoStart * 24 * 60 * 60 * 1000);
+    // 과거 일자(1일 전, 2일 전 등)의 기사 필터링
+    dayArticles = globalArticles.filter(a => a.pub_timestamp && a.pub_timestamp.startsWith(targetDatePrefix));
 
-    weekArticles = globalArticles.filter(a => {
-      if (!a.pub_timestamp) return false;
-      const t = new Date(a.pub_timestamp).getTime();
-      return t >= startDate.getTime() && t < endDate.getTime();
-    });
-
-    if (weekArticles.length > 0) {
-      mp = extractClientMacroPulse(weekArticles);
+    if (dayArticles.length > 0) {
+      mp = extractClientMacroPulse(dayArticles);
     } else {
-      overviewBox.textContent = `해당 주차(${Math.abs(currentWeekOffset)}주 전)에 보관된 보도 데이터가 없습니다. (최근 3개월 보관 데이터 기준)`;
+      overviewBox.textContent = `해당 일자(${dateLabel})에 보관된 보도 데이터가 없습니다. (최근 3개월 보관 데이터 기준)`;
       pointsList.innerHTML = `
         <div class="main-point-item">
           <span class="main-point-dot">•</span>
-          <span>해당 주차에 수집된 추가 보도 데이터가 없습니다.</span>
+          <span>해당 일자에 수집된 추가 보도 데이터가 없습니다.</span>
         </div>
       `;
       if (riskBadge) riskBadge.textContent = '0건';
       riskList.innerHTML = `
         <div style="font-size:13px; color:var(--muted); padding:10px 4px;">
-          해당 주간에 확인된 비판·지적성 기사가 없습니다. 올바른 행정과 시민 안전 관리가 원활히 유지되고 있습니다.
+          해당 일자에 확인된 비판·지적성 기사가 없습니다. 올바른 행정과 시민 안전 관리가 원활히 유지되고 있습니다.
         </div>
       `;
       return;
@@ -2815,10 +2849,7 @@ function renderWeeklyTrend() {
 
   if (points.length === 0) {
     points = [
-      "- [2026 화성 루나빛축제 개최] 4개 언론사 집중 보도 - 31일 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시 브랜드 가치 확산",
-      "- [MARS 2026 & 우주항공추진단 발족] 3개 언론사 집중 보도 - 60명 규모 우주항공산업 추진단 출범 및 11월 AI 엑스포 준비로 미래 신성장 동력 확보 조명",
-      "- [제14회 경기도장애인배드민턴대회] 3개 언론사 집중 보도 - 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각",
-      "- [동탄 트램 및 광역철도망 현장점검] 2개 언론사 집중 보도 - 동탄트램 및 분당선 연장 등 광역교통망 적기 개통 추진 촉구 및 지역 교통 인프라 점검"
+      "- [화성시정 핵심 현안] 언론 보도 분석 집계가 진행 중입니다."
     ];
   }
 
@@ -2838,9 +2869,8 @@ function renderWeeklyTrend() {
 
   // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 삭제, 제목+1줄요약 불릿만 노출)
   let riskArticles = mp.risk_cautions || [];
-  if (riskArticles.length === 0) {
-    const pool = (currentWeekOffset === 0) ? globalArticles : weekArticles;
-    riskArticles = pool.filter(a => a.category === 'RISK');
+  if (riskArticles.length === 0 && dayArticles.length > 0) {
+    riskArticles = dayArticles.filter(a => a.category === 'RISK');
   }
 
   if (riskBadge) riskBadge.textContent = `${riskArticles.length}건`;
@@ -2848,7 +2878,7 @@ function renderWeeklyTrend() {
   if (riskArticles.length === 0) {
     riskList.innerHTML = `
       <div style="font-size:13px; color:var(--muted); padding:10px 4px;">
-        해당 주간에 확인된 비판·지적성 기사가 없습니다. 올바른 행정과 시민 안전 관리가 원활히 유지되고 있습니다.
+        해당 일자에 확인된 비판·지적성 기사가 없습니다. 올바른 행정과 시민 안전 관리가 원활히 유지되고 있습니다.
       </div>
     `;
     return;
@@ -2856,10 +2886,10 @@ function renderWeeklyTrend() {
 
   riskList.innerHTML = riskArticles.map(r => {
     const title = r.title || '';
-    const media = r.media || '언론사';
+    const media = resolveMediaName(r);
     const link = r.link || '#';
     const time = r.time_label || '';
-    const bulletText = (r.bullets && r.bullets.length > 0) ? r.bullets[0].replace(/^-\s*/, '') : '';
+    const bulletText = (r.bullets && r.bullets.length > 0) ? r.bullets[0].replace(/^[-•*]\s*/, '') : '';
 
     return `
       <div class="risk-caution-card">
@@ -4107,7 +4137,7 @@ function resetAllFilters() {
   switchMainTab('HOME', homeTabBtn);
 }
 
-// data.macro_pulse가 없을 때를 대비한 브라우저 클라이언트 측 자동 계산 Fallback
+// data.macro_pulse가 없을 때 또는 과거 일자 네비게이션 시 브라우저 클라이언트 측 자동 계산 Fallback
 function extractClientMacroPulse(articles) {
   const themesDef = [
     { id: 'INDUSTRY_AGRI', name: '미래 첨단산업 · 스마트 농축수산', short_name: '산업·농정' },
@@ -4150,19 +4180,52 @@ function extractClientMacroPulse(articles) {
   const top1 = sorted[0] || themesDef[0];
   const top2 = sorted[1] || themesDef[1];
 
-  const overview = `화성특례시 출범과 민선8기 전략을 선도하는 「${top1.short_name}」(${top1.count}건, ${top1.ratio}%) 분야를 중심으로 시정 핵심 정책 및 현안이 본궤도에 오르고 있습니다.`;
+  const topThemesText = (top1.count > 0 && top2.count > 0)
+    ? `「${top1.short_name}」(${top1.count}건) 및 「${top2.short_name}」(${top2.count}건)`
+    : `「${top1.short_name}」(${top1.count}건)`;
 
-  const main_points = [
-    `- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 60명 규모 우주항공산업 추진단 출범과 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명`,
-    `- [2026 화성 루나빛축제 추진] 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시브랜드 가치 확산`,
-    `- [제14회 경기도장애인배드민턴대회] 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각`,
-    `- [스마트 로컬푸드 및 서해안 수산진흥] 친환경 농산물 공급망 확대와 어촌 상생 지원을 통해 도농복합 1차 산업 경쟁력 강화 조명`,
-    `- [가을철 다중이용시설 선제 안전점검] 소방·경찰 합동 사전 현장 점검 행정 추진으로 시민 생활 안전망 및 도시 신뢰도 제고`
-  ];
+  const overview = `화성특례시 출범과 민선8기 전략을 선도하는 ${topThemesText} 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.`;
+
+  // 중요도 순 정렬 (클러스터 다수 언론사 보도 -> 주요 기사 -> 비판/지적 -> 일반 순)
+  const sortedArticles = [...articles].sort((a, b) => {
+    const scoreA = ((a.related_articles || []).length * 10) + (a.is_major ? 5 : 0) + (a.category === 'RISK' ? 3 : 0);
+    const scoreB = ((b.related_articles || []).length * 10) + (b.is_major ? 5 : 0) + (b.category === 'RISK' ? 3 : 0);
+    return scoreB - scoreA;
+  });
+
+  // 주요 기사 최대 4건 선별 및 포맷팅 (동적 추출)
+  const main_points = [];
+  const seenHeadlines = new Set();
+
+  for (const art of sortedArticles) {
+    if (main_points.length >= 4) break;
+    const mediaName = resolveMediaName(art);
+    const relCount = (art.related_articles || []).length;
+    const mediaInfo = relCount > 0 ? `총 ${relCount + 1}개 언론사 집중 보도` : `${mediaName} 보도`;
+
+    let summary = '';
+    if (art.bullets && art.bullets.length > 0) {
+      summary = art.bullets[0].replace(/^[-•*]\s*/, '').trim();
+    }
+    if (!summary || summary.length < 10) {
+      summary = art.description || art.title;
+    }
+
+    let cleanT = art.title.replace(/^\[.*?\]\s*/, '').replace(/^[<"'\(\[].*?[>"'\)\]]\s*/, '').trim();
+    if (cleanT.length > 25) {
+      cleanT = cleanT.slice(0, 25).trim() + '...';
+    }
+
+    const simpleKey = cleanT.replace(/[^\w가-힣]/g, '').slice(0, 10);
+    if (seenHeadlines.has(simpleKey)) continue;
+    seenHeadlines.add(simpleKey);
+
+    main_points.push(`- [${cleanT}] ${mediaInfo} - ${summary}`);
+  }
 
   const risk_cautions = articles.filter(a => a.category === 'RISK').map(a => ({
     title: a.title,
-    media: a.media || '언론사',
+    media: resolveMediaName(a),
     link: a.link,
     time_label: a.time_label || '',
     department: a.department || '공보실',
@@ -4173,7 +4236,7 @@ function extractClientMacroPulse(articles) {
     overview: overview,
     main_points: main_points,
     risk_cautions: risk_cautions,
-    summary_bullets: [overview, main_points[0], main_points[1]],
+    summary_bullets: [overview, ...(main_points.slice(0, 2))],
     theme_stats: theme_stats
   };
 }
