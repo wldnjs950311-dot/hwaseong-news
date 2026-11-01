@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026.11.02. 07:38",
-  "scrap_period": "전전일(10.31) 08:00 ~ 전일(11.01) 08:00",
+  "updated_at": "2026.11.02. 08:00",
+  "scrap_period": "전일(11.01) 08:00 ~ 금일(11.02) 08:00",
   "yesterday_label": "11.01",
   "macro_pulse": {
-    "overview": "화성특례시 출범을 앞두고 특례시·자치, 문화·관광 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
+    "overview": "화성특례시 출범을 앞두고 특례시·자치, 산업·농정 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
     "main_points": [
       "- [2026 화성 루나빛축제 개최] 4개 언론사 집중 보도 - 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시 브랜드 가치 확산",
       "- [MARS 2026 & 우주항공추진단 발족] 3개 언론사 집중 보도 - 60명 규모 우주항공산업 추진단 출범 및 11월 AI 엑스포 준비로 미래 신성장 동력 확보 조명",
@@ -25,7 +25,7 @@
       }
     ],
     "summary_bullets": [
-      "화성특례시 출범을 앞두고 특례시·자치, 문화·관광 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
+      "화성특례시 출범을 앞두고 특례시·자치, 산업·농정 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다.",
       "- [2026 화성 루나빛축제 개최] 4개 언론사 집중 보도 - 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시 브랜드 가치 확산",
       "- [MARS 2026 & 우주항공추진단 발족] 3개 언론사 집중 보도 - 60명 규모 우주항공산업 추진단 출범 및 11월 AI 엑스포 준비로 미래 신성장 동력 확보 조명"
     ],
@@ -48,8 +48,8 @@
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 3,
-        "ratio": 21
+        "count": 2,
+        "ratio": 14
       },
       {
         "id": "WELFARE_SAFETY",
@@ -62,19 +62,19 @@
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 5,
-        "ratio": 36
+        "count": 6,
+        "ratio": 43
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "정남 물류센터 교통 대책",
-      "count": 16,
+      "keyword": "정남면 물류센터 교통대책",
+      "count": 20,
       "category": "RISK",
       "dept": "교통행정과",
-      "summary": "정남면 덕절리 대형 물류센터 건립으로 인한 오산 서부권 연계 교통 혼잡 우려 및 인프라 대책 촉구"
+      "summary": "화성시 정남면 덕절리 대형 물류센터 건립에 따른 인근 오산 서부권 일대 교통 혼잡 우려로 대책 마련 요구가 집중됨."
     },
     {
       "rank": 2,
@@ -82,7 +82,7 @@
       "count": 5,
       "category": "CULTURE",
       "dept": "의회법무과",
-      "summary": "비봉 축구장에서 생활체육 동호인의 화합을 다지는 제3회 의장기 족구대회가 성황리에 열림"
+      "summary": "비봉 축구장에서 생활체육 활성화 및 동호인 화합을 도모하기 위한 제3회 의장기 족구대회가 열림."
     },
     {
       "rank": 3,
@@ -90,37 +90,61 @@
       "count": 2,
       "category": "POLICY",
       "dept": "철도전략과",
-      "summary": "반월동 및 동탄3동의 부족한 생활 편의시설과 교통망 확충을 위한 도의회 차원의 정책 과제 제시"
+      "summary": "반월동 및 동탄3동 일원의 상대적으로 취약한 생활 인프라와 교통망 확충 필요성이 제기됨."
     },
     {
       "rank": 4,
-      "keyword": "동탄 트램 착공",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "트램건설추진단",
-      "summary": "기본계획 반영 17년 만에 동탄 도시철도 트램이 본착공 궤도에 오르며 지역 교통 호재로 주목"
+      "keyword": "가족형태 맞춤정책",
+      "count": 2,
+      "category": "CULTURE",
+      "dept": "여성가족과",
+      "summary": "다양화되는 현대 가족 형태 변화에 선제적으로 대응하기 위한 포럼을 열고 맞춤형 정책 방향을 논의함."
     },
     {
       "rank": 5,
-      "keyword": "루나빛 축제",
+      "keyword": "동탄트램 착공",
       "count": 1,
-      "category": "CULTURE",
-      "dept": "문화예술과",
-      "summary": "동탄호수공원에서 시민 5만여 명이 참여한 가운데 대표 야경 문화축제인 루나빛축제 성료"
+      "category": "POLICY",
+      "dept": "트램건설추진단",
+      "summary": "계획 수립 17년 만에 동탄 도시철도(트램) 사업이 실제 착공 단계에 진입하며 부동산 및 교통 기대감이 고조됨."
     }
   ],
   "stats": {
-    "total": 137,
-    "major_count": 50,
-    "live_count": 87,
+    "total": 139,
+    "major_count": 51,
+    "live_count": 88,
     "today_count": 0,
     "scrap_count": 14,
     "yesterday_count": 0,
     "policy": 97,
-    "culture": 35,
+    "culture": 37,
     "risk": 5
   },
   "articles": [
+    {
+      "title": "화성시·캐나다 버나비시, 합창으로 문화교류 확대",
+      "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=92641",
+      "originallink": "https://www.thefairnews.co.kr/news/articleView.html?idxno=92641",
+      "media": "더페어",
+      "category": "CULTURE",
+      "department": "자치분권과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.02 07:48",
+      "pub_timestamp": "2026-11-02T07:48:00+09:00",
+      "bullets": [
+        "- 화성시는 10월 31일부터 11월 1일까지 유앤아이센터 화성아트홀에서 '제4회 화성시 합창페스티벌'을 개최함",
+        "- 자매도시인 캐나다 버나비시의 밴쿠버 한인합창단 45명이 참여해 양 도시 간 문화교류를 확대함",
+        "- 자매결연 15주년 기념공연에 이어 행정 중심에서 시민과 예술인이 주도하는 민간 국제교류로 발전시킴"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.thefairnews.co.kr/news/thumbnail/202611/92641_139109_4629_v150.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "17년 만에 삽 뜬다, 동탄 트램 착공…서·남동탄 단지도 집값 들썩",
       "link": "https://realty.chosun.com/site/data/html_dir/2026/10/30/2026103000955.html",
@@ -450,6 +474,34 @@
           "media": "경기일보",
           "time_label": "10.29 17:10",
           "pub_timestamp": "2026-10-29T17:10:00+09:00"
+        },
+        {
+          "title": "오산시의회 정례회 마무리… 행정사무감사·결산 심사",
+          "link": "https://www.asiatime.co.kr/article/20261101500013",
+          "media": "ASIATIME",
+          "time_label": "스크랩 11.01 13:20",
+          "pub_timestamp": "2026-11-01T13:20:00+09:00"
+        },
+        {
+          "title": "오산시의회 유종대 의원 \"민선 8기 주요 사업 전면 재검증해야\"",
+          "link": "http://www.metroseoul.co.kr/article/20261030500176",
+          "media": "서울신문",
+          "time_label": "10.30 19:10",
+          "pub_timestamp": "2026-10-30T19:10:00+09:00"
+        },
+        {
+          "title": "오산시의회, 제307회 제1차 정례회 마무리",
+          "link": "http://www.metroseoul.co.kr/article/20261030500186",
+          "media": "서울신문",
+          "time_label": "10.30 19:10",
+          "pub_timestamp": "2026-10-30T19:10:00+09:00"
+        },
+        {
+          "title": "[의회 브리핑] 오산시의회, 제307회 제1차 정례회 32개 안건 처리",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=834064",
+          "media": "NSPNA",
+          "time_label": "10.30 18:18",
+          "pub_timestamp": "2026-10-30T18:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -571,8 +623,16 @@
         "- 전문가 발표 및 시민과의 소통을 통해 지역 특성에 부합하는 가족정책 과제와 비전을 집중 논의함",
         "- 화성특례시 전환에 발맞춰 시민 체감형 가족 지원 정책 및 복합 전달체계를 지속 강화해 나갈 방침임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, 제2회 가족정책포럼 개최…다양한 가족 형태에 맞는 정책 ...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2486974",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.01 09:00",
+          "pub_timestamp": "2026-11-01T09:00:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202611/1335605_677756_559_v150.jpg",
       "telegram_sent": false
     },
@@ -587,8 +647,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 10.31 15:16",
+      "date_group": "2026-10-31",
+      "time_label": "10.31 15:16",
       "pub_timestamp": "2026-10-31T15:16:00+09:00",
       "bullets": [
         "- 화성시가 가을밤 공원에서 진행되는 문화 공연 소식을 공식 SNS를 통해 홍보함",
@@ -598,6 +658,30 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://www.dailyt.co.kr/data/dlt/image/2026/10/31/dlt202610310007.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "박천권 원광종합병원 이사, 동탄경찰서장 표창…“공공의료·지역 안전...",
+      "link": "https://www.kyeonggi.com/article/20261031580048",
+      "originallink": "https://www.kyeonggi.com/article/20261031580048",
+      "media": "경기일보",
+      "category": "CULTURE",
+      "department": "정남면",
+      "dept_label": "소관",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "2026-10-31",
+      "time_label": "10.31 13:45",
+      "pub_timestamp": "2026-10-31T13:45:00+09:00",
+      "bullets": [
+        "- 박천권 원광의료재단 원광종합병원 관리이사가 31일 화성동탄경찰서장 표창장을 수상함",
+        "- 화성특례시 정남면 갈대숲축제 행사 현장에서 지역 의료 증진 및 안전망 구축 공로 인정",
+        "- 화성시민의 응급의료체계 유지와 의료 접근성 향상 등 공공의료 실천 노력 지속 평가"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/31/.cache/512/20261031580049.png",
       "telegram_sent": false
     },
     {
@@ -1068,6 +1152,41 @@
           "media": "뉴시스",
           "time_label": "10.29 19:49",
           "pub_timestamp": "2026-10-29T19:49:00+09:00"
+        },
+        {
+          "title": "경기 버스 노사 임단협 타결…첫차부터 정상 운행",
+          "link": "https://www.news1.kr/photos/8187819",
+          "media": "뉴스1",
+          "time_label": "10.30 08:49",
+          "pub_timestamp": "2026-10-30T08:49:00+09:00"
+        },
+        {
+          "title": "경기 버스 ‘노사 협상’ 극적 타결…총파업 철회",
+          "link": "https://www.news1.kr/photos/8187820",
+          "media": "뉴스1",
+          "time_label": "10.30 08:49",
+          "pub_timestamp": "2026-10-30T08:49:00+09:00"
+        },
+        {
+          "title": "경기 버스 노사, 11시간 밤샘 협상 끝 극적 합의…총파업 철회",
+          "link": "https://www.news1.kr/photos/8187831",
+          "media": "뉴스1",
+          "time_label": "10.30 08:48",
+          "pub_timestamp": "2026-10-30T08:48:00+09:00"
+        },
+        {
+          "title": "경기 버스 노사 밤샘 협상 타결…첫차부터 정상 운행",
+          "link": "https://www.news1.kr/photos/8187824",
+          "media": "뉴스1",
+          "time_label": "10.30 08:48",
+          "pub_timestamp": "2026-10-30T08:48:00+09:00"
+        },
+        {
+          "title": "경기 버스 노사 협상 타결…총파업 철회",
+          "link": "https://www.news1.kr/photos/8187829",
+          "media": "뉴스1",
+          "time_label": "10.30 08:48",
+          "pub_timestamp": "2026-10-30T08:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -1540,6 +1659,48 @@
           "media": "DNEWS",
           "time_label": "10.29 17:20",
           "pub_timestamp": "2026-10-29T17:20:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 시민·예술인 중심 국제교류 강화…합창으로 두 도시...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32733",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.02 07:54",
+          "pub_timestamp": "2026-11-02T07:54:00+09:00"
+        },
+        {
+          "title": "[분양일정]화성 향남 롯데캐슬 시그니처外 4천928가구 청약",
+          "link": "http://www.kjdaily.com/article.php?aid=1793570534690766276",
+          "media": "KJDAILY",
+          "time_label": "스크랩 11.02 07:04",
+          "pub_timestamp": "2026-11-02T07:04:00+09:00"
+        },
+        {
+          "title": "내일 특공 시작…'화성 향남 롯데캐슬 시그니처' 분양가는?",
+          "link": "https://www.wikitree.co.kr/articles/1170830",
+          "media": "위키트리",
+          "time_label": "스크랩 11.01 13:06",
+          "pub_timestamp": "2026-11-01T13:06:00+09:00"
+        },
+        {
+          "title": "[주간분양] 이주 '화성 향남 롯데캐슬 시그니처' 등 7곳 청약",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5078079",
+          "media": "SHINAILBO",
+          "time_label": "스크랩 11.01 08:46",
+          "pub_timestamp": "2026-11-01T08:46:00+09:00"
+        },
+        {
+          "title": "화성 향남 롯데캐슬 시그니처 분양…11월 2일 청약 시작",
+          "link": "https://www.nextdaily.co.kr/news/articleView.html?idxno=254385",
+          "media": "NEXTDAILY",
+          "time_label": "10.30 11:32",
+          "pub_timestamp": "2026-10-30T11:32:00+09:00"
+        },
+        {
+          "title": "전용 84㎡ 4억원대부터…'화성 향남 롯데캐슬 시그니처' 분양 눈길",
+          "link": "https://edu.donga.com/news/articleView.html?idxno=113328",
+          "media": "동아일보",
+          "time_label": "10.30 09:54",
+          "pub_timestamp": "2026-10-30T09:54:00+09:00"
         }
       ],
       "is_major": true,
