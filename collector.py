@@ -1217,6 +1217,10 @@ def main():
     cumulative_articles.sort(key=lambda x: x.get("pub_timestamp", ""), reverse=True)
     print(f">> 전체 3개월 누적 보존 기사 건수: {len(cumulative_articles)}건 (이번 신규/수집: {len(processed_articles)}건)")
 
+    # 텔레그램 발송 활성화 여부 확인 및 카운터 초기화
+    telegram_enabled = bool(os.environ.get("TELEGRAM_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+    new_sent_count = 0
+
     # 텔레그램 중복 발송 방지를 위한 기발송 식별 세트 (URL, 원본URL, 정규화 제목, 48시간 내 발송 주요사안)
     already_sent_urls = set()
     already_sent_titles = set()
@@ -1302,8 +1306,10 @@ def main():
     major_count = sum(1 for a in cumulative_articles if a.get("is_major", False))
     live_count = len(cumulative_articles) - major_count
 
-    # [토큰 대폭 절감] 24시간 기준 분석 대상 기사 추출
-    cycle_articles = [a for a in cumulative_articles if a.get("date_group") in ("TODAY_LIVE", "MORNING_SCRAP")]
+    # [24시간 룰 적용] 전일 08:00 ~ 금일 08:00 조간 스크랩 기사 기준 추출
+    cycle_articles = [a for a in cumulative_articles if a.get("date_group") == "MORNING_SCRAP"]
+    if len(cycle_articles) < 3:
+        cycle_articles = [a for a in cumulative_articles if a.get("date_group") in ("MORNING_SCRAP", "TODAY_LIVE")]
     target_articles_24h = cycle_articles if len(cycle_articles) >= 3 else cumulative_articles[:15]
 
     # 신규 분석 기사가 전혀 없는 경우 기존 macro_pulse와 trending_topics 즉시 재활용 (비용 0원!)

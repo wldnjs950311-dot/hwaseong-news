@@ -58,36 +58,36 @@
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 20,
-        "ratio": 25
+        "count": 8,
+        "ratio": 30
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 6,
-        "ratio": 7
+        "count": 4,
+        "ratio": 15
       },
       {
         "id": "CULTURE_ECO",
-        "name": "문화관광 · 해양생태 브랜드",
+        "name": "문화관광 · 해양생태 도시브랜드",
         "short_name": "문화·관광",
-        "count": 7,
-        "ratio": 9
+        "count": 5,
+        "ratio": 19
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 21,
-        "ratio": 26
+        "count": 5,
+        "ratio": 19
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 27,
-        "ratio": 33
+        "count": 5,
+        "ratio": 19
       }
     ]
   },

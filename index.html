@@ -427,20 +427,28 @@ header {
   opacity: 1;
 }
 
-/* 타임라인 날짜 구분선 */
+/* 타임라인 날짜 구분선 및 접기/펼치기 인터랙션 */
 .date-divider {
   display: flex;
   align-items: center;
   margin: 32px 0 22px 0;
   text-align: center;
 }
+.date-divider.date-divider-clickable {
+  cursor: pointer;
+  user-select: none;
+}
 .date-divider::before, .date-divider::after {
   content: "";
   flex: 1;
   border-bottom: 1.5px dashed #CBD5E1;
 }
+.date-divider span.date-divider-pill,
 .date-divider span {
-  padding: 4px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 16px;
   font-size: 13px;
   font-weight: 800;
   color: var(--muted);
@@ -448,6 +456,27 @@ header {
   border-radius: 20px;
   margin: 0 12px;
   letter-spacing: -0.01em;
+  transition: all 0.2s ease;
+}
+.date-divider.date-divider-clickable:hover span.date-divider-pill {
+  background: #CBD5E1;
+  color: #1E293B;
+}
+.divider-toggle-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  color: #475569;
+  border: 1px solid #CBD5E1;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+.date-divider.date-divider-clickable:hover .divider-toggle-badge {
+  background: #0F172A;
+  color: #FFFFFF;
+  border-color: #0F172A;
 }
 
 /* 5. 뉴스 카드 및 카테고리별 좌측 컬러 라인 (주요 뉴스 및 실시간 뉴스 공통 적용) */
@@ -2164,25 +2193,25 @@ header {
       홈
     </button>
     <button class="tab-btn" id="tabBtnAll" onclick="switchMainTab('ALL', this)">
-      전체기사 <span class="tab-badge" id="tabCountAll">0</span>
+      전체기사
     </button>
     <button class="tab-btn" id="tabBtnIndustryAgri" onclick="switchMainTab('INDUSTRY_AGRI', this)">
-      산업·농정 <span class="tab-badge" id="tabCountIndustryAgri">0</span>
+      산업·농정
     </button>
     <button class="tab-btn" id="tabBtnTransitInfra" onclick="switchMainTab('TRANSIT_INFRA', this)">
-      교통·도시 <span class="tab-badge" id="tabCountTransitInfra">0</span>
+      교통·도시
     </button>
     <button class="tab-btn" id="tabBtnCultureEco" onclick="switchMainTab('CULTURE_ECO', this)">
-      문화·관광 <span class="tab-badge" id="tabCountCultureEco">0</span>
+      문화·관광
     </button>
     <button class="tab-btn" id="tabBtnWelfareSafety" onclick="switchMainTab('WELFARE_SAFETY', this)">
-      복지·안전 <span class="tab-badge" id="tabCountWelfareSafety">0</span>
+      복지·안전
     </button>
     <button class="tab-btn" id="tabBtnAutonomyAdmin" onclick="switchMainTab('AUTONOMY_ADMIN', this)">
-      특례시·자치 <span class="tab-badge" id="tabCountAutonomyAdmin">0</span>
+      특례시·자치
     </button>
     <button class="tab-btn risk-tab" id="tabBtnRisk" onclick="switchMainTab('RISK', this)">
-      비판지적 <span class="tab-badge risk" id="tabCountRisk">0</span>
+      비판지적
     </button>
   </div>
 
@@ -2267,11 +2296,12 @@ header {
       </div>
     </section>
 
-    <!-- 4. 테마별 현황 (Item 4: 24시간 룰 적용) -->
+    <!-- 4. 테마별 현황 (24시간 룰 적용: 기준 전일 08:00 ~ 금일 08:00) -->
     <section class="themes-card">
       <div class="themes-header">
-        <div class="themes-title-group">
+        <div class="themes-title-group" style="display:flex; align-items:baseline; gap:8px;">
           <span class="themes-title">테마별 현황</span>
+          <span class="themes-period-badge" id="themesPeriodBadge" style="font-size:12px; font-weight:600; color:var(--muted);">(기준: 전일 08:00 ~ 금일 08:00)</span>
         </div>
       </div>
       <!-- 테마별 점유율 비중 스택 바 -->
@@ -2522,6 +2552,13 @@ const sectionStates = {
   live: true
 };
 
+// 날짜 구분선 그룹 접힘 상태 관리 (오늘 실시간 보도, 조간 스크랩 보도, 이전 아카이브 보도)
+const dateGroupStates = {
+  todayLive: true,
+  morningScrap: true,
+  archive: true
+};
+
 // [요구사항 7] 80+ 국내 언론사 도메인 매핑 테이블 및 클라이언트 fallback
 const JS_MEDIA_DOMAINS = {
   "yna.co.kr": "연합뉴스",
@@ -2662,14 +2699,16 @@ async function loadNewsData() {
     const todayEl = document.getElementById('todayDateText');
     if (todayEl) todayEl.textContent = `[${yyyy}.${mm}.${dd}.(${dayStr})]`;
     
-    // [요구사항 1] 24시간 언론동향 우측 상단 기준일 텍스트 포맷팅
+    // [요구사항 1] 24시간 언론동향 및 테마별 현황 기준일 텍스트 포맷팅
     const periodBarEl = document.getElementById('dashboardPeriodText');
-    if (periodBarEl) {
-      const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
-      const fM = (d) => String(d.getMonth() + 1).padStart(2, '0');
-      const fD = (d) => String(d.getDate()).padStart(2, '0');
-      periodBarEl.textContent = `(기준: 전일(${fM(yesterday)}.${fD(yesterday)}) 08:00 ~ 금일(${fM(now)}.${fD(now)}) 08:00)`;
-    }
+    const themesPeriodEl = document.getElementById('themesPeriodBadge');
+    const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+    const fM = (d) => String(d.getMonth() + 1).padStart(2, '0');
+    const fD = (d) => String(d.getDate()).padStart(2, '0');
+    const defaultPeriodText = `(기준: 전일(${fM(yesterday)}.${fD(yesterday)}) 08:00 ~ 금일(${fM(now)}.${fD(now)}) 08:00)`;
+    const periodText = data.scrap_period ? `(기준: ${data.scrap_period})` : defaultPeriodText;
+    if (periodBarEl) periodBarEl.textContent = periodText;
+    if (themesPeriodEl) themesPeriodEl.textContent = periodText;
 
     yesterdayLabel = data.yesterday_label || "어제";
     globalArticles = data.articles || [];
@@ -2952,9 +2991,14 @@ function renderThemesOverview() {
   const grid = document.getElementById('themesGrid');
   if (!ratioBar || !grid) return;
 
-  // 24시간 기사 기준으로 테마별 통계 직접 산출 (Item 4: 24시간 룰 엄격 일치)
-  const articles24h = globalArticles.filter(a => a.date_group === 'TODAY_LIVE' || a.date_group === 'MORNING_SCRAP');
-  const targetArticles = (articles24h.length >= 3) ? articles24h : globalArticles;
+  // 24시간 룰(기준: 전일 08:00 ~ 금일 08:00) 조간 스크랩 기사 기준으로 테마별 통계 산출
+  let targetArticles = globalArticles.filter(a => a.date_group === 'MORNING_SCRAP');
+  if (targetArticles.length === 0) {
+    targetArticles = globalArticles.filter(a => a.date_group === 'MORNING_SCRAP' || a.date_group === 'TODAY_LIVE');
+  }
+  if (targetArticles.length === 0) {
+    targetArticles = globalArticles;
+  }
 
   const themesDef = [
     { id: 'INDUSTRY_AGRI', name: '미래 첨단산업 · 스마트 농축수산', short_name: '산업·농정' },
@@ -3507,13 +3551,7 @@ function renderTimeline() {
     if (el) el.textContent = val;
   };
 
-  setSafeText('tabCountAll', countAll);
-  setSafeText('tabCountIndustryAgri', themeCounts.INDUSTRY_AGRI);
-  setSafeText('tabCountTransitInfra', themeCounts.TRANSIT_INFRA);
-  setSafeText('tabCountCultureEco', themeCounts.CULTURE_ECO);
-  setSafeText('tabCountWelfareSafety', themeCounts.WELFARE_SAFETY);
-  setSafeText('tabCountAutonomyAdmin', themeCounts.AUTONOMY_ADMIN);
-  setSafeText('tabCountRisk', themeCounts.RISK);
+  // 상단 탭 버튼 건수 배지 삭제 완료
 
   // 현재 탭 및 검색 조건으로 최종 필터링된 기사 목록
   const filtered = globalArticles.filter(item => matchesSearchCriteria(item, true));
@@ -3544,44 +3582,101 @@ function renderTimeline() {
   }
   setSafeText('majorCountBadge', `${majorArticles.length}건`);
 
-  // 2) [이전 버전 원복] 실시간 뉴스 렌더링 (공보실 08:00 스크랩 및 실시간 타임라인 구분선)
-  let hasInsertedLiveDivider = false;
-  let hasInsertedScrapDivider = false;
-  let hasInsertedPastDivider = false;
-
+  // 2) 실시간 뉴스 렌더링 (공보실 08:00 스크랩 및 실시간 타임라인 날짜 그룹별 접기/펼치기 지원)
   if (liveArticles.length > 0) {
     document.getElementById('emptyLiveNotice').style.display = 'none';
+
+    const todayLiveArticles = [];
+    const morningScrapArticles = [];
+    const archiveArticles = [];
+
     liveArticles.forEach(item => {
       const isPastArticle = item.pub_timestamp && (Date.now() - new Date(item.pub_timestamp).getTime() > 28 * 60 * 60 * 1000);
-
-      // 08:00 기준 구분선 삽입
-      if (!isPastArticle && item.date_group === 'TODAY_LIVE' && !hasInsertedLiveDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>오늘 실시간 보도 (08:00 이후)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedLiveDivider = true;
-      } else if (!isPastArticle && item.date_group === 'MORNING_SCRAP' && !hasInsertedScrapDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>조간 스크랩 보도 (전일 08:00 ~ 금일 08:00)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedScrapDivider = true;
-      } else if (!isPastArticle && item.date_group === 'YESTERDAY' && !hasInsertedScrapDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>조간 스크랩 보도 (어제자 보도)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedScrapDivider = true;
-      } else if ((isPastArticle || (item.date_group !== 'TODAY_LIVE' && item.date_group !== 'MORNING_SCRAP' && item.date_group !== 'YESTERDAY')) && !hasInsertedPastDivider) {
-        const divider = document.createElement('div');
-        divider.className = 'date-divider';
-        divider.innerHTML = `<span>이전 아카이브 보도 (최근 3개월)</span>`;
-        liveContainer.appendChild(divider);
-        hasInsertedPastDivider = true;
+      if (!isPastArticle && item.date_group === 'TODAY_LIVE') {
+        todayLiveArticles.push(item);
+      } else if (!isPastArticle && (item.date_group === 'MORNING_SCRAP' || item.date_group === 'YESTERDAY')) {
+        morningScrapArticles.push(item);
+      } else {
+        archiveArticles.push(item);
       }
-      liveContainer.appendChild(createNewsCard(item, false));
     });
+
+    // 2-1) 오늘 실시간 보도 (08:00 이후) 그룹
+    if (todayLiveArticles.length > 0) {
+      const isExpanded = dateGroupStates.todayLive !== false;
+      const divider = document.createElement('div');
+      divider.className = 'date-divider date-divider-clickable';
+      divider.setAttribute('onclick', "toggleDateGroup('todayLive')");
+      divider.title = "클릭하여 오늘 실시간 보도 접기/펼치기";
+      divider.innerHTML = `
+        <span class="date-divider-pill">
+          오늘 실시간 보도 (08:00 이후)
+          <span class="divider-toggle-badge" id="todayLiveToggleBadge">${isExpanded ? '접기' : '펼치기'}</span>
+        </span>
+      `;
+      liveContainer.appendChild(divider);
+
+      const groupList = document.createElement('div');
+      groupList.id = 'todayLiveList';
+      groupList.className = 'date-group-list';
+      if (!isExpanded) groupList.style.display = 'none';
+      todayLiveArticles.forEach(item => {
+        groupList.appendChild(createNewsCard(item, false));
+      });
+      liveContainer.appendChild(groupList);
+    }
+
+    // 2-2) 조간 스크랩 보도 (전일 08:00 ~ 금일 08:00) 그룹
+    if (morningScrapArticles.length > 0) {
+      const isExpanded = dateGroupStates.morningScrap !== false;
+      const divider = document.createElement('div');
+      divider.className = 'date-divider date-divider-clickable';
+      divider.setAttribute('onclick', "toggleDateGroup('morningScrap')");
+      divider.title = "클릭하여 조간 스크랩 보도 접기/펼치기";
+      const isYesterday = morningScrapArticles.every(a => a.date_group === 'YESTERDAY');
+      const scrapTitle = isYesterday ? '조간 스크랩 보도 (어제자 보도)' : '조간 스크랩 보도 (전일 08:00 ~ 금일 08:00)';
+      divider.innerHTML = `
+        <span class="date-divider-pill">
+          ${scrapTitle}
+          <span class="divider-toggle-badge" id="morningScrapToggleBadge">${isExpanded ? '접기' : '펼치기'}</span>
+        </span>
+      `;
+      liveContainer.appendChild(divider);
+
+      const groupList = document.createElement('div');
+      groupList.id = 'morningScrapList';
+      groupList.className = 'date-group-list';
+      if (!isExpanded) groupList.style.display = 'none';
+      morningScrapArticles.forEach(item => {
+        groupList.appendChild(createNewsCard(item, false));
+      });
+      liveContainer.appendChild(groupList);
+    }
+
+    // 2-3) 이전 아카이브 보도 (최근 3개월) 그룹
+    if (archiveArticles.length > 0) {
+      const isExpanded = dateGroupStates.archive !== false;
+      const divider = document.createElement('div');
+      divider.className = 'date-divider date-divider-clickable';
+      divider.setAttribute('onclick', "toggleDateGroup('archive')");
+      divider.title = "클릭하여 이전 아카이브 보도 접기/펼치기";
+      divider.innerHTML = `
+        <span class="date-divider-pill">
+          이전 아카이브 보도 (최근 3개월)
+          <span class="divider-toggle-badge" id="archiveToggleBadge">${isExpanded ? '접기' : '펼치기'}</span>
+        </span>
+      `;
+      liveContainer.appendChild(divider);
+
+      const groupList = document.createElement('div');
+      groupList.id = 'archiveList';
+      groupList.className = 'date-group-list';
+      if (!isExpanded) groupList.style.display = 'none';
+      archiveArticles.forEach(item => {
+        groupList.appendChild(createNewsCard(item, false));
+      });
+      liveContainer.appendChild(groupList);
+    }
   } else {
     document.getElementById('emptyLiveNotice').style.display = 'block';
   }
@@ -4023,6 +4118,22 @@ function toggleSection(type) {
   }
 
   updateToggleAllBtn();
+}
+
+// 4-2. 날짜별 보도 그룹 접기/펼치기 토글 함수
+function toggleDateGroup(groupKey) {
+  dateGroupStates[groupKey] = !dateGroupStates[groupKey];
+  const listEl = document.getElementById(`${groupKey}List`);
+  const badgeEl = document.getElementById(`${groupKey}ToggleBadge`);
+  if (!listEl) return;
+
+  if (dateGroupStates[groupKey]) {
+    listEl.style.display = '';
+    if (badgeEl) badgeEl.textContent = "접기";
+  } else {
+    listEl.style.display = 'none';
+    if (badgeEl) badgeEl.textContent = "펼치기";
+  }
 }
 
 // 전체 펼치기 / 전체 접기 토글
