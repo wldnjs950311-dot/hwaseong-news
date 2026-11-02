@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026.11.02. 08:00",
+  "updated_at": "2026.11.02. 12:01",
   "scrap_period": "전일(11.01) 08:00 ~ 금일(11.02) 08:00",
   "yesterday_label": "11.01",
   "macro_pulse": {
@@ -74,53 +74,282 @@
       "count": 20,
       "category": "RISK",
       "dept": "교통행정과",
-      "summary": "화성시 정남면 덕절리 대형 물류센터 건립에 따른 인근 오산 서부권 일대 교통 혼잡 우려로 대책 마련 요구가 집중됨."
+      "summary": "화성시 정남면 덕절리 대형 물류센터 건립에 따른 인근 오산 서부권 일대 교통 혼잡 우려로 대책 마련 요구가 확산되고 있습니다."
     },
     {
       "rank": 2,
       "keyword": "의장기 족구대회",
-      "count": 5,
+      "count": 8,
       "category": "CULTURE",
       "dept": "의회법무과",
-      "summary": "비봉 축구장에서 생활체육 활성화 및 동호인 화합을 도모하기 위한 제3회 의장기 족구대회가 열림."
+      "summary": "비봉 축구장에서 생활체육 동호인들의 화합을 다지는 제3회 의장기 족구대회가 열렸습니다."
     },
     {
       "rank": 3,
-      "keyword": "반월동 생활 인프라",
-      "count": 2,
-      "category": "POLICY",
-      "dept": "철도전략과",
-      "summary": "반월동 및 동탄3동 일원의 상대적으로 취약한 생활 인프라와 교통망 확충 필요성이 제기됨."
+      "keyword": "합창페스티벌",
+      "count": 4,
+      "category": "CULTURE",
+      "dept": "자치분권과",
+      "summary": "캐나다 버나비시와의 국제 문화교류 확대를 위해 유앤아이센터에서 제4회 합창페스티벌이 개최되었습니다."
     },
     {
       "rank": 4,
-      "keyword": "가족형태 맞춤정책",
-      "count": 2,
+      "keyword": "다양한 가족 형태 맞춤정책",
+      "count": 3,
       "category": "CULTURE",
       "dept": "여성가족과",
-      "summary": "다양화되는 현대 가족 형태 변화에 선제적으로 대응하기 위한 포럼을 열고 맞춤형 정책 방향을 논의함."
+      "summary": "변화하는 가족 형태에 선제적으로 대응하기 위한 맞춤형 정책 방향 모색 포럼이 진행되었습니다."
     },
     {
       "rank": 5,
-      "keyword": "동탄트램 착공",
-      "count": 1,
+      "keyword": "반월동·동탄3동 생활 인프라",
+      "count": 2,
       "category": "POLICY",
-      "dept": "트램건설추진단",
-      "summary": "계획 수립 17년 만에 동탄 도시철도(트램) 사업이 실제 착공 단계에 진입하며 부동산 및 교통 기대감이 고조됨."
+      "dept": "철도전략과",
+      "summary": "반월동과 동탄3동 일대의 생활 편의성 증진과 교통망 확충을 위한 인프라 보강 과제가 제시되었습니다."
     }
   ],
   "stats": {
-    "total": 139,
-    "major_count": 51,
-    "live_count": 88,
-    "today_count": 0,
+    "total": 147,
+    "major_count": 57,
+    "live_count": 90,
+    "today_count": 7,
     "scrap_count": 14,
     "yesterday_count": 0,
-    "policy": 97,
-    "culture": 37,
+    "policy": 101,
+    "culture": 41,
     "risk": 5
   },
   "articles": [
+    {
+      "title": "화성시,7일 ‘반려동물 행복나눔 축제’ 진행",
+      "link": "https://www.sportsseoul.com/news/read/1646090?ref=naver",
+      "originallink": "https://www.sportsseoul.com/news/read/1646090?ref=naver",
+      "media": "스포츠서울",
+      "category": "CULTURE",
+      "department": "반려동물과",
+      "dept_label": "소관",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:51",
+      "pub_timestamp": "2026-11-02T11:51:00+09:00",
+      "bullets": [
+        "- 화성시가 오는 7일 병점 정조효공원에서 ‘반려동물 행복나눔 축제’를 개최함",
+        "- 설채현 수의사 토크콘서트, 반려동물 운동회, 펫티켓 골든벨 등 풍성한 참여형 프로그램 운영",
+        "- 행동교정·건강상담 및 유기동물 입양 홍보 부스를 마련해 생명 존중과 성숙한 반려문화 확산 도모"
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시, ‘반려동물 행복나눔 축제’ 7일 정조효공원서 개최",
+          "link": "https://www.pressian.com/pages/articles/2026110210570412670?utm_source=naver&utm_medium=search",
+          "media": "프레시안",
+          "time_label": "오늘 10:58",
+          "pub_timestamp": "2026-11-02T10:58:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성 정조효공원서 반려동물 축제 열린다…상담·운동회·...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800556",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:34",
+          "pub_timestamp": "2026-11-02T10:34:00+09:00"
+        },
+        {
+          "title": "화성시, 7일 '반려동물 행복나눔 축제' 개최",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=241914",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 08:56",
+          "pub_timestamp": "2026-11-02T08:56:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://file.sportsseoul.com/news/cms/2026/11/02/news-p.v1.20261102.fb0c2eb5e89c4228bfb270d65f5982b9_T1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 캐나다 밴쿠버 한인합창단 초청",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335692",
+      "originallink": "https://www.incheonilbo.com/news/articleView.html?idxno=1335692",
+      "media": "인천일보",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:06",
+      "pub_timestamp": "2026-11-02T11:06:00+09:00",
+      "bullets": [
+        "- 화성특례시는 '제4회 화성시 합창페스티벌'에 캐나다 밴쿠버 한인합창단 45명을 초청해 자매도시 버나비시와의 문화교류 강화",
+        "- 유앤아이센터 화성아트홀에서 열린 이번 행사는 자매결연 15주년 기념에 이은 민간 주도 우호협력 확대의 일환으로 추진",
+        "- 정명근 화성시장은 민간 예술단체 간 지속적인 소통을 통해 글로벌 문화교류 기반을 더욱 확대해 나갈 방침을 밝힘"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, 加 한인합창단 초청…자매도시 버나비 우의 다져",
+          "link": "https://www.munhwa.com/article/11627929?ref=naver",
+          "media": "문화일보",
+          "time_label": "오늘 08:50",
+          "pub_timestamp": "2026-11-02T08:50:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202611/1335692_677892_33_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 민원 전화 20분 지나면 자동 종료…전 부서 확대 시행",
+      "link": "https://www.yna.co.kr/view/AKR20261102072600061?input=1195m",
+      "originallink": "https://www.yna.co.kr/view/AKR20261102072600061?input=1195m",
+      "media": "연합뉴스",
+      "category": "POLICY",
+      "department": "민원봉사과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:00",
+      "pub_timestamp": "2026-11-02T11:00:00+09:00",
+      "bullets": [
+        "- 화성시가 시범 운영하던 '민원 전화 자동 종료 시스템'을 전 부서로 확대 시행함",
+        "- 통화 연결 전 20분 경과 시 종료를 안내하고, 통화 15분 경과 시 자동 종료 예정 음성이 송출됨",
+        "- 장시간 반복·악성 민원으로부터 담당 직원을 보호하고 원활한 대민 행정 서비스를 제공하기 위한 조치임"
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시, 민원통화 자동종료 전 부서 확대…20분 이상 장시...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800550",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:32",
+          "pub_timestamp": "2026-11-02T10:32:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img3.yna.co.kr/photo/cms/2026/05/18/34/PCM20260518000034061_P4.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "\"누구나 숲을 즐긴다\"…경기도, 안산·화성·이천시 '녹색 복지' 깐다",
+      "link": "https://www.mt.co.kr/policy/2026/11/02/2026110210235965525",
+      "originallink": "https://www.mt.co.kr/policy/2026/11/02/2026110210235965525",
+      "media": "머니투데이",
+      "category": "POLICY",
+      "department": "산림휴양과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:47",
+      "pub_timestamp": "2026-11-02T10:47:00+09:00",
+      "bullets": [
+        "- 한국산림복지진흥원 주관 '2027년도 녹색자금' 공모사업에 화성시 '산림복지 나눔숲' 사업 최종 선정",
+        "- 확보된 국비를 바탕으로 관내 복지시설 유휴부지나 옥상에 녹색 쉼터 조성 추진",
+        "- 취약계층과 보행 약자를 위한 산림복지 인프라 확충 및 생활 속 휴식 공간 제공 기대"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=554,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110210235965525_1.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[2일 화성시] ‘민원통화 자동종료 시스템’ 전 부서 확대 시행 등",
+      "link": "https://www.asiatime.co.kr/article/20261102500126",
+      "originallink": "https://www.asiatime.co.kr/article/20261102500126",
+      "media": "아시아타임즈",
+      "category": "POLICY",
+      "department": "민원봉사과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:36",
+      "pub_timestamp": "2026-11-02T10:36:00+09:00",
+      "bullets": [
+        "- 화성시가 공무원 보호 및 공정한 민원응대를 위해 '민원통화 자동종료 시스템'을 1일부터 전 부서로 확대 시행함",
+        "- 지난 6월부터 41개 부서를 대상으로 시범운영을 실시하고 화성시연구원을 통해 개선방안을 검증함",
+        "- 시범운영 결과 20분 이상 장시간 통화가 61.4% 감소하고 민원인의 자진 통화 종료가 3.3배 증가함"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, 민원통화 자동종료 시스템 전 부서 확대",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/02/2026110200027.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 08:38",
+          "pub_timestamp": "2026-11-02T08:38:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/02/.cache/512/20261102500129.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "경기도, 산림청 '2027 녹색자금 공모' 3곳 선정...국비 6억여 원 확보",
+      "link": "https://www.newspim.com/news/view/20261102000214",
+      "originallink": "https://www.newspim.com/news/view/20261102000214",
+      "media": "뉴스핌",
+      "category": "POLICY",
+      "department": "산림휴양과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:19",
+      "pub_timestamp": "2026-11-02T09:19:00+09:00",
+      "bullets": [
+        "- 산림청 주관 '2027 녹색자금 공모사업'에 화성시 나눔숲 조성 사업이 최종 선정됨",
+        "- 경기도 총 국비 6억여 원 확보에 따라 화성 관내 나눔숲 조성을 위한 국비 지원 추진",
+        "- 취약계층과 시민들을 위한 녹색 휴식 공간 확충을 목표로 2027년까지 완료 예정"
+      ],
+      "related_articles": [
+        {
+          "title": "경기도, 나눔숲·무장애숲길 3곳 조성…국비 6억여 원 확보",
+          "link": "http://www.econonews.co.kr/news/articleView.html?idxno=446561",
+          "media": "ECONONEWS",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-02T09:00:00+09:00"
+        },
+        {
+          "title": "경기도, 녹색자금 공모 3개 사업 선정…녹지공간 확충",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2487005",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 08:50",
+          "pub_timestamp": "2026-11-02T08:50:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img.newspim.com/news/2026/11/02/2611020914050260_t1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "국제 합창교류·전국 낚시대회·펫 축제까지...화성시, 가을정취 만끽 ...",
+      "link": "https://www.kpinews.kr/newsView/1065566834125799",
+      "originallink": "https://www.kpinews.kr/newsView/1065566834125799",
+      "media": "https://kpinews.kr/newsView/1065566834125799",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 08:05",
+      "pub_timestamp": "2026-11-02T08:05:00+09:00",
+      "bullets": [
+        "- 화성시는 10월 마지막 주말을 맞아 국제 합창교류와 전국 낚시대회 등 다채로운 가을 행사를 개최함",
+        "- 한국음악협회 화성시지부 주관으로 캐나다 버나비시 등 국내외 합창단이 참여한 국제 문화교류 공연이 진행됨",
+        "- 남양읍 안석저수지에서는 전국 강태공 400여 명이 참가한 제17회 전국 낚시대회가 열려 시민과 방문객들의 호응을 얻음"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://kpinews.kr/data/upi/image/2026/11/02/p1065566834125799_726_thum.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시·캐나다 버나비시, 합창으로 문화교류 확대",
       "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=92641",
@@ -140,8 +369,30 @@
         "- 자매도시인 캐나다 버나비시의 밴쿠버 한인합창단 45명이 참여해 양 도시 간 문화교류를 확대함",
         "- 자매결연 15주년 기념공연에 이어 행정 중심에서 시민과 예술인이 주도하는 민간 국제교류로 발전시킴"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시, 캐나다 버나비와 '합창 교류' 확대…시민·예술인...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800553",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-02T10:30:00+09:00"
+        },
+        {
+          "title": "화성특례시, 합창으로 캐나다 버나비시와 우정…민간 문화교류 확대",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=147230",
+          "media": "투어뉴스21",
+          "time_label": "오늘 09:44",
+          "pub_timestamp": "2026-11-02T09:44:00+09:00"
+        },
+        {
+          "title": "화성특례시, '제4회 화성시 합창페스티벌'서 캐나다 버나비시와 문화교...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2487068",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 08:20",
+          "pub_timestamp": "2026-11-02T08:20:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.thefairnews.co.kr/news/thumbnail/202611/92641_139109_4629_v150.jpg",
       "telegram_sent": false
     },
@@ -216,6 +467,27 @@
           "media": "뉴스타운",
           "time_label": "10.30 22:52",
           "pub_timestamp": "2026-10-30T22:52:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 의장기 족구대회 개최…동호인 화합",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2012872",
+          "media": "매일일보",
+          "time_label": "오늘 08:56",
+          "pub_timestamp": "2026-11-02T08:56:00+09:00"
+        },
+        {
+          "title": "화성시의회, 제3회 의장기 족구대회 개최",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/02/2026110200025.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 08:34",
+          "pub_timestamp": "2026-11-02T08:34:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 제3회 의장기 족구대회서 동호인 화합·교류 응원",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2486995",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.01 20:30",
+          "pub_timestamp": "2026-11-01T20:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -630,6 +902,13 @@
           "media": "이뉴스투데이",
           "time_label": "스크랩 11.01 09:00",
           "pub_timestamp": "2026-11-01T09:00:00+09:00"
+        },
+        {
+          "title": "화성특례시, 비혼 동거 가구 지원 방안 논의…가족정책포럼 개최",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160258811251199",
+          "media": "시민일보",
+          "time_label": "스크랩 11.01 14:34",
+          "pub_timestamp": "2026-11-01T14:34:00+09:00"
         }
       ],
       "is_major": true,
@@ -682,6 +961,30 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/31/.cache/512/20261031580049.png",
+      "telegram_sent": false
+    },
+    {
+      "title": "경기 화성, 자연의 품에서 쉬어가기 좋은 가을날 가볼 만한 곳",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16256189",
+      "originallink": "https://www.topstarnews.net/news/articleView.html?idxno=16256189",
+      "media": "TOPSTARNEWS",
+      "category": "CULTURE",
+      "department": "관광진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "2026-10-31",
+      "time_label": "10.31 12:40",
+      "pub_timestamp": "2026-10-31T12:40:00+09:00",
+      "bullets": [
+        "- 화성시 우정읍 국화도가 가을철 자연 속 휴식을 즐기기 좋은 대표 관광지로 소개됨",
+        "- 국화도는 가을철 국화꽃 풍경과 함께 해변 산책로 및 스킨스쿠버, 바지락잡이 등 해양 체험을 제공함",
+        "- 서해안 자연경관과 생태 교육 공간이 조화를 이루는 화성시 관내 관광 자원의 매력을 조명함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.topstarnews.net/news/photo/202610/16256189_2064910_342_crop.jpg",
       "telegram_sent": false
     },
     {
@@ -1701,6 +2004,34 @@
           "media": "동아일보",
           "time_label": "10.30 09:54",
           "pub_timestamp": "2026-10-30T09:54:00+09:00"
+        },
+        {
+          "title": "‘화성 향남 롯데캐슬 시그니처’, 청약 일정 돌입…2일 특별공급",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611020108",
+          "media": "SENTV",
+          "time_label": "오늘 11:28",
+          "pub_timestamp": "2026-11-02T11:28:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 유기동물 입양부터 건강상담까지…책임 있는 반려문화...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32739",
+          "media": "현장뉴스",
+          "time_label": "오늘 10:06",
+          "pub_timestamp": "2026-11-02T10:06:00+09:00"
+        },
+        {
+          "title": "‘갓성비’에 상품은 하이엔드급 올라운더아파트 ‘화성 향남 롯데캐슬...",
+          "link": "https://www.dt.co.kr/article/12092252?ref=naver",
+          "media": "디지털타임스",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-02T09:00:00+09:00"
+        },
+        {
+          "title": "'향남역 그로브 스위첸' 11월 2일 정당계약…장기 거주 고려한 주거환경...",
+          "link": "https://edu.donga.com/news/articleView.html?idxno=113371",
+          "media": "동아일보",
+          "time_label": "10.30 15:18",
+          "pub_timestamp": "2026-10-30T15:18:00+09:00"
         }
       ],
       "is_major": true,
