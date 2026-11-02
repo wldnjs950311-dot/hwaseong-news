@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026.11.02. 12:01",
+  "updated_at": "2026.11.02. 16:00",
   "scrap_period": "전일(11.01) 08:00 ~ 금일(11.02) 08:00",
   "yesterday_label": "11.01",
   "macro_pulse": {
@@ -70,11 +70,11 @@
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "정남면 물류센터 교통대책",
+      "keyword": "정남면 물류센터 교통 대책",
       "count": 20,
       "category": "RISK",
       "dept": "교통행정과",
-      "summary": "화성시 정남면 덕절리 대형 물류센터 건립에 따른 인근 오산 서부권 일대 교통 혼잡 우려로 대책 마련 요구가 확산되고 있습니다."
+      "summary": "정남면 덕절리 대형 물류센터 건립에 따른 인근 오산 서부권 일대 교통 혼잡 우려와 대책 마련 촉구 사안"
     },
     {
       "rank": 2,
@@ -82,45 +82,278 @@
       "count": 8,
       "category": "CULTURE",
       "dept": "의회법무과",
-      "summary": "비봉 축구장에서 생활체육 동호인들의 화합을 다지는 제3회 의장기 족구대회가 열렸습니다."
+      "summary": "비봉축구장에서 동호인 화합을 다지기 위해 열린 제3회 의회 의장기 생활체육 족구대회"
     },
     {
       "rank": 3,
+      "keyword": "동탄 트램 착공",
+      "count": 7,
+      "category": "POLICY",
+      "dept": "트램건설추진단",
+      "summary": "계획 수립 17년 만에 본격적인 착공을 앞두며 본궤도에 진입한 동탄 도시철도(트램) 사업"
+    },
+    {
+      "rank": 4,
       "keyword": "합창페스티벌",
       "count": 4,
       "category": "CULTURE",
       "dept": "자치분권과",
-      "summary": "캐나다 버나비시와의 국제 문화교류 확대를 위해 유앤아이센터에서 제4회 합창페스티벌이 개최되었습니다."
-    },
-    {
-      "rank": 4,
-      "keyword": "다양한 가족 형태 맞춤정책",
-      "count": 3,
-      "category": "CULTURE",
-      "dept": "여성가족과",
-      "summary": "변화하는 가족 형태에 선제적으로 대응하기 위한 맞춤형 정책 방향 모색 포럼이 진행되었습니다."
+      "summary": "캐나다 버나비시 청소년합창단을 초청해 국제 문화교류를 확대한 제4회 합창페스티벌"
     },
     {
       "rank": 5,
-      "keyword": "반월동·동탄3동 생활 인프라",
-      "count": 2,
-      "category": "POLICY",
-      "dept": "철도전략과",
-      "summary": "반월동과 동탄3동 일대의 생활 편의성 증진과 교통망 확충을 위한 인프라 보강 과제가 제시되었습니다."
+      "keyword": "가족정책 포럼",
+      "count": 3,
+      "category": "CULTURE",
+      "dept": "여성가족과",
+      "summary": "다양화되는 가족 형태에 능동적으로 대응하기 위한 맞춤형 정책 방향 모색 포럼"
     }
   ],
   "stats": {
-    "total": 147,
-    "major_count": 57,
-    "live_count": 90,
-    "today_count": 7,
+    "total": 152,
+    "major_count": 60,
+    "live_count": 92,
+    "today_count": 12,
     "scrap_count": 14,
     "yesterday_count": 0,
-    "policy": 101,
-    "culture": 41,
+    "policy": 103,
+    "culture": 44,
     "risk": 5
   },
   "articles": [
+    {
+      "title": "지역 대학과 문화재단의 만남… 청년 예술가들 ‘마술피리’ 선보인다",
+      "link": "https://www.kyeongin.com/article/1773899",
+      "originallink": "https://www.kyeongin.com/article/1773899",
+      "media": "경인일보",
+      "category": "CULTURE",
+      "department": "문화예술과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:58",
+      "pub_timestamp": "2026-11-02T15:58:00+09:00",
+      "bullets": [
+        "- 화성예술의전당 개관을 기념해 오는 12~13일 이틀간 동탄아트홀에서 오페라 '마술피리' 개최",
+        "- 화성시 문화재단과 수원대학교 성악과 청년 예술가들이 협업해 가족 눈높이에 맞춘 무대 구성",
+        "- 전석 무료 공연으로 진행되어 시민들에게 수준 높은 문화 향유 기회 제공 및 지역 문화 거점 활성화"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/02/news-p.v1.20261029.070e268ccbea4c818c4b15f1d190e6d9_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "대한민국AI수도 'AI CITY 화성'",
+      "link": "http://www.breaknews.com/1247576",
+      "originallink": "http://www.breaknews.com/1247576",
+      "media": "브레이크뉴스",
+      "category": "CULTURE",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:56",
+      "pub_timestamp": "2026-11-02T15:56:00+09:00",
+      "bullets": [
+        "- 화성시가 글로벌 AI엑스포인 'MARS 2026'을 서울 엑스포에서 개최함",
+        "- 'AI CITY IN ACTION'을 슬로건으로 AI 행정 노하우와 첨단 산업생태계 성과를 전 세계에 증명할 계획임",
+        "- 개막식에서는 휴머노이드 로봇 공연 및 샘 리처드 교수의 AI 미래 관련 강연 등이 진행됨"
+      ],
+      "related_articles": [
+        {
+          "title": "정명근 화성시장 \"AI CITY 화성의 성과 전 세계에 증명할 것\"...글로벌 A...",
+          "link": "https://www.ajunews.com/view/20261102150938715",
+          "media": "아주경제",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-11-02T15:52:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시, 3일 코엑스서 글로벌 AI 엑스포 'MARS 2026' 개최",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800668",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 15:46",
+          "pub_timestamp": "2026-11-02T15:46:00+09:00"
+        },
+        {
+          "title": "화성시, AI 엑스포 'MARS 2026' 개막…우주항공·AI 산업 전략 집중 조명",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=396812",
+          "media": "FNTODAY",
+          "time_label": "오늘 15:18",
+          "pub_timestamp": "2026-11-02T15:18:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 'MARS 2026' 참여기관 34→62곳…로봇 넘어 우주항공까...",
+          "link": "https://www.etoday.co.kr/news/view/2643084",
+          "media": "ETODAY",
+          "time_label": "오늘 15:10",
+          "pub_timestamp": "2026-11-02T15:10:00+09:00"
+        },
+        {
+          "title": "화성특례시, 'MARS 2026'서 대한민국 AI 미래 제시…국가AI위원회·현대...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2487257",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 14:40",
+          "pub_timestamp": "2026-11-02T14:40:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 유기동물 입양부터 건강상담까지…책임 있는 반려문화...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32739",
+          "media": "현장뉴스",
+          "time_label": "오늘 10:06",
+          "pub_timestamp": "2026-11-02T10:06:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 시민·예술인 중심 국제교류 강화…합창으로 두 도시...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32733",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.02 07:54",
+          "pub_timestamp": "2026-11-02T07:54:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “합창으로 자매도시 우정 잇는다”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026110206472837384c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.02 06:58",
+          "pub_timestamp": "2026-11-02T06:58:00+09:00"
+        },
+        {
+          "title": "[AI&] \"AI 시대 선점\"…화성특례시 MARS 2026 내일 개막 外",
+          "link": "http://www.yonhapnewstv.co.kr/news/MYH202611020638040Z6",
+          "media": "연합뉴스TV",
+          "time_label": "스크랩 11.02 06:39",
+          "pub_timestamp": "2026-11-02T06:39:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, '2026 루나빛축제' 5만여 시민과 함께...동탄호수공원...",
+          "link": "https://www.ajunews.com/view/20261101114756427",
+          "media": "아주경제",
+          "time_label": "스크랩 11.01 12:02",
+          "pub_timestamp": "2026-11-01T12:02:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, AI 시대 평생학습 기회 확대…시민 배움의 성과 나누...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32720",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.01 10:52",
+          "pub_timestamp": "2026-11-01T10:52:00+09:00"
+        },
+        {
+          "title": "동탄호수공원 상공 수놓은 드론…5만여 명 찾았다",
+          "link": "https://www.munhwa.com/article/11627814?ref=naver",
+          "media": "문화일보",
+          "time_label": "스크랩 11.01 10:49",
+          "pub_timestamp": "2026-11-01T10:49:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 루나빛축제서 시민과 문화예술 공유…5만 명 참여 속...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32718",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.01 10:28",
+          "pub_timestamp": "2026-11-01T10:28:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “제암리 학살 기억하고 시민과 기후위기 대응”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026110110102147684c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.01 10:20",
+          "pub_timestamp": "2026-11-01T10:20:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “시민 참여로 완성한 빛의 무대”…루나빛축제 성황",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026110107502564924c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.01 08:46",
+          "pub_timestamp": "2026-11-01T08:46:00+09:00"
+        },
+        {
+          "title": "화성시, AI 엑스포로 제조업 체질 바꾼다… 우주항공까지 미래산업 확장",
+          "link": "https://www.kyeongin.com/article/1773751",
+          "media": "경인일보",
+          "time_label": "10.31 10:00",
+          "pub_timestamp": "2026-10-31T10:00:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "수원대 운영 화성시 급식관리지원센터, 신규 조리원 33명 방문교육",
+      "link": "https://edu.chosun.com/site/data/html_dir/2026/11/02/2026110280159.html",
+      "originallink": "https://edu.chosun.com/site/data/html_dir/2026/11/02/2026110280159.html",
+      "media": "@educhosun",
+      "category": "POLICY",
+      "department": "영유아보육과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:18",
+      "pub_timestamp": "2026-11-02T15:18:00+09:00",
+      "bullets": [
+        "- 화성시 어린이·사회복지급식관리지원센터, 3~10월 관내 어린이급식소 대상 '조리공정 마스터' 방문교육 진행",
+        "- 30개 급식소의 신규 조리원 33명을 대상으로 조리실 위생·안전관리 및 소독·염도 관리 실습 교육 실시",
+        "- 전문 영양사의 현장 맞춤형 지도를 통해 신규 조리원의 업무 적응 및 급식 위생 역량 강화 지원"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://edu.chosun.com/site/data/img_dir/2026/11/02/2026110280159_0.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "공룡알화석부터 요트까지… 화성 '지오로드' 관광상품화 추진",
+      "link": "https://www.thereport.co.kr/news/articleView.html?idxno=92966",
+      "originallink": "https://www.thereport.co.kr/news/articleView.html?idxno=92966",
+      "media": "더리포트",
+      "category": "POLICY",
+      "department": "관광진흥과",
+      "dept_label": "소관",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:38",
+      "pub_timestamp": "2026-11-02T14:38:00+09:00",
+      "bullets": [
+        "- 화성시가 국가지질공원 지질유산과 지역사업자의 체험 프로그램을 연계한 '화성 지오로드' 관광코스를 개발함",
+        "- 지난 10월 여행 인플루언서와 여행사 상품개발 담당자를 대상으로 지질명소 4곳과 지오파트너 7곳을 연계한 팸투어를 운영함",
+        "- 지질 탐방과 해양레저, 먹거리 등을 결합해 관내 관광업체로의 방문객 유입과 지역 관광 활성화를 도모함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.thereport.co.kr/news/photo/202611/92966_119860_3514.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시, ‘제17회 화성시장배 전국 민물낚시대회’ 성료",
+      "link": "https://sports.donga.com/region/article/all/20261102/134949567/1",
+      "originallink": "https://sports.donga.com/region/article/all/20261102/134949567/1",
+      "media": "스포츠동아",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:01",
+      "pub_timestamp": "2026-11-02T13:01:00+09:00",
+      "bullets": [
+        "- 화성특례시에서 '제17회 화성시장배 전국 민물낚시대회'가 성공적으로 개최 및 마무리됨",
+        "- 전국 낚시 동호인과 시민들이 참여하여 건전한 레저 스포츠 문화 확산 및 친목 도모",
+        "- 시는 시민 여가 선용 및 생활체육 활성화를 위한 체육 행사 지원을 지속 추진할 방침"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/02/134949593.1.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시,7일 ‘반려동물 행복나눔 축제’ 진행",
       "link": "https://www.sportsseoul.com/news/read/1646090?ref=naver",
@@ -193,6 +426,20 @@
           "media": "문화일보",
           "time_label": "오늘 08:50",
           "pub_timestamp": "2026-11-02T08:50:00+09:00"
+        },
+        {
+          "title": "화성시, 밴쿠버 한인합창단 초청…문화교류 통해 자매도시 협력 확대",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=396813",
+          "media": "FNTODAY",
+          "time_label": "오늘 15:22",
+          "pub_timestamp": "2026-11-02T15:22:00+09:00"
+        },
+        {
+          "title": "[화성소식]캐나다 밴쿠버 한인합창단 45명 초청 공연 등",
+          "link": "https://www.newsis.com/view/NISX20261102_0003851102",
+          "media": "뉴시스",
+          "time_label": "오늘 14:22",
+          "pub_timestamp": "2026-11-02T14:22:00+09:00"
         }
       ],
       "is_major": true,
@@ -281,6 +528,27 @@
           "media": "NEWDAILY",
           "time_label": "오늘 08:38",
           "pub_timestamp": "2026-11-02T08:38:00+09:00"
+        },
+        {
+          "title": "화성특례시, '민원통화 자동종료 시스템' 전 부서 확대 시행",
+          "link": "http://www.metroseoul.co.kr/article/20261102500259",
+          "media": "서울신문",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-02T14:30:00+09:00"
+        },
+        {
+          "title": "화성시 민원통화 자동종료 시스템 확대",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039575",
+          "media": "기호일보",
+          "time_label": "오늘 13:50",
+          "pub_timestamp": "2026-11-02T13:50:00+09:00"
+        },
+        {
+          "title": "화성특례시, ‘민원통화 자동종료 시스템’ 전 부서로 확대",
+          "link": "https://sports.donga.com/region/article/all/20261102/134949679/1",
+          "media": "동아일보",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-02T13:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -320,6 +588,27 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 08:50",
           "pub_timestamp": "2026-11-02T08:50:00+09:00"
+        },
+        {
+          "title": "경기도, 나눔숲·무장애숲길 3곳 조성…국비 6억원 확보",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1420713",
+          "media": "HANKOOKI",
+          "time_label": "오늘 13:42",
+          "pub_timestamp": "2026-11-02T13:42:00+09:00"
+        },
+        {
+          "title": "경기도, 녹색자금 6억여 원 확보···취약계층 녹색복지 확대",
+          "link": "https://www.kmaeil.com/news/articleView.html?idxno=656612",
+          "media": "KMAEIL",
+          "time_label": "오늘 13:38",
+          "pub_timestamp": "2026-11-02T13:38:00+09:00"
+        },
+        {
+          "title": "\"휠체어로 숲길 걷는다\"…경기도, 보행약자 위한 '녹색복지' 확충",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000438",
+          "media": "ASIATODAY",
+          "time_label": "오늘 10:56",
+          "pub_timestamp": "2026-11-02T10:56:00+09:00"
         }
       ],
       "is_major": true,
@@ -415,8 +704,51 @@
         "- 공사비 증액 및 유찰 등으로 지연되었으나 오는 2031년 12월 개통을 목표로 추진",
         "- 트램 개통 추진에 따라 동탄역과 서·남동탄 지역 간 접근성 개선 및 지역 격차 완화 기대"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "\"17년 기다림 끝에 첫 삽\"…화성시, 동탄 트램 우선시공분 착수",
+          "link": "https://www.fnnews.com/news/202611021552099228",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 16:00",
+          "pub_timestamp": "2026-11-02T16:00:00+09:00"
+        },
+        {
+          "title": "화성시, 동탄 트램 사업 본격화…우선시공분 착수",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=396821",
+          "media": "FNTODAY",
+          "time_label": "오늘 16:00",
+          "pub_timestamp": "2026-11-02T16:00:00+09:00"
+        },
+        {
+          "title": "화성특례시, 동탄 도시철도 우선시공분 착수",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039607",
+          "media": "기호일보",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-11-02T15:56:00+09:00"
+        },
+        {
+          "title": "유찰·계약무산 거친 동탄 트램, 우선시공분 공사 착수하며 재시동",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261102010000567",
+          "media": "ASIATODAY",
+          "time_label": "오늘 15:36",
+          "pub_timestamp": "2026-11-02T15:36:00+09:00"
+        },
+        {
+          "title": "화성 동탄트램 우선시공분 착수⋯ 사업 본궤도",
+          "link": "https://www.asiatime.co.kr/article/20261102500086",
+          "media": "ASIATIME",
+          "time_label": "오늘 15:02",
+          "pub_timestamp": "2026-11-02T15:02:00+09:00"
+        },
+        {
+          "title": "화성시, 동탄트램 우선시공분 착공…2027년 8월 본공사 착공 목표",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363741188",
+          "media": "중부일보",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-02T14:46:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://image.chosun.com/sitedata/image/202610/30/2026103000950_0.jpg",
       "telegram_sent": false
     },
@@ -958,8 +1290,30 @@
         "- 화성특례시 정남면 갈대숲축제 행사 현장에서 지역 의료 증진 및 안전망 구축 공로 인정",
         "- 화성시민의 응급의료체계 유지와 의료 접근성 향상 등 공공의료 실천 노력 지속 평가"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시, 원광종합병원·화성중앙종합병원 지역응급의료기관 재지정",
+          "link": "https://www.widedaily.com/news/articleView.html?idxno=302607",
+          "media": "WIDEDAILY",
+          "time_label": "오늘 14:58",
+          "pub_timestamp": "2026-11-02T14:58:00+09:00"
+        },
+        {
+          "title": "화성시 만세구·병점구 지역응급의료기관 재지정",
+          "link": "https://www.newsis.com/view/NISX20261102_0003851137",
+          "media": "뉴시스",
+          "time_label": "오늘 14:35",
+          "pub_timestamp": "2026-11-02T14:35:00+09:00"
+        },
+        {
+          "title": "화성시, 응급의료기관 2곳 재지정…24시간 진료체계 유지",
+          "link": "https://www.etoday.co.kr/news/view/2643061",
+          "media": "ETODAY",
+          "time_label": "오늘 14:34",
+          "pub_timestamp": "2026-11-02T14:34:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/31/.cache/512/20261031580049.png",
       "telegram_sent": false
     },
@@ -2032,6 +2386,83 @@
           "media": "동아일보",
           "time_label": "10.30 15:18",
           "pub_timestamp": "2026-10-30T15:18:00+09:00"
+        },
+        {
+          "title": "KCC건설, 화성 향남역 그로브 스위첸 933세대 정당계약 돌입",
+          "link": "https://www.cstimes.com/news/articleView.html?idxno=726239",
+          "media": "CSTIMES",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-11-02T14:12:00+09:00"
+        },
+        {
+          "title": "롯데캐슬 시그니처, 2일 특별공급 시작…1천542가구 청약",
+          "link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4026860",
+          "media": "NBNTV",
+          "time_label": "오늘 13:42",
+          "pub_timestamp": "2026-11-02T13:42:00+09:00"
+        },
+        {
+          "title": "“미래도시 선점”…화성 AI 박람회 내일 개막",
+          "link": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000557950",
+          "media": "채널A",
+          "time_label": "오늘 13:32",
+          "pub_timestamp": "2026-11-02T13:32:00+09:00"
+        },
+        {
+          "title": "향남역 그로브 스위첸, 2~4일 정당계약… 84㎡ 분양가 5억원 중반",
+          "link": "https://www.ajunews.com/view/20261102085941509",
+          "media": "아주경제",
+          "time_label": "오늘 11:02",
+          "pub_timestamp": "2026-11-02T11:02:00+09:00"
+        },
+        {
+          "title": "‘향남역 그로브 스위첸’ 2일부터 정당계약…중도금 무이자 혜택",
+          "link": "https://www.hankyung.com/article/202611029647i",
+          "media": "한국경제",
+          "time_label": "오늘 10:32",
+          "pub_timestamp": "2026-11-02T10:32:00+09:00"
+        },
+        {
+          "title": "'향남역 그로브 스위첸' 4일까지 정당계약…2029년 6월 입주",
+          "link": "https://www.fnnews.com/news/202611020927581041",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 10:10",
+          "pub_timestamp": "2026-11-02T10:10:00+09:00"
+        },
+        {
+          "title": "KCC건설, 향남역 그로브 스위첸, 933가구 정당계약 돌입",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500461",
+          "media": "핀포인트뉴스",
+          "time_label": "오늘 10:00",
+          "pub_timestamp": "2026-11-02T10:00:00+09:00"
+        },
+        {
+          "title": "'향남역 그로브 스위첸' 2일 정당계약 돌입…견본주택 나흘간 1만3000여...",
+          "link": "https://www.mediapen.com/news/view/1134262",
+          "media": "MEDIAPEN",
+          "time_label": "오늘 09:58",
+          "pub_timestamp": "2026-11-02T09:58:00+09:00"
+        },
+        {
+          "title": "향남역 그로브 스위첸, 4일까지 정당계약…중도금 60% 무이자",
+          "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=324421",
+          "media": "포인트데일리",
+          "time_label": "오늘 09:38",
+          "pub_timestamp": "2026-11-02T09:38:00+09:00"
+        },
+        {
+          "title": "'향남역 그로브 스위첸' 정당계약 진행…933가구 공급",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=02410806645641784&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "media": "이데일리",
+          "time_label": "오늘 09:32",
+          "pub_timestamp": "2026-11-02T09:32:00+09:00"
+        },
+        {
+          "title": "KCC건설, '향남역 그로브 스위첸' 정당계약 진행",
+          "link": "http://www.newsdream.kr/news/articleView.html?idxno=121254",
+          "media": "NEWSDREAM",
+          "time_label": "오늘 09:12",
+          "pub_timestamp": "2026-11-02T09:12:00+09:00"
         }
       ],
       "is_major": true,
@@ -4165,6 +4596,34 @@
           "media": "THEPUBLIC",
           "time_label": "10.30 09:22",
           "pub_timestamp": "2026-10-30T09:22:00+09:00"
+        },
+        {
+          "title": "정의선 현대차그룹 회장과 기념촬영 하는 이형일 부총리",
+          "link": "https://www.newsis.com/view/NISI20261102_0021515575",
+          "media": "뉴시스",
+          "time_label": "오늘 15:49",
+          "pub_timestamp": "2026-11-02T15:49:00+09:00"
+        },
+        {
+          "title": "발언하는 이형일 부총리",
+          "link": "https://www.newsis.com/view/NISI20261102_0021515580",
+          "media": "뉴시스",
+          "time_label": "오늘 15:49",
+          "pub_timestamp": "2026-11-02T15:49:00+09:00"
+        },
+        {
+          "title": "이형일 부총리, 현대차 남양연구소 방문",
+          "link": "https://www.newsis.com/view/NISI20261102_0021515569",
+          "media": "뉴시스",
+          "time_label": "오늘 15:49",
+          "pub_timestamp": "2026-11-02T15:49:00+09:00"
+        },
+        {
+          "title": "설명듣는 이형일 부총리",
+          "link": "https://www.newsis.com/view/NISI20261102_0021515572",
+          "media": "뉴시스",
+          "time_label": "오늘 15:49",
+          "pub_timestamp": "2026-11-02T15:49:00+09:00"
         }
       ],
       "is_major": true,
