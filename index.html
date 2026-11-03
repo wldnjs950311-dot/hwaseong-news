@@ -2877,10 +2877,17 @@ function renderWeeklyTrend() {
   let dayArticles = [];
 
   if (currentDayOffset === 0) {
-    // 오늘(최신 일일보고)의 경우 사전 생성된 Gemini 거시동향 최우선 활용 (없을 시 클라이언트 자동 분석)
+    // 오늘(당일 일일보고)의 경우 당일 날짜(targetDatePrefix) 기사를 기준으로 동적 추출 또는 검증된 당일 데이터 활용
     const todayArts = globalArticles.filter(a => a.pub_timestamp && a.pub_timestamp.startsWith(targetDatePrefix));
-    dayArticles = todayArts.length > 0 ? todayArts : globalArticles;
-    mp = globalMacroPulse || extractClientMacroPulse(dayArticles);
+    dayArticles = todayArts.length > 0 ? todayArts : globalArticles.slice(0, 15);
+    const isValidServerPulse = (
+      globalMacroPulse &&
+      globalMacroPulse.report_date === targetDatePrefix &&
+      Array.isArray(globalMacroPulse.main_points) &&
+      globalMacroPulse.main_points.length > 0 &&
+      !globalMacroPulse.main_points.some(p => p.includes('2026 화성 루나빛축제 개최'))
+    );
+    mp = isValidServerPulse ? globalMacroPulse : extractClientMacroPulse(dayArticles);
   } else {
     // 과거 일자(1일 전, 2일 전 등)의 기사 필터링
     dayArticles = globalArticles.filter(a => a.pub_timestamp && a.pub_timestamp.startsWith(targetDatePrefix));
@@ -2938,14 +2945,12 @@ function renderWeeklyTrend() {
   // 3) 주의사항 (제한 없이 전수 수록 - 실무대응방향 삭제, 제목+1줄요약 불릿만 노출)
   let riskArticles = [];
   if (currentDayOffset === 0) {
-    // 오늘 탭: 24시간(최근 28시간) 이내에 발행된 실제 리스크 기사만 선별하여 과거 일자 기사 누출 원천 차단
-    const rawRisks = (mp.risk_cautions && mp.risk_cautions.length > 0) ? mp.risk_cautions : dayArticles.filter(a => a.category === 'RISK');
-    riskArticles = rawRisks.filter(r => {
+    // 오늘 탭: 당일(targetDatePrefix) 발행된 리스크 기사 선별 (당일 기사가 없을 경우 최근 24시간 내 리스크 기사)
+    const todayRisks = dayArticles.filter(a => a.category === 'RISK');
+    riskArticles = todayRisks.length > 0 ? todayRisks : ((mp.risk_cautions || []).filter(r => {
       const pts = r.pub_timestamp || (globalArticles.find(a => a.link === r.link || a.title === r.title) || {}).pub_timestamp;
-      if (!pts) return true;
-      const pubTime = new Date(pts).getTime();
-      return (Date.now() - pubTime <= 30 * 60 * 60 * 1000);
-    });
+      return pts && pts.startsWith(targetDatePrefix);
+    }));
   } else {
     // 과거 일자 탭: 해당 날짜 기사 중 리스크 기사 전수 수록
     riskArticles = (mp.risk_cautions && mp.risk_cautions.length > 0) ? mp.risk_cautions : dayArticles.filter(a => a.category === 'RISK');

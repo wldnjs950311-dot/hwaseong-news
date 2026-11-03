@@ -761,20 +761,23 @@ def extract_trending_topics(client, articles):
     return fallback_topics[:5]
 
 
-def extract_macro_pulse(client, articles):
+def extract_macro_pulse(client, articles, report_date_str="", theme_source_articles=None):
     """
     시장 및 정책기획관 관점의 화성시정 거시 기류 총괄 진단 및 7대 전략 테마별 점유율 산출
     (이모티콘 사용 배제, 단정하고 신뢰감 있는 정통 행정 문체)
     """
     if not articles:
         return {
+            "report_date": report_date_str,
+            "article_count": 0,
             "summary_bullets": ["현재 수집된 기사가 충분하지 않습니다."],
             "theme_stats": []
         }
 
     # 1. 5대 핵심 테마별 24시간 통계 집계 (Item 4: 24시간 룰 적용)
+    stats_basis = theme_source_articles if theme_source_articles else articles
     theme_counts = {t["id"]: 0 for t in POLICY_THEMES}
-    for art in articles:
+    for art in stats_basis:
         tid = art.get("theme_id", "INDUSTRY_AGRI")
         # 하위 호환 매핑
         norm_tid = (
@@ -788,7 +791,7 @@ def extract_macro_pulse(client, articles):
         if norm_tid in theme_counts:
             theme_counts[norm_tid] += 1
 
-    total_articles = len(articles)
+    total_articles = len(stats_basis)
     theme_stats = []
     for t in POLICY_THEMES:
         c = theme_counts[t["id"]]
@@ -801,10 +804,30 @@ def extract_macro_pulse(client, articles):
             "ratio": ratio
         })
 
-    # 보도 비중 순 정렬
-    sorted_themes = sorted(theme_stats, key=lambda x: x["count"], reverse=True)
-    top_theme_names = [st["short_name"] for st in sorted_themes if st["count"] > 0][:2]
-    top_themes_str = ", ".join(top_theme_names) if top_theme_names else "시정 일반"
+    # 당일 기사 기준 테마 비중도 별도 산출하여 개요(overview) 문구에 반영
+    day_theme_counts = {t["id"]: 0 for t in POLICY_THEMES}
+    for art in articles:
+        tid = art.get("theme_id", "INDUSTRY_AGRI")
+        norm_tid = (
+            "INDUSTRY_AGRI" if tid in ("INDUSTRY", "INDUSTRY_AGRI") else
+            "TRANSIT_INFRA" if tid in ("TRANSIT", "TRANSIT_INFRA") else
+            "CULTURE_ECO" if tid in ("CULTURE", "CULTURE_ECO") else
+            "WELFARE_SAFETY" if tid in ("WELFARE", "SAFETY", "WELFARE_SAFETY") else
+            "AUTONOMY_ADMIN" if tid in ("AUTONOMY", "CITIZEN", "AUTONOMY_ADMIN") else
+            "INDUSTRY_AGRI"
+        )
+        if norm_tid in day_theme_counts:
+            day_theme_counts[norm_tid] += 1
+    sorted_day_themes = sorted(
+        [{"short_name": t["short_name"], "count": day_theme_counts[t["id"]]} for t in POLICY_THEMES],
+        key=lambda x: x["count"],
+        reverse=True
+    )
+    top_theme_names = [
+        f"「{st['short_name']}」({st['count']}건)"
+        for st in sorted_day_themes if st["count"] > 0
+    ][:2]
+    top_themes_str = " 및 ".join(top_theme_names) if top_theme_names else "시정 일반"
 
     # 2. 비판/지적성(RISK) 기사 전수 수록 (중복 클러스터 배제한 대표 기사 목록)
     risk_cautions = []
@@ -820,48 +843,59 @@ def extract_macro_pulse(client, articles):
                 "media": a.get("media", "언론사"),
                 "link": a.get("link", ""),
                 "time_label": a.get("time_label", ""),
+                "pub_timestamp": a.get("pub_timestamp", ""),
                 "department": a.get("department", "공보실"),
                 "bullets": a.get("bullets", [])
             })
 
-    # 3. Gemini를 활용한 주간 언론동향 (개요 + 5줄 주요내용) 도출
+    # 중요도 순 정렬 (다수 언론사 클러스터 보도 -> 주요 기사 -> 비판/지적 -> 최신순)
+    sorted_articles = sorted(
+        articles,
+        key=lambda a: (
+            len(a.get("related_articles", [])) * 10
+            + (5 if a.get("is_major") else 0)
+            + (3 if a.get("category") == "RISK" else 0)
+        ),
+        reverse=True
+    )
+
+    # 3. Gemini를 활용한 당일 언론동향 일일보고 (개요 + 주요내용 4줄) 도출
     overview_text = ""
     main_points = []
 
     if client and GEMINI_API_KEY:
         try:
             briefs = []
-            for idx, a in enumerate(articles[:15], 1):
+            for idx, a in enumerate(sorted_articles[:15], 1):
                 b_text = a.get("bullets", [""])[0].lstrip("- ")
-                briefs.append(f"{idx}. [{a.get('theme_short', '')}] {a['title']} - {b_text}")
+                rep_cnt = 1 + len(a.get("related_articles", []))
+                media_label = f"총 {rep_cnt}개 언론사 집중 보도" if rep_cnt > 1 else f"{a.get('media', '언론사')} 보도"
+                briefs.append(f"{idx}. [{a.get('theme_short', '')}] {a['title']} ({media_label}) - {b_text}")
             articles_text = "\n".join(briefs)
 
             prompt = f"""당신은 화성시장 및 정책기획관의 수석 정책보좌관입니다.
-수집된 화성시 뉴스들을 심층 분석하여, 시장과 간부진이 이번주 언론동향의 핵심과 시민 체감 기류를 한눈에 파악할 수 있는 주간 종합 보고서를 작성하십시오.
+아래 수집된 당일 화성시 주요 뉴스 목록을 심층 분석하여, 시장과 간부진이 오늘 언론동향의 핵심과 시민 체감 기류를 한눈에 파악할 수 있는 일일 종합 보고서를 작성하십시오.
 
-[수집된 주요 기사 목록]:
+[수집된 당일 주요 기사 목록 (보도 비중 순)]:
 {articles_text}
 
 [작성 지침 - 엄수]:
 1. 이모티콘(이모지)은 절대로 단 하나도 사용하지 마십시오.
-2. 'overview'(개요): 화성시정이 가장 강하게 주력하는 핵심 정책 방향 및 전략 사업 추진 동향을 1문장으로 작성하십시오.
-3. 'main_points'(주요내용): 언론의 보도 집중도가 가장 높은 핵심 주요뉴스 3~4건만 엄선하여 핵심 인과관계를 1줄로 명료하게 요약하십시오.
-   - 언론 동향이 도출된 [구체적 행사/사업/사건명]을 반드시 대괄호 [ ] 안에 가장 먼저 명시하고, 몇 개 사가 집중 보도했는지와 핵심 내용을 명확히 1줄로 서술하십시오. (정확히 3~4개 문장, 각 문장은 '- '로 시작)
-   ※ 중요: 부수적인 소소한 보도는 과감히 생략하고, 다수 언론사가 집중 보도한 핵심 주요뉴스만 엄선하여 요약하십시오.
-
-형식:
-"- [구체적 행사/사업/사건명] (N개사 집중 보도) ~추진(발족/개최)에 따라 ~언론 보도 집중 조명"
+2. 반드시 위 [수집된 당일 주요 기사 목록]에 실제로 존재하는 기사 내용만 바탕으로 작성하십시오. 목록에 없는 과거 행사나 가상의 사안을 절대 지어내지 마십시오.
+3. 'overview'(개요): 오늘 화성시정이 가장 강하게 주력하는 핵심 정책 방향 및 주요 현안 보도 흐름을 1문장으로 작성하십시오.
+4. 'main_points'(주요내용): 위 기사 목록 중 보도 집중도와 시정 중요도가 가장 높은 핵심 주요뉴스 최대 4건을 엄선하여 각 1줄로 명료하게 요약하십시오.
+   - 언론 동향이 도출된 [구체적 행사/사업/사건명]을 반드시 대괄호 [ ] 안에 가장 먼저 명시하고, 언론 보도 현황(예: 총 N개 언론사 집중 보도 또는 언론사명 보도)과 핵심 내용을 명확히 1줄로 서술하십시오. (각 문장은 '- '로 시작)
 
 [출력 JSON 스키마]:
-{
-  "overview": "화성특례시 출범과 민선8기 전략을 선도하는 미래 첨단산업 육성 및 도심 문화예술 진흥이 본궤도에 오르고 있습니다.",
+{{
+  "overview": "화성특례시 출범과 민선8기 전략을 선도하는 핵심 분야를 중심으로 주요 시정 현안 보도가 집중되었습니다.",
   "main_points": [
-    "- [2026 화성 루나빛축제 개최] 4개 언론사 집중 보도 - 동탄호수공원 대규모 수변 야경 축제 개최로 시민 문화예술 향유 및 도심 랜드마크 브랜드 가치 확산",
-    "- [MARS 2026 AI 엑스포 & 우주항공추진단 발족] 3개 언론사 집중 보도 - 60명 규모 우주항공추진단 공식 출범 및 11월 AI 엑스포 준비로 미래 신성장 동력 확보 집중 조명",
-    "- [제14회 경기도장애인배드민턴대회 개최] 3개 언론사 집중 보도 - 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 포용복지 실현 조명",
-    "- [동탄 트램 및 광역철도망 현장점검] 2개 언론사 집중 보도 - 동탄트램 및 분당선 연장 등 광역교통망 적기 개통 추진 촉구 및 지역 교통 인프라 점검"
+    "- [구체적 사안/사업명 1] 총 N개 언론사 집중 보도 - 핵심 추진 내용 및 시정 의의 1줄 요약",
+    "- [구체적 사안/사업명 2] 총 N개 언론사 집중 보도 - 핵심 추진 내용 및 시정 의의 1줄 요약",
+    "- [구체적 사안/사업명 3] 언론사 보도 - 핵심 추진 내용 및 시정 의의 1줄 요약",
+    "- [구체적 사안/사업명 4] 언론사 보도 - 핵심 추진 내용 및 시정 의의 1줄 요약"
   ]
-}
+}}
 """
             res = client.models.generate_content(
                 model="gemini-3.8-flash",
@@ -875,23 +909,43 @@ def extract_macro_pulse(client, articles):
                 if pts and len(pts) >= 1:
                     main_points = [p if p.startswith("- ") else f"- {p}" for p in pts[:4]]
         except Exception as e:
-            print(f"주간 언론동향 Gemini 도출 예외 ({e}), Fallback 적용")
+            print(f"언론동향 일일보고 Gemini 도출 예외 ({e}), 동적 Fallback 적용")
 
-    # Fallback 작성 (Gemini 미연결 또는 실패 시)
+    # 동적 Fallback 작성 (Gemini 미연결 또는 실패 시 당일 실제 수집된 기사에서 즉시 추출)
     if not overview_text:
-        overview_text = f"화성특례시 출범을 앞두고 {top_themes_str} 분야를 중심으로 미래 성장동력 확보 및 전략 사업 추진이 활발히 전개되고 있습니다."
+        overview_text = f"화성특례시 출범과 민선8기 전략을 선도하는 {top_themes_str} 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다."
 
     if not main_points:
-        main_points = [
-            "- [2026 화성 루나빛축제 개최] 4개 언론사 집중 보도 - 동탄호수공원 대규모 가을철 도심 수변 야경 축제 개최로 시민 문화예술 향유 및 도시 브랜드 가치 확산",
-            "- [MARS 2026 & 우주항공추진단 발족] 3개 언론사 집중 보도 - 60명 규모 우주항공산업 추진단 출범 및 11월 AI 엑스포 준비로 미래 신성장 동력 확보 조명",
-            "- [제14회 경기도장애인배드민턴대회] 3개 언론사 집중 보도 - 200여 명 선수단 참가 속 성황리 개최로 장애인 생활체육 진흥 및 따뜻한 포용복지 실현 부각",
-            "- [동탄 트램 및 광역철도망 현장점검] 2개 언론사 집중 보도 - 동탄트램 및 분당선 연장 등 광역교통망 적기 개통 추진 촉구 및 지역 교통 인프라 점검"
-        ]
+        seen_headlines = set()
+        for art in sorted_articles:
+            if len(main_points) >= 4:
+                break
+            rel_count = len(art.get("related_articles", []))
+            media_name = art.get("media", "언론사")
+            media_info = f"총 {rel_count + 1}개 언론사 집중 보도" if rel_count > 0 else f"{media_name} 보도"
+
+            bullets_list = art.get("bullets", [])
+            summary = bullets_list[0].lstrip("-•* ").strip() if bullets_list else ""
+            if not summary or len(summary) < 10:
+                summary = art.get("title", "")
+
+            clean_t = re.sub(r"^\[.*?\]\s*", "", art.get("title", "")).strip()
+            clean_t = re.sub(r"^[<\"'\(\[].*?[>\"'\)\]]\s*", "", clean_t).strip()
+            if len(clean_t) > 25:
+                clean_t = clean_t[:25].strip() + "..."
+
+            simple_key = re.sub(r"[^\w가-힣]", "", clean_t)[:10]
+            if not simple_key or simple_key in seen_headlines:
+                continue
+            seen_headlines.add(simple_key)
+
+            main_points.append(f"- [{clean_t}] {media_info} - {summary}")
 
     summary_bullets = [overview_text] + main_points[:2]
 
     return {
+        "report_date": report_date_str,
+        "article_count": len(articles),
         "overview": overview_text,
         "main_points": main_points,
         "risk_cautions": risk_cautions,
@@ -1306,23 +1360,34 @@ def main():
     major_count = sum(1 for a in cumulative_articles if a.get("is_major", False))
     live_count = len(cumulative_articles) - major_count
 
-    # [24시간 룰 적용] 전일 08:00 ~ 금일 08:00 조간 스크랩 기사 기준 추출
-    cycle_articles = [a for a in cumulative_articles if a.get("date_group") == "MORNING_SCRAP"]
-    if len(cycle_articles) < 3:
-        cycle_articles = [a for a in cumulative_articles if a.get("date_group") in ("MORNING_SCRAP", "TODAY_LIVE")]
+    # [24시간 룰 적용] 조간 스크랩 및 당일 실시간 기사 기준 추출
+    cycle_articles = [a for a in cumulative_articles if a.get("date_group") in ("TODAY_LIVE", "MORNING_SCRAP")]
     target_articles_24h = cycle_articles if len(cycle_articles) >= 3 else cumulative_articles[:15]
 
-    # 신규 분석 기사가 전혀 없는 경우 기존 macro_pulse와 trending_topics 즉시 재활용 (비용 0원!)
+    # 당일 언론동향 일일보고 대상 기사 추출 (당일 YYYY-MM-DD 발행 기사 우선, 부족 시 24시간 기사 활용)
+    today_iso = today_date.isoformat()
+    today_only_articles = [a for a in cumulative_articles if a.get("pub_timestamp", "").startswith(today_iso)]
+    daily_report_articles = today_only_articles if len(today_only_articles) >= 1 else target_articles_24h
+
+    # 신규 분석 기사가 전혀 없고 당일 날짜/기사 수가 동일한 경우에만 기존 캐시 재활용
     reused_cache = False
     if new_gemini_analyzed == 0 and os.path.exists("news_data.json"):
         try:
             with open("news_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
-                if old_data.get("macro_pulse") and old_data.get("trending_topics"):
-                    macro_pulse = old_data["macro_pulse"]
+                old_mp = old_data.get("macro_pulse") or {}
+                old_pts_str = " ".join(old_mp.get("main_points", []))
+                if (
+                    old_mp
+                    and old_data.get("trending_topics")
+                    and old_mp.get("report_date") == today_iso
+                    and old_mp.get("article_count") == len(daily_report_articles)
+                    and "2026 화성 루나빛축제 개최" not in old_pts_str
+                ):
+                    macro_pulse = old_mp
                     trending_topics = old_data["trending_topics"]
                     reused_cache = True
-                    print(">> [토큰 100% 절감 (비용 0원)] 신규 기사가 없어 기존 언론동향 및 키워드 분석을 즉시 재활용합니다.")
+                    print(">> [토큰 100% 절감 (비용 0원)] 당일 신규 기사가 없어 기존 일일보고 및 키워드 분석을 재활용합니다.")
         except Exception:
             pass
 
@@ -1331,9 +1396,14 @@ def main():
         trending_topics = extract_trending_topics(client, target_articles_24h)
         print(f">> 24시간 언론동향 키워드 도출 완료: {[t['keyword'] for t in trending_topics]}")
 
-        # 2. 24시간 언론동향 진단 및 5대 테마별 24시간 점유율 산출 (Item 4: 24시간 룰 적용)
-        macro_pulse = extract_macro_pulse(client, target_articles_24h)
-        print(f">> 24시간 언론동향 진단 완료 (개요 및 5줄 주요내용, 24시간 테마 통계: {len(macro_pulse.get('theme_stats', []))}개)")
+        # 2. 당일 언론동향 일일보고 진단 및 5대 테마별 24시간 점유율 산출
+        macro_pulse = extract_macro_pulse(
+            client,
+            daily_report_articles,
+            report_date_str=today_iso,
+            theme_source_articles=target_articles_24h
+        )
+        print(f">> 당일({today_iso}) 언론동향 일일보고 진단 완료 (대상 기사: {len(daily_report_articles)}건)")
 
     result_data = {
         "updated_at": now_str,
