@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026.11.03. 12:00",
+  "updated_at": "2026.11.03. 16:00",
   "scrap_period": "전일(11.02) 08:00 ~ 금일(11.03) 08:00",
   "yesterday_label": "11.02",
   "macro_pulse": {
@@ -82,57 +82,153 @@
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "AI CITY 및 MARS 2026",
-      "count": 46,
+      "keyword": "MARS 2026",
+      "count": 52,
       "category": "CULTURE",
       "dept": "기업투자실 첨단산업과",
-      "summary": "화성시가 글로벌 AI엑스포인 'MARS 2026' 개최를 발표하며 대한민국 AI수도로의 도약을 추진하고 있습니다."
+      "summary": "글로벌 AI 엑스포인 'MARS 2026'을 서울 엑스포에서 개최하며 대한민국 AI 수도 비전을 선포함"
     },
     {
       "rank": 2,
-      "keyword": "동탄도시철도(트램)",
-      "count": 23,
+      "keyword": "동탄도시철도 트램",
+      "count": 33,
       "category": "POLICY",
       "dept": "트램건설추진단",
-      "summary": "17년 숙원 사업인 동탄도시철도(트램) 1단계 우선시공분 착수식이 차량기지 부지에서 열렸습니다."
+      "summary": "17년 만에 동탄트램 차량기지 부지에서 동탄도시철도 1단계 우선시공분 착수식을 열고 공사를 시작함"
     },
     {
       "rank": 3,
-      "keyword": "가축질병 재난안전대책본부",
-      "count": 10,
+      "keyword": "가축질병 통합 재난안전대책본부",
+      "count": 15,
       "category": "POLICY",
       "dept": "안전건설실 재난대응과",
-      "summary": "AI, ASF, 구제역 등 가축질병의 지역 유입을 원천 차단하기 위해 통합 재난안전대책본부를 가동했습니다."
+      "summary": "AI, ASF, 구제역 등 가축 전염병의 관내 유입을 원천 차단하기 위해 통합 재난안전대책본부를 가동함"
     },
     {
       "rank": 4,
-      "keyword": "녹색자금 나눔숲 공모",
-      "count": 7,
+      "keyword": "녹색자금 나눔숲",
+      "count": 8,
       "category": "POLICY",
       "dept": "산림휴양과",
-      "summary": "산림청 주관 2027 녹색자금 공모사업에 나눔숲 조성 사업이 최종 선정되어 국비 6억여 원을 확보했습니다."
+      "summary": "산림청 주관 '2027 녹색자금 공모사업'에 나눔숲 조성 사업이 최종 선정되어 국비 6억여 원을 확보함"
     },
     {
       "rank": 5,
-      "keyword": "정보공개 대량청구 경찰 고발",
-      "count": 5,
+      "keyword": "정보공개 청구 고발",
+      "count": 6,
       "category": "RISK",
       "dept": "기획조정실 의회법무과",
-      "summary": "1,700여 건의 대규모 정보공개를 청구해 행정 업무를 방해한 지역 주간지 기자를 경찰에 고발했습니다."
+      "summary": "시를 상대로 1,700여 건의 대규모 정보공개를 반복 청구한 지역 주간지 기자를 업무방해 혐의 등으로 경찰에 고발함"
     }
   ],
   "stats": {
-    "total": 166,
-    "major_count": 69,
-    "live_count": 97,
-    "today_count": 5,
+    "total": 170,
+    "major_count": 71,
+    "live_count": 99,
+    "today_count": 9,
     "scrap_count": 21,
     "yesterday_count": 3,
     "policy": 111,
-    "culture": 48,
-    "risk": 7
+    "culture": 51,
+    "risk": 8
   },
   "articles": [
+    {
+      "title": "\"2천 건 폭탄 청구에 행정 마비\"… 화성시, 지역 기자 고발에 경찰 수사...",
+      "link": "https://www.kgnews.co.kr/news/article.html?no=917925",
+      "originallink": "https://www.kgnews.co.kr/news/article.html?no=917925",
+      "media": "경기일보",
+      "category": "RISK",
+      "department": "언론담당관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:56",
+      "pub_timestamp": "2026-11-03T15:56:00+09:00",
+      "bullets": [
+        "- 지역 주간지 기자의 2,000여 건 정보공개 폭탄 청구로 행정이 마비되자 화성시가 형사 고발에 나섬",
+        "- 전국공무원노조 경기지역본부는 악의적 청구 중단을 촉구하며 화성시청 로비에서 규탄 기자회견 및 퍼포먼스를 예고함",
+        "- 담당 공무원들의 극심한 업무 부담과 정신적 고통을 호소하며 악성 민원 근절을 위한 대책 마련을 요구함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://www.kgnews.co.kr/data/photos/20261145/art_17936729319436_aaf125.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "'화성 네오볼 시민리그' 400여 명 출전…피클볼·플래그 풋볼 열전",
+      "link": "https://news.tf.co.kr/read/national/2384323.htm",
+      "originallink": "https://news.tf.co.kr/read/national/2384323.htm",
+      "media": "더팩트",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:42",
+      "pub_timestamp": "2026-11-03T15:42:00+09:00",
+      "bullets": [
+        "- 화성시체육회가 7일 개최하는 '2026 네오볼 시민리그'에 생활체육인 400여 명이 참가 신청",
+        "- 피클볼 51개 팀과 플래그 풋볼 10개 팀이 출전하며 초등학생부터 60대까지 폭넓은 연령층 참여",
+        "- 장애인 8명이 출전하는 피클볼 파라 부문 개설 등 남녀노소 누구나 즐기는 생활체육 축제로 운영"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.tf.co.kr/article/home/2026/11/03/202650851793687640.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "\"눈 마주친 거 맞죠?\" AIoT 진흥주간 첨단 로봇 총출동",
+      "link": "https://news.bizwatch.co.kr/article/mobile/2026/11/03/0013",
+      "originallink": "https://news.bizwatch.co.kr/article/mobile/2026/11/03/0013",
+      "media": "비즈니스워치",
+      "category": "CULTURE",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:28",
+      "pub_timestamp": "2026-11-03T14:28:00+09:00",
+      "bullets": [
+        "- 과기정통부 주최 '2026 AIoT 진흥주간'에서 화성시 'MARS 2026' 연계 휴머노이드 로봇 시연",
+        "- 언어 구사 및 아이컨택 기능을 탑재한 화성특례시 첨단 로봇 기술을 코엑스 전시장에서 선보임",
+        "- 첨단 미래 모빌리티 및 인공지능 지능형 사물인터넷 육성 정책과 연계한 시정 기술력 홍보"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.bizwatch.co.kr/news/photo/2026/11/03/MD202611031127084_wmark.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[가보니] 스마트병동·재활센터…AI가 바꿀 병원 모습은",
+      "link": "https://www.yna.co.kr/view/AKR20261103095600017?input=1195m",
+      "originallink": "https://www.yna.co.kr/view/AKR20261103095600017?input=1195m",
+      "media": "연합뉴스",
+      "category": "CULTURE",
+      "department": "AI전략과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:56",
+      "pub_timestamp": "2026-11-03T13:56:00+09:00",
+      "bullets": [
+        "- 화성시가 주최한 '인공지능(AI) 엑스포 마스(MARS) 2026'이 서울 강남구 코엑스에서 개최됨",
+        "- 대웅제약 등 참가 기업들이 스마트병동, 실시간 낙상 감지 시스템 등 AI 기반 미래 병원 솔루션을 선보임",
+        "- 화성시는 이번 엑스포를 통해 첨단 AI 기술의 실제 적용 사례와 미래 헬스케어 비전을 제시함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img5.yna.co.kr/etc/inner/KR/2026/11/03/AKR20261103095600017_06_i_P4.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성특례시, AI로 화재 조기 탐지…지능형 안전체계 구축",
       "link": "http://www.paxetv.com/news/articleView.html?idxno=285939",
@@ -278,8 +374,16 @@
         "- 인접 도시 간 행정구역을 넘어선 교통 기반시설 확충 및 시민 이동 편의 제고 공감대 형성",
         "- 화성·용인 교통 연결성 강화와 더불어 오산천 자전거도로 연계 방안 등에 대해 협의 추진"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 김상균 화성시의원, 용인특례시의회 의장단과 신동~남사터...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800815",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 13:24",
+          "pub_timestamp": "2026-11-03T13:24:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/03/.cache/512/20261103500046.jpg",
       "telegram_sent": false
     },
@@ -365,6 +469,41 @@
           "media": "투어뉴스21",
           "time_label": "오늘 08:38",
           "pub_timestamp": "2026-11-03T08:38:00+09:00"
+        },
+        {
+          "title": "화성시 '가축질병 통합 재난안전대책본부' 조기 가동",
+          "link": "https://www.newspim.com/news/view/20261103001073",
+          "media": "뉴스핌",
+          "time_label": "오늘 15:33",
+          "pub_timestamp": "2026-11-03T15:33:00+09:00"
+        },
+        {
+          "title": "정명근 시장 “제조업에 AI·우주항공 더해 미래 산업 중심지로 도약”",
+          "link": "https://view.asiae.co.kr/article/2026110314195127151",
+          "media": "아시아경제",
+          "time_label": "오늘 14:19",
+          "pub_timestamp": "2026-11-03T14:19:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, AI 산업혁신 본격 시동…제조·모빌리티·우주항공 협...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32778",
+          "media": "현장뉴스",
+          "time_label": "오늘 14:04",
+          "pub_timestamp": "2026-11-03T14:04:00+09:00"
+        },
+        {
+          "title": "화성시, 가축질병 통합 재난안전대책본부 조기 가동",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=242126",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:52",
+          "pub_timestamp": "2026-11-03T13:52:00+09:00"
+        },
+        {
+          "title": "화성, AI 산업 중심도시 도전… 제조업에 우주항공까지 접목",
+          "link": "https://www.kyeongin.com/article/1773973",
+          "media": "경인일보",
+          "time_label": "오늘 13:14",
+          "pub_timestamp": "2026-11-03T13:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -442,6 +581,13 @@
           "media": "SISAJOURNAL",
           "time_label": "오늘 08:38",
           "pub_timestamp": "2026-11-03T08:38:00+09:00"
+        },
+        {
+          "title": "화성시, 정보공개 1천784건 청구한 기자 경찰 고발",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=242127",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:54",
+          "pub_timestamp": "2026-11-03T13:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -764,6 +910,76 @@
           "media": "서울신문",
           "time_label": "스크랩 11.02 16:18",
           "pub_timestamp": "2026-11-02T16:18:00+09:00"
+        },
+        {
+          "title": "“따뜻한 AI 시티로” 화성시, 글로벌 AI 엑스포 ‘MARS 2006’ 막 올려",
+          "link": "https://www.hankookilbo.com/news/article/A2026110315440004007?did=NA",
+          "media": "한국일보",
+          "time_label": "오늘 15:53",
+          "pub_timestamp": "2026-11-03T15:53:00+09:00"
+        },
+        {
+          "title": "로봇 보러 왔다가 우주까지?…화성시 'MARS 2026'에 펼쳐진 AI 도시 구상",
+          "link": "https://www.etnews.com/20261103000345",
+          "media": "전자신문",
+          "time_label": "오늘 15:36",
+          "pub_timestamp": "2026-11-03T15:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 글로벌 AI 엑스포 'MARS 2026' 개막",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039734",
+          "media": "기호일보",
+          "time_label": "오늘 15:12",
+          "pub_timestamp": "2026-11-03T15:12:00+09:00"
+        },
+        {
+          "title": "'AI 시티가 현실로'…화성시 주최 AI 엑스포 'MARS 2026' 개막",
+          "link": "https://www.yna.co.kr/view/AKR20261103129900061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 15:11",
+          "pub_timestamp": "2026-11-03T15:11:00+09:00"
+        },
+        {
+          "title": "\"AI 미래 도시 화성특례시\"…'MARS 2026' 개막",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363741323",
+          "media": "중부일보",
+          "time_label": "오늘 15:08",
+          "pub_timestamp": "2026-11-03T15:08:00+09:00"
+        },
+        {
+          "title": "‘AI 수도’ 향한 화성시의 승부수…글로벌 엑스포 ‘MARS 2026’ 성황",
+          "link": "https://www.dt.co.kr/article/12092874?ref=naver",
+          "media": "디지털타임스",
+          "time_label": "오늘 14:51",
+          "pub_timestamp": "2026-11-03T14:51:00+09:00"
+        },
+        {
+          "title": "\"이제는 우주항공\"…화성시, AI엑스포 'MARS 2026' 개막",
+          "link": "https://www.newsis.com/view/NISX20261103_0003852826",
+          "media": "뉴시스",
+          "time_label": "오늘 14:11",
+          "pub_timestamp": "2026-11-03T14:11:00+09:00"
+        },
+        {
+          "title": "화성시, 글로벌 AI 엑스포 ‘MARS 2026’ 개막… AI 산업도시 도약 본격...",
+          "link": "https://www.asiatime.co.kr/article/20261103500252",
+          "media": "ASIATIME",
+          "time_label": "오늘 13:58",
+          "pub_timestamp": "2026-11-03T13:58:00+09:00"
+        },
+        {
+          "title": "화성시, 동탄트램 첫 삽…2031년 말 개통 목표",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=242125",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:52",
+          "pub_timestamp": "2026-11-03T13:52:00+09:00"
+        },
+        {
+          "title": "화성 동탄 트램, 17년 기다림 끝 본격 추진",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/03/2026110300188.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 12:02",
+          "pub_timestamp": "2026-11-03T12:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -1128,6 +1344,48 @@
           "media": "IKLD",
           "time_label": "오늘 08:40",
           "pub_timestamp": "2026-11-03T08:40:00+09:00"
+        },
+        {
+          "title": "반도체·AI가 바꾼 부동산 지도…첨단산업 배후 주거지 주목",
+          "link": "https://www.lawissue.co.kr/view.php?ud=20261103141429352867191f6c6e_12",
+          "media": "로이슈",
+          "time_label": "오늘 14:16",
+          "pub_timestamp": "2026-11-03T14:16:00+09:00"
+        },
+        {
+          "title": "'오늘N' 화제집중, 2026 화성 루나빛축제 낮 체험부터 밤 분수 공연까지",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=560761",
+          "media": "JOONGANGENEWS",
+          "time_label": "오늘 14:10",
+          "pub_timestamp": "2026-11-03T14:10:00+09:00"
+        },
+        {
+          "title": "삼성 투자 따라 움직이는 주거수요…동탄 집값 경기 평균 2배 상승",
+          "link": "https://www.lawissue.co.kr/view.php?ud=20261103135247178867191f6c6e_12",
+          "media": "로이슈",
+          "time_label": "오늘 13:54",
+          "pub_timestamp": "2026-11-03T13:54:00+09:00"
+        },
+        {
+          "title": "‘동탄 트램’ 17년 만에 착공…“2031년 개통 목표”",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8702536&ref=A",
+          "media": "KBS",
+          "time_label": "오늘 12:48",
+          "pub_timestamp": "2026-11-03T12:48:00+09:00"
+        },
+        {
+          "title": "경기 집값 상승 상위 10곳 중 6곳 첨단산업 거점…반도체 배후지 분양 잇...",
+          "link": "https://www.hankyung.com/article/202611032579i",
+          "media": "한국경제",
+          "time_label": "오늘 11:40",
+          "pub_timestamp": "2026-11-03T11:40:00+09:00"
+        },
+        {
+          "title": "\"삼성 따라 집값도 움직였다\"…동탄 다음 수혜지는",
+          "link": "https://www.hankyung.com/article/2026110317716",
+          "media": "한국경제",
+          "time_label": "오늘 08:40",
+          "pub_timestamp": "2026-11-03T08:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -1489,6 +1747,13 @@
           "media": "WEEKLYTODAY",
           "time_label": "스크랩 11.02 17:04",
           "pub_timestamp": "2026-11-02T17:04:00+09:00"
+        },
+        {
+          "title": "경기도, ‘2027 녹색자금 지원사업’ 국비 6억 확보",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=917850",
+          "media": "경기일보",
+          "time_label": "오늘 14:04",
+          "pub_timestamp": "2026-11-03T14:04:00+09:00"
         }
       ],
       "is_major": true,
@@ -3456,6 +3721,13 @@
           "media": "BIZWORK",
           "time_label": "오늘 09:50",
           "pub_timestamp": "2026-11-03T09:50:00+09:00"
+        },
+        {
+          "title": "어린이 보행 안전권 확보가 집값 변수…향남역 그로브 스위첸 공급 주목",
+          "link": "https://www.apnews.kr/news/articleView.html?idxno=3052761",
+          "media": "APNEWS",
+          "time_label": "오늘 14:26",
+          "pub_timestamp": "2026-11-03T14:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -3972,6 +4244,34 @@
           "media": "서울신문",
           "time_label": "10.30 08:36",
           "pub_timestamp": "2026-10-30T08:36:00+09:00"
+        },
+        {
+          "title": "화성시의회, 학생 17명과 모의 본회의 진행",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5079243",
+          "media": "SHINAILBO",
+          "time_label": "오늘 15:28",
+          "pub_timestamp": "2026-11-03T15:28:00+09:00"
+        },
+        {
+          "title": "화성시의회, 학생들과 민주주의 현장 속으로...'의회 체험교실' 운영",
+          "link": "https://www.ajunews.com/view/20261103143821185",
+          "media": "아주경제",
+          "time_label": "오늘 15:18",
+          "pub_timestamp": "2026-11-03T15:18:00+09:00"
+        },
+        {
+          "title": "화성시의회, 동탄기독학교 학생 대상 의회 체험교실 운영",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/03/2026110300218.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:38",
+          "pub_timestamp": "2026-11-03T14:38:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회, 동탄기독학교 학생들과 함께하는 '의회 체험...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800824",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-03T14:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -5918,6 +6218,20 @@
           "media": "동아일보",
           "time_label": "스크랩 11.03 00:31",
           "pub_timestamp": "2026-11-03T00:31:00+09:00"
+        },
+        {
+          "title": "전기차 생산세액공제, K배터리 '낙수효과' 기대",
+          "link": "https://www.sidae.com/article/2026110312514181176",
+          "media": "SIDAE",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-11-03T15:56:00+09:00"
+        },
+        {
+          "title": "\"국내생산세액공제, 전기차 포함해야\"…여야, 국감서 한목소리",
+          "link": "https://www.news1.kr/industry/auto-industry/6341363",
+          "media": "뉴스1",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-11-03T14:12:00+09:00"
         }
       ],
       "is_major": true,
