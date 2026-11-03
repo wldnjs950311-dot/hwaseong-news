@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026.11.03. 08:00",
+  "updated_at": "2026.11.03. 12:00",
   "scrap_period": "전일(11.02) 08:00 ~ 금일(11.03) 08:00",
   "yesterday_label": "11.02",
   "macro_pulse": {
@@ -82,57 +82,207 @@
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "MARS 2026",
-      "count": 40,
+      "keyword": "AI CITY 및 MARS 2026",
+      "count": 46,
       "category": "CULTURE",
       "dept": "기업투자실 첨단산업과",
-      "summary": "글로벌 AI 엑스포 'MARS 2026' 개최를 통해 AI 선도 도시로서의 도약을 공식화함."
+      "summary": "화성시가 글로벌 AI엑스포인 'MARS 2026' 개최를 발표하며 대한민국 AI수도로의 도약을 추진하고 있습니다."
     },
     {
       "rank": 2,
-      "keyword": "동탄트램",
-      "count": 18,
+      "keyword": "동탄도시철도(트램)",
+      "count": 23,
       "category": "POLICY",
       "dept": "트램건설추진단",
-      "summary": "17년간 지연되던 동탄도시철도(트램) 1단계 우선시공분 착수식을 열고 공사를 시작함."
+      "summary": "17년 숙원 사업인 동탄도시철도(트램) 1단계 우선시공분 착수식이 차량기지 부지에서 열렸습니다."
     },
     {
       "rank": 3,
-      "keyword": "민원통화 자동종료 시스템",
-      "count": 8,
+      "keyword": "가축질병 재난안전대책본부",
+      "count": 10,
       "category": "POLICY",
-      "dept": "민원봉사과",
-      "summary": "악성 민원 대응과 공무원 보호를 위해 통화 20분 경과 시 통화가 끝나는 시스템을 전 부서에 확대 시행함."
+      "dept": "안전건설실 재난대응과",
+      "summary": "AI, ASF, 구제역 등 가축질병의 지역 유입을 원천 차단하기 위해 통합 재난안전대책본부를 가동했습니다."
     },
     {
       "rank": 4,
-      "keyword": "녹색자금 나눔숲",
+      "keyword": "녹색자금 나눔숲 공모",
       "count": 7,
       "category": "POLICY",
       "dept": "산림휴양과",
-      "summary": "산림청 주관 공모사업에 선정되어 국비 6억여 원을 확보하고 나눔숲 조성에 나섬."
+      "summary": "산림청 주관 2027 녹색자금 공모사업에 나눔숲 조성 사업이 최종 선정되어 국비 6억여 원을 확보했습니다."
     },
     {
       "rank": 5,
-      "keyword": "반려동물 행복나눔 축제",
-      "count": 6,
-      "category": "CULTURE",
-      "dept": "반려동물과",
-      "summary": "정조효공원에서 올바른 반려문화 확산을 위한 '반려동물 행복나눔 축제'를 진행함."
+      "keyword": "정보공개 대량청구 경찰 고발",
+      "count": 5,
+      "category": "RISK",
+      "dept": "기획조정실 의회법무과",
+      "summary": "1,700여 건의 대규모 정보공개를 청구해 행정 업무를 방해한 지역 주간지 기자를 경찰에 고발했습니다."
     }
   ],
   "stats": {
-    "total": 161,
-    "major_count": 65,
-    "live_count": 96,
-    "today_count": 0,
+    "total": 166,
+    "major_count": 69,
+    "live_count": 97,
+    "today_count": 5,
     "scrap_count": 21,
     "yesterday_count": 3,
-    "policy": 107,
-    "culture": 47,
+    "policy": 111,
+    "culture": 48,
     "risk": 7
   },
   "articles": [
+    {
+      "title": "화성특례시, AI로 화재 조기 탐지…지능형 안전체계 구축",
+      "link": "http://www.paxetv.com/news/articleView.html?idxno=285939",
+      "originallink": "http://www.paxetv.com/news/articleView.html?idxno=285939",
+      "media": "팍스경제TV",
+      "category": "POLICY",
+      "department": "기획조정실 정보통신과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:54",
+      "pub_timestamp": "2026-11-03T10:54:00+09:00",
+      "bullets": [
+        "- 과기정통부 공모사업 선정에 따라 AI CCTV와 그래핀 전자코를 융합한 화재 탐지 실증과제 본격 추진",
+        "- 경기테크노파크 주관하에 화성시·수원시·이천시가 공동 참여하여 지능형 화재 안전체계 구축 착수",
+        "- 화성소방서 및 참여기업 관계자들과 협력회의를 열고 기술의 현장 적용 가능성과 운영 방안 논의"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, AI·그래핀 전자코 기술 활용 화재 조기 탐지 실증 추진",
+          "link": "https://www.news1.kr/local/gyeonggi/6341087",
+          "media": "뉴스1",
+          "time_label": "오늘 10:48",
+          "pub_timestamp": "2026-11-03T10:48:00+09:00"
+        },
+        {
+          "title": "“불꽃보다 먼저 화재 징후 잡는다”…화성시, AI·전자코 결합한 지능...",
+          "link": "https://www.ekn.kr/web/view.php?key=20261103022124644",
+          "media": "EKN",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-03T10:30:00+09:00"
+        },
+        {
+          "title": "[3일 화성시] 화성소방서와 AI 기반 화재 대응 기술 실증 협력 등",
+          "link": "https://www.asiatime.co.kr/article/20261103500074",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:56",
+          "pub_timestamp": "2026-11-03T09:56:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "http://www.paxetv.com/news/thumbnail/202611/285939_261554_392_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 동탄 맨발황톳길 2곳에 차양막 설치…이용환경 개선",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2013628",
+      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2013628",
+      "media": "매일일보",
+      "category": "POLICY",
+      "department": "공원관리1과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:50",
+      "pub_timestamp": "2026-11-03T10:50:00+09:00",
+      "bullets": [
+        "- 화성시가 동탄 치동천체육공원(75m)과 다올공원(150m) 맨발황톳길 총 225m 구간에 차양막 시범 설치 완료",
+        "- 여름철 강한 햇볕과 우천 등 기상 여건에 따른 시민 이용 불편을 해소하기 위해 사업 추진",
+        "- 기상 상황에 구애받지 않고 안전하고 쾌적하게 맨발 걷기를 즐길 수 있는 공원 환경 제공"
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성 황톳길에 차양막…햇볕·비 걱정 줄이고 사계절 걷는...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=800760",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:24",
+          "pub_timestamp": "2026-11-03T10:24:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.m-i.kr/news/photo/202611/2013628_2013956_436.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "[패트롤] 화성시-오산시",
+      "link": "https://www.ekn.kr/web/view.php?key=20261103024564647",
+      "originallink": "https://www.ekn.kr/web/view.php?key=20261103024564647",
+      "media": "에너지경제신문",
+      "category": "POLICY",
+      "department": "공원관리과",
+      "dept_label": "소관",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:38",
+      "pub_timestamp": "2026-11-03T10:38:00+09:00",
+      "bullets": [
+        "- 화성특례시가 동탄 치동천체육공원과 다올공원 맨발황톳길에 차양막을 시범 설치함",
+        "- 강한 햇볕과 갑작스러운 우천에 대비해 사계절 이용 가능한 쾌적한 공원 환경 조성에 나섬",
+        "- 시민들의 맨발 걷기 수요에 발맞춰 체육공원 내 편의시설을 확충하고 이용 편의를 개선함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.ekn.kr/mnt/file/202611/news-p.v1.20261103.9cb668a2b78e4f0da220c2135652691f_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 인공지능 산업의 미래 선보인다",
+      "link": "https://www.naeil.com/news/read/607337?ref=naver",
+      "originallink": "https://www.naeil.com/news/read/607337?ref=naver",
+      "media": "내일신문",
+      "category": "CULTURE",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:28",
+      "pub_timestamp": "2026-11-03T09:28:00+09:00",
+      "bullets": [
+        "- 화성특례시가 인공지능·로봇·우주항공 첨단산업 미래를 선보이는 'MARS 2026' 박람회를 서울 코엑스에서 개최함",
+        "- 현대차, 기아, 카이스트 등 62개 기업·기관이 참여하여 첨단기술을 전시하고 화성시 미래 산업 육성 전략 공개",
+        "- AI 기반 행정과 산업 육성 성과를 공유하고 국내외 기업·기관 간 협력을 확대하기 위해 마련됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.naeil.com/news/cms/2026/11/03/news-p.v1.20261103.597ee8cd15c24d3083772cb909781069_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "김상균 화성시의원, 용인시의회와 신동~남사터널 추진 협력 논의",
+      "link": "https://www.asiatime.co.kr/article/20261103500045",
+      "originallink": "https://www.asiatime.co.kr/article/20261103500045",
+      "media": "아시아타임즈",
+      "category": "POLICY",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:18",
+      "pub_timestamp": "2026-11-03T09:18:00+09:00",
+      "bullets": [
+        "- 김상균 화성시의원, 용인시의회 방문해 신동~남사터널 추진 위한 양 의회 간 협력 방안 논의",
+        "- 인접 도시 간 행정구역을 넘어선 교통 기반시설 확충 및 시민 이동 편의 제고 공감대 형성",
+        "- 화성·용인 교통 연결성 강화와 더불어 오산천 자전거도로 연계 방안 등에 대해 협의 추진"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/03/.cache/512/20261103500046.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시, 가축질병 통합 재난안전대책본부 가동",
       "link": "http://www.beyondpost.co.kr/view.php?ud=2026110307491698904c878f8fa1_30",
@@ -152,8 +302,72 @@
         "- AI 위기경보 '심각' 격상 및 동절기 철새 유입 증가에 대응해 지난달 26일부터 비상 방역체계에 돌입함",
         "- 5개 실무반을 편성하여 재난 상황 대비 태세를 점검하고 주요 가축질병에 대한 통합 방역을 강화함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "\"AI·돼지열병·구제역 막아라\"…화성시, 가축질병 3중 방역망 가동",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7191896",
+          "media": "HANKOOKI",
+          "time_label": "오늘 11:58",
+          "pub_timestamp": "2026-11-03T11:58:00+09:00"
+        },
+        {
+          "title": "화성시, 가축질병 통합 재난안전대책본부 조기 가동… 조류인플루엔자...",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/03/2026110300147.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 11:56",
+          "pub_timestamp": "2026-11-03T11:56:00+09:00"
+        },
+        {
+          "title": "화성특례시, 가축질병 통합 재난안전대책본부 조기 가동",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2013636",
+          "media": "매일일보",
+          "time_label": "오늘 11:04",
+          "pub_timestamp": "2026-11-03T11:04:00+09:00"
+        },
+        {
+          "title": "AI·ASF 방어막 친 화성시…가축질병 통합대책본부 조기 가동",
+          "link": "https://www.mt.co.kr/policy/2026/11/03/2026110310344591882",
+          "media": "머니투데이",
+          "time_label": "오늘 10:58",
+          "pub_timestamp": "2026-11-03T10:58:00+09:00"
+        },
+        {
+          "title": "철새 몰려오자 가축전염병 비상…화성시, AI·ASF·구제역 통합 방역체계...",
+          "link": "https://www.ekn.kr/web/view.php?key=20261103028384642",
+          "media": "EKN",
+          "time_label": "오늘 10:32",
+          "pub_timestamp": "2026-11-03T10:32:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 고병원성 AI '심각'에 선제 대응…가축질병 통합대책...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32770",
+          "media": "현장뉴스",
+          "time_label": "오늘 10:26",
+          "pub_timestamp": "2026-11-03T10:26:00+09:00"
+        },
+        {
+          "title": "화성시, 가축질병 통합 재난안전대책본부 가동⋯ AI·ASF 차단 총력",
+          "link": "https://www.asiatime.co.kr/article/20261103500062",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:44",
+          "pub_timestamp": "2026-11-03T09:44:00+09:00"
+        },
+        {
+          "title": "화성시, 가축질병 통합 재난안전대책본부 운영 ‘만전’",
+          "link": "https://www.sportsseoul.com/news/read/1646270?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 08:42",
+          "pub_timestamp": "2026-11-03T08:42:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장 \"가축질병 유입 원천 차단\"…통합 재난안전대책본...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=147358",
+          "media": "투어뉴스21",
+          "time_label": "오늘 08:38",
+          "pub_timestamp": "2026-11-03T08:38:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611030751500012504c878f8fa11224017169.jpg&nmt=30",
       "telegram_sent": false
     },
@@ -221,6 +435,13 @@
           "media": "뉴스1",
           "time_label": "스크랩 11.02 16:27",
           "pub_timestamp": "2026-11-02T16:27:00+09:00"
+        },
+        {
+          "title": "51일간 1666건 정보공개청구…화성시, 지역 기자 경찰 고발",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=392599",
+          "media": "SISAJOURNAL",
+          "time_label": "오늘 08:38",
+          "pub_timestamp": "2026-11-03T08:38:00+09:00"
         }
       ],
       "is_major": true,
@@ -270,8 +491,16 @@
         "- 신청 대상은 화성에 주민등록을 두고 경기도 거주 요건을 충족한 2001년 10월 2일~2002년 10월 1일 출생자임",
         "- 요건 충족 시 분기별 25만 원씩 연간 최대 100만 원을 희망화성지역화폐로 지급함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시, 24세 청년에 4분기 기본소득 25만원…12월 1일까지 신청",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2013427",
+          "media": "매일일보",
+          "time_label": "오늘 08:08",
+          "pub_timestamp": "2026-11-03T08:08:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3081081_123555_4716_v150.jpg",
       "telegram_sent": false
     },
@@ -500,6 +729,41 @@
           "media": "조선일보",
           "time_label": "어제 06:02",
           "pub_timestamp": "2026-11-02T06:02:00+09:00"
+        },
+        {
+          "title": "\"로봇이 발레 추고 석학이 연설한다\"…화성시 'MARS 2026' 코엑스 개막",
+          "link": "https://www.fnnews.com/news/202611031010226592",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 11:01",
+          "pub_timestamp": "2026-11-03T11:01:00+09:00"
+        },
+        {
+          "title": "화성시 ‘동탄 트램’ 17년 만에 첫삽",
+          "link": "https://www.naeil.com/news/read/607321?ref=naver",
+          "media": "NAEIL",
+          "time_label": "오늘 09:14",
+          "pub_timestamp": "2026-11-03T09:14:00+09:00"
+        },
+        {
+          "title": "화성시, 동탄 트램 우선시공분 착수…사업 본격화",
+          "link": "https://news.tf.co.kr/read/national/2383826.htm",
+          "media": "TF",
+          "time_label": "스크랩 11.02 16:32",
+          "pub_timestamp": "2026-11-02T16:32:00+09:00"
+        },
+        {
+          "title": "화성시, 동탄트램 1단계 착수식",
+          "link": "http://www.breaknews.com/1247622",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.02 16:26",
+          "pub_timestamp": "2026-11-02T16:26:00+09:00"
+        },
+        {
+          "title": "화성특례시, 동탄 트램 사업 본격화…우선시공분 착수",
+          "link": "http://www.metroseoul.co.kr/article/20261102500571",
+          "media": "서울신문",
+          "time_label": "스크랩 11.02 16:18",
+          "pub_timestamp": "2026-11-02T16:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -822,6 +1086,48 @@
           "media": "경인일보",
           "time_label": "스크랩 11.02 16:20",
           "pub_timestamp": "2026-11-02T16:20:00+09:00"
+        },
+        {
+          "title": "반도체·AI 등 첨단산업 품은 新 주거생활권, 부동산 새 성장동력 될까",
+          "link": "https://www.econovill.com/news/articleView.html?idxno=755831",
+          "media": "ECONOVILL",
+          "time_label": "오늘 11:32",
+          "pub_timestamp": "2026-11-03T11:32:00+09:00"
+        },
+        {
+          "title": "\"부동산도 반도체 특수\"…첨단산업 품은 지역 집값 '쑥'",
+          "link": "https://www.fnnews.com/news/202611030956216615",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 10:18",
+          "pub_timestamp": "2026-11-03T10:18:00+09:00"
+        },
+        {
+          "title": "반도체·AI 따라 움직이는 집값…성남·용인·화성 상승세",
+          "link": "https://news.tf.co.kr/read/economy/2383964.htm",
+          "media": "TF",
+          "time_label": "오늘 09:01",
+          "pub_timestamp": "2026-11-03T09:01:00+09:00"
+        },
+        {
+          "title": "\"부동산도 반도체 특수\"…경기도 집값 상승 이끌었다",
+          "link": "https://view.asiae.co.kr/article/2026110308570009602",
+          "media": "아시아경제",
+          "time_label": "오늘 08:57",
+          "pub_timestamp": "2026-11-03T08:57:00+09:00"
+        },
+        {
+          "title": "반도체 특수 경기도, 용인 원삼·화성 향남 새 생활권 주목",
+          "link": "https://www.mediapen.com/news/view/1134562",
+          "media": "MEDIAPEN",
+          "time_label": "오늘 08:40",
+          "pub_timestamp": "2026-11-03T08:40:00+09:00"
+        },
+        {
+          "title": "부동산도 반도체 특수… 첨단산업 품은 新 주거생활권 인기",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=343385",
+          "media": "IKLD",
+          "time_label": "오늘 08:40",
+          "pub_timestamp": "2026-11-03T08:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -1443,6 +1749,13 @@
           "media": "HANSBIZ",
           "time_label": "스크랩 11.02 17:08",
           "pub_timestamp": "2026-11-02T17:08:00+09:00"
+        },
+        {
+          "title": "이계철 화성특례시의장, 모교 발안초 총동문 체육대회 참석… \"향남 발...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=917610",
+          "media": "경기일보",
+          "time_label": "오늘 10:42",
+          "pub_timestamp": "2026-11-03T10:42:00+09:00"
         }
       ],
       "is_major": true,
@@ -3122,6 +3435,27 @@
           "media": "ECONOMIST",
           "time_label": "스크랩 11.02 17:40",
           "pub_timestamp": "2026-11-02T17:40:00+09:00"
+        },
+        {
+          "title": "1,542가구 대단지에 가격 경쟁력까지… '화성 향남 롯데캐슬 시그니처'...",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=343417",
+          "media": "IKLD",
+          "time_label": "오늘 10:22",
+          "pub_timestamp": "2026-11-03T10:22:00+09:00"
+        },
+        {
+          "title": "\"수도권 1500가구 대단지\"… ‘화성 향남 롯데캐슬 시그니처’ 3일 1순위...",
+          "link": "https://www.fnnews.com/news/202611030928385406",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 10:17",
+          "pub_timestamp": "2026-11-03T10:17:00+09:00"
+        },
+        {
+          "title": "1542가구 대단지 롯데건설 '화성 향남 롯데캐슬 시그니처', 3일 1순위 청...",
+          "link": "https://www.bizwork.co.kr/news/articleView.html?idxno=420468",
+          "media": "BIZWORK",
+          "time_label": "오늘 09:50",
+          "pub_timestamp": "2026-11-03T09:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -5577,6 +5911,13 @@
           "media": "뉴시스",
           "time_label": "스크랩 11.02 15:49",
           "pub_timestamp": "2026-11-02T15:49:00+09:00"
+        },
+        {
+          "title": "전기차도 생산세액공제 되나… 이형일 “국회 논의 적극 참여”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261102/134953330/2",
+          "media": "동아일보",
+          "time_label": "스크랩 11.03 00:31",
+          "pub_timestamp": "2026-11-03T00:31:00+09:00"
         }
       ],
       "is_major": true,
@@ -6573,6 +6914,13 @@
           "media": "베타뉴스",
           "time_label": "어제 13:58",
           "pub_timestamp": "2026-10-25T13:58:00+09:00"
+        },
+        {
+          "title": "대한터링협회, 천안서 '제1회 대한터링협회장배 전국터링대회' 개최...전...",
+          "link": "https://www.joongdo.co.kr/web/view.php?key=20261102010000306",
+          "media": "JOONGDO",
+          "time_label": "오늘 08:56",
+          "pub_timestamp": "2026-11-03T08:56:00+09:00"
         }
       ],
       "is_major": true,
