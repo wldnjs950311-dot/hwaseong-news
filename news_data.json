@@ -1,30 +1,70 @@
 {
-  "updated_at": "2026.11.04. 12:00",
+  "updated_at": "2026.11.04. 16:00",
   "scrap_period": "전일(11.03) 08:00 ~ 금일(11.04) 08:00",
   "yesterday_label": "11.03",
   "macro_pulse": {
     "report_date": "2026-11-04",
-    "article_count": 10,
-    "overview": "서울 코엑스에서 개최된 'AI Expo MARS 2026'과 연계된 첨단 미래산업 및 시니어 통합돌봄 모델이 대외적으로 집중 조명된 가운데, 화성우리꽃식물원의 공인 보전기관 지정 등 생태·산업·안전을 아우르는 도시 경쟁력 강화 행보가 주요 언론의 주목을 받았습니다.",
+    "article_count": 17,
+    "overview": "화성특례시가 주최한 코엑스 AI 엑스포를 계기로 첨단 미래산업 투자유치 및 복지 돌봄 모델에 언론의 이목이 집중된 가운데, 공무원노조의 악성 민원 규탄 단체행동과 수원 군공항 이전 반대 등 대내외 갈등 현안이 병존하고 있습니다.",
     "main_points": [
-      "- [AI Expo MARS 2026 및 시니어 커넥티드 케어 공개] 총 11개 언론사 집중 보도 - 서울 코엑스에서 AI 엑스포를 개최하고 삼성생명과 협력한 지역 통합돌봄 모델을 선보이며 첨단 기술과 복지를 연계한 특례시 미래 비전을 적극 홍보함",
-      "- [화성우리꽃식물원 희귀·특산식물 보전기관 지정] 총 7개 언론사 집중 보도 - 국립수목원으로부터 전국 33번째 희귀·특산식물 보전기관으로 공식 지정되어 지역 식물자원의 체계적 수집·증식 및 생태 연구 거점으로서의 위상을 확립함",
-      "- [스타트업 싱가포르 750만 달러 수출계약] 인천일보 보도 - 화성산업진흥원의 '글로벌 스타트업 이륙작전' 프로그램을 통해 관내 유망 스타트업 4개사가 현지에서 750만 달러 규모의 수출계약을 달성하며 해외 판로 개척에 성공함",
-      "- [생물테러 대응 민·관·군·경 합동훈련] 위클리오늘 보도 - 드론을 이용한 생물테러 위기 상황을 가정한 '안전화성훈련'에 관계기관 100여 명이 참여하여 비상사태 대응 태세와 공조체계를 강화함"
+      "- [AI Expo MARS 2026 및 시니어 커넥티드 케어 공개] 총 17개 언론사 집중 보도 - 화성특례시 주최 AI 엑스포에서 삼성생명의 지역 통합돌봄 모델이 발표되며 미래 첨단기술과 연계한 시니어 복지 선도 모델로 대대적 조명을 받음",
+      "- [화성우리꽃식물원 전국 33번째 희귀·특산식물 보전기관 지정] 총 9개 언론사 집중 보도 - 국립수목원의 국가 식물자원 보호 전문기관으로 선정되어 단순 관람 시설을 넘어 생물다양성 보전의 핵심 거점으로 위상이 제고됨",
+      "- [정보공개 폭주 및 공무원노조 청사 로비 단체행동] 뉴시스 등 보도 - 최근 10개월간 정보공개 청구가 2만 건을 초과한 가운데 노조가 시청 로비에 갑티슈 2,000개 탑을 쌓으며 악성 민원 근절 및 직원 보호 대책을 강력히 촉구함",
+      "- [코엑스 투자유치설명회 및 첨단기업 유치 전개] 메트로신문 등 보도 - AI 엑스포와 연계해 글로벌 반도체 장비기업 등을 대상으로 화성특례시의 산업 인프라를 홍보하고 미래 신성장 동력 확보를 위한 투자유치 활동을 적극 추진함"
     ],
-    "risk_cautions": [],
+    "risk_cautions": [
+      {
+        "title": "화성시, 시민 알 권리인가 공무원 괴롭힘인가…노조 대응 나서",
+        "media": "(주) 서울경제티브이",
+        "link": "https://www.sentv.co.kr/article/view/sentv202611040155",
+        "time_label": "오늘 15:14",
+        "pub_timestamp": "2026-11-04T15:14:00+09:00",
+        "department": "행정지원과",
+        "bullets": [
+          "- 화성시에서 최근 10개월간 정보공개 처리 항목이 2만 건을 넘어서며 악성 민원 논란 대두",
+          "- 화성시 공무원노조는 과도한 정보공개 청구를 공무원 괴롭힘으로 규정하고 담당자 보호 대책 마련 촉구",
+          "- 노조는 무분별한 청구로 인한 행정 마비를 막기 위해 정보공개법 개정 등 적극적인 대응 요구"
+        ]
+      },
+      {
+        "title": "수원 군공항의 화성 이전 반대하는 시민사회단체들 \"국방부는 수원 군공...",
+        "media": "CNBNEWS",
+        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1022284",
+        "time_label": "오늘 14:46",
+        "pub_timestamp": "2026-11-04T14:46:00+09:00",
+        "department": "군공항대응과",
+        "bullets": [
+          "- 수원 군공항 화성 이전 반대 시민단체들이 국방부의 '갈등관리 용역' 중단을 촉구하는 기자회견을 개최함",
+          "- 국방부가 진행 중인 화성시민 대상 인식 설문조사의 문항과 방식에 편향성이 있어 재검토가 필요하다고 주장함",
+          "- 편향된 조사가 화성시민 간 갈등을 부추기고 이전 추진 명분으로 악용될 우려가 있다며 강하게 반발함"
+        ]
+      },
+      {
+        "title": "갑티슈가 조합원의 영정사진이 되지 않기를…",
+        "media": "뉴시스",
+        "link": "https://www.newsis.com/view/NISI20261104_0002282789",
+        "time_label": "오늘 14:27",
+        "pub_timestamp": "2026-11-04T14:27:00+09:00",
+        "department": "행정지원과",
+        "bullets": [
+          "- 전국공무원노동조합 경기지역본부 화성시지부가 4일 화성시청 로비에서 갑티슈 2,000개로 탑을 쌓는 단체행동 진행",
+          "- 조합원 보호 및 공직 사회 내부 처우 개선 등을 촉구하는 취지의 항의 퍼포먼스 전개",
+          "- 청사 내 노조 집단행동 발생에 따른 노사 갈등 관리 및 청사 방호·민원 대응 필요성 제기"
+        ]
+      }
+    ],
     "summary_bullets": [
-      "서울 코엑스에서 개최된 'AI Expo MARS 2026'과 연계된 첨단 미래산업 및 시니어 통합돌봄 모델이 대외적으로 집중 조명된 가운데, 화성우리꽃식물원의 공인 보전기관 지정 등 생태·산업·안전을 아우르는 도시 경쟁력 강화 행보가 주요 언론의 주목을 받았습니다.",
-      "- [AI Expo MARS 2026 및 시니어 커넥티드 케어 공개] 총 11개 언론사 집중 보도 - 서울 코엑스에서 AI 엑스포를 개최하고 삼성생명과 협력한 지역 통합돌봄 모델을 선보이며 첨단 기술과 복지를 연계한 특례시 미래 비전을 적극 홍보함",
-      "- [화성우리꽃식물원 희귀·특산식물 보전기관 지정] 총 7개 언론사 집중 보도 - 국립수목원으로부터 전국 33번째 희귀·특산식물 보전기관으로 공식 지정되어 지역 식물자원의 체계적 수집·증식 및 생태 연구 거점으로서의 위상을 확립함"
+      "화성특례시가 주최한 코엑스 AI 엑스포를 계기로 첨단 미래산업 투자유치 및 복지 돌봄 모델에 언론의 이목이 집중된 가운데, 공무원노조의 악성 민원 규탄 단체행동과 수원 군공항 이전 반대 등 대내외 갈등 현안이 병존하고 있습니다.",
+      "- [AI Expo MARS 2026 및 시니어 커넥티드 케어 공개] 총 17개 언론사 집중 보도 - 화성특례시 주최 AI 엑스포에서 삼성생명의 지역 통합돌봄 모델이 발표되며 미래 첨단기술과 연계한 시니어 복지 선도 모델로 대대적 조명을 받음",
+      "- [화성우리꽃식물원 전국 33번째 희귀·특산식물 보전기관 지정] 총 9개 언론사 집중 보도 - 국립수목원의 국가 식물자원 보호 전문기관으로 선정되어 단순 관람 시설을 넘어 생물다양성 보전의 핵심 거점으로 위상이 제고됨"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 6,
-        "ratio": 27
+        "count": 7,
+        "ratio": 24
       },
       {
         "id": "TRANSIT_INFRA",
@@ -37,22 +77,22 @@
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 6,
-        "ratio": 27
+        "count": 8,
+        "ratio": 28
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 6,
-        "ratio": 27
+        "ratio": 21
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 4,
-        "ratio": 18
+        "count": 8,
+        "ratio": 28
       }
     ]
   },
@@ -60,56 +100,224 @@
     {
       "rank": 1,
       "keyword": "MARS 2026",
-      "count": 35,
+      "count": 51,
       "category": "CULTURE",
       "dept": "기업투자실 첨단산업과",
-      "summary": "인공지능·로봇·우주항공 등 미래 첨단산업을 선보이는 AI 엑스포 'MARS 2026'을 서울 코엑스에서 개최했습니다."
+      "summary": "인공지능·로봇·우주항공 등 첨단산업 미래를 조망하는 'MARS 2026' 박람회를 서울 코엑스에서 개최함."
     },
     {
       "rank": 2,
-      "keyword": "시니어 커넥티드 케어",
-      "count": 11,
-      "category": "CULTURE",
-      "dept": "돌봄복지국 통합돌봄과",
-      "summary": "삼성생명과 협력하여 고령화 대응을 위한 지역 통합돌봄 모델 '시니어 커넥티드 케어'를 공개했습니다."
+      "keyword": "정보공개 청구 폭탄 고발",
+      "count": 21,
+      "category": "RISK",
+      "dept": "언론담당관",
+      "summary": "2,000여 건에 달하는 악의적 정보공개 청구로 행정을 마비시킨 지역 주간지 관계자를 형사 고발함."
     },
     {
       "rank": 3,
-      "keyword": "희귀·특산식물 보전기관",
-      "count": 7,
-      "category": "POLICY",
-      "dept": "공원조성과",
-      "summary": "화성우리꽃식물원이 국립수목원으로부터 전국 33번째 '희귀·특산식물 보전기관'으로 지정되었습니다."
+      "keyword": "시니어 커넥티드 케어",
+      "count": 17,
+      "category": "CULTURE",
+      "dept": "돌봄복지국 통합돌봄과",
+      "summary": "민관 협력 기반의 지역 통합돌봄 모델인 '시니어 커넥티드 케어'를 박람회 현장에서 공개함."
     },
     {
       "rank": 4,
+      "keyword": "화성우리꽃식물원",
+      "count": 9,
+      "category": "POLICY",
+      "dept": "공원조성과",
+      "summary": "화성우리꽃식물원이 국립수목원으로부터 전국 33번째 '희귀·특산식물 보전기관'으로 지정됨."
+    },
+    {
+      "rank": 5,
       "keyword": "AI 화재 조기 탐지",
       "count": 5,
       "category": "POLICY",
       "dept": "기획조정실 정보통신과",
-      "summary": "AI CCTV와 그래핀 전자코를 융합해 화재를 조기 탐지하는 지능형 안전체계 실증과제를 추진합니다."
-    },
-    {
-      "rank": 5,
-      "keyword": "정보공개 폭탄 청구",
-      "count": 3,
-      "category": "RISK",
-      "dept": "언론담당관",
-      "summary": "지역 주간지의 2,000여 건 악성 정보공개 청구로 인한 행정 마비에 대응해 형사 고발을 진행했습니다."
+      "summary": "AI CCTV와 그래핀 전자코 융합 기술을 활용한 지능형 화재 조기 탐지 실증 사업을 추진함."
     }
   ],
   "stats": {
-    "total": 183,
-    "major_count": 77,
-    "live_count": 106,
-    "today_count": 8,
+    "total": 190,
+    "major_count": 82,
+    "live_count": 108,
+    "today_count": 15,
     "scrap_count": 14,
     "yesterday_count": 1,
-    "policy": 114,
-    "culture": 60,
-    "risk": 9
+    "policy": 117,
+    "culture": 61,
+    "risk": 12
   },
   "articles": [
+    {
+      "title": "화성특례시, 코엑스서 투자유치설명회 개최…어플라이드 머티어리얼즈...",
+      "link": "http://www.metroseoul.co.kr/article/20261104500470",
+      "originallink": "http://www.metroseoul.co.kr/article/20261104500470",
+      "media": "메트로신문",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:58",
+      "pub_timestamp": "2026-11-04T15:58:00+09:00",
+      "bullets": [
+        "- 화성시가 4일 서울 코엑스에서 AI EXPO와 연계한 투자유치설명회를 열고 첨단산업 기업 유치 활동을 전개함",
+        "- 지역 산업 생태계 조성에 기여한 한화솔루션 등 3개 기업에 감사패를 전달함",
+        "- 글로벌 반도체 장비기업 어플라이드 머티어리얼즈 코리아와 투자협력 및 지역상생 업무협약을 체결함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "http://cdn.emetro.co.kr/data2/content/image/2026/11/04/.cache/512/20261104500471.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 시민 알 권리인가 공무원 괴롭힘인가…노조 대응 나서",
+      "link": "https://www.sentv.co.kr/article/view/sentv202611040155",
+      "originallink": "https://www.sentv.co.kr/article/view/sentv202611040155",
+      "media": "(주) 서울경제티브이",
+      "category": "RISK",
+      "department": "행정지원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:14",
+      "pub_timestamp": "2026-11-04T15:14:00+09:00",
+      "bullets": [
+        "- 화성시에서 최근 10개월간 정보공개 처리 항목이 2만 건을 넘어서며 악성 민원 논란 대두",
+        "- 화성시 공무원노조는 과도한 정보공개 청구를 공무원 괴롭힘으로 규정하고 담당자 보호 대책 마련 촉구",
+        "- 노조는 무분별한 청구로 인한 행정 마비를 막기 위해 정보공개법 개정 등 적극적인 대응 요구"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/11/04/sentv20261104000160.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "\"꽃 구경하던 곳서 생명의 피난처로\"…화성 우리꽃식물원의 새로운 임무",
+      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7192191",
+      "originallink": "https://weekly.hankooki.com/news/articleView.html?idxno=7192191",
+      "media": "주간한국",
+      "category": "POLICY",
+      "department": "공원조성과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:12",
+      "pub_timestamp": "2026-11-04T15:12:00+09:00",
+      "bullets": [
+        "- 화성시 우리꽃식물원이 국립수목원의 국가 식물자원 보호사업 참여 전문기관(전국 33번째)으로 선정됨",
+        "- 기후변화에 취약한 국내 고유 자생식물 보전 및 배양 기술을 통한 개체 확보 역할 수행 예정",
+        "- 화성시는 우리꽃식물원의 식물 연구 기능을 도시 녹지 사업과 연계해 확대 추진할 방침임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.weekly.hankooki.com/news/thumbnail/202611/7192191_253442_553_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "수원 군공항의 화성 이전 반대하는 시민사회단체들 \"국방부는 수원 군공...",
+      "link": "https://www.cnbnews.com/news/articleView.html?idxno=1022284",
+      "originallink": "https://www.cnbnews.com/news/articleView.html?idxno=1022284",
+      "media": "CNBNEWS",
+      "category": "RISK",
+      "department": "군공항대응과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:46",
+      "pub_timestamp": "2026-11-04T14:46:00+09:00",
+      "bullets": [
+        "- 수원 군공항 화성 이전 반대 시민단체들이 국방부의 '갈등관리 용역' 중단을 촉구하는 기자회견을 개최함",
+        "- 국방부가 진행 중인 화성시민 대상 인식 설문조사의 문항과 방식에 편향성이 있어 재검토가 필요하다고 주장함",
+        "- 편향된 조사가 화성시민 간 갈등을 부추기고 이전 추진 명분으로 악용될 우려가 있다며 강하게 반발함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.cnbnews.com/news/photo/202611/1022284_524916_4431.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "갑티슈가 조합원의 영정사진이 되지 않기를…",
+      "link": "https://www.newsis.com/view/NISI20261104_0002282789",
+      "originallink": "https://www.newsis.com/view/NISI20261104_0002282789",
+      "media": "뉴시스",
+      "category": "RISK",
+      "department": "행정지원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:27",
+      "pub_timestamp": "2026-11-04T14:27:00+09:00",
+      "bullets": [
+        "- 전국공무원노동조합 경기지역본부 화성시지부가 4일 화성시청 로비에서 갑티슈 2,000개로 탑을 쌓는 단체행동 진행",
+        "- 조합원 보호 및 공직 사회 내부 처우 개선 등을 촉구하는 취지의 항의 퍼포먼스 전개",
+        "- 청사 내 노조 집단행동 발생에 따른 노사 갈등 관리 및 청사 방호·민원 대응 필요성 제기"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://img1.newsis.com/2026/11/04/NISI20261104_0002282789_web.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시장학관 고시생 특례입사자, 외교관 후보자 시험 첫 합격",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261104010001479",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20261104010001479",
+      "media": "아시아투데이",
+      "category": "POLICY",
+      "department": "교육지원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:32",
+      "pub_timestamp": "2026-11-04T13:32:00+09:00",
+      "bullets": [
+        "- 화성시인재육성재단이 운영하는 화성시장학관에서 설립 이래 처음으로 외교관 후보자 선발시험 최종 합격자 배출",
+        "- 이번 합격자는 주요 국가고시 1차 합격자를 지원하는 장학관 고시생 특례전형을 통해 입사한 수험생",
+        "- 화성시장학관의 안정적인 주거 및 수험 환경 지원 정책이 결실을 맺으며 첫 고시 최종 합격 성과 달성"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/11m/04d/2026110401000277000014791.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "9경기 연속 원정 경기 일정에 흔들리는 두리볼",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039837",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039837",
+      "media": "기호일보",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 12:12",
+      "pub_timestamp": "2026-11-04T12:12:00+09:00",
+      "bullets": [
+        "- 화성FC가 시즌 막판 9경기 연속 원정 일정 속에 승점 45점(6위)을 기록하며 K리그2 플레이오프 진출 경쟁을 이어가고 있음",
+        "- 7위 충남아산과 승점 3점 차로 좁혀진 가운데, 화성FC는 최근 7경기에서 1승 3무 3패로 다소 부진한 성적을 거둠",
+        "- 정규리그 잔여 2경기를 앞두고 화성FC의 플레이오프 진출 여부를 가를 막판 순위 다툼이 치열하게 전개 중임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3039837_584509_1041.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시환경재단, 비봉습지 생태 알리는 '비봉습지공원 습지동행 걷기 행...",
       "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=249054",
@@ -129,8 +337,16 @@
         "- 시화호와 비봉습지공원의 생태적 가치를 알리고 자연 속 걷기와 체험 기회를 제공하고자 기획됨",
         "- 스탬프 투어를 비롯해 엽서 및 화분 만들기, 페이스페인팅 등 다양한 시민 참여 프로그램이 운영될 예정임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "가을 습지 걸으며 생태 체험까지...화성 '비봉습지공원 습지동행 걷기 ...",
+          "link": "https://www.nc.press/news/articleView.html?idxno=630191",
+          "media": "NC",
+          "time_label": "오늘 13:04",
+          "pub_timestamp": "2026-11-04T13:04:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.sisunnews.co.kr/news/thumbnail/202611/249054_478170_5138_v150.jpg",
       "telegram_sent": false
     },
@@ -195,6 +411,20 @@
           "media": "브레이크뉴스",
           "time_label": "오늘 08:18",
           "pub_timestamp": "2026-11-04T08:18:00+09:00"
+        },
+        {
+          "title": "화성시우리꽃식물원, 희귀·특산식물 보전기관으로 전국 33번째 지정",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2014293",
+          "media": "매일일보",
+          "time_label": "오늘 13:12",
+          "pub_timestamp": "2026-11-04T13:12:00+09:00"
+        },
+        {
+          "title": "화성시 우리꽃식물원, ‘희귀·특산식물 보전기관’ 지정",
+          "link": "https://www.suwonilbo.kr/view.html?id=L2611041222532174",
+          "media": "SUWONILBO",
+          "time_label": "오늘 12:28",
+          "pub_timestamp": "2026-11-04T12:28:00+09:00"
         }
       ],
       "is_major": true,
@@ -244,8 +474,16 @@
         "- 화성시우리꽃식물원이 산림청 산하 전국 33번째 '희귀·특산식물 보전기관'으로 지정됨",
         "- HO-KIDS FARM 어린이봉사단과 함께 취약계층을 위한 갓김치 담그기 나눔 행사를 개최함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[4일 화성시] 생물테러 대비 민·관·군·경 합동 ‘안전화성훈련’ 실...",
+          "link": "https://www.asiatime.co.kr/article/20261104500286",
+          "media": "ASIATIME",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-04T14:46:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.weeklytoday.com/news/thumbnail/202611/800905_997542_4037_v150.jpg",
       "telegram_sent": false
     },
@@ -386,6 +624,48 @@
           "media": "ASIATIME",
           "time_label": "스크랩 11.03 09:56",
           "pub_timestamp": "2026-11-03T09:56:00+09:00"
+        },
+        {
+          "title": "삼성생명, 동탄서 ‘시니어 돌봄’ 실증 착수…“비용 체계·건보 연계...",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=834530",
+          "media": "NSPNA",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-04T15:58:00+09:00"
+        },
+        {
+          "title": "삼성생명, AI 기반 지역 통합돌봄 모델 ‘시니어 커넥티드 케어’ 공개",
+          "link": "https://www.sedaily.com/article/20110213?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-04T15:58:00+09:00"
+        },
+        {
+          "title": "삼성생명 보건소·병원·지자체 연결한 '시니어 돌봄' 테스트 해본다 : ...",
+          "link": "https://www.huffingtonpost.kr/article/261790",
+          "media": "HUFFINGTONPOST",
+          "time_label": "오늘 14:16",
+          "pub_timestamp": "2026-11-04T14:16:00+09:00"
+        },
+        {
+          "title": "[보험브리핑] 삼성생명, AI 박람회서 시니어 통합돌봄 모델 선봬 외",
+          "link": "https://www.seoulfn.com/news/articleView.html?idxno=641863",
+          "media": "SEOULFN",
+          "time_label": "오늘 10:38",
+          "pub_timestamp": "2026-11-04T10:38:00+09:00"
+        },
+        {
+          "title": "삼성생명, AI로 일상부터 병원까지 '시니어 커넥티드 케어' 공개",
+          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=268416",
+          "media": "WHITEPAPER",
+          "time_label": "오늘 10:22",
+          "pub_timestamp": "2026-11-04T10:22:00+09:00"
+        },
+        {
+          "title": "삼성생명, AI 기반 '시니어 통합돌봄 모델' 선보여",
+          "link": "https://www.insnews.co.kr/news/articleView.html?idxno=93661",
+          "media": "INSNEWS",
+          "time_label": "오늘 10:14",
+          "pub_timestamp": "2026-11-04T10:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -560,6 +840,132 @@
           "media": "ASIATIME",
           "time_label": "오늘 11:16",
           "pub_timestamp": "2026-11-04T11:16:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조 “10개월간 정보공개 청구 2천166건”…집단 대응 나...",
+          "link": "https://www.kyeonggi.com/article/20261104580319",
+          "media": "경기일보",
+          "time_label": "오늘 15:50",
+          "pub_timestamp": "2026-11-04T15:50:00+09:00"
+        },
+        {
+          "title": "[화성 24시] 화성시 공무원노조, 반복적 정보공개 청구 규탄…\"공무원 ...",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=392819",
+          "media": "SISAJOURNAL",
+          "time_label": "오늘 15:35",
+          "pub_timestamp": "2026-11-04T15:35:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조, 반복적 정보공개 청구 규탄",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=242299",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 15:22",
+          "pub_timestamp": "2026-11-04T15:22:00+09:00"
+        },
+        {
+          "title": "용인 이어 화성도 대량 정보공개 청구 반발…공무원 보호·알 권리 보장...",
+          "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=717663",
+          "media": "뉴스프리존",
+          "time_label": "오늘 15:22",
+          "pub_timestamp": "2026-11-04T15:22:00+09:00"
+        },
+        {
+          "title": "\"정보공개 청구 2166건\"…화성시 공무원노조, 제도 개선 촉구",
+          "link": "https://www.nocutnews.co.kr/news/6602073?utm_source=naver&utm_medium=article&utm_campaign=20261104152035",
+          "media": "노컷뉴스",
+          "time_label": "오늘 15:21",
+          "pub_timestamp": "2026-11-04T15:21:00+09:00"
+        },
+        {
+          "title": "화성특례시, 특정인 정보공개 청구 2166건… 공무원노조 \"반복 청구 중단...",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3445897",
+          "media": "NEWSCJ",
+          "time_label": "오늘 15:12",
+          "pub_timestamp": "2026-11-04T15:12:00+09:00"
+        },
+        {
+          "title": "전국공무원노조 \"악의적 정보공개 청구 막아야\"",
+          "link": "https://www.newsis.com/view/NISX20261104_0003854714",
+          "media": "뉴시스",
+          "time_label": "오늘 14:59",
+          "pub_timestamp": "2026-11-04T14:59:00+09:00"
+        },
+        {
+          "title": "\"2,166건, 민원폭탄\"… 공무원노조 화성시지부, 악의적 반복 청구 중단 ...",
+          "link": "http://worknworld.kctu.org/news/articleView.html?idxno=510241",
+          "media": "KCTU",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-04T14:52:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조, 특정인 1명 정보공개 2166건 청구... 전면 대응 선포",
+          "link": "https://www.sportsseoul.com/news/read/1646820?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 14:50",
+          "pub_timestamp": "2026-11-04T14:50:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조, 반복 정보공개청구 규탄…\"공무원 보호·제도 개선...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397005",
+          "media": "FNTODAY",
+          "time_label": "오늘 14:44",
+          "pub_timestamp": "2026-11-04T14:44:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조 “반복 정보공개 청구로 행정 부담 가중”…제도 개...",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611041415532880614",
+          "media": "DNEWS",
+          "time_label": "오늘 14:40",
+          "pub_timestamp": "2026-11-04T14:40:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조 “정보공개 청구 2166건…악의적 악용 중단해야”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026110414091635054c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "오늘 14:34",
+          "pub_timestamp": "2026-11-04T14:34:00+09:00"
+        },
+        {
+          "title": "[기자의눈] 청구 2166건, 검토 2만 항목…누구를 위한 알 권리인가",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261104010001535",
+          "media": "ASIATODAY",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-04T14:30:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조 \"정보공개 악용 막아달라\"",
+          "link": "https://www.hankyung.com/article/202611045493h",
+          "media": "한국경제",
+          "time_label": "오늘 14:28",
+          "pub_timestamp": "2026-11-04T14:28:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조, 정보공개법 개정 촉구",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/04/2026110400236.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:20",
+          "pub_timestamp": "2026-11-04T14:20:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조, 반복적 정보공개 청구 규탄…\"2,166건에 행정력 소...",
+          "link": "https://news.ifm.kr/news/articleView.html?idxno=483450",
+          "media": "경인방송",
+          "time_label": "오늘 14:08",
+          "pub_timestamp": "2026-11-04T14:08:00+09:00"
+        },
+        {
+          "title": "전공노 화성시지부 \"과도한 정보공개 청구, 행정력 낭비\"…제도 개선 촉...",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039865",
+          "media": "기호일보",
+          "time_label": "오늘 14:04",
+          "pub_timestamp": "2026-11-04T14:04:00+09:00"
+        },
+        {
+          "title": "화성시 공무원노조 \"정보공개 청구 남용 막아야\"",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2014335",
+          "media": "매일일보",
+          "time_label": "오늘 13:54",
+          "pub_timestamp": "2026-11-04T13:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -1028,6 +1434,118 @@
           "media": "ONEWS",
           "time_label": "오늘 08:00",
           "pub_timestamp": "2026-11-04T08:00:00+09:00"
+        },
+        {
+          "title": "반도체·미래차 강국 화성, 우주항공산업까지 넘본다…60인 추진단 출범",
+          "link": "https://www.ekn.kr/web/view.php?key=20261104028035180",
+          "media": "EKN",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-11-04T15:56:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “우수기업 투자 잇도록 전국 최고 투자환경 조성”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026110415350540964c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "오늘 15:50",
+          "pub_timestamp": "2026-11-04T15:50:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 글로벌 반도체 장비기업과 투자협력 맞손…첨단산업...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32818",
+          "media": "현장뉴스",
+          "time_label": "오늘 15:44",
+          "pub_timestamp": "2026-11-04T15:44:00+09:00"
+        },
+        {
+          "title": "화성시, 우주항공산업 추진단 출범…위성통신·반도체·드론·AAM 전략 발...",
+          "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=901915",
+          "media": "NEWSWORKS",
+          "time_label": "오늘 15:36",
+          "pub_timestamp": "2026-11-04T15:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 우주항공산업 추진단 출범…\"AI·반도체·우주항공 융합 생...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397008",
+          "media": "FNTODAY",
+          "time_label": "오늘 15:26",
+          "pub_timestamp": "2026-11-04T15:26:00+09:00"
+        },
+        {
+          "title": "화성시, 우주항공산업 추진단 출범",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=242300",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 15:22",
+          "pub_timestamp": "2026-11-04T15:22:00+09:00"
+        },
+        {
+          "title": "“우주·AI·반도체 묶는다”… 화성특례시, ‘K-우주항공’ 깃발",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=918162",
+          "media": "경기일보",
+          "time_label": "오늘 15:14",
+          "pub_timestamp": "2026-11-04T15:14:00+09:00"
+        },
+        {
+          "title": "화성특례시, 'MARS 2026' 투자 유치와 기술 혁신 아우르는 프로그램 본격...",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1022264",
+          "media": "CNBNEWS",
+          "time_label": "오늘 14:48",
+          "pub_timestamp": "2026-11-04T14:48:00+09:00"
+        },
+        {
+          "title": "화성특례시, 우주항공산업 거점 도약 시동…60인 정예 추진단 출범",
+          "link": "http://www.metroseoul.co.kr/article/20261104500293",
+          "media": "서울신문",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-04T14:46:00+09:00"
+        },
+        {
+          "title": "화성특례시, 'MARS 2026' 개막 열기 후끈…투자 유치·AI 산업혁신 본격...",
+          "link": "http://www.metroseoul.co.kr/article/20261104500301",
+          "media": "서울신문",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-04T14:46:00+09:00"
+        },
+        {
+          "title": "화성특례시, 우주항공산업 추진단 출범…전문가 60명 참여",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611040924425300526",
+          "media": "DNEWS",
+          "time_label": "오늘 14:40",
+          "pub_timestamp": "2026-11-04T14:40:00+09:00"
+        },
+        {
+          "title": "화성시, AI와 반도체·드론·AAM 결합 미래 우주항공 산업 청사진 공개",
+          "link": "https://www.newspim.com/news/view/20261104000790",
+          "media": "뉴스핌",
+          "time_label": "오늘 14:13",
+          "pub_timestamp": "2026-11-04T14:13:00+09:00"
+        },
+        {
+          "title": "[사업 추진 브리핑] 판 키우는 화성시, 반도체·AI·미래차 넘어 우주로",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=834569",
+          "media": "NSPNA",
+          "time_label": "오늘 13:12",
+          "pub_timestamp": "2026-11-04T13:12:00+09:00"
+        },
+        {
+          "title": "화성시 ‘우주항공산업 추진단’ 출범…우주 AI와 반도체 청사진 제시",
+          "link": "https://www.suwonilbo.kr/view.html?id=L26110412455829e3",
+          "media": "SUWONILBO",
+          "time_label": "오늘 12:56",
+          "pub_timestamp": "2026-11-04T12:56:00+09:00"
+        },
+        {
+          "title": "화성시 AI 엑스포 이틀째…투자유치·기술협력 본격화",
+          "link": "https://www.news1.kr/local/gyeonggi/6342701",
+          "media": "뉴스1",
+          "time_label": "오늘 12:39",
+          "pub_timestamp": "2026-11-04T12:39:00+09:00"
+        },
+        {
+          "title": "화성시, 우주·AI·반도체 잇는 'K-우주항공' 성장축 육성 시동",
+          "link": "https://www.kpinews.kr/newsView/1065579128363838",
+          "media": "KPINEWS",
+          "time_label": "오늘 12:06",
+          "pub_timestamp": "2026-11-04T12:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -1379,6 +1897,13 @@
           "media": "SKBROADBAND",
           "time_label": "오늘 13:54",
           "pub_timestamp": "2026-11-03T13:54:00+09:00"
+        },
+        {
+          "title": "'행정 폭력'으로 치닫는 정보공개청구…화성시도 민원인 고발",
+          "link": "https://www.mt.co.kr/policy/2026/11/04/2026110413462248556",
+          "media": "머니투데이",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-04T14:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -2924,6 +3449,13 @@
           "media": "서울신문",
           "time_label": "오늘 09:52",
           "pub_timestamp": "2026-11-04T09:52:00+09:00"
+        },
+        {
+          "title": "\"화성과 함께한 15년, 다시 코트에 선 알토스\"…이계철 화성시의회 의장...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7192227",
+          "media": "HANKOOKI",
+          "time_label": "오늘 15:14",
+          "pub_timestamp": "2026-11-04T15:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -4695,6 +5227,13 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 08:10",
           "pub_timestamp": "2026-11-04T08:10:00+09:00"
+        },
+        {
+          "title": "'향남역 그로브 스위첸' 4일까지 정당계약",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=04772406645642440&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "media": "이데일리",
+          "time_label": "오늘 15:17",
+          "pub_timestamp": "2026-11-04T15:17:00+09:00"
         }
       ],
       "is_major": true,
@@ -4977,6 +5516,20 @@
           "media": "ASIATIME",
           "time_label": "오늘 11:24",
           "pub_timestamp": "2026-11-04T11:24:00+09:00"
+        },
+        {
+          "title": "수원 군공항 화성 이전 반대 단체들, 국방부 갈등관리 용역 중단 촉구",
+          "link": "https://news.ifm.kr/news/articleView.html?idxno=483457",
+          "media": "경인방송",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-04T14:02:00+09:00"
+        },
+        {
+          "title": "수원은 \"군공항 이전 특별법\", 화성은 \"이전 결사 반대\"",
+          "link": "https://www.newsis.com/view/NISX20261104_0003854485",
+          "media": "뉴시스",
+          "time_label": "오늘 13:35",
+          "pub_timestamp": "2026-11-04T13:35:00+09:00"
         }
       ],
       "is_major": true,
