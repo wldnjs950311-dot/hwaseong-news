@@ -1,23 +1,75 @@
 {
-  "updated_at": "2026.11.05. 16:00",
-  "scrap_period": "전일(11.04) 08:00 ~ 금일(11.05) 08:00",
-  "yesterday_label": "11.04",
+  "updated_at": "2026.11.06. 08:00",
+  "scrap_period": "전일(11.05) 08:00 ~ 금일(11.06) 08:00",
+  "yesterday_label": "11.05",
   "macro_pulse": {
-    "report_date": "2026-11-05",
-    "article_count": 11,
-    "overview": "전국 67개 기관이 결집한 2026 공공AX포럼 개최로 화성시의 선도적인 AI 혁신 행정이 압도적인 언론 주목을 받은 가운데, 인접 지자체와의 물류센터 건립 갈등 및 산하 공공기관 규정 통일 등 대내외 현안 조율이 주요 과제로 부각되었습니다.",
+    "report_date": "2026-11-06",
+    "article_count": 13,
+    "overview": "화성 관내 대형 물류센터 건립에 따른 인접 지자체 주민 반발과 시의회 의정연수 중 공무원 폭언 논란 등 대내외 리스크가 집중된 가운데, 글로벌 도시 외교와 공공 AI 행정 혁신을 위한 시정 행보가 함께 이어졌습니다.",
     "main_points": [
-      "- [2026 공공AX포럼 화성 개최] 총 148개 언론사 집중 보도 - 서울 코엑스에서 전국 67개 기관 실무자가 참여해 AI 기반 민원·재난 예측 행정 혁신 경험을 공유하며 미래 행정 선도 도시의 위상을 확립함",
-      "- [화성 관내 대형 물류센터 신축에 따른 인접 지자체 갈등] 총 17개 언론사 집중 보도 - 연면적 10만㎡ 규모 물류센터 건설로 인한 교통 혼잡 및 안전 우려로 인접한 오산시 세교 주민들의 집단 반발이 확산됨",
-      "- [산하 공공기관 복무·인사규정 통일 추진] 아시아투데이 보도 - 화성푸드통합지원센터 등 산하 공공기관의 복무규정 표준화를 추진하는 과정에서 휴가 축소 우려로 인한 노조의 반발로 사전협의 난항을 겪음",
-      "- [소상공인의 날 맞이 특례보증 35억원 지원] 이투데이 보도 - 정명근 시장이 소상공인의 날을 맞아 현장 감사 메시지를 전달하고 지역 상권 안정과 민생경제 회복을 위한 35억원 규모의 특례보증 지원을 추진함"
+      "- [화성 관내 대형 물류센터 건립 갈등] 총 29개 언론사 집중 보도 - 화성시 관내 연면적 10만㎡ 규모 물류센터 조성에 따른 교통 체증 부담으로 인접한 오산 세교 주민들의 반발이 거세게 확산됨",
+      "- [중국 쑤저우시 우장구 대표단 교류협력 MOU 체결] 총 4개 언론사 집중 보도 - 시청에서 자매도시인 중국 장쑤성 쑤저우시 우장구 대표단과 실질적인 교류협력 강화를 위한 양해각서를 체결함",
+      "- [화성시의회 의정연수 중 간부공무원 막말·폭언 논란] 중부일보·기호일보 등 다수 언론 보도 - 평창 의정연수 중 모 상임위원장이 시장 일정 불참을 문제 삼아 간부공무원에게 고성과 폭언을 행사한 정황이 드러나 파문이 확산됨",
+      "- [2026 공공AX포럼 화성 개최] 주간한국 보도 - 서울 코엑스에서 전국 67개 기관이 참여한 포럼을 개최하고 민원 응대부터 재난 예측까지 AI 기반 공공행정 혁신 모델을 선도적으로 제시함"
     ],
     "risk_cautions": [
+      {
+        "title": "[김병철 시선] 화성시 공무원노조가 나선 이유…정보공개에도 현실을 살...",
+        "media": "뉴스타운",
+        "link": "http://www.newstown.co.kr/news/articleView.html?idxno=720963",
+        "time_label": "스크랩 11.05 21:36",
+        "pub_timestamp": "2026-11-05T21:36:00+09:00",
+        "department": "행정지원과",
+        "bullets": [
+          "- 전공노 화성시지부가 지난 4일 시청 로비에서 악성 반복 청구로부터 직원 보호를 요구하는 기자회견 개최",
+          "- 특정 청구인의 과도한 정보공개 청구로 인한 담당 공무원들의 극심한 업무 부담과 정신적 피해 호소",
+          "- 알 권리 보장과 함께 제도 악용을 방지하기 위한 화성시와 노조 차원의 실질적인 대응책 마련 촉구"
+        ]
+      },
+      {
+        "title": "서해선 복선전철사업 이주 대책… 철도공단-화성시, 2년째 ‘책임 핑퐁...",
+        "media": "경인일보",
+        "link": "https://www.kyeongin.com/article/1774210",
+        "time_label": "스크랩 11.05 20:18",
+        "pub_timestamp": "2026-11-05T20:18:00+09:00",
+        "department": "도시정책과",
+        "bullets": [
+          "- 서해선 복선전철 건설로 터전을 잃은 화성시 향남읍 상두리·노하리 일대 주민 이주 대책이 8년째 표류 중임",
+          "- 농업진흥구역 내 이주자택지 조성을 두고 화성시의 지구단위계획 변경 불가 입장과 철도공단의 책임 전가로 갈등 지속",
+          "- 권익위 조정안에도 불구하고 협의가 답보 상태에 머물러 원주민들의 시위 등 집단 반발이 예고됨"
+        ]
+      },
+      {
+        "title": "화성특례시의원, 정무직 공무원 상대로 막말에다 욕설까지",
+        "media": "중부일보 - 경기·인천의 든든한 친구",
+        "link": "https://www.joongboo.com/news/articleView.html?idxno=363741636",
+        "time_label": "스크랩 11.05 16:26",
+        "pub_timestamp": "2026-11-05T16:26:00+09:00",
+        "department": "기획조정실 의회법무과",
+        "bullets": [
+          "- 화성시의회 A의원이 의정연수 중 정무직 공무원을 상대로 막말과 욕설을 한 사실이 알려져 논란 발생",
+          "- A의원은 사과 대신 해당 공무원의 직무 서류 제출 및 행정사무감사 증인 출석을 요구한 것으로 확인",
+          "- 강원도 평창 의정연수 만찬에 참석했던 화성시 집행부와 시의회 간의 갈등 및 파장이 확산되는 상황"
+        ]
+      },
+      {
+        "title": "화성시의회, 의정연수 중 시 간부공무원 욕설 논란",
+        "media": "기호일보",
+        "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040026",
+        "time_label": "스크랩 11.05 16:08",
+        "pub_timestamp": "2026-11-05T16:08:00+09:00",
+        "department": "기획조정실 의회법무과",
+        "bullets": [
+          "- 화성특례시의회 상임위원장이 의정연수 중 시 간부공무원에게 고성과 폭언, 욕설을 했다는 의혹 제기",
+          "- 지난달 강원도 평창에서 열린 시의회 의정연수 첫날 정명근 시장의 불참을 문제 삼으며 발생",
+          "- 음주 상태에서 벌어진 시의원의 공무원 대상 폭언 논란으로 시의회 및 공직사회 내 파장 확산"
+        ]
+      },
       {
         "title": "물류센터는 화성에, 교통 부담은 오산에…세교 주민 반발 확산",
         "media": "에너지경제신문",
         "link": "https://www.ekn.kr/web/view.php?key=20261105021505765",
-        "time_label": "오늘 15:08",
+        "time_label": "스크랩 11.05 15:08",
         "pub_timestamp": "2026-11-05T15:08:00+09:00",
         "department": "허가민원과",
         "bullets": [
@@ -30,7 +82,7 @@
         "title": "화성시 공공기관 복무규정 통일 추진 ‘난항’…휴가 축소에 노조 반발",
         "media": "아시아투데이",
         "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261105010002008",
-        "time_label": "오늘 15:00",
+        "time_label": "스크랩 11.05 15:00",
         "pub_timestamp": "2026-11-05T15:00:00+09:00",
         "department": "예산법무과",
         "bullets": [
@@ -43,7 +95,7 @@
         "title": "\"시장 현안 대응보다 내 의전이 먼저?\"…'A 화성시의원', 평창 연수서 '...",
         "media": "JOONGANGENEWS",
         "link": "https://www.joongangenews.com/news/articleView.html?idxno=561486",
-        "time_label": "오늘 14:56",
+        "time_label": "스크랩 11.05 14:56",
         "pub_timestamp": "2026-11-05T14:56:00+09:00",
         "department": "의회사무국",
         "bullets": [
@@ -54,102 +106,198 @@
       }
     ],
     "summary_bullets": [
-      "전국 67개 기관이 결집한 2026 공공AX포럼 개최로 화성시의 선도적인 AI 혁신 행정이 압도적인 언론 주목을 받은 가운데, 인접 지자체와의 물류센터 건립 갈등 및 산하 공공기관 규정 통일 등 대내외 현안 조율이 주요 과제로 부각되었습니다.",
-      "- [2026 공공AX포럼 화성 개최] 총 148개 언론사 집중 보도 - 서울 코엑스에서 전국 67개 기관 실무자가 참여해 AI 기반 민원·재난 예측 행정 혁신 경험을 공유하며 미래 행정 선도 도시의 위상을 확립함",
-      "- [화성 관내 대형 물류센터 신축에 따른 인접 지자체 갈등] 총 17개 언론사 집중 보도 - 연면적 10만㎡ 규모 물류센터 건설로 인한 교통 혼잡 및 안전 우려로 인접한 오산시 세교 주민들의 집단 반발이 확산됨"
+      "화성 관내 대형 물류센터 건립에 따른 인접 지자체 주민 반발과 시의회 의정연수 중 공무원 폭언 논란 등 대내외 리스크가 집중된 가운데, 글로벌 도시 외교와 공공 AI 행정 혁신을 위한 시정 행보가 함께 이어졌습니다.",
+      "- [화성 관내 대형 물류센터 건립 갈등] 총 29개 언론사 집중 보도 - 화성시 관내 연면적 10만㎡ 규모 물류센터 조성에 따른 교통 체증 부담으로 인접한 오산 세교 주민들의 반발이 거세게 확산됨",
+      "- [중국 쑤저우시 우장구 대표단 교류협력 MOU 체결] 총 4개 언론사 집중 보도 - 시청에서 자매도시인 중국 장쑤성 쑤저우시 우장구 대표단과 실질적인 교류협력 강화를 위한 양해각서를 체결함"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 10,
-        "ratio": 31
+        "count": 3,
+        "ratio": 23
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 3
+        "ratio": 8
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 7,
-        "ratio": 22
+        "count": 1,
+        "ratio": 8
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 4,
-        "ratio": 12
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 10,
-        "ratio": 31
+        "count": 8,
+        "ratio": 62
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "공공AX포럼",
-      "count": 148,
-      "category": "CULTURE",
-      "dept": "기업투자실 첨단산업과",
-      "summary": "서울 코엑스에서 67개 기관 실무자가 참여해 AI 행정 경험을 공유하는 포럼이 개최됨"
+      "keyword": "오산 세교 물류센터",
+      "count": 29,
+      "category": "RISK",
+      "dept": "허가민원과",
+      "summary": "10만㎡ 규모의 대형 물류센터 건립에 따른 교통 부담을 이유로 인접 오산 세교 주민들의 반발이 확산하고 있습니다."
     },
     {
       "rank": 2,
-      "keyword": "시니어 커넥티드 케어",
-      "count": 70,
-      "category": "CULTURE",
-      "dept": "돌봄복지국 통합돌봄과",
-      "summary": "AI Expo 행사에서 삼성생명과 연계한 민관 협력 지역 통합돌봄 모델이 공개됨"
+      "keyword": "중국 쑤저우시 우장구",
+      "count": 4,
+      "category": "POLICY",
+      "dept": "대외협력과",
+      "summary": "자매도시인 중국 장쑤성 쑤저우시 우장구 대표단과 교류협력 강화를 위한 양해각서를 체결했습니다."
     },
     {
       "rank": 3,
-      "keyword": "대형 물류센터 교통 갈등",
-      "count": 17,
+      "keyword": "의정연수 공무원 막말",
+      "count": 3,
       "category": "RISK",
-      "dept": "허가민원과",
-      "summary": "10만㎡ 규모 물류센터 건립에 따른 교통 부담 가중으로 인접 오산 세교 주민들의 반발이 확산됨"
+      "dept": "기획조정실 의회법무과",
+      "summary": "시의회 모 상임위원장이 평창 의정연수 중 간부 공무원을 상대로 고성과 욕설을 해 파문이 일고 있습니다."
     },
     {
       "rank": 4,
-      "keyword": "정보공개 악성 민원",
-      "count": 13,
-      "category": "RISK",
-      "dept": "행정지원과",
-      "summary": "10개월간 2만 건 넘는 과도한 정보공개 청구로 공무원 괴롭힘 논란이 일자 노조가 대응에 나섬"
+      "keyword": "동9동락 페스타",
+      "count": 2,
+      "category": "CULTURE",
+      "dept": "시민협력과",
+      "summary": "동탄9동 주민자치회와 체육진흥회가 왕배산체육공원에서 주민 참여 축제인 동9동락 페스타를 엽니다."
     },
     {
       "rank": 5,
-      "keyword": "화성우리꽃식물원",
-      "count": 10,
+      "keyword": "그냥드림 후원",
+      "count": 2,
       "category": "POLICY",
-      "dept": "공원조성과",
-      "summary": "국립수목원으로부터 전국 33번째 희귀·특산식물 보전기관으로 공식 지정됨"
+      "dept": "자치분권과",
+      "summary": "동탄5동 10개 사회단체협의회가 취약계층 지원을 위한 그냥드림 사업에 후원금을 기부했습니다."
     }
   ],
   "stats": {
-    "total": 207,
-    "major_count": 95,
-    "live_count": 112,
-    "today_count": 9,
-    "scrap_count": 23,
+    "total": 211,
+    "major_count": 101,
+    "live_count": 110,
+    "today_count": 0,
+    "scrap_count": 13,
     "yesterday_count": 2,
     "policy": 123,
     "culture": 69,
-    "risk": 15
+    "risk": 19
   },
   "articles": [
+    {
+      "title": "[김병철 시선] 화성시 공무원노조가 나선 이유…정보공개에도 현실을 살...",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=720963",
+      "originallink": "http://www.newstown.co.kr/news/articleView.html?idxno=720963",
+      "media": "뉴스타운",
+      "category": "RISK",
+      "department": "행정지원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 21:36",
+      "pub_timestamp": "2026-11-05T21:36:00+09:00",
+      "bullets": [
+        "- 전공노 화성시지부가 지난 4일 시청 로비에서 악성 반복 청구로부터 직원 보호를 요구하는 기자회견 개최",
+        "- 특정 청구인의 과도한 정보공개 청구로 인한 담당 공무원들의 극심한 업무 부담과 정신적 피해 호소",
+        "- 알 권리 보장과 함께 제도 악용을 방지하기 위한 화성시와 노조 차원의 실질적인 대응책 마련 촉구"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "http://www.newstown.co.kr/news/thumbnail/202611/720963_677146_4537_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "서해선 복선전철사업 이주 대책… 철도공단-화성시, 2년째 ‘책임 핑퐁...",
+      "link": "https://www.kyeongin.com/article/1774210",
+      "originallink": "https://www.kyeongin.com/article/1774210",
+      "media": "경인일보",
+      "category": "RISK",
+      "department": "도시정책과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 20:18",
+      "pub_timestamp": "2026-11-05T20:18:00+09:00",
+      "bullets": [
+        "- 서해선 복선전철 건설로 터전을 잃은 화성시 향남읍 상두리·노하리 일대 주민 이주 대책이 8년째 표류 중임",
+        "- 농업진흥구역 내 이주자택지 조성을 두고 화성시의 지구단위계획 변경 불가 입장과 철도공단의 책임 전가로 갈등 지속",
+        "- 권익위 조정안에도 불구하고 협의가 답보 상태에 머물러 원주민들의 시위 등 집단 반발이 예고됨"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/05/news-p.v1.20261105.00c93524a04c496da2dfd8c461348b5b_R.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의원, 정무직 공무원 상대로 막말에다 욕설까지",
+      "link": "https://www.joongboo.com/news/articleView.html?idxno=363741636",
+      "originallink": "https://www.joongboo.com/news/articleView.html?idxno=363741636",
+      "media": "중부일보 - 경기·인천의 든든한 친구",
+      "category": "RISK",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 16:26",
+      "pub_timestamp": "2026-11-05T16:26:00+09:00",
+      "bullets": [
+        "- 화성시의회 A의원이 의정연수 중 정무직 공무원을 상대로 막말과 욕설을 한 사실이 알려져 논란 발생",
+        "- A의원은 사과 대신 해당 공무원의 직무 서류 제출 및 행정사무감사 증인 출석을 요구한 것으로 확인",
+        "- 강원도 평창 의정연수 만찬에 참석했던 화성시 집행부와 시의회 간의 갈등 및 파장이 확산되는 상황"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.joongboo.com/news/photo/202611/363741636_2522373_5940.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시의회, 의정연수 중 시 간부공무원 욕설 논란",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040026",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040026",
+      "media": "기호일보",
+      "category": "RISK",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 16:08",
+      "pub_timestamp": "2026-11-05T16:08:00+09:00",
+      "bullets": [
+        "- 화성특례시의회 상임위원장이 의정연수 중 시 간부공무원에게 고성과 폭언, 욕설을 했다는 의혹 제기",
+        "- 지난달 강원도 평창에서 열린 시의회 의정연수 첫날 정명근 시장의 불참을 문제 삼으며 발생",
+        "- 음주 상태에서 벌어진 시의원의 공무원 대상 폭언 논란으로 시의회 및 공직사회 내 파장 확산"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3040026_584712_5932.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "물류센터는 화성에, 교통 부담은 오산에…세교 주민 반발 확산",
       "link": "https://www.ekn.kr/web/view.php?key=20261105021505765",
@@ -161,8 +309,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:08",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 15:08",
       "pub_timestamp": "2026-11-05T15:08:00+09:00",
       "bullets": [
         "- 화성시 관내 연면적 10만㎡ 규모의 대형 물류센터 건설을 둘러싸고 인접한 오산시 주민들의 반발 확산",
@@ -281,6 +429,90 @@
           "media": "서울신문",
           "time_label": "오늘 08:52",
           "pub_timestamp": "2026-11-05T08:52:00+09:00"
+        },
+        {
+          "title": "오산시의회, “화성시 덕절리 물류센터 건립 재검토를··· 1日 교통유발...",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160279773343715",
+          "media": "시민일보",
+          "time_label": "스크랩 11.06 00:36",
+          "pub_timestamp": "2026-11-06T00:36:00+09:00"
+        },
+        {
+          "title": "국힘 오산시의원 주민간담회, '화성 덕절리 물류센터 성토장' 방불… 주...",
+          "link": "https://news.ifm.kr/news/articleView.html?idxno=483626",
+          "media": "경인방송",
+          "time_label": "스크랩 11.05 23:24",
+          "pub_timestamp": "2026-11-05T23:24:00+09:00"
+        },
+        {
+          "title": "오산시, 화성 덕절리 물류센터 교통혼잡 우려에 재평가 요구",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880390",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.05 19:02",
+          "pub_timestamp": "2026-11-05T19:02:00+09:00"
+        },
+        {
+          "title": "오산시 \"화성시 덕절리 물류센터 준공 때 교통 혼잡 우려\"",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1542800",
+          "media": "OBSNEWS",
+          "time_label": "스크랩 11.05 18:26",
+          "pub_timestamp": "2026-11-05T18:26:00+09:00"
+        },
+        {
+          "title": "오산시, 덕절리 물류창고 교통영향 재평가 경기도에 요청키로",
+          "link": "https://www.suwonilbo.kr/view.html?id=L261105180636e269",
+          "media": "SUWONILBO",
+          "time_label": "스크랩 11.05 18:12",
+          "pub_timestamp": "2026-11-05T18:12:00+09:00"
+        },
+        {
+          "title": "덕절리 물류센터發 교통부담 어디까지…오산 세교 주민들 재평가 촉구",
+          "link": "https://www.joongdo.co.kr/web/view.php?key=20261105010001872",
+          "media": "JOONGDO",
+          "time_label": "스크랩 11.05 17:20",
+          "pub_timestamp": "2026-11-05T17:20:00+09:00"
+        },
+        {
+          "title": "[기자수첩] 물류센터는 화성에, 교통 부담은 오산에…교통영향평가 밖의...",
+          "link": "https://www.joongdo.co.kr/web/view.php?key=20261105010001882",
+          "media": "JOONGDO",
+          "time_label": "스크랩 11.05 17:20",
+          "pub_timestamp": "2026-11-05T17:20:00+09:00"
+        },
+        {
+          "title": "전예슬 경기도의원 \"세교3·덕절리 물류센터 교통대책을\"",
+          "link": "https://www.newsis.com/view/NISX20261105_0003856865",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.05 17:07",
+          "pub_timestamp": "2026-11-05T17:07:00+09:00"
+        },
+        {
+          "title": "전예슬 경기도의원, 세교3지구 자족도시 조성·덕절리 물류센터 교통대...",
+          "link": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/05/20261105500263?wlog_tag3=naver",
+          "media": "서울신문",
+          "time_label": "스크랩 11.05 16:44",
+          "pub_timestamp": "2026-11-05T16:44:00+09:00"
+        },
+        {
+          "title": "오산시, 화성 물류센터 교통영향 재검토 경기도에 요청 방침",
+          "link": "https://www.yna.co.kr/view/AKR20261105146900061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "스크랩 11.05 16:43",
+          "pub_timestamp": "2026-11-05T16:43:00+09:00"
+        },
+        {
+          "title": "오산시, 화성 덕절리 물류센터 교통대책 마련 총력…\"시민 불편 최소화...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397130",
+          "media": "FNTODAY",
+          "time_label": "스크랩 11.05 16:14",
+          "pub_timestamp": "2026-11-05T16:14:00+09:00"
+        },
+        {
+          "title": "오산시, 덕절리 물류센터 교통대책 마련 총력···주민 불편 최소화 나...",
+          "link": "https://www.kmaeil.com/news/articleView.html?idxno=657195",
+          "media": "KMAEIL",
+          "time_label": "스크랩 11.05 16:02",
+          "pub_timestamp": "2026-11-05T16:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -298,8 +530,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:00",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 15:00",
       "pub_timestamp": "2026-11-05T15:00:00+09:00",
       "bullets": [
         "- 화성시가 산하 공공기관 복무·인사규정 통일을 추진하며 화성푸드통합지원센터에 2차 사전협의를 요청함",
@@ -322,8 +554,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:56",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 14:56",
       "pub_timestamp": "2026-11-05T14:56:00+09:00",
       "bullets": [
         "- 화성특례시의회 모 상임위원장이 평창 의정연수 중 정명근 화성시장의 국회 일정 불참을 문제 삼으며 고성·막말 소란을 피워 파문 발생",
@@ -346,16 +578,38 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:49",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 14:49",
       "pub_timestamp": "2026-11-05T14:49:00+09:00",
       "bullets": [
         "- 화성특례시가 5일 시청에서 자매도시인 중국 쑤저우시 우장구 대표단과 교류협력 강화 MOU 체결",
         "- 미술관 전시 및 학술 교류, 기업 간 산업 협력 등 세부 교류 사업 구체화",
         "- 학교 간 교류 및 청소년 상호 방문 등을 추진하여 다방면의 국제 우호 협력 확대 계획"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시, 첫 해외 자매도시 중국 우장구와 26년 우정 결실",
+          "link": "https://www.suwonilbo.kr/view.html?id=L2611052054113111",
+          "media": "SUWONILBO",
+          "time_label": "스크랩 11.05 21:00",
+          "pub_timestamp": "2026-11-05T21:00:00+09:00"
+        },
+        {
+          "title": "화성시, 중국 쑤저우시 우장구와 양해각서 체결",
+          "link": "https://www.kyeonggi.com/article/20261105580513",
+          "media": "경기일보",
+          "time_label": "스크랩 11.05 18:46",
+          "pub_timestamp": "2026-11-05T18:46:00+09:00"
+        },
+        {
+          "title": "화성시, '해외 첫 자매결연' 도시 中우장구와 협력 심화 협약",
+          "link": "https://www.yna.co.kr/view/AKR20261105152900061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "스크랩 11.05 16:51",
+          "pub_timestamp": "2026-11-05T16:51:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://img.newspim.com/news/2026/11/05/2611051434193330_t1.jpg",
       "telegram_sent": false
     },
@@ -370,8 +624,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:33",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 14:33",
       "pub_timestamp": "2026-11-05T14:33:00+09:00",
       "bullets": [
         "- 화성시 동탄9동 주민자치회와 체육진흥회가 오는 7일 왕배산체육공원에서 '동9동락 Festa'를 공동 개최함",
@@ -402,8 +656,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:30",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 14:30",
       "pub_timestamp": "2026-11-05T14:30:00+09:00",
       "bullets": [
         "- 화성시가 서울 코엑스에서 전국 67개 기관 154명이 참여한 '2026 공공AX포럼 화성'을 개최함",
@@ -426,8 +680,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 12:26",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 12:26",
       "pub_timestamp": "2026-11-05T12:26:00+09:00",
       "bullets": [
         "- 기후변화와 농업 환경 변화에 따라 화성 관내 농가들이 기존 블루베리·포도에서 키위로 작목 전환 추진",
@@ -450,16 +704,24 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 11:04",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 11:04",
       "pub_timestamp": "2026-11-05T11:04:00+09:00",
       "bullets": [
         "- 동탄5동 10개 사회단체협의회와 지현 동장이 후원금 총 160만 원을 기부하며 '화성형 그냥드림' 사업 지원에 동참함",
         "- '화성형 그냥드림'은 결식 우려 가구와 위기 주민에게 생필품·먹거리를 제공하고 복지 상담을 연계하는 화성시 복지 사업임",
         "- 동탄5동은 매주 목요일 위기가구를 방문 지원하며 화성시 29개 읍·면·동 사업 실적 1위를 기록함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "사회단체 후원·시상금 전액 기부… 동탄5동, ‘화성형 그냥드림’ 나눔...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=918263",
+          "media": "경기일보",
+          "time_label": "스크랩 11.05 16:44",
+          "pub_timestamp": "2026-11-05T16:44:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3081488_124008_03_v150.jpg",
       "telegram_sent": false
     },
@@ -474,8 +736,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 09:00",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.05 09:00",
       "pub_timestamp": "2026-11-05T09:00:00+09:00",
       "bullets": [
         "- 정명근 화성특례시장이 '소상공인의 날'을 맞아 지역경제를 지탱하는 관내 소상공인들에게 감사와 응원의 메시지 전달",
@@ -498,8 +760,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.05 07:38",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:38",
       "pub_timestamp": "2026-11-05T07:38:00+09:00",
       "bullets": [
         "- 화성시가 화성시연구원 데이터센터와 함께 서울 코엑스에서 '2026 공공AX포럼 화성'을 개최함",
@@ -1535,6 +1797,118 @@
           "media": "뉴스1",
           "time_label": "오늘 09:29",
           "pub_timestamp": "2026-11-05T09:29:00+09:00"
+        },
+        {
+          "title": "화성시·중국 우장구, 자매결연 26주년 맞아 우호협력 강화",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/05/2026110500337.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.06 07:50",
+          "pub_timestamp": "2026-11-06T07:50:00+09:00"
+        },
+        {
+          "title": "'AI도시가 현실로'…화성시 주최 'MARS 2026'",
+          "link": "https://news.tvchosun.com/site/data/html_dir/2026/11/06/2026110690011.html",
+          "media": "조선일보",
+          "time_label": "스크랩 11.06 07:05",
+          "pub_timestamp": "2026-11-06T07:05:00+09:00"
+        },
+        {
+          "title": "글로벌 자동차·기술 리더 ‘미래차 전략’ 공유",
+          "link": "https://www.segye.com/newsView/20261105516060?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.06 06:02",
+          "pub_timestamp": "2026-11-06T06:02:00+09:00"
+        },
+        {
+          "title": "\"도요타·GM·샤오미 한자리에\"… 현대차, 글로벌 모빌리티 서밋 주최",
+          "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92376",
+          "media": "WOODKOREA",
+          "time_label": "스크랩 11.06 01:38",
+          "pub_timestamp": "2026-11-06T01:38:00+09:00"
+        },
+        {
+          "title": "현대자동차그룹, 글로벌 리더들과 '미래 모빌리티 청사진' 공유",
+          "link": "https://www.ulsanpress.net/news/articleView.html?idxno=586307",
+          "media": "ULSANPRESS",
+          "time_label": "스크랩 11.05 21:42",
+          "pub_timestamp": "2026-11-05T21:42:00+09:00"
+        },
+        {
+          "title": "화성시, 우주항공산업 새 성장축으로…실현 과제는",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611050095",
+          "media": "SENTV",
+          "time_label": "스크랩 11.05 21:36",
+          "pub_timestamp": "2026-11-05T21:36:00+09:00"
+        },
+        {
+          "title": "에이아이웍스, 中서 AI 검증 기술 소개",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880405",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.05 20:34",
+          "pub_timestamp": "2026-11-05T20:34:00+09:00"
+        },
+        {
+          "title": "현대차그룹, 국내 첫 'FISITA 월드 모빌리티서밋' 주최",
+          "link": "https://www.koreareport.co.kr/news/articleView.html?idxno=54362",
+          "media": "KOREAREPORT",
+          "time_label": "스크랩 11.05 19:10",
+          "pub_timestamp": "2026-11-05T19:10:00+09:00"
+        },
+        {
+          "title": "전동화 전략 다변화·AI 접목… 현대차 기술 주도권 고삐죈다",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261106010002294",
+          "media": "ASIATODAY",
+          "time_label": "스크랩 11.05 18:06",
+          "pub_timestamp": "2026-11-05T18:06:00+09:00"
+        },
+        {
+          "title": "화성, AI 엑스포서 투자유치·공공행정 혁신 동시 추진… 첨단산업 도시...",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282181&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "media": "오마이뉴스",
+          "time_label": "스크랩 11.05 18:02",
+          "pub_timestamp": "2026-11-05T18:02:00+09:00"
+        },
+        {
+          "title": "현대차그룹, FISITA 서밋서 AI·전동화 미래 기술 방향 제시",
+          "link": "http://www.newslock.co.kr/news/articleView.html?idxno=139407",
+          "media": "NEWSLOCK",
+          "time_label": "스크랩 11.05 17:50",
+          "pub_timestamp": "2026-11-05T17:50:00+09:00"
+        },
+        {
+          "title": "현대차그룹, AI·소프트웨어와 전동화 기술 융합…미래차 개발 경쟁력 ...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42609",
+          "media": "AITIMES",
+          "time_label": "스크랩 11.05 17:32",
+          "pub_timestamp": "2026-11-05T17:32:00+09:00"
+        },
+        {
+          "title": "현대차그룹 FISITA 월드 모빌리티 서밋 개최",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3081606",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.05 17:22",
+          "pub_timestamp": "2026-11-05T17:22:00+09:00"
+        },
+        {
+          "title": "햔대차그룹, 글로벌 완성차 업체·부품사 등과 미래 모빌리티 협력 논의",
+          "link": "https://www.busan.com/view/busan/view.php?code=2026110516383910337",
+          "media": "BUSAN",
+          "time_label": "스크랩 11.05 16:48",
+          "pub_timestamp": "2026-11-05T16:48:00+09:00"
+        },
+        {
+          "title": "현대차그룹, 전동화 기술 전략 제시...\"AI 기반 차량 개발 역량 강화\"",
+          "link": "https://www.getnews.co.kr/news/articleView.html?idxno=886133",
+          "media": "GETNEWS",
+          "time_label": "스크랩 11.05 16:08",
+          "pub_timestamp": "2026-11-05T16:08:00+09:00"
+        },
+        {
+          "title": "현대차그룹, 국내 첫 FISITA 월드 모빌리티 서밋 개최…AI·전동화 미래...",
+          "link": "https://www.public25.com/news/articleView.html?idxno=57956",
+          "media": "PUBLIC25",
+          "time_label": "스크랩 11.05 16:00",
+          "pub_timestamp": "2026-11-05T16:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -1552,8 +1926,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.05 04:31",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 04:31",
       "pub_timestamp": "2026-11-05T04:31:00+09:00",
       "bullets": [
         "- 화성시와 한국일보가 서울 코엑스에서 'AI 행정을 선도하는 화성'을 주제로 '2026 미지답 화성 포럼'을 공동 주최함",
@@ -1576,8 +1950,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 20:12",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 20:12",
       "pub_timestamp": "2026-11-04T20:12:00+09:00",
       "bullets": [
         "- 화성특례시가 4일 서울 코엑스에서 AI 및 첨단산업 관계자 180여 명이 참석한 '2026 화성특례시 투자유치설명회'를 개최함",
@@ -1600,8 +1974,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 19:20",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 19:20",
       "pub_timestamp": "2026-11-04T19:20:00+09:00",
       "bullets": [
         "- 이준석 국회의원(화성시을), 화성·용인·평택 반도체 벨트의 전력·용수·도로 등 기반시설 확충 필요성 강조",
@@ -1624,8 +1998,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 19:00",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 19:00",
       "pub_timestamp": "2026-11-04T19:00:00+09:00",
       "bullets": [
         "- 화성특례시장애인사격연맹 주최로 제3회 회장배 장애인레이저사격대회가 개최됨",
@@ -1648,8 +2022,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 17:36",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 17:36",
       "pub_timestamp": "2026-11-04T17:36:00+09:00",
       "bullets": [
         "- 화성시가 AI와 로봇을 주제로 한 박람회 'MARS 2026'을 서울 코엑스에서 개최함",
@@ -1672,8 +2046,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 16:14",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 16:14",
       "pub_timestamp": "2026-11-04T16:14:00+09:00",
       "bullets": [
         "- 화성특례시의회가 시민 안전을 위해 헌신하는 소방 관계자들을 격려하는 행사에 참석함",
@@ -1704,8 +2078,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 16:00",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 16:00",
       "pub_timestamp": "2026-11-04T16:00:00+09:00",
       "bullets": [
         "- 화성산업진흥원에서 경기중기청·화성상공회의소·동탄소공인특화지원센터 공동 주관 해외진출 토크콘서트 개최",
@@ -1728,8 +2102,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 15:58",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 15:58",
       "pub_timestamp": "2026-11-04T15:58:00+09:00",
       "bullets": [
         "- 화성시가 4일 서울 코엑스에서 AI EXPO와 연계한 투자유치설명회를 열고 첨단산업 기업 유치 활동을 전개함",
@@ -1760,8 +2134,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 15:14",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 15:14",
       "pub_timestamp": "2026-11-04T15:14:00+09:00",
       "bullets": [
         "- 화성시에서 최근 10개월간 정보공개 처리 항목이 2만 건을 넘어서며 악성 민원 논란 대두",
@@ -1852,6 +2226,27 @@
           "media": "KPINEWS",
           "time_label": "오늘 12:32",
           "pub_timestamp": "2026-11-05T12:32:00+09:00"
+        },
+        {
+          "title": "“악성민원인 1명이 2000여건 청구”… 경기 지자체 ‘정보공개 폭탄’...",
+          "link": "https://www.segye.com/newsView/20261105519470?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.06 06:03",
+          "pub_timestamp": "2026-11-06T06:03:00+09:00"
+        },
+        {
+          "title": "‘알 권리 주장’ 정보공개 폭탄…마비되는 행정력 [오상도의 경기유랑...",
+          "link": "https://www.segye.com/newsView/20261105517231?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.05 17:37",
+          "pub_timestamp": "2026-11-05T17:37:00+09:00"
+        },
+        {
+          "title": "“한명이 정보공개 2166건 청구”…공무원노조 반발",
+          "link": "https://www.naeil.com/news/read/607762?ref=naver",
+          "media": "NAEIL",
+          "time_label": "스크랩 11.05 16:10",
+          "pub_timestamp": "2026-11-05T16:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -1869,8 +2264,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 15:12",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 15:12",
       "pub_timestamp": "2026-11-04T15:12:00+09:00",
       "bullets": [
         "- 화성시 우리꽃식물원이 국립수목원의 국가 식물자원 보호사업 참여 전문기관(전국 33번째)으로 선정됨",
@@ -1893,8 +2288,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 14:46",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 14:46",
       "pub_timestamp": "2026-11-04T14:46:00+09:00",
       "bullets": [
         "- 수원 군공항 화성 이전 반대 시민단체들이 국방부의 '갈등관리 용역' 중단을 촉구하는 기자회견을 개최함",
@@ -1917,8 +2312,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 14:27",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 14:27",
       "pub_timestamp": "2026-11-04T14:27:00+09:00",
       "bullets": [
         "- 전국공무원노동조합 경기지역본부 화성시지부가 4일 화성시청 로비에서 갑티슈 2,000개로 탑을 쌓는 단체행동 진행",
@@ -1941,8 +2336,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 13:32",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 13:32",
       "pub_timestamp": "2026-11-04T13:32:00+09:00",
       "bullets": [
         "- 화성시인재육성재단이 운영하는 화성시장학관에서 설립 이래 처음으로 외교관 후보자 선발시험 최종 합격자 배출",
@@ -1965,8 +2360,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 12:12",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 12:12",
       "pub_timestamp": "2026-11-04T12:12:00+09:00",
       "bullets": [
         "- 화성FC가 시즌 막판 9경기 연속 원정 일정 속에 승점 45점(6위)을 기록하며 K리그2 플레이오프 진출 경쟁을 이어가고 있음",
@@ -1989,8 +2384,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 11:54",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 11:54",
       "pub_timestamp": "2026-11-04T11:54:00+09:00",
       "bullets": [
         "- 화성시환경재단이 11월 7일 비봉습지공원에서 시민 대상 '습지 동행 걷기' 행사를 개최함",
@@ -2021,8 +2416,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 11:48",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 11:48",
       "pub_timestamp": "2026-11-04T11:48:00+09:00",
       "bullets": [
         "- 화성우리꽃식물원이 국립수목원으로부터 전국 33번째 '희귀·특산식물 보전기관'으로 지정됨",
@@ -2109,8 +2504,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 10:55",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 10:55",
       "pub_timestamp": "2026-11-04T10:55:00+09:00",
       "bullets": [
         "- 화성특례시가 서울 코엑스에서 AI 엑스포인 'MARS 2026' 행사를 개최함",
@@ -2133,8 +2528,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 10:42",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 10:42",
       "pub_timestamp": "2026-11-04T10:42:00+09:00",
       "bullets": [
         "- 화성특례시가 드론을 이용한 생물테러 상황 대비 민·관·군·경 합동 '안전화성훈련'을 실시함",
@@ -2165,8 +2560,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 10:42",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 10:42",
       "pub_timestamp": "2026-11-04T10:42:00+09:00",
       "bullets": [
         "- 화성시 주최 및 화성인재육성재단 주관으로 동탄센트럴파크에서 학생동아리축제가 개최됨",
@@ -2197,8 +2592,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 10:32",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 10:32",
       "pub_timestamp": "2026-11-04T10:32:00+09:00",
       "bullets": [
         "- 화성시에서 역사적 의미를 기리는 '제6회 화성 3·1운동 만세길 걷기 행사'가 개최됨",
@@ -2221,8 +2616,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 10:10",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 10:10",
       "pub_timestamp": "2026-11-04T10:10:00+09:00",
       "bullets": [
         "- 화성특례시가 주최한 'AI Expo MARS 2026'이 서울 강남구 코엑스에서 개최됨",
@@ -2712,6 +3107,55 @@
           "media": "JOONGDO",
           "time_label": "오늘 11:10",
           "pub_timestamp": "2026-11-05T11:10:00+09:00"
+        },
+        {
+          "title": "“열차 안이라 잘 안들려”…KT, 차내 통신 끊김 막을 기술 개발",
+          "link": "https://www.sedaily.com/article/20110805?ref=naver",
+          "media": "서울경제",
+          "time_label": "스크랩 11.06 05:31",
+          "pub_timestamp": "2026-11-06T05:31:00+09:00"
+        },
+        {
+          "title": "KT·삼성전자, AI로 고속철도 통신 끊김 줄인다",
+          "link": "https://www.lawissue.co.kr/view.php?ud=2026110523104741209817d053b9_12",
+          "media": "로이슈",
+          "time_label": "스크랩 11.05 23:12",
+          "pub_timestamp": "2026-11-05T23:12:00+09:00"
+        },
+        {
+          "title": "KT, 삼성전자와 고속철도 통신 품질 개선... 끊김 발생률 29%↓",
+          "link": "http://www.newslock.co.kr/news/articleView.html?idxno=139422",
+          "media": "NEWSLOCK",
+          "time_label": "스크랩 11.05 17:48",
+          "pub_timestamp": "2026-11-05T17:48:00+09:00"
+        },
+        {
+          "title": "KTX 타면 끊기는 통신…AI가 잡는다",
+          "link": "https://www.hankyung.com/article/2026110590361",
+          "media": "한국경제",
+          "time_label": "스크랩 11.05 17:19",
+          "pub_timestamp": "2026-11-05T17:19:00+09:00"
+        },
+        {
+          "title": "KT·삼성전자, 시속 250㎞ 고속철도 통신 끊김 29% 줄였다…AI 무선망 최...",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=561361",
+          "media": "JOONGANGENEWS",
+          "time_label": "스크랩 11.05 17:00",
+          "pub_timestamp": "2026-11-05T17:00:00+09:00"
+        },
+        {
+          "title": "달리는 KTX서도 끊김 없이…KT·삼성전자, 무선망 최적화 실증",
+          "link": "http://www.segyebiz.com/newsView/20261105516150?OutUrl=naver",
+          "media": "SEGYEBIZ",
+          "time_label": "스크랩 11.05 16:50",
+          "pub_timestamp": "2026-11-05T16:50:00+09:00"
+        },
+        {
+          "title": "KT, 삼성전자와 AI로 고속철도 통신 품질 개선…\"끊김 29% 감소\"",
+          "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=369034",
+          "media": "FTODAY",
+          "time_label": "스크랩 11.05 16:36",
+          "pub_timestamp": "2026-11-05T16:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -2729,8 +3173,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.04 09:32",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 09:32",
       "pub_timestamp": "2026-11-04T09:32:00+09:00",
       "bullets": [
         "- 화성산업진흥원은 관내 유망 스타트업 4개사와 함께 싱가포르 현지 프로그램 '글로벌 스타트업 이륙작전'을 성공적으로 마무리함",
@@ -2761,8 +3205,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 05:25",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 05:25",
       "pub_timestamp": "2026-11-04T05:25:00+09:00",
       "bullets": [
         "- 화성시는 11월 4일 오전 서울 코엑스 E5홀에서 '화성시 투자유치 설명회'를 개최함",
@@ -2776,6 +3220,13 @@
           "media": "뉴시스",
           "time_label": "스크랩 11.05 05:08",
           "pub_timestamp": "2026-11-05T05:08:00+09:00"
+        },
+        {
+          "title": "[오늘의 주요일정]경기남부(11월6일 금요일)",
+          "link": "https://www.newsis.com/view/NISX20261106_0003857134",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.06 05:00",
+          "pub_timestamp": "2026-11-06T05:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -2793,8 +3244,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 00:20",
+      "date_group": "2026-11-04",
+      "time_label": "11.04 00:20",
       "pub_timestamp": "2026-11-04T00:20:00+09:00",
       "bullets": [
         "- 화성FC, 플레이오프 진출을 기원하는 온라인 팬 참여 이벤트 '화성으로 가는 응원정거장' 운영",
@@ -3332,6 +3783,13 @@
           "media": "조선일보",
           "time_label": "오늘 14:59",
           "pub_timestamp": "2026-11-05T14:59:00+09:00"
+        },
+        {
+          "title": "KT-삼성전자, AI로 고속철도 통신 품질 개선",
+          "link": "https://www.nocutnews.co.kr/news/6602973?utm_source=naver&utm_medium=article&utm_campaign=20261105224351",
+          "media": "노컷뉴스",
+          "time_label": "스크랩 11.05 22:44",
+          "pub_timestamp": "2026-11-05T22:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -4661,6 +5119,13 @@
           "media": "서울신문",
           "time_label": "스크랩 11.04 17:34",
           "pub_timestamp": "2026-11-04T17:34:00+09:00"
+        },
+        {
+          "title": "동탄 집값 오르더니 또 '대박'…17년 만에 숙원 이뤄졌다는 '이것'",
+          "link": "https://www.wikitree.co.kr/articles/1172219",
+          "media": "위키트리",
+          "time_label": "스크랩 11.05 17:24",
+          "pub_timestamp": "2026-11-05T17:24:00+09:00"
         }
       ],
       "is_major": true,
@@ -5221,6 +5686,104 @@
           "media": "연합뉴스",
           "time_label": "오늘 14:00",
           "pub_timestamp": "2026-11-05T14:00:00+09:00"
+        },
+        {
+          "title": "강남 집값은 '뚝' 외곽은 '쑥'···서울 아파트 100주 연속 상승 현실화...",
+          "link": "https://www.smartbizn.com/news/articleView.html?idxno=158612",
+          "media": "SMARTBIZN",
+          "time_label": "스크랩 11.06 07:38",
+          "pub_timestamp": "2026-11-06T07:38:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 상승세 주춤하자 수도권 풍선효과 양상",
+          "link": "https://www.segye.com/newsView/20261105516046?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.06 06:03",
+          "pub_timestamp": "2026-11-06T06:03:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 91주 연속 상승… 강남 3구는 하락세",
+          "link": "https://www.donga.com/news/Economy/article/all/20261106/134975381/2",
+          "media": "동아일보",
+          "time_label": "스크랩 11.06 04:35",
+          "pub_timestamp": "2026-11-06T04:35:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 상승폭 둔화…경기 ‘갈아타기’ 매수세",
+          "link": "https://www.khan.co.kr/article/202611052043025",
+          "media": "경향신문",
+          "time_label": "스크랩 11.05 20:43",
+          "pub_timestamp": "2026-11-05T20:43:00+09:00"
+        },
+        {
+          "title": "91주 연속 오른 서울보다 2.9배 상승…경기도 집값 더 뜨겁다",
+          "link": "https://www.suwonilbo.kr/view.html?id=L261105193431e524",
+          "media": "SUWONILBO",
+          "time_label": "스크랩 11.05 19:40",
+          "pub_timestamp": "2026-11-05T19:40:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 91주 연속 상승 '역대 최장'…경기도 상승세 가속",
+          "link": "http://www.4th.kr/news/articleView.html?idxno=2121268",
+          "media": "4TH",
+          "time_label": "스크랩 11.05 18:42",
+          "pub_timestamp": "2026-11-05T18:42:00+09:00"
+        },
+        {
+          "title": "\"대출 족쇄에 멈칫한 집값\"… 서울 아파트값 상승폭 3주 연속 둔화",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397139",
+          "media": "FNTODAY",
+          "time_label": "스크랩 11.05 17:20",
+          "pub_timestamp": "2026-11-05T17:20:00+09:00"
+        },
+        {
+          "title": "서울 아파트 매매 91주째 상승했으나 강도는 둔화…송파 전셋값 8개월 만...",
+          "link": "https://www.segye.com/newsView/20261105515478?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.05 17:15",
+          "pub_timestamp": "2026-11-05T17:15:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 3주째 둔화…국토장관 \"희망 신호\"",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880324",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.05 17:04",
+          "pub_timestamp": "2026-11-05T17:04:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 상승률 3주째 둔화…강남3구 약세 속 경기 0.20%↑",
+          "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=82268",
+          "media": "NEWSFC",
+          "time_label": "스크랩 11.05 16:46",
+          "pub_timestamp": "2026-11-05T16:46:00+09:00"
+        },
+        {
+          "title": "정명근“시민과 기업에 도움이 되는 실질적 교류 이어 가겠다”",
+          "link": "https://www.sportsseoul.com/news/read/1647341?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "스크랩 11.05 16:45",
+          "pub_timestamp": "2026-11-05T16:45:00+09:00"
+        },
+        {
+          "title": "강남3구 하락 지속에 서울 아파트 상승폭 3주째 축소",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3446262",
+          "media": "NEWSCJ",
+          "time_label": "스크랩 11.05 16:34",
+          "pub_timestamp": "2026-11-05T16:34:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 상승세 계속, 상승폭은 줄어···경기는 여전히 상승세...",
+          "link": "https://www.khan.co.kr/article/202611051608001",
+          "media": "경향신문",
+          "time_label": "스크랩 11.05 16:08",
+          "pub_timestamp": "2026-11-05T16:08:00+09:00"
+        },
+        {
+          "title": "강남3구 하락에도 서울 아파트값 91주 상승···반도체벨트 강세",
+          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=268477",
+          "media": "WHITEPAPER",
+          "time_label": "스크랩 11.05 15:48",
+          "pub_timestamp": "2026-11-05T15:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -5968,6 +6531,34 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 13:50",
           "pub_timestamp": "2026-11-05T13:50:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, '제16회 장애 어르신 합동고희연'에서 칠순 축하",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2015207",
+          "media": "매일일보",
+          "time_label": "스크랩 11.06 07:44",
+          "pub_timestamp": "2026-11-06T07:44:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 장애 어르신 10명 칠순 잔치 함께해",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880394",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.05 19:08",
+          "pub_timestamp": "2026-11-05T19:08:00+09:00"
+        },
+        {
+          "title": "화성시의회, 장애 어르신 합동고희연 참석…10명 칠순 축하",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5080328",
+          "media": "SHINAILBO",
+          "time_label": "스크랩 11.05 16:52",
+          "pub_timestamp": "2026-11-05T16:52:00+09:00"
+        },
+        {
+          "title": "이계철 의장, 제16회 장애 어르신 합동고희연 참석...\"일흔 해의 세월에...",
+          "link": "https://www.ajunews.com/view/20261105155909562",
+          "media": "아주경제",
+          "time_label": "스크랩 11.05 16:28",
+          "pub_timestamp": "2026-11-05T16:28:00+09:00"
         }
       ],
       "is_major": true,
@@ -8435,6 +9026,13 @@
           "media": "SHINAILBO",
           "time_label": "오늘 15:26",
           "pub_timestamp": "2026-11-05T15:26:00+09:00"
+        },
+        {
+          "title": "[김병철 시선·기획③] 화옹은 군공항 자리가 아니다…국방부 앞에 선 ...",
+          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=720973",
+          "media": "뉴스타운",
+          "time_label": "스크랩 11.05 22:51",
+          "pub_timestamp": "2026-11-05T22:51:00+09:00"
         }
       ],
       "is_major": true,
