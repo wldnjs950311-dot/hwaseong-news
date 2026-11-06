@@ -1,85 +1,99 @@
 {
-  "updated_at": "2026.11.06. 12:00",
+  "updated_at": "2026.11.06. 16:00",
   "scrap_period": "전일(11.05) 08:00 ~ 금일(11.06) 08:00",
   "yesterday_label": "11.05",
   "macro_pulse": {
     "report_date": "2026-11-06",
-    "article_count": 5,
-    "overview": "금일 언론은 보육주간 행사 개최와 세외수입 체납 징수 강화 등 보육·재정 분야를 필두로 취약계층 돌봄 및 나눔 복지 현안에 주목했습니다.",
+    "article_count": 10,
+    "overview": "보육환경 개선을 위한 대규모 보육주간 행사와 건전재정 확충을 위한 세외수입 징수 점검을 중심으로, 첨단 미래산업 유치 및 지역 농정 현안에 대한 언론 보도가 집중되었습니다.",
     "main_points": [
-      "- [2026년 화성시 보육주간 행사] 총 9개 언론사 집중 보도 - 화성시어린이집연합회 주관으로 보육의 공공성과 교직원 노고를 격려하는 보육주간 행사가 성황리에 개최되었습니다.",
-      "- [세외수입 체납 징수 강화 대책] 총 3개 언론사 집중 보도 - 화성특례시가 미수납액 최소화를 위해 부서별 징수 실적을 면밀히 점검하고 자주재원 확충 방안을 논의했습니다.",
-      "- [경도인지장애 시민 인지교구 무료 지원] 뉴스1 보도 - 치매 조기 예방과 인지기능 유지를 돕기 위해 경도인지장애 진단 시민을 대상으로 가정용 인지교구 보급에 나섰습니다.",
-      "- [효행구 통합돌봄 보건·복지 협력 간담회] 뉴시스 보도 - 효행구와 효행구보건소가 연계 체계를 구축하여 지역 밀착형 통합돌봄 서비스를 강화하기 위한 협력 방안을 논의했습니다."
+      "- [2026년 화성시 보육주간 행사] 총 11개 언론사 집중 보도 - 화성시어린이집연합회 주관으로 나흘간 행사를 성황리에 개최하여 보육교직원의 노고를 격려하고 따뜻한 보육환경 조성 의지를 확인함",
+      "- [세외수입 체납 징수 점검 회의] 총 3개 언론사 집중 보도 - 세외수입 미수납액 최소화 및 건전재정 확충을 위해 부서별 징수 실적을 점검하고 체납 징수대책을 논의함",
+      "- [서울 대규모 AI 엑스포 개최] SBS 보도 - 첨단산업 육성과 기업 유치를 선도하기 위해 지난해에 이어 서울에서 전략적인 대규모 AI 행사를 추진함",
+      "- [화옹지구 5공구 농민 배분 촉구 집회] JEONMAE 보도 - 화성호 농산업발전협의회와 지역 농민들이 한국농어촌공사 화안사업단 앞에서 화옹지구 5공구의 농민 배분을 촉구하는 집회를 개최함"
     ],
-    "risk_cautions": [],
+    "risk_cautions": [
+      {
+        "title": "화성호 농산업발전협의회·한국농어촌공사에 화옹지구 5공구 \"지역 농민...",
+        "media": "JEONMAE",
+        "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1309276",
+        "time_label": "오늘 14:26",
+        "pub_timestamp": "2026-11-06T14:26:00+09:00",
+        "department": "농업정책과",
+        "bullets": [
+          "- 화성호 농산업발전협의회와 지역 농민들이 한국농어촌공사 화안사업단 앞에서 화옹지구 5공구 농민 배분을 촉구하는 집회를 개최함",
+          "- 농민들은 5공구 163만 평의 특정 피해 어민 단체 독점 대부 우려를 제기하며 지역 농민 및 미래 농업을 위한 배분 대책 마련을 요구함",
+          "- 이미 7·8공구 약 500만 평이 피해 어민 단체에 대부된 점을 지적하며 불공정 대부 방지와 실효성 있는 방안 제시를 촉구함"
+        ]
+      }
+    ],
     "summary_bullets": [
-      "금일 언론은 보육주간 행사 개최와 세외수입 체납 징수 강화 등 보육·재정 분야를 필두로 취약계층 돌봄 및 나눔 복지 현안에 주목했습니다.",
-      "- [2026년 화성시 보육주간 행사] 총 9개 언론사 집중 보도 - 화성시어린이집연합회 주관으로 보육의 공공성과 교직원 노고를 격려하는 보육주간 행사가 성황리에 개최되었습니다.",
-      "- [세외수입 체납 징수 강화 대책] 총 3개 언론사 집중 보도 - 화성특례시가 미수납액 최소화를 위해 부서별 징수 실적을 면밀히 점검하고 자주재원 확충 방안을 논의했습니다."
+      "보육환경 개선을 위한 대규모 보육주간 행사와 건전재정 확충을 위한 세외수입 징수 점검을 중심으로, 첨단 미래산업 유치 및 지역 농정 현안에 대한 언론 보도가 집중되었습니다.",
+      "- [2026년 화성시 보육주간 행사] 총 11개 언론사 집중 보도 - 화성시어린이집연합회 주관으로 나흘간 행사를 성황리에 개최하여 보육교직원의 노고를 격려하고 따뜻한 보육환경 조성 의지를 확인함",
+      "- [세외수입 체납 징수 점검 회의] 총 3개 언론사 집중 보도 - 세외수입 미수납액 최소화 및 건전재정 확충을 위해 부서별 징수 실적을 점검하고 체납 징수대책을 논의함"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 4,
-        "ratio": 22
+        "count": 7,
+        "ratio": 30
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 6
+        "ratio": 4
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 1,
-        "ratio": 6
+        "ratio": 4
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 17
+        "count": 5,
+        "ratio": 22
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 9,
-        "ratio": 50
+        "ratio": 39
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "대형 물류센터 교통 갈등",
-      "count": 33,
+      "keyword": "대형 물류센터 세교 반발",
+      "count": 35,
       "category": "RISK",
       "dept": "허가민원과",
-      "summary": "화성시 관내 대형 물류센터 건립에 따른 교통 체증 및 안전 문제를 이유로 인접 오산 세교 주민들의 반발이 확산되고 있는 사안입니다."
+      "summary": "화성 관내 대형 물류센터 신축에 따른 교통 체증 및 안전 우려로 인접한 오산 세교 주민들의 반발이 확산되고 있습니다."
     },
     {
       "rank": 2,
-      "keyword": "보육주간 행사",
-      "count": 9,
+      "keyword": "2026년 보육주간 행사",
+      "count": 12,
       "category": "CULTURE",
       "dept": "영유아보육과",
-      "summary": "화성시어린이집연합회 주관으로 관내 보육 교직원과 영유아 가족을 위한 보육주간 행사가 성황리에 개최되었습니다."
+      "summary": "어린이집연합회 주관으로 나흘간 보육교직원 노고를 격려하고 따뜻한 보육환경을 조성하기 위한 보육주간 행사가 열렸습니다."
     },
     {
       "rank": 3,
-      "keyword": "쑤저우시 우장구 자매교류",
+      "keyword": "중국 쑤저우시 우장구 교류협력",
       "count": 4,
       "category": "POLICY",
       "dept": "대외협력과",
-      "summary": "중국 장쑤성 쑤저우시 우장구 대표단이 방문하여 자매도시 간 교류협력 강화를 위한 양해각서(MOU)를 체결했습니다."
+      "summary": "자매도시인 중국 쑤저우시 우장구 대표단이 방문하여 상호 교류와 협력을 강화하기 위한 양해각서(MOU)를 체결했습니다."
     },
     {
       "rank": 4,
@@ -87,29 +101,149 @@
       "count": 3,
       "category": "POLICY",
       "dept": "징수과",
-      "summary": "시 재정 건전성 확보 및 미수납액 최소화를 위해 부서별 징수 실적 점검과 체납 징수 강화 대책을 논의했습니다."
+      "summary": "세외수입 미수납액 최소화 및 자주재원 확충을 위해 부서별 징수 실적을 점검하고 체납 징수 대책을 논의했습니다."
     },
     {
       "rank": 5,
-      "keyword": "동9동락 페스타",
-      "count": 2,
-      "category": "CULTURE",
-      "dept": "시민협력과",
-      "summary": "동탄9동 주민자치회와 체육진흥회가 주민 화합을 위해 왕배산체육공원에서 명랑운동회와 문화공연 축제를 엽니다."
+      "keyword": "그냥드림 사업",
+      "count": 3,
+      "category": "POLICY",
+      "dept": "복지정책과",
+      "summary": "사회단체의 온정 어린 기부와 함께 겨울철 취약계층 발굴을 위한 가정 방문형 먹거리 지원 사업이 추진되고 있습니다."
     }
   ],
   "stats": {
-    "total": 216,
-    "major_count": 103,
-    "live_count": 113,
-    "today_count": 5,
+    "total": 221,
+    "major_count": 104,
+    "live_count": 117,
+    "today_count": 10,
     "scrap_count": 13,
     "yesterday_count": 2,
-    "policy": 126,
-    "culture": 71,
-    "risk": 19
+    "policy": 128,
+    "culture": 73,
+    "risk": 20
   },
   "articles": [
+    {
+      "title": "먹거리 꾸러미 들고 위기가구로… 화성시, 복지 사각지대 발굴",
+      "link": "https://www.kyeongin.com/article/1774234",
+      "originallink": "https://www.kyeongin.com/article/1774234",
+      "media": "경인일보",
+      "category": "POLICY",
+      "department": "복지정책과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:08",
+      "pub_timestamp": "2026-11-06T15:08:00+09:00",
+      "bullets": [
+        "- 화성시가 겨울철 취약계층 발굴을 위해 기존 '그냥드림' 사업을 개편해 가정 방문형 복지 지원 추진",
+        "- 사례관리사와 읍면동 담당 공무원이 위기가구 132곳을 직접 찾아 먹거리·생필품 전달 및 생활 실태 점검",
+        "- 3개월간 시범운영을 진행한 후 긴급복지 연계 및 본사업 추진 여부를 최종 결정할 방침"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/06/news-p.v1.20261106.d790c51b3f1748048a81bdc70973f0e9_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[ASF 재입식 현장] 경기 화성 진양농장",
+      "link": "https://www.chukkyung.co.kr/news/articleView.html?idxno=83603",
+      "originallink": "https://www.chukkyung.co.kr/news/articleView.html?idxno=83603",
+      "media": "축산경제신문",
+      "category": "POLICY",
+      "department": "축산정책과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:45",
+      "pub_timestamp": "2026-11-06T14:45:00+09:00",
+      "bullets": [
+        "- 지난 2월 ASF(아프리카돼지열병) 발생으로 가축 살처분 피해를 입었던 화성 진양농장이 8개월 만에 재입식 절차에 돌입함",
+        "- 농가는 한돈협회의 지원과 방역 시설 재정비를 거쳐 시험돈 입식을 마쳤으며 내년 1월 본격적인 영농 재개를 목표로 추진 중임",
+        "- 관내 가축전염병 발생 농가의 영농 정상화 과정에 따른 지속적인 방역 관리 및 지도 점검이 요구됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.chukkyung.co.kr/news/thumbnail/202611/83603_42586_025_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성호 농산업발전협의회·한국농어촌공사에 화옹지구 5공구 \"지역 농민...",
+      "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1309276",
+      "originallink": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1309276",
+      "media": "JEONMAE",
+      "category": "RISK",
+      "department": "농업정책과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:26",
+      "pub_timestamp": "2026-11-06T14:26:00+09:00",
+      "bullets": [
+        "- 화성호 농산업발전협의회와 지역 농민들이 한국농어촌공사 화안사업단 앞에서 화옹지구 5공구 농민 배분을 촉구하는 집회를 개최함",
+        "- 농민들은 5공구 163만 평의 특정 피해 어민 단체 독점 대부 우려를 제기하며 지역 농민 및 미래 농업을 위한 배분 대책 마련을 요구함",
+        "- 이미 7·8공구 약 500만 평이 피해 어민 단체에 대부된 점을 지적하며 불공정 대부 방지와 실효성 있는 방안 제시를 촉구함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://www.jeonmae.co.kr/news/thumbnail/202611/1309276_1042462_2421_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 보육교직원 노고 격려···따뜻한 보육환경 조성 앞장",
+      "link": "https://www.kmaeil.com/news/articleView.html?idxno=657302",
+      "originallink": "https://www.kmaeil.com/news/articleView.html?idxno=657302",
+      "media": "경인매일",
+      "category": "CULTURE",
+      "department": "영유아보육과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:34",
+      "pub_timestamp": "2026-11-06T13:34:00+09:00",
+      "bullets": [
+        "- 화성특례시는 화성시어린이집연합회 주관으로 나흘간 진행된 '2026년 화성시 보육주간 행사'를 성황리에 마무리함",
+        "- 영유아 발달을 지원하는 보육교직원의 노고를 격려하고 심리적 안정과 사기 진작을 도모하기 위해 마련됨",
+        "- 보육힐링콘서트 등 다양한 프로그램을 통해 교직원 간 소통과 화합을 다지고 따뜻한 보육환경 조성을 다짐함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kmaeil.com/news/photo/202611/657302_455968_2859.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 서울에서 AI 행사 개최한 이유는?",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833927&plink=ORI&cooper=NAVER",
+      "originallink": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833927&plink=ORI&cooper=NAVER",
+      "media": "SBS",
+      "category": "CULTURE",
+      "department": "AI전략과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 12:30",
+      "pub_timestamp": "2026-11-06T12:30:00+09:00",
+      "bullets": [
+        "- 화성특례시가 첨단산업 육성과 기업 유치를 위해 지난해에 이어 서울에서 대규모 AI 엑스포를 개최함",
+        "- 행사 현장에서는 무용수와 합동 공연을 펼친 중국 로봇 및 인간형 휴머노이드 로봇 등 첨단 기술이 소개됨",
+        "- 화성시는 미래 첨단산업 분야에서 경쟁 지자체들을 앞서 나가기 위한 전략적 행보로 서울 개최를 추진함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.sbs.co.kr/newimg/news/20261106/202238566_1280.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "[위클리오늘] 화성특례시, 세외수입 체납 징수 강화",
       "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801255",
@@ -296,6 +430,20 @@
           "media": "KMAEIL",
           "time_label": "스크랩 11.05 13:28",
           "pub_timestamp": "2026-11-05T13:28:00+09:00"
+        },
+        {
+          "title": "의왕시 통장 220여 명 대상 역량강화 워크숍",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3081643",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.06 00:02",
+          "pub_timestamp": "2026-11-06T00:02:00+09:00"
+        },
+        {
+          "title": "의왕시, 주민 소통 최일선 통장들과 힐링 워크숍 개최",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1022503",
+          "media": "CNBNEWS",
+          "time_label": "스크랩 11.05 20:54",
+          "pub_timestamp": "2026-11-05T20:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -641,6 +789,20 @@
           "media": "경인일보",
           "time_label": "스크랩 11.05 17:20",
           "pub_timestamp": "2026-11-05T17:20:00+09:00"
+        },
+        {
+          "title": "오산시의원 3인, 대원·남촌·초평동 첫 주민간담회 개최",
+          "link": "http://www.breaknews.com/1248909",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 12:08",
+          "pub_timestamp": "2026-11-06T12:08:00+09:00"
+        },
+        {
+          "title": "오산 국민의힘 시의원 3명, 주민 현안 직접 청취…첫 공동간담회",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=880584",
+          "media": "HANSBIZ",
+          "time_label": "오늘 11:36",
+          "pub_timestamp": "2026-11-06T11:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -2079,6 +2241,132 @@
           "media": "SATECONOMY",
           "time_label": "스크랩 11.05 16:20",
           "pub_timestamp": "2026-11-05T16:20:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, AI 행정·기업 성장으로 연결...MARS 2026 사흘간 성과...",
+          "link": "https://www.ajunews.com/view/20261106145719793",
+          "media": "아주경제",
+          "time_label": "오늘 15:30",
+          "pub_timestamp": "2026-11-06T15:30:00+09:00"
+        },
+        {
+          "title": "화성 AI 엑스포 ‘MARS 2026’ 1조1228억원 투자 상담…산업도시 넘어 AI...",
+          "link": "https://www.ekn.kr/web/view.php?key=20261106025296415",
+          "media": "EKN",
+          "time_label": "오늘 15:26",
+          "pub_timestamp": "2026-11-06T15:26:00+09:00"
+        },
+        {
+          "title": "화성특례시, AI 시대 선봉에 서다...기초지자체 최초 AI 엑스포 2회째 성...",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=67244",
+          "media": "NEWSROAD",
+          "time_label": "오늘 15:18",
+          "pub_timestamp": "2026-11-06T15:18:00+09:00"
+        },
+        {
+          "title": "화성시, 글로벌 AI 엑스포 'MARS 2026' 성료…1만 5600여 명 방문",
+          "link": "https://www.newspim.com/news/view/20261106000757",
+          "media": "뉴스핌",
+          "time_label": "오늘 15:13",
+          "pub_timestamp": "2026-11-06T15:13:00+09:00"
+        },
+        {
+          "title": "글로벌 AI 엑스포 MARS 2026 1만5693명 관람 '대성공'",
+          "link": "https://www.onews.tv/news/articleView.html?idxno=290977",
+          "media": "ONEWS",
+          "time_label": "오늘 15:12",
+          "pub_timestamp": "2026-11-06T15:12:00+09:00"
+        },
+        {
+          "title": "화성시 'MARS 2026' 1만5천여명 참가…투자 접수 1조1천억",
+          "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=93348",
+          "media": "더페어",
+          "time_label": "오늘 14:44",
+          "pub_timestamp": "2026-11-06T14:44:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시 'MARS 2026' 역대 최고 성과 거두며 대단원 막 내려",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801317",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:40",
+          "pub_timestamp": "2026-11-06T14:40:00+09:00"
+        },
+        {
+          "title": "화성시, MARS 2026 폐막…1만5693명 방문·1조1228억 투자 성과",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/06/2026110600174.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:06",
+          "pub_timestamp": "2026-11-06T14:06:00+09:00"
+        },
+        {
+          "title": "김보라표 기본사회, AI 시대 시민의 삶을 바꾼다...\"기술 발전의 혜택 모...",
+          "link": "https://www.ajunews.com/view/20261106132629515",
+          "media": "아주경제",
+          "time_label": "오늘 13:42",
+          "pub_timestamp": "2026-11-06T13:42:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “MARS 성과, AI 행정·기업 성장으로 연결...첨단 미래...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=202611061304343064c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "오늘 13:34",
+          "pub_timestamp": "2026-11-06T13:34:00+09:00"
+        },
+        {
+          "title": "화성특례시, AI 산업도시 전환 시동…MARS 2026서 투자·기술협력 성과",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261106010002492",
+          "media": "ASIATODAY",
+          "time_label": "오늘 13:32",
+          "pub_timestamp": "2026-11-06T13:32:00+09:00"
+        },
+        {
+          "title": "화성시, AI 엑스포 ‘실질적 세일즈’ 빛났다…투자의향·상담 1조1228억...",
+          "link": "https://view.asiae.co.kr/article/2026110613281050567",
+          "media": "아시아경제",
+          "time_label": "오늘 13:28",
+          "pub_timestamp": "2026-11-06T13:28:00+09:00"
+        },
+        {
+          "title": "화성시, ‘MARS 2026’ 성료… 1조1228억원 투자 성과·1만5천여명 발길",
+          "link": "https://www.asiatime.co.kr/article/20261106500207",
+          "media": "ASIATIME",
+          "time_label": "오늘 13:20",
+          "pub_timestamp": "2026-11-06T13:20:00+09:00"
+        },
+        {
+          "title": "화성 MARS 2026, 1만5000명 방문…투자 상담 1조1000억원 성과",
+          "link": "https://www.pressian.com/pages/articles/2026110613050458306?utm_source=naver&utm_medium=search",
+          "media": "프레시안",
+          "time_label": "오늘 13:06",
+          "pub_timestamp": "2026-11-06T13:06:00+09:00"
+        },
+        {
+          "title": "정명근“‘MARS 2026’ 1조1228억 투자 성과 AI혁신 실질적 결실”",
+          "link": "https://www.sportsseoul.com/news/read/1647481?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-06T13:02:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, AI 엑스포서 1조1228억 투자 관심·상담 집계…첨단산...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32885",
+          "media": "현장뉴스",
+          "time_label": "오늘 12:54",
+          "pub_timestamp": "2026-11-06T12:54:00+09:00"
+        },
+        {
+          "title": "화성특례시 'MARS 2026' 폐막…1조1228억원 투자 실적·1만5000여명 참가",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2489401",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 12:50",
+          "pub_timestamp": "2026-11-06T12:50:00+09:00"
+        },
+        {
+          "title": "“현대차, 中 부상에도 기술 경쟁 최전선에”",
+          "link": "https://biz.heraldcorp.com/article/10928470?ref=naver",
+          "media": "헤럴드경제",
+          "time_label": "오늘 11:44",
+          "pub_timestamp": "2026-11-06T11:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -4045,6 +4333,13 @@
           "media": "매일일보",
           "time_label": "오늘 13:58",
           "pub_timestamp": "2026-11-05T13:58:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 오산시, 9개 도시 인프라 사업 추진",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801295",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 13:44",
+          "pub_timestamp": "2026-11-06T13:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -5961,6 +6256,20 @@
           "media": "WHITEPAPER",
           "time_label": "스크랩 11.05 15:48",
           "pub_timestamp": "2026-11-05T15:48:00+09:00"
+        },
+        {
+          "title": "강남3구 주춤한 사이 경기 남부 상승···수도권 집값 양극화 심화",
+          "link": "https://www.seoulfn.com/news/articleView.html?idxno=642114",
+          "media": "SEOULFN",
+          "time_label": "오늘 14:24",
+          "pub_timestamp": "2026-11-06T14:24:00+09:00"
+        },
+        {
+          "title": "강남은 내리고 경기 남부는 뛴다…엇갈리는 수도권 집값",
+          "link": "https://www.newsway.co.kr/news/view?ud=2026110516005167810",
+          "media": "NEWSWAY",
+          "time_label": "스크랩 11.05 16:10",
+          "pub_timestamp": "2026-11-05T16:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -8858,6 +9167,48 @@
           "media": "IKLD",
           "time_label": "오늘 15:16",
           "pub_timestamp": "2026-11-05T15:16:00+09:00"
+        },
+        {
+          "title": "[분양 스케치] 향남 롯데캐슬 청약 미달, 'PF 상환재원' 확보 차질",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=677967",
+          "media": "BLOTER",
+          "time_label": "오늘 15:50",
+          "pub_timestamp": "2026-11-06T15:50:00+09:00"
+        },
+        {
+          "title": "‘향남역 그로브 스위첸’, 공원 연계 통학로·초중고 교육환경 갖춰",
+          "link": "https://economist.co.kr/article/view/ecn202611060038",
+          "media": "ECONOMIST",
+          "time_label": "오늘 15:39",
+          "pub_timestamp": "2026-11-06T15:39:00+09:00"
+        },
+        {
+          "title": "향남권역 새 아파트 선택 기회…‘향남역 그로브 스위첸’ 7일 선착순 ...",
+          "link": "https://view.asiae.co.kr/article/2026110614230438789",
+          "media": "아시아경제",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-06T14:30:00+09:00"
+        },
+        {
+          "title": "어린이 통학 안전 중요성 커져…'향남역 그로브 스위첸' 공원 연계 보행...",
+          "link": "https://edu.donga.com/news/articleView.html?idxno=113581",
+          "media": "동아일보",
+          "time_label": "오늘 14:28",
+          "pub_timestamp": "2026-11-06T14:28:00+09:00"
+        },
+        {
+          "title": "화성 향남 롯데캐슬 시그니처, 중도금 전액 무이자…계약금 내면 입주까...",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611060113",
+          "media": "SENTV",
+          "time_label": "오늘 14:14",
+          "pub_timestamp": "2026-11-06T14:14:00+09:00"
+        },
+        {
+          "title": "‘화성 향남 롯데캐슬 시그니처’, 계약금 부담 낮춰 수요자 관심",
+          "link": "https://biz.chosun.com/industry/business_info/2026/11/06/OWUBBFANAZBSBLVOUFCOBPDUGA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "media": "조선일보",
+          "time_label": "오늘 13:48",
+          "pub_timestamp": "2026-11-06T13:48:00+09:00"
         }
       ],
       "is_major": true,
