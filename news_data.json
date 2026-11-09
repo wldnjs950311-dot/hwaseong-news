@@ -1,53 +1,84 @@
 {
-  "updated_at": "2026.11.09. 08:00",
+  "updated_at": "2026.11.09. 12:00",
   "scrap_period": "전일(11.08) 08:00 ~ 금일(11.09) 08:00",
   "yesterday_label": "11.08",
   "macro_pulse": {
     "report_date": "2026-11-09",
-    "article_count": 1,
-    "overview": "화성시 역사박물관의 어천역 기획전시와 연계한 시민 체감형 가족 문화 프로그램 운영에 언론의 관심이 집중되었습니다.",
+    "article_count": 4,
+    "overview": "미래 모빌리티 실증과 시민 역사문화 프로그램 등 주요 시책이 추진되는 가운데, 정남면 물류센터 건립 갈등과 노후 교량 안전 관리 등 지역 현안 및 시민 안전 분야에 언론의 이목이 집중되었습니다.",
     "main_points": [
-      "- [화성시 역사박물관 '시간을 품은 어천역' 연계 주말 가족체험 프로그램] 투어코리아 보도 - 제20회 기획전시와 연계하여 어천역의 역사를 배우고 체험할 수 있는 가족 대상 문화 프로그램을 선보이며 시민 여가 기회 확대에 기여함"
+      "- [화성시 역사박물관 '시간을 품은 어천역' 가족 체험 프로그램] 총 2개 언론사 집중 보도 - 제20회 기획전시와 연계해 어천역의 역사를 배우고 체험할 수 있는 주말 가족 프로그램을 운영합니다.",
+      "- [정남면 덕절리 대형 물류센터 건립 갈등] 중부일보 보도 - 연면적 약 10만㎡ 규모 물류센터 건립을 둘러싸고 1만 명 청원이 제기되는 등 인근 주민과의 갈등이 심화되고 있습니다.",
+      "- [1973년 준공 노후 교량 기천교 안전 관리 실태] 경기일보 보도 - 경기도 노후 교량 안전 실태 조사에서 준공 50년이 넘은 화성시 기천교의 안전 위험 및 관리 대책 필요성이 지적되었습니다.",
+      "- [남양뉴타운 자율주행 리빙랩 서비스 시승회] 경인일보 보도 - 모두누림센터 자율주행 서비스 공간을 중심으로 남양뉴타운 5㎞ 구간을 순환하는 자율주행 버스 시승회를 성공적으로 개최했습니다."
     ],
-    "risk_cautions": [],
+    "risk_cautions": [
+      {
+        "title": "화성 물류센터 갈등 다시 수면 위로…1만 명 청원에 추미애 지사 '주목...",
+        "media": "중부일보 - 경기·인천의 든든한 친구",
+        "link": "https://www.joongboo.com/news/articleView.html?idxno=363741871",
+        "time_label": "오늘 10:10",
+        "pub_timestamp": "2026-11-09T10:10:00+09:00",
+        "department": "허가민원과",
+        "bullets": [
+          "- 화성시 정남면 덕절리 일원 연면적 약 10만㎡ 규모 대형 물류센터 건립을 둘러싼 인근 주민 갈등 심화",
+          "- 오산 세교지구 교통난 악화를 이유로 교통영향평가 재검토를 요구하는 경기도 청원 동의자 1만 명 돌파",
+          "- 인근 지자체 주민 반발 및 도 청원 기준 충족에 따라 물류센터 인허가 관련 향후 후속 대책 주목"
+        ]
+      },
+      {
+        "title": "“또 무너질라” 예고된 위험 도사리는 경기도…노후 교량, 10년 뒤 ‘과...",
+        "media": "경기일보",
+        "link": "https://www.kyeonggi.com/article/20261108580264",
+        "time_label": "스크랩 11.09 05:01",
+        "pub_timestamp": "2026-11-09T05:01:00+09:00",
+        "department": "도로과",
+        "bullets": [
+          "- 경기도 내 노후 교량 안전 실태 조사에서 1973년 준공된 화성시 기천교의 노후화 문제 지적",
+          "- 기천교 표면 전반의 부식 및 녹 발생, 교량 난간 휨 등 안전 취약 및 사고 위험 상존",
+          "- 준공 50년 이상 경과한 관내 노후 교량에 대한 철저한 안전 점검 및 유지보수 대책 필요"
+        ]
+      }
+    ],
     "summary_bullets": [
-      "화성시 역사박물관의 어천역 기획전시와 연계한 시민 체감형 가족 문화 프로그램 운영에 언론의 관심이 집중되었습니다.",
-      "- [화성시 역사박물관 '시간을 품은 어천역' 연계 주말 가족체험 프로그램] 투어코리아 보도 - 제20회 기획전시와 연계하여 어천역의 역사를 배우고 체험할 수 있는 가족 대상 문화 프로그램을 선보이며 시민 여가 기회 확대에 기여함"
+      "미래 모빌리티 실증과 시민 역사문화 프로그램 등 주요 시책이 추진되는 가운데, 정남면 물류센터 건립 갈등과 노후 교량 안전 관리 등 지역 현안 및 시민 안전 분야에 언론의 이목이 집중되었습니다.",
+      "- [화성시 역사박물관 '시간을 품은 어천역' 가족 체험 프로그램] 총 2개 언론사 집중 보도 - 제20회 기획전시와 연계해 어천역의 역사를 배우고 체험할 수 있는 주말 가족 프로그램을 운영합니다.",
+      "- [정남면 덕절리 대형 물류센터 건립 갈등] 중부일보 보도 - 연면적 약 10만㎡ 규모 물류센터 건립을 둘러싸고 1만 명 청원이 제기되는 등 인근 주민과의 갈등이 심화되고 있습니다."
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 1,
-        "ratio": 11
+        "count": 2,
+        "ratio": 17
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 0,
-        "ratio": 0
+        "count": 1,
+        "ratio": 8
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 3,
-        "ratio": 33
+        "ratio": 25
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 2,
-        "ratio": 22
+        "ratio": 17
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 3,
+        "count": 4,
         "ratio": 33
       }
     ]
@@ -56,56 +87,104 @@
     {
       "rank": 1,
       "keyword": "가을 음악 산책",
-      "count": 29,
+      "count": 30,
       "category": "CULTURE",
       "dept": "문화예술과",
-      "summary": "봉담2 생태체육공원 등 4개 권역을 순회하며 누적 1만여 명의 시민이 참여한 생활밀착형 권역별 콘서트가 성황리에 마무리됨"
+      "summary": "봉담2 생태체육공원에서 1만여 명의 시민이 참여한 가운데 4개 권역 순회 콘서트가 성황리에 마무리되었습니다."
     },
     {
       "rank": 2,
+      "keyword": "정남면 물류센터 갈등",
+      "count": 1,
+      "category": "RISK",
+      "dept": "허가민원과",
+      "summary": "정남면 덕절리 일원 10만㎡ 규모의 대형 물류센터 건립을 두고 1만 명 청원이 제기되는 등 주민 반발이 확산하고 있습니다."
+    },
+    {
+      "rank": 3,
       "keyword": "시의원 주취 폭언 의혹",
       "count": 1,
       "category": "RISK",
       "dept": "의회법무과",
-      "summary": "화성시의회 모 상임위원장이 의정연수 중 만취 상태로 공무원에게 폭언 및 욕설을 했다는 의혹이 불거져 더불어민주당 경기도당이 진상조사에 착수함"
-    },
-    {
-      "rank": 3,
-      "keyword": "경기국제공항 용역 재개",
-      "count": 1,
-      "category": "RISK",
-      "dept": "자치행정국 자치분권과",
-      "summary": "경기도가 경기국제공항 건설을 위한 후보지 분석 용역을 재개함에 따라 지자체 간 찬반 논의와 갈등이 다시 부각됨"
+      "summary": "의정연수 중 시의회 상임위원장이 만취 상태로 공무원에게 욕설과 폭언을 했다는 의혹이 불거져 도당 차원의 진상조사가 시작되었습니다."
     },
     {
       "rank": 4,
-      "keyword": "미래대응기금 1조원",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "기획조정실 예산재정과",
-      "summary": "역대 최대인 6조 1,600억 원 규모의 2027년도 예산편성안을 확정하고 미래 성장동력 확보를 위한 미래대응기금 1조 원을 편성함"
+      "keyword": "시간을 품은 어천역",
+      "count": 2,
+      "category": "CULTURE",
+      "dept": "문화유산과",
+      "summary": "역사박물관에서 어천역의 역사를 주제로 한 제20회 기획전시 연계 주말 가족 체험 프로그램을 운영합니다."
     },
     {
       "rank": 5,
-      "keyword": "법인지방소득세 1조 8천억",
+      "keyword": "남양뉴타운 자율주행 버스",
       "count": 1,
       "category": "POLICY",
-      "dept": "세정과",
-      "summary": "삼성전자 등 반도체 기업의 실적 개선 영향으로 내년도 법인지방소득세 세입이 약 1조 8,000억 원에 이를 것으로 추산됨"
+      "dept": "기업투자실 첨단산업과",
+      "summary": "남양뉴타운 5㎞ 구간을 순환하는 자율주행 리빙랩 서비스 시승회가 성공적으로 진행되었습니다."
     }
   ],
   "stats": {
-    "total": 239,
-    "major_count": 116,
-    "live_count": 123,
-    "today_count": 0,
-    "scrap_count": 9,
+    "total": 242,
+    "major_count": 120,
+    "live_count": 122,
+    "today_count": 2,
+    "scrap_count": 10,
     "yesterday_count": 0,
-    "policy": 134,
+    "policy": 135,
     "culture": 81,
-    "risk": 24
+    "risk": 26
   },
   "articles": [
+    {
+      "title": "화성 남양뉴타운서 자율주행 버스 달렸다",
+      "link": "https://www.kyeongin.com/article/1774354",
+      "originallink": "https://www.kyeongin.com/article/1774354",
+      "media": "경인일보",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:12",
+      "pub_timestamp": "2026-11-09T11:12:00+09:00",
+      "bullets": [
+        "- 화성시가 모두누림센터 자율주행 서비스 공간에서 남양뉴타운 5㎞ 구간을 순환하는 '자율주행 리빙랩 서비스 시승회'를 개최함",
+        "- 남양읍 등 관내 11개 구역 36.13㎢를 실증구역으로 지정하고 일반 도로에서 자율주행 전기버스 주행을 선보임",
+        "- 시는 오는 2027년까지 버스 및 공유차 등 8개 분야에 대한 자율주행 기술 실증 사업을 단계적으로 추진할 계획임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/09/news-p.v1.20261109.348f7b538d5545d4ac5098e76f93e18e_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성 물류센터 갈등 다시 수면 위로…1만 명 청원에 추미애 지사 '주목...",
+      "link": "https://www.joongboo.com/news/articleView.html?idxno=363741871",
+      "originallink": "https://www.joongboo.com/news/articleView.html?idxno=363741871",
+      "media": "중부일보 - 경기·인천의 든든한 친구",
+      "category": "RISK",
+      "department": "허가민원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:10",
+      "pub_timestamp": "2026-11-09T10:10:00+09:00",
+      "bullets": [
+        "- 화성시 정남면 덕절리 일원 연면적 약 10만㎡ 규모 대형 물류센터 건립을 둘러싼 인근 주민 갈등 심화",
+        "- 오산 세교지구 교통난 악화를 이유로 교통영향평가 재검토를 요구하는 경기도 청원 동의자 1만 명 돌파",
+        "- 인근 지자체 주민 반발 및 도 청원 기준 충족에 따라 물류센터 인허가 관련 향후 후속 대책 주목"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.joongboo.com/news/photo/202611/363741871_2522725_3929.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성시 역사박물관, 어천역 역사 담은 가족 체험 프로그램 선보인다",
       "link": "https://www.tournews21.com/news/articleView.html?idxno=147834",
@@ -125,10 +204,42 @@
         "- 11월 14일부터 12월 6일까지 전시 관람과 코딩로봇 및 공예 활동을 결합해 진행",
         "- 지역 어린이와 가족이 어천역과 과거 마을 생활상 등 근현대 역사를 친근하게 학습하도록 지원"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시, ‘시간을 품은 어천역’ 주말 프로그램 진행",
+          "link": "https://www.sportsseoul.com/news/read/1648433?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 10:26",
+          "pub_timestamp": "2026-11-09T10:26:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.tournews21.com/news/photo/202611/147834_274854_2039.jpg",
       "telegram_sent": false
+    },
+    {
+      "title": "“또 무너질라” 예고된 위험 도사리는 경기도…노후 교량, 10년 뒤 ‘과...",
+      "link": "https://www.kyeonggi.com/article/20261108580264",
+      "originallink": "https://www.kyeonggi.com/article/20261108580264",
+      "media": "경기일보",
+      "category": "RISK",
+      "department": "도로과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 05:01",
+      "pub_timestamp": "2026-11-09T05:01:00+09:00",
+      "bullets": [
+        "- 경기도 내 노후 교량 안전 실태 조사에서 1973년 준공된 화성시 기천교의 노후화 문제 지적",
+        "- 기천교 표면 전반의 부식 및 녹 발생, 교량 난간 휨 등 안전 취약 및 사고 위험 상존",
+        "- 준공 50년 이상 경과한 관내 노후 교량에 대한 철저한 안전 점검 및 유지보수 대책 필요"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/08/.cache/512/20261108580365.jpg",
+      "telegram_sent": true
     },
     {
       "title": "화성특례시 효행구, '가을 음악 산책'으로 권역별 콘서트 마무리",
@@ -324,6 +435,13 @@
           "media": "조선일보",
           "time_label": "11.06 07:05",
           "pub_timestamp": "2026-11-06T07:05:00+09:00"
+        },
+        {
+          "title": "화성시, ‘2026 화성 반려동물 행복나눔 축제’ 성황리 마무리",
+          "link": "http://www.breaknews.com/1249266",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:50",
+          "pub_timestamp": "2026-11-09T09:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -1189,8 +1307,16 @@
         "- ​​​경기 후 기념촬영하는 남양주시 U18의 윤영환 감독, 황신영 수석코치, 정기동 골키퍼 코치, 선수단과 학부모들. 국제뉴스/김소희 기자 (양평=국제뉴스) 김소희 기자 = 경기도 고등부 축구 꿈나무들의 뜨거웠던 승...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "남양주시U18, 경기도 꿈나무 축구대회 창단 첫 3위 '기염'...\"내년 전국대...",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3745249",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.08 08:24",
+          "pub_timestamp": "2026-11-08T08:24:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.gukjenews.com/news/thumbnail/202611/3743758_3924286_247_v150.jpg",
       "telegram_sent": false
     },
@@ -7413,6 +7539,27 @@
           "media": "WORKTODAY",
           "time_label": "11.05 23:28",
           "pub_timestamp": "2026-11-05T23:28:00+09:00"
+        },
+        {
+          "title": "“서울보다 경기가 더 뜨겁다”…수도권 집값 상승 주도권 바뀌나",
+          "link": "https://www.mk.co.kr/article/12202094",
+          "media": "매일경제",
+          "time_label": "오늘 10:04",
+          "pub_timestamp": "2026-11-09T10:04:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 경기 아파트값 상승세 확산…비규제지역까지 집값 '들썩'",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801378",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 09:38",
+          "pub_timestamp": "2026-11-09T09:38:00+09:00"
+        },
+        {
+          "title": "서울은 주춤한데 “여기는 집값 계속 오른다”…돈 몰리더니 무섭게 뛰...",
+          "link": "https://www.sedaily.com/article/20111534?ref=naver",
+          "media": "서울경제",
+          "time_label": "스크랩 11.08 11:38",
+          "pub_timestamp": "2026-11-08T11:38:00+09:00"
         }
       ],
       "is_major": true,
@@ -7545,6 +7692,13 @@
           "media": "뉴스핌",
           "time_label": "스크랩 11.02 17:19",
           "pub_timestamp": "2026-11-02T17:19:00+09:00"
+        },
+        {
+          "title": "'화성 반려동물 행복나눔 축제' 개최…4천여명 찾았다 등[화성소식]",
+          "link": "https://www.newsis.com/view/NISX20261109_0003859820",
+          "media": "뉴시스",
+          "time_label": "오늘 10:02",
+          "pub_timestamp": "2026-11-09T10:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -10436,6 +10590,13 @@
           "media": "THEVIEWERS",
           "time_label": "스크랩 11.08 09:02",
           "pub_timestamp": "2026-11-08T09:02:00+09:00"
+        },
+        {
+          "title": "“입주 때까지 계약금 2,500만원대”…중도금 무이자 ‘화성 향남 롯데...",
+          "link": "https://biz.heraldcorp.com/article/10930313?ref=naver",
+          "media": "헤럴드경제",
+          "time_label": "오늘 10:20",
+          "pub_timestamp": "2026-11-09T10:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -12074,6 +12235,13 @@
           "media": "FNTIMES",
           "time_label": "오늘 08:44",
           "pub_timestamp": "2026-11-04T08:44:00+09:00"
+        },
+        {
+          "title": "[아파트값 상승 톱10] 서울 송파구 ‘가락극동’ 등",
+          "link": "https://www.etoday.co.kr/news/view/2645509",
+          "media": "ETODAY",
+          "time_label": "오늘 08:32",
+          "pub_timestamp": "2026-11-09T08:32:00+09:00"
         }
       ],
       "is_major": true,
