@@ -1,155 +1,217 @@
 {
-  "updated_at": "2026.11.09. 16:00",
-  "scrap_period": "전일(11.08) 08:00 ~ 금일(11.09) 08:00",
-  "yesterday_label": "11.08",
+  "updated_at": "2026.11.10. 08:00",
+  "scrap_period": "전일(11.09) 08:00 ~ 금일(11.10) 08:00",
+  "yesterday_label": "11.09",
   "macro_pulse": {
-    "report_date": "2026-11-09",
-    "article_count": 7,
-    "overview": "남양뉴타운 자율주행 리빙랩 시승회와 백미·도리도항 어촌뉴딜 3.0 사업 선정 등 미래 혁신 및 해양 개발 성과가 주목받은 가운데, 관내 고속도로 대형사고와 물류센터 건립 갈등 등 민생 안전과 집단 민원에 대한 적극적 관리가 요구되고 있습니다.",
+    "report_date": "2026-11-10",
+    "article_count": 2,
+    "overview": "금일 언론은 관내 청소년 대상 축구산업 진로특강 운영과 중소기업의 정부 지원사업 유치를 돕는 성장 패키지 사업 등 미래 인재 양성 및 기업 경쟁력 강화 현안에 주목했습니다.",
     "main_points": [
-      "- [남양뉴타운 자율주행 리빙랩 서비스 시승회] 총 14개 언론사 집중 보도 - 모두누림센터 자율주행 서비스 공간에서 남양뉴타운 5㎞ 구간을 순환하는 시승회를 성공적으로 개최하며 미래 스마트 교통도시 전환을 본격화함",
-      "- [영천동 경부고속도로 5중 연쇄 추돌사고] 총 8개 언론사 집중 보도 - 영천동 경부고속도로 부산 방향에서 5중 연쇄 추돌로 29명의 부상자가 발생해 관내 주요 간선도로 교통안전 관리 대책이 부각됨",
-      "- [백미·도리도항 어촌뉴딜 3.0 사업 대상지 선정] 총 6개 언론사 집중 보도 - 화성시 백미·도리도항이 해양수산부 주관 어촌뉴딜 3.0 사업에 최종 선정되어 어촌 인프라 개선 및 해양관광 활성화 기반을 확보함",
-      "- [정남면 덕절리 대형 물류센터 건립 갈등] 총 2개 언론사 집중 보도 - 연면적 약 10만㎡ 규모 물류센터 건립을 둘러싸고 인근 주민 1만 명 서명 청원이 이어지는 등 안전 및 생활권 침해 갈등에 대한 선제적 대응이 요구됨"
+      "- [화성FC 축구산업 진로특강 '오렌지드림'] 총 2개 언론사 집중 보도 - 지난 6일 청계중학교에서 첫 수업을 열고 청소년들에게 축구산업 분야의 다양한 진로 탐색 기회를 제공함",
+      "- [2026 성장자원 확보 패키지 지원 프로그램] 전자신문 보도 - 화성산업진흥원이 관내 중소기업의 맞춤형 정부 지원사업 참여와 투자 유치를 지원하고자 오는 19일까지 참여 기업을 모집함"
     ],
-    "risk_cautions": [
-      {
-        "title": "화성 경부고속도로서 5중 추돌사고…29명 부상",
-        "media": "B tv news",
-        "link": "https://news.skbroadband.com/news/articleView.html?idxno=242669",
-        "time_label": "오늘 13:46",
-        "pub_timestamp": "2026-11-09T13:46:00+09:00",
-        "department": "안전정책과",
-        "bullets": [
-          "- 9일 오전 화성시 영천동 경부고속도로 부산 방향에서 차량 5대가 연쇄 추돌하는 대형 교통사고 발생",
-          "- 버스 운전자 등 3명이 중상을 입고 26명이 경상을 입어 총 29명의 부상자가 발생했으나 생명 지장 없음",
-          "- 소방인력 40명과 장비 15대가 투입되어 현장 안전조치를 완료했으며 경찰이 정확한 사고 경위 조사 중"
-        ]
-      },
-      {
-        "title": "화성 물류센터 갈등 다시 수면 위로…1만 명 청원에 추미애 지사 '주목...",
-        "media": "중부일보 - 경기·인천의 든든한 친구",
-        "link": "https://www.joongboo.com/news/articleView.html?idxno=363741871",
-        "time_label": "오늘 10:10",
-        "pub_timestamp": "2026-11-09T10:10:00+09:00",
-        "department": "허가민원과",
-        "bullets": [
-          "- 화성시 정남면 덕절리 일원 연면적 약 10만㎡ 규모 대형 물류센터 건립을 둘러싼 인근 주민 갈등 심화",
-          "- 오산 세교지구 교통난 악화를 이유로 교통영향평가 재검토를 요구하는 경기도 청원 동의자 1만 명 돌파",
-          "- 인근 지자체 주민 반발 및 도 청원 기준 충족에 따라 물류센터 인허가 관련 향후 후속 대책 주목"
-        ]
-      },
-      {
-        "title": "“또 무너질라” 예고된 위험 도사리는 경기도…노후 교량, 10년 뒤 ‘과...",
-        "media": "경기일보",
-        "link": "https://www.kyeonggi.com/article/20261108580264",
-        "time_label": "스크랩 11.09 05:01",
-        "pub_timestamp": "2026-11-09T05:01:00+09:00",
-        "department": "도로과",
-        "bullets": [
-          "- 경기도 내 노후 교량 안전 실태 조사에서 1973년 준공된 화성시 기천교의 노후화 문제 지적",
-          "- 기천교 표면 전반의 부식 및 녹 발생, 교량 난간 휨 등 안전 취약 및 사고 위험 상존",
-          "- 준공 50년 이상 경과한 관내 노후 교량에 대한 철저한 안전 점검 및 유지보수 대책 필요"
-        ]
-      }
-    ],
+    "risk_cautions": [],
     "summary_bullets": [
-      "남양뉴타운 자율주행 리빙랩 시승회와 백미·도리도항 어촌뉴딜 3.0 사업 선정 등 미래 혁신 및 해양 개발 성과가 주목받은 가운데, 관내 고속도로 대형사고와 물류센터 건립 갈등 등 민생 안전과 집단 민원에 대한 적극적 관리가 요구되고 있습니다.",
-      "- [남양뉴타운 자율주행 리빙랩 서비스 시승회] 총 14개 언론사 집중 보도 - 모두누림센터 자율주행 서비스 공간에서 남양뉴타운 5㎞ 구간을 순환하는 시승회를 성공적으로 개최하며 미래 스마트 교통도시 전환을 본격화함",
-      "- [영천동 경부고속도로 5중 연쇄 추돌사고] 총 8개 언론사 집중 보도 - 영천동 경부고속도로 부산 방향에서 5중 연쇄 추돌로 29명의 부상자가 발생해 관내 주요 간선도로 교통안전 관리 대책이 부각됨"
+      "금일 언론은 관내 청소년 대상 축구산업 진로특강 운영과 중소기업의 정부 지원사업 유치를 돕는 성장 패키지 사업 등 미래 인재 양성 및 기업 경쟁력 강화 현안에 주목했습니다.",
+      "- [화성FC 축구산업 진로특강 '오렌지드림'] 총 2개 언론사 집중 보도 - 지난 6일 청계중학교에서 첫 수업을 열고 청소년들에게 축구산업 분야의 다양한 진로 탐색 기회를 제공함",
+      "- [2026 성장자원 확보 패키지 지원 프로그램] 전자신문 보도 - 화성산업진흥원이 관내 중소기업의 맞춤형 정부 지원사업 참여와 투자 유치를 지원하고자 오는 19일까지 참여 기업을 모집함"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 4,
-        "ratio": 25
+        "count": 3,
+        "ratio": 33
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 6
+        "ratio": 11
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 3,
-        "ratio": 19
+        "count": 2,
+        "ratio": 22
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 19
+        "count": 1,
+        "ratio": 11
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 5,
-        "ratio": 31
+        "count": 2,
+        "ratio": 22
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "가을 음악 산책",
-      "count": 34,
-      "category": "CULTURE",
-      "dept": "문화예술과",
-      "summary": "봉담2 생태체육공원에서 1만여 명의 시민이 참여한 가운데 권역별 순회 콘서트가 성황리에 마무리됨"
+      "keyword": "남양뉴타운 자율주행 버스",
+      "count": 19,
+      "category": "POLICY",
+      "dept": "기업투자실 첨단산업과",
+      "summary": "남양뉴타운 5㎞ 구간을 순환하는 자율주행 리빙랩 서비스 시승회가 열려 자율주행 버스가 첫 운행을 선보였습니다."
     },
     {
       "rank": 2,
-      "keyword": "남양뉴타운 자율주행 버스",
-      "count": 14,
+      "keyword": "어촌뉴딜 3.0",
+      "count": 16,
       "category": "POLICY",
-      "dept": "첨단산업과",
-      "summary": "남양뉴타운 5km 순환 구간을 운행하는 자율주행 리빙랩 서비스 시승회가 개최됨"
+      "dept": "해양수산과",
+      "summary": "백미항과 도리도항이 해양수산부 주관 어촌뉴딜 3.0 사업 대상지로 최종 선정되었습니다."
     },
     {
       "rank": 3,
       "keyword": "경부고속도로 5중 추돌사고",
-      "count": 8,
+      "count": 14,
       "category": "RISK",
       "dept": "안전정책과",
-      "summary": "영천동 인근 경부고속도로 부산 방향에서 차량 5대가 연쇄 추돌해 29명의 부상자가 발생함"
+      "summary": "영천동 경부고속도로 부산 방향에서 차량 5대가 연쇄 추돌해 29명이 부상을 입었습니다."
     },
     {
       "rank": 4,
-      "keyword": "백미·도리도항 어촌뉴딜 3.0",
+      "keyword": "상신9리 통학로 안전",
       "count": 6,
       "category": "POLICY",
-      "dept": "해양수산과",
-      "summary": "백미항과 도리도항이 해양수산부 주관 2027년 어촌뉴딜 3.0 사업 대상지로 최종 선정됨"
+      "dept": "기획조정실 의회법무과",
+      "summary": "향남읍 행정복지센터에서 상신9리 주민들과 통학로 안전 및 마을사업 예산 건의를 위한 현장 간담회가 개최되었습니다."
     },
     {
       "rank": 5,
-      "keyword": "상신9리 통학로 안전",
+      "keyword": "정남면 물류센터 갈등",
       "count": 3,
-      "category": "POLICY",
-      "dept": "의회법무과",
-      "summary": "시의회가 향남읍 상신9리 주민들과 현장 간담회를 열고 통학로 안전 개선 및 마을 사업 예산 건의를 청취함"
+      "category": "RISK",
+      "dept": "허가민원과",
+      "summary": "정남면 덕절리 일원 대형 물류센터 건립을 둘러싸고 인근 주민들의 1만 명 청원 등 갈등이 재점화되었습니다."
     }
   ],
   "stats": {
-    "total": 246,
-    "major_count": 126,
-    "live_count": 120,
-    "today_count": 5,
-    "scrap_count": 11,
-    "yesterday_count": 0,
-    "policy": 137,
-    "culture": 81,
+    "total": 250,
+    "major_count": 127,
+    "live_count": 123,
+    "today_count": 0,
+    "scrap_count": 9,
+    "yesterday_count": 2,
+    "policy": 139,
+    "culture": 83,
     "risk": 28
   },
   "articles": [
+    {
+      "title": "'축구장 밖 직업의 세계로' 화성FC, 청계중학교서 진로특강 '오렌지드림...",
+      "link": "https://www.besteleven.com/news/articleView.html?idxno=313898",
+      "originallink": "https://www.besteleven.com/news/articleView.html?idxno=313898",
+      "media": "Best Eleven",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 07:42",
+      "pub_timestamp": "2026-11-10T07:42:00+09:00",
+      "bullets": [
+        "- 화성FC가 지난 6일 화성시 청계중학교에서 축구산업 진로특강 '오렌지드림' 첫 수업을 진행함",
+        "- 이번 특강은 스포츠산업 분야 진로 탐색 기회를 제공하기 위해 기획된 사회공헌 프로그램임",
+        "- 구단 사무국 직원이 직접 방문해 직무 소개, K리그 및 구단 스토리, 진로 준비 방법 등을 전달함"
+      ],
+      "related_articles": [
+        {
+          "title": "화성FC, 직원이 직접 강사로 나섰다...청계중서 축구산업 진로특강 '오렌...",
+          "link": "http://www.osen.co.kr/article/G1112907428",
+          "media": "OSEN",
+          "time_label": "스크랩 11.09 20:44",
+          "pub_timestamp": "2026-11-09T20:44:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.besteleven.com/news/photo/202611/313898_243977_4151.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "우리 회사에 맞는 정부사업은? 화성산업진흥원, 19일까지 사업 참여사 ...",
+      "link": "https://www.etnews.com/20261110000012",
+      "originallink": "https://www.etnews.com/20261110000012",
+      "media": "미래를 보는 창 - 전자신문",
+      "category": "POLICY",
+      "department": "기업지원과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 07:37",
+      "pub_timestamp": "2026-11-10T07:37:00+09:00",
+      "bullets": [
+        "- 화성산업진흥원이 관내 중소기업의 정부 지원사업 참여와 투자 유치를 돕는 '2026 성장자원 확보 패키지 지원 프로그램' 참여 기업을 모집함",
+        "- 오는 19일까지 화성시 기업지원플랫폼을 통해 10개 사 이상을 접수하며, 기업별 기술력과 사업성을 진단해 맞춤형 전략을 수립 지원함",
+        "- 선정 기업에게는 10회 이상의 전문 컨설팅, 사업계획서 보완, 실무교육 및 투자설명회(IR) 기회 등을 종합 제공할 예정임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.etnews.com/news/article/2026/11/10/news-p.v1.20261110.b470e4ebb6394809b8d4ec118ab6dbd3_P1.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "학생들에게 스포츠산업 분야 진로 탐색 기회 제공…화성FC, 축구산업 진...",
+      "link": "https://www.goal.com/kr/뉴스/a/blt818fc411de1c6f0b",
+      "originallink": "https://www.goal.com/kr/뉴스/a/blt818fc411de1c6f0b",
+      "media": "@goal",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 21:53",
+      "pub_timestamp": "2026-11-09T21:53:00+09:00",
+      "bullets": [
+        "- 프로축구 화성FC가 관내 학생들의 스포츠산업 분야 진로 탐색을 지원하는 '오렌지드림' 특강 시작",
+        "- 6일 화성시 청계중학교에서 구단 직원이 강사로 참여해 축구단 직무 및 진로 준비 교육 진행",
+        "- 프로축구단 현장 실무 경험을 공유하는 사회공헌 프로그램으로 관내 청소년 대상 운영 확대 예정"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://assets.goal.com/images/v3/blta0a705db2fb598e2/crop/MM5DCMRQGA5DMNZVHJXG653FHIYDUNRT/%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%801.jpg.png",
+      "telegram_sent": false
+    },
+    {
+      "title": "송옥주국회의원, 홍지선 국토교통부장관 만나 화성 서부권역 주요 철도...",
+      "link": "https://sports.donga.com/region/article/all/20261109/134993241/1",
+      "originallink": "https://sports.donga.com/region/article/all/20261109/134993241/1",
+      "media": "스포츠동아",
+      "category": "POLICY",
+      "department": "철도과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 16:57",
+      "pub_timestamp": "2026-11-09T16:57:00+09:00",
+      "bullets": [
+        "- 송옥주 국회의원이 국토교통부 관계자를 면담하고 화성시 서부권역 주요 철도 현안을 논의함",
+        "- 화성 서부권역 대중교통 접근성 개선 및 주요 철도망 구축 계획 반영 등을 요청한 것으로 파악됨",
+        "- 제공된 기사 본문 내 세부 협의 내용이 누락되어 있어 향후 구체적 추진 경과 확인이 필요함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/09/134993262.1.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "송옥주 의원 \"화성 백미·도리도항, 내년 어촌뉴딜 3.0 사업 선정 환영\"",
       "link": "https://www.pressian.com/pages/articles/2026110914154482465?utm_source=naver&utm_medium=search",
@@ -161,8 +223,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:17",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 14:17",
       "pub_timestamp": "2026-11-09T14:17:00+09:00",
       "bullets": [
         "- 화성시 백미·도리도항이 해양수산부 주관 '2027년 어촌뉴딜 3.0 사업' 대상지로 최종 선정됨",
@@ -204,6 +266,76 @@
           "media": "MEDIAPEN",
           "time_label": "오늘 11:02",
           "pub_timestamp": "2026-11-09T11:02:00+09:00"
+        },
+        {
+          "title": "화성시, 백미·도리도항 ‘어촌뉴딜 3.0’ 선정 70억 확보",
+          "link": "https://www.sportsseoul.com/news/read/1648630?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "스크랩 11.10 07:17",
+          "pub_timestamp": "2026-11-10T07:17:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 백미·도리도항 100억 투입…‘젊은 어촌’ 조성",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111007062186584c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.10 07:12",
+          "pub_timestamp": "2026-11-10T07:12:00+09:00"
+        },
+        {
+          "title": "[AI 엑스포 'MARS 2026'] 정명근 화성시장 \"제조업 심장에서 AI·우주항공...",
+          "link": "https://www.g-enews.com/view.php?ud=202611060949054384e207547429_1",
+          "media": "G-ENEWS",
+          "time_label": "스크랩 11.10 05:02",
+          "pub_timestamp": "2026-11-10T05:02:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 남양서 '자율주행' 시승…내년 11개 구역 실증 확대",
+          "link": "https://www.etnews.com/20261110000001",
+          "media": "전자신문",
+          "time_label": "스크랩 11.10 00:28",
+          "pub_timestamp": "2026-11-10T00:28:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 시민과 달린 남양5㎞…화성 자율주행, 교통약자 이동...",
+          "link": "https://www.etoday.co.kr/news/view/2645963",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.09 18:32",
+          "pub_timestamp": "2026-11-09T18:32:00+09:00"
+        },
+        {
+          "title": "\"화성 백미·도리도항 잘 키워봅시다\"…어촌뉴딜 3.0 사업 대상지 선정",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261109010003323",
+          "media": "ASIATODAY",
+          "time_label": "스크랩 11.09 17:42",
+          "pub_timestamp": "2026-11-09T17:42:00+09:00"
+        },
+        {
+          "title": "경기·인천 어항 6곳, 해수부 ‘2027년도 어촌뉴딜 3.0’ 공모 최종 선정",
+          "link": "https://www.kyeonggi.com/article/20261109580366",
+          "media": "경기일보",
+          "time_label": "스크랩 11.09 16:47",
+          "pub_timestamp": "2026-11-09T16:47:00+09:00"
+        },
+        {
+          "title": "송옥주 “백미·도리도항 어촌뉴딜 3.0, 마무리까지 책임지겠다”",
+          "link": "https://www.kyeonggi.com/article/20261109580345",
+          "media": "경기일보",
+          "time_label": "스크랩 11.09 16:34",
+          "pub_timestamp": "2026-11-09T16:34:00+09:00"
+        },
+        {
+          "title": "정명근, 자율주행 공공교통 실증 본격화… 화성시 8대 서비스 가동",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003283233&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "media": "오마이뉴스",
+          "time_label": "스크랩 11.09 16:12",
+          "pub_timestamp": "2026-11-09T16:12:00+09:00"
+        },
+        {
+          "title": "송옥주 국회의원, ‘백미･도리도항’ 2027년 어촌뉴딜 3.0사업 선정 환...",
+          "link": "https://sports.donga.com/region/article/all/20261109/134992902/1",
+          "media": "동아일보",
+          "time_label": "스크랩 11.09 16:05",
+          "pub_timestamp": "2026-11-09T16:05:00+09:00"
         }
       ],
       "is_major": true,
@@ -221,8 +353,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:12",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 14:12",
       "pub_timestamp": "2026-11-09T14:12:00+09:00",
       "bullets": [
         "- 화성특례시의회는 향남읍 행정복지센터에서 상신9리 주민들과 현장 간담회를 개최함",
@@ -243,6 +375,27 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 12:40",
           "pub_timestamp": "2026-11-09T12:40:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 향남 상신9리 주차난·마을사업 예산 문제 논의",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881485",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.09 20:04",
+          "pub_timestamp": "2026-11-09T20:04:00+09:00"
+        },
+        {
+          "title": "화성 향남 상신9리 주민들 \"아이들 안전도, 주차난도 해결해야\"…시의회...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7192919",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.09 19:42",
+          "pub_timestamp": "2026-11-09T19:42:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, '향남읍 상신9리 주민 간담회'서 지역 현안 청취",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2016287",
+          "media": "매일일보",
+          "time_label": "스크랩 11.09 16:36",
+          "pub_timestamp": "2026-11-09T16:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -260,8 +413,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 13:46",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 13:46",
       "pub_timestamp": "2026-11-09T13:46:00+09:00",
       "bullets": [
         "- 9일 오전 화성시 영천동 경부고속도로 부산 방향에서 차량 5대가 연쇄 추돌하는 대형 교통사고 발생",
@@ -317,6 +470,48 @@
           "media": "KBS",
           "time_label": "스크랩 11.08 08:45",
           "pub_timestamp": "2026-11-08T08:45:00+09:00"
+        },
+        {
+          "title": "경부고속도로 5중 추돌…3명 중상·26명 경상",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707679&ref=A",
+          "media": "KBS",
+          "time_label": "스크랩 11.09 17:12",
+          "pub_timestamp": "2026-11-09T17:12:00+09:00"
+        },
+        {
+          "title": "경부고속도로 동탄터널서 차량 5대 '추돌'",
+          "link": "https://www.safetimes.co.kr/news/articleView.html?idxno=247326",
+          "media": "세이프타임즈",
+          "time_label": "스크랩 11.09 16:48",
+          "pub_timestamp": "2026-11-09T16:48:00+09:00"
+        },
+        {
+          "title": "경부고속도로 경부동탄터널서 5중 추돌 사고...29명 부상",
+          "link": "https://www.newspim.com/news/view/20261109001120",
+          "media": "뉴스핌",
+          "time_label": "스크랩 11.09 16:02",
+          "pub_timestamp": "2026-11-09T16:02:00+09:00"
+        },
+        {
+          "title": "경부고속도로서 버스 등 '5대 추돌'‥29명 중·경상",
+          "link": "https://imnews.imbc.com/replay/2026/nw1400/article/6864279_36974.html",
+          "media": "MBC",
+          "time_label": "스크랩 11.09 15:38",
+          "pub_timestamp": "2026-11-09T15:38:00+09:00"
+        },
+        {
+          "title": "경부고속도로 동탄 터널서 5중 추돌…33명 다쳐",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336317",
+          "media": "인천일보",
+          "time_label": "스크랩 11.09 14:16",
+          "pub_timestamp": "2026-11-09T14:16:00+09:00"
+        },
+        {
+          "title": "경부고속도로 동탄터널서 차량 5대 추돌…3명 중상·26명 경상",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707539&ref=A",
+          "media": "KBS",
+          "time_label": "스크랩 11.09 13:53",
+          "pub_timestamp": "2026-11-09T13:53:00+09:00"
         }
       ],
       "is_major": true,
@@ -334,8 +529,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 11:12",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 11:12",
       "pub_timestamp": "2026-11-09T11:12:00+09:00",
       "bullets": [
         "- 화성시가 모두누림센터 자율주행 서비스 공간에서 남양뉴타운 5㎞ 구간을 순환하는 '자율주행 리빙랩 서비스 시승회'를 개최함",
@@ -433,6 +628,41 @@
           "media": "JOONGDO",
           "time_label": "오늘 12:02",
           "pub_timestamp": "2026-11-09T12:02:00+09:00"
+        },
+        {
+          "title": "화성특례시 자율주행 8대 공공서비스 실증 추진",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3081957",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.10 07:54",
+          "pub_timestamp": "2026-11-10T07:54:00+09:00"
+        },
+        {
+          "title": "화성시, 이달 말부터 남양읍 등 자율주행 버스 운행",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8708321&ref=A",
+          "media": "KBS",
+          "time_label": "스크랩 11.10 07:48",
+          "pub_timestamp": "2026-11-10T07:48:00+09:00"
+        },
+        {
+          "title": "정명근표 미래교통 현실로...화성특례시, 자율주행 시대 본격 시동",
+          "link": "https://www.ajunews.com/view/20261109234516816",
+          "media": "아주경제",
+          "time_label": "스크랩 11.10 05:06",
+          "pub_timestamp": "2026-11-10T05:06:00+09:00"
+        },
+        {
+          "title": "화성시 '자율주행 리빙랩 서비스 시승회' 개최",
+          "link": "https://www.newspim.com/news/view/20261109000974",
+          "media": "뉴스핌",
+          "time_label": "스크랩 11.09 15:58",
+          "pub_timestamp": "2026-11-09T15:58:00+09:00"
+        },
+        {
+          "title": "카카오모빌리티·엔비디아, 기아 PV5에 레벨4 자율주행 기술 적용",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=918710",
+          "media": "경기일보",
+          "time_label": "스크랩 11.09 15:54",
+          "pub_timestamp": "2026-11-09T15:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -450,8 +680,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:10",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.09 10:10",
       "pub_timestamp": "2026-11-09T10:10:00+09:00",
       "bullets": [
         "- 화성시 정남면 덕절리 일원 연면적 약 10만㎡ 규모 대형 물류센터 건립을 둘러싼 인근 주민 갈등 심화",
@@ -465,6 +695,13 @@
           "media": "경인일보",
           "time_label": "오늘 15:44",
           "pub_timestamp": "2026-11-09T15:44:00+09:00"
+        },
+        {
+          "title": "‘오산 세교 교통 대란 우려’ 화성 물류센터 청원 1만명 달성…추미애...",
+          "link": "https://www.kyeonggi.com/article/20261109580351",
+          "media": "경기일보",
+          "time_label": "스크랩 11.09 16:24",
+          "pub_timestamp": "2026-11-09T16:24:00+09:00"
         }
       ],
       "is_major": true,
@@ -482,8 +719,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 07:38",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:38",
       "pub_timestamp": "2026-11-09T07:38:00+09:00",
       "bullets": [
         "- 화성시 역사박물관에서 제20회 기획전시 '시간을 품은 어천역' 연계 주말 가족체험 프로그램 운영",
@@ -504,6 +741,13 @@
           "media": "매일일보",
           "time_label": "오늘 13:52",
           "pub_timestamp": "2026-11-09T13:52:00+09:00"
+        },
+        {
+          "title": "화성시 역사박물관, 어천역 주제로 가족 체험 프로그램 운영",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160255629644723",
+          "media": "시민일보",
+          "time_label": "스크랩 11.09 17:18",
+          "pub_timestamp": "2026-11-09T17:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -521,8 +765,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 05:01",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 05:01",
       "pub_timestamp": "2026-11-09T05:01:00+09:00",
       "bullets": [
         "- 경기도 내 노후 교량 안전 실태 조사에서 1973년 준공된 화성시 기천교의 노후화 문제 지적",
@@ -545,8 +789,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 22:04",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 22:04",
       "pub_timestamp": "2026-11-08T22:04:00+09:00",
       "bullets": [
         "- 화성시 효행구가 지난 7일 봉담2 생태체육공원에서 시민 1만여 명이 참석한 '2026 효행구 권역별 콘서트'를 성황리에 개최함",
@@ -763,6 +1007,20 @@
           "media": "SUWONILBO",
           "time_label": "오늘 12:08",
           "pub_timestamp": "2026-11-09T12:08:00+09:00"
+        },
+        {
+          "title": "화성특례시 4개 권역 콘서트 마무리",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3081951",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.10 07:54",
+          "pub_timestamp": "2026-11-10T07:54:00+09:00"
+        },
+        {
+          "title": "“AI 도시 현실로”… 화성시 ‘MARS 2026’이 남긴 성과",
+          "link": "https://www.segye.com/newsView/20261110500275?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.10 05:32",
+          "pub_timestamp": "2026-11-10T05:32:00+09:00"
         }
       ],
       "is_major": true,
@@ -780,8 +1038,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 18:30",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 18:30",
       "pub_timestamp": "2026-11-08T18:30:00+09:00",
       "bullets": [
         "- 화성시의회 모 상임위원장이 의정연수 현장에서 만취해 시 공무원에게 욕설과 폭언을 했다는 의혹 제기",
@@ -804,8 +1062,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 17:14",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 17:14",
       "pub_timestamp": "2026-11-08T17:14:00+09:00",
       "bullets": [
         "- 화성특례시가 4개 권역을 순회하며 추진한 생활밀착형 '권역별 콘서트'가 누적 관객 1만여 명의 호응 속에 성황리에 마무리됨",
@@ -843,8 +1101,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 16:24",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 16:24",
       "pub_timestamp": "2026-11-08T16:24:00+09:00",
       "bullets": [
         "- 화성시지속가능발전협의회가 '제28회 대한민국 지속가능발전 공모전' 단체 부문에서 최우수상(장관상)을 수상함",
@@ -867,8 +1125,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 14:28",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 14:28",
       "pub_timestamp": "2026-11-08T14:28:00+09:00",
       "bullets": [
         "- 화성시 동탄 소재 대형 웨딩홀이 개장일을 수차례 연기하면서 결혼을 앞둔 예비부부들의 피해와 불안이 확산됨",
@@ -891,8 +1149,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 12:53",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 12:53",
       "pub_timestamp": "2026-11-08T12:53:00+09:00",
       "bullets": [
         "- 삼성전자 실적 개선에 힘입어 화성시의 내년 법인지방소득세가 약 1조 8000억 원에 달할 것으로 추산됨",
@@ -915,8 +1173,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 10:38",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 10:38",
       "pub_timestamp": "2026-11-08T10:38:00+09:00",
       "bullets": [
         "- 화성시가 전년 대비 약 두 배 증가한 역대 최대 6조 1,600억 원 규모의 2027년도 예산편성안 확정",
@@ -939,8 +1197,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 09:22",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 09:22",
       "pub_timestamp": "2026-11-08T09:22:00+09:00",
       "bullets": [
         "- 화성시가족센터가 지난 11월 7일 관내 (예비)노년기 부부를 대상으로 한 '동행 예비노년기 부부교실'을 성료함",
@@ -963,8 +1221,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.08 09:10",
+      "date_group": "2026-11-08",
+      "time_label": "11.08 09:10",
       "pub_timestamp": "2026-11-08T09:10:00+09:00",
       "bullets": [
         "- 경기도가 중단됐던 경기국제공항 후보지 분석 용역을 재개하며 지자체 간 공항 건립 논의가 재점화됨",
@@ -5124,6 +5382,13 @@
           "media": "뉴시스",
           "time_label": "스크랩 11.09 05:00",
           "pub_timestamp": "2026-11-09T05:00:00+09:00"
+        },
+        {
+          "title": "[오늘의 주요일정]경기남부(11월10일 화요일)",
+          "link": "https://www.newsis.com/view/NISX20261108_0003859348",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.10 05:00",
+          "pub_timestamp": "2026-11-10T05:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -5793,6 +6058,13 @@
           "media": "EKN",
           "time_label": "오늘 15:26",
           "pub_timestamp": "2026-11-09T15:26:00+09:00"
+        },
+        {
+          "title": "[기획6]피고, '대형물류센터' 기피시설일까?",
+          "link": "https://www.klnews.co.kr/news/articleView.html?idxno=323416",
+          "media": "KLNEWS",
+          "time_label": "스크랩 11.09 16:18",
+          "pub_timestamp": "2026-11-09T16:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -6245,6 +6517,27 @@
           "media": "아시아경제",
           "time_label": "오늘 09:48",
           "pub_timestamp": "2026-11-09T09:48:00+09:00"
+        },
+        {
+          "title": "YBM, 장안대와 업무협약…재학생 대상 MOS·토익 응시료 할인",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881263",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.09 16:36",
+          "pub_timestamp": "2026-11-09T16:36:00+09:00"
+        },
+        {
+          "title": "YBM-장안대, 대학생 취업 스펙 부담 줄인다… 토익·MOS 응시료 할인",
+          "link": "https://www.fnnews.com/news/202611091535397111",
+          "media": "파이낸셜뉴스",
+          "time_label": "스크랩 11.09 15:37",
+          "pub_timestamp": "2026-11-09T15:37:00+09:00"
+        },
+        {
+          "title": "장안대 학생들 토익 응시료 할인받는다…YBM과 협약",
+          "link": "https://www.news1.kr/society/education/6347337",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.09 09:50",
+          "pub_timestamp": "2026-11-09T09:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -7975,6 +8268,20 @@
           "media": "THE-BIZ",
           "time_label": "오늘 12:12",
           "pub_timestamp": "2026-11-09T12:12:00+09:00"
+        },
+        {
+          "title": "서울 아파트 평균 실거래가 6월부터 하락…강남·송파는 상승",
+          "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=314954",
+          "media": "STRAIGHTNEWS",
+          "time_label": "스크랩 11.09 17:18",
+          "pub_timestamp": "2026-11-09T17:18:00+09:00"
+        },
+        {
+          "title": "대출금리·분양가 상승에 금융혜택 중요성 커져… '향남역 그로브 스위...",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=343788",
+          "media": "IKLD",
+          "time_label": "스크랩 11.09 17:02",
+          "pub_timestamp": "2026-11-09T17:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -8778,6 +9085,13 @@
           "media": "뉴스타운",
           "time_label": "스크랩 11.08 20:58",
           "pub_timestamp": "2026-11-08T20:58:00+09:00"
+        },
+        {
+          "title": "이계철 의장, 향남읍 주민 간담회 참석해 생활 불편 및 지역 현안 점검...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=147926",
+          "media": "투어뉴스21",
+          "time_label": "스크랩 11.09 18:10",
+          "pub_timestamp": "2026-11-09T18:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -9981,6 +10295,13 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 08:50",
           "pub_timestamp": "2026-11-05T08:50:00+09:00"
+        },
+        {
+          "title": "화성특례시 만세구보건소, '정신건강 정책연구 용역 중간보고회' 개최",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=139302",
+          "media": "POPCORNNEWS",
+          "time_label": "스크랩 11.10 07:40",
+          "pub_timestamp": "2026-11-10T07:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -11012,6 +11333,20 @@
           "media": "헤럴드경제",
           "time_label": "오늘 10:20",
           "pub_timestamp": "2026-11-09T10:20:00+09:00"
+        },
+        {
+          "title": "' 화성 향남 롯데캐슬', 11월 10일 당첨자 발표…23~25일 사흘간 정당계...",
+          "link": "https://www.apnews.kr/news/articleView.html?idxno=3052966",
+          "media": "APNEWS",
+          "time_label": "스크랩 11.09 18:00",
+          "pub_timestamp": "2026-11-09T18:00:00+09:00"
+        },
+        {
+          "title": "'화성 향남 롯데캐슬', 10일 당첨자 발표… 23~25일 정당계약",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=343803",
+          "media": "IKLD",
+          "time_label": "스크랩 11.09 17:40",
+          "pub_timestamp": "2026-11-09T17:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -12238,6 +12573,13 @@
           "media": "NEWSCLAIM",
           "time_label": "오늘 10:18",
           "pub_timestamp": "2026-10-29T10:18:00+09:00"
+        },
+        {
+          "title": "도박문제 예방부터 일상 복귀까지…지역사회 대응체계 손본다",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611090189",
+          "media": "SENTV",
+          "time_label": "스크랩 11.09 16:02",
+          "pub_timestamp": "2026-11-09T16:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -13656,6 +13998,20 @@
           "media": "JOSEILBO",
           "time_label": "오늘 13:52",
           "pub_timestamp": "2026-11-09T13:52:00+09:00"
+        },
+        {
+          "title": "국산 전기차 점유율 50% 붕괴…정부 세제 지원에 완성차 빠졌다",
+          "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=320245",
+          "media": "WOLYO",
+          "time_label": "스크랩 11.10 06:44",
+          "pub_timestamp": "2026-11-10T06:44:00+09:00"
+        },
+        {
+          "title": "화성시 달리는 자율주행 시민 곁에 곧 선보인다",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=835310",
+          "media": "NSPNA",
+          "time_label": "스크랩 11.09 18:02",
+          "pub_timestamp": "2026-11-09T18:02:00+09:00"
         }
       ],
       "is_major": true,
