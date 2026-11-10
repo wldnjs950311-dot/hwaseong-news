@@ -1,129 +1,308 @@
 {
-  "updated_at": "2026.11.10. 16:00",
-  "scrap_period": "전일(11.09) 08:00 ~ 금일(11.10) 08:00",
-  "yesterday_label": "11.09",
+  "updated_at": "2026.11.11. 08:00",
+  "scrap_period": "전일(11.10) 08:00 ~ 금일(11.11) 08:00",
+  "yesterday_label": "11.10",
   "macro_pulse": {
-    "report_date": "2026-11-10",
-    "article_count": 10,
-    "overview": "서신면 백미항·도리도항 어촌뉴딜 사업 국비 확보 등 서부권 어촌 재정비 성과와 화성FC의 지역 밀착형 사회공헌 활동이 부각된 반면 동탄 통학로 안전 관리 미흡 사안이 지적되었습니다.",
+    "report_date": "2026-11-11",
+    "article_count": 2,
+    "overview": "금일 언론은 송산면 봉가리 일대 화재 발생에 따른 현장 안전 관리 상황과 화성시 첫 공공 요양시설인 '화성 실버드림센터'의 입소자 모집 등 복지·안전 분야 현안을 중심으로 집중 보도했습니다.",
     "main_points": [
-      "- [서신면 백미항·도리도항 어촌뉴딜 사업 선정] 전자신문, 이투데이 보도 - 해양수산부 사업 대상지로 선정돼 국비 70억 원 등 총 100억 원 규모를 투입해 미식 공간 조성 및 어업기지 구축 등 서부 어촌 재정비를 추진함",
-      "- [화성FC 청계중학교 축구산업 진로특강 '오렌지드림'] 총 2개 언론사 집중 보도 - 화성FC가 관내 청소년들을 대상으로 축구산업 직업 세계를 소개하는 진로특강 첫 수업을 성황리에 진행하며 지역 밀착형 스포츠 공헌을 전개함",
-      "- [동탄 화남초등학교 앞 파손 볼라드 방치] 프레시안 보도 - 화성시 동탄 장지동 보행로의 파손된 볼라드가 수개월째 방치돼 어린이 보행 안전을 위협하고 있어 조속한 현장 정비 및 안전 점검이 요구됨",
-      "- [화성특례시의회 도시건설위원회 겨울철 제설 대응체계 점검] 이뉴스투데이 보도 - 동절기 폭설 및 도로 결빙에 선제적으로 대비하기 위해 제설 대책 준비 상황을 집중 점검하고 시민 안전 확보에 나섬"
+      "- [송산면 봉가리 화재 발생] 총 5개 언론사 집중 보도 - 11일 오전 화성시 송산면 봉가리 일대에서 다량의 연기가 발생하는 화재가 발생해 신속한 현장 대응 및 안전 관리에 언론의 관심이 집중됨",
+      "- [시립화성 실버드림센터 입소자 모집] 총 2개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 '화성 실버드림센터'가 본격적인 신규 입소자 모집에 착수하며 지역 공공돌봄 인프라 확충 성과로 조명됨"
     ],
     "risk_cautions": [
       {
-        "title": "화성 동탄 화남초교 앞 파손 볼라드 방치…어린이 안전 위협",
-        "media": "프레시안",
-        "link": "https://www.pressian.com/pages/articles/2026111014120288068?utm_source=naver&utm_medium=search",
-        "time_label": "오늘 14:13",
-        "pub_timestamp": "2026-11-10T14:13:00+09:00",
-        "department": "도로관리과",
+        "title": "[속보] 경기 화성시 송산면 봉가리 화재… 연기 다량 발생 중",
+        "media": "국제뉴스",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3748319",
+        "time_label": "스크랩 11.11 07:50",
+        "pub_timestamp": "2026-11-11T07:50:00+09:00",
+        "department": "재난안전과",
         "bullets": [
-          "- 화성시 동탄 장지동 화남초등학교 앞 보행로의 파손된 볼라드가 수개월째 방치돼 어린이 보행 안전을 위협함",
-          "- 파손된 볼라드의 날카로운 단면에 어린이가 손가락을 베여 병원 치료를 받는 사고가 실제로 발생함",
-          "- 학교 측이 약 3개월 전 관할 행정관청에 시설물 보수를 요청했으나 조치가 이뤄지지 않아 비판이 제기됨"
+          "- 11일 오전 7시 5분경 화성시 송산면 봉가리 일대에서 화재가 발생해 다량의 연기 발생",
+          "- 화성시청은 긴급 재난문자를 발송하고 인근 주민들에게 창문 닫기 등 안전 유의 당부",
+          "- 소방 당국이 현장에 출동해 진화 작업을 진행 중이며 화재 원인과 인명 피해 여부 조사 중"
         ]
       }
     ],
     "summary_bullets": [
-      "서신면 백미항·도리도항 어촌뉴딜 사업 국비 확보 등 서부권 어촌 재정비 성과와 화성FC의 지역 밀착형 사회공헌 활동이 부각된 반면 동탄 통학로 안전 관리 미흡 사안이 지적되었습니다.",
-      "- [서신면 백미항·도리도항 어촌뉴딜 사업 선정] 전자신문, 이투데이 보도 - 해양수산부 사업 대상지로 선정돼 국비 70억 원 등 총 100억 원 규모를 투입해 미식 공간 조성 및 어업기지 구축 등 서부 어촌 재정비를 추진함",
-      "- [화성FC 청계중학교 축구산업 진로특강 '오렌지드림'] 총 2개 언론사 집중 보도 - 화성FC가 관내 청소년들을 대상으로 축구산업 직업 세계를 소개하는 진로특강 첫 수업을 성황리에 진행하며 지역 밀착형 스포츠 공헌을 전개함"
+      "금일 언론은 송산면 봉가리 일대 화재 발생에 따른 현장 안전 관리 상황과 화성시 첫 공공 요양시설인 '화성 실버드림센터'의 입소자 모집 등 복지·안전 분야 현안을 중심으로 집중 보도했습니다.",
+      "- [송산면 봉가리 화재 발생] 총 5개 언론사 집중 보도 - 11일 오전 화성시 송산면 봉가리 일대에서 다량의 연기가 발생하는 화재가 발생해 신속한 현장 대응 및 안전 관리에 언론의 관심이 집중됨",
+      "- [시립화성 실버드림센터 입소자 모집] 총 2개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 '화성 실버드림센터'가 본격적인 신규 입소자 모집에 착수하며 지역 공공돌봄 인프라 확충 성과로 조명됨"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 5,
+        "count": 4,
         "ratio": 29
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 1,
-        "ratio": 6
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 5,
+        "count": 4,
         "ratio": 29
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 18
+        "count": 4,
+        "ratio": 29
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 3,
-        "ratio": 18
+        "count": 2,
+        "ratio": 14
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "백미·도리도항 어촌뉴딜",
-      "count": 46,
+      "keyword": "겨울철 제설 대응체계",
+      "count": 10,
       "category": "POLICY",
-      "dept": "해양수산과",
-      "summary": "백미·도리도항이 해양수산부 주관 어촌뉴딜 3.0 사업 대상지로 최종 선정되었습니다."
+      "dept": "기획조정실 의회법무과",
+      "summary": "시의회 도시건설위원회가 겨울철 폭설 및 도로 결빙에 대비한 종합 제설 대응체계를 사전 점검함."
     },
     {
       "rank": 2,
-      "keyword": "남양뉴타운 자율주행 버스",
-      "count": 19,
-      "category": "POLICY",
-      "dept": "기업투자실 첨단산업과",
-      "summary": "남양뉴타운 5㎞ 구간을 순환하는 자율주행 리빙랩 서비스 시승회가 열렸습니다."
+      "keyword": "송산면 봉가리 화재",
+      "count": 5,
+      "category": "RISK",
+      "dept": "재난안전과",
+      "summary": "송산면 봉가리 일대에서 화재가 발생해 다량의 연기가 발생함에 따라 긴급 안전 조치가 이뤄짐."
     },
     {
       "rank": 3,
-      "keyword": "경부고속도로 5중 추돌사고",
-      "count": 14,
-      "category": "RISK",
-      "dept": "안전정책과",
-      "summary": "영천동 경부고속도로 부산 방향에서 5중 연쇄 추돌사고로 29명이 부상했습니다."
+      "keyword": "ECO 클래스",
+      "count": 3,
+      "category": "CULTURE",
+      "dept": "체육진흥과",
+      "summary": "구단과 관내 제로웨이스트 기업이 협력해 팬들을 대상으로 친환경 실천 교육 프로그램을 시작함."
     },
     {
       "rank": 4,
-      "keyword": "상신9리 통학로 안전",
-      "count": 6,
+      "keyword": "시립 실버드림센터",
+      "count": 2,
       "category": "POLICY",
-      "dept": "기획조정실 의회법무과",
-      "summary": "향남읍 상신9리 주민들과 통학로 안전 및 마을사업 예산 확보를 위한 현장 간담회가 개최되었습니다."
+      "dept": "노인복지과",
+      "summary": "지역 내 첫 공공 요양시설인 실버드림센터가 개소를 앞두고 신규 입소자 모집을 시작함."
     },
     {
       "rank": 5,
-      "keyword": "정남면 물류센터 갈등",
-      "count": 3,
-      "category": "RISK",
-      "dept": "허가민원과",
-      "summary": "정남면 덕절리 대형 물류센터 건립을 둘러싸고 인근 주민들의 반발과 청원 갈등이 심화되고 있습니다."
+      "keyword": "춤의 정원",
+      "count": 2,
+      "category": "CULTURE",
+      "dept": "문화예술과",
+      "summary": "어린이와 청소년의 성장 스토리를 무용으로 풀어낸 기획 정기공연이 반석아트홀 무대에 오름."
     }
   ],
   "stats": {
-    "total": 258,
-    "major_count": 128,
+    "total": 264,
+    "major_count": 134,
     "live_count": 130,
-    "today_count": 8,
-    "scrap_count": 9,
+    "today_count": 0,
+    "scrap_count": 14,
     "yesterday_count": 2,
-    "policy": 144,
+    "policy": 148,
     "culture": 85,
-    "risk": 29
+    "risk": 31
   },
   "articles": [
+    {
+      "title": "첫 시립요양원 ‘화성 실버드림센터’ 입소자 모집",
+      "link": "http://www.breaknews.com/1250047",
+      "originallink": "http://www.breaknews.com/1250047",
+      "media": "브레이크뉴스",
+      "category": "POLICY",
+      "department": "노인복지과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.11 07:50",
+      "pub_timestamp": "2026-11-11T07:50:00+09:00",
+      "bullets": [
+        "- 화성시 첫 공공 요양시설인 ‘시립화성 실버드림센터’가 신규 입소자를 모집함",
+        "- 향남읍 하길리에 총 374억여 원을 투입해 일반실 92명, 치매전담실 18명 등 총 110명 규모로 건립 중임",
+        "- 물리치료실과 구강보건실 등 쾌적한 요양 환경을 조성해 노인성 질환자 가족의 부양 부담을 경감할 계획임"
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시 첫 시립요양원 110명 입소자 모집",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082115",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.11 07:44",
+          "pub_timestamp": "2026-11-11T07:44:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "[속보] 경기 화성시 송산면 봉가리 화재… 연기 다량 발생 중",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3748319",
+      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3748319",
+      "media": "국제뉴스",
+      "category": "RISK",
+      "department": "재난안전과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.11 07:50",
+      "pub_timestamp": "2026-11-11T07:50:00+09:00",
+      "bullets": [
+        "- 11일 오전 7시 5분경 화성시 송산면 봉가리 일대에서 화재가 발생해 다량의 연기 발생",
+        "- 화성시청은 긴급 재난문자를 발송하고 인근 주민들에게 창문 닫기 등 안전 유의 당부",
+        "- 소방 당국이 현장에 출동해 진화 작업을 진행 중이며 화재 원인과 인명 피해 여부 조사 중"
+      ],
+      "related_articles": [
+        {
+          "title": "화성 송산면 봉가리서 화재…\"연기 다량 발생 중\"",
+          "link": "https://www.ajunews.com/view/20261111074742821",
+          "media": "아주경제",
+          "time_label": "스크랩 11.11 07:50",
+          "pub_timestamp": "2026-11-11T07:50:00+09:00"
+        },
+        {
+          "title": "[속보] 경기도 화성시 송산면 화재",
+          "link": "https://www.bntnews.co.kr/article/view/bnt202611110057",
+          "media": "BNTNEWS",
+          "time_label": "스크랩 11.11 07:48",
+          "pub_timestamp": "2026-11-11T07:48:00+09:00"
+        },
+        {
+          "title": "[속보] 경기 화성 송산면 화재 발생",
+          "link": "https://www.etoday.co.kr/news/view/2646513",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.11 07:36",
+          "pub_timestamp": "2026-11-11T07:36:00+09:00"
+        },
+        {
+          "title": "세대 발생 화재 신속 진압한 관리직원들 표창 받아",
+          "link": "http://www.aptn.co.kr/news/articleView.html?idxno=113244",
+          "media": "APTN",
+          "time_label": "스크랩 11.10 09:28",
+          "pub_timestamp": "2026-11-10T09:28:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202611/3748319_3929759_4927_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 시민 제안 반영해 정원 교육·체험 개선",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=721433",
+      "originallink": "http://www.newstown.co.kr/news/articleView.html?idxno=721433",
+      "media": "뉴스타운",
+      "category": "POLICY",
+      "department": "보타닉가든추진단",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 21:00",
+      "pub_timestamp": "2026-11-10T21:00:00+09:00",
+      "bullets": [
+        "- 화성시가 10일 화성시민대학에서 '2026년 보타닉가든 화성 시민참여단 간담회'를 개최함",
+        "- 100명 규모의 참여단이 올 한 해 정원 디자인 교육 및 관리 실습 경험을 공유함",
+        "- 생활밀착형 프로그램 확대와 지속적인 참여 체계 구축 등 시민 제안을 반영해 사업을 개선할 방침임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "http://www.newstown.co.kr/news/thumbnail/202611/721433_677707_2745_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "“서해선이 삼킨 터전” 화성 향남읍 주민들 이주대책 요구",
+      "link": "https://www.kyeongin.com/article/1774497",
+      "originallink": "https://www.kyeongin.com/article/1774497",
+      "media": "경인일보",
+      "category": "RISK",
+      "department": "철도트램과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 20:10",
+      "pub_timestamp": "2026-11-10T20:10:00+09:00",
+      "bullets": [
+        "- 서해선 복선전철 사업으로 삶의 터전을 잃은 화성시 향남읍 상두리·노하리 주민들의 이주대책이 8년째 표류 중임",
+        "- 국가철도공단이 화성시에 행정심판을 제기하는 등 양 기관의 갈등 속에 이주자택지 부지가 방치되고 있음",
+        "- 이주 예정 주민들은 근본적인 대책 마련과 조속한 사태 해결을 촉구하며 대시민 서명 운동에 돌입함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/10/news-p.v1.20261110.ec7a83524d574305bc8015b83a9d1c82_R.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 시민 100명과 정원문화 확산 넘어 일상 속 참여 확대 모색",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881917",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881917",
+      "media": "한스경제",
+      "category": "POLICY",
+      "department": "보타닉가든추진단",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 19:06",
+      "pub_timestamp": "2026-11-10T19:06:00+09:00",
+      "bullets": [
+        "- 화성시가 10일 화성시민대학에서 '보타닉가든 화성 시민참여단 간담회'를 개최함",
+        "- 시민 100명 규모의 참여단과 함께 정원 디자인 교육 및 관리 실습 등 활동 성과를 공유함",
+        "- 생활밀착형 프로그램 확대와 시민 중심의 지속적인 정원문화 참여체계 구축 방안을 논의함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/881917_907731_215_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성산업진흥원, 중소기업 '외부 자금 뚫는다'",
+      "link": "https://www.kgnews.co.kr/news/article.html?no=918877",
+      "originallink": "https://www.kgnews.co.kr/news/article.html?no=918877",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "기업투자실 기업지원과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 18:56",
+      "pub_timestamp": "2026-11-10T18:56:00+09:00",
+      "bullets": [
+        "- 화성산업진흥원이 관내 중소기업을 위한 '2026 성장자원 확보 패키지 지원 프로그램' 참여 기업을 오는 19일까지 모집함",
+        "- 기술력을 보유했으나 공모사업 대응이나 IR 준비에 어려움을 겪는 관내 기업의 정부지원사업 참여 및 투자유치 역량을 강화함",
+        "- 선정 기업에는 역량 진단부터 맞춤형 전략 수립, 컨설팅, IR 고도화, 투자상담회까지 전 과정을 맞춤형으로 밀착 지원함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.kgnews.co.kr/data/photos/20261146/art_1794274297276_9101b1.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성특례시의회 도시건설위원회, 겨울철 제설 대응체계 점검",
       "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2490674",
@@ -135,16 +314,80 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:50",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 15:50",
       "pub_timestamp": "2026-11-10T15:50:00+09:00",
       "bullets": [
         "- 화성특례시의회 도시건설위원회가 겨울철 폭설 및 도로 결빙 대비 제설 대응체계를 점검함",
         "- 9일 효행구청 대회의실에서 시의원들과 4개 구청장이 참석해 '도로 제설 종합대책' 현황을 공유함",
         "- 결빙 취약구간의 선제적 대응과 생활도로 및 이면도로 중심의 밀착형 제설 관리 방안을 논의함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시의회 도시건설위, 4개 구청장과 '2026~2027 도로 제설 종합대...",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=67470",
+          "media": "NEWSROAD",
+          "time_label": "스크랩 11.11 07:24",
+          "pub_timestamp": "2026-11-11T07:24:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 골목길까지 겨울철 제설대책 점검",
+          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=721437",
+          "media": "뉴스타운",
+          "time_label": "스크랩 11.10 21:02",
+          "pub_timestamp": "2026-11-10T21:02:00+09:00"
+        },
+        {
+          "title": "화성특례시의회 도시건설위, 겨울철 폭설·도로 결빙 대비 제설대책 집...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148055",
+          "media": "투어뉴스21",
+          "time_label": "스크랩 11.10 20:36",
+          "pub_timestamp": "2026-11-10T20:36:00+09:00"
+        },
+        {
+          "title": "화성시의회 도시건설위, 겨울철 폭설·도로 결빙 대응체계 점검",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/10/2026111000364.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.10 17:28",
+          "pub_timestamp": "2026-11-10T17:28:00+09:00"
+        },
+        {
+          "title": "\"큰길만 뚫리면 끝?\"…화성시의회, 폭설 대비 골목길 제설까지 점검",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193175",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.10 17:24",
+          "pub_timestamp": "2026-11-10T17:24:00+09:00"
+        },
+        {
+          "title": "화성시의회 도시건설위, 겨울철 도로 제설 종합대책 점검",
+          "link": "http://www.breaknews.com/1249900",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.10 16:24",
+          "pub_timestamp": "2026-11-10T16:24:00+09:00"
+        },
+        {
+          "title": "화성특례시의회 도시건설위원회, 도로 제설 종합대책 준비상황 점검",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2016799",
+          "media": "매일일보",
+          "time_label": "스크랩 11.10 16:20",
+          "pub_timestamp": "2026-11-10T16:20:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 겨울철 도로 제설대책 점검",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160290190746786",
+          "media": "시민일보",
+          "time_label": "스크랩 11.10 16:18",
+          "pub_timestamp": "2026-11-10T16:18:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회 도시건설위원회\"겨울철 도로 제설 종합대책 점...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801638",
+          "media": "WEEKLYTODAY",
+          "time_label": "스크랩 11.10 16:16",
+          "pub_timestamp": "2026-11-10T16:16:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2490674_1336988_5148_v150.jpg",
       "telegram_sent": false
     },
@@ -159,8 +402,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:56",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 14:56",
       "pub_timestamp": "2026-11-10T14:56:00+09:00",
       "bullets": [
         "- 화성시나래울종합사회복지관이 주택관리공단 경기남부지사와 협력하여 황계2통 어르신 대상 소방안전교육 및 소화기 나눔 활동 진행",
@@ -183,8 +426,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:13",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 14:13",
       "pub_timestamp": "2026-11-10T14:13:00+09:00",
       "bullets": [
         "- 화성시 동탄 장지동 화남초등학교 앞 보행로의 파손된 볼라드가 수개월째 방치돼 어린이 보행 안전을 위협함",
@@ -207,16 +450,31 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:08",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 14:08",
       "pub_timestamp": "2026-11-10T14:08:00+09:00",
       "bullets": [
         "- 화성 FC가 관내 제로웨이스트 기업 지구스토리와 협력해 팬 대상 친환경 교육 프로그램 'ECO 클래스' 첫 수업을 진행함",
         "- 구단 사회공헌 브랜드인 'ORANGE RE'의 일환으로 기후변화 영향 교육 및 업사이클 체험 기회를 팬들에게 무료로 제공함",
         "- 지역 기반 ESG 파트너십을 바탕으로 환경 보호 의미를 되새기고 지속 가능한 친환경 실천 문화를 확산할 방침임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성FC 팬 참여형 환경교육 'ECO 클래스' 운영",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082116",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.11 07:44",
+          "pub_timestamp": "2026-11-11T07:44:00+09:00"
+        },
+        {
+          "title": "화성FC 청계중서 축구산업 진로특강 첫 운영",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082100",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.10 18:12",
+          "pub_timestamp": "2026-11-10T18:12:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.besteleven.com/news/photo/202611/313910_244029_77.jpg",
       "telegram_sent": false
     },
@@ -231,16 +489,24 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:00",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 14:00",
       "pub_timestamp": "2026-11-10T14:00:00+09:00",
       "bullets": [
         "- 화성시문화관광재단이 오는 11월 22일 동탄복합문화센터 반석아트홀에서 정기공연 <춤의 정원>을 개최함",
         "- 꿈의 무용단 단원들이 8개월간 진행한 무용 교육 및 공동 창작 성과를 무대에서 선보임",
         "- 11월 10일부터 화성시문화관광홈페이지를 통해 사전 예매 진행 예정"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시문화관광재단, 22일 꿈의 무용단 정기공연 '춤의 정원' 개최",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5081881",
+          "media": "SHINAILBO",
+          "time_label": "스크랩 11.10 16:38",
+          "pub_timestamp": "2026-11-10T16:38:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2490659_1336973_3312_v150.jpg",
       "telegram_sent": false
     },
@@ -255,8 +521,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 12:04",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 12:04",
       "pub_timestamp": "2026-11-10T12:04:00+09:00",
       "bullets": [
         "- 화성시가족센터는 결혼이민자의 지역사회 교육 현장 진출을 돕는 '문화다양성 이해강사 양성과정' 수료식을 개최함",
@@ -279,8 +545,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:30",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 08:30",
       "pub_timestamp": "2026-11-10T08:30:00+09:00",
       "bullets": [
         "- 화성시 서신면 백미항과 도리도항이 해양수산부 어촌뉴딜 사업 대상지로 선정됨",
@@ -303,8 +569,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:27",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.10 08:27",
       "pub_timestamp": "2026-11-10T08:27:00+09:00",
       "bullets": [
         "- 화성시 서신면 백미·도리도항이 해수부 '2027년 어촌뉴딜 3.0 사업' 대상지로 선정돼 국비 70억 원 확보",
@@ -327,8 +593,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.10 07:42",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:42",
       "pub_timestamp": "2026-11-10T07:42:00+09:00",
       "bullets": [
         "- 화성FC가 지난 6일 화성시 청계중학교에서 축구산업 진로특강 '오렌지드림' 첫 수업을 진행함",
@@ -359,8 +625,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.10 07:37",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:37",
       "pub_timestamp": "2026-11-10T07:37:00+09:00",
       "bullets": [
         "- 화성산업진흥원이 관내 중소기업의 정부 지원사업 참여와 투자 유치를 돕는 '2026 성장자원 확보 패키지 지원 프로그램' 참여 기업을 모집함",
@@ -383,8 +649,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 21:53",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 21:53",
       "pub_timestamp": "2026-11-09T21:53:00+09:00",
       "bullets": [
         "- 프로축구 화성FC가 관내 학생들의 스포츠산업 분야 진로 탐색을 지원하는 '오렌지드림' 특강 시작",
@@ -407,8 +673,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 16:57",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 16:57",
       "pub_timestamp": "2026-11-09T16:57:00+09:00",
       "bullets": [
         "- 송옥주 국회의원이 국토교통부 관계자를 면담하고 화성시 서부권역 주요 철도 현안을 논의함",
@@ -431,8 +697,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 14:17",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 14:17",
       "pub_timestamp": "2026-11-09T14:17:00+09:00",
       "bullets": [
         "- 화성시 백미·도리도항이 해양수산부 주관 '2027년 어촌뉴딜 3.0 사업' 대상지로 최종 선정됨",
@@ -754,6 +1020,125 @@
           "media": "JOONGDO",
           "time_label": "오늘 11:50",
           "pub_timestamp": "2026-11-10T11:50:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장 “시민참여단 경험·제안, ‘보타닉가든 화성’ 밑...",
+          "link": "https://www.kmib.co.kr/article/20261110502274",
+          "media": "국민일보",
+          "time_label": "스크랩 11.10 23:29",
+          "pub_timestamp": "2026-11-10T23:29:00+09:00"
+        },
+        {
+          "title": "시민 완성하는 녹색도시…화성시, ‘보타닉가든 시민참여단’ 간담회",
+          "link": "https://www.suwonilbo.kr/view.html?id=L261110210329ae25",
+          "media": "SUWONILBO",
+          "time_label": "스크랩 11.10 21:12",
+          "pub_timestamp": "2026-11-10T21:12:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, \"시민과 함께 만드는 '보타닉가든'\"…정원문화 활성화...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148050",
+          "media": "투어뉴스21",
+          "time_label": "스크랩 11.10 20:00",
+          "pub_timestamp": "2026-11-10T20:00:00+09:00"
+        },
+        {
+          "title": "화성시, 보타닉가든 시민참여단 간담회 …'시민과 함께 가꾸는 정원도시...",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611101737159100469",
+          "media": "DNEWS",
+          "time_label": "스크랩 11.10 18:22",
+          "pub_timestamp": "2026-11-10T18:22:00+09:00"
+        },
+        {
+          "title": "화성 백미·도리도항 어촌재생에 100억원 투입",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082079",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.10 18:12",
+          "pub_timestamp": "2026-11-10T18:12:00+09:00"
+        },
+        {
+          "title": "화성시, 시민과 함께 보타닉가든 화성 만든다",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/10/2026111000359.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.10 17:26",
+          "pub_timestamp": "2026-11-10T17:26:00+09:00"
+        },
+        {
+          "title": "\"청년이 돌아오는 바다로\"…화성 백미·도리도항, 100억 들여 어촌의 미...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193171",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.10 17:22",
+          "pub_timestamp": "2026-11-10T17:22:00+09:00"
+        },
+        {
+          "title": "화성 백미·도리도항, 100억 들여 국내 대표 ‘젊은 어촌’ 탈바꿈",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=918870",
+          "media": "경기일보",
+          "time_label": "스크랩 11.10 17:10",
+          "pub_timestamp": "2026-11-10T17:10:00+09:00"
+        },
+        {
+          "title": "화성특례시, '보타닉가든 화성 시민참여단'과 정원문화 활성화 논의",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2016825",
+          "media": "매일일보",
+          "time_label": "스크랩 11.10 16:48",
+          "pub_timestamp": "2026-11-10T16:48:00+09:00"
+        },
+        {
+          "title": "화성특례시, 보타닉가든 화성 시민참여단 간담회 개최…\"시민과 함께 정...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397491",
+          "media": "FNTODAY",
+          "time_label": "스크랩 11.10 16:46",
+          "pub_timestamp": "2026-11-10T16:46:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 보타닉가든 시민참여단과 소통...정원문화 활성화 논...",
+          "link": "https://www.ajunews.com/view/20261110162956969",
+          "media": "아주경제",
+          "time_label": "스크랩 11.10 16:44",
+          "pub_timestamp": "2026-11-10T16:44:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시, '보타닉가든 시민참여단' 간담회 개최",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801652",
+          "media": "WEEKLYTODAY",
+          "time_label": "스크랩 11.10 16:32",
+          "pub_timestamp": "2026-11-10T16:32:00+09:00"
+        },
+        {
+          "title": "화성 백미·도리도항 어촌뉴딜사업 최종 선정…4년간 100억 투입",
+          "link": "https://www.kyeonggi.com/article/20261110580330",
+          "media": "경기일보",
+          "time_label": "스크랩 11.10 16:30",
+          "pub_timestamp": "2026-11-10T16:30:00+09:00"
+        },
+        {
+          "title": "화성시, 보타닉가든 정원문화 활성화 논의",
+          "link": "http://www.breaknews.com/1249898",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.10 16:24",
+          "pub_timestamp": "2026-11-10T16:24:00+09:00"
+        },
+        {
+          "title": "화성시 '젊은 어촌' 만든다…백미·도리도항 어촌뉴딜 선정",
+          "link": "https://www.mt.co.kr/policy/2026/11/10/2026111015574794219",
+          "media": "머니투데이",
+          "time_label": "스크랩 11.10 16:06",
+          "pub_timestamp": "2026-11-10T16:06:00+09:00"
+        },
+        {
+          "title": "[경기] 화성시, 백미항·도리도항 100억 들여 어촌 재생",
+          "link": "https://www.ytn.co.kr/_ln/0115_202611101605520772",
+          "media": "YTN",
+          "time_label": "스크랩 11.10 16:05",
+          "pub_timestamp": "2026-11-10T16:05:00+09:00"
+        },
+        {
+          "title": "송옥주 국회의원, 국토부 장관에게 화성 서부권 철도사업 반영 촉구",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/10/2026111000276.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.10 16:02",
+          "pub_timestamp": "2026-11-10T16:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -771,8 +1156,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 14:12",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 14:12",
       "pub_timestamp": "2026-11-09T14:12:00+09:00",
       "bullets": [
         "- 화성특례시의회는 향남읍 행정복지센터에서 상신9리 주민들과 현장 간담회를 개최함",
@@ -831,8 +1216,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 13:46",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 13:46",
       "pub_timestamp": "2026-11-09T13:46:00+09:00",
       "bullets": [
         "- 9일 오전 화성시 영천동 경부고속도로 부산 방향에서 차량 5대가 연쇄 추돌하는 대형 교통사고 발생",
@@ -947,8 +1332,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 11:12",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 11:12",
       "pub_timestamp": "2026-11-09T11:12:00+09:00",
       "bullets": [
         "- 화성시가 모두누림센터 자율주행 서비스 공간에서 남양뉴타운 5㎞ 구간을 순환하는 '자율주행 리빙랩 서비스 시승회'를 개최함",
@@ -1098,8 +1483,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.09 10:10",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 10:10",
       "pub_timestamp": "2026-11-09T10:10:00+09:00",
       "bullets": [
         "- 화성시 정남면 덕절리 일원 연면적 약 10만㎡ 규모 대형 물류센터 건립을 둘러싼 인근 주민 갈등 심화",
@@ -1120,6 +1505,13 @@
           "media": "경기일보",
           "time_label": "스크랩 11.09 16:24",
           "pub_timestamp": "2026-11-09T16:24:00+09:00"
+        },
+        {
+          "title": "[사설] 오산-화성 물류센터 갈등, 道가 제시할 해법은",
+          "link": "https://www.kyeonggi.com/article/20261110580490",
+          "media": "경기일보",
+          "time_label": "스크랩 11.11 03:06",
+          "pub_timestamp": "2026-11-11T03:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -1137,8 +1529,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:38",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 07:38",
       "pub_timestamp": "2026-11-09T07:38:00+09:00",
       "bullets": [
         "- 화성시 역사박물관에서 제20회 기획전시 '시간을 품은 어천역' 연계 주말 가족체험 프로그램 운영",
@@ -1183,8 +1575,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 05:01",
+      "date_group": "2026-11-09",
+      "time_label": "11.09 05:01",
       "pub_timestamp": "2026-11-09T05:01:00+09:00",
       "bullets": [
         "- 경기도 내 노후 교량 안전 실태 조사에서 1973년 준공된 화성시 기천교의 노후화 문제 지적",
@@ -1464,7 +1856,15 @@
         "- 해당 의원은 화성시장의 연수 불참을 문제 삼다 폭언을 한 것으로 알려졌으며 사과의 뜻을 표명",
         "- 더불어민주당 경기도당은 해당 의원으로부터 경위서를 제출받아 진상 조사를 거쳐 징계 여부를 결정할 방침"
       ],
-      "related_articles": [],
+      "related_articles": [
+        {
+          "title": "의정연수 중 공무원에 폭언 논란 민주 도당, 화성시의원 진상조사",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040527",
+          "media": "기호일보",
+          "time_label": "스크랩 11.10 17:24",
+          "pub_timestamp": "2026-11-10T17:24:00+09:00"
+        }
+      ],
       "is_major": true,
       "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/08/news-p.v1.20261108.2fe7310666084a4dad20d52eec21d0a5_R.jpeg",
       "telegram_sent": true
@@ -2363,6 +2763,13 @@
           "media": "국제뉴스",
           "time_label": "스크랩 11.08 08:24",
           "pub_timestamp": "2026-11-08T08:24:00+09:00"
+        },
+        {
+          "title": "축구 꿈나무들의 17일간 축제...'2026 경기도 꿈나무 축구대회' 폐막",
+          "link": "https://www.ypsori.com/news/articleView.html?idxno=40143",
+          "media": "YPSORI",
+          "time_label": "스크랩 11.10 16:10",
+          "pub_timestamp": "2026-11-10T16:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -4496,6 +4903,20 @@
           "media": "PAXETV",
           "time_label": "오늘 13:46",
           "pub_timestamp": "2026-11-10T13:46:00+09:00"
+        },
+        {
+          "title": "브릴스, 현대차·기아 컨퍼런스서 4족보행·휴머노이드 시연…제조현장...",
+          "link": "https://www.venturesquare.net/1127322/",
+          "media": "VENTURESQUARE",
+          "time_label": "스크랩 11.10 21:17",
+          "pub_timestamp": "2026-11-10T21:17:00+09:00"
+        },
+        {
+          "title": "브릴스, 현대차·기아 '바디감성 컨퍼런스'서 피지컬 AI 안전관제·방범...",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=49504",
+          "media": "IROBOTNEWS",
+          "time_label": "스크랩 11.10 18:50",
+          "pub_timestamp": "2026-11-10T18:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -7888,6 +8309,97 @@
           "media": "아주경제",
           "time_label": "오늘 11:20",
           "pub_timestamp": "2026-11-10T11:20:00+09:00"
+        },
+        {
+          "title": "평택 신안산선 안중 연장, 시행자 검증 단계로",
+          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=721480",
+          "media": "뉴스타운",
+          "time_label": "스크랩 11.11 00:31",
+          "pub_timestamp": "2026-11-11T00:31:00+09:00"
+        },
+        {
+          "title": "평택시, 신안산선 평택 안중 연장 본격 검증…사업 추진 기대감",
+          "link": "https://www.globalepic.co.kr/view.php?ud=2026111014592817615f69d33b22_29",
+          "media": "GLOBALEPIC",
+          "time_label": "스크랩 11.10 19:38",
+          "pub_timestamp": "2026-11-10T19:38:00+09:00"
+        },
+        {
+          "title": "평택시, 신안산선 안중 연장 타당성 검증 착수…내년 4월까지 진행",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160277112269083",
+          "media": "시민일보",
+          "time_label": "스크랩 11.10 18:52",
+          "pub_timestamp": "2026-11-10T18:52:00+09:00"
+        },
+        {
+          "title": "신안산선 안중까지 잇는다···평택시, 연장사업 검증 시작",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2490767",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.10 17:45",
+          "pub_timestamp": "2026-11-10T17:45:00+09:00"
+        },
+        {
+          "title": "평택 안중∼여의도 잇는다…신안산선 연장 타당성 검증 착수",
+          "link": "http://www.inews24.com/view/2024711",
+          "media": "INEWS24",
+          "time_label": "스크랩 11.10 17:17",
+          "pub_timestamp": "2026-11-10T17:17:00+09:00"
+        },
+        {
+          "title": "평택시 '신안산선 안중 연장사업' 타당성 검증 용역 착수",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040515",
+          "media": "기호일보",
+          "time_label": "스크랩 11.10 17:02",
+          "pub_timestamp": "2026-11-10T17:02:00+09:00"
+        },
+        {
+          "title": "신안산선 안중 연장사업, 실현 가능성 검증 착수…평택 서부권 철도망 ...",
+          "link": "https://news.ifm.kr/news/articleView.html?idxno=484008",
+          "media": "경인방송",
+          "time_label": "스크랩 11.10 17:00",
+          "pub_timestamp": "2026-11-10T17:00:00+09:00"
+        },
+        {
+          "title": "평택시, '신안산선 안중 연장사업' 타당성 검증 착수…6개월간 실시",
+          "link": "https://www.newspim.com/news/view/20261110001173",
+          "media": "뉴스핌",
+          "time_label": "스크랩 11.10 16:27",
+          "pub_timestamp": "2026-11-10T16:27:00+09:00"
+        },
+        {
+          "title": "17년만에…동탄트램 '착수'",
+          "link": "https://www.mk.co.kr/article/12204025",
+          "media": "매일경제",
+          "time_label": "스크랩 11.10 16:14",
+          "pub_timestamp": "2026-11-10T16:14:00+09:00"
+        },
+        {
+          "title": "평택시, 신안산선 안중 연장 타당성 검증 착수",
+          "link": "http://www.queen.co.kr/news/articleView.html?idxno=466099",
+          "media": "QUEEN",
+          "time_label": "스크랩 11.10 16:00",
+          "pub_timestamp": "2026-11-10T16:00:00+09:00"
+        },
+        {
+          "title": "넥스트레인, 평택시 건의한 '신안산선 안중 연장사업' 타당성 검증 착수",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2016746",
+          "media": "매일일보",
+          "time_label": "스크랩 11.10 15:12",
+          "pub_timestamp": "2026-11-10T15:12:00+09:00"
+        },
+        {
+          "title": "[평택 24시] '신안산선 안중 연장' 타당성 검증 착수…평택 서부권 철도...",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=393457",
+          "media": "SISAJOURNAL",
+          "time_label": "스크랩 11.10 15:05",
+          "pub_timestamp": "2026-11-10T15:05:00+09:00"
+        },
+        {
+          "title": "여의도~송산그린시티 '신안산선', 평택 안중 연장 타당성 검증 용역 착...",
+          "link": "https://www.jasm.co.kr/news/view/324803/?sc=Naver",
+          "media": "JASM",
+          "time_label": "스크랩 11.10 14:44",
+          "pub_timestamp": "2026-11-10T14:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -9629,6 +10141,13 @@
           "media": "AGRINET",
           "time_label": "오늘 14:28",
           "pub_timestamp": "2026-11-10T14:28:00+09:00"
+        },
+        {
+          "title": "화성시, '농업인의 날' 농업 발전 결실 나눈다",
+          "link": "http://www.breaknews.com/1250048",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.11 07:50",
+          "pub_timestamp": "2026-11-11T07:50:00+09:00"
         }
       ],
       "is_major": true,
