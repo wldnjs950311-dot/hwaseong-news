@@ -1,18 +1,31 @@
 {
-  "updated_at": "2026.11.11. 12:00",
+  "updated_at": "2026.11.11. 16:00",
   "scrap_period": "전일(11.10) 08:00 ~ 금일(11.11) 08:00",
   "yesterday_label": "11.10",
   "macro_pulse": {
     "report_date": "2026-11-11",
-    "article_count": 6,
-    "overview": "금일 언론은 관내 연쇄 화재에 따른 신속한 안전 대응 상황과 첫 시립요양원 입소자 모집 등 복지 인프라 확충에 집중하는 한편, 향남읍 동 전환 추진을 둘러싼 주민 갈등과 미래 AI 산업 육성 행보를 주요하게 조명했습니다.",
+    "article_count": 15,
+    "overview": "첫 공공 요양시설인 화성 실버드림센터 입소자 모집과 복합형 돔구장 유치 본격화 등 핵심 정책이 주목받는 한편 관내 화재 사고 안전 대응과 향남읍 행정구역 개편에 따른 주민 요구가 주요 현안으로 부각되었습니다.",
     "main_points": [
-      "- [송산면 봉가리 화재 발생] 총 7개 언론사 집중 보도 - 11일 오전 송산면 봉가리 일대에서 다량의 연기를 동반한 화재가 발생해 시민 안전 우려와 신속한 현장 대응 상황이 집중 보도되었습니다.",
-      "- [시립화성 실버드림센터 입소자 모집] 총 7개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 '시립화성 실버드림센터'가 본격적인 신규 입소자 모집에 착수하며 공공 돌봄 인프라 강화 성과가 크게 부각되었습니다.",
-      "- [향남읍 동 전환 행정구역 개편 반발] 총 3개 언론사 집중 보도 - 향남읍의 인구 증가에 따른 동 전환 행정구역 개편 추진 과정에서 인프라 확충 없는 개편에 반대하는 시의회 및 주민 반발 기류가 주요 갈등 현안으로 대두되었습니다.",
-      "- [2026 AIoT 위크 코리아 참가] 테크월드 보도 - 화성특례시가 서울 코엑스 행사에 참가하여 로봇 및 인프라 실증 사례를 선보이며 지역 첨단 AI 산업 육성 속도를 높이고 있음을 알렸습니다."
+      "- [시립화성 실버드림센터 입소자 모집] 총 12개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 실버드림센터가 신규 입소자를 모집하며 공공 노인 돌봄망 확충에 본격 나섬",
+      "- [송산면 봉가리 일대 화재 발생] 총 7개 언론사 집중 보도 - 11일 오전 송산면 봉가리에서 화재가 발생해 다량의 연기가 발생함에 따라 신속한 진화 및 안전 관리가 집중 조명됨",
+      "- [향남읍 동 전환 행정체계 개편 갈등] 총 4개 언론사 집중 보도 - 급격한 인구 증가에 따른 동 전환 추진과 관련해 기반시설 선행 확충을 요구하는 시의회 및 주민 반발이 제기됨",
+      "- [스포츠·공연 복합형 돔구장(K-MARS Arena) 유치 추진] 총 4개 언론사 집중 보도 - 경기 남부 스마트 돔구장 건립을 위한 비전 컨퍼런스 개최에 이어 13일 문체부 공모 사업제안서를 공식 제출할 예정임"
     ],
     "risk_cautions": [
+      {
+        "title": "경기 화성시 철물점에서 불...다친 사람 없어",
+        "media": "YTN",
+        "link": "https://www.ytn.co.kr/_ln/0103_202611111551492714",
+        "time_label": "오늘 15:51",
+        "pub_timestamp": "2026-11-11T15:51:00+09:00",
+        "department": "안전정책과",
+        "bullets": [
+          "- 화성시 관내 철물점에서 오전 7시 5분경 화재가 발생해 6시간 반 만에 진화 완료",
+          "- 인명 피해는 발생하지 않았으나 철물점 건물 1동 전소 및 인근 비닐하우스 일부 소실",
+          "- 소방 당국 등 관계기관에서 정확한 화재 발생 원인 및 피해 규모 파악 중"
+        ]
+      },
       {
         "title": "화성시 팔레트 제조 공장서 화재...1시간여 만에 완진",
         "media": "뉴스핌",
@@ -54,17 +67,17 @@
       }
     ],
     "summary_bullets": [
-      "금일 언론은 관내 연쇄 화재에 따른 신속한 안전 대응 상황과 첫 시립요양원 입소자 모집 등 복지 인프라 확충에 집중하는 한편, 향남읍 동 전환 추진을 둘러싼 주민 갈등과 미래 AI 산업 육성 행보를 주요하게 조명했습니다.",
-      "- [송산면 봉가리 화재 발생] 총 7개 언론사 집중 보도 - 11일 오전 송산면 봉가리 일대에서 다량의 연기를 동반한 화재가 발생해 시민 안전 우려와 신속한 현장 대응 상황이 집중 보도되었습니다.",
-      "- [시립화성 실버드림센터 입소자 모집] 총 7개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 '시립화성 실버드림센터'가 본격적인 신규 입소자 모집에 착수하며 공공 돌봄 인프라 강화 성과가 크게 부각되었습니다."
+      "첫 공공 요양시설인 화성 실버드림센터 입소자 모집과 복합형 돔구장 유치 본격화 등 핵심 정책이 주목받는 한편 관내 화재 사고 안전 대응과 향남읍 행정구역 개편에 따른 주민 요구가 주요 현안으로 부각되었습니다.",
+      "- [시립화성 실버드림센터 입소자 모집] 총 12개 언론사 집중 보도 - 화성시 첫 공공 요양시설인 실버드림센터가 신규 입소자를 모집하며 공공 노인 돌봄망 확충에 본격 나섬",
+      "- [송산면 봉가리 일대 화재 발생] 총 7개 언론사 집중 보도 - 11일 오전 송산면 봉가리에서 화재가 발생해 다량의 연기가 발생함에 따라 신속한 진화 및 안전 관리가 집중 조명됨"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 5,
-        "ratio": 28
+        "count": 7,
+        "ratio": 26
       },
       {
         "id": "TRANSIT_INFRA",
@@ -78,78 +91,324 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 4,
-        "ratio": 22
+        "ratio": 15
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 5,
-        "ratio": 28
+        "count": 8,
+        "ratio": 30
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 4,
-        "ratio": 22
+        "count": 8,
+        "ratio": 30
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
+      "keyword": "실버드림센터",
+      "count": 12,
+      "category": "POLICY",
+      "dept": "노인복지과",
+      "summary": "첫 공공 요양시설인 시립 실버드림센터가 신규 입소자 모집을 시작함"
+    },
+    {
+      "rank": 2,
       "keyword": "겨울철 제설 대응체계",
       "count": 11,
       "category": "POLICY",
       "dept": "기획조정실 의회법무과",
-      "summary": "시의회 도시건설위원회가 겨울철 폭설 및 도로 결빙에 대비한 사전 제설 대책을 점검함"
+      "summary": "시의회 도시건설위원회가 폭설과 도로 결빙에 대비한 제설 대응체계를 점검함"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "keyword": "송산면 봉가리 화재",
       "count": 7,
       "category": "RISK",
       "dept": "재난안전과",
-      "summary": "송산면 봉가리 일대에서 다량의 연기를 동반한 화재가 발생해 긴급 진화 작업이 진행됨"
-    },
-    {
-      "rank": 3,
-      "keyword": "시립 실버드림센터",
-      "count": 7,
-      "category": "POLICY",
-      "dept": "노인복지과",
-      "summary": "첫 공공 요양시설인 시립 실버드림센터가 개소를 앞두고 신규 입소자 모집을 시작함"
+      "summary": "송산면 봉가리 일대에서 화재가 발생해 다량의 연기가 발생함"
     },
     {
       "rank": 4,
-      "keyword": "향남 동 전환 갈등",
-      "count": 3,
-      "category": "RISK",
-      "dept": "자치행정과",
-      "summary": "향남읍의 인구 증가에 따른 행정구역 동 전환 추진에 대해 인프라 부족을 이유로 주민 반발이 제기됨"
+      "keyword": "화성FC ECO 클래스",
+      "count": 5,
+      "category": "CULTURE",
+      "dept": "체육진흥과",
+      "summary": "화성FC가 관내 친환경 기업과 협력하여 팬 대상 친환경 교육 프로그램을 개설함"
     },
     {
       "rank": 5,
-      "keyword": "ECO 클래스",
-      "count": 3,
-      "category": "CULTURE",
-      "dept": "체육진흥과",
-      "summary": "연고 축구단이 관내 친환경 기업과 협력하여 팬들을 위한 제로웨이스트 환경 교육을 실시함"
+      "keyword": "돔구장 유치",
+      "count": 4,
+      "category": "POLICY",
+      "dept": "정책기획관",
+      "summary": "스포츠·공연 복합형 돔구장 유치를 위한 사업제안서 제출을 추진함"
     }
   ],
   "stats": {
-    "total": 268,
-    "major_count": 136,
-    "live_count": 132,
-    "today_count": 4,
+    "total": 277,
+    "major_count": 139,
+    "live_count": 138,
+    "today_count": 13,
     "scrap_count": 14,
     "yesterday_count": 2,
-    "policy": 149,
-    "culture": 86,
-    "risk": 33
+    "policy": 154,
+    "culture": 89,
+    "risk": 34
   },
   "articles": [
+    {
+      "title": "\"밥상은 든든하게, 노후는 안심하게\"…화성시, 노인 돌봄망 넓힌다",
+      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193295",
+      "originallink": "https://weekly.hankooki.com/news/articleView.html?idxno=7193295",
+      "media": "주간한국",
+      "category": "POLICY",
+      "department": "노인복지과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:54",
+      "pub_timestamp": "2026-11-11T15:54:00+09:00",
+      "bullets": [
+        "- 화성시가 취약 노인 800명을 대상으로 겨울철 먹거리를 지원하는 민관 합동 나눔 사업 추진",
+        "- 화성시 첫 시립요양시설인 '시립화성 실버드림센터'의 입소 신청을 오는 23일부터 개시 (110명 규모)",
+        "- 생활밀착형 지원과 장기요양 서비스를 연계하여 관내 고령층 복지 기반 및 돌봄 안전망 확충"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.weekly.hankooki.com/news/thumbnail/202611/7193295_254288_3415_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "경기 화성시 철물점에서 불...다친 사람 없어",
+      "link": "https://www.ytn.co.kr/_ln/0103_202611111551492714",
+      "originallink": "https://www.ytn.co.kr/_ln/0103_202611111551492714",
+      "media": "YTN",
+      "category": "RISK",
+      "department": "안전정책과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:51",
+      "pub_timestamp": "2026-11-11T15:51:00+09:00",
+      "bullets": [
+        "- 화성시 관내 철물점에서 오전 7시 5분경 화재가 발생해 6시간 반 만에 진화 완료",
+        "- 인명 피해는 발생하지 않았으나 철물점 건물 1동 전소 및 인근 비닐하우스 일부 소실",
+        "- 소방 당국 등 관계기관에서 정확한 화재 발생 원인 및 피해 규모 파악 중"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, 경기 남부 ‘스마트 돔’ 유치전 돌입…문체부 공모 제안서...",
+      "link": "https://www.kgnews.co.kr/news/article.html?no=919171",
+      "originallink": "https://www.kgnews.co.kr/news/article.html?no=919171",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "기획조정실 정책기획관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:48",
+      "pub_timestamp": "2026-11-11T15:48:00+09:00",
+      "bullets": [
+        "- 화성특례시가 문체부 공모 제안서 제출을 앞두고 복합형 돔구장 'K-MARS Arena' 건립 밑그림을 공개하며 본격 유치전에 돌입함",
+        "- 11일 동탄LH인큐베이팅센터에서 화성시연구원과 공동으로 비전 컨퍼런스를 열고 스포츠와 K-콘텐츠를 결합한 돔구장 조성 체계를 발표함",
+        "- 전문가와 시민들이 모여 기후 변화 대응형 스마트 돔 건립 방향과 완공 후 사후 운영 자립 방안 등 지속가능성을 집중 모색함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.kgnews.co.kr/data/photos/20261146/art_1794376740207_35de9b.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시 행정 현안의 두 축…도시 성장에 따른 주민 요구와 겨울철 ...",
+      "link": "https://www.joongdo.co.kr/web/view.php?key=20261111010003844",
+      "originallink": "https://www.joongdo.co.kr/web/view.php?key=20261111010003844",
+      "media": "중도일보",
+      "category": "POLICY",
+      "department": "자치행정과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:20",
+      "pub_timestamp": "2026-11-11T15:20:00+09:00",
+      "bullets": [
+        "- 화성특례시 도시 성장에 따라 향남읍 주민들을 중심으로 행정체계 개편 전 기반시설 확충 선행 요구가 제기됨",
+        "- 4개 구청 체제를 염두에 두고 제설 장비 확충 및 관제망 구축 등 겨울철 생활권 안전 사각지대 해소 대책 점검",
+        "- 특례시 출범을 앞두고 급증하는 주민 행정 수요 대응과 동절기 재난 안전 관리가 주요 행정 현안으로 부각됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.joongdo.co.kr/mnt/images/file/2026y/11m/11d/2026111101000895000038441.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 돔구장 유치 본격화…13일 사업제안서 제출",
+      "link": "https://www.news1.kr/local/gyeonggi/6350597",
+      "originallink": "https://www.news1.kr/local/gyeonggi/6350597",
+      "media": "뉴스1",
+      "category": "POLICY",
+      "department": "정책기획관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:54",
+      "pub_timestamp": "2026-11-11T14:54:00+09:00",
+      "bullets": [
+        "- 화성시가 스포츠·공연 복합형 돔구장 유치를 본격화하며 13일 사업제안서를 제출할 예정임",
+        "- 11일 동탄 LH인큐베이팅센터에서 화성시연구원과 공동으로 'K-MARS Arena 비전 콘퍼런스'를 개최함",
+        "- 콘퍼런스를 통해 돔구장 건립의 구체적인 조성 방향과 향후 시설 운영 방안을 집중 논의함"
+      ],
+      "related_articles": [
+        {
+          "title": "경기도 지자체, 돔구장 유치전 가열",
+          "link": "https://www.sedaily.com/article/20112630?ref=naver",
+          "media": "서울경제",
+          "time_label": "스크랩 11.10 17:51",
+          "pub_timestamp": "2026-11-10T17:51:00+09:00"
+        },
+        {
+          "title": "이진형 경기도의원 \"돔구장 유치 경쟁력 확보·전국체전 도내 시설 활용...",
+          "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=548500",
+          "media": "KPANEWS",
+          "time_label": "11.09 19:34",
+          "pub_timestamp": "2026-11-09T19:34:00+09:00"
+        },
+        {
+          "title": "채신덕 경기도의회 문체위원장 \"내년 전국체전 운영비 국비 250억원 확보...",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3746718",
+          "media": "국제뉴스",
+          "time_label": "11.09 18:32",
+          "pub_timestamp": "2026-11-09T18:32:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시, \"돔(Dome)이 화성을 바꾼다\" K-MARS Arena(Dome) 비전 컨퍼런...",
+      "link": "https://www.joongboo.com/news/articleView.html?idxno=363742186",
+      "originallink": "https://www.joongboo.com/news/articleView.html?idxno=363742186",
+      "media": "중부일보 - 경기·인천의 든든한 친구",
+      "category": "POLICY",
+      "department": "기업투자실 첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:52",
+      "pub_timestamp": "2026-11-11T14:52:00+09:00",
+      "bullets": [
+        "- 화성특례시와 화성시연구원은 동탄LH인큐베이팅센터에서 'K-MARS Arena(Dome) 비전 컨퍼런스'를 개최함",
+        "- 시는 1조 원대 사업비 규모의 2만 5,000석 스포츠·공연 복합형 돔구장 유치를 적극 추진 중임",
+        "- 경기남부 중심의 지리적 입지와 수도권 광역교통망을 앞세워 문화·관광·경제 성장의 핵심축으로 육성할 계획임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.joongboo.com/news/photo/202611/363742186_2523238_2101.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, \"농업발전 기여\" 농업인대상 시상…6명은 누구?",
+      "link": "https://www.newsis.com/view/NISX20261111_0003863017",
+      "originallink": "https://www.newsis.com/view/NISX20261111_0003863017",
+      "media": "뉴시스",
+      "category": "CULTURE",
+      "department": "농업정책과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:46",
+      "pub_timestamp": "2026-11-11T14:46:00+09:00",
+      "bullets": [
+        "- 화성시는 농업기술센터 햇살마당에서 '제31회 농업인의 날' 기념행사를 개최함",
+        "- 지역 농업 발전에 기여한 농업인을 격려하며 6개 부문 농업인대상을 수여함",
+        "- 경종·축산·과수화훼·채소 등 각 분야에서 이주양, 김용주, 박병욱, 홍점선 등이 수상자로 선정됨"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/11/11/NISI20261111_0002289065_web.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시의회, 농업인 격려하며 우리 쌀 소비 촉진 동참",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491158",
+      "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491158",
+      "media": "이뉴스투데이",
+      "category": "CULTURE",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:00",
+      "pub_timestamp": "2026-11-11T14:00:00+09:00",
+      "bullets": [
+        "- 화성특례시의회가 11일 화성시 농업기술센터에서 열린 '제31회 농업인의 날 기념행사'에 참석해 농업인을 격려함",
+        "- 화성시 주최·생활개선회 화성시연합회 주관으로 우수농업인 시상 및 쌀 소비 촉진 가래떡 커팅식 등이 진행됨",
+        "- 시의회는 지역 농업의 한 해 결실을 축하하고 우리 쌀 소비 촉진과 농업인의 자긍심 고취에 뜻을 모음"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2491158_1337754_3937_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[11일 화성시]정조효노인복지관, 김장 나눔 실천 등",
+      "link": "https://www.asiatime.co.kr/article/20261111500241",
+      "originallink": "https://www.asiatime.co.kr/article/20261111500241",
+      "media": "아시아타임즈",
+      "category": "CULTURE",
+      "department": "중장년노인과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:26",
+      "pub_timestamp": "2026-11-11T13:26:00+09:00",
+      "bullets": [
+        "- 화성시 정조효노인복지관이 용주사 템플스테이 앞마당에서 '사랑의 김장행사'를 개최함",
+        "- 저소득층 및 취약계층 어르신의 겨울나기 지원을 위해 김장김치와 쌀을 전달할 예정임",
+        "- 정명근 화성특례시장과 지역 후원기관 관계자, 자원봉사자 등 120여 명이 참여함"
+      ],
+      "related_articles": [
+        {
+          "title": "정조효노인복지관, 어르신 800명에 김장김치·동치미 6410㎏ 나눔",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491150",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 13:20",
+          "pub_timestamp": "2026-11-11T13:20:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/11/.cache/512/20261111500243.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "수원시, 화성·용인시와 고향사랑기부제 교차 홍보",
       "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5082076",
@@ -231,6 +490,13 @@
           "media": "경인일보",
           "time_label": "스크랩 11.10 20:10",
           "pub_timestamp": "2026-11-10T20:10:00+09:00"
+        },
+        {
+          "title": "주민 반대 직면한 '향남읍 동 전환' 문제…화성시의회가 해결사로 나섰...",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261111010004143",
+          "media": "ASIATODAY",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-11T14:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -322,6 +588,41 @@
           "media": "스포츠서울",
           "time_label": "오늘 09:00",
           "pub_timestamp": "2026-11-11T09:00:00+09:00"
+        },
+        {
+          "title": "화성시, 첫 시립요양원 '실버드림센터' 입소자 110명 모집",
+          "link": "https://www.yna.co.kr/view/AKR20261111121700061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 14:56",
+          "pub_timestamp": "2026-11-11T14:56:00+09:00"
+        },
+        {
+          "title": "화성시 첫 시립요양원 ‘실버드림센터’ 입소자 모집… 내년 1월부터 순...",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/11/2026111100202.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:04",
+          "pub_timestamp": "2026-11-11T14:04:00+09:00"
+        },
+        {
+          "title": "화성특례시 첫 시립요양원 '실버드림센터' 110명 입소자 모집",
+          "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=93823",
+          "media": "더페어",
+          "time_label": "오늘 13:48",
+          "pub_timestamp": "2026-11-11T13:48:00+09:00"
+        },
+        {
+          "title": "화성특례시, '시립화성 실버드림센터' 입소자 110명 모집",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017103",
+          "media": "매일일보",
+          "time_label": "오늘 13:08",
+          "pub_timestamp": "2026-11-11T13:08:00+09:00"
+        },
+        {
+          "title": "첫 시립요양원 ‘시립화성 실버드림센터’ 내년 1월 개원",
+          "link": "https://news-s.kr/view.html?id=L2611111215020ffd",
+          "media": "NEWS-S",
+          "time_label": "오늘 12:20",
+          "pub_timestamp": "2026-11-11T12:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -667,6 +968,20 @@
           "media": "NEWSCLAIM",
           "time_label": "스크랩 11.10 18:12",
           "pub_timestamp": "2026-11-10T18:12:00+09:00"
+        },
+        {
+          "title": "[화성소식]화성FC, 친환경 체험 'ECO클래스' 운영 등",
+          "link": "https://www.newsis.com/view/NISX20261111_0003863291",
+          "media": "뉴시스",
+          "time_label": "오늘 14:41",
+          "pub_timestamp": "2026-11-11T14:41:00+09:00"
+        },
+        {
+          "title": "화성FC, 지역기업 지구스토리와 친환경 체험 ‘ECO 클래스’ 운영",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/11/2026111100210.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:08",
+          "pub_timestamp": "2026-11-11T14:08:00+09:00"
         }
       ],
       "is_major": true,
@@ -1362,6 +1677,20 @@
           "media": "스포츠서울",
           "time_label": "오늘 08:48",
           "pub_timestamp": "2026-11-11T08:48:00+09:00"
+        },
+        {
+          "title": "‘청년이 정착하는 어촌 조성’…화성시, 백미·도리도항 재생사업",
+          "link": "https://www.donga.com/news/Society/article/all/20261111/135004970/1",
+          "media": "동아일보",
+          "time_label": "오늘 14:38",
+          "pub_timestamp": "2026-11-11T14:38:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"인스타그램 이름·사진 사칭 계정 주의\"",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363742170",
+          "media": "중부일보",
+          "time_label": "오늘 14:08",
+          "pub_timestamp": "2026-11-11T14:08:00+09:00"
         }
       ],
       "is_major": true,
@@ -1443,6 +1772,13 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 08:50",
           "pub_timestamp": "2026-11-11T08:50:00+09:00"
+        },
+        {
+          "title": "\"아파트는 늘어나는데 기반시설은 제자리\"…화성 향남읍 동 전환에 주민...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193249",
+          "media": "HANKOOKI",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-11-11T15:52:00+09:00"
         }
       ],
       "is_major": true,
@@ -2082,6 +2418,13 @@
           "media": "세계일보",
           "time_label": "스크랩 11.10 05:32",
           "pub_timestamp": "2026-11-10T05:32:00+09:00"
+        },
+        {
+          "title": "K-장애예술 가능성 조명 '2026 마포 배리어프리 콘서트' 성료",
+          "link": "https://www.ablenews.co.kr/news/articleView.html?idxno=234506",
+          "media": "ABLENEWS",
+          "time_label": "오늘 13:56",
+          "pub_timestamp": "2026-11-11T13:56:00+09:00"
         }
       ],
       "is_major": true,
@@ -2894,6 +3237,13 @@
           "media": "LAWLEADER",
           "time_label": "오늘 12:58",
           "pub_timestamp": "2026-11-10T12:58:00+09:00"
+        },
+        {
+          "title": "화성특례시, 용주사와 사랑의 김장행사…취약계층 어르신 800명 지원",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017246",
+          "media": "매일일보",
+          "time_label": "오늘 14:34",
+          "pub_timestamp": "2026-11-11T14:34:00+09:00"
         }
       ],
       "is_major": true,
@@ -5175,6 +5525,13 @@
           "media": "IROBOTNEWS",
           "time_label": "스크랩 11.10 18:50",
           "pub_timestamp": "2026-11-10T18:50:00+09:00"
+        },
+        {
+          "title": "신미정 화성시의원, 시민 안전·복지 증진 공로 의정대상 수상",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5082289",
+          "media": "SHINAILBO",
+          "time_label": "오늘 15:30",
+          "pub_timestamp": "2026-11-11T15:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -9603,6 +9960,20 @@
           "media": "문화일보",
           "time_label": "오늘 11:43",
           "pub_timestamp": "2026-11-10T11:43:00+09:00"
+        },
+        {
+          "title": "\"집값·생활비 다 잡았다\"…우수한 생활 편의성 갖춘 '향남역 그로브 스...",
+          "link": "https://www.thegolftimes.co.kr/news/articleView.html?idxno=82300",
+          "media": "THEGOLFTIMES",
+          "time_label": "오늘 15:38",
+          "pub_timestamp": "2026-11-11T15:38:00+09:00"
+        },
+        {
+          "title": "﻿\"집값만이 부담 아니다\"…생활비까지 고려한 주거 선택, '향남역 그로...",
+          "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92489",
+          "media": "WOODKOREA",
+          "time_label": "오늘 14:58",
+          "pub_timestamp": "2026-11-11T14:58:00+09:00"
         }
       ],
       "is_major": true,
@@ -10427,6 +10798,41 @@
           "media": "브레이크뉴스",
           "time_label": "스크랩 11.11 07:50",
           "pub_timestamp": "2026-11-11T07:50:00+09:00"
+        },
+        {
+          "title": "화성특례시, 제31회 농업인의 날 기념행사 개최…\"농업인과 함께하는 미...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397664",
+          "media": "FNTODAY",
+          "time_label": "오늘 15:06",
+          "pub_timestamp": "2026-11-11T15:06:00+09:00"
+        },
+        {
+          "title": "화성특례시, '제31회 농업인의 날' 기념행사서 농업인 36명 시상",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017251",
+          "media": "매일일보",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-11T14:30:00+09:00"
+        },
+        {
+          "title": "화성시, 제31회 농업인의 날 기념행사 개최… 농업인 노고 격려",
+          "link": "https://www.asiatime.co.kr/article/20261111500237",
+          "media": "ASIATIME",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-11T14:02:00+09:00"
+        },
+        {
+          "title": "\"농민이 만든 농업인의 날\"… 화성특례시, 제31회 기념행사 성료",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919107",
+          "media": "경기일보",
+          "time_label": "오늘 13:30",
+          "pub_timestamp": "2026-11-11T13:30:00+09:00"
+        },
+        {
+          "title": "화성특례시, '제31회 농업인의 날'에 농업인 36명 시상",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491147",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 13:10",
+          "pub_timestamp": "2026-11-11T13:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -12738,6 +13144,13 @@
           "media": "FPN119",
           "time_label": "오늘 09:20",
           "pub_timestamp": "2026-11-10T09:20:00+09:00"
+        },
+        {
+          "title": "‘화성 향남 롯데캐슬 시그니처‘ 당첨자 서류 접수, 정당계약 진행",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111215462630570",
+          "media": "DNEWS",
+          "time_label": "오늘 12:20",
+          "pub_timestamp": "2026-11-11T12:20:00+09:00"
         }
       ],
       "is_major": true,
