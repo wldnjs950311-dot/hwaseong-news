@@ -1,18 +1,44 @@
 {
-  "updated_at": "2026.11.12. 12:00",
+  "updated_at": "2026.11.12. 16:00",
   "scrap_period": "전일(11.11) 08:00 ~ 금일(11.12) 08:00",
   "yesterday_label": "11.11",
   "macro_pulse": {
     "report_date": "2026-11-12",
-    "article_count": 11,
-    "overview": "금일 언론은 민선8기 핵심 공약인 봉담어린이병원 착공과 향남 HLB제약 신공장 착공 등 복지·의료 및 바이오 산업 인프라 확충과 미래 신성장 동력인 우주항공산업 육성 구상에 주목했습니다.",
+    "article_count": 25,
+    "overview": "대규모 인프라 확충인 복합 돔구장 건립 추진과 HLB제약 신공장 및 봉담어린이병원 착공, 우주산업 허브 도약 선포 등 미래 성장 기반과 복지 안전망 구축에 언론 보도가 집중되었습니다.",
     "main_points": [
-      "- [HLB제약 향남 신공장 착공식] 총 7개 언론사 집중 보도 - 향남읍 상신리에 550억 원 규모의 생산 공장을 착공하여 글로벌 바이오 생산 기지로의 도약 발판을 마련했습니다.",
-      "- [봉담어린이병원 건립사업 착공식] 총 6개 언론사 집중 보도 - 민선8기 핵심 공약사업인 어린이병원이 2028년 개원을 목표로 본격적인 공사에 돌입해 소아의료 안전망 강화가 기대됩니다.",
-      "- [화성특례시의회 의원연구단체 연구용역 최종보고회] 총 3개 언론사 집중 보도 - 보건복지 표준화 및 복합리조트 유치를 위한 정책 연구를 마무리하고 구체적인 시정 추진 방향을 공유했습니다.",
-      "- [우주항공산업 추진단 출범식 및 포럼] 총 2개 언론사 집중 보도 - 저궤도 위성통신 지상 관문 구축과 민간 우주 클러스터 조성을 중심으로 한 차세대 우주산업 거점 육성 방향을 논의했습니다."
+      "- [진안동 복합 돔구장 건립 추진] 총 51개 언론사 집중 보도 - 진안동 일원에 약 9천억 원을 투입하는 2만 석 규모 스포츠·공연 복합 돔구장 건립 추진과 이에 따른 사업비 및 수요 검증 과제가 집중 조명됨",
+      "- [HLB제약 향남 신공장 착공식] 총 51개 언론사 집중 보도 - 향남읍 상신리에 550억 원 규모의 글로벌 생산 기지 착공식을 열고 바이오 산업 기반을 대폭 확충함",
+      "- [화성특례시 봉담어린이병원 착공] 총 16개 언론사 집중 보도 - 민선8기 공약사업인 소아의료 인프라 확충을 위해 2028년 개원을 목표로 본격적인 공사에 돌입함",
+      "- [우주산업 허브 도약 선포] 총 6개 언론사 집중 보도 - 우수한 산업 인프라 역량을 바탕으로 위성통신 지상 관문 구축 논의 등 우주산업 거점 육성 비전을 공식 선포함"
     ],
     "risk_cautions": [
+      {
+        "title": "[기자수첩] 호황의 세수로 짓는 돔구장, 불황의 운영비는 누가 감당하나",
+        "media": "뉴스프리존",
+        "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=719068",
+        "time_label": "오늘 15:50",
+        "pub_timestamp": "2026-11-12T15:50:00+09:00",
+        "department": "체육진흥과",
+        "bullets": [
+          "- 화성시가 최대 2만 5,000석 규모의 돔구장 건립 및 유치를 구상하며 지자체 간 경쟁에 나섬",
+          "- 과거 화옹지구 과천 경마장 유치 추진 등 잇따른 대형 유치 사업과 맞물려 시정 추진 배경 언급",
+          "- 호황기 세수를 전제로 한 대규모 인프라 조성 후 불황 시 장기적인 운영비와 재정 부담 우려 제기"
+        ]
+      },
+      {
+        "title": "화성시 9천억 돔구장 추진… 수요·사업비 검증 과제",
+        "media": "경인일보",
+        "link": "https://www.kyeongin.com/article/1774631",
+        "time_label": "오늘 13:54",
+        "pub_timestamp": "2026-11-12T13:54:00+09:00",
+        "department": "정책기획관",
+        "bullets": [
+          "- 화성시가 진안동 일원에 약 9천억 원을 투입해 2만 석 규모의 스포츠·공연 복합 돔구장 건립 추진",
+          "- 프로야구단 유치 미확정 및 사업부지 내 사유지 비중 84% 등 사업 실현 가능성에 대한 과제 산적",
+          "- 제시된 사업비에 돔 지붕 구조 공사비가 미반영되어 향후 사업비 대폭 증가 우려 제기"
+        ]
+      },
       {
         "title": "오진택 경기도의원 “전기버스 화재 초기 대응 체계, 화성-오산 택시 구...",
         "media": "NSP통신",
@@ -28,102 +54,809 @@
       }
     ],
     "summary_bullets": [
-      "금일 언론은 민선8기 핵심 공약인 봉담어린이병원 착공과 향남 HLB제약 신공장 착공 등 복지·의료 및 바이오 산업 인프라 확충과 미래 신성장 동력인 우주항공산업 육성 구상에 주목했습니다.",
-      "- [HLB제약 향남 신공장 착공식] 총 7개 언론사 집중 보도 - 향남읍 상신리에 550억 원 규모의 생산 공장을 착공하여 글로벌 바이오 생산 기지로의 도약 발판을 마련했습니다.",
-      "- [봉담어린이병원 건립사업 착공식] 총 6개 언론사 집중 보도 - 민선8기 핵심 공약사업인 어린이병원이 2028년 개원을 목표로 본격적인 공사에 돌입해 소아의료 안전망 강화가 기대됩니다."
+      "대규모 인프라 확충인 복합 돔구장 건립 추진과 HLB제약 신공장 및 봉담어린이병원 착공, 우주산업 허브 도약 선포 등 미래 성장 기반과 복지 안전망 구축에 언론 보도가 집중되었습니다.",
+      "- [진안동 복합 돔구장 건립 추진] 총 51개 언론사 집중 보도 - 진안동 일원에 약 9천억 원을 투입하는 2만 석 규모 스포츠·공연 복합 돔구장 건립 추진과 이에 따른 사업비 및 수요 검증 과제가 집중 조명됨",
+      "- [HLB제약 향남 신공장 착공식] 총 51개 언론사 집중 보도 - 향남읍 상신리에 550억 원 규모의 글로벌 생산 기지 착공식을 열고 바이오 산업 기반을 대폭 확충함"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 5,
-        "ratio": 19
+        "count": 8,
+        "ratio": 20
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 1,
-        "ratio": 4
+        "count": 2,
+        "ratio": 5
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 2,
-        "ratio": 7
+        "count": 6,
+        "ratio": 15
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 10,
-        "ratio": 37
+        "count": 13,
+        "ratio": 32
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 9,
-        "ratio": 33
+        "count": 12,
+        "ratio": 29
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "경기남부 돔구장 건립",
-      "count": 80,
+      "keyword": "경기남부 돔구장",
+      "count": 138,
       "category": "POLICY",
-      "dept": "기획조정실 정책기획관",
-      "summary": "스포츠와 문화예술 공연이 가능한 대규모 복합형 돔구장 건립 및 유치 사업제안서 제출이 가시화됨"
+      "dept": "정책기획관",
+      "summary": "진안동 일원에 약 9천억 원을 투입하는 2만 석 규모의 스포츠·공연 복합 돔구장 건립을 본격화하며 사업제안서 제출과 사업비 검증 과제가 함께 부각됨"
     },
     {
       "rank": 2,
-      "keyword": "향남읍 동 전환 갈등",
-      "count": 7,
-      "category": "RISK",
-      "dept": "자치행정과",
-      "summary": "인구 증가에 따른 향남읍의 일반동 전환 행정구역 개편을 두고 인프라 부족 등을 이유로 주민 반발이 확산됨"
+      "keyword": "HLB제약 향남 신공장",
+      "count": 51,
+      "category": "POLICY",
+      "dept": "기업투자실",
+      "summary": "HLB제약이 향남읍 상신리에 550억 원을 투입해 글로벌 생산 기지로 도약할 신공장 착공식을 개최함"
     },
     {
       "rank": 3,
-      "keyword": "HLB제약 향남 신공장",
-      "count": 7,
+      "keyword": "봉담어린이병원",
+      "count": 16,
       "category": "POLICY",
-      "dept": "기업투자실",
-      "summary": "HLB제약이 550억 원을 투입해 향남읍 상신리에 글로벌 생산 기지가 될 신공장 착공에 돌입함"
+      "dept": "서부보건소 보건행정과",
+      "summary": "민선8기 공약사업인 봉담어린이병원이 착공식을 열고 본격 공사에 들어가 2028년 개원을 목표로 함"
     },
     {
       "rank": 4,
-      "keyword": "봉담어린이병원 건립",
-      "count": 6,
+      "keyword": "우주산업 허브",
+      "count": 9,
       "category": "POLICY",
-      "dept": "서부보건소 보건행정과",
-      "summary": "소아 의료 공백 해소를 위한 민선 8기 공약인 봉담어린이병원이 착공식을 갖고 2028년 개원을 목표로 공사에 착수함"
+      "dept": "첨단산업과",
+      "summary": "위성통신 지상 관문 구축 및 민간 클러스터 조성을 중심으로 우주산업 허브 도약을 공식 선포함"
     },
     {
       "rank": 5,
-      "keyword": "복합리조트 유치 정책연구",
-      "count": 3,
-      "category": "POLICY",
-      "dept": "의회사무국",
-      "summary": "시의회 연구단체가 서부권 관광 활성화를 위한 복합리조트 유치 및 보건복지 표준화 연구용역을 마무리함"
+      "keyword": "향남읍 동 전환",
+      "count": 8,
+      "category": "RISK",
+      "dept": "자치행정과",
+      "summary": "인구 증가에 따른 향남읍의 동 전환 행정구역 개편에 대해 인프라 확충 부족을 이유로 주민과 시의회의 반발이 일어남"
     }
   ],
   "stats": {
-    "total": 291,
-    "major_count": 146,
-    "live_count": 145,
-    "today_count": 11,
+    "total": 305,
+    "major_count": 154,
+    "live_count": 151,
+    "today_count": 25,
     "scrap_count": 16,
     "yesterday_count": 2,
-    "policy": 162,
-    "culture": 94,
-    "risk": 35
+    "policy": 170,
+    "culture": 98,
+    "risk": 37
   },
   "articles": [
+    {
+      "title": "[기자수첩] 호황의 세수로 짓는 돔구장, 불황의 운영비는 누가 감당하나",
+      "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=719068",
+      "originallink": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=719068",
+      "media": "뉴스프리존",
+      "category": "RISK",
+      "department": "체육진흥과",
+      "dept_label": "소관",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:50",
+      "pub_timestamp": "2026-11-12T15:50:00+09:00",
+      "bullets": [
+        "- 화성시가 최대 2만 5,000석 규모의 돔구장 건립 및 유치를 구상하며 지자체 간 경쟁에 나섬",
+        "- 과거 화옹지구 과천 경마장 유치 추진 등 잇따른 대형 유치 사업과 맞물려 시정 추진 배경 언급",
+        "- 호황기 세수를 전제로 한 대규모 인프라 조성 후 불황 시 장기적인 운영비와 재정 부담 우려 제기"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.newsfreezone.co.kr/news/thumbnail/202611/719068_768449_4823_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의회, 복지·관광·골목경제 잇는 지역정책 밑그림 마련",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=902906",
+      "originallink": "https://www.newsworks.co.kr/news/articleView.html?idxno=902906",
+      "media": "NEWSWORKS",
+      "category": "POLICY",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:48",
+      "pub_timestamp": "2026-11-12T15:48:00+09:00",
+      "bullets": [
+        "- 화성특례시의회 의원연구단체들이 복지 서비스 격차 해소와 체류형 관광, 골목경제 연계 등을 다룬 정책 과제를 제시함",
+        "- 보건복지 표준화 연구회는 가족 건강, 돌봄, 보건복지 서비스 표준화 및 통합지원 디지털 기반 구축을 논의하는 연구용역 최종보고회를 개최함",
+        "- 연구단체들은 지역 서비스의 균등 제공과 지역 내 소비 가치 보존을 위한 실행 체계 마련 및 민관 협력의 중요성을 강조함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsworks.co.kr/news/photo/202611/902906_904029_338.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시, 청년정책조정위원회 출범… 청년 참여 확대",
+      "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256660177632",
+      "originallink": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256660177632",
+      "media": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256660177632",
+      "category": "POLICY",
+      "department": "청년청소년과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:30",
+      "pub_timestamp": "2026-11-12T15:30:00+09:00",
+      "bullets": [
+        "- 화성시가 '2026년 제3회 청년정책조정위원회'를 개최하고 제4기 위원 20명을 위촉함",
+        "- 올해 청년정책 추진 상황을 점검하고 미래기술학교, 해외연수 등 청년 역량 강화 사업 추진을 확인함",
+        "- 청년정책 아이디어 공모전 및 청년참여예산 등을 통해 2027년 청년 시정 참여를 확대할 계획임"
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시 청년정책위원회 4기 출범… 청년 참여 확대",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082369",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 12:48",
+          "pub_timestamp": "2026-11-12T12:48:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://www.siminilbo.co.kr/news/data/20261112/p1160256660177632_811_thum.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성은 중규모·평택은 대규모…경머장 유치선언에 이어진 경기남부 돔...",
+      "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=719054",
+      "originallink": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=719054",
+      "media": "뉴스프리존",
+      "category": "POLICY",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:30",
+      "pub_timestamp": "2026-11-12T15:30:00+09:00",
+      "bullets": [
+        "- 화성시가 정부의 스포츠·공연 복합형 돔구장 유치전에 본격 참여 추진",
+        "- 병점역 인근 부지에 2만 5,000석 규모의 중규모 돔구장 건립 구상",
+        "- 경기도의 규모별 추천을 거쳐 문체부가 12월 말 최종 후보지를 선정할 예정"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsfreezone.co.kr/news/thumbnail/202611/719054_768441_288_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "K리그2 화성FC 마스코트 '마스', 등굣길 교통안전 캠페인 진행",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040778",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040778",
+      "media": "기호일보",
+      "category": "CULTURE",
+      "department": "체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:14",
+      "pub_timestamp": "2026-11-12T15:14:00+09:00",
+      "bullets": [
+        "- 화성FC 마스코트 '마스'가 화성시 하길초등학교에서 학부모회와 함께 등굣길 교통안전 캠페인 전개",
+        "- 지역 학교 및 기관을 찾아 시민과 교류하는 '마스가 간다' 17번째 일정으로 학생 보행 안전 수칙 안내",
+        "- 화성시 연고 프로축구단으로서 지역 아동의 안전한 통학로 조성을 위한 사회공헌 활동 지속"
+      ],
+      "related_articles": [
+        {
+          "title": "'등굣길 안전에 달콤한 선물까지'… 화성 FC 마스코트 '마스', 하길초등...",
+          "link": "https://www.besteleven.com/news/articleView.html?idxno=313988",
+          "media": "BESTELEVEN",
+          "time_label": "오늘 14:49",
+          "pub_timestamp": "2026-11-12T14:49:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3040778_585508_1232.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 착한가격업소 130곳 확대 지정…전년비 32.7% ↑",
+      "link": "https://www.newspim.com/news/view/20261112001072",
+      "originallink": "https://www.newspim.com/news/view/20261112001072",
+      "media": "뉴스핌",
+      "category": "POLICY",
+      "department": "소상공인과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:03",
+      "pub_timestamp": "2026-11-12T15:03:00+09:00",
+      "bullets": [
+        "- 화성시가 물가 안정과 서민 부담 완화를 위해 관내 착한가격업소를 130개소로 전년 대비 32.7% 확대 지정함",
+        "- 착한가격업소는 저렴한 가격과 우수한 위생 상태를 갖춘 업소를 엄선해 행정적 지원을 제공하는 제도임",
+        "- 시는 연말까지 해당 업소에서 화성지역화폐로 결제할 경우 5% 추가 캐시백을 지원해 이용 활성화를 유도함"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, 착한가격업소 130곳으로 확대…1년여 만에 32곳 증가",
+          "link": "https://www.asiatime.co.kr/article/20261112500245",
+          "media": "ASIATIME",
+          "time_label": "오늘 13:34",
+          "pub_timestamp": "2026-11-12T13:34:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img.newspim.com/news/2026/11/12/2611121456007170_t1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 우주산업 허브 도약 선포",
+      "link": "http://www.breaknews.com/1250511",
+      "originallink": "http://www.breaknews.com/1250511",
+      "media": "브레이크뉴스",
+      "category": "POLICY",
+      "department": "첨단산업과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:00",
+      "pub_timestamp": "2026-11-12T15:00:00+09:00",
+      "bullets": [
+        "- 화성시가 우수한 산업 인프라 역량을 바탕으로 우주산업 허브로의 도약을 공식 선포함",
+        "- 기조 발표를 통해 화성시가 위성통신 지상 관문(Teleport) 구축의 최적 입지임이 강조됨",
+        "- 지역의 첨단 제조 역량과 연계하여 차세대 우주·위성통신 산업 생태계 조성을 추진함"
+      ],
+      "related_articles": [
+        {
+          "title": "최경일 KT SAT 대표 “화성시, 아시아 우주산업 허브로 육성해야”",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/12/2026111200180.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-12T14:30:00+09:00"
+        },
+        {
+          "title": "최경일 KT SAT 대표이사, 화성시에 위성통신 지상 관문 구축 제안",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017766",
+          "media": "매일일보",
+          "time_label": "오늘 13:16",
+          "pub_timestamp": "2026-11-12T13:16:00+09:00"
+        },
+        {
+          "title": "화성특례시, 위성통신 지상 관문 구축 논의…우주산업 거점 육성 구상",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491634",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 11:40",
+          "pub_timestamp": "2026-11-12T11:40:00+09:00"
+        },
+        {
+          "title": "최경일 KT SAT 대표 “화성시, 저궤도 위성통신 관문 적지”",
+          "link": "https://view.asiae.co.kr/article/2026111211245175378",
+          "media": "아시아경제",
+          "time_label": "오늘 11:24",
+          "pub_timestamp": "2026-11-12T11:24:00+09:00"
+        },
+        {
+          "title": "화성특례시, 우주항공산업 육성 본격화…우주산업 거점 추진",
+          "link": "http://www.paxetv.com/news/articleView.html?idxno=286725",
+          "media": "PAXETV",
+          "time_label": "오늘 11:18",
+          "pub_timestamp": "2026-11-12T11:18:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시장 vs 부천시장, 자매결연 30년 '우정의 탁구 대결'",
+      "link": "https://www.newsis.com/view/NISX20261112_0003864629",
+      "originallink": "https://www.newsis.com/view/NISX20261112_0003864629",
+      "media": "뉴시스",
+      "category": "CULTURE",
+      "department": "교육체육국 체육진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:55",
+      "pub_timestamp": "2026-11-12T14:55:00+09:00",
+      "bullets": [
+        "- 화성시와 부천시가 화성종합경기타운에서 자매결연 30주년 기념 탁구 교류전을 개최함",
+        "- 정명근 화성시장과 조용익 부천시장이 탁구 동호회원들과 함께 친선 경기를 치름",
+        "- 양 도시는 자매결연 30주년 기념패를 교환하며 지속적인 우호 협력 관계를 다짐함"
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성-부천 자매결연 30주년, 탁구로 우정 다져",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801869",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-12T14:46:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img1.newsis.com/2026/11/12/NISI20261112_0002290296_web.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "용주사와 복지관 함께 지역사회에 전한 따뜻한 선물",
+      "link": "http://www.ibulgyo.com/news/articleView.html?idxno=444143",
+      "originallink": "http://www.ibulgyo.com/news/articleView.html?idxno=444143",
+      "media": "불교신문",
+      "category": "CULTURE",
+      "department": "중장년노인과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:46",
+      "pub_timestamp": "2026-11-12T14:46:00+09:00",
+      "bullets": [
+        "- 화성시정조효노인복지관과 용주사는 11월 11일 취약계층 어르신 800세대를 위한 '김장김치 지원행사'를 개최함",
+        "- 정명근 화성시장과 시의회 의장, 자원봉사자 등 100여 명이 참석해 직접 김치를 담그며 온정을 나눔",
+        "- 화성시복지재단과 용주사가 쌀 3,200kg을 전달하는 등 민관 협력으로 지역사회 나눔 복지를 실천함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.ibulgyo.com/news/thumbnail/202611/444143_482807_4234_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 9천억 돔구장 추진… 수요·사업비 검증 과제",
+      "link": "https://www.kyeongin.com/article/1774631",
+      "originallink": "https://www.kyeongin.com/article/1774631",
+      "media": "경인일보",
+      "category": "RISK",
+      "department": "정책기획관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:54",
+      "pub_timestamp": "2026-11-12T13:54:00+09:00",
+      "bullets": [
+        "- 화성시가 진안동 일원에 약 9천억 원을 투입해 2만 석 규모의 스포츠·공연 복합 돔구장 건립 추진",
+        "- 프로야구단 유치 미확정 및 사업부지 내 사유지 비중 84% 등 사업 실현 가능성에 대한 과제 산적",
+        "- 제시된 사업비에 돔 지붕 구조 공사비가 미반영되어 향후 사업비 대폭 증가 우려 제기"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시 'K-MARS 돔구장' 건립 추진...9천억 투입",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040736",
+          "media": "기호일보",
+          "time_label": "오늘 13:04",
+          "pub_timestamp": "2026-11-12T13:04:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장, 'K-MARS 돔' 후보지 공모 제안서 제출 계획",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017763",
+          "media": "매일일보",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-12T13:02:00+09:00"
+        },
+        {
+          "title": "화성시의회, 'K-MARS Arena 비전 컨퍼런스'서 돔구장 논의",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017743",
+          "media": "매일일보",
+          "time_label": "오늘 12:56",
+          "pub_timestamp": "2026-11-12T12:56:00+09:00"
+        },
+        {
+          "title": "\"야구부터 K팝 공연까지\"…화성시, 'K-MARS 돔' 유치전 본격 가세",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193454",
+          "media": "HANKOOKI",
+          "time_label": "오늘 12:48",
+          "pub_timestamp": "2026-11-12T12:48:00+09:00"
+        },
+        {
+          "title": "화성특례시 'K-MARS 돔' 비전 제시, 13일 제안서 제출",
+          "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1106594",
+          "media": "DISCOVERYNEWS",
+          "time_label": "오늘 12:20",
+          "pub_timestamp": "2026-11-12T12:20:00+09:00"
+        },
+        {
+          "title": "화성시, 'K-MARS 돔' 유치 본격화…13일 사업제안서 제출",
+          "link": "https://www.news1.kr/local/gyeonggi/6351822",
+          "media": "뉴스1",
+          "time_label": "오늘 12:17",
+          "pub_timestamp": "2026-11-12T12:17:00+09:00"
+        },
+        {
+          "title": "[경기] 화성시, 돔구장 유치전 가세...\"자체 재원 강점\"",
+          "link": "https://www.ytn.co.kr/_ln/0115_202611121200343113",
+          "media": "YTN",
+          "time_label": "오늘 12:00",
+          "pub_timestamp": "2026-11-12T12:00:00+09:00"
+        },
+        {
+          "title": "화성 K-MARS 돔, 경기 남부 문화산업 판 바꿀까…유치 이후의 경제성에...",
+          "link": "https://www.joongdo.co.kr/web/view.php?key=20261112010004106",
+          "media": "JOONGDO",
+          "time_label": "오늘 11:56",
+          "pub_timestamp": "2026-11-12T11:56:00+09:00"
+        },
+        {
+          "title": "화성특례시, 'K-MARS 돔' 건립 도전…문체부 후보지 공모 본격화",
+          "link": "https://www.pressian.com/pages/articles/2026111211022564966?utm_source=naver&utm_medium=search",
+          "media": "프레시안",
+          "time_label": "오늘 11:03",
+          "pub_timestamp": "2026-11-12T11:03:00+09:00"
+        },
+        {
+          "title": "화성시 ‘K-MARS 돔’ 유치위한 사업계획서 13일 경기도에 제출",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/12/2026111200100.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 11:02",
+          "pub_timestamp": "2026-11-12T11:02:00+09:00"
+        },
+        {
+          "title": "화성시, 'K-MARS 돔' 유치 도전… 광역 수요·운영계획이 관건",
+          "link": "https://www.thereport.co.kr/news/articleView.html?idxno=93283",
+          "media": "THEREPORT",
+          "time_label": "오늘 11:00",
+          "pub_timestamp": "2026-11-12T11:00:00+09:00"
+        },
+        {
+          "title": "화성특례시, 복합형 돔구장 'K-MARS 돔' 유치 나선다…13일 제안서 제출",
+          "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=93933",
+          "media": "더페어",
+          "time_label": "오늘 10:58",
+          "pub_timestamp": "2026-11-12T10:58:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 'K-MARS 돔' 유치 본격화...13일 경기도에 사업제안서...",
+          "link": "https://www.ajunews.com/view/20261112104843533",
+          "media": "아주경제",
+          "time_label": "오늘 10:58",
+          "pub_timestamp": "2026-11-12T10:58:00+09:00"
+        },
+        {
+          "title": "화성시, 스포츠·공연 복합형 ‘K-MARS 돔’ 유치 본격화",
+          "link": "https://www.naeil.com/news/read/608533?ref=naver",
+          "media": "NAEIL",
+          "time_label": "오늘 10:44",
+          "pub_timestamp": "2026-11-12T10:44:00+09:00"
+        },
+        {
+          "title": "화성시, 'K-MARS 돔' 내걸고 '돔구장 후보지 공모' 출사표...13일 사업제...",
+          "link": "https://www.fnnews.com/news/202611121020586391",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 10:35",
+          "pub_timestamp": "2026-11-12T10:35:00+09:00"
+        },
+        {
+          "title": "경기 화성시, 'K-MARS Arena 비전 컨퍼런스' 개최",
+          "link": "http://www.mbn.co.kr/pages/vod/programContents.php?progCode=683&menuCode=4385&bcastSeqNo=1433537",
+          "media": "MBN",
+          "time_label": "오늘 10:17",
+          "pub_timestamp": "2026-11-12T10:17:00+09:00"
+        },
+        {
+          "title": "화성시, 돔 구장 유치 본격화… 2만5000석 'K-MARS' 구상",
+          "link": "https://www.hankookilbo.com/news/article/A2026111209500002688?did=NA",
+          "media": "한국일보",
+          "time_label": "오늘 10:12",
+          "pub_timestamp": "2026-11-12T10:12:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회, 'K-MARS Arena 비전 컨퍼런스' 참석",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801816",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:06",
+          "pub_timestamp": "2026-11-12T10:06:00+09:00"
+        },
+        {
+          "title": "“돔구장은 우리가”…화성시, 유치전 본격화",
+          "link": "https://www.munhwa.com/article/11630751?ref=naver",
+          "media": "문화일보",
+          "time_label": "오늘 09:58",
+          "pub_timestamp": "2026-11-12T09:58:00+09:00"
+        },
+        {
+          "title": "화성시, 'K-MARS 돔' 내세워 돔구장 유치 도전",
+          "link": "https://www.sidae.com/article/2026111209223539107",
+          "media": "SIDAE",
+          "time_label": "오늘 09:54",
+          "pub_timestamp": "2026-11-12T09:54:00+09:00"
+        },
+        {
+          "title": "화성시, ‘K-MARS 돔’ 건립 도전장… 경기 남부 스포츠·문화 거점 조성...",
+          "link": "https://www.asiatime.co.kr/article/20261112500070",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:54",
+          "pub_timestamp": "2026-11-12T09:54:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시, K-MARS 돔 유치 본격화",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801809",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 09:48",
+          "pub_timestamp": "2026-11-12T09:48:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 서부권 소아의료 공백 해소 나서…50병상 봉담어린이...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33030",
+          "media": "현장뉴스",
+          "time_label": "오늘 09:26",
+          "pub_timestamp": "2026-11-12T09:26:00+09:00"
+        },
+        {
+          "title": "화성시,'K-MARS 돔' 유치 총력전…\"경기 남부 랜드마크 짓는다\"",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=563164",
+          "media": "JOONGANGENEWS",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-12T09:10:00+09:00"
+        },
+        {
+          "title": "화성시의회, 돔구장 비전 컨퍼런스 참석",
+          "link": "http://www.breaknews.com/1250389",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-12T09:10:00+09:00"
+        },
+        {
+          "title": "화성시, 봉담어린이병원 착공 본격화",
+          "link": "http://www.breaknews.com/1250377",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-12T09:10:00+09:00"
+        },
+        {
+          "title": "화성시, ‘K-MARS 돔’ 유치 총력",
+          "link": "http://www.breaknews.com/1250378",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-12T09:10:00+09:00"
+        },
+        {
+          "title": "화성시 봉담읍에 50병상 어린이병원 착공",
+          "link": "https://www.newsis.com/view/NISX20261112_0003864646",
+          "media": "뉴시스",
+          "time_label": "오늘 09:01",
+          "pub_timestamp": "2026-11-12T09:01:00+09:00"
+        },
+        {
+          "title": "화성시, ‘K-MARS 돔’ 건립 추진",
+          "link": "https://www.sedaily.com/article/20113259?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 08:43",
+          "pub_timestamp": "2026-11-12T08:43:00+09:00"
+        },
+        {
+          "title": "화성시, 'K-MARS Arena 비전 컨퍼런스'서 돔구장 운영 논의",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017468",
+          "media": "매일일보",
+          "time_label": "오늘 08:36",
+          "pub_timestamp": "2026-11-12T08:36:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장, 'K-MARS 돔' 경기 남부 스포츠·문화 거점 조성 추...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2491571",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 08:10",
+          "pub_timestamp": "2026-11-12T08:10:00+09:00"
+        },
+        {
+          "title": "화성특례시 봉담어린이병원 착공… 2028년 개원 추진",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082298",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 08:00",
+          "pub_timestamp": "2026-11-12T08:00:00+09:00"
+        },
+        {
+          "title": "화성특례시 K-MARS 돔구장 유치 추진",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082297",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.12 07:54",
+          "pub_timestamp": "2026-11-12T07:54:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “봉담어린이병원으로 서부권 소아의료 공백 줄이겠다...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111207282513934c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.12 07:34",
+          "pub_timestamp": "2026-11-12T07:34:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, ‘K-MARS 돔’ 유치 본격화…13일 경기도에 제안서",
+          "link": "https://view.asiae.co.kr/article/2026111207322250030",
+          "media": "아시아경제",
+          "time_label": "스크랩 11.12 07:32",
+          "pub_timestamp": "2026-11-12T07:32:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"108만 염원 모아 돔구장 유치\"",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=67561",
+          "media": "NEWSROAD",
+          "time_label": "스크랩 11.12 07:30",
+          "pub_timestamp": "2026-11-12T07:30:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “K-MARS 돔, 경기 남부 새 성장 거점으로 조성”",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111207141767094c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.12 07:26",
+          "pub_timestamp": "2026-11-12T07:26:00+09:00"
+        },
+        {
+          "title": "정명근“K-MARS 돔 화성시 새로운 성장 미래 전략사업”",
+          "link": "https://www.sportsseoul.com/news/read/1649180?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "스크랩 11.12 07:12",
+          "pub_timestamp": "2026-11-12T07:12:00+09:00"
+        },
+        {
+          "title": "화성시, 돔구장 유치 속도…“짓는 것보다 채우는 게 중요”",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611110163",
+          "media": "SENTV",
+          "time_label": "스크랩 11.12 04:32",
+          "pub_timestamp": "2026-11-12T04:32:00+09:00"
+        },
+        {
+          "title": "화성시, 병점역세권에 2만5000석 돔구장 'K-MARS' 구상",
+          "link": "https://www.newsis.com/view/NISX20261111_0003864550",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.11 22:08",
+          "pub_timestamp": "2026-11-11T22:08:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"K-MARS 돔, 경기 남부 스포츠·문화 중심지로 육성\"",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148165",
+          "media": "투어뉴스21",
+          "time_label": "스크랩 11.11 22:02",
+          "pub_timestamp": "2026-11-11T22:02:00+09:00"
+        },
+        {
+          "title": "정명근 \"108만 시민 염원 모아 돔구장 반드시 유치\"… K-MARS 아레나 밑그...",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003284127&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "media": "오마이뉴스",
+          "time_label": "스크랩 11.11 21:51",
+          "pub_timestamp": "2026-11-11T21:51:00+09:00"
+        },
+        {
+          "title": "화성시 돔구장 유치 한걸음…‘K-MARS Arena 비전 컨퍼런스’ 개최",
+          "link": "https://news-s.kr/view.html?id=L261111212846e4f7",
+          "media": "NEWS-S",
+          "time_label": "스크랩 11.11 21:36",
+          "pub_timestamp": "2026-11-11T21:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 돔구장 밑그림 그린 'K-MARS 아레나 비전 컨퍼런스' 개최",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160300898047820",
+          "media": "시민일보",
+          "time_label": "스크랩 11.11 20:44",
+          "pub_timestamp": "2026-11-11T20:44:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, ‘K-MARS 돔’ 유치 구상 구체화…경기 남부 문화거점...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111119413470864c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.11 19:56",
+          "pub_timestamp": "2026-11-11T19:56:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 농가 소득·청년 영농 지원 강화 약속",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111119300023464c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.11 19:38",
+          "pub_timestamp": "2026-11-11T19:38:00+09:00"
+        },
+        {
+          "title": "[지역 프로젝트 점검] 화성시, 경기남부 대표할 돔구장 건립 본격 시동",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=835717",
+          "media": "NSPNA",
+          "time_label": "스크랩 11.11 18:38",
+          "pub_timestamp": "2026-11-11T18:38:00+09:00"
+        },
+        {
+          "title": "돔구장 유치전에 거대공룡 등판, 화성시 ‘K-MARS Arena'",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=05494006645644736&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "media": "이데일리",
+          "time_label": "스크랩 11.11 17:55",
+          "pub_timestamp": "2026-11-11T17:55:00+09:00"
+        },
+        {
+          "title": "야구부터 공연·국제 행사까지…화성시, 'K-MARS 돔' 유치 본격화",
+          "link": "https://www.kpinews.kr/newsView/1065601761065355",
+          "media": "KPINEWS",
+          "time_label": "스크랩 11.11 17:52",
+          "pub_timestamp": "2026-11-11T17:52:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 'K-MARS 돔' 유치 본격화…스포츠·공연·국제행사 거...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33023",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.11 17:48",
+          "pub_timestamp": "2026-11-11T17:48:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/12/news-p.v1.20261112.147dbf66fd0c4886a7fb31ff8f422264_R.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 공공형어린이집 원장들 동극으로 아동권리 알려",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082373",
+      "originallink": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082373",
+      "media": "NEWSCLAIM",
+      "category": "CULTURE",
+      "department": "영유아보육과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:06",
+      "pub_timestamp": "2026-11-12T13:06:00+09:00",
+      "bullets": [
+        "- 화성특례시 공공형어린이집협의체가 지난 11일 화성시청 대강당에서 영유아 대상 아동권리 동극 ‘무지개 물고기’ 공연을 개최함",
+        "- 공공형어린이집 원장들이 직접 배우로 참여해 아동 권리 존중과 배려의 메시지를 전달함",
+        "- 화성시는 영유아가 자신을 소중히 여기고 서로를 존중할 수 있는 보육 환경 조성을 위해 해당 행사를 지원함"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3082373_124893_5055_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시 김장철 농수산물 원산지 표시 집중 점검",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082371",
+      "originallink": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082371",
+      "media": "NEWSCLAIM",
+      "category": "POLICY",
+      "department": "농식품유통과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 13:06",
+      "pub_timestamp": "2026-11-12T13:06:00+09:00",
+      "bullets": [
+        "- 화성시가 김장철을 맞아 11월 12일부터 27일까지 16일간 농수산물 원산지 표시 집중 점검을 실시함",
+        "- 김장채소·양념류 취급 제조·판매업체, 전통시장, 유통업체, 배달음식점 및 온라인 판매 농축수산물까지 점검함",
+        "- 원산지 표시 위반을 사전에 예방하고 소비자가 정확한 정보를 확인할 수 있도록 관리·감독을 강화할 방침임"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3082371_124891_4442_v150.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시의회, 보건복지 표준화·복합리조트 유치 정책 연구 마무리",
       "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/12/2026111200141.html",
@@ -157,6 +890,34 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 09:50",
           "pub_timestamp": "2026-11-12T09:50:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, ‘4개 구청 복지 표준화·체류형 복합리조트’ 청사진...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919267",
+          "media": "경기일보",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-12T15:58:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 보건복지·복합리조트·지역순환경제 정책 연구 본격화",
+          "link": "http://www.metroseoul.co.kr/article/20261112500306",
+          "media": "서울신문",
+          "time_label": "오늘 15:46",
+          "pub_timestamp": "2026-11-12T15:46:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 균등 보건복지 기준 마련",
+          "link": "http://www.breaknews.com/1250521",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-12T15:00:00+09:00"
+        },
+        {
+          "title": "화성시의회, 지역순환경제 우수 사례 벤치마킹",
+          "link": "http://www.breaknews.com/1250519",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-12T15:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -189,6 +950,13 @@
           "media": "PAXETV",
           "time_label": "오늘 11:18",
           "pub_timestamp": "2026-11-12T11:18:00+09:00"
+        },
+        {
+          "title": "화성특례시, ‘우주 AI·위성통신 지상 관문’ 최적지 부상",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919271",
+          "media": "경기일보",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-11-12T15:56:00+09:00"
         }
       ],
       "is_major": true,
@@ -214,7 +982,15 @@
         "- 전기버스 화재 발생 시 신속한 초기 대응 체계 구축의 시급성을 강조함",
         "- 화성-오산 택시 사업구역 통합 운영에 따른 문제를 지적하며 구역 분리 추진을 요구함"
       ],
-      "related_articles": [],
+      "related_articles": [
+        {
+          "title": "경기도내 폐차장 167곳 중 57곳 위반…교통국 행감, 전기버스 화재 대책...",
+          "link": "https://www.etoday.co.kr/news/view/2647348",
+          "media": "ETODAY",
+          "time_label": "오늘 11:36",
+          "pub_timestamp": "2026-11-12T11:36:00+09:00"
+        }
+      ],
       "is_major": true,
       "image_url": "https://file.nspna.com/news/2026/11/12/20261112110107_835788_1.jpg",
       "telegram_sent": true
@@ -328,11 +1104,367 @@
           "media": "NEWSCLAIM",
           "time_label": "스크랩 11.11 09:38",
           "pub_timestamp": "2026-11-11T09:38:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억원 들여 신공장 짓는다…2036년 매출 1조원 목표",
+          "link": "https://biz.sbs.co.kr/article_hub/20000346037?division=NAVER",
+          "media": "SBS",
+          "time_label": "오늘 15:57",
+          "pub_timestamp": "2026-11-12T15:57:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 투입 향남 신공장 착공…생산능력 3배 확대",
+          "link": "http://www.press9.kr/news/articleView.html?idxno=86184",
+          "media": "PRESS9",
+          "time_label": "오늘 15:40",
+          "pub_timestamp": "2026-11-12T15:40:00+09:00"
+        },
+        {
+          "title": "HLB제약, 화성시 '향남 신공장' 기공식 개최",
+          "link": "https://www.biospectator.com/view/news_view.php?varAtcId=30389",
+          "media": "BIOSPECTATOR",
+          "time_label": "오늘 15:34",
+          "pub_timestamp": "2026-11-12T15:34:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 착공…생산능력 3배 확대",
+          "link": "https://news.bizwatch.co.kr/article/healthcare/2026/11/12/0029",
+          "media": "비즈워치",
+          "time_label": "오늘 15:23",
+          "pub_timestamp": "2026-11-12T15:23:00+09:00"
+        },
+        {
+          "title": "M&A 통해 신규 제품 도입…2036년 매출 1조 목표",
+          "link": "https://www.sedaily.com/article/20113535?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 15:19",
+          "pub_timestamp": "2026-11-12T15:19:00+09:00"
+        },
+        {
+          "title": "[바이오 브리프] 보령·대원제약·HLB제약·유유제약",
+          "link": "https://www.econovill.com/news/articleView.html?idxno=757018",
+          "media": "ECONOVILL",
+          "time_label": "오늘 15:08",
+          "pub_timestamp": "2026-11-12T15:08:00+09:00"
+        },
+        {
+          "title": "HLB제약 '10대 제약사' 발판 향남 신공장 550억원 투자",
+          "link": "https://www.koreareport.co.kr/news/articleView.html?idxno=54647",
+          "media": "KOREAREPORT",
+          "time_label": "오늘 15:04",
+          "pub_timestamp": "2026-11-12T15:04:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 투입해 화성 新공장 짓는다…생산능력 3배",
+          "link": "https://biz.chosun.com/science-chosun/bio/2026/11/12/HDZG6R6EURDU5CFRP43C5WBHAQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "media": "조선일보",
+          "time_label": "오늘 15:02",
+          "pub_timestamp": "2026-11-12T15:02:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억원 투입 향남신공장 착공-2036년 매출 1조원 목표",
+          "link": "https://www.mediafine.co.kr/news/articleView.html?idxno=95104",
+          "media": "MEDIAFINE",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-12T15:00:00+09:00"
+        },
+        {
+          "title": "[현장] 박재형 HLB제약 대표 “그룹 신약도 향남이 생산 거점…M&A도 추...",
+          "link": "https://www.mydaily.co.kr/page/view/2026111214493185983",
+          "media": "MYDAILY",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-12T14:54:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 기공식 개최...'HLB 그룹 캠퍼스' 구상",
+          "link": "https://www.pharmnews.com/news/articleView.html?idxno=307888",
+          "media": "PHARMNEWS",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-12T14:52:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 들여 신공장 건설…매출 1조 목표",
+          "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005960827",
+          "media": "MBN",
+          "time_label": "오늘 14:38",
+          "pub_timestamp": "2026-11-12T14:38:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 기공식…\"핵심 생산 거점 확보\"",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611120110&t=NN",
+          "media": "WOWTV",
+          "time_label": "오늘 14:31",
+          "pub_timestamp": "2026-11-12T14:31:00+09:00"
+        },
+        {
+          "title": "[현장리포트] 진양곤 \"두 번째 항암신약 허가 확신\"…자체 생산 로드맵...",
+          "link": "https://www.topdaily.kr/articles/112868",
+          "media": "톱데일리",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-12T14:30:00+09:00"
+        },
+        {
+          "title": "박재형 HLB제약 대표 “향남 신공장 가동, 수익성 20~30% 개선 기대”",
+          "link": "https://www.etoday.co.kr/news/view/2647439",
+          "media": "ETODAY",
+          "time_label": "오늘 14:28",
+          "pub_timestamp": "2026-11-12T14:28:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 들여 향남 신공장 착공…생산능력 3배 확대",
+          "link": "https://www.etnews.com/20261112000293",
+          "media": "전자신문",
+          "time_label": "오늘 14:25",
+          "pub_timestamp": "2026-11-12T14:25:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 첫 삽…2029년 본격 생산 목표",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611121400127540813",
+          "media": "DNEWS",
+          "time_label": "오늘 14:20",
+          "pub_timestamp": "2026-11-12T14:20:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억원 투입 향남 신공장 착공…2029년 가동",
+          "link": "https://www.dailypharm.com/user/news/344503?REFERER=NP",
+          "media": "DAILYPHARM",
+          "time_label": "오늘 14:14",
+          "pub_timestamp": "2026-11-12T14:14:00+09:00"
+        },
+        {
+          "title": "[AT 현장] 진양곤 HLB그룹 의장 \"향남 신공장서 도전·극복 기업 정신 구...",
+          "link": "https://www.asiatime.co.kr/article/20261112500107",
+          "media": "ASIATIME",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-12T14:02:00+09:00"
+        },
+        {
+          "title": "[오늘Who] HLB제약 진양곤 향남공장으로 도약 의지, \"최고 수준의 생산기...",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451827",
+          "media": "BUSINESSPOST",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-12T14:02:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억원 투자 '향남 신공장' 건설…연간 생산능력 7억정 확보",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017803",
+          "media": "매일일보",
+          "time_label": "오늘 13:56",
+          "pub_timestamp": "2026-11-12T13:56:00+09:00"
+        },
+        {
+          "title": "HLB제약, 경기 화성 향남 신공장 기공식…의약품 생산능력 확대",
+          "link": "https://view.asiae.co.kr/article/2026111213442097773",
+          "media": "아시아경제",
+          "time_label": "오늘 13:44",
+          "pub_timestamp": "2026-11-12T13:44:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 착공…\"연간 7억정 생산능력 확보\"",
+          "link": "https://view.asiae.co.kr/article/2026111213332529038",
+          "media": "아시아경제",
+          "time_label": "오늘 13:33",
+          "pub_timestamp": "2026-11-12T13:33:00+09:00"
+        },
+        {
+          "title": "HLB 진양곤표 '제약 굴기'…550억 들여 신공장 짓는다",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1731420",
+          "media": "EBN",
+          "time_label": "오늘 13:28",
+          "pub_timestamp": "2026-11-12T13:28:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 첫 삽… 550억원 투입해 매출 1조원 도전",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000867",
+          "media": "조선일보",
+          "time_label": "오늘 13:14",
+          "pub_timestamp": "2026-11-12T13:14:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 건설 본격화…생산능력 3배 확대 추진",
+          "link": "http://www.iminju.net/news/articleView.html?idxno=172356",
+          "media": "IMINJU",
+          "time_label": "오늘 12:52",
+          "pub_timestamp": "2026-11-12T12:52:00+09:00"
+        },
+        {
+          "title": "HLB제약, 화성 향남에 550억원 투자…연 7억정 생산체계 구축",
+          "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=624765",
+          "media": "MDTODAY",
+          "time_label": "오늘 12:28",
+          "pub_timestamp": "2026-11-12T12:28:00+09:00"
+        },
+        {
+          "title": "[종합] HLB제약, ‘550억 투입’ 향남 신공장 첫 삽⋯생산능력 3배 확대",
+          "link": "https://www.viva100.com/article/20261112500662",
+          "media": "VIVA100",
+          "time_label": "오늘 11:52",
+          "pub_timestamp": "2026-11-12T11:52:00+09:00"
+        },
+        {
+          "title": "박재형 HLB제약 대표 \"향남 신공장으로 수익성 20~30% 개선…M&A 검토\"",
+          "link": "https://www.mt.co.kr/stock/2026/11/12/2026111211403913359",
+          "media": "머니투데이",
+          "time_label": "오늘 11:48",
+          "pub_timestamp": "2026-11-12T11:48:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 투자 향남공장 첫 삽…연 7억정 채울 물량 관건",
+          "link": "https://www.newspim.com/news/view/20261112000652",
+          "media": "뉴스핌",
+          "time_label": "오늘 11:42",
+          "pub_timestamp": "2026-11-12T11:42:00+09:00"
+        },
+        {
+          "title": "[현장] HLB제약, 향남 신공장 첫 삽…진양곤 “또 다른 역사의 시작”",
+          "link": "https://www.fntimes.com/html/view.php?ud=2026111210553866077fd637f543_18",
+          "media": "FNTIMES",
+          "time_label": "오늘 11:42",
+          "pub_timestamp": "2026-11-12T11:42:00+09:00"
+        },
+        {
+          "title": "진양곤도 첫 삽 … HLB제약 '550억 생산기지'에 담긴 큰 그림 [향남공장...",
+          "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/12/2026111200110.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 11:36",
+          "pub_timestamp": "2026-11-12T11:36:00+09:00"
+        },
+        {
+          "title": "HLB제약, 550억 들여 연간 7억정 생산 향남공장 착공…2036년 매출 1조원...",
+          "link": "https://www.livebiz.today/news/articleView.html?idxno=206440",
+          "media": "LIVEBIZ",
+          "time_label": "오늘 11:36",
+          "pub_timestamp": "2026-11-12T11:36:00+09:00"
+        },
+        {
+          "title": "HLB제약 향남공장 착공…생산 1조 도전",
+          "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=366078",
+          "media": "이데일리",
+          "time_label": "오늘 11:32",
+          "pub_timestamp": "2026-11-12T11:32:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 첫 삽…2029년 가동 목표",
+          "link": "https://dealsite.co.kr/articles/172630",
+          "media": "DEALSITE",
+          "time_label": "오늘 11:32",
+          "pub_timestamp": "2026-11-12T11:32:00+09:00"
+        },
+        {
+          "title": "[현장] \"연간 7억정 GMP 생산시설 갖춘다\"⋯HLB제약, 향남 신공장 첫 삽",
+          "link": "http://www.inews24.com/view/2025430",
+          "media": "INEWS24",
+          "time_label": "오늘 11:20",
+          "pub_timestamp": "2026-11-12T11:20:00+09:00"
+        },
+        {
+          "title": "[현장] 박재형 HLB제약 대표 “향남 신공장으로 2036년 매출 1조원 달성...",
+          "link": "https://www.news2day.co.kr/article/20261112500170",
+          "media": "NEWS2DAY",
+          "time_label": "오늘 11:12",
+          "pub_timestamp": "2026-11-12T11:12:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 첫 삽…연 7억정 생산체계 구축",
+          "link": "https://www.medipana.com/news/articleView.html?idxno=421643",
+          "media": "MEDIPANA",
+          "time_label": "오늘 11:12",
+          "pub_timestamp": "2026-11-12T11:12:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 착공…\"생산능력 3배 확대해 매출 1조 도전\"",
+          "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=80719",
+          "media": "HITNEWS",
+          "time_label": "오늘 11:08",
+          "pub_timestamp": "2026-11-12T11:08:00+09:00"
+        },
+        {
+          "title": "[HLB 3.0] HLB제약, 550억 향남 신공장 착공…2036년 '매출 1조' 승부수",
+          "link": "https://www.topdaily.kr/articles/112866",
+          "media": "톱데일리",
+          "time_label": "오늘 11:07",
+          "pub_timestamp": "2026-11-12T11:07:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남 신공장 첫 삽…550억원 투입해 생산능력 3배 확대",
+          "link": "https://www.etoday.co.kr/news/view/2647292",
+          "media": "ETODAY",
+          "time_label": "오늘 11:04",
+          "pub_timestamp": "2026-11-12T11:04:00+09:00"
+        },
+        {
+          "title": "[포토] 박재형 HLB제약 대표, 향남공장 기공식서 환영사",
+          "link": "https://www.viva100.com/article/20261112500498",
+          "media": "VIVA100",
+          "time_label": "오늘 11:02",
+          "pub_timestamp": "2026-11-12T11:02:00+09:00"
+        },
+        {
+          "title": "HLB제약, 향남에 연 7억정 생산공장 착공…그룹 신약 생산 거점으로",
+          "link": "https://www.kukinews.com/article/view/kuk202611120051",
+          "media": "쿠키뉴스",
+          "time_label": "오늘 11:02",
+          "pub_timestamp": "2026-11-12T11:02:00+09:00"
+        },
+        {
+          "title": "HLB 진양곤, 신공장 기공식서 \"두번째 항암신약 허가 확신\"",
+          "link": "https://www.sidae.com/article/2026111210042474490",
+          "media": "SIDAE",
+          "time_label": "오늘 10:55",
+          "pub_timestamp": "2026-11-12T10:55:00+09:00"
         }
       ],
       "is_major": true,
       "image_url": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026111210371542749_1.jpg",
       "telegram_sent": true
+    },
+    {
+      "title": "한창한 부의장 “영종에 삼성전자 유치해야”",
+      "link": "https://www.livesnews.com/news/article.html?no=65913",
+      "originallink": "https://www.livesnews.com/news/article.html?no=65913",
+      "media": "LIVESNEWS",
+      "category": "POLICY",
+      "department": "교통국 철도전략과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:32",
+      "pub_timestamp": "2026-11-12T10:32:00+09:00",
+      "bullets": [
+        "- 한창한 부의장 “영종에 삼성전자 유치해야”",
+        "- 한창한 영종구의회 부의장이 영종지역의 지속 가능한 발전을 위해 삼성전자 등 대기업 유치와 광역교통망 확충을 핵심 성장 전략으로 추진해야 한다고 강조했다. 한 부의장은 최근 경기도 화성시를 방문해 도시 발전 사례를 살...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.livesnews.com/data/photos/20261146/art_17944465734068_9e6ddd.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "수원 군공항 소음 시달려도 보상 없어…직장인·학생 사각지대",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336626",
+      "originallink": "https://www.incheonilbo.com/news/articleView.html?idxno=1336626",
+      "media": "인천일보",
+      "category": "POLICY",
+      "department": "기획조정실 군공항대응과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:40",
+      "pub_timestamp": "2026-11-12T09:40:00+09:00",
+      "bullets": [
+        "- 수원 군공항 소음 시달려도 보상 없어…직장인·학생 사각지대",
+        "- 소음피해 지역 실생활 직장인 이번에도 보상제외 되면 앞으로 5년간 보상에서 제외…\"너무한 것 아니냐\" 반발 군공항 최대 소음피해 지역 중 하나인 화성시 병점동 일대 고층 아파트에서 전투기가 비행하는 모습. /인천일보...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202611/1336626_679265_3045_v150.jpg",
+      "telegram_sent": false
     },
     {
       "title": "화성에서 마주한 독립운동의 기억, 오늘의 우리를 깨우다",
@@ -484,6 +1616,76 @@
           "media": "브레이크뉴스",
           "time_label": "오늘 09:10",
           "pub_timestamp": "2026-11-12T09:10:00+09:00"
+        },
+        {
+          "title": "삼송의료재단, 화성 봉담에 2028년 7월 어린이병원 문 연다",
+          "link": "https://www.jasm.co.kr/news/view/325099/?sc=Naver",
+          "media": "JASM",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-12T15:58:00+09:00"
+        },
+        {
+          "title": "\"아픈 아이 데리고 먼 병원까지\"…화성 봉담에 50병상 어린이병원 들어...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193547",
+          "media": "HANKOOKI",
+          "time_label": "오늘 15:56",
+          "pub_timestamp": "2026-11-12T15:56:00+09:00"
+        },
+        {
+          "title": "화성특례시, '봉담어린이병원'착공식 개최...오는 2028년 개원 목표",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1023491",
+          "media": "CNBNEWS",
+          "time_label": "오늘 15:16",
+          "pub_timestamp": "2026-11-12T15:16:00+09:00"
+        },
+        {
+          "title": "화성시, 서부권 소아·청소년 의료 접근성 높일 '봉담어린이병원' 첫 삽",
+          "link": "https://www.newspim.com/news/view/20261112000951",
+          "media": "뉴스핌",
+          "time_label": "오늘 15:05",
+          "pub_timestamp": "2026-11-12T15:05:00+09:00"
+        },
+        {
+          "title": "화성 서부권 소아의료 공백 메운다...봉담어린이병원 첫 삽",
+          "link": "https://news-s.kr/view.html?id=L261112135658f299",
+          "media": "NEWS-S",
+          "time_label": "오늘 14:02",
+          "pub_timestamp": "2026-11-12T14:02:00+09:00"
+        },
+        {
+          "title": "[12일 화성시] 봉담어린이병원 '2028년 개원 목표' 착공 등",
+          "link": "https://www.asiatime.co.kr/article/20261112500279",
+          "media": "ASIATIME",
+          "time_label": "오늘 13:50",
+          "pub_timestamp": "2026-11-12T13:50:00+09:00"
+        },
+        {
+          "title": "화성시 봉담에 소아·청소년 전담병원 들어선다",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040734",
+          "media": "기호일보",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-12T13:02:00+09:00"
+        },
+        {
+          "title": "화성특례시, 서부권 소아진료 위한 봉담어린이병원 건립 공사 착수",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2017760",
+          "media": "매일일보",
+          "time_label": "오늘 12:58",
+          "pub_timestamp": "2026-11-12T12:58:00+09:00"
+        },
+        {
+          "title": "화성 봉담어린이병원 첫 삽…2028년 개원 목표",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611120085",
+          "media": "SENTV",
+          "time_label": "오늘 12:50",
+          "pub_timestamp": "2026-11-12T12:50:00+09:00"
+        },
+        {
+          "title": "화성 서부권 ‘소아의료 공백’ 깬다…봉담어린이병원 첫 삽",
+          "link": "https://www.segye.com/newsView/20261112508928?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "오늘 12:11",
+          "pub_timestamp": "2026-11-12T12:11:00+09:00"
         }
       ],
       "is_major": true,
@@ -880,6 +2082,55 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 08:10",
           "pub_timestamp": "2026-11-12T08:10:00+09:00"
+        },
+        {
+          "title": "\"돔구장 유치, 청사진 넘어 현실로\"…화성시의회, K-MARS 사업 실현성 강...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7193456",
+          "media": "HANKOOKI",
+          "time_label": "오늘 15:54",
+          "pub_timestamp": "2026-11-12T15:54:00+09:00"
+        },
+        {
+          "title": "화성특례시, 2만5000석 'K-MARS 돔' 유치전…13일 경기도에 제안서",
+          "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=902909",
+          "media": "NEWSWORKS",
+          "time_label": "오늘 15:48",
+          "pub_timestamp": "2026-11-12T15:48:00+09:00"
+        },
+        {
+          "title": "화성특례시, K-MARS 돔 건립 본격화…경기 남부 스포츠·문화 거점 조성...",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160255322208381",
+          "media": "시민일보",
+          "time_label": "오늘 15:36",
+          "pub_timestamp": "2026-11-12T15:36:00+09:00"
+        },
+        {
+          "title": "화성시, 스포츠·공연 복합문화시설 'K-MARS 돔' 건립 위해 출정",
+          "link": "https://www.newspim.com/news/view/20261112000933",
+          "media": "뉴스핌",
+          "time_label": "오늘 15:01",
+          "pub_timestamp": "2026-11-12T15:01:00+09:00"
+        },
+        {
+          "title": "화성시도 참전…‘K-MARS 돔’ 유치전 본격화",
+          "link": "https://www.dt.co.kr/article/12094836?ref=naver",
+          "media": "디지털타임스",
+          "time_label": "오늘 14:44",
+          "pub_timestamp": "2026-11-12T14:44:00+09:00"
+        },
+        {
+          "title": "“파격 세제·인프라 총동원” 정명근 화성특례시장, 민간 우주 클러스...",
+          "link": "https://www.viva100.com/article/20261112500818",
+          "media": "VIVA100",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "정명근의 9천억원 승부수 'K-MARS 돔'…공약 실현 시험대 올랐다",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004570",
+          "media": "ASIATODAY",
+          "time_label": "오늘 13:26",
+          "pub_timestamp": "2026-11-12T13:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -1451,6 +2702,13 @@
           "media": "시민일보",
           "time_label": "스크랩 11.11 16:22",
           "pub_timestamp": "2026-11-11T16:22:00+09:00"
+        },
+        {
+          "title": "[기호TV] 인구 10만 화성 향남읍(邑), 동(洞) 전환 논쟁…'주민 서비스 ...",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040741",
+          "media": "기호일보",
+          "time_label": "오늘 13:20",
+          "pub_timestamp": "2026-11-12T13:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -1591,6 +2849,13 @@
           "media": "서울신문",
           "time_label": "스크랩 11.11 16:20",
           "pub_timestamp": "2026-11-11T16:20:00+09:00"
+        },
+        {
+          "title": "ABC(에이비씨)병원, 화성시 첫 시립요양원 '화성 실버드림센터'와 업무...",
+          "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36134",
+          "media": "BIOTIMES",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-11-12T15:52:00+09:00"
         }
       ],
       "is_major": true,
@@ -3165,6 +4430,13 @@
           "media": "매일일보",
           "time_label": "오늘 09:06",
           "pub_timestamp": "2026-11-12T09:06:00+09:00"
+        },
+        {
+          "title": "화성시의회, 완주·전주서 지역경제 해법 ‘골몰’",
+          "link": "https://www.viva100.com/article/20261112500892",
+          "media": "VIVA100",
+          "time_label": "오늘 14:14",
+          "pub_timestamp": "2026-11-12T14:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -3491,6 +4763,34 @@
           "media": "ABLENEWS",
           "time_label": "오늘 13:56",
           "pub_timestamp": "2026-11-11T13:56:00+09:00"
+        },
+        {
+          "title": "‘2026 삼성 나눔의 날’ 행사",
+          "link": "https://www.news1.kr/photos/8211039",
+          "media": "뉴스1",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "삼성, '나눔의 날' 행사 개최...노사 상생형 '나눔가게' 첫 기부금 전달",
+          "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=270658",
+          "media": "ASIAA",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "2026 삼성 나눔의 날 행사 ‘CSR 어워즈’",
+          "link": "https://www.news1.kr/photos/8211027",
+          "media": "뉴스1",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "이재용 '동행철학' 잇는 삼성, 2026 나눔의 날 개최",
+          "link": "https://www.sidae.com/article/2026111210563163394",
+          "media": "SIDAE",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -3871,6 +5171,41 @@
           "media": "IKBC",
           "time_label": "11.07 10:21",
           "pub_timestamp": "2026-11-07T10:21:00+09:00"
+        },
+        {
+          "title": "반도체 호황에 지자체 곳간 ‘두둑’…인프라 개선에 지역가치 상승 탄...",
+          "link": "https://www.hankyung.com/article/202611122627O",
+          "media": "한국경제",
+          "time_label": "오늘 15:01",
+          "pub_timestamp": "2026-11-12T15:01:00+09:00"
+        },
+        {
+          "title": "반도체 호황에 지자체 곳간 '두둑'… 인프라 개선에 지역가치 상승 탄력",
+          "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=281140",
+          "media": "BUSINESSKOREA",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-12T15:00:00+09:00"
+        },
+        {
+          "title": "반도체 호황에 지자체 곳간 ‘두둑’… 인프라 개선에 지역가치 상승 탄...",
+          "link": "http://www.thevaluenews.co.kr/news/view.php?idx=203225",
+          "media": "THEVALUENEWS",
+          "time_label": "오늘 14:50",
+          "pub_timestamp": "2026-11-12T14:50:00+09:00"
+        },
+        {
+          "title": "반도체 특수에 지자체 곳간 활짝…인프라 확충이 지역 집값도 견인",
+          "link": "https://www.lawissue.co.kr/view.php?ud=20261112133848984267191f6c6e_12",
+          "media": "로이슈",
+          "time_label": "오늘 13:40",
+          "pub_timestamp": "2026-11-12T13:40:00+09:00"
+        },
+        {
+          "title": "반도체 호황에 지자체 곳간 '두둑'… 인프라 개선에 지역가치 상승",
+          "link": "https://theviewers.co.kr/View.aspx?No=4309502",
+          "media": "THEVIEWERS",
+          "time_label": "오늘 12:08",
+          "pub_timestamp": "2026-11-12T12:08:00+09:00"
         }
       ],
       "is_major": true,
@@ -11089,6 +12424,104 @@
           "media": "헤럴드경제",
           "time_label": "오늘 10:00",
           "pub_timestamp": "2026-11-12T10:00:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 92주 연속 상승했지만…성동·강동도 하락 전환",
+          "link": "http://www.seouleconews.com/news/articleView.html?idxno=94982",
+          "media": "SEOULECONEWS",
+          "time_label": "오늘 15:30",
+          "pub_timestamp": "2026-11-12T15:30:00+09:00"
+        },
+        {
+          "title": "강남3구 외에도…KB부동산 \"서울 8개구 아파트값 상승폭 축소\"",
+          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444458",
+          "media": "EINFOMAX",
+          "time_label": "오늘 15:30",
+          "pub_timestamp": "2026-11-12T15:30:00+09:00"
+        },
+        {
+          "title": "강남 아파트값 하락세 확산…성동·강동도 하락 전환",
+          "link": "https://www.mediaus.co.kr/news/articleView.html?idxno=318965",
+          "media": "MEDIAUS",
+          "time_label": "오늘 15:24",
+          "pub_timestamp": "2026-11-12T15:24:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 92주 연속 올랐다…강남발 약세, 성동·강동으로 번져",
+          "link": "https://www.jasm.co.kr/news/view/325109/?sc=Naver",
+          "media": "JASM",
+          "time_label": "오늘 15:08",
+          "pub_timestamp": "2026-11-12T15:08:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 92주 연속상승. 전세값 고공행진",
+          "link": "https://www.viewsnnews.com/article?q=239657",
+          "media": "VIEWSNNEWS",
+          "time_label": "오늘 14:48",
+          "pub_timestamp": "2026-11-12T14:48:00+09:00"
+        },
+        {
+          "title": "성동·강동도 집값 하락 전환, 서울 외곽은 여전히 오름세",
+          "link": "https://www.kmib.co.kr/article/20261112500952",
+          "media": "국민일보",
+          "time_label": "오늘 14:43",
+          "pub_timestamp": "2026-11-12T14:43:00+09:00"
+        },
+        {
+          "title": "강남발 집값 조정 한강벨트로 확산…서울 외곽·경기 남부는 상승세",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503386",
+          "media": "핀포인트뉴스",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-12T14:30:00+09:00"
+        },
+        {
+          "title": "서울 아파트값 상승세 둔화…강남·서초 14주, 송파 10주 연속 하락",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=397918",
+          "media": "FNTODAY",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-11-12T14:12:00+09:00"
+        },
+        {
+          "title": "작년 '마이너스' 인천 전세도 상승… 성동·강동 하락에도 서울 집값 92...",
+          "link": "https://www.hankookilbo.com/news/article/A2026111210220000726?did=NA",
+          "media": "한국일보",
+          "time_label": "오늘 14:01",
+          "pub_timestamp": "2026-11-12T14:01:00+09:00"
+        },
+        {
+          "title": "강남발 아파트값 약세 한강벨트까지…성동·강동 하락 전환",
+          "link": "https://www.yna.co.kr/view/AKR20261112090000003?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "강남3구 이어 '성동·강동구'도 하락 전환…서울 집값은 92주째 상승",
+          "link": "https://www.newsis.com/view/NISX20261112_0003865338",
+          "media": "뉴시스",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "강남3구 이어 성동·강동도 하락 전환…한강벨트로 집값 약세 확산",
+          "link": "https://www.sedaily.com/article/20113435?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-12T14:00:00+09:00"
+        },
+        {
+          "title": "“강남은 내리고 외곽은 오른다”…집값 평탄화, 경기 북부로 번지나",
+          "link": "https://www.lawissue.co.kr/view.php?ud=202611121351437467191f6c6e_12",
+          "media": "로이슈",
+          "time_label": "오늘 13:54",
+          "pub_timestamp": "2026-11-12T13:54:00+09:00"
+        },
+        {
+          "title": "\"강남 내리고 강북 오른다\"…수도권 집값 양극화 완화 조짐",
+          "link": "https://www.gpkorea.com/news/articleView.html?idxno=148548",
+          "media": "GPKOREA",
+          "time_label": "오늘 13:10",
+          "pub_timestamp": "2026-11-12T13:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -14294,6 +15727,13 @@
           "media": "DNEWS",
           "time_label": "오늘 12:20",
           "pub_timestamp": "2026-11-11T12:20:00+09:00"
+        },
+        {
+          "title": "'등굣길은 안전하게, 마스와는 달콤하게!'…화성, 어린이 보행 안전 캠...",
+          "link": "http://www.footballist.co.kr/news/articleView.html?idxno=216723",
+          "media": "FOOTBALLIST",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-12T15:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -14523,6 +15963,13 @@
           "media": "아주경제",
           "time_label": "스크랩 11.03 05:06",
           "pub_timestamp": "2026-11-03T05:06:00+09:00"
+        },
+        {
+          "title": "\"우주 패권 경쟁 시작됐다…화성, 대한민국 우주산업의 관문으로\"",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004746",
+          "media": "ASIATODAY",
+          "time_label": "오늘 13:56",
+          "pub_timestamp": "2026-11-12T13:56:00+09:00"
         }
       ],
       "is_major": true,
@@ -16987,6 +18434,13 @@
           "media": "HANSBIZ",
           "time_label": "스크랩 11.11 20:18",
           "pub_timestamp": "2026-11-11T20:18:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 양평군, 농업인 500여 명 모여 화합 다져",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=801863",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:34",
+          "pub_timestamp": "2026-11-12T14:34:00+09:00"
         }
       ],
       "is_major": true,
@@ -17344,8 +18798,16 @@
         "- 장애인 로봇 재활 확대 화성시아르딤복지관이 한국로봇산업진흥원 주관 ‘2026년 서비스로봇 실증사업’에 최종 선정되며 지역 장애인을 위한 첨단 로봇재활 서비스를 전격 확대한다. 이번 사업은 화성특례시, ㈜큐렉소, 화성...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "에브리봇, 시니어 주거단지서 서비스로봇 실증",
+          "link": "https://www.newspim.com/news/view/20261112001011",
+          "media": "뉴스핌",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-12T14:54:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newswhoplus.com/news/thumbnail/202610/72916_111774_5938_v150.jpg",
       "telegram_sent": false
     },
