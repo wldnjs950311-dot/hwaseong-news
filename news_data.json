@@ -1,115 +1,263 @@
 {
-  "updated_at": "2026.11.14. 08:00",
-  "scrap_period": "전일(11.13) 08:00 ~ 금일(11.14) 08:00",
-  "yesterday_label": "11.13",
+  "updated_at": "2026.11.15. 08:00",
+  "scrap_period": "전일(11.14) 08:00 ~ 금일(11.15) 08:00",
+  "yesterday_label": "11.14",
   "macro_pulse": {
-    "report_date": "2026-11-14",
-    "article_count": 17,
-    "overview": "농촌 취약계층 주거복지 지원과 대한민국특례시시장협의회를 통한 자치권한 확보 대응을 중심으로 주요 시정 현안 보도가 집중되었습니다.",
+    "report_date": "2026-11-15",
+    "article_count": 1,
+    "overview": "화성시가 '제19회 대한민국소통어워즈'에서 2개 부문 대상을 수상하며 시정 디지털 소통 역량의 우수성을 대외적으로 공인받은 보도가 집중되었습니다.",
     "main_points": [
-      "- [농협중앙회 사랑의 집고치기 농가희망봉사단 발대식] 총 23개 언론사 집중 보도 - 마도면 해문리에서 농촌 취약계층 22가구의 주거환경 개선을 본격 지원하여 농촌 복지 증진 계기 마련",
-      "- [대한민국특례시시장협의회 정기회의] 총 3개 언론사 집중 보도 - 정명근 화성시장 등 5개 특례시 단체장이 참석해 법적 지위 및 실질적 재정특례 확보를 위한 공동 대응 논의",
-      "- [제3회 H-스타트업 창업경진대회] 총 2개 언론사 집중 보도 - 중소기업지원센터에서 대상을 차지한 티에스다이나믹, 딥퓨전 등 유망 창업기업 발굴 및 시상 완료",
-      "- [화성서부경찰서 치안망 확충] NEWSCLAIM 보도 - 발안2파출소 신설안과 남양파출소의 지구대 승격안이 경찰청 심사를 최종 통과하여 지역 안전망 강화"
+      "- [제19회 대한민국소통어워즈] 총 2개 언론사 집중 보도 - 화성시가 2개 부문 대상을 수상하며 대시민 디지털 소통 행정의 우수성과 경쟁력을 널리 인정받았습니다."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "농촌 취약계층 주거복지 지원과 대한민국특례시시장협의회를 통한 자치권한 확보 대응을 중심으로 주요 시정 현안 보도가 집중되었습니다.",
-      "- [농협중앙회 사랑의 집고치기 농가희망봉사단 발대식] 총 23개 언론사 집중 보도 - 마도면 해문리에서 농촌 취약계층 22가구의 주거환경 개선을 본격 지원하여 농촌 복지 증진 계기 마련",
-      "- [대한민국특례시시장협의회 정기회의] 총 3개 언론사 집중 보도 - 정명근 화성시장 등 5개 특례시 단체장이 참석해 법적 지위 및 실질적 재정특례 확보를 위한 공동 대응 논의"
+      "화성시가 '제19회 대한민국소통어워즈'에서 2개 부문 대상을 수상하며 시정 디지털 소통 역량의 우수성을 대외적으로 공인받은 보도가 집중되었습니다.",
+      "- [제19회 대한민국소통어워즈] 총 2개 언론사 집중 보도 - 화성시가 2개 부문 대상을 수상하며 대시민 디지털 소통 행정의 우수성과 경쟁력을 널리 인정받았습니다."
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 3,
-        "ratio": 18
+        "count": 1,
+        "ratio": 17
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 2,
-        "ratio": 12
+        "count": 1,
+        "ratio": 17
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 3,
-        "ratio": 18
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 18
+        "count": 2,
+        "ratio": 33
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 6,
-        "ratio": 35
+        "count": 2,
+        "ratio": 33
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "사랑의 집고치기",
-      "count": 23,
-      "category": "POLICY",
-      "dept": "농업정책과",
-      "summary": "농협중앙회와 함께 농촌 취약계층 22가구를 대상으로 주거환경 개선 봉사활동을 진행함"
+      "keyword": "대한민국소통어워즈",
+      "count": 2,
+      "category": "CULTURE",
+      "dept": "홍보담당관",
+      "summary": "제19회 대한민국소통어워즈에서 2개 부문 대상을 수상하며 우수한 디지털 소통 역량을 인정받았습니다."
     },
     {
       "rank": 2,
-      "keyword": "법적 지위·재정특례 확보",
-      "count": 3,
-      "category": "POLICY",
-      "dept": "자치분권과",
-      "summary": "5개 대도시 단체장이 정기회의를 갖고 실질적 자치권한 및 재정특례 확보를 위한 공동 대응에 나섬"
+      "keyword": "동탄숲 생태터널",
+      "count": 1,
+      "category": "RISK",
+      "dept": "도로관리과",
+      "summary": "터널 균열 발생 1년이 지났으나 공사 방식 결정이 내년 초로 미뤄지며 주민 불편이 장기화되고 있습니다."
     },
     {
       "rank": 3,
-      "keyword": "제로베이스 프로젝트",
-      "count": 2,
-      "category": "CULTURE",
-      "dept": "문화예술과",
-      "summary": "서울옥션과 협력하여 지역 시각예술 분야 활성화를 위한 하반기 프리뷰 전시 및 온라인 경매를 진행함"
+      "keyword": "서신·마도 상수관 누수",
+      "count": 1,
+      "category": "RISK",
+      "dept": "맑은물시설과",
+      "summary": "서신면과 마도면 백곡리 일대 상수관 누수로 단수가 발생해 긴급 복구 작업이 진행되었습니다."
     },
     {
       "rank": 4,
-      "keyword": "H-스타트업 창업경진대회",
-      "count": 2,
-      "category": "CULTURE",
-      "dept": "기업지원과",
-      "summary": "유망 창업기업 발굴을 위한 제3회 창업경진대회를 열고 우수 스타트업을 선정해 시상함"
+      "keyword": "민원혁신 우수사례",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "시민소통관",
+      "summary": "1시간 응답과 선제적 해결을 골자로 한 민원혁신 우수 행정 사례가 국회에서 발표되었습니다."
     },
     {
       "rank": 5,
-      "keyword": "발안2파출소 신설",
+      "keyword": "사회적농업 포럼",
       "count": 1,
-      "category": "POLICY",
-      "dept": "안전정책과",
-      "summary": "치안 인프라 강화를 위한 발안2파출소 신설과 남양파출소의 지구대 승격안이 경찰청 심사를 최종 통과함"
+      "category": "CULTURE",
+      "dept": "농업기술센터",
+      "summary": "느린 학습자와 함께하는 사회적 돌봄 농업의 가치를 확산하기 위한 포럼이 열렸습니다."
     }
   ],
   "stats": {
-    "total": 330,
-    "major_count": 165,
-    "live_count": 165,
+    "total": 337,
+    "major_count": 169,
+    "live_count": 168,
     "today_count": 0,
-    "scrap_count": 17,
-    "yesterday_count": 1,
-    "policy": 184,
-    "culture": 107,
-    "risk": 39
+    "scrap_count": 6,
+    "yesterday_count": 0,
+    "policy": 187,
+    "culture": 109,
+    "risk": 41
   },
   "articles": [
+    {
+      "title": "화성시, ‘대한민국소통어워즈’서 2개 부문 ‘대상’",
+      "link": "https://www.sportsseoul.com/news/read/1649749?ref=naver",
+      "originallink": "https://www.sportsseoul.com/news/read/1649749?ref=naver",
+      "media": "스포츠서울",
+      "category": "CULTURE",
+      "department": "홍보담당관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.15 07:34",
+      "pub_timestamp": "2026-11-15T07:34:00+09:00",
+      "bullets": [
+        "- 화성시가 '제19회 대한민국소통어워즈'에서 2개 부문 대상을 수상하며 디지털 소통 역량을 인정받음",
+        "- 대한민국인터넷소통대상 지자체 부문과 대한민국디지털콘텐츠대상 동영상콘텐츠 부문에서 각각 대상 선정",
+        "- 공식 유튜브 '화성온TV'의 10만 구독자 돌파 및 시민 눈높이 맞춤형 영상 콘텐츠 운영 성과를 높이 평가받음"
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, 대한민국소통어워즈 2관왕…‘화성온TV’ 구독자 10만명",
+          "link": "https://view.asiae.co.kr/article/2026111507345866685",
+          "media": "아시아경제",
+          "time_label": "스크랩 11.15 07:34",
+          "pub_timestamp": "2026-11-15T07:34:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://file.sportsseoul.com/news/cms/2026/11/15/news-p.v1.20261115.5bb7dcf10acb4ae6a0c96198f428580c_T1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "균열 생기고 1년… ‘동탄숲 생태터널’ 공사 내년초에나 결정",
+      "link": "https://www.kyeongin.com/article/1774742",
+      "originallink": "https://www.kyeongin.com/article/1774742",
+      "media": "경인일보",
+      "category": "RISK",
+      "department": "도로관리과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.14 20:06",
+      "pub_timestamp": "2026-11-14T20:06:00+09:00",
+      "bullets": [
+        "- 동탄숲 생태터널 균열 발생 1년이 지났으나 내년 2월에나 공사 방식이 결정될 예정으로 주민 불편 장기화",
+        "- 화성시는 주민설명회를 열고 철거 후 재설치 등 3개 대안을 제시하며 향후 추진 계획 논의",
+        "- 현재 차로가 제한적으로 운영돼 출퇴근길 정체가 이어지고 있으며 철거 재설치 시 약 1년 소요 전망"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/14/news-p.v1.20261113.533d81ac552242569c3430af2161ea7f_R.jpeg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성 서신면·마도면 일부 지역 단수…상수관 누수 긴급 복구",
+      "link": "https://www.news1.kr/local/gyeonggi/6354064",
+      "originallink": "https://www.news1.kr/local/gyeonggi/6354064",
+      "media": "뉴스1",
+      "category": "RISK",
+      "department": "맑은물시설과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.14 14:52",
+      "pub_timestamp": "2026-11-14T14:52:00+09:00",
+      "bullets": [
+        "- 화성시 서신면 및 마도면 백곡리 일부 지역에서 상수관 누수가 발생해 긴급 복구 작업 추진",
+        "- 누수 관로 긴급 복구를 위해 14일 오후 2시부터 7시까지 해당 지역 수돗물 공급 일시 중단",
+        "- 신속한 복구 공사 진행으로 주민 급수 불편을 최소화하고 정상 공급을 재개할 방침"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "",
+      "telegram_sent": true
+    },
+    {
+      "title": "[인터뷰]화성시기업인협의회 윤현석 회장",
+      "link": "https://www.newswhoplus.com/news/articleView.html?idxno=74370",
+      "originallink": "https://www.newswhoplus.com/news/articleView.html?idxno=74370",
+      "media": "NEWSWHOPLUS",
+      "category": "POLICY",
+      "department": "기업지원과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.14 14:36",
+      "pub_timestamp": "2026-11-14T14:36:00+09:00",
+      "bullets": [
+        "- 화성시기업인협의회가 창립 10주년을 맞아 관내 130여 명의 기업인이 참여하는 지역 경제 협력의 구심점으로 성장함",
+        "- 협의회는 사무실 및 전담 인력을 기반으로 회원사 간 교류와 사업 연계를 지속 확대하고 있음",
+        "- 윤현석 회장은 경제포럼 및 공동사업 추진 등 단체 간 연대를 통해 화성시 관내 기업의 경쟁력을 강화하겠다고 밝힘"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newswhoplus.com/news/thumbnail/202611/74370_113868_518_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "‘느린 학습자’와 함께하는 사회적 돌봄 농업을 아시나요",
+      "link": "https://www.kmib.co.kr/article/20261113500658",
+      "originallink": "https://www.kmib.co.kr/article/20261113500658",
+      "media": "국민일보",
+      "category": "CULTURE",
+      "department": "농업기술센터",
+      "dept_label": "소관",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.14 10:52",
+      "pub_timestamp": "2026-11-14T10:52:00+09:00",
+      "bullets": [
+        "- 화성시농촌체험연구회 등 12개 단체는 13일 화성시농업기술센터에서 '2026 화성특례시 사회적농업 포럼' 개최",
+        "- AI 시대 농업의 사회통합 돌봄자 역할 및 느린 학습자 등 사회적 약자를 품는 사회적 농업 방안 논의",
+        "- 미래농업의 ESG 경영 가치 확산과 관내 사회적 돌봄 농업 활성화 모색"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://3f3bm4nnaefgwrtq8izg16625.edge.naverncp.com/data2/content/image/2026/11/13/.cache/512/20261113500654.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "정명근표 민원혁신, 화성 ‘1시간·2만건·9개월’로 전국 무대",
+      "link": "https://www.etoday.co.kr/news/view/2648138",
+      "originallink": "https://www.etoday.co.kr/news/view/2648138",
+      "media": "이투데이",
+      "category": "POLICY",
+      "department": "시민소통관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.14 09:00",
+      "pub_timestamp": "2026-11-14T09:00:00+09:00",
+      "bullets": [
+        "- 정명근 화성시장이 국회에서 '1시간 응답·선제적 발굴·협업 해결'을 골자로 한 화성특례시 민원혁신 사례를 발표함",
+        "- 장기 고질 민원이었던 3년 묵은 악취 문제 등을 해결하며 대통령상 및 지방자치학회장상 등을 수상함",
+        "- 화성시는 신속하고 유기적인 민원 처리 시스템을 구축해 전국적인 행정 혁신 모델로 평가받고 있음"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.etoday.co.kr/pto_db/2026/11/20261114085520_2417396_1200_800.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성특례시, '화성곡간 설치·운영' 연계 농산물 기부 전달식",
       "link": "https://www.m-i.kr/news/articleView.html?idxno=2018516",
@@ -121,8 +269,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 23:18",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 23:18",
       "pub_timestamp": "2026-11-13T23:18:00+09:00",
       "bullets": [
         "- 화성시가 13일 농업기술센터에서 사회적 농업 포럼과 연계한 취약계층 농산물 기부 전달식을 개최함",
@@ -145,16 +293,24 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 22:42",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 22:42",
       "pub_timestamp": "2026-11-13T22:42:00+09:00",
       "bullets": [
         "- 화성시가 국회 사랑재에서 열린 ‘참좋은 지방자치 정책대회’에서 한국지방자치학회장상을 수상함",
         "- 장기 하천 악취 민원을 주민·전문가·관계 기관 협업으로 해결한 민원 혁신 정책의 우수성을 인정받음",
         "- 19개 지자체가 참여한 대회에서 복합민원 협업 해결 및 신속한 생활불편 처리 모델을 정책 사례로 공유함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "전국 지방정부 우수정책 한자리에…'2026 참좋은 지방자치 정책대회' 개...",
+          "link": "https://www.siminsori.com/news/articleView.html?idxno=402389",
+          "media": "SIMINSORI",
+          "time_label": "스크랩 11.14 23:16",
+          "pub_timestamp": "2026-11-14T23:16:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.thereport.co.kr/news/photo/202611/93358_120584_3947.jpg",
       "telegram_sent": false
     },
@@ -169,8 +325,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 20:50",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 20:50",
       "pub_timestamp": "2026-11-13T20:50:00+09:00",
       "bullets": [
         "- 화성특례시 만세구가 '2026년 긴급복지지원 우수사례 공모전' 시상식에서 장려상을 수상함",
@@ -193,8 +349,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 20:50",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 20:50",
       "pub_timestamp": "2026-11-13T20:50:00+09:00",
       "bullets": [
         "- 화성시가 지난 12일 화성동탄중앙도서관 지식의숲에서 개관 1주년 기념 클래식 공연을 개최함",
@@ -217,8 +373,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 20:50",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 20:50",
       "pub_timestamp": "2026-11-13T20:50:00+09:00",
       "bullets": [
         "- 화성서부경찰서 관할 발안2파출소 신설안과 남양파출소의 지구대 승격안이 경찰청 심사위원회를 최종 통과함",
@@ -228,6 +384,30 @@
       "related_articles": [],
       "is_major": false,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3082645_125170_816_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "\"한 걸음 더 안전하게\"…화성서부경찰 '어르신 교통사고' 예방 앞장",
+      "link": "https://www.news1.kr/local/gyeonggi/6353587",
+      "originallink": "https://www.news1.kr/local/gyeonggi/6353587",
+      "media": "뉴스1",
+      "category": "POLICY",
+      "department": "교통행정과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 16:12",
+      "pub_timestamp": "2026-11-13T16:12:00+09:00",
+      "bullets": [
+        "- 화성서부경찰서가 화성시 팔탄노인대학을 찾아 어르신 100여 명을 대상으로 맞춤형 교통안전교육 실시",
+        "- 노인대학 졸업식 계기 고령층 교통안전 의식 고취 및 보행 중 사고 예방 수칙 집중 안내",
+        "- 관내 어르신 교통안전 확보 및 사고 예방을 위한 유관기관 협력형 치안·안전 활동 전개"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "",
       "telegram_sent": false
     },
     {
@@ -241,8 +421,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 15:58",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 15:58",
       "pub_timestamp": "2026-11-13T15:58:00+09:00",
       "bullets": [
         "- 화성특례시의회는 13일 우정읍 조암10·11리 시립경로당 개소식에 참석해 축하 인사를 전함",
@@ -265,8 +445,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 15:32",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 15:32",
       "pub_timestamp": "2026-11-13T15:32:00+09:00",
       "bullets": [
         "- 농협중앙회가 화성시 마도면 해문리에서 '사랑의 집고치기 농가희망봉사단 발대식'을 개최함",
@@ -427,6 +607,20 @@
           "media": "서울경제",
           "time_label": "스크랩 11.13 14:43",
           "pub_timestamp": "2026-11-13T14:43:00+09:00"
+        },
+        {
+          "title": "농심천심 봉사단, 사랑의 집 고치기로 ‘온기’ 나눠",
+          "link": "https://www.nongmin.com/article/20261113500660",
+          "media": "NONGMIN",
+          "time_label": "스크랩 11.14 20:12",
+          "pub_timestamp": "2026-11-14T20:12:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 농협중앙회, 현대백화점(11.13)",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802041",
+          "media": "WEEKLYTODAY",
+          "time_label": "11.13 19:06",
+          "pub_timestamp": "2026-11-13T19:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -444,8 +638,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 15:30",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 15:30",
       "pub_timestamp": "2026-11-13T15:30:00+09:00",
       "bullets": [
         "- 경기도 돔구장 유치 공모에 화성시를 포함한 도내 9개 지자체가 유치 신청 접수",
@@ -468,8 +662,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 15:18",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 15:18",
       "pub_timestamp": "2026-11-13T15:18:00+09:00",
       "bullets": [
         "- 화성특례시의회 의원연구단체 '지역순환경제 연구회'가 연구용역 최종보고회를 열고 지역 경제 자립 모델을 제시함",
@@ -492,8 +686,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 14:45",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 14:45",
       "pub_timestamp": "2026-11-13T14:45:00+09:00",
       "bullets": [
         "- 국토교통부가 이르면 내년 상반기 GTX-A 노선의 '파주 운정~화성 동탄' 전 구간 운행이 가능할 수 있다는 전망을 제시함",
@@ -516,8 +710,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 14:10",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 14:10",
       "pub_timestamp": "2026-11-13T14:10:00+09:00",
       "bullets": [
         "- 화성특례시가 착한가격업소를 기존 98개소에서 130개소로 32개소(32.7%) 확대 지정함",
@@ -540,8 +734,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 11:08",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 11:08",
       "pub_timestamp": "2026-11-13T11:08:00+09:00",
       "bullets": [
         "- 기후에너지환경부가 화성봉담3 공공주택지구를 집단에너지 신규 공급대상지역으로 예비 공고함",
@@ -564,8 +758,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 11:02",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 11:02",
       "pub_timestamp": "2026-11-13T11:02:00+09:00",
       "bullets": [
         "- 화성시정조효노인복지관이 어르신들을 대상으로 전통문화 가치를 공유하는 다채로운 프로그램을 운영 중임",
@@ -588,8 +782,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 09:30",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 09:30",
       "pub_timestamp": "2026-11-13T09:30:00+09:00",
       "bullets": [
         "- 화성시문화관광재단이 서울옥션과 협력해 '제로베이스×화성' 하반기 프리뷰 전시 및 온라인 경매 추진",
@@ -620,8 +814,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 09:06",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 09:06",
       "pub_timestamp": "2026-11-13T09:06:00+09:00",
       "bullets": [
         "- 화성시 중소기업지원센터에서 유망 창업기업 발굴을 위한 '제3회 H-스타트업 창업경진대회' 개최 및 시상 완료",
@@ -652,8 +846,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 08:52",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 08:52",
       "pub_timestamp": "2026-11-13T08:52:00+09:00",
       "bullets": [
         "- 화성특례시의회 경제환경위원회가 화성에코팜테마파크에서 열린 김장체험 및 나눔행사에 참여해 봉사활동을 진행함",
@@ -676,8 +870,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.13 08:48",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 08:48",
       "pub_timestamp": "2026-11-13T08:48:00+09:00",
       "bullets": [
         "- 대한민국특례시시장협의회 정기회의에 정명근 화성시장 등 5개 특례시 단체장이 참석해 자치권한 확대 공동 대응 논의",
@@ -698,6 +892,13 @@
           "media": "BIZWNEWS",
           "time_label": "오늘 13:28",
           "pub_timestamp": "2026-11-13T13:28:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장 “재정특례 확보 위해 5개 특례시 연대와 법적 지...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919408",
+          "media": "경기일보",
+          "time_label": "스크랩 11.14 08:26",
+          "pub_timestamp": "2026-11-14T08:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -715,8 +916,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:42",
+      "date_group": "2026-11-13",
+      "time_label": "11.13 07:42",
       "pub_timestamp": "2026-11-13T07:42:00+09:00",
       "bullets": [
         "- 화성특례시가 '2026년 폐전지 수거 경진대회' 기초자치단체 부문에서 전국 대상을 수상함",
@@ -807,6 +1008,20 @@
           "media": "아주경제",
           "time_label": "스크랩 11.13 17:40",
           "pub_timestamp": "2026-11-13T17:40:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 시민 불편 먼저 찾는 민원혁신…한국지방자치학회장...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33097",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.14 16:16",
+          "pub_timestamp": "2026-11-14T16:16:00+09:00"
+        },
+        {
+          "title": "화성특례시, 폐전지 수거 경진대회 '대상'",
+          "link": "http://www.metroseoul.co.kr/article/20261113500171",
+          "media": "서울신문",
+          "time_label": "스크랩 11.14 15:26",
+          "pub_timestamp": "2026-11-14T15:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -1979,6 +2194,27 @@
           "media": "ASIATIME",
           "time_label": "스크랩 11.13 16:14",
           "pub_timestamp": "2026-11-13T16:14:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 청년 일자리 미스매치 해소 위한 20개 정책과제 제시",
+          "link": "http://www.metroseoul.co.kr/article/20261113500167",
+          "media": "서울신문",
+          "time_label": "스크랩 11.14 15:26",
+          "pub_timestamp": "2026-11-14T15:26:00+09:00"
+        },
+        {
+          "title": "경기도 복합형 돔구장 유치전 본격화… 8개 지자체 사활 건 경쟁",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082667",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.14 11:36",
+          "pub_timestamp": "2026-11-14T11:36:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, ‘청년 정착·지역순환경제’ 두 마리 토끼 잡는다",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919397",
+          "media": "경기일보",
+          "time_label": "스크랩 11.14 08:38",
+          "pub_timestamp": "2026-11-14T08:38:00+09:00"
         }
       ],
       "is_major": true,
@@ -5800,6 +6036,13 @@
           "media": "SKBROADBAND",
           "time_label": "오늘 09:30",
           "pub_timestamp": "2026-11-11T09:30:00+09:00"
+        },
+        {
+          "title": "외진 곳 달리고 장애인 태우고...화성시, 자율주행 실증",
+          "link": "https://www.ytn.co.kr/_ln/0115_202611150351354183",
+          "media": "YTN",
+          "time_label": "스크랩 11.15 03:51",
+          "pub_timestamp": "2026-11-15T03:51:00+09:00"
         }
       ],
       "is_major": true,
@@ -20517,6 +20760,13 @@
           "media": "아주경제",
           "time_label": "스크랩 11.13 17:16",
           "pub_timestamp": "2026-11-13T17:16:00+09:00"
+        },
+        {
+          "title": "靑, 전기차 생산세액공제 조건부 포함 가닥…국회 논의 주목",
+          "link": "https://www.news1.kr/politics/president/6354053",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.15 06:00",
+          "pub_timestamp": "2026-11-15T06:00:00+09:00"
         }
       ],
       "is_major": true,
