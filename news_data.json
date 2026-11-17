@@ -1,72 +1,54 @@
 {
-  "updated_at": "2026.11.17. 16:00",
-  "scrap_period": "전일(11.16) 08:00 ~ 금일(11.17) 08:00",
-  "yesterday_label": "11.16",
+  "updated_at": "2026.11.18. 08:01",
+  "scrap_period": "전일(11.17) 08:00 ~ 금일(11.18) 08:00",
+  "yesterday_label": "11.17",
   "macro_pulse": {
-    "report_date": "2026-11-17",
-    "article_count": 8,
-    "overview": "경기도 K-반도체 초격차 비전 실현을 위한 광역 협력 행보에 대규모 언론 보도가 집중된 가운데, 내년도 본예산 6조 원 시대를 맞이한 의회 정례회 심의와 민생 안전 관리 및 행정 신뢰도 제고가 주요 현안으로 부각되었습니다.",
+    "report_date": "2026-11-18",
+    "article_count": 1,
+    "overview": "동탄 지역 내 방치된 유휴 부지를 대상으로 주민들이 자발적인 환경정화에 나선 사례가 보도되며 생활 밀착형 환경 관리와 시민 참여의 가치가 조명되었습니다.",
     "main_points": [
-      "- [경기도 K-반도체 초격차 비전선포식] 총 63개 언론사 집중 보도 - 정명근 시장이 행사에 참석해 경기도와 반도체 산업 초격차 비전 실현을 위한 긴밀한 협력 의지를 표명하며 미래 전략산업 육성에 주력함.",
-      "- [화성특례시의회 제256회 제2차 정례회 개회] 주간한국 보도 - 내년도 본예산 6조 원 돌파에 발맞춰 시의회가 재정 건전성 확보와 주요 시정 현안에 대한 고강도 검증 및 행정사무감사 일정에 돌입함.",
-      "- [관내 산후조리원 소방·안전 합동점검] 매일일보 보도 - 동탄보건소가 화성소방서와 함께 관내 산후조리원 8개소를 대상으로 사전 화재 예방 및 안전사고 방지를 위한 민생 현장 점검을 추진함.",
-      "- [농어촌민박 정보공개 늑장 처리 논란] 국제뉴스 보도 - 농어촌민박 실태 관련 정보공개 청구 건에 대해 법정 처리 기한 초과 및 사전 연장 미통지 사실이 지적되어 대민 행정절차 준수 점검이 요구됨."
+      "- [동탄7동 버스정류장 인근 공터 환경정화 활동] RIGHTKNOW 보도 - 레이크꼬모 맞은편 방치 공터에 쌓인 담배꽁초 등을 주민 50여 명이 자발적으로 수거하며 쾌적한 보행 및 생활환경 개선을 실천함"
     ],
-    "risk_cautions": [
-      {
-        "title": "[화성시 농어촌민박 집중 취재 제1탄] '법정 기한 넘기고 '사전 통보'도...",
-        "media": "국제뉴스",
-        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3754367",
-        "time_label": "오늘 12:00",
-        "pub_timestamp": "2026-11-17T12:00:00+09:00",
-        "department": "농업정책과",
-        "bullets": [
-          "- 화성시가 농어촌민박 실태 정보공개 청구에 법정 처리 기한을 초과하고 사전 연장 통지도 없이 늑장 통지함",
-          "- 기한 초과 후 송부된 자료마저 기초 통계가 누락된 부실 자료로 나타나 행정 데이터 부재 및 관리 소홀 지적",
-          "- 화성시는 인사 발령과 자료 취합 시간 부족을 이유로 해명했으나 직무태만 및 법령 위반 논란이 지속됨"
-        ]
-      }
-    ],
+    "risk_cautions": [],
     "summary_bullets": [
-      "경기도 K-반도체 초격차 비전 실현을 위한 광역 협력 행보에 대규모 언론 보도가 집중된 가운데, 내년도 본예산 6조 원 시대를 맞이한 의회 정례회 심의와 민생 안전 관리 및 행정 신뢰도 제고가 주요 현안으로 부각되었습니다.",
-      "- [경기도 K-반도체 초격차 비전선포식] 총 63개 언론사 집중 보도 - 정명근 시장이 행사에 참석해 경기도와 반도체 산업 초격차 비전 실현을 위한 긴밀한 협력 의지를 표명하며 미래 전략산업 육성에 주력함.",
-      "- [화성특례시의회 제256회 제2차 정례회 개회] 주간한국 보도 - 내년도 본예산 6조 원 돌파에 발맞춰 시의회가 재정 건전성 확보와 주요 시정 현안에 대한 고강도 검증 및 행정사무감사 일정에 돌입함."
+      "동탄 지역 내 방치된 유휴 부지를 대상으로 주민들이 자발적인 환경정화에 나선 사례가 보도되며 생활 밀착형 환경 관리와 시민 참여의 가치가 조명되었습니다.",
+      "- [동탄7동 버스정류장 인근 공터 환경정화 활동] RIGHTKNOW 보도 - 레이크꼬모 맞은편 방치 공터에 쌓인 담배꽁초 등을 주민 50여 명이 자발적으로 수거하며 쾌적한 보행 및 생활환경 개선을 실천함"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 8,
-        "ratio": 32
+        "count": 3,
+        "ratio": 30
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 4
+        "ratio": 10
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 5,
-        "ratio": 20
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 5,
+        "count": 2,
         "ratio": 20
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 6,
-        "ratio": 24
+        "count": 4,
+        "ratio": 40
       }
     ]
   },
@@ -74,56 +56,128 @@
     {
       "rank": 1,
       "keyword": "K-반도체 초격차 비전",
-      "count": 63,
+      "count": 85,
       "category": "POLICY",
       "dept": "반도체산업과",
-      "summary": "화성시가 경기도 K-반도체 초격차 비전선포식에 참석해 반도체 산업 육성 및 협력 의지를 표명함"
+      "summary": "경기도와 협력하여 반도체 산업 생태계 강화 및 초격차 비전 실현에 본격 동참함."
     },
     {
       "rank": 2,
-      "keyword": "바랑골 느티공원",
-      "count": 25,
+      "keyword": "순국선열 애국지사 추모제",
+      "count": 8,
       "category": "CULTURE",
-      "dept": "공원녹지과",
-      "summary": "동탄2지구에 조성된 바랑골 느티공원이 제16회 대한민국 조경대상에서 국무총리상을 수상함"
+      "dept": "의회사무국",
+      "summary": "제19회 순국선열·애국지사 추모제가 열려 독립정신 계승과 보훈 문화 확산을 다짐함."
     },
     {
       "rank": 3,
-      "keyword": "아산만 모터보트 전복사고",
-      "count": 5,
-      "category": "RISK",
-      "dept": "해양수산과",
-      "summary": "제부마리나를 출항한 모터보트가 아산만 인근 해상에서 전복되어 승무원 4명이 해경에 구조됨"
+      "keyword": "찾아가는 청렴 홍보",
+      "count": 2,
+      "category": "POLICY",
+      "dept": "감사관",
+      "summary": "공직사회 청렴 의식 제고 및 실천 문화 확산을 위한 순회 홍보 행사를 진행함."
     },
     {
       "rank": 4,
-      "keyword": "순국선열·애국지사 추모제",
-      "count": 3,
-      "category": "CULTURE",
-      "dept": "의회사무국",
-      "summary": "보훈회관에서 열린 제19회 순국선열·애국지사 추모제에 시의회 의장이 참석해 독립정신 계승을 기림"
+      "keyword": "불법 택시 기사 폭행",
+      "count": 1,
+      "category": "RISK",
+      "dept": "대중교통과",
+      "summary": "외국인의 불법 택시 영업을 제지하던 택시 기사가 무차별 폭행당해 대중교통 안전 관리가 대두됨."
     },
     {
       "rank": 5,
-      "keyword": "해병대상륙공격헬기",
-      "count": 3,
+      "keyword": "내년도 예산 6조원 돌파",
+      "count": 1,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "해병대상륙공격헬기 관련 보도가 언론을 통해 집중 조명됨"
+      "dept": "의회법무과",
+      "summary": "내년도 본예산이 6조 원을 돌파한 가운데 시의회 제2차 정례회에서 재정 건전성 집중 심사에 돌입함."
     }
   ],
   "stats": {
-    "total": 370,
-    "major_count": 184,
-    "live_count": 186,
-    "today_count": 7,
-    "scrap_count": 18,
-    "yesterday_count": 3,
-    "policy": 206,
+    "total": 373,
+    "major_count": 190,
+    "live_count": 183,
+    "today_count": 0,
+    "scrap_count": 10,
+    "yesterday_count": 1,
+    "policy": 207,
     "culture": 118,
-    "risk": 46
+    "risk": 48
   },
   "articles": [
+    {
+      "title": "담배꽁초 쌓인 버스정류장 옆 공터…동탄 주민 50여 명이 직접 치웠다",
+      "link": "http://www.rightknow.co.kr/news/articleView.html?idxno=35433",
+      "originallink": "http://www.rightknow.co.kr/news/articleView.html?idxno=35433",
+      "media": "RIGHTKNOW",
+      "category": "POLICY",
+      "department": "동탄7동",
+      "dept_label": "소관",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.18 05:46",
+      "pub_timestamp": "2026-11-18T05:46:00+09:00",
+      "bullets": [
+        "- 화성시 동탄7동 레이크꼬모 맞은편 버스정류장 옆 방치된 공터에서 주민 자발적 환경정화 활동 실시",
+        "- 동탄주민행동 등 4개 단체 및 주민 50여 명이 참여해 무성한 잡초 제거 및 담배꽁초·쓰레기 수거",
+        "- 건조한 가을철 담배꽁초로 인한 화재 예방 및 보행자 통행로 환경 개선 도모"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.rightknow.co.kr/news/thumbnail/202611/35433_42922_444_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성 불법 택시 영업 제지하다 외국인에 무차별 폭행당한 택시 기사",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3755128",
+      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3755128",
+      "media": "국제뉴스",
+      "category": "RISK",
+      "department": "대중교통과",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 21:44",
+      "pub_timestamp": "2026-11-17T21:44:00+09:00",
+      "bullets": [
+        "- 화성시 관내에서 외국인의 불법 택시 영업을 제지하던 택시 기사가 무차별 폭행당한 사건이 방송을 통해 조명됨",
+        "- 피해 택시 기사는 불법 유상운송 행위를 경찰에 신고하려다 외국인 남성에게 폭행당해 의식을 잃는 피해를 입음",
+        "- 관내 외국인 밀집 지역 불법 택시 영업 실태와 운수 종사자 안전 문제 등 치안 및 교통 행정 관리 필요성 대두"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202611/3755128_3937792_430_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의회, 유소년 축구·종합병원·공동주택 안전관리 개선 촉구",
+      "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160251870243510",
+      "originallink": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160251870243510",
+      "media": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160251870243510",
+      "category": "RISK",
+      "department": "의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 16:02",
+      "pub_timestamp": "2026-11-17T16:02:00+09:00",
+      "bullets": [
+        "- 화성특례시의회는 동탄2 종합병원 조기 건립, 화성FC 유소년팀 운영 개선, 공동주택 장기수선충당금 적립 등 주요 시정 현안 개선을 촉구함",
+        "- 화성FC 유소년팀 예산이 10억여 원으로 대폭 증가했으나 지도자 징계 기준이 미비하고 직장 내 갑질 등 민원이 접수되었음을 지적함",
+        "- 시의회는 시민 생활과 직결된 행정 과제들에 대해 집행부 차원의 철저한 점검과 대책 마련을 요구함"
+      ],
+      "related_articles": [],
+      "is_major": true,
+      "image_url": "https://www.siminilbo.co.kr/news/data/20261117/p1160251870243510_281_thum.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성특례시, 경기도 K-반도체 초격차 비전 실현에 힘 보탠다",
       "link": "https://news.ifm.kr/news/articleView.html?idxno=484676",
@@ -135,8 +189,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:52",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 15:52",
       "pub_timestamp": "2026-11-17T15:52:00+09:00",
       "bullets": [
         "- 정명근 화성시장이 경기도 K-반도체 초격차 비전선포식에 참석해 반도체 산업 발전 협력 의지 표명",
@@ -577,6 +631,153 @@
           "media": "서울경제",
           "time_label": "스크랩 11.16 12:18",
           "pub_timestamp": "2026-11-16T12:18:00+09:00"
+        },
+        {
+          "title": "경기도·8개 시, 반도체클러스터 공동지정 추진… 연구·설계·제조 연계",
+          "link": "https://www.thereport.co.kr/news/articleView.html?idxno=93462",
+          "media": "THEREPORT",
+          "time_label": "스크랩 11.18 02:58",
+          "pub_timestamp": "2026-11-18T02:58:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"알권리 보장하되 악의적 반복 청구 막아야\"",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=67927",
+          "media": "NEWSROAD",
+          "time_label": "스크랩 11.17 19:36",
+          "pub_timestamp": "2026-11-17T19:36:00+09:00"
+        },
+        {
+          "title": "화성특례시 경기도와 반도체 클러스터 공모 공동 대응",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083113",
+          "media": "NEWSCLAIM",
+          "time_label": "스크랩 11.17 18:56",
+          "pub_timestamp": "2026-11-17T18:56:00+09:00"
+        },
+        {
+          "title": "정명근, 삼성·ASML·소부장 집적 화성 앞세워 K-반도체 클러스터 승부",
+          "link": "https://www.etoday.co.kr/news/view/2649438",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.17 18:14",
+          "pub_timestamp": "2026-11-17T18:14:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 정보공개 반복 청구 제도개선 촉구...농지조사 후속대...",
+          "link": "https://www.ajunews.com/view/20261117165545925",
+          "media": "아주경제",
+          "time_label": "스크랩 11.17 17:26",
+          "pub_timestamp": "2026-11-17T17:26:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 경기도 반도체 전략에 힘 싣는다…\"산업 현장이 답\"",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194217",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.17 17:24",
+          "pub_timestamp": "2026-11-17T17:24:00+09:00"
+        },
+        {
+          "title": "정명근 \"화성을 세계 반도체 핵심 거점으로\"… 초격차 경쟁력 확보 나선...",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003285850&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "media": "오마이뉴스",
+          "time_label": "스크랩 11.17 17:22",
+          "pub_timestamp": "2026-11-17T17:22:00+09:00"
+        },
+        {
+          "title": "화성시, 반복·악의적 정보공개 청구 방지 제도개선 건의",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5084532",
+          "media": "SHINAILBO",
+          "time_label": "스크랩 11.17 17:06",
+          "pub_timestamp": "2026-11-17T17:06:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 경기도 '반도체 초격차 비전 실현' 동참",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2019774",
+          "media": "매일일보",
+          "time_label": "스크랩 11.17 17:02",
+          "pub_timestamp": "2026-11-17T17:02:00+09:00"
+        },
+        {
+          "title": "화성특례시 정명근 시장, 악의적·반복 정보공개 청구 방지 제도 개선 ...",
+          "link": "http://www.metroseoul.co.kr/article/20261117500500",
+          "media": "서울신문",
+          "time_label": "스크랩 11.17 16:58",
+          "pub_timestamp": "2026-11-17T16:58:00+09:00"
+        },
+        {
+          "title": "화성시 정보공개 청구 급증…정명근 시장, 제도 개선 촉구",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611170215",
+          "media": "SENTV",
+          "time_label": "스크랩 11.17 16:56",
+          "pub_timestamp": "2026-11-17T16:56:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 “K-반도체 초격차, 산업 현장에서 완성하겠다”",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006628",
+          "media": "ASIATODAY",
+          "time_label": "스크랩 11.17 16:44",
+          "pub_timestamp": "2026-11-17T16:44:00+09:00"
+        },
+        {
+          "title": "화성특례시, 경기도와 ‘K-반도체 초격차’ 맞손…클러스터 공모 공동 ...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=919985",
+          "media": "경기일보",
+          "time_label": "스크랩 11.17 16:38",
+          "pub_timestamp": "2026-11-17T16:38:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 정보공개제도 개선·농지조사 후속대책 건의…시군 공...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33162",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.17 16:34",
+          "pub_timestamp": "2026-11-17T16:34:00+09:00"
+        },
+        {
+          "title": "“두 달 새 1명이 2766건 청구”… 정명근 화성특례시장, ‘정보공개 폭...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920001",
+          "media": "경기일보",
+          "time_label": "스크랩 11.17 16:34",
+          "pub_timestamp": "2026-11-17T16:34:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 경기도 K-반도체 초격차 비전선포식 참",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041242",
+          "media": "기호일보",
+          "time_label": "스크랩 11.17 16:26",
+          "pub_timestamp": "2026-11-17T16:26:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, K-반도체 초격차 전략 선봉…글로벌 메가클러스터 구...",
+          "link": "https://www.ekn.kr/web/view.php?key=20261117024450936",
+          "media": "EKN",
+          "time_label": "스크랩 11.17 16:26",
+          "pub_timestamp": "2026-11-17T16:26:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"반도체 초격차, 산업현장서 성과 내겠다\"",
+          "link": "https://www.sidae.com/article/2026111715493380221",
+          "media": "SIDAE",
+          "time_label": "스크랩 11.17 16:14",
+          "pub_timestamp": "2026-11-17T16:14:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시, K-반도체 초격차 협력 강화",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802337",
+          "media": "WEEKLYTODAY",
+          "time_label": "스크랩 11.17 16:10",
+          "pub_timestamp": "2026-11-17T16:10:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 수원 군공항 화성 이전 반대 공동 대응 강화",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160250523826674",
+          "media": "시민일보",
+          "time_label": "스크랩 11.17 16:02",
+          "pub_timestamp": "2026-11-17T16:02:00+09:00"
+        },
+        {
+          "title": "다시 불붙은 수원군공항 갈등…화성 “일방 추진 불가”",
+          "link": "https://www.dt.co.kr/article/12095675?ref=naver",
+          "media": "디지털타임스",
+          "time_label": "스크랩 11.17 15:45",
+          "pub_timestamp": "2026-11-17T15:45:00+09:00"
         }
       ],
       "is_major": true,
@@ -594,8 +795,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:18",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 15:18",
       "pub_timestamp": "2026-11-17T15:18:00+09:00",
       "bullets": [
         "- 이계철 화성특례시의회 의장이 화성시 보훈회관에서 열린 '제19회 순국선열·애국지사 추모제'에 참석함",
@@ -616,6 +817,41 @@
           "media": "ASIATIME",
           "time_label": "오늘 14:36",
           "pub_timestamp": "2026-11-17T14:36:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 순국선열의 날 맞아 독립운동 희생자 추모",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884360",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.17 22:00",
+          "pub_timestamp": "2026-11-17T22:00:00+09:00"
+        },
+        {
+          "title": "화성시의회, 순국선열 추모제 참여",
+          "link": "http://www.breaknews.com/1251662",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.17 17:54",
+          "pub_timestamp": "2026-11-17T17:54:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 제19회 순국선열 애국지사 추모제서 희생 기림",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2019754",
+          "media": "매일일보",
+          "time_label": "스크랩 11.17 16:38",
+          "pub_timestamp": "2026-11-17T16:38:00+09:00"
+        },
+        {
+          "title": "이계철 화성특례시의회 의장 “제암리·고주리 순국선열 희생 영원히 기...",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920003",
+          "media": "경기일보",
+          "time_label": "스크랩 11.17 16:36",
+          "pub_timestamp": "2026-11-17T16:36:00+09:00"
+        },
+        {
+          "title": "이계철 화성시의회 의장 “선열 희생 기억…독립유공자 예우에 힘쓸 것...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111715051986674c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.17 16:20",
+          "pub_timestamp": "2026-11-17T16:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -633,16 +869,24 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:32",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 14:32",
       "pub_timestamp": "2026-11-17T14:32:00+09:00",
       "bullets": [
         "- 화성시가 공직사회 청렴 의식 제고 및 실천 문화 확산을 위해 11월 12일부터 20일까지 '찾아가는 청렴' 홍보 행사를 추진함",
         "- 시청 본청과 4개 구청(만세·효행·병점·동탄)을 순회하며 점심시간을 활용해 직원과 방문 시민이 참여하는 프로그램 운영",
         "- 청렴 포토월 전시, 청렴 다짐 메시지 작성, 포춘쿠키 증정 및 설문조사 등 다양한 참여형 홍보 활동 진행"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, '찾아가는 청렴' 홍보행사 운영",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041234",
+          "media": "기호일보",
+          "time_label": "스크랩 11.17 16:00",
+          "pub_timestamp": "2026-11-17T16:00:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/17/.cache/512/20261117500338.jpg",
       "telegram_sent": false
     },
@@ -657,8 +901,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 12:42",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 12:42",
       "pub_timestamp": "2026-11-17T12:42:00+09:00",
       "bullets": [
         "- 화성특례시의회가 제256회 제2차 정례회를 열고 내년도 본예산 심사와 행정사무감사 일정에 돌입함",
@@ -681,8 +925,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 12:00",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 12:00",
       "pub_timestamp": "2026-11-17T12:00:00+09:00",
       "bullets": [
         "- 화성시가 농어촌민박 실태 정보공개 청구에 법정 처리 기한을 초과하고 사전 연장 통지도 없이 늑장 통지함",
@@ -705,8 +949,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:48",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 10:48",
       "pub_timestamp": "2026-11-17T10:48:00+09:00",
       "bullets": [
         "- 화성시 동탄보건소가 화성소방서와 함께 오는 18일부터 관내 산후조리원 소방·안전 합동점검을 추진함",
@@ -729,8 +973,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:46",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.17 10:46",
       "pub_timestamp": "2026-11-17T10:46:00+09:00",
       "bullets": [
         "- 화성시가 산업통상자원부 주관 반도체 클러스터 공모에 경기도와 공동으로 참여 추진",
@@ -753,8 +997,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.17 07:07",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:07",
       "pub_timestamp": "2026-11-17T07:07:00+09:00",
       "bullets": [
         "- 화성시어린이문화센터에서 세계 어린이의 날 및 아동학대 예방의 날을 맞아 특별 행사를 개최함",
@@ -777,8 +1021,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 23:36",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 23:36",
       "pub_timestamp": "2026-11-16T23:36:00+09:00",
       "bullets": [
         "- 봉담읍과 동탄9동에 다함께돌봄센터 2개소를 신규 개소해 관내 총 29개소로 확대 운영",
@@ -801,8 +1045,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 23:04",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 23:04",
       "pub_timestamp": "2026-11-16T23:04:00+09:00",
       "bullets": [
         "- 민·정·관 100여 명이 국방부 용역 재검토, 특별법 철회 및 경기국제공항 반대 공동입장문을 발표함",
@@ -825,8 +1069,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 19:24",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 19:24",
       "pub_timestamp": "2026-11-16T19:24:00+09:00",
       "bullets": [
         "- 화성특례시의회 고병태 의원은 제256회 제2차 정례회 5분 발언을 통해 동탄2 종합병원의 조기 개원과 건립 책임 강화를 촉구함",
@@ -849,8 +1093,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 18:12",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 18:12",
       "pub_timestamp": "2026-11-16T18:12:00+09:00",
       "bullets": [
         "- 화성FC 유소년팀 운영예산이 2년 사이 3배 이상 늘었으나 지도자 징계 기준 및 절차는 미흡하다는 지적 제기",
@@ -873,8 +1117,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 18:00",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 18:00",
       "pub_timestamp": "2026-11-16T18:00:00+09:00",
       "bullets": [
         "- 해병대상륙공격헬기에 쏠린 눈",
@@ -897,8 +1141,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 18:00",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 18:00",
       "pub_timestamp": "2026-11-16T18:00:00+09:00",
       "bullets": [
         "- '이것이 해병대상륙공격헬기'",
@@ -936,8 +1180,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 17:30",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 17:30",
       "pub_timestamp": "2026-11-16T17:30:00+09:00",
       "bullets": [
         "- 화성시문화관광재단과 수원대학교가 공동 주최한 가족오페라 '마술피리'가 성황리에 공연됨",
@@ -960,8 +1204,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 16:36",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 16:36",
       "pub_timestamp": "2026-11-16T16:36:00+09:00",
       "bullets": [
         "- 정명근 화성특례시장이 향남읍 하길리에 건립 중인 공공 노인요양시설 '시립화성 실버드림센터'를 방문해 시설 안전과 개원 준비 상황 점검",
@@ -984,16 +1228,24 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 15:12",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 15:12",
       "pub_timestamp": "2026-11-16T15:12:00+09:00",
       "bullets": [
         "- 경기도약, 제33회 경기도약사회장배 볼링대회 개최",
         "- [팜뉴스=김응민 기자] 경기도약사회 여약사위원회는 지난 15일 안산시 소재 감골볼링장에서 '제33회 경기도약사회장배 볼링대회'를 개최했다고 밝혔다. 개회식에서 연제덕 경기도약사회장은 인사말을 통해 \"현안으로 어수선한...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "경기약사회장배 볼링대회 단체전 김희준·정양희 약사 우승",
+          "link": "https://www.dailypharm.com/user/news/344654?REFERER=NP",
+          "media": "DAILYPHARM",
+          "time_label": "11.16 20:40",
+          "pub_timestamp": "2026-11-16T20:40:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.pharmnews.com/news/photo/202611/308010_209896_851.jpg",
       "telegram_sent": false
     },
@@ -1008,8 +1260,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 14:28",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 14:28",
       "pub_timestamp": "2026-11-16T14:28:00+09:00",
       "bullets": [
         "- 화성 제부마리나를 출항한 0.64t급 모터보트가 아산만 인근 해상에서 전복되는 사고 발생",
@@ -1061,8 +1313,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 13:44",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 13:44",
       "pub_timestamp": "2026-11-16T13:44:00+09:00",
       "bullets": [
         "- [굿모닝! 16일 건설업계 소식] 호반그룹·우미건설·태영건설·중흥토건...",
@@ -1085,8 +1337,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 11:28",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 11:28",
       "pub_timestamp": "2026-11-16T11:28:00+09:00",
       "bullets": [
         "- 10월 경기도 주택 가격 상승세 이어가",
@@ -1109,8 +1361,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 11:28",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 11:28",
       "pub_timestamp": "2026-11-16T11:28:00+09:00",
       "bullets": [
         "- LH가 화성동탄2지구(신동 786 일원)에 조성한 '바랑골 느티공원'이 제16회 대한민국 조경대상에서 국무총리상 수상",
@@ -1302,8 +1554,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 11:00",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 11:00",
       "pub_timestamp": "2026-11-16T11:00:00+09:00",
       "bullets": [
         "- 화성시 장안면, 병점1동, 농업기술센터 등 관내 곳곳에서 동절기 맞이 '먹거리 복지 연대' 본격 가동",
@@ -1326,8 +1578,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 10:30",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 10:30",
       "pub_timestamp": "2026-11-16T10:30:00+09:00",
       "bullets": [
         "- (재)화성시문화관광재단이 20일부터 22일까지 화성예술의전당 동탄아트홀에서 국립극단 연극 '스카팽'을 공연함",
@@ -1350,8 +1602,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 08:51",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 08:51",
       "pub_timestamp": "2026-11-16T08:51:00+09:00",
       "bullets": [
         "- 화성시는 오는 25일 화성시역사박물관에서 '문화가 있는 날' 프로그램으로 전통연희음악극 '효자 최루백' 상연",
@@ -1382,8 +1634,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.16 08:14",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 08:14",
       "pub_timestamp": "2026-11-16T08:14:00+09:00",
       "bullets": [
         "- 화성 동탄2신도시 랜드마크인 동탄호수공원이 주민 봉사활동과 참여를 통해 명품 일상 쉼터로 발전 중임",
@@ -1406,8 +1658,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:47",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 07:47",
       "pub_timestamp": "2026-11-16T07:47:00+09:00",
       "bullets": [
         "- 2027년 전국체전 및 전국장애인체전 주개최도시인 화성시가 대회 성공개최를 기원하는 걷기대회를 성황리에 마무리함",
@@ -1487,8 +1739,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:41",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 07:41",
       "pub_timestamp": "2026-11-16T07:41:00+09:00",
       "bullets": [
         "- 화성시가 봉담읍과 동탄9동에 다함께돌봄센터 2곳(봉담6센터, 신동6센터)을 신규 개소함",
@@ -1547,8 +1799,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:02",
+      "date_group": "2026-11-16",
+      "time_label": "11.16 07:02",
       "pub_timestamp": "2026-11-16T07:02:00+09:00",
       "bullets": [
         "- 화성시가 다함께돌봄 봉담6센터와 신동6센터를 신규 개소하며 관내 센터를 총 29곳으로 확충함",
@@ -2745,6 +2997,13 @@
           "media": "BOKUENNEWS",
           "time_label": "오늘 10:36",
           "pub_timestamp": "2026-11-16T10:36:00+09:00"
+        },
+        {
+          "title": "[농협] 농업노동자 인권 캠페인·노후 농가 22가구 집수리…김치 3.5톤 ...",
+          "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2379291",
+          "media": "웹이코노미",
+          "time_label": "스크랩 11.17 21:20",
+          "pub_timestamp": "2026-11-17T21:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -2968,6 +3227,13 @@
           "media": "전자신문",
           "time_label": "스크랩 11.15 21:06",
           "pub_timestamp": "2026-11-15T21:06:00+09:00"
+        },
+        {
+          "title": "티에스다이나믹, 화성시 H-스타트업 창업경진대회 대상 수상",
+          "link": "https://www.mt.co.kr/industry/2026/11/17/2026111617322148502",
+          "media": "머니투데이",
+          "time_label": "스크랩 11.17 16:46",
+          "pub_timestamp": "2026-11-17T16:46:00+09:00"
         }
       ],
       "is_major": true,
@@ -4557,6 +4823,20 @@
           "media": "ETODAY",
           "time_label": "오늘 13:24",
           "pub_timestamp": "2026-11-17T13:24:00+09:00"
+        },
+        {
+          "title": "이진형 경기도의원 \"돔구장 유치전, 도 차원 전략 필요\"",
+          "link": "https://www.newsis.com/view/NISX20261117_0003872104",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.17 17:59",
+          "pub_timestamp": "2026-11-17T17:59:00+09:00"
+        },
+        {
+          "title": "화성시 등 돔구장 유치 경쟁 본격화…이진형 \"전국 본선 대비해야\"",
+          "link": "https://www.nocutnews.co.kr/news/6608410?utm_source=naver&utm_medium=article&utm_campaign=20261117175040",
+          "media": "노컷뉴스",
+          "time_label": "스크랩 11.17 17:51",
+          "pub_timestamp": "2026-11-17T17:51:00+09:00"
         }
       ],
       "is_major": true,
@@ -4582,8 +4862,16 @@
         "- 공공형어린이집 원장들이 직접 배우로 참여해 아동 권리 존중과 배려의 메시지를 전달함",
         "- 화성시는 영유아가 자신을 소중히 여기고 서로를 존중할 수 있는 보육 환경 조성을 위해 해당 행사를 지원함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시어린이문화센터, 영화·책으로 아동권리 존중 문화 확산",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256174875368",
+          "media": "시민일보",
+          "time_label": "스크랩 11.17 16:00",
+          "pub_timestamp": "2026-11-17T16:00:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3082373_124893_5055_v150.jpg",
       "telegram_sent": false
     },
@@ -4855,6 +5143,13 @@
           "media": "KMAEIL",
           "time_label": "오늘 11:16",
           "pub_timestamp": "2026-11-17T11:16:00+09:00"
+        },
+        {
+          "title": "[패트롤] 경기도-경기도의회-화성시-오산시의회",
+          "link": "https://www.ekn.kr/web/view.php?key=20261117027530978",
+          "media": "EKN",
+          "time_label": "스크랩 11.17 17:06",
+          "pub_timestamp": "2026-11-17T17:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -5544,6 +5839,34 @@
           "media": "MEDISOBIZANEWS",
           "time_label": "오늘 09:42",
           "pub_timestamp": "2026-11-17T09:42:00+09:00"
+        },
+        {
+          "title": "시지바이오 노보팩토리, 美 FDA 실사 통과…\"인체조직 품질관리 역량 확...",
+          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=213966",
+          "media": "THEFIRSTMEDIA",
+          "time_label": "스크랩 11.17 22:34",
+          "pub_timestamp": "2026-11-17T22:34:00+09:00"
+        },
+        {
+          "title": "[BIO톡]시지바이오, '노보팩토리', 美 FDA 실사 무결점 통과 外 티앤알바...",
+          "link": "https://www.getnews.co.kr/news/articleView.html?idxno=887532",
+          "media": "GETNEWS",
+          "time_label": "스크랩 11.17 22:12",
+          "pub_timestamp": "2026-11-17T22:12:00+09:00"
+        },
+        {
+          "title": "시지바이오, 노보팩토리 FDA 실사서 지적사항 0건…미국 시장 확대 추진",
+          "link": "https://www.thepublic.kr/news/articleView.html?idxno=327139",
+          "media": "THEPUBLIC",
+          "time_label": "스크랩 11.17 16:18",
+          "pub_timestamp": "2026-11-17T16:18:00+09:00"
+        },
+        {
+          "title": "시지바이오 노보팩토리, 美 FDA 실사서 지적사항 0건",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505084",
+          "media": "핀포인트뉴스",
+          "time_label": "스크랩 11.17 15:18",
+          "pub_timestamp": "2026-11-17T15:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -6665,6 +6988,13 @@
           "media": "아주경제",
           "time_label": "오늘 10:58",
           "pub_timestamp": "2026-11-12T10:58:00+09:00"
+        },
+        {
+          "title": "경기체육 이끌 새 수장 뽑는다…선거 본격화 [도전! 민선 3기 체육회장...",
+          "link": "https://www.kyeonggi.com/article/20261117580433",
+          "media": "경기일보",
+          "time_label": "스크랩 11.17 17:27",
+          "pub_timestamp": "2026-11-17T17:27:00+09:00"
         }
       ],
       "is_major": true,
@@ -7211,6 +7541,13 @@
           "media": "YTN",
           "time_label": "오늘 14:23",
           "pub_timestamp": "2026-11-17T14:23:00+09:00"
+        },
+        {
+          "title": "[경기 119] 주행 중 화물·승용차서 불…신축 아파트 공사장 화재",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1544119",
+          "media": "OBSNEWS",
+          "time_label": "스크랩 11.17 22:34",
+          "pub_timestamp": "2026-11-17T22:34:00+09:00"
         }
       ],
       "is_major": true,
@@ -8809,6 +9146,13 @@
           "media": "파이낸셜뉴스",
           "time_label": "오늘 13:14",
           "pub_timestamp": "2026-11-16T13:14:00+09:00"
+        },
+        {
+          "title": "[사설] 세교 물류센터 갈등, 시장들 역할과 도지사 책임",
+          "link": "https://www.kyeonggi.com/article/20261117580568",
+          "media": "경기일보",
+          "time_label": "스크랩 11.18 03:06",
+          "pub_timestamp": "2026-11-18T03:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -9838,6 +10182,13 @@
           "media": "DEALSITETV",
           "time_label": "오늘 11:14",
           "pub_timestamp": "2026-11-16T11:14:00+09:00"
+        },
+        {
+          "title": "경기도, 반도체 공장 '완공 시점' 최대 12년 앞당긴다",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=243486",
+          "media": "SKBROADBAND",
+          "time_label": "스크랩 11.17 17:24",
+          "pub_timestamp": "2026-11-17T17:24:00+09:00"
         }
       ],
       "is_major": true,
@@ -10305,6 +10656,27 @@
           "media": "뉴스핌",
           "time_label": "오늘 15:27",
           "pub_timestamp": "2026-11-17T15:27:00+09:00"
+        },
+        {
+          "title": "수원축협, 김장김치 300포기 담가 이웃에 온정",
+          "link": "https://www.nongmin.com/article/20261117500341",
+          "media": "NONGMIN",
+          "time_label": "스크랩 11.17 21:16",
+          "pub_timestamp": "2026-11-17T21:16:00+09:00"
+        },
+        {
+          "title": "수원축협, 김장김치 300포기·쌀 600㎏ 취약계층에 전달",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/17/2026111750164.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.17 14:30",
+          "pub_timestamp": "2026-11-17T14:30:00+09:00"
+        },
+        {
+          "title": "장주익 수원축협 조합장, 김장 앞치마 둘렀다…300포기·쌀 600kg 이웃 품...",
+          "link": "https://www.etoday.co.kr/news/view/2649200",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.17 13:00",
+          "pub_timestamp": "2026-11-17T13:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -13241,6 +13613,34 @@
           "media": "시민일보",
           "time_label": "스크랩 11.05 02:24",
           "pub_timestamp": "2026-11-05T02:24:00+09:00"
+        },
+        {
+          "title": "희귀·특산식물 보전기관 3곳 추가…영흥수목원은 수생식물에 집중",
+          "link": "https://www.vegannews.co.kr/news/article.html?no=406683",
+          "media": "VEGANNEWS",
+          "time_label": "스크랩 11.17 22:12",
+          "pub_timestamp": "2026-11-17T22:12:00+09:00"
+        },
+        {
+          "title": "국립수목원, 영흥수목원 등 3곳 희귀·특산식물 보전기관 신규 지정",
+          "link": "https://news.tvchosun.com/site/data/html_dir/2026/11/17/2026111790200.html",
+          "media": "조선일보",
+          "time_label": "스크랩 11.17 16:56",
+          "pub_timestamp": "2026-11-17T16:56:00+09:00"
+        },
+        {
+          "title": "국립수목원, 3개 식물원 희귀·특산식물 보전기관 신규 지정",
+          "link": "https://www.yna.co.kr/view/AKR20261117140900060?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "스크랩 11.17 16:27",
+          "pub_timestamp": "2026-11-17T16:27:00+09:00"
+        },
+        {
+          "title": "국립수목원, 3곳 희귀·특산식물 보전기관 신규 지정…영흥수목원 등 참...",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3754782",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.17 16:00",
+          "pub_timestamp": "2026-11-17T16:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -14065,6 +14465,13 @@
           "media": "뉴시스",
           "time_label": "스크랩 11.17 05:00",
           "pub_timestamp": "2026-11-17T05:00:00+09:00"
+        },
+        {
+          "title": "[오늘의 주요일정]경기남부(11월18일 수요일)",
+          "link": "https://www.newsis.com/view/NISX20261117_0003871119",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.18 05:00",
+          "pub_timestamp": "2026-11-18T05:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -14359,6 +14766,20 @@
           "media": "YTN",
           "time_label": "스크랩 11.04 16:25",
           "pub_timestamp": "2026-11-04T16:25:00+09:00"
+        },
+        {
+          "title": "화성시장 \"악의적 정보공개청구…제도개선해 막아야\"",
+          "link": "https://www.newsis.com/view/NISX20261117_0003872269",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.17 22:50",
+          "pub_timestamp": "2026-11-17T22:50:00+09:00"
+        },
+        {
+          "title": "화성시, 정보공개제도 개선 건의",
+          "link": "http://www.breaknews.com/1251663",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.17 17:54",
+          "pub_timestamp": "2026-11-17T17:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -17511,6 +17932,13 @@
           "media": "MEDIAPEN",
           "time_label": "오늘 08:40",
           "pub_timestamp": "2026-11-17T08:40:00+09:00"
+        },
+        {
+          "title": "수도권 비규제지역도 불장… 군포·남양주·부천 들썩",
+          "link": "https://www.fnnews.com/news/202611171809172769",
+          "media": "파이낸셜뉴스",
+          "time_label": "스크랩 11.17 18:10",
+          "pub_timestamp": "2026-11-17T18:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -17584,8 +18012,16 @@
         "- 전국 낚시 동호인과 시민들이 참여하여 건전한 레저 스포츠 문화 확산 및 친목 도모",
         "- 시는 시민 여가 선용 및 생활체육 활성화를 위한 체육 행사 지원을 지속 추진할 방침"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, 제17회 시장배·협회장배 골프대회 개최…동호인 화합",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3754823",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.17 16:20",
+          "pub_timestamp": "2026-11-17T16:20:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/02/134949593.1.jpg",
       "telegram_sent": false
     },
@@ -19034,6 +19470,20 @@
           "media": "뉴시스",
           "time_label": "오늘 13:04",
           "pub_timestamp": "2026-11-17T13:04:00+09:00"
+        },
+        {
+          "title": "화성·오산시장, 경기도시장군수협의회서 지역 현안 해결 공동 건의",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/17/2026111750286.html",
+          "media": "NEWDAILY",
+          "time_label": "스크랩 11.17 17:16",
+          "pub_timestamp": "2026-11-17T17:16:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 제256회 제2차 정례회 개회…32일간 의사일정 돌입",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160251133931668",
+          "media": "시민일보",
+          "time_label": "스크랩 11.17 16:02",
+          "pub_timestamp": "2026-11-17T16:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -20899,6 +21349,13 @@
           "media": "뉴스핌",
           "time_label": "오늘 14:15",
           "pub_timestamp": "2026-11-17T14:15:00+09:00"
+        },
+        {
+          "title": "[의료기기업계 소식] 11월 17일",
+          "link": "http://www.doctorstimes.com/news/articleView.html?idxno=241106",
+          "media": "DOCTORSTIMES",
+          "time_label": "스크랩 11.17 16:06",
+          "pub_timestamp": "2026-11-17T16:06:00+09:00"
         }
       ],
       "is_major": true,
