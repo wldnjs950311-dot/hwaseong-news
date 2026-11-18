@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026.11.18. 12:00",
+  "updated_at": "2026.11.18. 16:00",
   "scrap_period": "전일(11.17) 08:00 ~ 금일(11.18) 08:00",
   "yesterday_label": "11.17",
   "macro_pulse": {
     "report_date": "2026-11-18",
-    "article_count": 5,
-    "overview": "금일 언론은 복지 사각지대 해소를 위한 '찾아가는 그냥드림' 확대 보도에 압도적으로 주목한 가운데, 전통문화 기반 미디어아트 전시와 중소기업 역량 강화 지원 등 시민 체감형 현안이 고루 조명되었습니다.",
+    "article_count": 9,
+    "overview": "복지 사각지대 해소를 위한 '찾아가는 그냥드림' 사업 확대와 송산그린시티 에너지 인프라 구축 등 민생 복지 및 미래 도시 기반 확충에 언론 보도가 집중되었습니다.",
     "main_points": [
-      "- [찾아가는 그냥드림 사업 확대] 총 50개 언론사 집중 보도 - 먹거리와 생필품 지원을 넘어 위기가구 발굴 및 맞춤형 복지서비스 연계를 강화하며 민생 복지안전망 구축에 주력함",
-      "- [미디어아트 '숨겨진 안녕 : 꼭두' 전시 개최] 총 2개 언론사 집중 보도 - 화성 전통 상여소리를 현대 미디어아트로 재해석하여 병점 비이닷에서 선보이며 지역 고유 문화콘텐츠 발굴 및 향유 기회 확대",
-      "- [식품기업의 상품기획 세미나 개최] 브레이크뉴스 보도 - 중소기업지원 자문단 식료품제조분과 주관으로 화성종합경기타운에서 세미나를 열고 관내 제조기업의 판로 및 상품기획 경쟁력 지원",
-      "- [동탄7동 주민 자발적 환경정화 활동] RIGHTKNOW 보도 - 버스정류장 인근 방치된 공터의 담배꽁초와 쓰레기를 주민 50여 명이 자발적으로 수거하여 성숙한 시민 참여형 자치 문화를 구현함"
+      "- [찾아가는 그냥드림 확대 추진] 총 57개 언론사 집중 보도 - 먹거리와 생필품 직접 지원 및 위기가구 발굴 연계를 대폭 강화하여 시민 체감형 복지 사각지대 해소에 본격 착수",
+      "- [제부도 해상케이블카 서해랑 일시 정지] 총 13개 언론사 집중 보도 - 해상 운행 중 일시 정지로 고장 사고 오인 해프닝이 발생함에 따라 주요 관광시설의 철저한 안전관리 및 신속한 안내 체계 필요성 대두",
+      "- [송산빛그린 집단에너지 발전소 주요 인허가 완료] 총 10개 언론사 집중 보도 - 한국남동발전이 송산그린시티 내 500MW 규모 발전소 인허가 절차를 매듭지으며 서부권 안정적 에너지 공급 기반 마련",
+      "- [전통 상여소리 미디어아트 '숨겨진 안녕 : 꼭두' 전시] 총 2개 언론사 집중 보도 - 화성시 전통 상여소리를 현대적 미디어아트로 재해석해 병점 비이닷 B1 그라운드에서 선보이며 지역 문화자산의 현대화 추진"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "금일 언론은 복지 사각지대 해소를 위한 '찾아가는 그냥드림' 확대 보도에 압도적으로 주목한 가운데, 전통문화 기반 미디어아트 전시와 중소기업 역량 강화 지원 등 시민 체감형 현안이 고루 조명되었습니다.",
-      "- [찾아가는 그냥드림 사업 확대] 총 50개 언론사 집중 보도 - 먹거리와 생필품 지원을 넘어 위기가구 발굴 및 맞춤형 복지서비스 연계를 강화하며 민생 복지안전망 구축에 주력함",
-      "- [미디어아트 '숨겨진 안녕 : 꼭두' 전시 개최] 총 2개 언론사 집중 보도 - 화성 전통 상여소리를 현대 미디어아트로 재해석하여 병점 비이닷에서 선보이며 지역 고유 문화콘텐츠 발굴 및 향유 기회 확대"
+      "복지 사각지대 해소를 위한 '찾아가는 그냥드림' 사업 확대와 송산그린시티 에너지 인프라 구축 등 민생 복지 및 미래 도시 기반 확충에 언론 보도가 집중되었습니다.",
+      "- [찾아가는 그냥드림 확대 추진] 총 57개 언론사 집중 보도 - 먹거리와 생필품 직접 지원 및 위기가구 발굴 연계를 대폭 강화하여 시민 체감형 복지 사각지대 해소에 본격 착수",
+      "- [제부도 해상케이블카 서해랑 일시 정지] 총 13개 언론사 집중 보도 - 해상 운행 중 일시 정지로 고장 사고 오인 해프닝이 발생함에 따라 주요 관광시설의 철저한 안전관리 및 신속한 안내 체계 필요성 대두"
     ],
     "theme_stats": [
       {
@@ -24,92 +24,337 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 4,
-        "ratio": 29
+        "ratio": 22
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 7
+        "ratio": 6
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 1,
-        "ratio": 7
+        "count": 2,
+        "ratio": 11
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 21
+        "count": 6,
+        "ratio": 33
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 5,
-        "ratio": 36
+        "ratio": 28
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "K-반도체 초격차",
+      "keyword": "K-반도체 초격차 비전",
       "count": 85,
       "category": "POLICY",
       "dept": "반도체산업과",
-      "summary": "경기도 K-반도체 초격차 비전 실현을 위한 반도체 산업 발전 협력 강화"
+      "summary": "경기도 K-반도체 초격차 비전선포식에 참석해 반도체 산업 발전 및 생태계 조성을 위한 협력 의지를 표명함"
     },
     {
       "rank": 2,
       "keyword": "찾아가는 그냥드림",
-      "count": 50,
+      "count": 58,
       "category": "POLICY",
       "dept": "통합돌봄과",
-      "summary": "먹거리·생필품 지원과 위기가구 발굴 및 복지서비스를 연계하는 지원 사업 확대"
+      "summary": "복지 사각지대 위기가구를 발굴해 먹거리와 생필품을 지원하고 복지서비스를 연계하는 사업을 확대 추진함"
     },
     {
       "rank": 3,
+      "keyword": "제부도 해상케이블카 서해랑",
+      "count": 13,
+      "category": "RISK",
+      "dept": "관광진흥과",
+      "summary": "제부도 해상케이블카가 바다 위에서 일시 정지해 고장 사고로 오인되는 해프닝이 발생함"
+    },
+    {
+      "rank": 4,
       "keyword": "순국선열·애국지사 추모제",
       "count": 13,
       "category": "CULTURE",
       "dept": "의회사무국",
-      "summary": "독립정신 계승과 보훈 문화 확산을 위한 제19회 순국선열·애국지사 추모제 거행"
-    },
-    {
-      "rank": 4,
-      "keyword": "찾아가는 청렴",
-      "count": 3,
-      "category": "POLICY",
-      "dept": "감사관",
-      "summary": "공직사회 청렴 의식 제고 및 실천 문화 확산을 위한 홍보 행사 진행"
+      "summary": "독립정신 계승과 보훈 문화 확산을 위해 열린 제19회 순국선열·애국지사 추모제에 시의회가 참석함"
     },
     {
       "rank": 5,
-      "keyword": "숨겨진 안녕 : 꼭두",
-      "count": 2,
-      "category": "CULTURE",
-      "dept": "문화예술과",
-      "summary": "전통 상여소리를 미디어아트로 재해석한 기획 전시 개최"
+      "keyword": "송산빛그린 발전소",
+      "count": 10,
+      "category": "POLICY",
+      "dept": "신재생에너지과",
+      "summary": "송산그린시티 내 조성되는 500MW 규모의 집단에너지 발전소 주요 인허가 절차가 완료됨"
     }
   ],
   "stats": {
-    "total": 377,
-    "major_count": 194,
-    "live_count": 183,
-    "today_count": 4,
+    "total": 381,
+    "major_count": 199,
+    "live_count": 182,
+    "today_count": 8,
     "scrap_count": 10,
     "yesterday_count": 1,
-    "policy": 209,
+    "policy": 213,
     "culture": 120,
     "risk": 48
   },
   "articles": [
+    {
+      "title": "바다 위 멈춘 화성 제부도 해상 케이블카, 무슨 일이지?",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3755961",
+      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3755961",
+      "media": "국제뉴스",
+      "category": "POLICY",
+      "department": "관광진흥과",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:52",
+      "pub_timestamp": "2026-11-18T15:52:00+09:00",
+      "bullets": [
+        "- 화성시 제부도 해상케이블카 '서해랑'이 바다 위에서 멈춰 서며 한때 고장 사고로 오인되는 해프닝 발생",
+        "- 실제 사고가 아닌 정기 안전점검 기간을 활용해 실시된 관계기관 합동 인명 구조 훈련으로 확인",
+        "- 훈련을 통해 해상 케이블카 비상 정지 시 탑승객 구조 등 안전 대응 체계를 점검함"
+      ],
+      "related_articles": [
+        {
+          "title": "지진 상황 가정한 해상 케이블카 고장사고 인명 구조훈련 [뉴시스Pic]",
+          "link": "https://www.newsis.com/view/NISX20261118_0003873580",
+          "media": "뉴시스",
+          "time_label": "오늘 15:51",
+          "pub_timestamp": "2026-11-18T15:51:00+09:00"
+        },
+        {
+          "title": "해상 케이블카 고장사고 인명 구조훈련",
+          "link": "https://www.newsis.com/view/NISI20261118_0021537506",
+          "media": "뉴시스",
+          "time_label": "오늘 15:03",
+          "pub_timestamp": "2026-11-18T15:03:00+09:00"
+        },
+        {
+          "title": "케이블카 고장사고 구조훈련",
+          "link": "https://www.newsis.com/view/NISI20261118_0021537518",
+          "media": "뉴시스",
+          "time_label": "오늘 15:02",
+          "pub_timestamp": "2026-11-18T15:02:00+09:00"
+        },
+        {
+          "title": "지진 발생 가정한 케이블카 인명 구조훈련",
+          "link": "https://www.newsis.com/view/NISI20261118_0021537526",
+          "media": "뉴시스",
+          "time_label": "오늘 15:02",
+          "pub_timestamp": "2026-11-18T15:02:00+09:00"
+        },
+        {
+          "title": "케이블카 탑승객 구조훈련",
+          "link": "https://www.newsis.com/view/NISI20261118_0021537523",
+          "media": "뉴시스",
+          "time_label": "오늘 15:02",
+          "pub_timestamp": "2026-11-18T15:02:00+09:00"
+        },
+        {
+          "title": "해상케이블카 고립 가정한 요구조자 구출 훈련",
+          "link": "https://www.news1.kr/photos/8220642",
+          "media": "뉴스1",
+          "time_label": "오늘 14:53",
+          "pub_timestamp": "2026-11-18T14:53:00+09:00"
+        },
+        {
+          "title": "해상케이블카 인명 고립 구조훈련",
+          "link": "https://www.news1.kr/photos/8220649",
+          "media": "뉴스1",
+          "time_label": "오늘 14:53",
+          "pub_timestamp": "2026-11-18T14:53:00+09:00"
+        },
+        {
+          "title": "해상케이블카 비상대응 합동훈련",
+          "link": "https://www.news1.kr/photos/8220646",
+          "media": "뉴스1",
+          "time_label": "오늘 14:53",
+          "pub_timestamp": "2026-11-18T14:53:00+09:00"
+        },
+        {
+          "title": "헬기로 요구조자 구출하는 경기도119특수대응단",
+          "link": "https://www.news1.kr/photos/8220651",
+          "media": "뉴스1",
+          "time_label": "오늘 14:53",
+          "pub_timestamp": "2026-11-18T14:53:00+09:00"
+        },
+        {
+          "title": "해상케이블카 비상대응 합동훈련 실시",
+          "link": "https://www.news1.kr/photos/8220635",
+          "media": "뉴스1",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-18T14:52:00+09:00"
+        },
+        {
+          "title": "인명 구조 훈련하는 경기도119특수대응단",
+          "link": "https://www.news1.kr/photos/8220639",
+          "media": "뉴스1",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-18T14:52:00+09:00"
+        },
+        {
+          "title": "해상케이블카 비상 대응 합동훈련",
+          "link": "https://www.yna.co.kr/view/PYH20261118163400061?input=1196m",
+          "media": "연합뉴스",
+          "time_label": "오늘 14:51",
+          "pub_timestamp": "2026-11-18T14:51:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202611/3755961_3938851_4854_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "남동발전, 500MW 송산빛그린 발전소 주요 인허가 완료",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884698",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884698",
+      "media": "한스경제",
+      "category": "POLICY",
+      "department": "신재생에너지과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:26",
+      "pub_timestamp": "2026-11-18T15:26:00+09:00",
+      "bullets": [
+        "- 한국남동발전, 화성시 송산그린시티 내 500MW 규모 '송산빛그린' 집단에너지 발전소 주요 인허가 절차 완료",
+        "- 도시·군계획시설사업 실시계획인가, 사업시행자 지정 및 공사계획 승인을 마치고 본격 추진 돌입",
+        "- 관내 약 6만 세대에 전력과 난방열을 공급할 계획이며 환경설비 도입 및 지역사회 소통 강화 예정"
+      ],
+      "related_articles": [
+        {
+          "title": "한국남동발전, 화성 송산빛그린 발전소 인허가 완료…2029년 준공 목표",
+          "link": "https://thetracker.co.kr/View.aspx?No=4318733",
+          "media": "THETRACKER",
+          "time_label": "오늘 15:20",
+          "pub_timestamp": "2026-11-18T15:20:00+09:00"
+        },
+        {
+          "title": "남동발전, 송산빛그린 집단에너지 건설사업 2029년 준공 본격화",
+          "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=205224",
+          "media": "ENERGYDAILY",
+          "time_label": "오늘 15:08",
+          "pub_timestamp": "2026-11-18T15:08:00+09:00"
+        },
+        {
+          "title": "남동발전, 화성 송산빛그린 500MW 발전소 건설 본격화",
+          "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1107190",
+          "media": "DISCOVERYNEWS",
+          "time_label": "오늘 15:04",
+          "pub_timestamp": "2026-11-18T15:04:00+09:00"
+        },
+        {
+          "title": "남동발전, 500MW급 '송산빛그린' 착공 초읽기…전력·난방 공급망 확충",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1426509",
+          "media": "HANKOOKI",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-18T14:54:00+09:00"
+        },
+        {
+          "title": "남동발전, 화성 500MW 송산빛그린 건설 인허가 완료",
+          "link": "http://www.breaknews.com/1251961",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 14:42",
+          "pub_timestamp": "2026-11-18T14:42:00+09:00"
+        },
+        {
+          "title": "남동발전, 화성 '송산빛그린' 500MW 집단에너지 본궤도…2029년 준공 박차",
+          "link": "https://www.betanews.net/article/view/beta202611180090",
+          "media": "베타뉴스",
+          "time_label": "오늘 14:34",
+          "pub_timestamp": "2026-11-18T14:34:00+09:00"
+        },
+        {
+          "title": "남동발전, 화성 송산빛그린 발전소 건설 본궤도",
+          "link": "https://www.sidae.com/article/2026111813524351621",
+          "media": "SIDAE",
+          "time_label": "오늘 14:13",
+          "pub_timestamp": "2026-11-18T14:13:00+09:00"
+        },
+        {
+          "title": "화성 송산 500MW LNG 열병합발전소 건립 본격화…지역사회와 상생 협력",
+          "link": "https://www.newswhoplus.com/news/articleView.html?idxno=74735",
+          "media": "NEWSWHOPLUS",
+          "time_label": "오늘 12:00",
+          "pub_timestamp": "2026-11-18T12:00:00+09:00"
+        },
+        {
+          "title": "LNG 열병합발전소 발주 확대⋯건설사 에너지 인프라 수주전",
+          "link": "https://www.etoday.co.kr/news/view/2648750",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.18 06:02",
+          "pub_timestamp": "2026-11-18T06:02:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/884698_910905_2517_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 복지 시설 못 찾는 주민에게 먼저 간다…먹거리 지원 846건",
+      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194505",
+      "originallink": "https://weekly.hankooki.com/news/articleView.html?idxno=7194505",
+      "media": "주간한국",
+      "category": "POLICY",
+      "department": "복지정책과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:18",
+      "pub_timestamp": "2026-11-18T15:18:00+09:00",
+      "bullets": [
+        "- 화성시가 복지시설 접근이 어려운 주민을 직접 발굴·지원하는 '찾아가는 그냥드림' 사업 추진 성과 발표",
+        "- 3개월간 먹거리 지원 846건 달성 및 거동 불편 가구 대상 방문 생필품 전달과 안부 확인 병행",
+        "- 주민 제보를 통한 위기가구 발굴 및 복지급여 신청 연계와 무료급식소 3개소 협업 확대"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.weekly.hankooki.com/news/thumbnail/202611/7194505_255345_1712_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시아이돌봄센터, 아이돌봄사 현장 대응 역량 강화 교육 실시...신규...",
+      "link": "https://www.lecturernews.com/news/articleView.html?idxno=214021",
+      "originallink": "https://www.lecturernews.com/news/articleView.html?idxno=214021",
+      "media": "한국강사신문",
+      "category": "POLICY",
+      "department": "영유아보육과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:00",
+      "pub_timestamp": "2026-11-18T15:00:00+09:00",
+      "bullets": [
+        "- 화성시아이돌봄센터, 아이돌봄사의 현장 대응 역량 및 전문성 강화를 위한 교육 집담회 개최",
+        "- 신규 및 기존 활동 아이돌봄사가 참여해 실제 돌봄 사례 공유 및 상황별 대처 방안 논의",
+        "- 아동 연령과 가정환경 등에 따른 맞춤형 대처 능력 향상을 통해 돌봄 서비스 질적 제고 도모"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.lecturernews.com/news/thumbnail/202611/214021_484631_2812_v150.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "문밖으로 나온 복지…화성시 ‘그냥드림’ 확대",
       "link": "https://www.viva100.com/article/20261118500610",
@@ -472,6 +717,55 @@
           "media": "JOONGANGENEWS",
           "time_label": "11.16 17:50",
           "pub_timestamp": "2026-11-16T17:50:00+09:00"
+        },
+        {
+          "title": "복지 사각지대 직접 두드린 화성시…그냥드림, 돌봄 문턱 낮춘다",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261118010006939",
+          "media": "ASIATODAY",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-18T15:58:00+09:00"
+        },
+        {
+          "title": "[화성 24시] 먹거리 나눔 넘어 복지사각 메운다…화성시 '찾아가는 그냥...",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=394451",
+          "media": "SISAJOURNAL",
+          "time_label": "오늘 14:25",
+          "pub_timestamp": "2026-11-18T14:25:00+09:00"
+        },
+        {
+          "title": "화성특례시 ‘찾아가는 그냥드림’, 3개월 만에 846건 지원",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920139",
+          "media": "경기일보",
+          "time_label": "오늘 14:12",
+          "pub_timestamp": "2026-11-18T14:12:00+09:00"
+        },
+        {
+          "title": "화성특례시, 제19회 순국선열·애국지사 추모제 개최",
+          "link": "https://www.kmaeil.com/news/articleView.html?idxno=658799",
+          "media": "KMAEIL",
+          "time_label": "오늘 14:06",
+          "pub_timestamp": "2026-11-18T14:06:00+09:00"
+        },
+        {
+          "title": "화성 실버드림센터, 내년 1월 첫 입소 예고",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=243555",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:20",
+          "pub_timestamp": "2026-11-18T13:20:00+09:00"
+        },
+        {
+          "title": "화성특례시 운영 ‘찾아가는 그냥드림’, 새로운 공적 돌봄망되나",
+          "link": "https://www.kmib.co.kr/article/20261118500749",
+          "media": "국민일보",
+          "time_label": "오늘 13:13",
+          "pub_timestamp": "2026-11-18T13:13:00+09:00"
+        },
+        {
+          "title": "광복회 화성시지회, '순국선열·애국지사 추모제' 열고 선열 추모",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2020144",
+          "media": "매일일보",
+          "time_label": "오늘 13:08",
+          "pub_timestamp": "2026-11-18T13:08:00+09:00"
         }
       ],
       "is_major": true,
@@ -553,8 +847,16 @@
         "- 급변하는 소비시장에 발맞춰 관내 식품기업의 신제품 개발 및 경쟁력 강화를 지원하기 위해 마련됨",
         "- 최낙삼 좋은상품연구소 소장이 신제품 개발 핵심 요소를 다룬 '실패를 줄이는 상품기획 9단계' 강연을 진행함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, 식품기업 신상품 개발 역량 강화 나서… 상품기획 전략 공...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148793",
+          "media": "투어뉴스21",
+          "time_label": "오늘 12:32",
+          "pub_timestamp": "2026-11-18T12:32:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
       "telegram_sent": false
     },
@@ -2038,6 +2340,13 @@
           "media": "BIZWORK",
           "time_label": "스크랩 11.16 16:06",
           "pub_timestamp": "2026-11-16T16:06:00+09:00"
+        },
+        {
+          "title": "LH, 9천호 규모 민간참여 공공주택사업 공모 시행...제16회 대한민국 조...",
+          "link": "http://www.wsobi.com/news/articleView.html?idxno=322053",
+          "media": "WSOBI",
+          "time_label": "오늘 15:10",
+          "pub_timestamp": "2026-11-18T15:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -3600,6 +3909,20 @@
           "media": "GPKOREA",
           "time_label": "오늘 09:18",
           "pub_timestamp": "2026-11-18T09:18:00+09:00"
+        },
+        {
+          "title": "수도권 분양시장 선착순 계약 수요 이동… 화성 '향남역 그로브 스위첸...",
+          "link": "https://www.apnews.kr/news/articleView.html?idxno=3053267",
+          "media": "APNEWS",
+          "time_label": "오늘 15:40",
+          "pub_timestamp": "2026-11-18T15:40:00+09:00"
+        },
+        {
+          "title": "수도권 아파트 '줍줍' 열기 계약 완료 속속, '향남역 그로브 스위첸' 선...",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=344414",
+          "media": "IKLD",
+          "time_label": "오늘 14:36",
+          "pub_timestamp": "2026-11-18T14:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -5399,6 +5722,20 @@
           "media": "NEWSCLAIM",
           "time_label": "오늘 09:00",
           "pub_timestamp": "2026-11-18T09:00:00+09:00"
+        },
+        {
+          "title": "화성시어린이문화센터, 대학생 멘토와 'AI로 ZERO 바이러스' 운영",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2020141",
+          "media": "매일일보",
+          "time_label": "오늘 13:10",
+          "pub_timestamp": "2026-11-18T13:10:00+09:00"
+        },
+        {
+          "title": "화성특례시, 어린이 AI 인재 키운다… 대학생 멘토와 함께 감염병 예방...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148795",
+          "media": "투어뉴스21",
+          "time_label": "오늘 12:32",
+          "pub_timestamp": "2026-11-18T12:32:00+09:00"
         }
       ],
       "is_major": true,
@@ -14241,6 +14578,13 @@
           "media": "ASIATIME",
           "time_label": "오늘 14:46",
           "pub_timestamp": "2026-11-04T14:46:00+09:00"
+        },
+        {
+          "title": "해상케이블카 비상 대응 합동훈련",
+          "link": "https://www.yna.co.kr/view/PYH20261118164200061?input=1196m",
+          "media": "연합뉴스",
+          "time_label": "오늘 14:53",
+          "pub_timestamp": "2026-11-18T14:53:00+09:00"
         }
       ],
       "is_major": true,
@@ -20042,6 +20386,13 @@
           "media": "시민일보",
           "time_label": "스크랩 11.17 16:02",
           "pub_timestamp": "2026-11-17T16:02:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 예산 6조 1,625억 원 '역대급 증액'",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=243549",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:18",
+          "pub_timestamp": "2026-11-18T13:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -21922,6 +22273,13 @@
           "media": "DOCTORSTIMES",
           "time_label": "스크랩 11.17 16:06",
           "pub_timestamp": "2026-11-17T16:06:00+09:00"
+        },
+        {
+          "title": "화성 향남 롯데캐슬 시그니처, 삶의 질 대폭 높이는 프리미엄 주거 서비...",
+          "link": "https://www.rcast.co.kr/news/articleView.html?idxno=32094",
+          "media": "RCAST",
+          "time_label": "오늘 15:46",
+          "pub_timestamp": "2026-11-18T15:46:00+09:00"
         }
       ],
       "is_major": true,
@@ -22520,8 +22878,23 @@
         "- 6개 이상 기관·단체가 664명을 지원 중이나 중복 수혜 문제가 발생함에 따라 지원 현황 공유 및 조정 필요성 제기",
         "- 향남읍 지역사회보장협의체를 중심으로 지역 복지기관 및 봉사단체와 협력 회의를 열고 효율적 돌봄 서비스 체계 마련"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "대덕경제재단, 대덕·화성 소공인 협력체계 구축",
+          "link": "https://www.newstnt.com/news/articleView.html?idxno=729167",
+          "media": "NEWSTNT",
+          "time_label": "오늘 15:34",
+          "pub_timestamp": "2026-11-18T15:34:00+09:00"
+        },
+        {
+          "title": "대덕경제재단, 화성시 소공인협의회와 협력해 제조업 경쟁력 높인다",
+          "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1111963",
+          "media": "CCDN",
+          "time_label": "오늘 15:12",
+          "pub_timestamp": "2026-11-18T15:12:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.m-i.kr/news/photo/202610/2012042_2012258_3020.jpg",
       "telegram_sent": false
     },
@@ -23718,8 +24091,23 @@
         "- 사회적 고립 대응 전담체계 구축…5개 종합사회복지관 지역 거점 활용 복지·보건·문화·체육·금융 연계한 '화성형 사회적 연결' 모델 제시 위기 발생 후 지원에서 조기 발견·예방으로 전환…지역 안전망 강화 ▲신현주 화성...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "고립된 시민들을 구조하라",
+          "link": "https://www.news1.kr/photos/8220637",
+          "media": "뉴스1",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-18T14:52:00+09:00"
+        },
+        {
+          "title": "해상케이블카에 고립된 인명을 구조하라",
+          "link": "https://www.yna.co.kr/view/PYH20261118161100061?input=1196m",
+          "media": "연합뉴스",
+          "time_label": "오늘 14:51",
+          "pub_timestamp": "2026-11-18T14:51:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.ekn.kr/mnt/file/202610/news-p.v1.20261029.c46a08899534442fa6068657ce1f398a_R.jpg",
       "telegram_sent": false
     },
