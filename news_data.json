@@ -1,20 +1,22 @@
 {
-  "updated_at": "2026.11.19. 08:00",
+  "updated_at": "2026.11.19. 12:00",
   "scrap_period": "전일(11.18) 08:00 ~ 금일(11.19) 08:00",
   "yesterday_label": "11.18",
   "macro_pulse": {
     "report_date": "2026-11-19",
-    "article_count": 2,
-    "overview": "도농복합도시 특성을 반영한 화성형 주민자치 고도화 조례 개정 추진과 청년 예비부부를 위한 연지곤지 통장 재무교육 등 자치 역량 강화 및 시민 체감형 복지 정책에 언론 보도가 집중되었습니다.",
+    "article_count": 5,
+    "overview": "화성시의 도농복합 특성을 살린 화성형 주민자치 제도 개선과 함께 통합돌봄 및 청년·예비부부 맞춤형 복지 안전망 구축에 언론 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성형 주민자치 조례 개정 추진] KPI뉴스 보도 - 도농복합도시 특성을 살린 주민자치 고도화 및 제도 개선을 위해 자치 체계 새 틀 구축에 착수",
-      "- [연지곤지 통장 참여자 예비부부 재무교육] 브레이크뉴스 보도 - 화성시가족센터와 연계하여 연지곤지 통장 참여 예비부부를 대상으로 비대면 맞춤형 재무교육 실시"
+      "- [화성형 주민자치회 운영체계 개선 및 조례 개정] 총 6개 언론사 집중 보도 - 29개 읍·면·동 주민자치회의 제도적 기반을 강화하고 지역 특성에 맞춘 고도화를 위해 관련 조례 개정 등 제도 정비에 착수했습니다.",
+      "- [통합돌봄 주거분야 사업 수행기관 공모] 총 3개 언론사 집중 보도 - 케어안심주택 및 주거환경개선지원사업을 추진할 주거돌봄 전문 수행기관 2곳을 선정하기 위해 내달 2일까지 공개 모집을 진행합니다.",
+      "- [연지곤지 통장 참여자 예비부부 재무교육] 총 2개 언론사 집중 보도 - 화성시가족센터와 연계하여 연지곤지 통장 가입자를 대상으로 안정적인 경제적 자립과 자산 형성을 돕는 비대면 재무교육을 실시했습니다.",
+      "- [자립준비청년 지원 체계 강화] 뉴시스 보도 - 보호종료 청년의 안정적인 사회 정착과 실효성 있는 자립 기반 마련을 위해 현장의 목소리를 청취하고 다각적인 지원책 강화에 나섰습니다."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "도농복합도시 특성을 반영한 화성형 주민자치 고도화 조례 개정 추진과 청년 예비부부를 위한 연지곤지 통장 재무교육 등 자치 역량 강화 및 시민 체감형 복지 정책에 언론 보도가 집중되었습니다.",
-      "- [화성형 주민자치 조례 개정 추진] KPI뉴스 보도 - 도농복합도시 특성을 살린 주민자치 고도화 및 제도 개선을 위해 자치 체계 새 틀 구축에 착수",
-      "- [연지곤지 통장 참여자 예비부부 재무교육] 브레이크뉴스 보도 - 화성시가족센터와 연계하여 연지곤지 통장 참여 예비부부를 대상으로 비대면 맞춤형 재무교육 실시"
+      "화성시의 도농복합 특성을 살린 화성형 주민자치 제도 개선과 함께 통합돌봄 및 청년·예비부부 맞춤형 복지 안전망 구축에 언론 보도가 집중되었습니다.",
+      "- [화성형 주민자치회 운영체계 개선 및 조례 개정] 총 6개 언론사 집중 보도 - 29개 읍·면·동 주민자치회의 제도적 기반을 강화하고 지역 특성에 맞춘 고도화를 위해 관련 조례 개정 등 제도 정비에 착수했습니다.",
+      "- [통합돌봄 주거분야 사업 수행기관 공모] 총 3개 언론사 집중 보도 - 케어안심주택 및 주거환경개선지원사업을 추진할 주거돌봄 전문 수행기관 2곳을 선정하기 위해 내달 2일까지 공개 모집을 진행합니다."
     ],
     "theme_stats": [
       {
@@ -22,7 +24,7 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 2,
-        "ratio": 13
+        "ratio": 11
       },
       {
         "id": "TRANSIT_INFRA",
@@ -36,20 +38,20 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 3,
-        "ratio": 20
+        "ratio": 17
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 5,
-        "ratio": 33
+        "count": 7,
+        "ratio": 39
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 5,
+        "count": 6,
         "ratio": 33
       }
     ]
@@ -57,57 +59,180 @@
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "찾아가는 그냥드림",
+      "keyword": "그냥드림",
       "count": 58,
       "category": "POLICY",
-      "dept": "돌봄복지국 통합돌봄과",
-      "summary": "먹거리·생필품 지원 및 위기가구 발굴 복지서비스를 제공하는 '찾아가는 그냥드림' 사업을 확대 추진함"
+      "dept": "통합돌봄과",
+      "summary": "생필품 지원과 위기가구 발굴 및 복지서비스를 연계하는 '찾아가는 그냥드림' 사업이 확대 추진됩니다."
     },
     {
       "rank": 2,
       "keyword": "송산빛그린 발전소",
-      "count": 22,
+      "count": 23,
       "category": "POLICY",
       "dept": "신재생에너지과",
-      "summary": "송산그린시티 내 500MW 규모 집단에너지 발전소 건립을 위한 주요 인허가 절차가 완료됨"
+      "summary": "송산그린시티 내 500MW 규모의 집단에너지 발전소 건립을 위한 주요 인허가 절차가 완료되었습니다."
     },
     {
       "rank": 3,
-      "keyword": "제부도 해상케이블카 서해랑",
+      "keyword": "제부도 해상케이블카",
       "count": 16,
       "category": "RISK",
       "dept": "관광진흥과",
-      "summary": "제부도 해상케이블카 '서해랑'이 해상에서 일시 정지해 고장 사고로 오인되는 해프닝이 발생함"
+      "summary": "제부도 해상케이블카 서해랑이 바다 위에서 일시 정지해 고장 사고로 오인되는 해프닝이 발생했습니다."
     },
     {
       "rank": 4,
-      "keyword": "화성시법원 병점복합타운",
-      "count": 2,
+      "keyword": "주민자치회 운영체계",
+      "count": 8,
       "category": "POLICY",
-      "dept": "정책기획관",
-      "summary": "2032년 3월 개원 예정인 수원지방법원 화성시법원 신축 부지로 병점복합타운이 최종 선정됨"
+      "dept": "시민협력과",
+      "summary": "지역 특성에 맞춘 조례 개정과 제도적 기반 강화를 통해 주민자치회 운영체계 혁신에 착수했습니다."
     },
     {
       "rank": 5,
-      "keyword": "삼성전자 반도체 사무동",
-      "count": 2,
+      "keyword": "수능 시험장 안전점검",
+      "count": 4,
       "category": "POLICY",
-      "dept": "투자유치과",
-      "summary": "삼성전자가 화성사업장 내 수원 삼성 블루윙즈 연습구장 용지에 DS부문 반도체 사무동 건립을 추진함"
+      "dept": "재난대응과",
+      "summary": "대학수학능력시험을 앞두고 대설·한파 등 자연재난에 대비해 시험장 안전 점검 및 대응체계를 구축했습니다."
     }
   ],
   "stats": {
-    "total": 388,
-    "major_count": 202,
-    "live_count": 186,
-    "today_count": 0,
+    "total": 391,
+    "major_count": 208,
+    "live_count": 183,
+    "today_count": 3,
     "scrap_count": 15,
     "yesterday_count": 1,
-    "policy": 218,
+    "policy": 221,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성시, 주민자치회 운영체계 지역특성 맞게 개선 추진",
+      "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/19/2026111950129.html",
+      "originallink": "https://gg.newdaily.co.kr/site/data/html/2026/11/19/2026111950129.html",
+      "media": "뉴데일리",
+      "category": "POLICY",
+      "department": "시민협력과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:20",
+      "pub_timestamp": "2026-11-19T11:20:00+09:00",
+      "bullets": [
+        "- 화성시가 29개 읍·면·동 주민자치회의 제도적 기반 강화 및 지역 특성에 맞춘 운영체계 개선 추진",
+        "- 지난 18일 동탄구청에서 행안부 관계자 및 전문가, 주민자치위원 등과 함께 '주민자치 활성화 시범 컨설팅' 2차 회의 개최",
+        "- 행안부 시범 사업 선정 지자체로서 조례 개정과 현장 애로사항을 집중 점검하고 발전 방안 논의"
+      ],
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시, 주민자치 운영체계 개선 추진",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802560",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:10",
+          "pub_timestamp": "2026-11-19T10:10:00+09:00"
+        },
+        {
+          "title": "화성특례시, 행안부 '주민자치 시범 컨설팅' 실시…제도 개선 모색",
+          "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94756",
+          "media": "더페어",
+          "time_label": "오늘 10:02",
+          "pub_timestamp": "2026-11-19T10:02:00+09:00"
+        },
+        {
+          "title": "화성특례시, 주민자치 시범 컨설팅 2차 회의…조례 개선안 모색",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3756562",
+          "media": "국제뉴스",
+          "time_label": "오늘 09:30",
+          "pub_timestamp": "2026-11-19T09:30:00+09:00"
+        },
+        {
+          "title": "화성시, 주민자치회 운영체계 고도화…\"제도 전환\"",
+          "link": "https://www.newsis.com/view/NISX20261119_0003874226",
+          "media": "뉴시스",
+          "time_label": "오늘 09:13",
+          "pub_timestamp": "2026-11-19T09:13:00+09:00"
+        },
+        {
+          "title": "화성시, '화성형 주민자치' 새 틀 짠다…조례 개정 추진",
+          "link": "https://www.kpinews.kr/newsView/1065563245786249",
+          "media": "KPINEWS",
+          "time_label": "스크랩 11.19 06:58",
+          "pub_timestamp": "2026-11-19T06:58:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.newdaily.co.kr/site/data/img/2026/11/19/2026111950129_0.jpg?u=20261119111934?u=20261119111934",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 통합돌봄 주거분야 사업 수행기관 공모",
+      "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1544270",
+      "originallink": "https://www.obsnews.co.kr/news/articleView.html?idxno=1544270",
+      "media": "OBS경인TV",
+      "category": "POLICY",
+      "department": "통합돌봄과",
+      "dept_label": "소관",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:38",
+      "pub_timestamp": "2026-11-19T09:38:00+09:00",
+      "bullets": [
+        "- 화성시가 케어안심주택 및 주거환경개선지원사업 등 통합돌봄 주거분야 사업 수행기관 2곳을 다음 달 2일까지 공모함",
+        "- 케어안심주택은 노인·장애인에게 주거와 돌봄을 제공하며, 주거환경개선사업은 문턱 제거 등 낙상 방지 시설 설치를 지원함",
+        "- 참여 희망 기관은 화성시 홈페이지 공고문 확인 후 구비서류를 지참해 시청 통합돌봄과로 방문 접수하면 됨"
+      ],
+      "related_articles": [
+        {
+          "title": "[화성소식]통합돌봄 주거분야 수행기관 모집 등",
+          "link": "https://www.newsis.com/view/NISX20261119_0003874249",
+          "media": "뉴시스",
+          "time_label": "오늘 09:22",
+          "pub_timestamp": "2026-11-19T09:22:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 ‘통합돌봄 주거분야 2개사업’ 수행기관 모집",
+          "link": "https://www.sportsseoul.com/news/read/1650802?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 08:41",
+          "pub_timestamp": "2026-11-19T08:41:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.obsnews.co.kr/news/thumbnail/202611/1544270_743297_3721_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 \"자립준비청년 지원 강화\"…현장 의견 수렴",
+      "link": "https://www.newsis.com/view/NISX20261119_0003874189",
+      "originallink": "https://www.newsis.com/view/NISX20261119_0003874189",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "아동친화과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:04",
+      "pub_timestamp": "2026-11-19T09:04:00+09:00",
+      "bullets": [
+        "- 화성시가 자립준비청년의 안정적인 사회 정착 지원을 위한 체계 강화에 착수함",
+        "- 지난 18일 관내 공동생활가정 시설장들과 간담회를 열고 보호아동 자립 준비 현황 점검",
+        "- 관계기관 간 협력 체계 구축 및 실질적인 자립지원 정책 방향과 현장 의견 수렴 논의"
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/11/19/NISI20261119_0002296118_web.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성특례시, ‘연지곤지 통장’ 참여자 대상 예비부부 재무교육 실시",
       "link": "http://www.breaknews.com/1252137",
@@ -127,8 +252,16 @@
         "- '우리 부부 재무대화'를 주제로 결혼 전 상호 재무 가치관을 이해하고 공동의 재무 목표를 설정하도록 지원함",
         "- 결혼을 앞둔 관내 청년들의 실질적인 경제적 자립과 건강한 가족 관계 형성을 지속적으로 도울 계획임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시, '연지곤지 통장' 예비부부 교육 강화…결혼자금부터 소통법까지...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=148895",
+          "media": "투어뉴스21",
+          "time_label": "오늘 08:14",
+          "pub_timestamp": "2026-11-19T08:14:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
       "telegram_sent": false
     },
@@ -151,8 +284,16 @@
         "- 지난 18일 동탄구청에서 행안부 관계자 및 전문가들과 '2026년 행안부 주민자치 활성화 시범 컨설팅'을 실시함",
         "- 지역 여건에 맞춘 주민자치 운영 실태를 진단하고 맞춤형 개선 방안을 마련해 주민자치회 활성화를 도모할 계획임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[19일 화성시] 도농복합 특성 맞춘 ‘화성형 주민자치’ 고도화 등",
+          "link": "https://www.asiatime.co.kr/article/20261119500096",
+          "media": "ASIATIME",
+          "time_label": "오늘 10:16",
+          "pub_timestamp": "2026-11-19T10:16:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://kpinews.kr/data/upi/image/2026/11/19/p1065563245786249_940_thum.jpg",
       "telegram_sent": false
     },
@@ -175,8 +316,30 @@
         "- 행정안전부 주재 대책회의에 참석하여 관계 중앙부처 및 공공기관과 함께 수능 시험장 안전 관리 방안을 논의함",
         "- 수험생들의 원활한 응시를 위해 시험장 주변 제설 대책 및 난방, 교통 등 전반적인 분야에 걸쳐 총력 점검을 실시함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[포토] 2027 수능 시험장 입장하는 수험생들",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494434",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 09:50",
+          "pub_timestamp": "2026-11-19T09:50:00+09:00"
+        },
+        {
+          "title": "AI 커닝 논란에 수능 한파까지…긴장 속 시험장 향한 수험생들(종합)",
+          "link": "https://www.news1.kr/local/gyeonggi/6359037",
+          "media": "뉴스1",
+          "time_label": "오늘 09:35",
+          "pub_timestamp": "2026-11-19T09:35:00+09:00"
+        },
+        {
+          "title": "2027 수능 시작…경기 16만여명 시험장으로 '긴장 속 응원'",
+          "link": "https://www.news1.kr/local/gyeonggi/6358989",
+          "media": "뉴스1",
+          "time_label": "오늘 09:26",
+          "pub_timestamp": "2026-11-19T09:26:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.suwonilbo.kr/img/write/pf3bf1cb5968ca0071d29ba7fb7d9175ae84fa388.jpg",
       "telegram_sent": false
     },
@@ -588,6 +751,13 @@
           "media": "노컷뉴스",
           "time_label": "스크랩 11.18 15:42",
           "pub_timestamp": "2026-11-18T15:42:00+09:00"
+        },
+        {
+          "title": "남동발전, 500MW 송산빛그린 건설사업 주요 인허가 마무리",
+          "link": "http://www.epj.co.kr/news/articleView.html?idxno=39811",
+          "media": "EPJ",
+          "time_label": "오늘 11:40",
+          "pub_timestamp": "2026-11-19T11:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -1092,6 +1262,13 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 10:10",
           "pub_timestamp": "2026-11-18T10:10:00+09:00"
+        },
+        {
+          "title": "화성시문화관광재단, '2026년 화성특례시 문화자치 페스타' 20일 개막",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494470",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 08:30",
+          "pub_timestamp": "2026-11-19T08:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -4273,8 +4450,16 @@
         "- 대상지는 화성시 봉담읍(상리·수영리·내리) 및 매송면(천천리·원평리) 일원으로 사업시행자는 한국토지주택공사임",
         "- 해당 공공주택지구 내 지역냉난방 인프라 조성을 위한 의견 수렴 및 후속 절차가 진행될 예정임"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "열병합발전 필요한 화성 봉담3지구 집단에너지 예비공고",
+          "link": "http://www.e2news.com/news/articleView.html?idxno=336265",
+          "media": "E2NEWS",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-19T09:10:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.todayenergy.kr/news/thumbnail/202611/305511_178651_718_v150.jpg",
       "telegram_sent": false
     },
@@ -15710,6 +15895,83 @@
           "media": "뉴시스",
           "time_label": "스크랩 11.19 05:12",
           "pub_timestamp": "2026-11-19T05:12:00+09:00"
+        },
+        {
+          "title": "수능 당일 경기남부 112신고 175건…수험생 긴급 수송 잇따라",
+          "link": "https://news.tf.co.kr/read/national/2390886.htm",
+          "media": "TF",
+          "time_label": "오늘 11:54",
+          "pub_timestamp": "2026-11-19T11:54:00+09:00"
+        },
+        {
+          "title": "[수능] 수험생 긴급 수송에 응급처치까지…경찰·소방 분주(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261119061951061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 11:50",
+          "pub_timestamp": "2026-11-19T11:50:00+09:00"
+        },
+        {
+          "title": "“입실 시간 다 됐는데 택시 안 잡혀요”…순찰차로 수험생 긴급 수송",
+          "link": "https://www.segye.com/newsView/20261119506048?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "오늘 11:21",
+          "pub_timestamp": "2026-11-19T11:21:00+09:00"
+        },
+        {
+          "title": "수능날 경기남부 112신고 175건…긴급 수송·응급처치 잇따라",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337240",
+          "media": "인천일보",
+          "time_label": "오늘 11:06",
+          "pub_timestamp": "2026-11-19T11:06:00+09:00"
+        },
+        {
+          "title": "경기남부경찰, 수험생 관련 신고 175건…고사장 이동 도움 '톡톡'",
+          "link": "https://www.news1.kr/local/gyeonggi/6359252",
+          "media": "뉴스1",
+          "time_label": "오늘 11:02",
+          "pub_timestamp": "2026-11-19T11:02:00+09:00"
+        },
+        {
+          "title": "“입실 마감 다가오는데 택시 안잡혀요”···경기남부경찰, 수험생 수...",
+          "link": "https://www.khan.co.kr/article/202611191059001",
+          "media": "경향신문",
+          "time_label": "오늘 10:59",
+          "pub_timestamp": "2026-11-19T10:59:00+09:00"
+        },
+        {
+          "title": "“수험생인데 택시가 안 잡혀요”…경찰 긴급 수송으로 제시각 입실",
+          "link": "https://www.seoul.co.kr/news/society/2026/11/19/20261119500079?wlog_tag3=naver",
+          "media": "서울신문",
+          "time_label": "오늘 10:54",
+          "pub_timestamp": "2026-11-19T10:54:00+09:00"
+        },
+        {
+          "title": "[포토] 시험장 입실 수험생 바라보는 학부모",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494441",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 10:40",
+          "pub_timestamp": "2026-11-19T10:40:00+09:00"
+        },
+        {
+          "title": "\"택시 안 잡혀요\"…지각 위기 수험생들, 경찰 도움으로 입실[2027 수능]",
+          "link": "https://www.newsis.com/view/NISX20261119_0003874631",
+          "media": "뉴시스",
+          "time_label": "오늘 10:35",
+          "pub_timestamp": "2026-11-19T10:35:00+09:00"
+        },
+        {
+          "title": "[포토] 시험장 배치도 확인하는 수험생들",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494436",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 10:10",
+          "pub_timestamp": "2026-11-19T10:10:00+09:00"
+        },
+        {
+          "title": "[포토] 'AI 부정행위' 공포 이겨내고 시험장 가는 수험생들",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494435",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 10:00",
+          "pub_timestamp": "2026-11-19T10:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -19191,6 +19453,13 @@
           "media": "RCAST",
           "time_label": "오늘 10:42",
           "pub_timestamp": "2026-11-18T10:42:00+09:00"
+        },
+        {
+          "title": "동탄 옆 '병점역 아이파크캐슬' 실검 1위, 규제 피하고 법원까지 품었다",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/19/2026111901098.html",
+          "media": "조선일보",
+          "time_label": "오늘 10:28",
+          "pub_timestamp": "2026-11-19T10:28:00+09:00"
         }
       ],
       "is_major": true,
@@ -23644,6 +23913,13 @@
           "media": "중부일보",
           "time_label": "스크랩 11.18 16:52",
           "pub_timestamp": "2026-11-18T16:52:00+09:00"
+        },
+        {
+          "title": "초록우산, ‘제2회 화성오산 후원의 밤’ 개최…화성·오산 지역 잇는 ...",
+          "link": "https://www.kyeonggi.com/article/20261118580488",
+          "media": "경기일보",
+          "time_label": "스크랩 11.18 17:42",
+          "pub_timestamp": "2026-11-18T17:42:00+09:00"
         }
       ],
       "is_major": true,
