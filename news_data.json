@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026.11.20. 12:01",
+  "updated_at": "2026.11.20. 16:00",
   "scrap_period": "전일(11.19) 08:00 ~ 금일(11.20) 08:00",
   "yesterday_label": "11.19",
   "macro_pulse": {
     "report_date": "2026-11-20",
-    "article_count": 6,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 8,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「특례시·자치」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
       "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
+      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
       "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
-      "- [수능 끝난 경기남부, 청소년 보호·재충전 분주...] 주간한국 보도 - 수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
-      "- [화성시자원봉사센터, '마음 잇는 김장, 온기...] 매일일보 보도 - 화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ..."
+      "- [… 화성시체육회, ‘무책...] 경기일보 보도 - [단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「특례시·자치」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
       "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
-      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
+      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원"
     ],
     "theme_stats": [
       {
@@ -24,7 +24,7 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 2,
-        "ratio": 12
+        "ratio": 11
       },
       {
         "id": "TRANSIT_INFRA",
@@ -38,21 +38,21 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 2,
-        "ratio": 12
+        "ratio": 11
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 8,
+        "count": 9,
         "ratio": 47
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 5,
-        "ratio": 29
+        "count": 6,
+        "ratio": 32
       }
     ]
   },
@@ -60,7 +60,7 @@
     {
       "rank": 1,
       "keyword": "인구 108만",
-      "count": 21,
+      "count": 25,
       "category": "POLICY",
       "dept": "기획조정실 의회법무과",
       "summary": "인구 108만 대도시 화성특례시, 내년도 농업예산 1868억 원 투입"
@@ -91,25 +91,73 @@
     },
     {
       "rank": 5,
-      "keyword": "팜젠사이언스 발안천서",
+      "keyword": "화성서해마루 유스호스텔",
       "count": 3,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "팜젠사이언스, 화성 발안천서 플로깅… “건강 챙기고 수질도 지켜요”"
+      "dept": "문화관광국 관광진흥과",
+      "summary": "화성서해마루 유스호스텔, 화성시지속가능발전협의회와 협약...청소년 ..."
     }
   ],
   "stats": {
-    "total": 409,
-    "major_count": 216,
+    "total": 411,
+    "major_count": 218,
     "live_count": 193,
-    "today_count": 4,
+    "today_count": 6,
     "scrap_count": 13,
     "yesterday_count": 3,
-    "policy": 239,
+    "policy": 241,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "[단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책...",
+      "link": "https://www.kgnews.co.kr/news/article.html?no=920480",
+      "originallink": "https://www.kgnews.co.kr/news/article.html?no=920480",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "기본사회담당관",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:28",
+      "pub_timestamp": "2026-11-20T15:28:00+09:00",
+      "bullets": [
+        "- [단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책...",
+        "- 화성시체육회가 보조금 사업을 추진하면서 기본적인 채권 확보 절차 조차 무시한 채 수천만 원의 선금을 지불했다가 사기 피해를 당하고도, 4년 넘게 내부 징계조차 없이 방치해 온 사실...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.kgnews.co.kr/data/photos/20261147/art_17951524567304_1d5122.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[솔향강릉기 전국리틀야구대회]화성시·용인바른·중랑구·광주시 4강 진...",
+      "link": "https://www.kwnews.co.kr/article/20261120500272",
+      "originallink": "https://www.kwnews.co.kr/article/20261120500272",
+      "media": "강원일보",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 14:41",
+      "pub_timestamp": "2026-11-20T14:41:00+09:00",
+      "bullets": [
+        "- [솔향강릉기 전국리틀야구대회]화성시·용인바른·중랑구·광주시 4강 진...",
+        "- 전국 야구 꿈나무들의 대축제 ‘2026 제12회 솔향강릉기 전국리틀야구대회’ 4강 대진이 완성됐다. 대회 8일째인 20일에는 8강전이 펼쳐졌다. 화성시는 최준혁의 결승 2타점 적시...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://kbhvfnyo14945.edge.naverncp.com/data2/content/image/2026/11/20/.cache/512/20261120500267.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
       "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194890",
@@ -177,8 +225,16 @@
         "- 80세 이상 어르신 대상 사진 촬영 진행… 재능기부와 이동 지원 겨울 내복· 방한 모자·간식 전달로 겨울철 생활 지원 남양읍 장수사진 촬영 행사에서 어르신이 기념사진을 촬영하고 있...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "어르신 35명의 인생 한 컷…남양읍 장수사진 촬영",
+          "link": "https://news-s.kr/view.html?id=L2611201225400b67",
+          "media": "NEWS-S",
+          "time_label": "오늘 12:30",
+          "pub_timestamp": "2026-11-20T12:30:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3083491_126026_2522_v150.jpg",
       "telegram_sent": false
     },
@@ -348,6 +404,13 @@
           "media": "매일일보",
           "time_label": "스크랩 11.19 16:02",
           "pub_timestamp": "2026-11-19T16:02:00+09:00"
+        },
+        {
+          "title": "화성서해마루 유스호스텔, 지역사회 상생 이끌 협력 네트워크 확대",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085700",
+          "media": "SHINAILBO",
+          "time_label": "오늘 12:20",
+          "pub_timestamp": "2026-11-20T12:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -513,6 +576,34 @@
           "media": "WEEKLYTODAY",
           "time_label": "스크랩 11.19 16:04",
           "pub_timestamp": "2026-11-19T16:04:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점광장 농산물 직거래장터 방문...농가 판로 확대 ...",
+          "link": "https://www.ajunews.com/view/20261120143843032",
+          "media": "아주경제",
+          "time_label": "오늘 14:52",
+          "pub_timestamp": "2026-11-20T14:52:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점광장 직거래장터 찾아 참여 농가 격려·응원",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026112013592026204c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "오늘 14:26",
+          "pub_timestamp": "2026-11-20T14:26:00+09:00"
+        },
+        {
+          "title": "화성 병점광장에 농산물 직거래장터…도농 상생 이끈다",
+          "link": "https://www.munhwa.com/article/11632803?ref=naver",
+          "media": "문화일보",
+          "time_label": "오늘 14:01",
+          "pub_timestamp": "2026-11-20T14:01:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 농업예산 22% 증액…화성시법원 부지는 병점복합타운 확정",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611191715470270863",
+          "media": "DNEWS",
+          "time_label": "오늘 12:22",
+          "pub_timestamp": "2026-11-20T12:22:00+09:00"
         }
       ],
       "is_major": true,
@@ -1260,6 +1351,13 @@
           "media": "YTN",
           "time_label": "오늘 09:43",
           "pub_timestamp": "2026-11-20T09:43:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시법원 신축 부지 확정…2032년 개원",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802750",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 13:54",
+          "pub_timestamp": "2026-11-20T13:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -1670,6 +1768,13 @@
           "media": "SENTV",
           "time_label": "오늘 15:46",
           "pub_timestamp": "2026-11-19T15:46:00+09:00"
+        },
+        {
+          "title": "[에너지 NOW] 한국전력, 한국수력원자력, 한전KPS, 한국남동발전, 한국동...",
+          "link": "https://www.wikileaks-kr.org/news/articleView.html?idxno=194977",
+          "media": "WIKILEAKS-KR",
+          "time_label": "오늘 15:14",
+          "pub_timestamp": "2026-11-20T15:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -2221,6 +2326,27 @@
           "media": "뉴시스",
           "time_label": "오늘 14:31",
           "pub_timestamp": "2026-11-19T14:31:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 평택시, 정부에 주택공급 제도개선 건의",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802822",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:50",
+          "pub_timestamp": "2026-11-20T14:50:00+09:00"
+        },
+        {
+          "title": "평택시, 주택공급 절차 개선·광역교통망 확충 정부 건의…‘자족형 도...",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611201200278440920",
+          "media": "DNEWS",
+          "time_label": "오늘 12:22",
+          "pub_timestamp": "2026-11-20T12:22:00+09:00"
+        },
+        {
+          "title": "“광역교통망 확충 통해 ‘새로운 당진시’ 도약”",
+          "link": "https://www.kukinews.com/article/view/kuk202611110035",
+          "media": "쿠키뉴스",
+          "time_label": "오늘 09:12",
+          "pub_timestamp": "2026-11-20T09:12:00+09:00"
         }
       ],
       "is_major": true,
@@ -5498,6 +5624,13 @@
           "media": "매일경제",
           "time_label": "오늘 10:48",
           "pub_timestamp": "2026-11-20T10:48:00+09:00"
+        },
+        {
+          "title": "\"신축 갈아타기, 지금이 적기\"…향남역 그로브 스위첸' 선착순 계약 순...",
+          "link": "https://www.thegolftimes.co.kr/news/articleView.html?idxno=82348",
+          "media": "THEGOLFTIMES",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-20T13:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -9823,8 +9956,51 @@
         "- 경기도경제과학진흥원 등과 함께 관내 AI 기업의 우수 기술과 산업 지원사업을 소개함",
         "- 지역 제조업과 연계한 로봇 및 인프라 구축 등 지역 AI 산업 육성을 구체화함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "피지컬 AI 산업 현장 찾은 숭실대…SK인텔릭스 로봇 생산라인 견학",
+          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=140379",
+          "media": "E-SCIENCE",
+          "time_label": "오늘 14:16",
+          "pub_timestamp": "2026-11-20T14:16:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스 '나무엑스' 국무총리 표창 이어 생산 현장 공개",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3450654",
+          "media": "NEWSCJ",
+          "time_label": "오늘 12:44",
+          "pub_timestamp": "2026-11-20T12:44:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 화성캠퍼스서 숭실대 기계공학부 대상 ‘나무엑스’ 생산 ...",
+          "link": "https://economist.co.kr/article/view/ecn202611200023",
+          "media": "ECONOMIST",
+          "time_label": "오늘 12:39",
+          "pub_timestamp": "2026-11-20T12:39:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 AX특성화 산업시찰 프로그램서 '나무엑스' 시연 및 ...",
+          "link": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=89311",
+          "media": "EKOREANEWS",
+          "time_label": "오늘 11:18",
+          "pub_timestamp": "2026-11-20T11:18:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부 70여 명에 AI 웰니스 로봇 ‘나무엑스’...",
+          "link": "https://www.globalepic.co.kr/view.php?ud=2026112010154794624ee4ea3d05_29",
+          "media": "GLOBALEPIC",
+          "time_label": "오늘 10:18",
+          "pub_timestamp": "2026-11-20T10:18:00+09:00"
+        },
+        {
+          "title": "SKT·SK인텔릭스, T 팩토리 성수서 연말 전시·숭실대 기계공학부에 '나...",
+          "link": "http://www.wsobi.com/news/articleView.html?idxno=322200",
+          "media": "WSOBI",
+          "time_label": "오늘 10:14",
+          "pub_timestamp": "2026-11-20T10:14:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.epnc.co.kr/news/photo/202611/409365_410161_3759.jpg",
       "telegram_sent": false
     },
@@ -10082,6 +10258,13 @@
           "media": "뉴시스",
           "time_label": "오늘 10:50",
           "pub_timestamp": "2026-11-20T10:50:00+09:00"
+        },
+        {
+          "title": "경기 화성시 수원대학교 주차장에서 차량 화재...3대 소실",
+          "link": "https://www.ytn.co.kr/_ln/0103_202611201446241774",
+          "media": "YTN",
+          "time_label": "오늘 14:46",
+          "pub_timestamp": "2026-11-20T14:46:00+09:00"
         }
       ],
       "is_major": true,
@@ -11716,6 +11899,13 @@
           "media": "경기일보",
           "time_label": "스크랩 11.18 03:06",
           "pub_timestamp": "2026-11-18T03:06:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시의회, 수원시의회와 우호도시 협약 체결",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802843",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 15:26",
+          "pub_timestamp": "2026-11-20T15:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -13247,6 +13437,13 @@
           "media": "ABCN",
           "time_label": "오늘 14:26",
           "pub_timestamp": "2026-11-19T14:26:00+09:00"
+        },
+        {
+          "title": "화성시 동탄농협, 김장김치 300통 담가 겨울나기 나눔",
+          "link": "https://www.newsis.com/view/NISX20261120_0003876574",
+          "media": "뉴시스",
+          "time_label": "오늘 13:55",
+          "pub_timestamp": "2026-11-20T13:55:00+09:00"
         }
       ],
       "is_major": true,
@@ -15717,6 +15914,55 @@
           "media": "NEWSDREAM",
           "time_label": "오늘 08:46",
           "pub_timestamp": "2026-11-20T08:46:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대에 AI 로봇 생산 현장 공개…나무엑스 제조 공정 소개",
+          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065594230097999",
+          "media": "MEGAECONOMY",
+          "time_label": "오늘 15:28",
+          "pub_timestamp": "2026-11-20T15:28:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스 화성캠퍼스, 숭실대 기계공학부에 '나무엑스' 생산 현장 공개",
+          "link": "https://www.100ssd.co.kr/news/articleView.html?idxno=214665",
+          "media": "100SSD",
+          "time_label": "오늘 14:40",
+          "pub_timestamp": "2026-11-20T14:40:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부에 AI 웰니스 로봇 '나무엑스' 생산 현장...",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506352",
+          "media": "핀포인트뉴스",
+          "time_label": "오늘 14:22",
+          "pub_timestamp": "2026-11-20T14:22:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부 학생들에 '나무엑스' 생산 현장 공개",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1024635",
+          "media": "CNBNEWS",
+          "time_label": "오늘 11:52",
+          "pub_timestamp": "2026-11-20T11:52:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70여 명에 AI 웰니스 로봇 '나무엑스' 생산현장...",
+          "link": "https://www.job-post.co.kr/news/articleView.html?idxno=239801",
+          "media": "JOB-POST",
+          "time_label": "오늘 11:40",
+          "pub_timestamp": "2026-11-20T11:40:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부 학생들에 '나무엑스' 생산 현장 공개…...",
+          "link": "https://www.socialvalue.kr/news/view/1065576401256469",
+          "media": "SOCIALVALUE",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-20T10:30:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생들에 AI 로봇 생산 현장 공개",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=140891",
+          "media": "POPCORNNEWS",
+          "time_label": "오늘 10:16",
+          "pub_timestamp": "2026-11-20T10:16:00+09:00"
         }
       ],
       "is_major": true,
@@ -24389,6 +24635,13 @@
           "media": "헤럴드경제",
           "time_label": "오늘 09:23",
           "pub_timestamp": "2026-11-20T09:23:00+09:00"
+        },
+        {
+          "title": "향남 롯데캐슬 시그니처, 외벽·차량 홍보물 설치 기준 논란",
+          "link": "https://www.newstnt.com/news/articleView.html?idxno=729535",
+          "media": "NEWSTNT",
+          "time_label": "오늘 14:32",
+          "pub_timestamp": "2026-11-20T14:32:00+09:00"
         }
       ],
       "is_major": true,
