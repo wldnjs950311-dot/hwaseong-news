@@ -1,20 +1,22 @@
 {
-  "updated_at": "2026.11.20. 08:00",
+  "updated_at": "2026.11.20. 12:01",
   "scrap_period": "전일(11.19) 08:00 ~ 금일(11.20) 08:00",
   "yesterday_label": "11.19",
   "macro_pulse": {
     "report_date": "2026-11-20",
-    "article_count": 2,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(1건) 및 「복지·안전」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 6,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성시, 청소년 유해환경 점검] 브레이크뉴스 보도 - 화성시, 청소년 유해환경 점검",
-      "- [박승현 화성시 AI실장, 제조·돌봄을 함께 연...] 미래를 보는 창 - 전자신문 보도 - [人사이트]박승현 화성시 AI실장, 제조·돌봄을 함께 연결하는 'AI 도시..."
+      "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
+      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
+      "- [수능 끝난 경기남부, 청소년 보호·재충전 분주...] 주간한국 보도 - 수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
+      "- [화성시자원봉사센터, '마음 잇는 김장, 온기...] 매일일보 보도 - 화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(1건) 및 「복지·안전」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성시, 청소년 유해환경 점검] 브레이크뉴스 보도 - 화성시, 청소년 유해환경 점검",
-      "- [박승현 화성시 AI실장, 제조·돌봄을 함께 연...] 미래를 보는 창 - 전자신문 보도 - [人사이트]박승현 화성시 AI실장, 제조·돌봄을 함께 연결하는 'AI 도시..."
+      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
+      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
     ],
     "theme_stats": [
       {
@@ -22,7 +24,7 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 2,
-        "ratio": 15
+        "ratio": 12
       },
       {
         "id": "TRANSIT_INFRA",
@@ -36,21 +38,21 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 2,
-        "ratio": 15
+        "ratio": 12
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 5,
-        "ratio": 38
+        "count": 8,
+        "ratio": 47
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 4,
-        "ratio": 31
+        "count": 5,
+        "ratio": 29
       }
     ]
   },
@@ -73,6 +75,14 @@
     },
     {
       "rank": 3,
+      "keyword": "청소년 유해환경",
+      "count": 6,
+      "category": "POLICY",
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성시, 청소년 유해환경 점검"
+    },
+    {
+      "rank": 4,
       "keyword": "통합돌봄 주거분야",
       "count": 4,
       "category": "POLICY",
@@ -80,34 +90,130 @@
       "summary": "화성시가 케어안심주택 및 주거환경개선지원사업 등 통합돌봄 주거분야 사업 수행기관 2곳을 다음 달 2일까지 공"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "keyword": "팜젠사이언스 발안천서",
       "count": 3,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
       "summary": "팜젠사이언스, 화성 발안천서 플로깅… “건강 챙기고 수질도 지켜요”"
-    },
-    {
-      "rank": 5,
-      "keyword": "화성서해마루 유스호스텔",
-      "count": 2,
-      "category": "POLICY",
-      "dept": "문화관광국 관광진흥과",
-      "summary": "화성서해마루 유스호스텔, 화성시지속가능발전협의회와 협약...청소년 ..."
     }
   ],
   "stats": {
-    "total": 405,
-    "major_count": 212,
+    "total": 409,
+    "major_count": 216,
     "live_count": 193,
-    "today_count": 0,
+    "today_count": 4,
     "scrap_count": 13,
     "yesterday_count": 3,
-    "policy": 235,
+    "policy": 239,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
+      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194890",
+      "originallink": "https://weekly.hankooki.com/news/articleView.html?idxno=7194890",
+      "media": "주간한국",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:38",
+      "pub_timestamp": "2026-11-20T11:38:00+09:00",
+      "bullets": [
+        "- 수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
+        "- 용인시, 고3 수험생 40명에 진로 연계 문화체험…처인구·화성시는 유해업소 집중 점검 수능 직후 상업지구 순찰부터 향수·원예 체험까지…청소년 안전과 정서 회복 지원 Ai 생성 이미...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.weekly.hankooki.com/news/thumbnail/202611/7194890_255685_4821_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ...",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2021134",
+      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2021134",
+      "media": "매일일보",
+      "category": "POLICY",
+      "department": "자치행정국 시민협력과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 08:46",
+      "pub_timestamp": "2026-11-20T08:46:00+09:00",
+      "bullets": [
+        "- 화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ...",
+        "- (사)화성시자원봉사센터가 19일 독거어르신과 취약계층의 겨울나기를 지원하기 위한 ‘마음 잇는 김장, 온기 나눔’ 행사를 진행하고 있다. 사진=화성시자원봉사센터 매일일보 = 한철희 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.m-i.kr/news/photo/202611/2021134_2021831_457.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 남양읍 어르신 35명 장수사진 촬영 지원",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083491",
+      "originallink": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083491",
+      "media": "NEWSCLAIM",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 08:44",
+      "pub_timestamp": "2026-11-20T08:44:00+09:00",
+      "bullets": [
+        "- 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
+        "- 80세 이상 어르신 대상 사진 촬영 진행… 재능기부와 이동 지원 겨울 내복· 방한 모자·간식 전달로 겨울철 생활 지원 남양읍 장수사진 촬영 행사에서 어르신이 기념사진을 촬영하고 있...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3083491_126026_2522_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2021128",
+      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2021128",
+      "media": "매일일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 08:36",
+      "pub_timestamp": "2026-11-20T08:36:00+09:00",
+      "bullets": [
+        "- 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
+        "- 기탁식 모습(차량 레이 기부). 사진=화성시복지재단 매일일보 = 한철희 기자 | 전국금속노동조합 기아자동차지부 정비지회는 지난 18일 화성시 관내 아동·청소년 지원을 위해 후원금 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "기아차 정비지회, 통 큰 나눔! 화성 아동·청소년에 1000만원+차량 기탁",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085699",
+          "media": "SHINAILBO",
+          "time_label": "오늘 08:14",
+          "pub_timestamp": "2026-11-20T08:14:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.m-i.kr/news/photo/202611/2021128_2021819_5018.jpeg",
+      "telegram_sent": true
+    },
     {
       "title": "화성시, 청소년 유해환경 점검",
       "link": "http://www.breaknews.com/1252481",
@@ -127,8 +233,44 @@
         "- 시작페이지로l즐겨찾기lRSSl편집 2026.11.20 [07:59] [브레이크뉴스경기남부=화성 김정은 기자] 화성특례시는 수능 이후 청소년들이 일탈로 이어질 수 있는 환경에 노출되...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[금주의 화성시] 화성특례시, 수능 이후 향남읍 청소년 유해업소 50곳 합...",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363743115",
+          "media": "중부일보",
+          "time_label": "오늘 11:36",
+          "pub_timestamp": "2026-11-20T11:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 수능 이후 향남읍 청소년 유해환경 민·관·경 합동점검",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021289",
+          "media": "매일일보",
+          "time_label": "오늘 10:40",
+          "pub_timestamp": "2026-11-20T10:40:00+09:00"
+        },
+        {
+          "title": "화성특례시, 수능 이후 청소년 유해환경 집중 점검",
+          "link": "http://www.metroseoul.co.kr/article/20261120500045",
+          "media": "서울신문",
+          "time_label": "오늘 10:34",
+          "pub_timestamp": "2026-11-20T10:34:00+09:00"
+        },
+        {
+          "title": "[20일 화성시] 수능 이후 청소년 유해환경 민·관·경 합동점검 등",
+          "link": "https://www.asiatime.co.kr/article/20261120500029",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:54",
+          "pub_timestamp": "2026-11-20T09:54:00+09:00"
+        },
+        {
+          "title": "화성시 향남읍서 청소년 유해업소 50곳 합동점검",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083490",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 08:44",
+          "pub_timestamp": "2026-11-20T08:44:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.breaknews.com/data/breaknews_com/upload/sns_thumbnail.jpg",
       "telegram_sent": false
     },
@@ -1104,6 +1246,20 @@
           "media": "서울신문",
           "time_label": "스크랩 11.19 16:02",
           "pub_timestamp": "2026-11-19T16:02:00+09:00"
+        },
+        {
+          "title": "화성시법원 신축 부지 확정...2032년 개원 추진",
+          "link": "https://www.naeil.com/news/read/609460?ref=naver",
+          "media": "NAEIL",
+          "time_label": "오늘 09:44",
+          "pub_timestamp": "2026-11-20T09:44:00+09:00"
+        },
+        {
+          "title": "[경기] 화성시, 법원 부지 '병점복합타운' 최종 확정",
+          "link": "https://www.ytn.co.kr/_ln/0115_202611200943197764",
+          "media": "YTN",
+          "time_label": "오늘 09:43",
+          "pub_timestamp": "2026-11-20T09:43:00+09:00"
         }
       ],
       "is_major": true,
@@ -2111,6 +2267,13 @@
           "media": "NEWDAILY",
           "time_label": "스크랩 11.19 16:26",
           "pub_timestamp": "2026-11-19T16:26:00+09:00"
+        },
+        {
+          "title": "화성특례시 문화자치 페스타, 28일 동탄역서 시민 참여 프로그램 개최",
+          "link": "https://www.cwn.kr/news/articleView.html?idxno=62263",
+          "media": "CWN",
+          "time_label": "오늘 09:48",
+          "pub_timestamp": "2026-11-20T09:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -3021,6 +3184,13 @@
           "media": "브레이크뉴스",
           "time_label": "오늘 11:30",
           "pub_timestamp": "2026-11-18T11:30:00+09:00"
+        },
+        {
+          "title": "화성시 동탄5동 목요 가정방문으로 위기가구 20회 발굴",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083492",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 08:44",
+          "pub_timestamp": "2026-11-20T08:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -4010,8 +4180,16 @@
         "- 외국인주민 관련 단체 및 관계기관 60여 명이 참석하여 이주민 정착 및 현장 문제 지원 방안을 논의함",
         "- 후기 이주배경청소년의 체류·취업 격차 해소와 이주노동자 가구의 정보 접근성 개선 등이 주요 의제로 다뤄짐"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "인권위, 추미애 지사에게 “이주민 인권 보호 기능 유지해야”",
+          "link": "https://biz.chosun.com/topics/topics_social/2026/11/20/SFHDUPPQMVHSXGVS2WXE2DR3ZY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "media": "조선일보",
+          "time_label": "오늘 11:45",
+          "pub_timestamp": "2026-11-20T11:45:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.siminilbo.co.kr/news/data/20261115/p1160256557438776_279_thum.jpg",
       "telegram_sent": false
     },
@@ -4572,6 +4750,13 @@
           "media": "G-ENEWS",
           "time_label": "오늘 14:02",
           "pub_timestamp": "2026-11-17T14:02:00+09:00"
+        },
+        {
+          "title": "수원·화성시의회, 의정 경험 나누고 공동 현안 협력",
+          "link": "https://www.g-enews.com/view.php?ud=2026112008421834848fbfc802b3_1",
+          "media": "G-ENEWS",
+          "time_label": "오늘 08:50",
+          "pub_timestamp": "2026-11-20T08:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -5306,6 +5491,13 @@
           "media": "IKLD",
           "time_label": "오늘 14:36",
           "pub_timestamp": "2026-11-18T14:36:00+09:00"
+        },
+        {
+          "title": "강남·용산 주춤한데 강북·동탄 ‘불장’…수도권 집값 뚜렷한 양극화",
+          "link": "https://www.mk.co.kr/article/12214389",
+          "media": "매일경제",
+          "time_label": "오늘 10:48",
+          "pub_timestamp": "2026-11-20T10:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -9876,6 +10068,20 @@
           "media": "OBSNEWS",
           "time_label": "스크랩 11.17 22:34",
           "pub_timestamp": "2026-11-17T22:34:00+09:00"
+        },
+        {
+          "title": "수원대 주차장 내 차량서 불…인명피해 없어",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337356",
+          "media": "인천일보",
+          "time_label": "오늘 11:10",
+          "pub_timestamp": "2026-11-20T11:10:00+09:00"
+        },
+        {
+          "title": "수원대 주차장서 차량 화재, 부상자 없어",
+          "link": "https://www.newsis.com/view/NISX20261120_0003876487",
+          "media": "뉴시스",
+          "time_label": "오늘 10:50",
+          "pub_timestamp": "2026-11-20T10:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -9973,8 +10179,16 @@
         "- 기술력을 보유했으나 공모사업 대응이나 IR 준비에 어려움을 겪는 관내 기업의 정부지원사업 참여 및 투자유치 역량을 강화함",
         "- 선정 기업에는 역량 진단부터 맞춤형 전략 수립, 컨설팅, IR 고도화, 투자상담회까지 전 과정을 맞춤형으로 밀착 지원함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[화성소식]화성산업진흥원, 창업기업·소셜벤처 IR 지원 등",
+          "link": "https://www.newsis.com/view/NISX20261120_0003876344",
+          "media": "뉴시스",
+          "time_label": "오늘 09:59",
+          "pub_timestamp": "2026-11-20T09:59:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.kgnews.co.kr/data/photos/20261146/art_1794274297276_9101b1.jpg",
       "telegram_sent": false
     },
@@ -15391,6 +15605,118 @@
           "media": "매일일보",
           "time_label": "오늘 10:52",
           "pub_timestamp": "2026-11-17T10:52:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 피지컬 AI 인재들과 제조 현장 소통… 화성캠퍼스서 '나무...",
+          "link": "https://www.nbntv.kr/news/articleView.html?idxno=341151",
+          "media": "NBN뉴스",
+          "time_label": "오늘 10:12",
+          "pub_timestamp": "2026-11-20T10:12:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 70여명에 AI로봇 '나무엑스' 생산라인 공개",
+          "link": "https://www.imaeil.com/page/view/2026112008524843560",
+          "media": "IMAEIL",
+          "time_label": "오늘 10:11",
+          "pub_timestamp": "2026-11-20T10:11:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부에 '나무엑스' 생산 현장 공개",
+          "link": "https://view.asiae.co.kr/article/2026112009474564809",
+          "media": "아시아경제",
+          "time_label": "오늘 09:47",
+          "pub_timestamp": "2026-11-20T09:47:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70여명에 로봇 생산 현장 공개",
+          "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211731",
+          "media": "대한경제",
+          "time_label": "오늘 09:40",
+          "pub_timestamp": "2026-11-20T09:40:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70여 명에 나무엑스 생산 현장 공개",
+          "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=305484",
+          "media": "NEWSQUEST",
+          "time_label": "오늘 09:38",
+          "pub_timestamp": "2026-11-20T09:38:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부에 ‘나무엑스’ 생산 현장 공개",
+          "link": "http://www.datanews.co.kr/news/article.html?no=147742",
+          "media": "DATANEWS",
+          "time_label": "오늘 09:36",
+          "pub_timestamp": "2026-11-20T09:36:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '나무엑스' 생산라인 공개···미래 공학 인재와 기술 교류",
+          "link": "https://www.ziksir.com/news/articleView.html?idxno=154100",
+          "media": "ZIKSIR",
+          "time_label": "오늘 09:34",
+          "pub_timestamp": "2026-11-20T09:34:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70여 명에 AI 웰니스 로봇 생산 현장 공개",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026112009261899946a9e4dd7f_30",
+          "media": "비욘드포스트",
+          "time_label": "오늘 09:28",
+          "pub_timestamp": "2026-11-20T09:28:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70여명에 AI 로봇 생산 현장 공개",
+          "link": "https://www.etoday.co.kr/news/view/2650745",
+          "media": "ETODAY",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-20T09:10:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대에 '나무엑스' 생산현장 공개…교수·학생 70여명 견...",
+          "link": "http://www.paxetv.com/news/articleView.html?idxno=287457",
+          "media": "PAXETV",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-20T09:10:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대에 AI 로봇 '나무엑스' 생산라인 공개",
+          "link": "https://www.dailian.co.kr/news/view/1717554/?sc=Naver",
+          "media": "데일리안",
+          "time_label": "오늘 09:01",
+          "pub_timestamp": "2026-11-20T09:01:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 70명에 AI 로봇 생산현장 공개",
+          "link": "https://www.ajunews.com/view/20261120084454912",
+          "media": "아주경제",
+          "time_label": "오늘 08:54",
+          "pub_timestamp": "2026-11-20T08:54:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 미래 로봇 인재에 '나무엑스' 제조 현장 공개",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732414",
+          "media": "EBN",
+          "time_label": "오늘 08:52",
+          "pub_timestamp": "2026-11-20T08:52:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 학생 대상 '나무엑스' 생산현장 공개",
+          "link": "https://www.news1.kr/industry/general-industry/6360416",
+          "media": "뉴스1",
+          "time_label": "오늘 08:51",
+          "pub_timestamp": "2026-11-20T08:51:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '나무엑스' 생산 과정 공개…강의실 넘어 현장으로",
+          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=302105",
+          "media": "FINANCIALPOST",
+          "time_label": "오늘 08:46",
+          "pub_timestamp": "2026-11-20T08:46:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 대학생에 AI 웰니스 로봇 시연·품질 검증 과정 공개",
+          "link": "http://www.newsdream.kr/news/articleView.html?idxno=122612",
+          "media": "NEWSDREAM",
+          "time_label": "오늘 08:46",
+          "pub_timestamp": "2026-11-20T08:46:00+09:00"
         }
       ],
       "is_major": true,
@@ -16996,6 +17322,13 @@
           "media": "인천일보",
           "time_label": "스크랩 11.19 15:46",
           "pub_timestamp": "2026-11-19T15:46:00+09:00"
+        },
+        {
+          "title": "단추마다 스티커·소매도 확인…3차례 위험재난문자",
+          "link": "http://www.yonhapnewstv.co.kr/news/MYH20261120052020amH",
+          "media": "연합뉴스TV",
+          "time_label": "스크랩 11.20 05:21",
+          "pub_timestamp": "2026-11-20T05:21:00+09:00"
         }
       ],
       "is_major": true,
@@ -17721,6 +18054,13 @@
           "media": "기호일보",
           "time_label": "스크랩 11.19 17:18",
           "pub_timestamp": "2026-11-19T17:18:00+09:00"
+        },
+        {
+          "title": "화성·수원시의회, 우호도시 협약 체결…상생발전 협력 강화",
+          "link": "https://www.asiatime.co.kr/article/20261120500023",
+          "media": "ASIATIME",
+          "time_label": "오늘 10:54",
+          "pub_timestamp": "2026-11-20T10:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -19210,6 +19550,13 @@
           "media": "매일일보",
           "time_label": "스크랩 11.19 18:06",
           "pub_timestamp": "2026-11-19T18:06:00+09:00"
+        },
+        {
+          "title": "경기도의회 신미숙 의원, 외국인노동자 지원사업 중단·동탄트램 지연 ...",
+          "link": "https://www.kmaeil.com/news/articleView.html?idxno=659148",
+          "media": "KMAEIL",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-20T10:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -24021,6 +24368,27 @@
           "media": "한국경제",
           "time_label": "스크랩 11.19 15:22",
           "pub_timestamp": "2026-11-19T15:22:00+09:00"
+        },
+        {
+          "title": "통장·가점 없이 동·호 고른다... '아크메르 동탄', 22일 첫 선착순 동...",
+          "link": "https://www.getnews.co.kr/news/articleView.html?idxno=887886",
+          "media": "GETNEWS",
+          "time_label": "오늘 11:54",
+          "pub_timestamp": "2026-11-20T11:54:00+09:00"
+        },
+        {
+          "title": "'아크메르 동탄', 22일 일부 잔여가구 선착순 동·호 지정 계약",
+          "link": "https://magazine.hankyung.com/money/article/202611209308c",
+          "media": "한국경제",
+          "time_label": "오늘 10:00",
+          "pub_timestamp": "2026-11-20T10:00:00+09:00"
+        },
+        {
+          "title": "동탄 ‘아크메르 동탄’, 22일 선착순 동·호 지정 계약…청약통장·가...",
+          "link": "https://biz.heraldcorp.com/article/10943546?ref=naver",
+          "media": "헤럴드경제",
+          "time_label": "오늘 09:23",
+          "pub_timestamp": "2026-11-20T09:23:00+09:00"
         }
       ],
       "is_major": true,
@@ -25920,6 +26288,13 @@
           "media": "ETODAY",
           "time_label": "오늘 08:32",
           "pub_timestamp": "2026-11-09T08:32:00+09:00"
+        },
+        {
+          "title": "강동구 '고덕자이' 31평, 7.7억 오른 23.7억원에 거래 [일일 신고가]",
+          "link": "https://www.fntimes.com/html/view.php?ud=202611200825024972048b718333_18",
+          "media": "FNTIMES",
+          "time_label": "오늘 08:30",
+          "pub_timestamp": "2026-11-20T08:30:00+09:00"
         }
       ],
       "is_major": true,
