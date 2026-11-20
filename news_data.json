@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026.11.20. 16:00",
-  "scrap_period": "전일(11.19) 08:00 ~ 금일(11.20) 08:00",
-  "yesterday_label": "11.19",
+  "updated_at": "2026.11.21. 08:00",
+  "scrap_period": "전일(11.20) 08:00 ~ 금일(11.21) 08:00",
+  "yesterday_label": "11.20",
   "macro_pulse": {
-    "report_date": "2026-11-20",
+    "report_date": "2026-11-21",
     "article_count": 8,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「특례시·자치」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「특례시·자치」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
       "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
       "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
-      "- [… 화성시체육회, ‘무책...] 경기일보 보도 - [단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책..."
+      "- [우재혁 씨, 화성시장 금품 수수 의혹 폭로 기...] 국제뉴스 보도 - '화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
+      "- [화성시, 시민 곁에 찾아온 직거래장터가 신선하...] NSP통신 보도 - [바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「특례시·자치」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성시, 청소년 유해환경 점검] 총 6개 언론사 집중 보도 - 화성시, 청소년 유해환경 점검",
-      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원"
+      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「특례시·자치」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
+      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 2,
-        "ratio": 11
+        "count": 1,
+        "ratio": 12
       },
       {
         "id": "TRANSIT_INFRA",
@@ -37,79 +37,127 @@
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 2,
-        "ratio": 11
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 9,
-        "ratio": 47
+        "count": 4,
+        "ratio": 50
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 6,
-        "ratio": 32
+        "count": 3,
+        "ratio": 38
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "인구 108만",
-      "count": 25,
+      "keyword": "남양읍 어르신",
+      "count": 2,
       "category": "POLICY",
-      "dept": "기획조정실 의회법무과",
-      "summary": "인구 108만 대도시 화성특례시, 내년도 농업예산 1868억 원 투입"
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성시 남양읍 어르신 35명 장수사진 촬영 지원"
     },
     {
       "rank": 2,
-      "keyword": "주민자치회 운영체계",
-      "count": 11,
+      "keyword": "전국금속노동조합 기아자동차지부",
+      "count": 2,
       "category": "POLICY",
-      "dept": "시민협력과",
-      "summary": "화성시가 29개 읍·면·동 주민자치회의 제도적 기반 강화 및 지역 특성에 맞춘 운영체계 개선 추진"
+      "dept": "화성시 소관부서 확인중",
+      "summary": "전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
     },
     {
       "rank": 3,
-      "keyword": "청소년 유해환경",
-      "count": 6,
+      "keyword": "지킴이 우재혁",
+      "count": 1,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "화성시, 청소년 유해환경 점검"
+      "dept": "공보실 언론담당관",
+      "summary": "'화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선..."
     },
     {
       "rank": 4,
-      "keyword": "통합돌봄 주거분야",
-      "count": 4,
+      "keyword": "바뀌는 우리동네",
+      "count": 1,
       "category": "POLICY",
-      "dept": "통합돌봄과",
-      "summary": "화성시가 케어안심주택 및 주거환경개선지원사업 등 통합돌봄 주거분야 사업 수행기관 2곳을 다음 달 2일까지 공"
+      "dept": "농정해양국 농식품유통과",
+      "summary": "[바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네"
     },
     {
       "rank": 5,
-      "keyword": "화성서해마루 유스호스텔",
-      "count": 3,
+      "keyword": "선금 6000만 원 떼이고 4년 동안 방치",
+      "count": 1,
       "category": "POLICY",
-      "dept": "문화관광국 관광진흥과",
-      "summary": "화성서해마루 유스호스텔, 화성시지속가능발전협의회와 협약...청소년 ..."
+      "dept": "기본사회담당관",
+      "summary": "[단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책..."
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 413,
     "major_count": 218,
-    "live_count": 193,
-    "today_count": 6,
-    "scrap_count": 13,
-    "yesterday_count": 3,
-    "policy": 241,
+    "live_count": 195,
+    "today_count": 0,
+    "scrap_count": 8,
+    "yesterday_count": 2,
+    "policy": 243,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "'화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3758741",
+      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3758741",
+      "media": "국제뉴스",
+      "category": "POLICY",
+      "department": "공보실 언론담당관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 20:32",
+      "pub_timestamp": "2026-11-20T20:32:00+09:00",
+      "bullets": [
+        "- '화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
+        "- (화성=국제뉴스) 최광묵기자 = 19일 오후 경기 화성시 만세 구청 선거관리위원회 앞에서'화성 지킴이' 우재혁 씨가 기자회견을 열고, 정명근 화성시장으로부터 두 차례에 걸쳐 현금 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.gukjenews.com/news/thumbnail/202611/3758741_3942158_122_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네",
+      "link": "https://www.nspna.com/news/?mode=view&newsid=837176",
+      "originallink": "https://www.nspna.com/news/?mode=view&newsid=837176",
+      "media": "NSP통신",
+      "category": "POLICY",
+      "department": "농정해양국 농식품유통과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 17:58",
+      "pub_timestamp": "2026-11-20T17:58:00+09:00",
+      "bullets": [
+        "- [바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네",
+        "- 바뀌는 우리동네 화성시, 시민 곁에 찾아온 직거래장터가 신선하네 NSP통신 , 조현철 기자 입력 2026-11-20 16:34 KRX3 #화성시직거래 #화성시로컬푸드 #화성시농산물...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://file.nspna.com/news/2026/11/20/20261120162037_837176_1.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "[단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책...",
       "link": "https://www.kgnews.co.kr/news/article.html?no=920480",
@@ -121,8 +169,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:28",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 15:28",
       "pub_timestamp": "2026-11-20T15:28:00+09:00",
       "bullets": [
         "- [단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책...",
@@ -145,8 +193,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 14:41",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 14:41",
       "pub_timestamp": "2026-11-20T14:41:00+09:00",
       "bullets": [
         "- [솔향강릉기 전국리틀야구대회]화성시·용인바른·중랑구·광주시 4강 진...",
@@ -169,8 +217,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 11:38",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 11:38",
       "pub_timestamp": "2026-11-20T11:38:00+09:00",
       "bullets": [
         "- 수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
@@ -193,8 +241,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:46",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 08:46",
       "pub_timestamp": "2026-11-20T08:46:00+09:00",
       "bullets": [
         "- 화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ...",
@@ -217,8 +265,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:44",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 08:44",
       "pub_timestamp": "2026-11-20T08:44:00+09:00",
       "bullets": [
         "- 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
@@ -249,8 +297,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:36",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.20 08:36",
       "pub_timestamp": "2026-11-20T08:36:00+09:00",
       "bullets": [
         "- 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
@@ -281,8 +329,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 07:28",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:28",
       "pub_timestamp": "2026-11-20T07:28:00+09:00",
       "bullets": [
         "- 화성시, 청소년 유해환경 점검",
@@ -341,8 +389,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 04:01",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 04:01",
       "pub_timestamp": "2026-11-20T04:01:00+09:00",
       "bullets": [
         "- [人사이트]박승현 화성시 AI실장, 제조·돌봄을 함께 연결하는 'AI 도시...",
@@ -365,8 +413,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 18:12",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 18:12",
       "pub_timestamp": "2026-11-19T18:12:00+09:00",
       "bullets": [
         "- 겨울철 화성 동탄·병점 야생 너구리 출몰 '비상'…기생충 확산 우려 속...",
@@ -389,8 +437,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 17:56",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 17:56",
       "pub_timestamp": "2026-11-19T17:56:00+09:00",
       "bullets": [
         "- 화성서해마루 유스호스텔, 화성시지속가능발전협의회와 협약...청소년 ...",
@@ -428,8 +476,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 15:50",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 15:50",
       "pub_timestamp": "2026-11-19T15:50:00+09:00",
       "bullets": [
         "- 인구 108만 대도시 화성특례시, 내년도 농업예산 1868억 원 투입",
@@ -604,6 +652,27 @@
           "media": "DNEWS",
           "time_label": "오늘 12:22",
           "pub_timestamp": "2026-11-20T12:22:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점역 생활권에 농산물 판매 거점 실험…농가 소득 ...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194961",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.20 17:06",
+          "pub_timestamp": "2026-11-20T17:06:00+09:00"
+        },
+        {
+          "title": "화성에 법원 시대 열린다…2032년 3월 병점복합타운 개원",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=394828",
+          "media": "SISAJOURNAL",
+          "time_label": "스크랩 11.20 16:10",
+          "pub_timestamp": "2026-11-20T16:10:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 농가와 시민 잇는 직거래장터 확대…지역 농산물 소비...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33266",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.20 16:04",
+          "pub_timestamp": "2026-11-20T16:04:00+09:00"
         }
       ],
       "is_major": true,
@@ -621,8 +690,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 15:18",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 15:18",
       "pub_timestamp": "2026-11-19T15:18:00+09:00",
       "bullets": [
         "- 화성시, 내년 농업예산 22% 대폭 증액",
@@ -645,8 +714,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 14:30",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 14:30",
       "pub_timestamp": "2026-11-19T14:30:00+09:00",
       "bullets": [
         "- \"면적·가격만 보던 시대 끝\"… 화성·평택 공장·창고, '실사용 조건'이...",
@@ -669,8 +738,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 14:08",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 14:08",
       "pub_timestamp": "2026-11-19T14:08:00+09:00",
       "bullets": [
         "- 화성시, 농업 생존력과 주민자치 실효성 투자…행정 역할 재조정 시험대",
@@ -693,8 +762,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 14:06",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 14:06",
       "pub_timestamp": "2026-11-19T14:06:00+09:00",
       "bullets": [
         "- 수도권 당일치기 드라이브·이색 체험 고민 끝! 실패 없는 경기 화성 가...",
@@ -717,8 +786,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 11:20",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 11:20",
       "pub_timestamp": "2026-11-19T11:20:00+09:00",
       "bullets": [
         "- 화성시가 29개 읍·면·동 주민자치회의 제도적 기반 강화 및 지역 특성에 맞춘 운영체계 개선 추진",
@@ -812,8 +881,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 11:02",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 11:02",
       "pub_timestamp": "2026-11-19T11:02:00+09:00",
       "bullets": [
         "- 팜젠사이언스, 화성 발안천서 플로깅… “건강 챙기고 수질도 지켜요”",
@@ -851,8 +920,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 09:38",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 09:38",
       "pub_timestamp": "2026-11-19T09:38:00+09:00",
       "bullets": [
         "- 화성시가 케어안심주택 및 주거환경개선지원사업 등 통합돌봄 주거분야 사업 수행기관 2곳을 다음 달 2일까지 공모함",
@@ -897,8 +966,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.19 09:04",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 09:04",
       "pub_timestamp": "2026-11-19T09:04:00+09:00",
       "bullets": [
         "- 화성시가 자립준비청년의 안정적인 사회 정착 지원을 위한 체계 강화에 착수함",
@@ -921,8 +990,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:46",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 07:46",
       "pub_timestamp": "2026-11-19T07:46:00+09:00",
       "bullets": [
         "- 화성특례시가 화성시가족센터와 연계해 '연지곤지 통장' 참여자를 대상으로 비대면 예비부부 재무교육을 실시함",
@@ -967,8 +1036,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 06:58",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 06:58",
       "pub_timestamp": "2026-11-19T06:58:00+09:00",
       "bullets": [
         "- 화성시가 도농복합도시 특성을 살린 '화성형 주민자치' 고도화 및 조례 개정 등 제도 개선 추진에 착수함",
@@ -999,8 +1068,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 05:30",
+      "date_group": "2026-11-19",
+      "time_label": "11.19 05:30",
       "pub_timestamp": "2026-11-19T05:30:00+09:00",
       "bullets": [
         "- 안민석 교육감 \"실사구시·교문현답으로 특수교육 판 바꿀 것\"…화성 안...",
@@ -2347,6 +2416,48 @@
           "media": "쿠키뉴스",
           "time_label": "오늘 09:12",
           "pub_timestamp": "2026-11-20T09:12:00+09:00"
+        },
+        {
+          "title": "평택시, 높은 출산율 수도권 자족형 도시 자리매김",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1427405",
+          "media": "HANKOOKI",
+          "time_label": "스크랩 11.20 13:52",
+          "pub_timestamp": "2026-11-20T13:52:00+09:00"
+        },
+        {
+          "title": "평택시 출산율이 '살아나고 있다'…비결은 '도시 자족성'",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=565411",
+          "media": "JOONGANGENEWS",
+          "time_label": "스크랩 11.20 13:00",
+          "pub_timestamp": "2026-11-20T13:00:00+09:00"
+        },
+        {
+          "title": "경기연구원 보고서, 평택시 높은 출산율 배경으로 도시 자족성 지목",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021331",
+          "media": "매일일보",
+          "time_label": "스크랩 11.20 12:22",
+          "pub_timestamp": "2026-11-20T12:22:00+09:00"
+        },
+        {
+          "title": "평택시, 출산율 비결은 자족성",
+          "link": "http://www.breaknews.com/1252561",
+          "media": "브레이크뉴스",
+          "time_label": "스크랩 11.20 12:14",
+          "pub_timestamp": "2026-11-20T12:14:00+09:00"
+        },
+        {
+          "title": "합계출산율 1.02명 평택시, 전국 평균 상회…핵심 동력은 '도시 자족성'",
+          "link": "https://news.ifm.kr/news/articleView.html?idxno=485024",
+          "media": "경인방송",
+          "time_label": "스크랩 11.20 12:04",
+          "pub_timestamp": "2026-11-20T12:04:00+09:00"
+        },
+        {
+          "title": "“평택 출산율 비결은 주거·일·돌봄 조화 덕”",
+          "link": "https://www.munhwa.com/article/11632827?ref=naver",
+          "media": "문화일보",
+          "time_label": "스크랩 11.20 11:25",
+          "pub_timestamp": "2026-11-20T11:25:00+09:00"
         }
       ],
       "is_major": true,
@@ -5631,6 +5742,13 @@
           "media": "THEGOLFTIMES",
           "time_label": "오늘 13:02",
           "pub_timestamp": "2026-11-20T13:02:00+09:00"
+        },
+        {
+          "title": "﻿지역 내 신축 갈아타기 수요 집중…'향남역 그로브 스위첸' 공급 눈길",
+          "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92730",
+          "media": "WOODKOREA",
+          "time_label": "스크랩 11.20 16:28",
+          "pub_timestamp": "2026-11-20T16:28:00+09:00"
         }
       ],
       "is_major": true,
@@ -6136,6 +6254,27 @@
           "media": "현장뉴스",
           "time_label": "스크랩 11.15 13:30",
           "pub_timestamp": "2026-11-15T13:30:00+09:00"
+        },
+        {
+          "title": "국방부, 제5회 국방 AI 경진대회 개최",
+          "link": "https://www.news1.kr/photos/8225773",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.20 20:02",
+          "pub_timestamp": "2026-11-20T20:02:00+09:00"
+        },
+        {
+          "title": "국방부, 제5회 국방 AI 경진대회 개최… 1314명 도전, 50명 본선 진출",
+          "link": "https://www.segye.com/newsView/20261120514567?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.20 19:34",
+          "pub_timestamp": "2026-11-20T19:34:00+09:00"
+        },
+        {
+          "title": "국방부, 국방 AI 경진대회 개최…'피지컬 AI 활용한 UGV 도심 전술 작전...",
+          "link": "https://www.news1.kr/diplomacy/defense-diplomacy/6361340",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.20 17:49",
+          "pub_timestamp": "2026-11-20T17:49:00+09:00"
         }
       ],
       "is_major": true,
@@ -9998,6 +10137,13 @@
           "media": "WSOBI",
           "time_label": "오늘 10:14",
           "pub_timestamp": "2026-11-20T10:14:00+09:00"
+        },
+        {
+          "title": "국방부, 국방 AI 경진대회…“피지컬 AI 활용한 무인지상차량(UGV) 도심 ...",
+          "link": "https://www.munhwa.com/article/11632959?ref=naver",
+          "media": "문화일보",
+          "time_label": "스크랩 11.20 23:21",
+          "pub_timestamp": "2026-11-20T23:21:00+09:00"
         }
       ],
       "is_major": true,
@@ -10265,6 +10411,13 @@
           "media": "YTN",
           "time_label": "오늘 14:46",
           "pub_timestamp": "2026-11-20T14:46:00+09:00"
+        },
+        {
+          "title": "화성 우정읍 창고에서 불…인명피해 없어",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920506",
+          "media": "경기일보",
+          "time_label": "스크랩 11.20 16:18",
+          "pub_timestamp": "2026-11-20T16:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -11906,6 +12059,13 @@
           "media": "WEEKLYTODAY",
           "time_label": "오늘 15:26",
           "pub_timestamp": "2026-11-20T15:26:00+09:00"
+        },
+        {
+          "title": "화성·수원특례시의회, 우호도시 협약 체결…“공동 현안 해법 찾는다”",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920469",
+          "media": "경기일보",
+          "time_label": "스크랩 11.20 16:14",
+          "pub_timestamp": "2026-11-20T16:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -15963,6 +16123,20 @@
           "media": "POPCORNNEWS",
           "time_label": "오늘 10:16",
           "pub_timestamp": "2026-11-20T10:16:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부에 나무엑스 생산 현장 공개",
+          "link": "http://www.economytalk.kr/news/articleView.html?idxno=425444",
+          "media": "ECONOMYTALK",
+          "time_label": "스크랩 11.20 17:04",
+          "pub_timestamp": "2026-11-20T17:04:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 숭실대 기계공학부에 ‘나무엑스’ 생산현장 공개",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611200189",
+          "media": "SENTV",
+          "time_label": "스크랩 11.20 16:32",
+          "pub_timestamp": "2026-11-20T16:32:00+09:00"
         }
       ],
       "is_major": true,
