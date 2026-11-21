@@ -1,30 +1,26 @@
 {
-  "updated_at": "2026.11.21. 08:00",
-  "scrap_period": "전일(11.20) 08:00 ~ 금일(11.21) 08:00",
-  "yesterday_label": "11.20",
+  "updated_at": "2026.11.22. 08:00",
+  "scrap_period": "전일(11.21) 08:00 ~ 금일(11.22) 08:00",
+  "yesterday_label": "11.21",
   "macro_pulse": {
-    "report_date": "2026-11-21",
-    "article_count": 8,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「특례시·자치」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "report_date": "2026-11-22",
+    "article_count": 1,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
-      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
-      "- [우재혁 씨, 화성시장 금품 수수 의혹 폭로 기...] 국제뉴스 보도 - '화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
-      "- [화성시, 시민 곁에 찾아온 직거래장터가 신선하...] NSP통신 보도 - [바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네"
+      "- [화성시, 영재교육원 제1기 수료생 115명 배...] 총 23개 언론사 집중 보도 - 화성시, 영재교육원 제1기 수료생 115명 배출"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(4건) 및 「특례시·자치」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성시 남양읍 어르신 35명 장수사진 촬영 지...] 총 2개 언론사 집중 보도 - 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
-      "- [전국금속노동조합 기아자동차지부 정비지회, 화성...] 총 2개 언론사 집중 보도 - 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
+      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [화성시, 영재교육원 제1기 수료생 115명 배...] 총 23개 언론사 집중 보도 - 화성시, 영재교육원 제1기 수료생 115명 배출"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 1,
-        "ratio": 12
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "TRANSIT_INFRA",
@@ -44,72 +40,298 @@
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 4,
-        "ratio": 50
+        "count": 0,
+        "ratio": 0
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 3,
-        "ratio": 38
+        "ratio": 100
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "남양읍 어르신",
-      "count": 2,
+      "keyword": "영재교육원 제1기",
+      "count": 23,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
-      "summary": "화성시 남양읍 어르신 35명 장수사진 촬영 지원"
+      "summary": "화성시, 영재교육원 제1기 수료생 115명 배출"
     },
     {
       "rank": 2,
-      "keyword": "전국금속노동조합 기아자동차지부",
-      "count": 2,
+      "keyword": "화성특례시의회 향남",
+      "count": 3,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해..."
+      "dept": "기획조정실 의회법무과",
+      "summary": "화성특례시의회, 향남 오음공원 테니스장 8면 개장 축하"
     },
     {
       "rank": 3,
-      "keyword": "지킴이 우재혁",
+      "keyword": "행복 나눔 음악회",
       "count": 1,
       "category": "POLICY",
-      "dept": "공보실 언론담당관",
-      "summary": "'화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선..."
-    },
-    {
-      "rank": 4,
-      "keyword": "바뀌는 우리동네",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "농정해양국 농식품유통과",
-      "summary": "[바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네"
-    },
-    {
-      "rank": 5,
-      "keyword": "선금 6000만 원 떼이고 4년 동안 방치",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "기본사회담당관",
-      "summary": "[단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책..."
+      "dept": "화성시 소관부서 확인중",
+      "summary": "장안대 평생교육원, 화성시민 위한 ‘행복 나눔 음악회’ 개최"
     }
   ],
   "stats": {
-    "total": 413,
-    "major_count": 218,
+    "total": 416,
+    "major_count": 221,
     "live_count": 195,
     "today_count": 0,
-    "scrap_count": 8,
-    "yesterday_count": 2,
-    "policy": 243,
+    "scrap_count": 3,
+    "yesterday_count": 0,
+    "policy": 246,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성시, 영재교육원 제1기 수료생 115명 배출",
+      "link": "https://www.sportsseoul.com/news/read/1651343?ref=naver",
+      "originallink": "https://www.sportsseoul.com/news/read/1651343?ref=naver",
+      "media": "스포츠서울",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 07:36",
+      "pub_timestamp": "2026-11-22T07:36:00+09:00",
+      "bullets": [
+        "- 화성시, 영재교육원 제1기 수료생 115명 배출",
+        "- -30개 팀 창의적 산출물 발표·전시로 성과 공유... 내년 관내 기업 연계 미래형 교육 강화 -정명근 시장 “내년 인문학 분야까지 교육과정 확대...재능을 마음껏 펼칠 수 있도록...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "정명근 화성시장, 영재교육원 첫 결실에 \"115명 수료생 자랑스럽다\"...미...",
+          "link": "https://www.ajunews.com/view/20261121154606059",
+          "media": "아주경제",
+          "time_label": "스크랩 11.21 15:56",
+          "pub_timestamp": "2026-11-21T15:56:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점역 생활권에 농산물 판매 거점 실험…농가 소득 ...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194961",
+          "media": "HANKOOKI",
+          "time_label": "11.20 17:06",
+          "pub_timestamp": "2026-11-20T17:06:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 농가와 시민 잇는 직거래장터 확대…지역 농산물 소비...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33266",
+          "media": "현장뉴스",
+          "time_label": "11.20 16:04",
+          "pub_timestamp": "2026-11-20T16:04:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점광장 농산물 직거래장터 방문...농가 판로 확대 ...",
+          "link": "https://www.ajunews.com/view/20261120143843032",
+          "media": "아주경제",
+          "time_label": "11.20 14:52",
+          "pub_timestamp": "2026-11-20T14:52:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 병점광장 직거래장터 찾아 참여 농가 격려·응원",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026112013592026204c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "11.20 14:26",
+          "pub_timestamp": "2026-11-20T14:26:00+09:00"
+        },
+        {
+          "title": "화성 병점광장에 농산물 직거래장터…도농 상생 이끈다",
+          "link": "https://www.munhwa.com/article/11632803?ref=naver",
+          "media": "문화일보",
+          "time_label": "11.20 14:01",
+          "pub_timestamp": "2026-11-20T14:01:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 내년 농업예산 1868억 편성…“농가 경영 부담 덜겠다...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026111918170447904c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "11.19 18:22",
+          "pub_timestamp": "2026-11-19T18:22:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성시, 내년 농업예산 1,868억 편성",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802555",
+          "media": "WEEKLYTODAY",
+          "time_label": "11.19 16:36",
+          "pub_timestamp": "2026-11-19T16:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 농업예산 1,868억 원 투입···농업 현장 지원 강화",
+          "link": "https://www.kmaeil.com/news/articleView.html?idxno=659081",
+          "media": "KMAEIL",
+          "time_label": "11.19 16:26",
+          "pub_timestamp": "2026-11-19T16:26:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 농업예산 22% 증액…1,868억 원 편성",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=243741",
+          "media": "SKBROADBAND",
+          "time_label": "11.19 16:22",
+          "pub_timestamp": "2026-11-19T16:22:00+09:00"
+        },
+        {
+          "title": "인구 108만 대도시 화성특례시, 내년도 농업예산 1868억 원 투입",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920359",
+          "media": "경기일보",
+          "time_label": "11.19 15:50",
+          "pub_timestamp": "2026-11-19T15:50:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 농업예산 22% 대폭 증액",
+          "link": "http://www.breaknews.com/1252290",
+          "media": "브레이크뉴스",
+          "time_label": "11.19 15:18",
+          "pub_timestamp": "2026-11-19T15:18:00+09:00"
+        },
+        {
+          "title": "제16차 화성시 농업인 포럼…정명근 시장 \"농업 예산 확대, 경영 부담 덜...",
+          "link": "https://news-s.kr/view.html?id=L26111915084900a7",
+          "media": "NEWS-S",
+          "time_label": "11.19 15:16",
+          "pub_timestamp": "2026-11-19T15:16:00+09:00"
+        },
+        {
+          "title": "화성특례시, '제16차 화성시 농업인 포럼'서 내년 농업 지원계획 발표",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2020866",
+          "media": "매일일보",
+          "time_label": "11.19 14:36",
+          "pub_timestamp": "2026-11-19T14:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 제16회 농업인 포럼 개최…\"내년도 농업예산 22% 증액\"",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=399163",
+          "media": "FNTODAY",
+          "time_label": "11.19 14:32",
+          "pub_timestamp": "2026-11-19T14:32:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 포럼 참석 \"농업인 여러분 감사드립니다\"",
+          "link": "https://www.newsis.com/view/NISX20261119_0003875043",
+          "media": "뉴시스",
+          "time_label": "11.19 14:31",
+          "pub_timestamp": "2026-11-19T14:31:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 내년 농업예산 1868억 원 편성...올해보다 22% 증액",
+          "link": "https://www.ajunews.com/view/20261119140749060",
+          "media": "아주경제",
+          "time_label": "11.19 14:22",
+          "pub_timestamp": "2026-11-19T14:22:00+09:00"
+        },
+        {
+          "title": "화성시, 내년 농업예산 1868억원 편성… 포도 기후 대응 지원 강화",
+          "link": "https://www.asiatime.co.kr/article/20261119500317",
+          "media": "ASIATIME",
+          "time_label": "11.19 14:20",
+          "pub_timestamp": "2026-11-19T14:20:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, '제16차 화성시 농업인 포럼'서 영농환경 개선 강조",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494633",
+          "media": "이뉴스투데이",
+          "time_label": "11.19 14:20",
+          "pub_timestamp": "2026-11-19T14:20:00+09:00"
+        },
+        {
+          "title": "정명근“내년 농업예산 확대 편성 농업인 경영 부담 덜 것”",
+          "link": "https://www.sportsseoul.com/news/read/1650897?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "11.19 14:02",
+          "pub_timestamp": "2026-11-19T14:02:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 농업인 경영 부담 덜기 나서…내년 농업예산 1868억원...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33220",
+          "media": "현장뉴스",
+          "time_label": "11.19 13:54",
+          "pub_timestamp": "2026-11-19T13:54:00+09:00"
+        },
+        {
+          "title": "화성특례시, '제16차 화성시 농업인 포럼'서 농업 지원 확대 밝혀",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494612",
+          "media": "이뉴스투데이",
+          "time_label": "11.19 13:40",
+          "pub_timestamp": "2026-11-19T13:40:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://file.sportsseoul.com/news/cms/2026/11/22/news-p.v1.20261122.444e2e3c297e477fa1f49f2d99c15825_T1.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성특례시의회, 향남 오음공원 테니스장 8면 개장 축하",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885815",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885815",
+      "media": "한스경제",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.21 20:08",
+      "pub_timestamp": "2026-11-21T20:08:00+09:00",
+      "bullets": [
+        "- 화성특례시의회, 향남 오음공원 테니스장 8면 개장 축하",
+        "- 내용요약 화성특례시의회, 21일 오음공원 시립테니스장 개장 기념 전국 생활체육 테니스대회 참석 21~22일 전국 각지 선수 250여 명 참가…화성시체육회·화성시테니스협회 주최·주관...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "이계철 화성시의회 의장, 향남 오음공원 테니스장 개장 축하",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026112117540831254c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.21 18:04",
+          "pub_timestamp": "2026-11-21T18:04:00+09:00"
+        },
+        {
+          "title": "이계철 화성특례시의회 의장 \"108만 도시 성장에도 농업은 지켜야 할 미...",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194762",
+          "media": "HANKOOKI",
+          "time_label": "11.19 18:16",
+          "pub_timestamp": "2026-11-19T18:16:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/885815_912172_444_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "장안대 평생교육원, 화성시민 위한 ‘행복 나눔 음악회’ 개최",
+      "link": "https://www.kyeonggi.com/article/20261121580015",
+      "originallink": "https://www.kyeonggi.com/article/20261121580015",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.21 10:05",
+      "pub_timestamp": "2026-11-21T10:05:00+09:00",
+      "bullets": [
+        "- 장안대 평생교육원, 화성시민 위한 ‘행복 나눔 음악회’ 개최",
+        "- 구글 검색에서 경기일보 기사를우선적으로 보여줍니다. 장안대 평생교육원 색소폰 연주단원들이 20일 화성시 장안대 컨벤션홀에서 지역 주민을 위해 열린 ‘시민과 함께하는 행복 나눔 음악...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/21/.cache/512/20261121580016.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "'화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
       "link": "https://www.gukjenews.com/news/articleView.html?idxno=3758741",
@@ -121,8 +343,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 20:32",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 20:32",
       "pub_timestamp": "2026-11-20T20:32:00+09:00",
       "bullets": [
         "- '화성 지킴이' 우재혁 씨, 화성시장 금품 수수 의혹 폭로 기자회견…\"선...",
@@ -145,8 +367,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 17:58",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 17:58",
       "pub_timestamp": "2026-11-20T17:58:00+09:00",
       "bullets": [
         "- [바뀌는 우리동네] 화성시, 시민 곁에 찾아온 직거래장터가 신선하네",
@@ -169,8 +391,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 15:28",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 15:28",
       "pub_timestamp": "2026-11-20T15:28:00+09:00",
       "bullets": [
         "- [단독] \"선금 6000만 원 떼이고 4년 동안 방치\"… 화성시체육회, ‘무책...",
@@ -193,16 +415,24 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 14:41",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 14:41",
       "pub_timestamp": "2026-11-20T14:41:00+09:00",
       "bullets": [
         "- [솔향강릉기 전국리틀야구대회]화성시·용인바른·중랑구·광주시 4강 진...",
         "- 전국 야구 꿈나무들의 대축제 ‘2026 제12회 솔향강릉기 전국리틀야구대회’ 4강 대진이 완성됐다. 대회 8일째인 20일에는 8강전이 펼쳐졌다. 화성시는 최준혁의 결승 2타점 적시...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[솔향강릉기 전국리틀야구대회]용인바른·중랑구 결승진출",
+          "link": "https://www.kwnews.co.kr/article/20261121500116",
+          "media": "KWNEWS",
+          "time_label": "스크랩 11.21 16:29",
+          "pub_timestamp": "2026-11-21T16:29:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://kbhvfnyo14945.edge.naverncp.com/data2/content/image/2026/11/20/.cache/512/20261120500267.jpg",
       "telegram_sent": false
     },
@@ -217,8 +447,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 11:38",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 11:38",
       "pub_timestamp": "2026-11-20T11:38:00+09:00",
       "bullets": [
         "- 수능 끝난 경기남부, 청소년 보호·재충전 분주…용인·화성 맞춤형 대...",
@@ -241,8 +471,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 08:46",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 08:46",
       "pub_timestamp": "2026-11-20T08:46:00+09:00",
       "bullets": [
         "- 화성시자원봉사센터, '마음 잇는 김장, 온기 나눔'으로 이웃에 따뜻한 ...",
@@ -265,8 +495,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 08:44",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 08:44",
       "pub_timestamp": "2026-11-20T08:44:00+09:00",
       "bullets": [
         "- 화성시 남양읍 어르신 35명 장수사진 촬영 지원",
@@ -297,8 +527,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.20 08:36",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 08:36",
       "pub_timestamp": "2026-11-20T08:36:00+09:00",
       "bullets": [
         "- 전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해...",
@@ -329,8 +559,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 07:28",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 07:28",
       "pub_timestamp": "2026-11-20T07:28:00+09:00",
       "bullets": [
         "- 화성시, 청소년 유해환경 점검",
@@ -389,8 +619,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "YESTERDAY",
-      "time_label": "어제 04:01",
+      "date_group": "2026-11-20",
+      "time_label": "11.20 04:01",
       "pub_timestamp": "2026-11-20T04:01:00+09:00",
       "bullets": [
         "- [人사이트]박승현 화성시 AI실장, 제조·돌봄을 함께 연결하는 'AI 도시...",
@@ -2458,6 +2688,20 @@
           "media": "문화일보",
           "time_label": "스크랩 11.20 11:25",
           "pub_timestamp": "2026-11-20T11:25:00+09:00"
+        },
+        {
+          "title": "자족도시 평택, 합계출산율 1.02명 기록",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03932726645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "media": "이데일리",
+          "time_label": "11.20 17:13",
+          "pub_timestamp": "2026-11-20T17:13:00+09:00"
+        },
+        {
+          "title": "[20일 평택시] 높은 출산율의 비결은…‘도시 자족성’ 등",
+          "link": "https://www.asiatime.co.kr/article/20261120500096",
+          "media": "ASIATIME",
+          "time_label": "11.20 15:24",
+          "pub_timestamp": "2026-11-20T15:24:00+09:00"
         }
       ],
       "is_major": true,
@@ -5619,6 +5863,13 @@
           "media": "AMNEWS",
           "time_label": "오늘 14:56",
           "pub_timestamp": "2026-11-19T14:56:00+09:00"
+        },
+        {
+          "title": "농협 '사랑의 집고치기'…화성 노후 농가 22가구 주거환경 개선",
+          "link": "https://www.youngnong.co.kr/news/articleView.html?idxno=72094",
+          "media": "YOUNGNONG",
+          "time_label": "스크랩 11.21 20:44",
+          "pub_timestamp": "2026-11-21T20:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -6275,6 +6526,13 @@
           "media": "뉴스1",
           "time_label": "스크랩 11.20 17:49",
           "pub_timestamp": "2026-11-20T17:49:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 피지컬 AI 인재 양성 지원…로봇 생산 현장 개방",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885758",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.21 17:30",
+          "pub_timestamp": "2026-11-21T17:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -11504,6 +11762,27 @@
           "media": "NEWDAILY",
           "time_label": "오늘 12:28",
           "pub_timestamp": "2026-11-19T12:28:00+09:00"
+        },
+        {
+          "title": "이상일 용인특례시장, 경기남부 철도 3개 노선 국가계획 반영 촉구",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885814",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.21 19:58",
+          "pub_timestamp": "2026-11-21T19:58:00+09:00"
+        },
+        {
+          "title": "이상일 용인시장의 ‘반도체 철도망 구상’ 총력전",
+          "link": "https://news-s.kr/view.html?id=L2611211732483e62",
+          "media": "NEWS-S",
+          "time_label": "스크랩 11.21 17:42",
+          "pub_timestamp": "2026-11-21T17:42:00+09:00"
+        },
+        {
+          "title": "이상일 용인시장, 유의동 국토교통위원장에 용인 철도구상 SOS",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=565626",
+          "media": "JOONGANGENEWS",
+          "time_label": "스크랩 11.21 17:18",
+          "pub_timestamp": "2026-11-21T17:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -21328,6 +21607,13 @@
           "media": "NEWSKR",
           "time_label": "스크랩 11.19 14:28",
           "pub_timestamp": "2026-11-19T14:28:00+09:00"
+        },
+        {
+          "title": "강남3구 이어 용산도 하락…실수요 몰린 서울 외곽·경기 남부는 강세",
+          "link": "https://www.mt.co.kr/estate/2026/11/22/2026112010151382687",
+          "media": "머니투데이",
+          "time_label": "스크랩 11.22 05:30",
+          "pub_timestamp": "2026-11-22T05:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -24816,6 +25102,41 @@
           "media": "NEWSTNT",
           "time_label": "오늘 14:32",
           "pub_timestamp": "2026-11-20T14:32:00+09:00"
+        },
+        {
+          "title": "정당계약 이후 잔여 물량 소진… '아크메르 동탄', 오는 22일 선착순 계...",
+          "link": "https://www.apnews.kr/news/articleView.html?idxno=3053359",
+          "media": "APNEWS",
+          "time_label": "스크랩 11.21 11:50",
+          "pub_timestamp": "2026-11-21T11:50:00+09:00"
+        },
+        {
+          "title": "청약 규제 확대 속 선착순 동·호 지정 계약 관심… '아크메르 동탄' 22...",
+          "link": "https://edu.donga.com/news/articleView.html?idxno=113986",
+          "media": "동아일보",
+          "time_label": "스크랩 11.21 10:00",
+          "pub_timestamp": "2026-11-21T10:00:00+09:00"
+        },
+        {
+          "title": "통장·가점 없이 동·호 고른다… ‘아크메르 동탄’, 22일 첫 선착순 동...",
+          "link": "https://view.asiae.co.kr/article/2026112015521278677",
+          "media": "아시아경제",
+          "time_label": "스크랩 11.21 10:00",
+          "pub_timestamp": "2026-11-21T10:00:00+09:00"
+        },
+        {
+          "title": "통장·가점 없이 고른다… '아크메르 동탄' 22일(일) 첫 선착순 동·호 ...",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=344476",
+          "media": "IKLD",
+          "time_label": "스크랩 11.21 09:32",
+          "pub_timestamp": "2026-11-21T09:32:00+09:00"
+        },
+        {
+          "title": "\"청약 없이 고르고 실거주 의무도 예외\" ‘아크메르 동탄’ 1808가구 선...",
+          "link": "https://www.fnnews.com/news/202611201535596123",
+          "media": "파이낸셜뉴스",
+          "time_label": "스크랩 11.21 09:02",
+          "pub_timestamp": "2026-11-21T09:02:00+09:00"
         }
       ],
       "is_major": true,
