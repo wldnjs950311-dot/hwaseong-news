@@ -1,26 +1,30 @@
 {
-  "updated_at": "2026.11.22. 08:00",
-  "scrap_period": "전일(11.21) 08:00 ~ 금일(11.22) 08:00",
-  "yesterday_label": "11.21",
+  "updated_at": "2026.11.23. 08:00",
+  "scrap_period": "전일(11.22) 08:00 ~ 금일(11.23) 08:00",
+  "yesterday_label": "11.22",
   "macro_pulse": {
-    "report_date": "2026-11-22",
-    "article_count": 1,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "report_date": "2026-11-23",
+    "article_count": 5,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성시, 영재교육원 제1기 수료생 115명 배...] 총 23개 언론사 집중 보도 - 화성시, 영재교육원 제1기 수료생 115명 배출"
+      "- [화성시의원 자질 비판 게시글 삭제 논란] 기호일보 보도 - 화성시의원 자질 비판 게시글 삭제 논란",
+      "- [몸집 커진 화성, 택시잡기 별따기…\"시골보다...] мқёмІңмқјліҙ 보도 - 몸집 커진 화성, 택시잡기 별따기…\"시골보다 못하다\"",
+      "- [화성특례시, 시설업무 감사사례 40건 공유…반...] https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256423666109 보도 - 화성특례시, 시설업무 감사사례 40건 공유…반복 지적 예방 교육",
+      "- [배정수 화성시인재육성재단 대표이사 후보자 결국...] 아시아투데이 보도 - 배정수 화성시인재육성재단 대표이사 후보자 결국 사퇴서 제출"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성시, 영재교육원 제1기 수료생 115명 배...] 총 23개 언론사 집중 보도 - 화성시, 영재교육원 제1기 수료생 115명 배출"
+      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [화성시의원 자질 비판 게시글 삭제 논란] 기호일보 보도 - 화성시의원 자질 비판 게시글 삭제 논란",
+      "- [몸집 커진 화성, 택시잡기 별따기…\"시골보다...] мқёмІңмқјліҙ 보도 - 몸집 커진 화성, 택시잡기 별따기…\"시골보다 못하다\""
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 0,
-        "ratio": 0
+        "count": 2,
+        "ratio": 40
       },
       {
         "id": "TRANSIT_INFRA",
@@ -48,48 +52,184 @@
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 3,
-        "ratio": 100
+        "ratio": 60
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
-      "keyword": "영재교육원 제1기",
-      "count": 23,
+      "keyword": "화성시의원 자질",
+      "count": 1,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "화성시, 영재교육원 제1기 수료생 115명 배출"
+      "dept": "기획조정실 의회법무과",
+      "summary": "화성시의원 자질 비판 게시글 삭제 논란"
     },
     {
       "rank": 2,
-      "keyword": "화성특례시의회 향남",
-      "count": 3,
-      "category": "POLICY",
-      "dept": "기획조정실 의회법무과",
-      "summary": "화성특례시의회, 향남 오음공원 테니스장 8면 개장 축하"
-    },
-    {
-      "rank": 3,
-      "keyword": "행복 나눔 음악회",
+      "keyword": "시골보다 못하다",
       "count": 1,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
-      "summary": "장안대 평생교육원, 화성시민 위한 ‘행복 나눔 음악회’ 개최"
+      "summary": "몸집 커진 화성, 택시잡기 별따기…\"시골보다 못하다\""
+    },
+    {
+      "rank": 3,
+      "keyword": "시설업무 감사사례",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성특례시, 시설업무 감사사례 40건 공유…반복 지적 예방 교육"
+    },
+    {
+      "rank": 4,
+      "keyword": "배정수 화성시인재육성재단",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "교육체육국 교육지원과",
+      "summary": "배정수 화성시인재육성재단 대표이사 후보자 결국 사퇴서 제출"
+    },
+    {
+      "rank": 5,
+      "keyword": "궁평리 마을",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "화성시 소관부서 확인중",
+      "summary": "올해 1등 어촌체험휴양마을, 경기 화성 ‘궁평리 마을’ 선정"
     }
   ],
   "stats": {
-    "total": 416,
+    "total": 421,
     "major_count": 221,
-    "live_count": 195,
+    "live_count": 200,
     "today_count": 0,
-    "scrap_count": 3,
-    "yesterday_count": 0,
-    "policy": 246,
+    "scrap_count": 5,
+    "yesterday_count": 1,
+    "policy": 251,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성시의원 자질 비판 게시글 삭제 논란",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041713",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041713",
+      "media": "기호일보",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 17:46",
+      "pub_timestamp": "2026-11-22T17:46:00+09:00",
+      "bullets": [
+        "- 화성시의원 자질 비판 게시글 삭제 논란",
+        "- 더불어민주당 경기도당 홈페이지 게시판에 글이 삭제 됐다는 논란이 불거졌다. <독자제공> 더불어민주당 경기도당이 게시판에 게재된 화성시의원 자질론을 문제삼는 글을 삭제해 논란이다. ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3041713_586520_5612.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "몸집 커진 화성, 택시잡기 별따기…\"시골보다 못하다\"",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337446",
+      "originallink": "https://www.incheonilbo.com/news/articleView.html?idxno=1337446",
+      "media": "мқёмІңмқјліҙ",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 16:16",
+      "pub_timestamp": "2026-11-22T16:16:00+09:00",
+      "bullets": [
+        "- 몸집 커진 화성, 택시잡기 별따기…\"시골보다 못하다\"",
+        "- нҷ”м„ұВ·мҳӨмӮ° мҙқлҹү 92лҢҖ мҰқк°Җ л¶Ҳкө¬ нҷ”м„ұ, мқёкө¬ мҰқк°Җ л№„н•ҙ кіөкёү л¶ҖмЎұ м§ҖлӮңн•ҙ л©ҙн—...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.incheonilbo.com/news/thumbnail/202611/1337446_680455_121_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시, 시설업무 감사사례 40건 공유…반복 지적 예방 교육",
+      "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256423666109",
+      "originallink": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256423666109",
+      "media": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160256423666109",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 15:02",
+      "pub_timestamp": "2026-11-22T15:02:00+09:00",
+      "bullets": [
+        "- 화성특례시, 시설업무 감사사례 40건 공유…반복 지적 예방 교육",
+        "- 화성특례시는 지난 20일 시청 대회의실에서 시 소속 직원과 공공기관 시설업무 담당자 등 60명을 대상으로 ‘2026년 시설업무 감사사례 교육’을 실시했다. 교육은 강기철 화성시 감...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://www.siminilbo.co.kr/news/data/20261122/p1160256423666109_803_thum.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "배정수 화성시인재육성재단 대표이사 후보자 결국 사퇴서 제출",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008310",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008310",
+      "media": "아시아투데이",
+      "category": "POLICY",
+      "department": "교육체육국 교육지원과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 13:44",
+      "pub_timestamp": "2026-11-22T13:44:00+09:00",
+      "bullets": [
+        "- 배정수 화성시인재육성재단 대표이사 후보자 결국 사퇴서 제출",
+        "- 심사표 재작성·후보자 순위 변경 등 선임 과정 논란 재단, 이사회서 사퇴서 처리 및 후속 인선 절차 논의 예정 화성시인재뮥성재단 0 화성시 인재육성재단 로그 배정수 화성시인재육성재...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/11m/22d/2026112201001540400083101.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "올해 1등 어촌체험휴양마을, 경기 화성 ‘궁평리 마을’ 선정",
+      "link": "https://www.dailian.co.kr/news/view/1718079/?sc=Naver",
+      "originallink": "https://www.dailian.co.kr/news/view/1718079/?sc=Naver",
+      "media": "데일리안",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.22 11:01",
+      "pub_timestamp": "2026-11-22T11:01:00+09:00",
+      "bullets": [
+        "- 올해 1등 어촌체험휴양마을, 경기 화성 ‘궁평리 마을’ 선정",
+        "- 장정욱 기자 (cju@dailian.co.kr) 해수부, 2026년 우수 마을 12곳 발표궁평리 마을 전 부문 1등급 획득 해수부, 2026년 우수 마을 12곳 발표 황금해안길 백...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdnimage.dailian.co.kr/news/202611/news_1795310035134_1718079_m_1.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성시, 영재교육원 제1기 수료생 115명 배출",
       "link": "https://www.sportsseoul.com/news/read/1651343?ref=naver",
@@ -101,8 +241,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.22 07:36",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:36",
       "pub_timestamp": "2026-11-22T07:36:00+09:00",
       "bullets": [
         "- 화성시, 영재교육원 제1기 수료생 115명 배출",
@@ -263,6 +403,104 @@
           "media": "이뉴스투데이",
           "time_label": "11.19 13:40",
           "pub_timestamp": "2026-11-19T13:40:00+09:00"
+        },
+        {
+          "title": "정명근 화성특례시장 \"영재교육 인문학 분야까지 확대\"",
+          "link": "http://www.paxetv.com/news/articleView.html?idxno=287540",
+          "media": "PAXETV",
+          "time_label": "스크랩 11.22 17:36",
+          "pub_timestamp": "2026-11-22T17:36:00+09:00"
+        },
+        {
+          "title": "화성특례시, 영재교육원 첫 수료생 115명 배출",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885914",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.22 17:22",
+          "pub_timestamp": "2026-11-22T17:22:00+09:00"
+        },
+        {
+          "title": "화성특례시, 영재교육 첫 결실 115명 배출…미래인재 육성 판 키운다",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008306",
+          "media": "ASIATODAY",
+          "time_label": "스크랩 11.22 15:16",
+          "pub_timestamp": "2026-11-22T15:16:00+09:00"
+        },
+        {
+          "title": "[화성소식]영재교육원, 제1기 수료식…115명 배출했다 등",
+          "link": "https://www.newsis.com/view/NISX20261122_0003878189",
+          "media": "뉴시스",
+          "time_label": "스크랩 11.22 15:13",
+          "pub_timestamp": "2026-11-22T15:13:00+09:00"
+        },
+        {
+          "title": "화성시 영재교육원 1기 수료생 115명 배출…내년 융합과학 확대",
+          "link": "https://news-s.kr/view.html?id=L261122131336c17a",
+          "media": "NEWS-S",
+          "time_label": "스크랩 11.22 13:24",
+          "pub_timestamp": "2026-11-22T13:24:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 장애인 체육 활성화 지원…내년 전국장애인체전 안전...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33288",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.22 13:10",
+          "pub_timestamp": "2026-11-22T13:10:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 영재교육원 첫 결실…115명 수료·기업 연계 교육 추진",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33287",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.22 13:06",
+          "pub_timestamp": "2026-11-22T13:06:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"아이들 꿈과 가능성 지원할 것\"...미래형 영재교육 강...",
+          "link": "https://www.ajunews.com/view/20261122121405667",
+          "media": "아주경제",
+          "time_label": "스크랩 11.22 12:28",
+          "pub_timestamp": "2026-11-22T12:28:00+09:00"
+        },
+        {
+          "title": "화성시, 2026학년도 영재교육원 수료식 개최",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041641",
+          "media": "기호일보",
+          "time_label": "스크랩 11.22 11:50",
+          "pub_timestamp": "2026-11-22T11:50:00+09:00"
+        },
+        {
+          "title": "화성특례시 영재교육원, 첫 수료식 개최… 제1기 수료생 115명 배출",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2495496",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.22 11:00",
+          "pub_timestamp": "2026-11-22T11:00:00+09:00"
+        },
+        {
+          "title": "화성 영재교육원 첫 결실..115명 제1기 수료생 배출",
+          "link": "https://www.viva100.com/article/20261122500266",
+          "media": "VIVA100",
+          "time_label": "스크랩 11.22 10:50",
+          "pub_timestamp": "2026-11-22T10:50:00+09:00"
+        },
+        {
+          "title": "화성시 영재교육원 첫 수료생 115명 배출…미래 인재 육성 본격화",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337414",
+          "media": "인천일보",
+          "time_label": "스크랩 11.22 09:50",
+          "pub_timestamp": "2026-11-22T09:50:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장 \"지역 기업과 손잡고 미래 인재 키운다\"…영재교육 첫...",
+          "link": "https://www.tournews21.com/news/articleView.html?idxno=149065",
+          "media": "투어뉴스21",
+          "time_label": "스크랩 11.22 08:52",
+          "pub_timestamp": "2026-11-22T08:52:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, \"기업의 미래산업 현장과 연결하는 영재교육 확대할 ...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026112208363059984c878f8fa1_30",
+          "media": "비욘드포스트",
+          "time_label": "스크랩 11.22 08:50",
+          "pub_timestamp": "2026-11-22T08:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -280,8 +518,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.21 20:08",
+      "date_group": "2026-11-21",
+      "time_label": "11.21 20:08",
       "pub_timestamp": "2026-11-21T20:08:00+09:00",
       "bullets": [
         "- 화성특례시의회, 향남 오음공원 테니스장 8면 개장 축하",
@@ -302,6 +540,27 @@
           "media": "HANKOOKI",
           "time_label": "11.19 18:16",
           "pub_timestamp": "2026-11-19T18:16:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 오음공원 시립테니스장 개장 축하…전국 생활체육 테니...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2495498",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.22 16:00",
+          "pub_timestamp": "2026-11-22T16:00:00+09:00"
+        },
+        {
+          "title": "화성특례시의회, 오음공원 시립테니스장 개장 참석",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160297914279139",
+          "media": "시민일보",
+          "time_label": "스크랩 11.22 13:12",
+          "pub_timestamp": "2026-11-22T13:12:00+09:00"
+        },
+        {
+          "title": "화성시의회, 오음공원 시립테니스장 개장 기념 전국 테니스대회 참석",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021664",
+          "media": "매일일보",
+          "time_label": "스크랩 11.22 11:20",
+          "pub_timestamp": "2026-11-22T11:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -319,8 +578,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.21 10:05",
+      "date_group": "2026-11-21",
+      "time_label": "11.21 10:05",
       "pub_timestamp": "2026-11-21T10:05:00+09:00",
       "bullets": [
         "- 장안대 평생교육원, 화성시민 위한 ‘행복 나눔 음악회’ 개최",
@@ -430,6 +689,13 @@
           "media": "KWNEWS",
           "time_label": "스크랩 11.21 16:29",
           "pub_timestamp": "2026-11-21T16:29:00+09:00"
+        },
+        {
+          "title": "[솔향강릉기 전국리틀야구대회]용인바른, 중랑구 꺾고 우승",
+          "link": "https://www.kwnews.co.kr/article/20261122501208",
+          "media": "KWNEWS",
+          "time_label": "스크랩 11.22 17:13",
+          "pub_timestamp": "2026-11-22T17:13:00+09:00"
         }
       ],
       "is_major": true,
@@ -602,6 +868,20 @@
           "media": "NEWSCLAIM",
           "time_label": "오늘 08:44",
           "pub_timestamp": "2026-11-20T08:44:00+09:00"
+        },
+        {
+          "title": "화성특례시, 향남 업소 돌며 청소년 보호수칙 안내",
+          "link": "http://www.newstown.co.kr/news/articleView.html?idxno=722876",
+          "media": "뉴스타운",
+          "time_label": "스크랩 11.22 20:57",
+          "pub_timestamp": "2026-11-22T20:57:00+09:00"
+        },
+        {
+          "title": "화성시, 수능 이후 향남 유해업소 50곳 점검… 청소년 주류·담배 판매 ...",
+          "link": "https://www.betanews.net/article/view/beta202611220029",
+          "media": "베타뉴스",
+          "time_label": "스크랩 11.22 15:40",
+          "pub_timestamp": "2026-11-22T15:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -2702,6 +2982,20 @@
           "media": "ASIATIME",
           "time_label": "11.20 15:24",
           "pub_timestamp": "2026-11-20T15:24:00+09:00"
+        },
+        {
+          "title": "평택시, 높은 출산율 비결은 '도시 자족성'…경기연구원 분석",
+          "link": "https://www.newspim.com/news/view/20261122000022",
+          "media": "뉴스핌",
+          "time_label": "스크랩 11.22 17:09",
+          "pub_timestamp": "2026-11-22T17:09:00+09:00"
+        },
+        {
+          "title": "이상일 용인특례시장 \"반도체 경쟁력 위해 철도망 선제 확충해야\"",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=68189",
+          "media": "NEWSROAD",
+          "time_label": "스크랩 11.22 09:50",
+          "pub_timestamp": "2026-11-22T09:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -3517,6 +3811,20 @@
           "media": "SENTV",
           "time_label": "스크랩 11.19 17:22",
           "pub_timestamp": "2026-11-19T17:22:00+09:00"
+        },
+        {
+          "title": "새만금 또 제동인데… ‘조류충돌 검증’ 뒷전인 경기국제공항",
+          "link": "https://www.kyeongin.com/article/1775206",
+          "media": "경인일보",
+          "time_label": "스크랩 11.22 19:36",
+          "pub_timestamp": "2026-11-22T19:36:00+09:00"
+        },
+        {
+          "title": "반도체 품은 경기도내 지자체들 '곳간 넉넉'",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041721",
+          "media": "기호일보",
+          "time_label": "스크랩 11.22 17:54",
+          "pub_timestamp": "2026-11-22T17:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -4339,6 +4647,13 @@
           "media": "이뉴스투데이",
           "time_label": "스크랩 11.19 20:38",
           "pub_timestamp": "2026-11-19T20:38:00+09:00"
+        },
+        {
+          "title": "동탄 아파트 거래 772건 줄 때 병점은 594건 늘었다 [규제가 바꾼 거래지...",
+          "link": "https://www.etoday.co.kr/news/view/2646874",
+          "media": "ETODAY",
+          "time_label": "스크랩 11.23 06:02",
+          "pub_timestamp": "2026-11-23T06:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -6533,6 +6848,13 @@
           "media": "HANSBIZ",
           "time_label": "스크랩 11.21 17:30",
           "pub_timestamp": "2026-11-21T17:30:00+09:00"
+        },
+        {
+          "title": "국방 AI 인재 50명, 무인지상차량 모의 임무 수행 경쟁…에어타이거 우...",
+          "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086077",
+          "media": "SHINAILBO",
+          "time_label": "스크랩 11.22 08:54",
+          "pub_timestamp": "2026-11-22T08:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -7817,6 +8139,13 @@
           "media": "NSPNA",
           "time_label": "스크랩 11.19 19:30",
           "pub_timestamp": "2026-11-19T19:30:00+09:00"
+        },
+        {
+          "title": "“황금알 낳는 경마공원 잡아라”…이천 ‘2230억 승부수’에 14개 시·...",
+          "link": "https://www.segye.com/newsView/20261122508959?OutUrl=naver",
+          "media": "세계일보",
+          "time_label": "스크랩 11.22 17:11",
+          "pub_timestamp": "2026-11-22T17:11:00+09:00"
         }
       ],
       "is_major": true,
@@ -8889,6 +9218,13 @@
           "media": "BIZWNEWS",
           "time_label": "오늘 10:38",
           "pub_timestamp": "2026-11-18T10:38:00+09:00"
+        },
+        {
+          "title": "HLB그룹, 향남에 생산 심장 구축…HLB제약 '신공장 승부수'[문대현의 메...",
+          "link": "https://www.news1.kr/bio/pharmaceutical-bio/6361091",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.23 06:00",
+          "pub_timestamp": "2026-11-23T06:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -10206,6 +10542,13 @@
           "media": "이뉴스투데이",
           "time_label": "오늘 13:20",
           "pub_timestamp": "2026-11-11T13:20:00+09:00"
+        },
+        {
+          "title": "필라멘트복지법인, 화성 취약계층에 김장김치 100박스 기부",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021641",
+          "media": "매일일보",
+          "time_label": "스크랩 11.22 11:18",
+          "pub_timestamp": "2026-11-22T11:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -11783,6 +12126,20 @@
           "media": "JOONGANGENEWS",
           "time_label": "스크랩 11.21 17:18",
           "pub_timestamp": "2026-11-21T17:18:00+09:00"
+        },
+        {
+          "title": "이상일 용인특례시장, 제5차 국가철도망 구축계획에 철도사업 반영 요청",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021644",
+          "media": "매일일보",
+          "time_label": "스크랩 11.22 11:20",
+          "pub_timestamp": "2026-11-22T11:20:00+09:00"
+        },
+        {
+          "title": "이상일“경기남부광역철도 제5차 국가철도망 계획 반영 힘써달라”",
+          "link": "https://www.sportsseoul.com/news/read/1651350?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "스크랩 11.22 08:16",
+          "pub_timestamp": "2026-11-22T08:16:00+09:00"
         }
       ],
       "is_major": true,
@@ -13381,6 +13738,13 @@
           "media": "SKBROADBAND",
           "time_label": "스크랩 11.17 17:24",
           "pub_timestamp": "2026-11-17T17:24:00+09:00"
+        },
+        {
+          "title": "경기 기초지자체 내년 살림 반도체·ai '명암'…평택 65% 늘고 양평 8% 줄...",
+          "link": "https://news.tf.co.kr/read/national/2391828.htm",
+          "media": "TF",
+          "time_label": "스크랩 11.22 10:54",
+          "pub_timestamp": "2026-11-22T10:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -13883,6 +14247,13 @@
           "media": "뉴시스",
           "time_label": "오늘 13:55",
           "pub_timestamp": "2026-11-20T13:55:00+09:00"
+        },
+        {
+          "title": "경기 수원축산농협, 김치 담가 취약계층 가정 전달",
+          "link": "https://www.nongmin.com/article/20261120500605",
+          "media": "NONGMIN",
+          "time_label": "스크랩 11.23 05:02",
+          "pub_timestamp": "2026-11-23T05:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -18028,6 +18399,13 @@
           "media": "연합뉴스TV",
           "time_label": "스크랩 11.20 05:21",
           "pub_timestamp": "2026-11-20T05:21:00+09:00"
+        },
+        {
+          "title": "대학마다 AI 부정행위 자구책…학생들 차분히 응시",
+          "link": "http://www.yonhapnewstv.co.kr/news/MYH20261122192525iJe",
+          "media": "연합뉴스TV",
+          "time_label": "스크랩 11.22 19:26",
+          "pub_timestamp": "2026-11-22T19:26:00+09:00"
         }
       ],
       "is_major": true,
@@ -21614,6 +21992,27 @@
           "media": "머니투데이",
           "time_label": "스크랩 11.22 05:30",
           "pub_timestamp": "2026-11-22T05:30:00+09:00"
+        },
+        {
+          "title": "내년 공시가 반영률 동결…비강남·경기 남부는 상승 압력",
+          "link": "https://www.kbmaeil.com/article/20261123500014",
+          "media": "KBMAEIL",
+          "time_label": "스크랩 11.23 06:32",
+          "pub_timestamp": "2026-11-23T06:32:00+09:00"
+        },
+        {
+          "title": "내년 공시가 현실화율 동결…비강남·경기남부 상승률 비상",
+          "link": "https://www.yna.co.kr/view/AKR20261122049700003?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "스크랩 11.23 05:55",
+          "pub_timestamp": "2026-11-23T05:55:00+09:00"
+        },
+        {
+          "title": "강남3구·마용성 식는데 성북·중랑은 상승… 엇갈린 아파트값이 말하는...",
+          "link": "https://www.thescoop.co.kr/news/articleView.html?idxno=312378",
+          "media": "THESCOOP",
+          "time_label": "스크랩 11.22 13:37",
+          "pub_timestamp": "2026-11-22T13:37:00+09:00"
         }
       ],
       "is_major": true,
@@ -25137,6 +25536,34 @@
           "media": "파이낸셜뉴스",
           "time_label": "스크랩 11.21 09:02",
           "pub_timestamp": "2026-11-21T09:02:00+09:00"
+        },
+        {
+          "title": "청약 관심 이어졌다…아크메르 동탄 선착순 계약 현장에 방문객 발길 지...",
+          "link": "https://www.ppss.kr/news/articleView.html?idxno=322275",
+          "media": "PPSS",
+          "time_label": "스크랩 11.22 23:42",
+          "pub_timestamp": "2026-11-22T23:42:00+09:00"
+        },
+        {
+          "title": "'아크메르 동탄', 선착순 동·호 지정 계약…현장 '북적'",
+          "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005966579",
+          "media": "MBN",
+          "time_label": "스크랩 11.22 18:16",
+          "pub_timestamp": "2026-11-22T18:16:00+09:00"
+        },
+        {
+          "title": "금일 선착순 계약 첫날 맞은 '아크메르 동탄', 현장 발길 이어져",
+          "link": "https://www.apnews.kr/news/articleView.html?idxno=3053401",
+          "media": "APNEWS",
+          "time_label": "스크랩 11.22 17:26",
+          "pub_timestamp": "2026-11-22T17:26:00+09:00"
+        },
+        {
+          "title": "자금 문턱 낮추자 발길 몰렸다… '아크메르 동탄' 첫 선착순 동·호 지정...",
+          "link": "https://www.cwn.kr/news/articleView.html?idxno=62343",
+          "media": "CWN",
+          "time_label": "스크랩 11.22 16:46",
+          "pub_timestamp": "2026-11-22T16:46:00+09:00"
         }
       ],
       "is_major": true,
@@ -29355,6 +29782,27 @@
           "media": "JOONGDO",
           "time_label": "오늘 08:56",
           "pub_timestamp": "2026-11-03T08:56:00+09:00"
+        },
+        {
+          "title": "전국 장애인합창단 화합의 무대 '제34회 세계 장애인의 날 기념 전국 장...",
+          "link": "https://www.welfarenews.net/news/articleView.html?idxno=213022",
+          "media": "WELFARENEWS",
+          "time_label": "스크랩 11.23 07:42",
+          "pub_timestamp": "2026-11-23T07:42:00+09:00"
+        },
+        {
+          "title": "제34회 세계 장애인의 날 기념…16개 단체 경연, 루체온콰이어 대상",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3759312",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.22 11:46",
+          "pub_timestamp": "2026-11-22T11:46:00+09:00"
+        },
+        {
+          "title": "서울 루체온콰이어, 제34회 전국장애인합창대회 대상 영예…전국 16개 팀...",
+          "link": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435771",
+          "media": "DAILYSPORTSHANKOOK",
+          "time_label": "11.20 23:12",
+          "pub_timestamp": "2026-11-20T23:12:00+09:00"
         }
       ],
       "is_major": true,
