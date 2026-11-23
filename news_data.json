@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026.11.23. 12:00",
+  "updated_at": "2026.11.23. 16:00",
   "scrap_period": "전일(11.22) 08:00 ~ 금일(11.23) 08:00",
   "yesterday_label": "11.22",
   "macro_pulse": {
     "report_date": "2026-11-23",
-    "article_count": 7,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(3건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 10,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「산업·농정」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [한화 임직원 봉사단, 화성 포도농가 찾아 일손...] 총 29개 언론사 집중 보도 - 한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀",
-      "- [“전기차 화재 참사 막는다”…터널 화재, 소화...] 헤럴드경제 보도 - “전기차 화재 참사 막는다”…터널 화재, 소화성능 129% 높였다",
-      "- [효행구 '지역 건축사 무료 건축 상담' 지원...] 아시아타임즈 보도 - [23일 화성시] 효행구 '지역 건축사 무료 건축 상담' 지원 등",
-      "- [정순영 화성특례시 의회운영위원장, \"선거공약...] NEWSWHOPLUS 보도 - [인터뷰]정순영 화성특례시 의회운영위원장, \"선거공약 100% 이행이 목표..."
+      "- [한화 임직원 봉사단, 화성 포도농가 찾아 일손...] 총 45개 언론사 집중 보도 - 한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀",
+      "- [효행구 '지역 건축사 무료 건축 상담' 지원...] 총 2개 언론사 집중 보도 - [23일 화성시] 효행구 '지역 건축사 무료 건축 상담' 지원 등",
+      "- [세종디엑스, 맞춤 복지상담 AI ‘복지봄’ 출...] 총 2개 언론사 집중 보도 - 세종디엑스, 맞춤 복지상담 AI ‘복지봄’ 출시…화성시·양평군 시범사...",
+      "- [화성시아동보호전문기관, 아동학대예방의 날 기념...] WELFARENEWS 보도 - 화성시아동보호전문기관, 아동학대예방의 날 기념 '아이들이 꿈꾸는 세..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(3건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [한화 임직원 봉사단, 화성 포도농가 찾아 일손...] 총 29개 언론사 집중 보도 - 한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀",
-      "- [“전기차 화재 참사 막는다”…터널 화재, 소화...] 헤럴드경제 보도 - “전기차 화재 참사 막는다”…터널 화재, 소화성능 129% 높였다"
+      "화성특례시 출범과 민선8기 전략을 선도하는 「복지·안전」(5건) 및 「산업·농정」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [한화 임직원 봉사단, 화성 포도농가 찾아 일손...] 총 45개 언론사 집중 보도 - 한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀",
+      "- [효행구 '지역 건축사 무료 건축 상담' 지원...] 총 2개 언론사 집중 보도 - [23일 화성시] 효행구 '지역 건축사 무료 건축 상담' 지원 등"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 4,
+        "count": 5,
         "ratio": 33
       },
       {
@@ -44,15 +44,15 @@
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 3,
-        "ratio": 25
+        "count": 5,
+        "ratio": 33
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
         "count": 5,
-        "ratio": 42
+        "ratio": 33
       }
     ]
   },
@@ -60,56 +60,128 @@
     {
       "rank": 1,
       "keyword": "한화 임직원",
-      "count": 29,
+      "count": 45,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
       "summary": "한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀"
     },
     {
       "rank": 2,
-      "keyword": "전기차 화재",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "“전기차 화재 참사 막는다”…터널 화재, 소화성능 129% 높였다"
-    },
-    {
-      "rank": 3,
       "keyword": "지역 건축사 무료 건축 상담",
-      "count": 1,
+      "count": 2,
       "category": "POLICY",
       "dept": "기획조정실 의회법무과",
       "summary": "[23일 화성시] 효행구 '지역 건축사 무료 건축 상담' 지원 등"
     },
     {
-      "rank": 4,
-      "keyword": "인터뷰 정순영",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "기획조정실 의회법무과",
-      "summary": "[인터뷰]정순영 화성특례시 의회운영위원장, \"선거공약 100% 이행이 목표..."
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "keyword": "복지봄",
-      "count": 1,
+      "count": 2,
       "category": "POLICY",
       "dept": "기업투자실 첨단산업과",
       "summary": "세종디엑스, 맞춤 복지상담 AI ‘복지봄’ 출시…화성시·양평군 시범사..."
+    },
+    {
+      "rank": 4,
+      "keyword": "화성시아동보호전문기관 아동학대예방의",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성시아동보호전문기관, 아동학대예방의 날 기념 '아이들이 꿈꾸는 세..."
+    },
+    {
+      "rank": 5,
+      "keyword": "장명초 통학로",
+      "count": 1,
+      "category": "POLICY",
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성 장명초 통학로 침수 반복… 사유지 문제에 개선 지연"
     }
   ],
   "stats": {
-    "total": 428,
-    "major_count": 223,
-    "live_count": 205,
-    "today_count": 6,
+    "total": 431,
+    "major_count": 225,
+    "live_count": 206,
+    "today_count": 9,
     "scrap_count": 6,
     "yesterday_count": 1,
-    "policy": 258,
+    "policy": 261,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성시아동보호전문기관, 아동학대예방의 날 기념 '아이들이 꿈꾸는 세...",
+      "link": "https://www.welfarenews.net/news/articleView.html?idxno=213043",
+      "originallink": "https://www.welfarenews.net/news/articleView.html?idxno=213043",
+      "media": "WELFARENEWS",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:36",
+      "pub_timestamp": "2026-11-23T15:36:00+09:00",
+      "bullets": [
+        "- 화성시아동보호전문기관, 아동학대예방의 날 기념 '아이들이 꿈꾸는 세...",
+        "- 장애인신문·웰페어뉴스=양원준 기자 | (사진제공=화성시아동보호전문기관)모두누림센터 캠페인 전시 진행 사진. 화성시아동보호전문기관(관장 강은영)은 아동학대예방의 날을 맞아 11월 1...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.welfarenews.net/news/photo/202611/213043_313848_288.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성 장명초 통학로 침수 반복… 사유지 문제에 개선 지연",
+      "link": "https://www.kyeongin.com/article/1775238",
+      "originallink": "https://www.kyeongin.com/article/1775238",
+      "media": "경인일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:24",
+      "pub_timestamp": "2026-11-23T15:24:00+09:00",
+      "bullets": [
+        "- 화성 장명초 통학로 침수 반복… 사유지 문제에 개선 지연",
+        "- 학교·주민 20년 가까이 배수 개선 요구 집중호우 때 통학버스 진입도 어려워 배수로 설치 필요한 사유지 동의 난항 화성시 장명초등학교의 통학로 침수 문제가 반복되면서 학생 안전 우...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://wimg.kyeongin.com/news/cms/2026/11/23/news-p.v1.20261120.f8fcbd6c1fa14c309e8bba4ea9af638c_R.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "[단독] \"이례적, 선고 연기, 피해자들은 울분을 토합니다\"... 화성시, '골...",
+      "link": "https://www.getnews.co.kr/news/articleView.html?idxno=886917",
+      "originallink": "https://www.getnews.co.kr/news/articleView.html?idxno=886917",
+      "media": "글로벌경제신문",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:20",
+      "pub_timestamp": "2026-11-23T15:20:00+09:00",
+      "bullets": [
+        "- [단독] \"이례적, 선고 연기, 피해자들은 울분을 토합니다\"... 화성시, '골...",
+        "- 기자명 이승원 기자 입력 2026.11.23 15:19 SNS 기사보내기 Email Share Scrap Print 본문 글씨 줄이기 본문 글씨 키우기 Google에서 선호하는 출...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.getnews.co.kr/news/photo/202611/886917_547068_45.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "한화 임직원 봉사단, 화성 포도농가 찾아 일손돕기 구슬땀",
       "link": "https://www.pointe.co.kr/news/articleView.html?idxno=88252",
@@ -325,6 +397,118 @@
           "media": "IKLD",
           "time_label": "오늘 08:44",
           "pub_timestamp": "2026-11-23T08:44:00+09:00"
+        },
+        {
+          "title": "㈜한화, 포도 농가에서 임직원과 농촌 일손 돕기",
+          "link": "https://www.sedaily.com/article/20117818?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 15:32",
+          "pub_timestamp": "2026-11-23T15:32:00+09:00"
+        },
+        {
+          "title": "한화 임직원 40명, 화성 포도농가서 가지치기 봉사",
+          "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=272408",
+          "media": "ASIAA",
+          "time_label": "오늘 15:06",
+          "pub_timestamp": "2026-11-23T15:06:00+09:00"
+        },
+        {
+          "title": "㈜한화, 화성 포도농가서 일손돕기…임직원 40여 명 참여",
+          "link": "https://www.seoultimes.news/news/article.html?no=2000102562",
+          "media": "SEOULTIMES",
+          "time_label": "오늘 14:42",
+          "pub_timestamp": "2026-11-23T14:42:00+09:00"
+        },
+        {
+          "title": "한화, 화성 포도농가 찾아 가지치기 봉사…농협과 세 번째 협",
+          "link": "https://www.cstimes.com/news/articleView.html?idxno=728979",
+          "media": "CSTIMES",
+          "time_label": "오늘 14:30",
+          "pub_timestamp": "2026-11-23T14:30:00+09:00"
+        },
+        {
+          "title": "한화, 임직원 40여명 화성 포도농가 일손 도와",
+          "link": "https://www.newspost.kr/news/articleView.html?idxno=227671",
+          "media": "NEWSPOST",
+          "time_label": "오늘 14:20",
+          "pub_timestamp": "2026-11-23T14:20:00+09:00"
+        },
+        {
+          "title": "㈜한화, 화성 포도농가서 가지치기 봉사···3년째 농촌 일손 돕기",
+          "link": "http://www.paxetv.com/news/articleView.html?idxno=287616",
+          "media": "PAXETV",
+          "time_label": "오늘 14:08",
+          "pub_timestamp": "2026-11-23T14:08:00+09:00"
+        },
+        {
+          "title": "[카드] 포도농가 찾은 한화 임직원들, '농촌 일손돕기' 봉사",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=756054",
+          "media": "NEWSPRIME",
+          "time_label": "오늘 13:56",
+          "pub_timestamp": "2026-11-23T13:56:00+09:00"
+        },
+        {
+          "title": "'함께 멀리' 한화, 농촌 일손돕기 활동",
+          "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=327009",
+          "media": "포인트데일리",
+          "time_label": "오늘 13:42",
+          "pub_timestamp": "2026-11-23T13:42:00+09:00"
+        },
+        {
+          "title": "한화 임직원 40명, 화성 포도농가서 일손 보태",
+          "link": "https://www.hankyung.com/article/202611234116i",
+          "media": "한국경제",
+          "time_label": "오늘 13:32",
+          "pub_timestamp": "2026-11-23T13:32:00+09:00"
+        },
+        {
+          "title": "㈜한화 임직원 봉사단, 농촌 일손돕기 봉사활동 진행",
+          "link": "http://www.newscape.co.kr/news/articleView.html?idxno=126009",
+          "media": "NEWSCAPE",
+          "time_label": "오늘 13:20",
+          "pub_timestamp": "2026-11-23T13:20:00+09:00"
+        },
+        {
+          "title": "한화 임직원, 화성 포도농가 찾아 농촌 일손돕기",
+          "link": "http://www.finomy.com/news/articleView.html?idxno=267549",
+          "media": "FINOMY",
+          "time_label": "오늘 13:10",
+          "pub_timestamp": "2026-11-23T13:10:00+09:00"
+        },
+        {
+          "title": "농촌일손 돕기 나선 한화 임직원",
+          "link": "https://www.naeil.com/news/read/609716?ref=naver",
+          "media": "NAEIL",
+          "time_label": "오늘 13:04",
+          "pub_timestamp": "2026-11-23T13:04:00+09:00"
+        },
+        {
+          "title": "㈜한화, '임직원과 함께하는 농촌 일손돕기' 진행...관심도 상승",
+          "link": "https://www.thebigdata.co.kr/view.php?ud=202611231130019101df3c2a17b7_23",
+          "media": "THEBIGDATA",
+          "time_label": "오늘 12:06",
+          "pub_timestamp": "2026-11-23T12:06:00+09:00"
+        },
+        {
+          "title": "한화, '임직원과 함께하는 농촌 일손 돕기' 진행",
+          "link": "https://www.nocutnews.co.kr/news/6610889?utm_source=naver&utm_medium=article&utm_campaign=20261123104249",
+          "media": "노컷뉴스",
+          "time_label": "오늘 10:43",
+          "pub_timestamp": "2026-11-23T10:43:00+09:00"
+        },
+        {
+          "title": "한화, 포도 농가에서 '임직원과 함께하는 농촌 일손 돕기' 진행",
+          "link": "https://www.cnbnews.com/news/articleView.html?idxno=1024791",
+          "media": "CNBNEWS",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-23T10:30:00+09:00"
+        },
+        {
+          "title": "㈜한화, 임직원과 함께 '농촌 일손 돕기'...재계 나눔 실천 확산",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=173413",
+          "media": "CHOICENEWS",
+          "time_label": "오늘 09:48",
+          "pub_timestamp": "2026-11-23T09:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -374,8 +558,16 @@
         "- 강성규 기자입력 2026-11-23 11:00 수정 2026-11-23 11:00 [아시아타임즈 경기취재본부=강성규 기자] 화성시 효행구는 지역 건축사들의 재능기부를 바탕으로 시민...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[화성소식]효행구, 건축사 1대1 매칭 무료 상담 등",
+          "link": "https://www.newsis.com/view/NISX20261123_0003879211",
+          "media": "뉴시스",
+          "time_label": "오늘 13:15",
+          "pub_timestamp": "2026-11-23T13:15:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/23/.cache/512/20261123500111.jpg",
       "telegram_sent": false
     },
@@ -422,8 +614,16 @@
         "- 인공지능 전환(AX) 기업 세종디엑스는 지난 18일 맞춤 복지상담 AI ‘복지봄’을 출시하고, 화성특례시와 양평군에서 약 1년 6개월간 시범사업을 진행한다고 23일 밝혔다. 이번 ...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "세종디엑스, 맞춤 복지상담 AI '복지봄' 출시 ··· 화성시·양평군 시...",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300451",
+          "media": "DATANET",
+          "time_label": "오늘 15:18",
+          "pub_timestamp": "2026-11-23T15:18:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/11/23/sentv20261123000078.png",
       "telegram_sent": false
     },
@@ -887,6 +1087,20 @@
           "media": "서울신문",
           "time_label": "스크랩 11.22 10:56",
           "pub_timestamp": "2026-11-22T10:56:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 사랑의 김장나눔 동참...취약계층에 김치 400박스 지원",
+          "link": "https://www.ajunews.com/view/20261123145828398",
+          "media": "아주경제",
+          "time_label": "오늘 15:10",
+          "pub_timestamp": "2026-11-23T15:10:00+09:00"
+        },
+        {
+          "title": "화성시, 취약계층에 김장 김치 4톤 전달",
+          "link": "https://www.asiatime.co.kr/article/20261123500292",
+          "media": "ASIATIME",
+          "time_label": "오늘 14:00",
+          "pub_timestamp": "2026-11-23T14:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -1760,6 +1974,13 @@
           "media": "NEWSCLAIM",
           "time_label": "스크랩 11.19 16:08",
           "pub_timestamp": "2026-11-19T16:08:00+09:00"
+        },
+        {
+          "title": "튼튼병원·화성특례시 주민자치회, 지역주민 건강증진 업무협약 체결",
+          "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36398",
+          "media": "BIOTIMES",
+          "time_label": "오늘 13:44",
+          "pub_timestamp": "2026-11-23T13:44:00+09:00"
         }
       ],
       "is_major": true,
@@ -2323,6 +2544,13 @@
           "media": "WEEKLYTODAY",
           "time_label": "오늘 13:54",
           "pub_timestamp": "2026-11-20T13:54:00+09:00"
+        },
+        {
+          "title": "LH, 병점복합타운 공공분양 726가구 모집공고 예정",
+          "link": "http://www.koreastocknews.com/news/articleView.html?idxno=122431",
+          "media": "KOREASTOCKNEWS",
+          "time_label": "오늘 13:32",
+          "pub_timestamp": "2026-11-23T13:32:00+09:00"
         }
       ],
       "is_major": true,
@@ -3389,6 +3617,13 @@
           "media": "서울신문",
           "time_label": "스크랩 11.22 10:54",
           "pub_timestamp": "2026-11-22T10:54:00+09:00"
+        },
+        {
+          "title": "[패트롤] 화성시-평택시",
+          "link": "https://www.ekn.kr/web/view.php?key=20261123028473379",
+          "media": "EKN",
+          "time_label": "오늘 15:10",
+          "pub_timestamp": "2026-11-23T15:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -4218,6 +4453,13 @@
           "media": "기호일보",
           "time_label": "스크랩 11.22 17:54",
           "pub_timestamp": "2026-11-22T17:54:00+09:00"
+        },
+        {
+          "title": "반도체 호황에 두둑해진 지자체 곳간… 화성·평택·용인 등 미래 투자...",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/23/2026112350193.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 12:52",
+          "pub_timestamp": "2026-11-23T12:52:00+09:00"
         }
       ],
       "is_major": true,
@@ -6764,6 +7006,34 @@
           "media": "JOONGANGENEWS",
           "time_label": "오늘 09:12",
           "pub_timestamp": "2026-11-23T09:12:00+09:00"
+        },
+        {
+          "title": "자금 부담 낮춘 아크메르 동탄, 실수요자 '북적'",
+          "link": "https://www.ggilbo.com/news/articleView.html?idxno=1194930",
+          "media": "GGILBO",
+          "time_label": "오늘 15:26",
+          "pub_timestamp": "2026-11-23T15:26:00+09:00"
+        },
+        {
+          "title": "아크메르 동탄, 계약조건 완화…중도금 납부 일정 최대 13개월 늦춰",
+          "link": "https://www.jasm.co.kr/news/view/326158/?sc=Naver",
+          "media": "JASM",
+          "time_label": "오늘 14:42",
+          "pub_timestamp": "2026-11-23T14:42:00+09:00"
+        },
+        {
+          "title": "계약금·중도금 부담 낮추니 실수요자 몰려",
+          "link": "https://www.newsis.com/view/NISX20261123_0003879267",
+          "media": "뉴시스",
+          "time_label": "오늘 13:43",
+          "pub_timestamp": "2026-11-23T13:43:00+09:00"
+        },
+        {
+          "title": "아크메르 동탄, 계약금 1000만원·중도금 납부 연기…선착순 계약 관심",
+          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065581486482706",
+          "media": "MEGAECONOMY",
+          "time_label": "오늘 13:30",
+          "pub_timestamp": "2026-11-23T13:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -7659,6 +7929,27 @@
           "media": "JOONGANGENEWS",
           "time_label": "오늘 08:20",
           "pub_timestamp": "2026-11-23T08:20:00+09:00"
+        },
+        {
+          "title": "차두리의 화성FC, 프로 진출 2년 만에 승격 경쟁 무대 밟는다",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7195127",
+          "media": "HANKOOKI",
+          "time_label": "오늘 15:04",
+          "pub_timestamp": "2026-11-23T15:04:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 화성FC, 프로 2년 만에 승격 도전",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=803002",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 14:44",
+          "pub_timestamp": "2026-11-23T14:44:00+09:00"
+        },
+        {
+          "title": "화성FC, 창단 프로 입성 두 시즌 만에 K리그2 플레이오프 티켓 거머쥐어",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920747",
+          "media": "경기일보",
+          "time_label": "오늘 14:06",
+          "pub_timestamp": "2026-11-23T14:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -11019,6 +11310,20 @@
           "media": "매일일보",
           "time_label": "스크랩 11.22 11:18",
           "pub_timestamp": "2026-11-22T11:18:00+09:00"
+        },
+        {
+          "title": "화성특례시, '사랑의 김장나눔' 행사 개최…취약계층에 김장김치 400박스...",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=399747",
+          "media": "FNTODAY",
+          "time_label": "오늘 15:46",
+          "pub_timestamp": "2026-11-23T15:46:00+09:00"
+        },
+        {
+          "title": "화성시, '따뜻한 겨울, 사랑의 김장나눔' 개최… 취약계층에 김치 4톤 전...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2495840",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 15:16",
+          "pub_timestamp": "2026-11-23T15:16:00+09:00"
         }
       ],
       "is_major": true,
@@ -11489,6 +11794,13 @@
           "media": "경기일보",
           "time_label": "스크랩 11.20 16:18",
           "pub_timestamp": "2026-11-20T16:18:00+09:00"
+        },
+        {
+          "title": "경기 화성시 창고서 불… 1채 전소, 인명피해 없어",
+          "link": "http://fpn119.co.kr/259858",
+          "media": "FPN119",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-23T13:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -22595,6 +22907,34 @@
           "media": "세계일보",
           "time_label": "스크랩 11.23 07:30",
           "pub_timestamp": "2026-11-23T07:30:00+09:00"
+        },
+        {
+          "title": "집값 뛴 강북·경기 남부…현실화율 묶어도 종부세 '그림자'",
+          "link": "https://www.sisajournal.com/news/articleView.html?idxno=394948",
+          "media": "SISAJOURNAL",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-23T14:54:00+09:00"
+        },
+        {
+          "title": "“보유세 겁나요”...공시가 현실화율 동결에도 강북·경기 남부 ‘비상...",
+          "link": "https://www.mk.co.kr/article/12216071",
+          "media": "매일경제",
+          "time_label": "오늘 14:15",
+          "pub_timestamp": "2026-11-23T14:15:00+09:00"
+        },
+        {
+          "title": "서울 비강남·경기 남부 집값 급등… 내년 보유세 부담 커지나",
+          "link": "https://www.newscj.com/news/articleView.html?idxno=3451219",
+          "media": "NEWSCJ",
+          "time_label": "오늘 13:02",
+          "pub_timestamp": "2026-11-23T13:02:00+09:00"
+        },
+        {
+          "title": "서울·경기 부동산, 보유세 동결 속 상승하는 지역은 어디?",
+          "link": "https://www.gokorea.kr/news/articleView.html?idxno=886786",
+          "media": "GOKOREA",
+          "time_label": "스크랩 11.23 06:36",
+          "pub_timestamp": "2026-11-23T06:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -24904,6 +25244,13 @@
           "media": "KMAEIL",
           "time_label": "오늘 14:06",
           "pub_timestamp": "2026-11-10T14:06:00+09:00"
+        },
+        {
+          "title": "화성특례시 복지정책, 지역사회 자원 재배치",
+          "link": "https://www.joongdo.co.kr/web/view.php?key=20261123010007865",
+          "media": "JOONGDO",
+          "time_label": "오늘 15:58",
+          "pub_timestamp": "2026-11-23T15:58:00+09:00"
         }
       ],
       "is_major": true,
@@ -27497,6 +27844,34 @@
           "media": "IKLD",
           "time_label": "오늘 08:56",
           "pub_timestamp": "2026-11-23T08:56:00+09:00"
+        },
+        {
+          "title": "건설연, 터널 화재 맞춤형 물분무 기술 개발",
+          "link": "https://www.dailian.co.kr/news/view/1718518/?sc=Naver",
+          "media": "데일리안",
+          "time_label": "오늘 15:11",
+          "pub_timestamp": "2026-11-23T15:11:00+09:00"
+        },
+        {
+          "title": "분사 방향 자동 조절 소화설비…\"터널 화재 사각지대 줄인다\"",
+          "link": "https://www.dongascience.com/news/view/81021",
+          "media": "DONGASCIENCE",
+          "time_label": "오늘 15:06",
+          "pub_timestamp": "2026-11-23T15:06:00+09:00"
+        },
+        {
+          "title": "건설연, 터널 화재 대응 물분무 시스템 개발",
+          "link": "https://www.newspim.com/news/view/20261123000774",
+          "media": "뉴스핌",
+          "time_label": "오늘 14:24",
+          "pub_timestamp": "2026-11-23T14:24:00+09:00"
+        },
+        {
+          "title": "건설연, 터널 화재 사각지대 줄이는 '차세대 물분무 시스템' 개발",
+          "link": "http://www.efnews.co.kr/news/articleView.html?idxno=134213",
+          "media": "EFNEWS",
+          "time_label": "오늘 14:16",
+          "pub_timestamp": "2026-11-23T14:16:00+09:00"
         }
       ],
       "is_major": true,
