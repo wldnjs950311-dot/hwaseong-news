@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026.11.25. 12:00",
+  "updated_at": "2026.11.25. 16:00",
   "scrap_period": "전일(11.24) 08:00 ~ 금일(11.25) 08:00",
   "yesterday_label": "11.24",
   "macro_pulse": {
     "report_date": "2026-11-25",
-    "article_count": 6,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 9,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(6건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
       "- [독감 무료 예방접종 안내 등] 총 3개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
-      "- [‘중대시민재해 담당자 역량 강화 교육’ 실시...] 아시아타임즈 보도 - [25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등",
-      "- [화성시,'끝까지 추적' 고강도 징수행정 빛나…...] JOONGANGENEWS 보도 - 화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우...",
-      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 이뉴스투데이 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상..."
+      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 총 2개 언론사 집중 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상...",
+      "- [화성인재육성재단 대표 선임 무산…시의회 특위...] 글로벌이코노믹 보도 - 화성인재육성재단 대표 선임 무산…시의회 특위 “절차 책임 규명해야”",
+      "- [화성시 어린이보호구역, 심야엔 시속 50㎞까지...] 뉴시스 보도 - 화성시 어린이보호구역, 심야엔 시속 50㎞까지 달린다"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(6건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
       "- [독감 무료 예방접종 안내 등] 총 3개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
-      "- [‘중대시민재해 담당자 역량 강화 교육’ 실시...] 아시아타임즈 보도 - [25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등"
+      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 총 2개 언론사 집중 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상..."
     ],
     "theme_stats": [
       {
@@ -24,7 +24,7 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 4,
-        "ratio": 16
+        "ratio": 14
       },
       {
         "id": "TRANSIT_INFRA",
@@ -38,21 +38,21 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 2,
-        "ratio": 8
+        "ratio": 7
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 4,
-        "ratio": 16
+        "ratio": 14
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 14,
-        "ratio": 56
+        "count": 17,
+        "ratio": 61
       }
     ]
   },
@@ -60,7 +60,7 @@
     {
       "rank": 1,
       "keyword": "2026 올해의 SNS",
-      "count": 16,
+      "count": 17,
       "category": "POLICY",
       "dept": "공보실 홍보담당관",
       "summary": "화성시, ‘2026 올해의 SNS’ 4관왕…소통 통했다"
@@ -76,7 +76,7 @@
     {
       "rank": 3,
       "keyword": "덕성여대 화성시인재육성재단",
-      "count": 8,
+      "count": 9,
       "category": "POLICY",
       "dept": "교육체육국 교육지원과",
       "summary": "덕성여대, 화성시인재육성재단 도봉나래관 입사생 대상 교육 실시"
@@ -91,25 +91,97 @@
     },
     {
       "rank": 5,
-      "keyword": "화성소식 독감",
-      "count": 3,
+      "keyword": "화성특례시의회 인사청문특위",
+      "count": 5,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "[화성소식]독감 무료 예방접종 안내 등"
+      "dept": "기획조정실 의회법무과",
+      "summary": "화성특례시의회 인사청문특위, 인재육성재단 대표 선임 무산 입장 발표..."
     }
   ],
   "stats": {
-    "total": 464,
-    "major_count": 240,
-    "live_count": 224,
-    "today_count": 5,
+    "total": 467,
+    "major_count": 242,
+    "live_count": 225,
+    "today_count": 8,
     "scrap_count": 20,
     "yesterday_count": 0,
-    "policy": 294,
+    "policy": 297,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성인재육성재단 대표 선임 무산…시의회 특위 “절차 책임 규명해야”",
+      "link": "https://www.g-enews.com/view.php?ud=20261125151233350d6b0ab7f1c_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=20261125151233350d6b0ab7f1c_1",
+      "media": "글로벌이코노믹",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 16:00",
+      "pub_timestamp": "2026-11-25T16:00:00+09:00",
+      "bullets": [
+        "- 화성인재육성재단 대표 선임 무산…시의회 특위 “절차 책임 규명해야”",
+        "- 화성인재육성재단 대표 선임 무산…시의회 특위 “절차 책임 규명해야” 화성인재육성재단 대표 선임 무산…시의회 특위 “절차 책임 규명해야” (우)04004 서울특별시 마포구 월드컵로6...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026112515134300040d6b0ab7f1c1839962189.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 어린이보호구역, 심야엔 시속 50㎞까지 달린다",
+      "link": "https://www.newsis.com/view/NISX20261125_0003883024",
+      "originallink": "https://www.newsis.com/view/NISX20261125_0003883024",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "기획조정실 정책기획관",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:36",
+      "pub_timestamp": "2026-11-25T15:36:00+09:00",
+      "bullets": [
+        "- 화성시 어린이보호구역, 심야엔 시속 50㎞까지 달린다",
+        "- 심야 시간대 시속 30㎞→50㎞ 완화 내달 동탄·병점·효행구 5곳 도입…내년 3월 동탄 1곳 추가 [화성=뉴시스] 효행구 시간제 속도제한 운영구간 위치도. (사진=화성시 제공) 2...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/11/25/NISI20261125_0002302200_web.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "‘화성시’는 어디로…공공시설 뒤덮은 ‘특례시’ 명칭 논란",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261125010009887",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20261125010009887",
+      "media": "아시아투데이",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 15:20",
+      "pub_timestamp": "2026-11-25T15:20:00+09:00",
+      "bullets": [
+        "- ‘화성시’는 어디로…공공시설 뒤덮은 ‘특례시’ 명칭 논란",
+        "- 시의회, 법정 명칭과 홍보 명칭 사용 기준 점검 요구 화성특례시 출범 첫 출근 0 정명근 화성시장(왼쪽 다섯번째)이 지난해 1월 2일 시청 1층 로비에서 시 관계자들과 화성특례시 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img.asiatoday.co.kr/file/2026y/11m/25d/2026112501001844200098871.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "[화성소식]독감 무료 예방접종 안내 등",
       "link": "https://www.newsis.com/view/NISX20261125_0003882320",
@@ -216,8 +288,16 @@
         "- [이뉴스투데이 수도권1취재본부 이배윤기자] (재)화성시문화관광재단이 발행하는 소식지 <화분>이 「2026 대한민국 커뮤니케이션대상」 인쇄사보 공공부문 특별상(한국사보협회장상)을 받...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성시문화관광재단 '화분', 대한민국 커뮤니케이션대상 특별상 수상",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2023211",
+          "media": "매일일보",
+          "time_label": "오늘 13:06",
+          "pub_timestamp": "2026-11-25T13:06:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2496845_1344359_1353_v150.jpg",
       "telegram_sent": false
     },
@@ -844,6 +924,13 @@
           "media": "WEEKLYTODAY",
           "time_label": "스크랩 11.24 16:08",
           "pub_timestamp": "2026-11-24T16:08:00+09:00"
+        },
+        {
+          "title": "화성시, '올해의 SNS' 시상식 4관왕",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=244150",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 15:48",
+          "pub_timestamp": "2026-11-25T15:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -918,6 +1005,13 @@
           "media": "파이낸셜뉴스",
           "time_label": "스크랩 11.24 17:22",
           "pub_timestamp": "2026-11-24T17:22:00+09:00"
+        },
+        {
+          "title": "덕성여대, 프레디저 진단 활용 진로·취업 교육",
+          "link": "https://www.kyosu.net/news/articleView.html?idxno=212820",
+          "media": "KYOSU",
+          "time_label": "오늘 14:54",
+          "pub_timestamp": "2026-11-25T14:54:00+09:00"
         }
       ],
       "is_major": true,
@@ -999,8 +1093,37 @@
         "- -9월 17일 후보자 인사청문 이후 대표이사 선임 무산 -25일 오후 1시 15분 시의회 6층 대회의실서 개최 계획 -특위 소속 의원 9명 참석 예정…취지 설명·입장문 발표 순 화...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "[위클리오늘] 화성시의회 인사청문위원 9명, 인재육성재단 대표이사 선...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=803435",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 15:36",
+          "pub_timestamp": "2026-11-25T15:36:00+09:00"
+        },
+        {
+          "title": "화성시인재육성재단 대표 선임 무산…화성시의회 인사청문특위 \"유감\"",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363743574",
+          "media": "중부일보",
+          "time_label": "오늘 15:18",
+          "pub_timestamp": "2026-11-25T15:18:00+09:00"
+        },
+        {
+          "title": "화성시의회, '인재육성재단 대표이사' 선임 파행에 '강력 유감'",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=566527",
+          "media": "JOONGANGENEWS",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-25T15:00:00+09:00"
+        },
+        {
+          "title": "화성시의회 인사청문특위 “인재육성재단 대표이사 선임 무산 유감\"",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=921186",
+          "media": "경기일보",
+          "time_label": "오늘 15:00",
+          "pub_timestamp": "2026-11-25T15:00:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "http://www.newstown.co.kr/news/thumbnail/202611/723078_679568_554_v150.jpg",
       "telegram_sent": false
     },
@@ -2059,6 +2182,20 @@
           "media": "ASIATIME",
           "time_label": "오늘 09:12",
           "pub_timestamp": "2026-11-24T09:12:00+09:00"
+        },
+        {
+          "title": "화성시인재육성재단 대표이사 선임 무산…청문 참여 의원들, 절차 개선...",
+          "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721342",
+          "media": "뉴스프리존",
+          "time_label": "오늘 15:52",
+          "pub_timestamp": "2026-11-25T15:52:00+09:00"
+        },
+        {
+          "title": "화성시인재육성재단 대표이사 선임 무산… 시의회 인사청문특위 “공정...",
+          "link": "https://www.asiatime.co.kr/article/20261125500293",
+          "media": "ASIATIME",
+          "time_label": "오늘 14:36",
+          "pub_timestamp": "2026-11-25T14:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -5979,6 +6116,13 @@
           "media": "한국일보",
           "time_label": "스크랩 11.25 04:30",
           "pub_timestamp": "2026-11-25T04:30:00+09:00"
+        },
+        {
+          "title": "250억 원 투입에도 9년째 제자리…수원 군공항 이전 전략 도마 위",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=921146",
+          "media": "경기일보",
+          "time_label": "오늘 14:38",
+          "pub_timestamp": "2026-11-25T14:38:00+09:00"
         }
       ],
       "is_major": true,
@@ -10574,6 +10718,20 @@
           "media": "경인일보",
           "time_label": "오늘 10:32",
           "pub_timestamp": "2026-11-24T10:32:00+09:00"
+        },
+        {
+          "title": "경기도 돔구장 후보 '광명'·'수원'…8개 시 경쟁 뚫었다",
+          "link": "https://www.etoday.co.kr/news/view/2652903",
+          "media": "ETODAY",
+          "time_label": "오늘 15:54",
+          "pub_timestamp": "2026-11-25T15:54:00+09:00"
+        },
+        {
+          "title": "수원·광명, 경기도 돔구장 후보 확정… 전국 유치전 정면 돌파",
+          "link": "https://gg.newdaily.co.kr/site/data/html/2026/11/25/2026112550255.html",
+          "media": "NEWDAILY",
+          "time_label": "오늘 15:32",
+          "pub_timestamp": "2026-11-25T15:32:00+09:00"
         }
       ],
       "is_major": true,
@@ -10929,6 +11087,20 @@
           "media": "EKN",
           "time_label": "스크랩 11.17 17:06",
           "pub_timestamp": "2026-11-17T17:06:00+09:00"
+        },
+        {
+          "title": "오진택 경기도의원, 경기국제공항 행사성 예산 늘릴때 아냐…항만 핵심...",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=837686",
+          "media": "NSPNA",
+          "time_label": "오늘 12:18",
+          "pub_timestamp": "2026-11-25T12:18:00+09:00"
+        },
+        {
+          "title": "김진후 경기도의원 \"도지사 의지만으로 국제공항 추진 안 돼\"",
+          "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=327252",
+          "media": "포인트데일리",
+          "time_label": "스크랩 11.24 18:30",
+          "pub_timestamp": "2026-11-24T18:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -14631,6 +14803,13 @@
           "media": "인천일보",
           "time_label": "오늘 09:06",
           "pub_timestamp": "2026-11-24T09:06:00+09:00"
+        },
+        {
+          "title": "'홍보 현수막 의혹' 이상일 용인시장 선거법 위반 혐의 불기소",
+          "link": "https://www.news1.kr/local/gyeonggi/6365689",
+          "media": "뉴스1",
+          "time_label": "오늘 14:42",
+          "pub_timestamp": "2026-11-25T14:42:00+09:00"
         }
       ],
       "is_major": true,
@@ -15743,6 +15922,13 @@
           "media": "DHNEWS",
           "time_label": "스크랩 11.24 16:36",
           "pub_timestamp": "2026-11-24T16:36:00+09:00"
+        },
+        {
+          "title": "한신대, 장애인·비장애인 함께하는 e스포츠 챌린지…참가자 3배 늘어",
+          "link": "https://www.kyosu.net/news/articleView.html?idxno=212870",
+          "media": "KYOSU",
+          "time_label": "오늘 15:12",
+          "pub_timestamp": "2026-11-25T15:12:00+09:00"
         }
       ],
       "is_major": true,
@@ -16952,6 +17138,20 @@
           "media": "DAILYPHARM",
           "time_label": "스크랩 11.23 22:58",
           "pub_timestamp": "2026-11-23T22:58:00+09:00"
+        },
+        {
+          "title": "화성시, 경기도 '2026년 고액체납자 징수활동 평가' 우수 시·군 선정",
+          "link": "https://www.newspim.com/news/view/20261125001029",
+          "media": "뉴스핌",
+          "time_label": "오늘 15:26",
+          "pub_timestamp": "2026-11-25T15:26:00+09:00"
+        },
+        {
+          "title": "화성시, 고액체납자 징수활동 평가 우수 지자체 선정",
+          "link": "https://news.skbroadband.com/news/articleView.html?idxno=244189",
+          "media": "SKBROADBAND",
+          "time_label": "오늘 13:40",
+          "pub_timestamp": "2026-11-25T13:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -24798,6 +24998,13 @@
           "media": "아시아경제",
           "time_label": "오늘 10:52",
           "pub_timestamp": "2026-11-25T10:52:00+09:00"
+        },
+        {
+          "title": "집값 뛴 강북·반도체벨트, 공시가 동결에도 내년 보유세 ‘껑충’",
+          "link": "https://www.dt.co.kr/article/12097162?ref=naver",
+          "media": "디지털타임스",
+          "time_label": "오늘 14:37",
+          "pub_timestamp": "2026-11-25T14:37:00+09:00"
         }
       ],
       "is_major": true,
@@ -28440,6 +28647,34 @@
           "media": "MEDIAPEN",
           "time_label": "오늘 08:40",
           "pub_timestamp": "2026-11-25T08:40:00+09:00"
+        },
+        {
+          "title": "3040세대 아파트 매매 비중 54%…전용 84㎡ 오피스텔 거래도 증가",
+          "link": "https://www.lawissue.co.kr/view.php?ud=20261125155207112767191f6c6e_12",
+          "media": "로이슈",
+          "time_label": "오늘 15:54",
+          "pub_timestamp": "2026-11-25T15:54:00+09:00"
+        },
+        {
+          "title": "부동산시장서 3040 영향력↑···전용84㎡ 오피스텔 '주목'",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496762",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 15:05",
+          "pub_timestamp": "2026-11-25T15:05:00+09:00"
+        },
+        {
+          "title": "아파트 매수 54%가 3040…전용 84㎡ 오피스텔 거래 57% 증가",
+          "link": "https://www.mk.co.kr/article/12217918",
+          "media": "매일경제",
+          "time_label": "오늘 11:23",
+          "pub_timestamp": "2026-11-25T11:23:00+09:00"
+        },
+        {
+          "title": "전용 84㎡ 주거용 오피스텔 거래 '급증'…\"3040세대 오피스텔 선택 많아...",
+          "link": "https://www.econovill.com/news/articleView.html?idxno=758447",
+          "media": "ECONOVILL",
+          "time_label": "오늘 10:48",
+          "pub_timestamp": "2026-11-25T10:48:00+09:00"
         }
       ],
       "is_major": true,
