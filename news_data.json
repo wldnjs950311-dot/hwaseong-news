@@ -1,18 +1,22 @@
 {
-  "updated_at": "2026.11.25. 08:00",
+  "updated_at": "2026.11.25. 12:00",
   "scrap_period": "전일(11.24) 08:00 ~ 금일(11.25) 08:00",
   "yesterday_label": "11.24",
   "macro_pulse": {
     "report_date": "2026-11-25",
-    "article_count": 1,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 6,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성도시공사, 3년간 외형 성장·사업 다각화로...] https://www.siminilbo.co.kr/news/newsview.php?ncode=1160280407586622 보도 - 화성도시공사, 3년간 외형 성장·사업 다각화로 도시 경쟁력 강화 주도"
+      "- [독감 무료 예방접종 안내 등] 총 3개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
+      "- [‘중대시민재해 담당자 역량 강화 교육’ 실시...] 아시아타임즈 보도 - [25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등",
+      "- [화성시,'끝까지 추적' 고강도 징수행정 빛나…...] JOONGANGENEWS 보도 - 화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우...",
+      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 이뉴스투데이 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성도시공사, 3년간 외형 성장·사업 다각화로...] https://www.siminilbo.co.kr/news/newsview.php?ncode=1160280407586622 보도 - 화성도시공사, 3년간 외형 성장·사업 다각화로 도시 경쟁력 강화 주도"
+      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(3건) 및 「복지·안전」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [독감 무료 예방접종 안내 등] 총 3개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
+      "- [‘중대시민재해 담당자 역량 강화 교육’ 실시...] 아시아타임즈 보도 - [25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등"
     ],
     "theme_stats": [
       {
@@ -20,35 +24,35 @@
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
         "count": 4,
-        "ratio": 20
+        "ratio": 16
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 1,
-        "ratio": 5
+        "ratio": 4
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 1,
-        "ratio": 5
+        "count": 2,
+        "ratio": 8
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 2,
-        "ratio": 10
+        "count": 4,
+        "ratio": 16
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 12,
-        "ratio": 60
+        "count": 14,
+        "ratio": 56
       }
     ]
   },
@@ -64,7 +68,7 @@
     {
       "rank": 2,
       "keyword": "제2차 스마트도시계획안",
-      "count": 8,
+      "count": 10,
       "category": "POLICY",
       "dept": "AI스마트전략실",
       "summary": "화성시, 제2차 스마트도시계획안 의결"
@@ -79,33 +83,168 @@
     },
     {
       "rank": 4,
-      "keyword": "다세대주택서 30대",
-      "count": 3,
+      "keyword": "녹색 도시",
+      "count": 6,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
-      "summary": "화성 다세대주택서 불…30대 남성 부상·9명 대피"
+      "summary": "태양광만으로 수소 생산한다… '녹색 도시' 화성에 100kW급 설비 구축"
     },
     {
       "rank": 5,
-      "keyword": "거장은 아니지만",
-      "count": 2,
+      "keyword": "화성소식 독감",
+      "count": 3,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
-      "summary": "화성시문화관광재단, 네 창작자의 삶을 담은 단체전 '거장은 아니지만'..."
+      "summary": "[화성소식]독감 무료 예방접종 안내 등"
     }
   ],
   "stats": {
-    "total": 459,
-    "major_count": 238,
-    "live_count": 221,
-    "today_count": 0,
+    "total": 464,
+    "major_count": 240,
+    "live_count": 224,
+    "today_count": 5,
     "scrap_count": 20,
     "yesterday_count": 0,
-    "policy": 289,
+    "policy": 294,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "[화성소식]독감 무료 예방접종 안내 등",
+      "link": "https://www.newsis.com/view/NISX20261125_0003882320",
+      "originallink": "https://www.newsis.com/view/NISX20261125_0003882320",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:18",
+      "pub_timestamp": "2026-11-25T10:18:00+09:00",
+      "bullets": [
+        "- [화성소식]독감 무료 예방접종 안내 등",
+        "- [화성=뉴시스] 화성시 2026~2027절기 독감 무료 예방접종 안내 디지털 홍보자료. (사진=화성시 제공) 2026.11.25. [email protected] *재판매 및 DB...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시, 독감 유행 확산에 예방접종 독려",
+          "link": "http://www.breaknews.com/1253698",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 08:56",
+          "pub_timestamp": "2026-11-25T08:56:00+09:00"
+        },
+        {
+          "title": "화성시, 독감 유행 무료 예방접종 서둘자",
+          "link": "https://www.sportsseoul.com/news/read/1652078?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 08:02",
+          "pub_timestamp": "2026-11-25T08:02:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img1.newsis.com/2026/11/25/NISI20261125_0002301647_web.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "[25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등",
+      "link": "https://www.asiatime.co.kr/article/20261125500084",
+      "originallink": "https://www.asiatime.co.kr/article/20261125500084",
+      "media": "아시아타임즈",
+      "category": "POLICY",
+      "department": "안전건설실 안전정책과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:18",
+      "pub_timestamp": "2026-11-25T10:18:00+09:00",
+      "bullets": [
+        "- [25일 화성시] ‘중대시민재해 담당자 역량 강화 교육’ 실시 등",
+        "- 강성규 기자입력 2026-11-25 10:15 수정 2026-11-25 10:15 [아시아타임즈 경기취재본부=강성규 기자]화성시가 지난 23일과 24일 중대시민재해를 예방하고 시설...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/25/.cache/512/20261125500086.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우...",
+      "link": "https://www.joongangenews.com/news/articleView.html?idxno=566416",
+      "originallink": "https://www.joongangenews.com/news/articleView.html?idxno=566416",
+      "media": "JOONGANGENEWS",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:00",
+      "pub_timestamp": "2026-11-25T10:00:00+09:00",
+      "bullets": [
+        "- 화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우...",
+        "- 부동산 공매 의뢰 578건·가택수색 83건 등 전방위 압박 도내 최상위권 역량 입증…부동산 공매 실적 도내 4위 기염 화성시청 전경. [사진=화성시] [중앙이코노미뉴스 김영철] 경...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.joongangenews.com/news/photo/202611/566416_374310_522.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상...",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496845",
+      "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496845",
+      "media": "이뉴스투데이",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:50",
+      "pub_timestamp": "2026-11-25T09:50:00+09:00",
+      "bullets": [
+        "- 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상...",
+        "- [이뉴스투데이 수도권1취재본부 이배윤기자] (재)화성시문화관광재단이 발행하는 소식지 <화분>이 「2026 대한민국 커뮤니케이션대상」 인쇄사보 공공부문 특별상(한국사보협회장상)을 받...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2496845_1344359_1353_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시-홍콩 입법회, 경제·산업 교류 확대 방안 논의",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042044",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042044",
+      "media": "기호일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:36",
+      "pub_timestamp": "2026-11-25T09:36:00+09:00",
+      "bullets": [
+        "- 화성특례시-홍콩 입법회, 경제·산업 교류 확대 방안 논의",
+        "- 화성특례시 대표단은 24일 오후 4시 30분(현지시간) 홍콩 입법회를 방문해 홍콩의 첨단산업 육성 정책과 기업지원 제도 운영 사례를 공유하고, 양 지역 간 실질적인 경제·산업 협력...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3042044_586856_3348.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성도시공사, 3년간 외형 성장·사업 다각화로 도시 경쟁력 강화 주도",
       "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160280407586622",
@@ -260,8 +399,44 @@
         "- 한국수자원공사 송산글로벌교욱연구센터에 설치 외부 전력망 연결 없는 ‘오프그리드’ 방식… 하루 최대 48kg 생산 ‘녹색 도시’로의 전환을 추진 중인 경기도 화성시에 위치한 한국수자...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "지필로스, 태양광만으로 그린수소 생산…수자원공사에 설비 구축",
+          "link": "https://www.electimes.com/news/articleView.html?idxno=375243",
+          "media": "ELECTIMES",
+          "time_label": "스크랩 11.25 01:06",
+          "pub_timestamp": "2026-11-25T01:06:00+09:00"
+        },
+        {
+          "title": "지필로스, 수자원공사 송산글로벌교육연구센터에 오프그리드 수전해 설...",
+          "link": "http://www.srtimes.kr/news/articleView.html?idxno=218478",
+          "media": "SRTIMES",
+          "time_label": "스크랩 11.24 14:32",
+          "pub_timestamp": "2026-11-24T14:32:00+09:00"
+        },
+        {
+          "title": "지필로스, 오프그리드 수소시대 연다… K-water에 100kW급 PEM 설치 완료",
+          "link": "https://www.todayenergy.kr/news/articleView.html?idxno=305987",
+          "media": "TODAYENERGY",
+          "time_label": "스크랩 11.24 12:10",
+          "pub_timestamp": "2026-11-24T12:10:00+09:00"
+        },
+        {
+          "title": "지역 에너지로 수소 생산…지필로스, '지산지소' 모델 추진",
+          "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=230017",
+          "media": "ENERGY-NEWS",
+          "time_label": "스크랩 11.24 10:18",
+          "pub_timestamp": "2026-11-24T10:18:00+09:00"
+        },
+        {
+          "title": "지필로스, 100kW급 오프그리드 수전해 가동…분산형 그린수소 거점 확대",
+          "link": "https://www.gasnews.com/news/articleView.html?idxno=127842",
+          "media": "GASNEWS",
+          "time_label": "스크랩 11.24 09:30",
+          "pub_timestamp": "2026-11-24T09:30:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.sisaweek.com/news/thumbnail/202611/239164_258904_5745_v150.jpg",
       "telegram_sent": false
     },
@@ -405,6 +580,20 @@
           "media": "WEEKLYTODAY",
           "time_label": "스크랩 11.24 16:06",
           "pub_timestamp": "2026-11-24T16:06:00+09:00"
+        },
+        {
+          "title": "화성특례시, 2027~2031년 스마트도시 청사진 확정",
+          "link": "https://www.kgnews.co.kr/news/article.html?no=920998",
+          "media": "경기일보",
+          "time_label": "오늘 09:30",
+          "pub_timestamp": "2026-11-25T09:30:00+09:00"
+        },
+        {
+          "title": "화성시, 징수행정 강화하고 스마트도시·자활 지원 확대",
+          "link": "https://www.g-enews.com/view.php?ud=202611250811385642d6b0ab7f1c_1",
+          "media": "G-ENEWS",
+          "time_label": "오늘 09:02",
+          "pub_timestamp": "2026-11-25T09:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -2361,6 +2550,13 @@
           "media": "HANKOOKI",
           "time_label": "스크랩 11.24 16:44",
           "pub_timestamp": "2026-11-24T16:44:00+09:00"
+        },
+        {
+          "title": "화성특례시, 송산그린시티 산단 9필지 우선분양 추천 공모",
+          "link": "http://www.metroseoul.co.kr/article/20261124500487",
+          "media": "서울신문",
+          "time_label": "오늘 09:36",
+          "pub_timestamp": "2026-11-25T09:36:00+09:00"
         }
       ],
       "is_major": true,
@@ -4933,6 +5129,13 @@
           "media": "WOMENNEWS",
           "time_label": "스크랩 11.24 17:05",
           "pub_timestamp": "2026-11-24T17:05:00+09:00"
+        },
+        {
+          "title": "화성시 ‘그냥드림’ 무료급식소까지 먹거리 지원 확대",
+          "link": "https://www.kyeongin.com/article/1775356",
+          "media": "경인일보",
+          "time_label": "오늘 10:22",
+          "pub_timestamp": "2026-11-25T10:22:00+09:00"
         }
       ],
       "is_major": true,
@@ -24588,6 +24791,13 @@
           "media": "GOKOREA",
           "time_label": "스크랩 11.23 06:36",
           "pub_timestamp": "2026-11-23T06:36:00+09:00"
+        },
+        {
+          "title": "전세난 심화되는 동탄…3억대 전세 ‘힐스테이트 동탄 르센텀’ 주거 대...",
+          "link": "https://view.asiae.co.kr/article/2026112510522236915",
+          "media": "아시아경제",
+          "time_label": "오늘 10:52",
+          "pub_timestamp": "2026-11-25T10:52:00+09:00"
         }
       ],
       "is_major": true,
@@ -26918,6 +27128,20 @@
           "media": "동아일보",
           "time_label": "스크랩 11.23 16:20",
           "pub_timestamp": "2026-11-23T16:20:00+09:00"
+        },
+        {
+          "title": "화성시, 경기도 고액체납자 징수활동 평가서 우수기관 선정",
+          "link": "https://www.asiatime.co.kr/article/20261125500068",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:32",
+          "pub_timestamp": "2026-11-25T09:32:00+09:00"
+        },
+        {
+          "title": "화성시 만세구보건소, 운동·영양 맞춤 지원 성과…건강관리 만족도 99%...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33376",
+          "media": "현장뉴스",
+          "time_label": "오늘 09:12",
+          "pub_timestamp": "2026-11-25T09:12:00+09:00"
         }
       ],
       "is_major": true,
@@ -28181,6 +28405,41 @@
           "media": "IKLD",
           "time_label": "오늘 09:18",
           "pub_timestamp": "2026-11-23T09:18:00+09:00"
+        },
+        {
+          "title": "3040세대 '전용 84㎡ 주거용 오피스텔' 눈길",
+          "link": "http://www.ikld.kr/news/articleView.html?idxno=344820",
+          "media": "IKLD",
+          "time_label": "오늘 10:30",
+          "pub_timestamp": "2026-11-25T10:30:00+09:00"
+        },
+        {
+          "title": "평면은 아파트네…3040 눈길 끄는 중형 오피스텔",
+          "link": "https://view.asiae.co.kr/article/2026112510205123994",
+          "media": "아시아경제",
+          "time_label": "오늘 10:20",
+          "pub_timestamp": "2026-11-25T10:20:00+09:00"
+        },
+        {
+          "title": "3040세대가 이끄는 주거시장…전용 84㎡ 오피스텔 거래 증가",
+          "link": "https://www.fntimes.com/html/view.php?ud=202611250913204228b372994c95_18",
+          "media": "FNTIMES",
+          "time_label": "오늘 09:54",
+          "pub_timestamp": "2026-11-25T09:54:00+09:00"
+        },
+        {
+          "title": "11월 25일 오늘의 안전 상황",
+          "link": "http://fpn119.co.kr/259987",
+          "media": "FPN119",
+          "time_label": "오늘 09:12",
+          "pub_timestamp": "2026-11-25T09:12:00+09:00"
+        },
+        {
+          "title": "아파트 대신 오피스텔 찾는 3040…산업도시 분양시장 주목",
+          "link": "https://www.mediapen.com/news/view/1139826",
+          "media": "MEDIAPEN",
+          "time_label": "오늘 08:40",
+          "pub_timestamp": "2026-11-25T08:40:00+09:00"
         }
       ],
       "is_major": true,
@@ -30159,6 +30418,13 @@
           "media": "FNTIMES",
           "time_label": "오늘 09:08",
           "pub_timestamp": "2026-11-23T09:08:00+09:00"
+        },
+        {
+          "title": "강남구 '개포우성1' 26평, 8.8억 떨어진 30억원에 거래 [일일 하락가]",
+          "link": "https://www.fntimes.com/html/view.php?ud=202611250817075967048b718333_18",
+          "media": "FNTIMES",
+          "time_label": "오늘 08:24",
+          "pub_timestamp": "2026-11-25T08:24:00+09:00"
         }
       ],
       "is_major": true,
