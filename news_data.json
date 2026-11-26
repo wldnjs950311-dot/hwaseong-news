@@ -1,30 +1,29 @@
 {
-  "updated_at": "2026.11.26. 08:00",
+  "updated_at": "2026.11.26. 12:00",
   "scrap_period": "전일(11.25) 08:00 ~ 금일(11.26) 08:00",
   "yesterday_label": "11.25",
   "macro_pulse": {
     "report_date": "2026-11-26",
-    "article_count": 11,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(6건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 3,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(2건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [독감 무료 예방접종 안내 등] 총 5개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
-      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 총 3개 언론사 집중 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상...",
-      "- [화성시,'끝까지 추적' 고강도 징수행정 빛나…...] 총 2개 언론사 집중 보도 - 화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우...",
-      "- [화성특례시 중장년 행복캠퍼스 하반기 수료식 진...] NEWSCLAIM 보도 - 화성특례시 중장년 행복캠퍼스 하반기 수료식 진행"
+      "- […화성시, 12월 '코리요 그랜드 페스티벌'로...] 총 5개 언론사 집중 보도 - \"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최...",
+      "- [화성시, AI로 도시 매력 알렸다⋯ ‘별별화성...] 총 2개 언론사 집중 보도 - 화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최",
+      "- [화성도시공사, 체육시설 긴급 합동 안전점검…...] 아시아타임즈 보도 - 화성도시공사, 체육시설 긴급 합동 안전점검… 행감 지적 사항 후속 조..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(6건) 및 「산업·농정」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [독감 무료 예방접종 안내 등] 총 5개 언론사 집중 보도 - [화성소식]독감 무료 예방접종 안내 등",
-      "- [화성시문화관광재단 소식지 '화분', 대한민국...] 총 3개 언론사 집중 보도 - 화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상..."
+      "화성특례시 출범과 민선8기 전략을 선도하는 「특례시·자치」(2건) 및 「산업·농정」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- […화성시, 12월 '코리요 그랜드 페스티벌'로...] 총 5개 언론사 집중 보도 - \"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최...",
+      "- [화성시, AI로 도시 매력 알렸다⋯ ‘별별화성...] 총 2개 언론사 집중 보도 - 화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 2,
-        "ratio": 18
+        "count": 3,
+        "ratio": 21
       },
       {
         "id": "TRANSIT_INFRA",
@@ -38,27 +37,35 @@
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 1,
-        "ratio": 9
+        "ratio": 7
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 2,
-        "ratio": 18
+        "ratio": 14
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 6,
-        "ratio": 55
+        "count": 8,
+        "ratio": 57
       }
     ]
   },
   "trending_topics": [
     {
       "rank": 1,
+      "keyword": "충전 10%에 캐시백 10%",
+      "count": 5,
+      "category": "POLICY",
+      "dept": "기업투자실 지역경제과",
+      "summary": "\"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최..."
+    },
+    {
+      "rank": 2,
       "keyword": "화성소식 독감",
       "count": 5,
       "category": "POLICY",
@@ -66,7 +73,7 @@
       "summary": "[화성소식]독감 무료 예방접종 안내 등"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "keyword": "화분",
       "count": 3,
       "category": "POLICY",
@@ -74,42 +81,143 @@
       "summary": "화성시문화관광재단 소식지 '화분', 대한민국 커뮤니케이션대상 특별상..."
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "keyword": "별별화성 Awards",
+      "count": 2,
+      "category": "POLICY",
+      "dept": "자치행정국 자치분권과",
+      "summary": "화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최"
+    },
+    {
+      "rank": 5,
       "keyword": "끝까지 추적",
       "count": 2,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
       "summary": "화성시,'끝까지 추적' 고강도 징수행정 빛나…경기도 고액체납 평가 우..."
-    },
-    {
-      "rank": 4,
-      "keyword": "중장년 행복캠퍼스",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "화성특례시 중장년 행복캠퍼스 하반기 수료식 진행"
-    },
-    {
-      "rank": 5,
-      "keyword": "입파도 선착장서",
-      "count": 1,
-      "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "화성 입파도 선착장서 차량 추락"
     }
   ],
   "stats": {
-    "total": 470,
-    "major_count": 244,
+    "total": 473,
+    "major_count": 247,
     "live_count": 226,
-    "today_count": 0,
+    "today_count": 3,
     "scrap_count": 11,
     "yesterday_count": 1,
-    "policy": 300,
+    "policy": 303,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "\"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최...",
+      "link": "https://www.fnnews.com/news/202611261119091275",
+      "originallink": "https://www.fnnews.com/news/202611261119091275",
+      "media": "파이낸셜뉴스",
+      "category": "POLICY",
+      "department": "기업투자실 지역경제과",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:25",
+      "pub_timestamp": "2026-11-26T11:25:00+09:00",
+      "bullets": [
+        "- \"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최...",
+        "- 12월 1~31일 진행…3만원 이상 결제 시 1인당 최대 3만원 지원 【파이낸셜뉴스 화성=장충식 기자】경기 화성특례시가 연말 소비 시즌과 국가 단위 소비촉진 행사인 '코리아 그랜드...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "[26일 화성시] 내달 ‘코리요 그랜드 페스티벌’ 캐시백 이벤트 등",
+          "link": "https://www.asiatime.co.kr/article/20261126500072",
+          "media": "ASIATIME",
+          "time_label": "오늘 10:50",
+          "pub_timestamp": "2026-11-26T10:50:00+09:00"
+        },
+        {
+          "title": "화성특례시, 12월 '코리요 그랜드 페스티벌' 캐시백 이벤트 실시",
+          "link": "http://www.metroseoul.co.kr/article/20261126500044",
+          "media": "서울신문",
+          "time_label": "오늘 10:28",
+          "pub_timestamp": "2026-11-26T10:28:00+09:00"
+        },
+        {
+          "title": "화성시 '코리요 그랜드 페스티벌'…지역화폐 결제 10% 캐시백",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1545034",
+          "media": "OBSNEWS",
+          "time_label": "오늘 09:50",
+          "pub_timestamp": "2026-11-26T09:50:00+09:00"
+        },
+        {
+          "title": "화성시, 12월 한 달 ‘코리요 그랜드 페스티벌’ 진행",
+          "link": "https://www.sportsseoul.com/news/read/1652368?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 08:38",
+          "pub_timestamp": "2026-11-26T08:38:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.fnnews.com/resource/media/image/2026/11/19/202611191411028687_e.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최",
+      "link": "https://www.asiatime.co.kr/article/20261126500088",
+      "originallink": "https://www.asiatime.co.kr/article/20261126500088",
+      "media": "아시아타임즈",
+      "category": "POLICY",
+      "department": "자치행정국 자치분권과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:52",
+      "pub_timestamp": "2026-11-26T10:52:00+09:00",
+      "bullets": [
+        "- 화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최",
+        "- 강성규 기자입력 2026-11-26 10:50 수정 2026-11-26 10:50 전국 지자체 최고 수준 총상금 6천만원…전국서 1125개 작품 출품CF·숏폼·CM송 3개 부문 2...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성특례시, ‘2026 별별화성 Awards’ AI CF 공모전 성료… 총 1,125편 출...",
+          "link": "http://www.breaknews.com/1254036",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 08:56",
+          "pub_timestamp": "2026-11-26T08:56:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/26/.cache/512/20261126500089.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성도시공사, 체육시설 긴급 합동 안전점검… 행감 지적 사항 후속 조...",
+      "link": "https://www.asiatime.co.kr/article/20261126500045",
+      "originallink": "https://www.asiatime.co.kr/article/20261126500045",
+      "media": "아시아타임즈",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:22",
+      "pub_timestamp": "2026-11-26T09:22:00+09:00",
+      "bullets": [
+        "- 화성도시공사, 체육시설 긴급 합동 안전점검… 행감 지적 사항 후속 조...",
+        "- 강성규 기자입력 2026-11-26 09:22 수정 2026-11-26 09:22 행정사무감사서 시설 안전관리 문제 제기…화성시와 3개 체육시설 현장 점검 [아시아타임즈 경기취재본...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/26/.cache/512/20261126500046.jpg",
+      "telegram_sent": false
+    },
     {
       "title": "화성특례시 중장년 행복캠퍼스 하반기 수료식 진행",
       "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3084235",
@@ -1414,6 +1522,13 @@
           "media": "BIOTIMES",
           "time_label": "스크랩 11.23 13:44",
           "pub_timestamp": "2026-11-23T13:44:00+09:00"
+        },
+        {
+          "title": "KT 경기남부지사, 화성 소상공인연합회와 디지털 전환 맞손",
+          "link": "https://www.kyeonggi.com/article/20261126580140",
+          "media": "경기일보",
+          "time_label": "오늘 11:38",
+          "pub_timestamp": "2026-11-26T11:38:00+09:00"
         }
       ],
       "is_major": true,
@@ -8261,8 +8376,16 @@
         "- 노동착취 피해 가구를 발굴해 긴급복지지원 및 법률·자활 서비스를 연계한 위기 극복 사례로 성과 인정받음",
         "- 전국에서 접수된 긴급복지 우수사례 중 최종 7건에 선정되며 복지 위기 대응 역량을 입증함"
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, 과수농가 2곳 경기도 사과·배 품평회 장려상 수상",
+          "link": "http://www.metroseoul.co.kr/article/20261125500744",
+          "media": "서울신문",
+          "time_label": "오늘 10:28",
+          "pub_timestamp": "2026-11-26T10:28:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3082650_125176_3050_v150.jpg",
       "telegram_sent": false
     },
@@ -8918,6 +9041,13 @@
           "media": "IKLD",
           "time_label": "스크랩 11.25 16:32",
           "pub_timestamp": "2026-11-25T16:32:00+09:00"
+        },
+        {
+          "title": "경기도 아파트값 '남고북저' 양극화 심화…연초 비슷했던 동탄 10억·일...",
+          "link": "https://www.widedaily.com/news/articleView.html?idxno=304823",
+          "media": "WIDEDAILY",
+          "time_label": "오늘 10:56",
+          "pub_timestamp": "2026-11-26T10:56:00+09:00"
         }
       ],
       "is_major": true,
@@ -9465,6 +9595,13 @@
           "media": "SHINAILBO",
           "time_label": "스크랩 11.22 08:54",
           "pub_timestamp": "2026-11-22T08:54:00+09:00"
+        },
+        {
+          "title": "서울시립대 신소재공학과 실험실창업팀, 2026년 주요 창업경진대회 4관...",
+          "link": "https://news.unn.net/news/articleView.html?idxno=601459",
+          "media": "UNN",
+          "time_label": "오늘 08:48",
+          "pub_timestamp": "2026-11-26T08:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -10042,6 +10179,20 @@
           "media": "NEWSTNT",
           "time_label": "스크랩 11.13 23:28",
           "pub_timestamp": "2026-11-13T23:28:00+09:00"
+        },
+        {
+          "title": "화성시, 최대 20% 지역화폐 캐시백 이벤트 열린다",
+          "link": "https://www.nspna.com/news/?mode=view&newsid=837850",
+          "media": "NSPNA",
+          "time_label": "오늘 11:52",
+          "pub_timestamp": "2026-11-26T11:52:00+09:00"
+        },
+        {
+          "title": "지역화폐 쓰면 최대 20% 돌려받는다…화성시, 연말 소비축제 연다",
+          "link": "https://www.viva100.com/article/20261126500554",
+          "media": "VIVA100",
+          "time_label": "오늘 10:48",
+          "pub_timestamp": "2026-11-26T10:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -17394,6 +17545,48 @@
           "media": "국제뉴스",
           "time_label": "스크랩 11.25 17:04",
           "pub_timestamp": "2026-11-25T17:04:00+09:00"
+        },
+        {
+          "title": "용인시, 경기도 '2026년 주택행정 우수 시군 평가' 3년 연속 대상",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337880",
+          "media": "인천일보",
+          "time_label": "오늘 11:00",
+          "pub_timestamp": "2026-11-26T11:00:00+09:00"
+        },
+        {
+          "title": "용인시, 경기도 주택행정 3년 연속 정상…13개 시군 우수기관 선정",
+          "link": "https://www.viva100.com/article/20261126500426",
+          "media": "VIVA100",
+          "time_label": "오늘 10:08",
+          "pub_timestamp": "2026-11-26T10:08:00+09:00"
+        },
+        {
+          "title": "경기도, 주택행정 우수 시군 평가 '용인시' 대상",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=566686",
+          "media": "JOONGANGENEWS",
+          "time_label": "오늘 09:26",
+          "pub_timestamp": "2026-11-26T09:26:00+09:00"
+        },
+        {
+          "title": "경기도, 주택행정 평가 '용인시' 3년연속 대상",
+          "link": "http://www.breaknews.com/1254060",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:22",
+          "pub_timestamp": "2026-11-26T09:22:00+09:00"
+        },
+        {
+          "title": "경기도, 용인시 3년 연속 주택행정 ‘대상’ 선정",
+          "link": "https://www.sportsseoul.com/news/read/1652365?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 08:31",
+          "pub_timestamp": "2026-11-26T08:31:00+09:00"
+        },
+        {
+          "title": "경기도, 주택행정 우수 시군 13곳 선정…용인시 3년 연속 대상, 화성·파...",
+          "link": "http://www.econonews.co.kr/news/articleView.html?idxno=447736",
+          "media": "ECONONEWS",
+          "time_label": "오늘 08:20",
+          "pub_timestamp": "2026-11-26T08:20:00+09:00"
         }
       ],
       "is_major": true,
@@ -19832,6 +20025,20 @@
           "media": "SENTV",
           "time_label": "스크랩 11.20 16:32",
           "pub_timestamp": "2026-11-20T16:32:00+09:00"
+        },
+        {
+          "title": "에이아이웍스, 개발협력 대통령 표창",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887448",
+          "media": "HANSBIZ",
+          "time_label": "오늘 11:48",
+          "pub_timestamp": "2026-11-26T11:48:00+09:00"
+        },
+        {
+          "title": "화성시, 홍콩 금융·첨단산업 혁신 현장 탐방…글로벌 기업 육성 모색",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042184",
+          "media": "기호일보",
+          "time_label": "오늘 09:28",
+          "pub_timestamp": "2026-11-26T09:28:00+09:00"
         }
       ],
       "is_major": true,
