@@ -1,57 +1,53 @@
 {
-  "updated_at": "2026.11.27. 16:00",
-  "scrap_period": "전일(11.26) 08:00 ~ 금일(11.27) 08:00",
-  "yesterday_label": "11.26",
+  "updated_at": "2026.11.28. 08:00",
+  "scrap_period": "전일(11.27) 08:00 ~ 금일(11.28) 08:00",
+  "yesterday_label": "11.27",
   "macro_pulse": {
-    "report_date": "2026-11-27",
-    "article_count": 14,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(7건) 및 「교통·도시」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "report_date": "2026-11-28",
+    "article_count": 1,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「교통·도시」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [이름 사라진다…'화성남양IC'로 변경] 총 18개 언론사 집중 보도 - '화성IC' 이름 사라진다…'화성남양IC'로 변경",
-      "- [퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물...] 총 14개 언론사 집중 보도 - 퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2...",
-      "- [화성시 “불합리한 인수인계, AI가 대신한다”...] 총 14개 언론사 집중 보도 - 화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리...",
-      "- [화성특례시 노후 빌라 보수비 지원 확대] 총 7개 언론사 집중 보도 - 화성특례시 노후 빌라 보수비 지원 확대"
+      "- [화성 동탄서 SUV 인도로 돌진…오토바이 운전...] 총 12개 언론사 집중 보도 - 화성 동탄서 SUV 인도로 돌진…오토바이 운전자 등 3명 부상"
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(7건) 및 「교통·도시」(3건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [이름 사라진다…'화성남양IC'로 변경] 총 18개 언론사 집중 보도 - '화성IC' 이름 사라진다…'화성남양IC'로 변경",
-      "- [퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물...] 총 14개 언론사 집중 보도 - 퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2..."
+      "화성특례시 출범과 민선8기 전략을 선도하는 「교통·도시」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [화성 동탄서 SUV 인도로 돌진…오토바이 운전...] 총 12개 언론사 집중 보도 - 화성 동탄서 SUV 인도로 돌진…오토바이 운전자 등 3명 부상"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 11,
-        "ratio": 44
+        "count": 6,
+        "ratio": 33
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
         "count": 3,
-        "ratio": 12
+        "ratio": 17
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
         "count": 2,
-        "ratio": 8
+        "ratio": 11
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
         "count": 2,
-        "ratio": 8
+        "ratio": 11
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 7,
+        "count": 5,
         "ratio": 28
       }
     ]
@@ -60,7 +56,7 @@
     {
       "rank": 1,
       "keyword": "화성IC 이름",
-      "count": 18,
+      "count": 19,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
       "summary": "'화성IC' 이름 사라진다…'화성남양IC'로 변경"
@@ -68,48 +64,302 @@
     {
       "rank": 2,
       "keyword": "날벼락",
-      "count": 14,
+      "count": 18,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
       "summary": "퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2..."
     },
     {
       "rank": 3,
-      "keyword": "불합리한 인수인계",
-      "count": 14,
+      "keyword": "동탄서 SUV",
+      "count": 12,
       "category": "POLICY",
-      "dept": "AI스마트전략실",
-      "summary": "화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리..."
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성 동탄서 SUV 인도로 돌진…오토바이 운전자 등 3명 부상"
     },
     {
       "rank": 4,
-      "keyword": "별별화성 Awards",
-      "count": 13,
+      "keyword": "대성전",
+      "count": 7,
       "category": "POLICY",
-      "dept": "자치행정국 자치분권과",
-      "summary": "화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최"
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성 남양성모마리아성당, '대성전' 칭호 받았다"
     },
     {
       "rank": 5,
-      "keyword": "충전 10%에 캐시백 10%",
-      "count": 12,
+      "keyword": "노후 빌라",
+      "count": 7,
       "category": "POLICY",
-      "dept": "기업투자실 지역경제과",
-      "summary": "\"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최..."
+      "dept": "화성시 소관부서 확인중",
+      "summary": "화성특례시 노후 빌라 보수비 지원 확대"
     }
   ],
   "stats": {
-    "total": 495,
-    "major_count": 260,
-    "live_count": 235,
-    "today_count": 11,
-    "scrap_count": 14,
-    "yesterday_count": 0,
-    "policy": 325,
+    "total": 502,
+    "major_count": 262,
+    "live_count": 240,
+    "today_count": 0,
+    "scrap_count": 18,
+    "yesterday_count": 3,
+    "policy": 332,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "화성 동탄서 SUV 인도로 돌진…오토바이 운전자 등 3명 부상",
+      "link": "https://www.kyeonggi.com/article/20261128580001",
+      "originallink": "https://www.kyeonggi.com/article/20261128580001",
+      "media": "경기일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.28 06:34",
+      "pub_timestamp": "2026-11-28T06:34:00+09:00",
+      "bullets": [
+        "- 화성 동탄서 SUV 인도로 돌진…오토바이 운전자 등 3명 부상",
+        "- 구글 검색에서 경기일보 기사를우선적으로 보여줍니다. 사고 현장 모습. 경기도소방재난본부 제화성시 동탄구 일대의 한 사거리에서 소형 SUV와 오토바이가 충돌한 뒤 차량이 인도로 돌진...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "동탄서 승용차가 오토바이와 부딪힌 뒤 인도 돌진…3명 부상",
+          "link": "http://www.yonhapnewstv.co.kr/news/AKR20261128055250VDI",
+          "media": "연합뉴스TV",
+          "time_label": "스크랩 11.28 05:53",
+          "pub_timestamp": "2026-11-28T05:53:00+09:00"
+        },
+        {
+          "title": "화성 동탄서 승용차가 오토바이와 부딪힌뒤 인도 돌진…3명 부상",
+          "link": "https://www.yna.co.kr/view/AKR20261128007100061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "스크랩 11.28 05:48",
+          "pub_timestamp": "2026-11-28T05:48:00+09:00"
+        },
+        {
+          "title": "교차로에서 경차가 오토바이 치고 인도로 돌진‥3명 부상",
+          "link": "https://imnews.imbc.com/news/2026/society/article/6869223_36918.html",
+          "media": "MBC",
+          "time_label": "스크랩 11.28 02:26",
+          "pub_timestamp": "2026-11-28T02:26:00+09:00"
+        },
+        {
+          "title": "동탄 사거리서 오토바이 들이받은 SUV…인도로 돌진해 3명 중경상",
+          "link": "https://www.news1.kr/local/gyeonggi/6368996",
+          "media": "뉴스1",
+          "time_label": "스크랩 11.28 00:44",
+          "pub_timestamp": "2026-11-28T00:44:00+09:00"
+        },
+        {
+          "title": "30대 여성 운전 차량이 오토바이·보행자 충돌…3명 병원 이송",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3765813",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.28 00:24",
+          "pub_timestamp": "2026-11-28T00:24:00+09:00"
+        },
+        {
+          "title": "화성 동탄서 승용차 인도 돌진 사고...보행자 등 3명 부상",
+          "link": "https://www.hankookilbo.com/news/article/A2026112723510005960?did=NA",
+          "media": "한국일보",
+          "time_label": "스크랩 11.28 00:00",
+          "pub_timestamp": "2026-11-28T00:00:00+09:00"
+        },
+        {
+          "title": "화성 동탄서 승용차가 이륜차 치고 인도 돌진…3명 다쳐",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724956&ref=A",
+          "media": "KBS",
+          "time_label": "스크랩 11.27 23:46",
+          "pub_timestamp": "2026-11-27T23:46:00+09:00"
+        },
+        {
+          "title": "오토바이 치고 인도까지 덮친 신호위반 차…\"운전자, 아프다고 징징\" 목...",
+          "link": "https://www.mt.co.kr/society/2026/11/27/2026112723232826218",
+          "media": "머니투데이",
+          "time_label": "스크랩 11.27 23:44",
+          "pub_timestamp": "2026-11-27T23:44:00+09:00"
+        },
+        {
+          "title": "화성 동탄서 승용차 인도로 돌진…보행자 등 3명 부상",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1338031",
+          "media": "인천일보",
+          "time_label": "스크랩 11.27 23:12",
+          "pub_timestamp": "2026-11-27T23:12:00+09:00"
+        },
+        {
+          "title": "신호위반 차량이 오토바이·보행자 잇따라 충격...3명 부상",
+          "link": "https://www.ytn.co.kr/_ln/0103_202611272259132726",
+          "media": "YTN",
+          "time_label": "스크랩 11.27 22:59",
+          "pub_timestamp": "2026-11-27T22:59:00+09:00"
+        },
+        {
+          "title": "화성 동탄서 승용차가 오토바이 치고 인도 돌진…3명 부상",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867414&plink=ORI&cooper=NAVER",
+          "media": "SBS",
+          "time_label": "스크랩 11.27 22:58",
+          "pub_timestamp": "2026-11-27T22:58:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/28/.cache/512/20261128580002.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "[김병철 기자수첩] 화성시민사회연대의 출범, 정명근이 말하는 '동행'",
+      "link": "http://www.newstown.co.kr/news/articleView.html?idxno=723697",
+      "originallink": "http://www.newstown.co.kr/news/articleView.html?idxno=723697",
+      "media": "뉴스타운",
+      "category": "POLICY",
+      "department": "자치행정국 시민협력과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 21:02",
+      "pub_timestamp": "2026-11-27T21:02:00+09:00",
+      "bullets": [
+        "- [김병철 기자수첩] 화성시민사회연대의 출범, 정명근이 말하는 '동행'",
+        "- 지역 시민사회의 경험을 하나로…현장의 목소리를 정책 기획과 실행에 연결하는 시민협치 정명근 화성특례시장 [뉴스타운/김병철 대기자] 지역에서 오랫동안 활동해 온 시민사회가 하나의 연...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.newstown.co.kr/news/thumbnail/202611/723697_680253_4517_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 노인보건센터 성과보고회 성료",
+      "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042384",
+      "originallink": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042384",
+      "media": "기호일보",
+      "category": "POLICY",
+      "department": "돌봄복지국 통합돌봄과",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 18:08",
+      "pub_timestamp": "2026-11-27T18:08:00+09:00",
+      "bullets": [
+        "- 화성시 노인보건센터 성과보고회 성료",
+        "- 화성시 노인보건센터 성과보고회 참석자들이 기념촬영을 하고 있다. <동남보건대학교 제공> 동남보건대학교 산학협력단이 위탁 운영하는 화성시 노인보건센터가 지난 26일 성과보고회를 개최...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.kihoilbo.co.kr/news/photo/202611/3042384_587227_555.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시의회 기획행정위원회, 소관기관 현장 점검과 자원봉사활동 펼...",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2498306",
+      "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2498306",
+      "media": "이뉴스투데이",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 18:00",
+      "pub_timestamp": "2026-11-27T18:00:00+09:00",
+      "bullets": [
+        "- 화성특례시의회 기획행정위원회, 소관기관 현장 점검과 자원봉사활동 펼...",
+        "- [이뉴스투데이 수도권1취재본부 이배윤기자] 화성특례시의회 기획행정위원회(위원장 배현경)는 27일 AI혁신센터와 화성시자원봉사센터를 찾아 주요 사업을 점검하고 자원봉사활동을 펼쳤다....",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2498306_1346055_4538_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시, 농촌 10년 청사진 짠다…12월부터 주민 의견 수렴",
+      "link": "https://view.asiae.co.kr/article/2026112717375578991",
+      "originallink": "https://view.asiae.co.kr/article/2026112717375578991",
+      "media": "아시아경제",
+      "category": "POLICY",
+      "department": "자치행정국 자치분권과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 17:37",
+      "pub_timestamp": "2026-11-27T17:37:00+09:00",
+      "bullets": [
+        "- 화성시, 농촌 10년 청사진 짠다…12월부터 주민 의견 수렴",
+        "- 화성시, 2027~2036년 기본계획 수립 착수 정주여건·생활서비스 등 4개 분야 과제 마련 읍·면별 생활 여건 분석 권역별 발전전략 수립 마을보호·축산·산업 등 8개 특화지구 지...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cphoto.asiae.co.kr/listimglink/1/2026112717333327022_1795768414.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "농식품부, 화성 딸기·포도 농가 폭설 복구·겨울 대비 점검",
+      "link": "https://www.newsis.com/view/NISX20261127_0003885482",
+      "originallink": "https://www.newsis.com/view/NISX20261127_0003885482",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 16:30",
+      "pub_timestamp": "2026-11-27T16:30:00+09:00",
+      "bullets": [
+        "- 농식품부, 화성 딸기·포도 농가 폭설 복구·겨울 대비 점검",
+        "- 김정욱 농산업혁신정책실장, 시설하우스 현장 방문 노후 시설 보강·배수로 정비·제설장비 준비 당부 \"재해 발생 시 복구비·보험금 신속 지원\" [서울=뉴시스] 추상철 기자 = 밤새 폭...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2024/11/28/NISI20241128_0020610447_web.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시약, 달빛어린이병원 협력약국 지원 추진",
+      "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=550100",
+      "originallink": "https://www.kpanews.co.kr/news/articleView.html?idxno=550100",
+      "media": "약사공론",
+      "category": "POLICY",
+      "department": "기획조정실 의회법무과",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 16:18",
+      "pub_timestamp": "2026-11-27T16:18:00+09:00",
+      "bullets": [
+        "- 화성시약, 달빛어린이병원 협력약국 지원 추진",
+        "- 화성시약사회 제공. 화성시약사회가 달빛어린이병원 협력약국의 야간·휴일 운영에 따른 경영 부담을 해소하기 위해 지자체 예산 지원을 추진한다. 화성시약사회는 27일 동탄구보건소와 실무...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성시약, 달빛어린이병원 협력약국 운영지원 추진",
+          "link": "https://www.dailypharm.com/user/news/345137?REFERER=NP",
+          "media": "DAILYPHARM",
+          "time_label": "스크랩 11.27 16:06",
+          "pub_timestamp": "2026-11-27T16:06:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.kpanews.co.kr/news/photo/202611/550100_454113_1652.jpg",
+      "telegram_sent": true
+    },
     {
       "title": "화성 남양성모마리아성당, '대성전' 칭호 받았다",
       "link": "https://www.jasm.co.kr/news/view/326732/?sc=Naver",
@@ -121,8 +371,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:48",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 15:48",
       "pub_timestamp": "2026-11-27T15:48:00+09:00",
       "bullets": [
         "- 화성 남양성모마리아성당, '대성전' 칭호 받았다",
@@ -157,6 +407,20 @@
           "media": "중부일보",
           "time_label": "오늘 14:48",
           "pub_timestamp": "2026-11-27T14:48:00+09:00"
+        },
+        {
+          "title": "병인박해 순교지 화성 남양성모마리아성당, 교황청 ‘대성전’ 승격…...",
+          "link": "https://news-s.kr/view.html?id=L2611280108069d12",
+          "media": "NEWS-S",
+          "time_label": "스크랩 11.28 01:20",
+          "pub_timestamp": "2026-11-28T01:20:00+09:00"
+        },
+        {
+          "title": "교황, 화성 남양성모마리아 성당에 '대성전' 지위",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1545238",
+          "media": "OBSNEWS",
+          "time_label": "스크랩 11.27 18:18",
+          "pub_timestamp": "2026-11-27T18:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -174,8 +438,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 15:08",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 15:08",
       "pub_timestamp": "2026-11-27T15:08:00+09:00",
       "bullets": [
         "- 화성시, 난개발 막고 살기 좋은 농촌 만든다…2036년까지 공간 혁신 추진",
@@ -198,8 +462,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 11:34",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 11:34",
       "pub_timestamp": "2026-11-27T11:34:00+09:00",
       "bullets": [
         "- 퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2...",
@@ -297,6 +561,34 @@
           "media": "경인방송",
           "time_label": "오늘 12:20",
           "pub_timestamp": "2026-11-27T12:20:00+09:00"
+        },
+        {
+          "title": "화물차 돌출 적재물에 날벼락…스리랑카 노동자 2명 숨져",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8725017&ref=A",
+          "media": "KBS",
+          "time_label": "스크랩 11.28 06:21",
+          "pub_timestamp": "2026-11-28T06:21:00+09:00"
+        },
+        {
+          "title": "퇴근하던 30대男 2명, 화물차 적재물에 맞아 숨져",
+          "link": "https://www.munhwa.com/article/11634713?ref=naver",
+          "media": "문화일보",
+          "time_label": "스크랩 11.27 20:24",
+          "pub_timestamp": "2026-11-27T20:24:00+09:00"
+        },
+        {
+          "title": "화물차 돌출 적재물에 스리랑카 노동자 2명 숨져",
+          "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4121421",
+          "media": "BBSI",
+          "time_label": "스크랩 11.27 17:38",
+          "pub_timestamp": "2026-11-27T17:38:00+09:00"
+        },
+        {
+          "title": "화물차 적재물에 맞아 30대 남성 2명 사망",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1338021",
+          "media": "인천일보",
+          "time_label": "스크랩 11.27 16:50",
+          "pub_timestamp": "2026-11-27T16:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -314,8 +606,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 11:16",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 11:16",
       "pub_timestamp": "2026-11-27T11:16:00+09:00",
       "bullets": [
         "- '화성IC' 이름 사라진다…'화성남양IC'로 변경",
@@ -441,6 +733,13 @@
           "media": "DISCOVERYNEWS",
           "time_label": "오늘 12:10",
           "pub_timestamp": "2026-11-27T12:10:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 화성시민사회연대 출범 축하...시민협치·소통 강화",
+          "link": "https://www.ajunews.com/view/20261127163721052",
+          "media": "아주경제",
+          "time_label": "스크랩 11.27 17:08",
+          "pub_timestamp": "2026-11-27T17:08:00+09:00"
         }
       ],
       "is_major": true,
@@ -458,8 +757,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:52",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 10:52",
       "pub_timestamp": "2026-11-27T10:52:00+09:00",
       "bullets": [
         "- 화성시, 외국인 무료진료 143명에 의료서비스 426건 제공",
@@ -482,8 +781,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:50",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 10:50",
       "pub_timestamp": "2026-11-27T10:50:00+09:00",
       "bullets": [
         "- 화성특례시 노후 빌라 보수비 지원 확대",
@@ -549,8 +848,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:26",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 10:26",
       "pub_timestamp": "2026-11-27T10:26:00+09:00",
       "bullets": [
         "- 화성시, 작은 아이디어가 행정의 내일을 바꾸다",
@@ -573,8 +872,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:17",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 10:17",
       "pub_timestamp": "2026-11-27T10:17:00+09:00",
       "bullets": [
         "- 화성시 공직자의 손 끝에서 AI행정 혁신 시작된다",
@@ -597,8 +896,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 10:14",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 10:14",
       "pub_timestamp": "2026-11-27T10:14:00+09:00",
       "bullets": [
         "- 화성 작가 작품 60점, 0원부터…서울옥션 '제로베이스' 경매",
@@ -629,8 +928,8 @@
       "theme_id": "CULTURE_ECO",
       "theme": "문화관광 · 해양생태 브랜드",
       "theme_short": "문화·관광",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 09:30",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 09:30",
       "pub_timestamp": "2026-11-27T09:30:00+09:00",
       "bullets": [
         "- 신진 작가와 새 컬렉터의 만남, 서울옥션 《ZERO BASE × 화성》 개최",
@@ -653,8 +952,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "TODAY_LIVE",
-      "time_label": "오늘 08:34",
+      "date_group": "MORNING_SCRAP",
+      "time_label": "스크랩 11.27 08:34",
       "pub_timestamp": "2026-11-27T08:34:00+09:00",
       "bullets": [
         "- 청소년 손끝에서 되살아난 화성 독립운동…AI로 잇는 '만세의 기억'",
@@ -677,8 +976,8 @@
       "theme_id": "TRANSIT_INFRA",
       "theme": "광역 교통망 · 균형발전 도시인프라",
       "theme_short": "교통·도시",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.27 07:35",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:35",
       "pub_timestamp": "2026-11-27T07:35:00+09:00",
       "bullets": [
         "- 화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
@@ -730,8 +1029,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.27 07:22",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 07:22",
       "pub_timestamp": "2026-11-27T07:22:00+09:00",
       "bullets": [
         "- 화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리...",
@@ -829,6 +1128,34 @@
           "media": "서울신문",
           "time_label": "오늘 13:48",
           "pub_timestamp": "2026-11-27T13:48:00+09:00"
+        },
+        {
+          "title": "화성특례시 '화성바통', 공공 AI 대전환 챌린지 대상…국무총리상 수상",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3765697",
+          "media": "국제뉴스",
+          "time_label": "스크랩 11.27 20:28",
+          "pub_timestamp": "2026-11-27T20:28:00+09:00"
+        },
+        {
+          "title": "화성특례시, 공무원이 개발한 AI 인수인계 도우미 국무총리상 수상",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=888207",
+          "media": "HANSBIZ",
+          "time_label": "스크랩 11.27 18:34",
+          "pub_timestamp": "2026-11-27T18:34:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 상생기업 장관 표창·'나무엑스' 산업 AI 국제표준 포럼상...",
+          "link": "http://www.dailypop.kr/news/articleView.html?idxno=105129",
+          "media": "DAILYPOP",
+          "time_label": "스크랩 11.27 17:40",
+          "pub_timestamp": "2026-11-27T17:40:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '2026 동반선장 주간 기념식'서 중기부 장관 표창 수상",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2498218",
+          "media": "이뉴스투데이",
+          "time_label": "스크랩 11.27 16:48",
+          "pub_timestamp": "2026-11-27T16:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -846,8 +1173,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.27 06:00",
+      "date_group": "YESTERDAY",
+      "time_label": "어제 06:00",
       "pub_timestamp": "2026-11-27T06:00:00+09:00",
       "bullets": [
         "- 김치 담그고 식품 표시 읽고…화성 초등학교로 찾아가는 식생활 수업",
@@ -870,8 +1197,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 23:42",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 23:42",
       "pub_timestamp": "2026-11-26T23:42:00+09:00",
       "bullets": [
         "- 화성특례시, 직원 개발 '위-원' 내년 3월 운영 추진",
@@ -965,8 +1292,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 21:04",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 21:04",
       "pub_timestamp": "2026-11-26T21:04:00+09:00",
       "bullets": [
         "- 조정옥 화성특례시의원, 여성기업 수의계약 특례 운영 실태 점검 주문",
@@ -980,6 +1307,13 @@
           "media": "ASIATIME",
           "time_label": "오늘 09:38",
           "pub_timestamp": "2026-11-27T09:38:00+09:00"
+        },
+        {
+          "title": "조정옥 화성시의원, 여성기업 수의계약 특례 운영 실태 점검 주문",
+          "link": "https://www.etnews.com/20261127000345",
+          "media": "전자신문",
+          "time_label": "스크랩 11.27 18:34",
+          "pub_timestamp": "2026-11-27T18:34:00+09:00"
         }
       ],
       "is_major": true,
@@ -997,8 +1331,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 20:14",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 20:14",
       "pub_timestamp": "2026-11-26T20:14:00+09:00",
       "bullets": [
         "- 사조씨푸드, 화성 물류센터 잔금 630억원 지급 완료",
@@ -1021,8 +1355,8 @@
       "theme_id": "WELFARE_SAFETY",
       "theme": "포용 복지안전 · 생활환경 돌봄",
       "theme_short": "복지·안전",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 19:40",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 19:40",
       "pub_timestamp": "2026-11-26T19:40:00+09:00",
       "bullets": [
         "- 화성 남양읍 양주 광적면과 복지사업 공유",
@@ -1045,8 +1379,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 16:50",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 16:50",
       "pub_timestamp": "2026-11-26T16:50:00+09:00",
       "bullets": [
         "- 화성시 알릴 AI 콘텐츠 1125편 경쟁…도시 홍보에 시민 상상력 입힌다",
@@ -1069,8 +1403,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 15:52",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 15:52",
       "pub_timestamp": "2026-11-26T15:52:00+09:00",
       "bullets": [
         "- 서울경기양돈농협, 화성 송산농협에 1000만 원 상당 영농자재 지원",
@@ -1101,8 +1435,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 15:28",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 15:28",
       "pub_timestamp": "2026-11-26T15:28:00+09:00",
       "bullets": [
         "- 예산은 3배, 관리는 제자리…화성시 유소년 축구 운영체계 도마",
@@ -1125,8 +1459,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 14:08",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 14:08",
       "pub_timestamp": "2026-11-26T14:08:00+09:00",
       "bullets": [
         "- AI로 그린 화성, 시민의 상상력이 도시를 담다",
@@ -1149,8 +1483,8 @@
       "theme_id": "INDUSTRY_AGRI",
       "theme": "미래 첨단산업 · 스마트 농축수산",
       "theme_short": "산업·농정",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 11:25",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 11:25",
       "pub_timestamp": "2026-11-26T11:25:00+09:00",
       "bullets": [
         "- \"충전 10%에 캐시백 10%\"…화성시, 12월 '코리요 그랜드 페스티벌'로 최...",
@@ -1251,8 +1585,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 10:52",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 10:52",
       "pub_timestamp": "2026-11-26T10:52:00+09:00",
       "bullets": [
         "- 화성시, AI로 도시 매력 알렸다⋯ ‘별별화성 Awards’ 시상식 개최",
@@ -1360,8 +1694,8 @@
       "theme_id": "AUTONOMY_ADMIN",
       "theme": "특례시 자치분권 · 시민소통 행정",
       "theme_short": "특례시·자치",
-      "date_group": "MORNING_SCRAP",
-      "time_label": "스크랩 11.26 09:22",
+      "date_group": "2026-11-26",
+      "time_label": "11.26 09:22",
       "pub_timestamp": "2026-11-26T09:22:00+09:00",
       "bullets": [
         "- 화성도시공사, 체육시설 긴급 합동 안전점검… 행감 지적 사항 후속 조...",
@@ -2465,6 +2799,13 @@
           "media": "MEGAECONOMY",
           "time_label": "오늘 15:56",
           "pub_timestamp": "2026-11-27T15:56:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 상생협력 공로 중기부 장관표창",
+          "link": "http://www.finomy.com/news/articleView.html?idxno=268208",
+          "media": "FINOMY",
+          "time_label": "스크랩 11.27 19:06",
+          "pub_timestamp": "2026-11-27T19:06:00+09:00"
         }
       ],
       "is_major": true,
@@ -7777,6 +8118,13 @@
           "media": "경기일보",
           "time_label": "오늘 14:38",
           "pub_timestamp": "2026-11-25T14:38:00+09:00"
+        },
+        {
+          "title": "첨단물류 거점으로 경기국제공항 조성…화성 주민들도 유치 의지",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1338024",
+          "media": "인천일보",
+          "time_label": "스크랩 11.27 17:30",
+          "pub_timestamp": "2026-11-27T17:30:00+09:00"
         }
       ],
       "is_major": true,
@@ -15218,6 +15566,13 @@
           "media": "ETODAY",
           "time_label": "오늘 08:52",
           "pub_timestamp": "2026-11-27T08:52:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스 '2026 올해의 상생기업 대상' 중기부장관 표창 수상·웰니스...",
+          "link": "http://www.wsobi.com/news/articleView.html?idxno=322763",
+          "media": "WSOBI",
+          "time_label": "스크랩 11.27 16:10",
+          "pub_timestamp": "2026-11-27T16:10:00+09:00"
         }
       ],
       "is_major": true,
@@ -21603,6 +21958,13 @@
           "media": "세계일보",
           "time_label": "스크랩 11.27 01:42",
           "pub_timestamp": "2026-11-27T01:42:00+09:00"
+        },
+        {
+          "title": "오산대학교, 앵커사업 AI·DX 기반 생산 기술 컨퍼런스 성료",
+          "link": "https://www.job-post.co.kr/news/articleView.html?idxno=241620",
+          "media": "JOB-POST",
+          "time_label": "스크랩 11.27 18:02",
+          "pub_timestamp": "2026-11-27T18:02:00+09:00"
         }
       ],
       "is_major": true,
@@ -22969,6 +23331,13 @@
           "media": "DDAILY",
           "time_label": "오늘 13:52",
           "pub_timestamp": "2026-11-27T13:52:00+09:00"
+        },
+        {
+          "title": "예산군, AI 활용해 농촌의 미래 설계할 주민리더 40명 양성",
+          "link": "https://www.aflnews.co.kr/news/articleView.html?idxno=332636",
+          "media": "AFLNEWS",
+          "time_label": "스크랩 11.27 17:18",
+          "pub_timestamp": "2026-11-27T17:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -27207,6 +27576,13 @@
           "media": "IKLD",
           "time_label": "오늘 14:32",
           "pub_timestamp": "2026-11-27T14:32:00+09:00"
+        },
+        {
+          "title": "광진·영등포마저 꺾였다…서울 집값 하락 지역 9곳으로",
+          "link": "https://www.mk.co.kr/article/12220279",
+          "media": "매일경제",
+          "time_label": "스크랩 11.27 16:27",
+          "pub_timestamp": "2026-11-27T16:27:00+09:00"
         }
       ],
       "is_major": true,
@@ -34979,6 +35355,20 @@
           "media": "INEWS24",
           "time_label": "오늘 13:26",
           "pub_timestamp": "2026-11-27T13:26:00+09:00"
+        },
+        {
+          "title": "화성시, 2027~2036년 농촌공간 재구조화 기본계획 착수…특화지구 발굴...",
+          "link": "https://www.newstnt.com/news/articleView.html?idxno=731045",
+          "media": "NEWSTNT",
+          "time_label": "스크랩 11.27 19:50",
+          "pub_timestamp": "2026-11-27T19:50:00+09:00"
+        },
+        {
+          "title": "화성특례시, 10년 미래 담은 농촌공간 재생 기본계획 수립 착수",
+          "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=401062",
+          "media": "FNTODAY",
+          "time_label": "스크랩 11.27 16:12",
+          "pub_timestamp": "2026-11-27T16:12:00+09:00"
         }
       ],
       "is_major": true,
