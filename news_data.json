@@ -1,57 +1,58 @@
 {
-  "updated_at": "2026.11.27. 08:00",
+  "updated_at": "2026.11.27. 12:00",
   "scrap_period": "전일(11.26) 08:00 ~ 금일(11.27) 08:00",
   "yesterday_label": "11.26",
   "macro_pulse": {
     "report_date": "2026-11-27",
-    "article_count": 3,
-    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(2건) 및 「교통·도시」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+    "article_count": 12,
+    "overview": "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(6건) 및 「교통·도시」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
     "main_points": [
-      "- [화성시, 노후 소규모 공동주택 보수 지원 확대...] м„ңмҡёPn 보도 - 화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
-      "- [화성시 “불합리한 인수인계, AI가 대신한다”...] 아시아경제 보도 - 화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리...",
-      "- [김치 담그고 식품 표시 읽고…화성 초등학교로...] VEGANNEWS 보도 - 김치 담그고 식품 표시 읽고…화성 초등학교로 찾아가는 식생활 수업"
+      "- [이름 사라진다…'화성남양IC'로 변경] 총 9개 언론사 집중 보도 - '화성IC' 이름 사라진다…'화성남양IC'로 변경",
+      "- [화성특례시 노후 빌라 보수비 지원 확대] 총 4개 언론사 집중 보도 - 화성특례시 노후 빌라 보수비 지원 확대",
+      "- [화성시, 노후 소규모 공동주택 보수 지원 확대...] 총 4개 언론사 집중 보도 - 화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
+      "- [화성시 “불합리한 인수인계, AI가 대신한다”...] 총 4개 언론사 집중 보도 - 화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리..."
     ],
     "risk_cautions": [],
     "summary_bullets": [
-      "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(2건) 및 「교통·도시」(1건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
-      "- [화성시, 노후 소규모 공동주택 보수 지원 확대...] м„ңмҡёPn 보도 - 화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
-      "- [화성시 “불합리한 인수인계, AI가 대신한다”...] 아시아경제 보도 - 화성시 “불합리한 인수인계, AI가 대신한다”…‘화성바통’ 국무총리..."
+      "화성특례시 출범과 민선8기 전략을 선도하는 「산업·농정」(6건) 및 「교통·도시」(2건) 분야를 중심으로 시정 핵심 정책 및 주요 현안 보도가 집중되었습니다.",
+      "- [이름 사라진다…'화성남양IC'로 변경] 총 9개 언론사 집중 보도 - '화성IC' 이름 사라진다…'화성남양IC'로 변경",
+      "- [화성특례시 노후 빌라 보수비 지원 확대] 총 4개 언론사 집중 보도 - 화성특례시 노후 빌라 보수비 지원 확대"
     ],
     "theme_stats": [
       {
         "id": "INDUSTRY_AGRI",
         "name": "미래 첨단산업 · 스마트 농축수산",
         "short_name": "산업·농정",
-        "count": 6,
+        "count": 10,
         "ratio": 43
       },
       {
         "id": "TRANSIT_INFRA",
         "name": "광역 교통망 · 균형발전 도시인프라",
         "short_name": "교통·도시",
-        "count": 1,
-        "ratio": 7
+        "count": 2,
+        "ratio": 9
       },
       {
         "id": "CULTURE_ECO",
         "name": "문화관광 · 해양생태 브랜드",
         "short_name": "문화·관광",
-        "count": 0,
-        "ratio": 0
+        "count": 2,
+        "ratio": 9
       },
       {
         "id": "WELFARE_SAFETY",
         "name": "포용 복지안전 · 생활환경 돌봄",
         "short_name": "복지·안전",
-        "count": 1,
-        "ratio": 7
+        "count": 2,
+        "ratio": 9
       },
       {
         "id": "AUTONOMY_ADMIN",
         "name": "특례시 자치분권 · 시민소통 행정",
         "short_name": "특례시·자치",
-        "count": 6,
-        "ratio": 43
+        "count": 7,
+        "ratio": 30
       }
     ]
   },
@@ -75,40 +76,351 @@
     {
       "rank": 3,
       "keyword": "위-원",
-      "count": 7,
+      "count": 10,
       "category": "POLICY",
       "dept": "AI스마트전략실",
       "summary": "화성특례시, 직원 개발 '위-원' 내년 3월 운영 추진"
     },
     {
       "rank": 4,
-      "keyword": "서울경기양돈농협 송산농협에",
-      "count": 2,
+      "keyword": "화성IC 이름",
+      "count": 9,
       "category": "POLICY",
       "dept": "화성시 소관부서 확인중",
-      "summary": "서울경기양돈농협, 화성 송산농협에 1000만 원 상당 영농자재 지원"
+      "summary": "'화성IC' 이름 사라진다…'화성남양IC'로 변경"
     },
     {
       "rank": 5,
-      "keyword": "노후 소규모",
-      "count": 1,
+      "keyword": "화성도시공사 체육시설",
+      "count": 5,
       "category": "POLICY",
-      "dept": "화성시 소관부서 확인중",
-      "summary": "화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억..."
+      "dept": "기획조정실 의회법무과",
+      "summary": "화성도시공사, 체육시설 긴급 합동 안전점검… 행감 지적 사항 후속 조..."
     }
   ],
   "stats": {
-    "total": 484,
-    "major_count": 249,
+    "total": 493,
+    "major_count": 258,
     "live_count": 235,
-    "today_count": 0,
+    "today_count": 9,
     "scrap_count": 14,
     "yesterday_count": 0,
-    "policy": 314,
+    "policy": 323,
     "culture": 121,
     "risk": 49
   },
   "articles": [
+    {
+      "title": "퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2...",
+      "link": "https://www.seoul.co.kr/news/society/accident/2026/11/27/20261127500124?wlog_tag3=naver",
+      "originallink": "https://www.seoul.co.kr/news/society/accident/2026/11/27/20261127500124?wlog_tag3=naver",
+      "media": "서울신문",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:34",
+      "pub_timestamp": "2026-11-27T11:34:00+09:00",
+      "bullets": [
+        "- 퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2...",
+        "- 퇴근길 웬 ‘날벼락’…화성서 화물차 돌출적재물에 스리랑카 노동자 2명 숨져 안승순 기자 입력 2026-11-27 11:32 수정 2026-11-27 11:32 기사 읽어주기 다시듣...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화물차 돌출 적재물에 퇴근길 스리랑카 노동자 2명 숨져",
+          "link": "https://www.yna.co.kr/view/AKR20261127071600061?input=1195m",
+          "media": "연합뉴스",
+          "time_label": "오늘 11:24",
+          "pub_timestamp": "2026-11-27T11:24:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://img.seoul.co.kr//img/upload/2026/11/27/SSC_20261127113205_O2.jpg.webp",
+      "telegram_sent": true
+    },
+    {
+      "title": "'화성IC' 이름 사라진다…'화성남양IC'로 변경",
+      "link": "https://www.sentv.co.kr/article/view/sentv202611270085",
+      "originallink": "https://www.sentv.co.kr/article/view/sentv202611270085",
+      "media": "(주) 서울경제티브이",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "TRANSIT_INFRA",
+      "theme": "광역 교통망 · 균형발전 도시인프라",
+      "theme_short": "교통·도시",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 11:16",
+      "pub_timestamp": "2026-11-27T11:16:00+09:00",
+      "bullets": [
+        "- '화성IC' 이름 사라진다…'화성남양IC'로 변경",
+        "- 지역명 반영해 위치 혼선 줄인다…도로 안내시설도 순차 교체 [ⓒ 서울경제TV(www.sentv.co.kr), 무단 전재 및 재배포 금지] kimjas3@sedaily.com02) ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "봉담~송산고속도로 화성IC 명칭 '화성남양IC' 로 변경",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3084501",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 11:14",
+          "pub_timestamp": "2026-11-27T11:14:00+09:00"
+        },
+        {
+          "title": "[화성소식]봉담~송산고속도로 '화성IC→화성남양IC' 등",
+          "link": "https://www.newsis.com/view/NISX20261127_0003885979",
+          "media": "뉴시스",
+          "time_label": "오늘 11:13",
+          "pub_timestamp": "2026-11-27T11:13:00+09:00"
+        },
+        {
+          "title": "화성특례시, 봉담~송산고속도로 '화성IC'를 '화성남양IC'로 변경",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2024264",
+          "media": "매일일보",
+          "time_label": "오늘 10:54",
+          "pub_timestamp": "2026-11-27T10:54:00+09:00"
+        },
+        {
+          "title": "화성시, 봉담~송산고속도로 명칭 ‘화성남양IC’ 변경",
+          "link": "https://www.sportsseoul.com/news/read/1652702?ref=naver",
+          "media": "스포츠서울",
+          "time_label": "오늘 10:22",
+          "pub_timestamp": "2026-11-27T10:22:00+09:00"
+        },
+        {
+          "title": "화성시, 봉담~송산고속도로 '화성IC' 명칭 '화성남양IC'로 변경",
+          "link": "https://www.fnnews.com/news/202611271012552869",
+          "media": "파이낸셜뉴스",
+          "time_label": "오늘 10:19",
+          "pub_timestamp": "2026-11-27T10:19:00+09:00"
+        },
+        {
+          "title": "수도권 제2순환고속도로 화성IC 명칭 '화성남양IC'로 변경",
+          "link": "https://www.sidae.com/article/2026112708385462740",
+          "media": "SIDAE",
+          "time_label": "오늘 09:20",
+          "pub_timestamp": "2026-11-27T09:20:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 남양권역 고속도로 이용 편의 개선…화성남양IC 명칭...",
+          "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33457",
+          "media": "현장뉴스",
+          "time_label": "스크랩 11.27 07:48",
+          "pub_timestamp": "2026-11-27T07:48:00+09:00"
+        },
+        {
+          "title": "정명근 화성시장, 제33회 경기일보 공직대상 자치경영대상 수상",
+          "link": "https://www.ajunews.com/view/20261125155743901",
+          "media": "아주경제",
+          "time_label": "11.25 16:08",
+          "pub_timestamp": "2026-11-25T16:08:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://www.sentv.co.kr/data/sentv/image/2026/11/27/sentv20261127000079.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 외국인 무료진료 143명에 의료서비스 426건 제공",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2024260",
+      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2024260",
+      "media": "매일일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "WELFARE_SAFETY",
+      "theme": "포용 복지안전 · 생활환경 돌봄",
+      "theme_short": "복지·안전",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:52",
+      "pub_timestamp": "2026-11-27T10:52:00+09:00",
+      "bullets": [
+        "- 화성시, 외국인 무료진료 143명에 의료서비스 426건 제공",
+        "- 26일 열린 2026년 외국인 무료 진료 성과평가회에서 참석자들이 기념촬영을 하고 있다. 사진=만세구보건소 매일일보 = 한철희 기자 | 화성특례시가 외국인 근로자와 다문화가정 등 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.m-i.kr/news/photo/202611/2024260_2025131_3926.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성특례시 노후 빌라 보수비 지원 확대",
+      "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3084500",
+      "originallink": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3084500",
+      "media": "NEWSCLAIM",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "AUTONOMY_ADMIN",
+      "theme": "특례시 자치분권 · 시민소통 행정",
+      "theme_short": "특례시·자치",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:50",
+      "pub_timestamp": "2026-11-27T10:50:00+09:00",
+      "bullets": [
+        "- 화성특례시 노후 빌라 보수비 지원 확대",
+        "- 2027년 소규모 공동주택 지원사업 신청 접수 사용승인 10년 이상 연립· 다세대주택 대상… 12월 1일부터 31일까지 신청 2027년 화성시 소규모 공동주택 지원사업 안내문. 화...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "화성시, 노후 공동주택 보수비 최대 90% 지원 확대",
+          "link": "http://www.breaknews.com/1254525",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:14",
+          "pub_timestamp": "2026-11-27T09:14:00+09:00"
+        },
+        {
+          "title": "화성시, 소규모 노후 공동주택 보수 공사비 지원 단지 모집",
+          "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1545170",
+          "media": "OBSNEWS",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-27T09:00:00+09:00"
+        },
+        {
+          "title": "화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
+          "link": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/11/27/20261127500008?wlog_tag3=naver",
+          "media": "서울신문",
+          "time_label": "스크랩 11.27 07:35",
+          "pub_timestamp": "2026-11-27T07:35:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://cdn.newsclaim.co.kr/news/thumbnail/202611/3084500_127091_4550_v150.jpg",
+      "telegram_sent": true
+    },
+    {
+      "title": "화성시, 작은 아이디어가 행정의 내일을 바꾸다",
+      "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=95744",
+      "originallink": "https://www.thefairnews.co.kr/news/articleView.html?idxno=95744",
+      "media": "더페어",
+      "category": "POLICY",
+      "department": "AI스마트전략실",
+      "dept_label": "소관",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:26",
+      "pub_timestamp": "2026-11-27T10:26:00+09:00",
+      "bullets": [
+        "- 화성시, 작은 아이디어가 행정의 내일을 바꾸다",
+        "- 신환철 화성특례시 AI스마트전략실 빅데이터팀장(오른쪽)이 지난 25일 고양 킨텍스에서 열린 「2026년 공공 AI 대전환 챌린지」 시상식에서 윤호중 행정안전부 장관(왼쪽)으로부터 ...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.thefairnews.co.kr/news/thumbnail/202611/95744_143285_243_v150.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성시 공직자의 손 끝에서 AI행정 혁신 시작된다",
+      "link": "https://www.newsis.com/view/NISX20261127_0003885834",
+      "originallink": "https://www.newsis.com/view/NISX20261127_0003885834",
+      "media": "뉴시스",
+      "category": "POLICY",
+      "department": "AI스마트전략실",
+      "dept_label": "소관",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:17",
+      "pub_timestamp": "2026-11-27T10:17:00+09:00",
+      "bullets": [
+        "- 화성시 공직자의 손 끝에서 AI행정 혁신 시작된다",
+        "- 신환철 화성시 빅데이터팀장, 행안부 AI 챌린지 대회 '대상' 바이브 코딩으로 업무인수인계 도우미 '화성바통' 개발 [화성=뉴시스] 신환철 화성시 빅데이터팀장(사진 오른쪽 첫번째)...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://img1.newsis.com/2026/11/27/NISI20261127_0002304029_web.jpg",
+      "telegram_sent": false
+    },
+    {
+      "title": "화성 작가 작품 60점, 0원부터…서울옥션 '제로베이스' 경매",
+      "link": "https://www.fnnews.com/news/202611270957063615",
+      "originallink": "https://www.fnnews.com/news/202611270957063615",
+      "media": "파이낸셜뉴스",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 10:14",
+      "pub_timestamp": "2026-11-27T10:14:00+09:00",
+      "bullets": [
+        "- 화성 작가 작품 60점, 0원부터…서울옥션 '제로베이스' 경매",
+        "- 작가 10명 참여, 출품작은 5월의 두 배 강남센터 5층서 12월 1일까지 무료 관람 12월 2일 오후 2시부터 작품별 순차 마감 지난 26일 서울 강남구 서울옥션 강남센터 5층에...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [
+        {
+          "title": "시작가 0원…서울옥션, 화성 작가 10인 작품 60점 경매",
+          "link": "https://www.newsis.com/view/NISX20261127_0003885705",
+          "media": "뉴시스",
+          "time_label": "오늘 09:31",
+          "pub_timestamp": "2026-11-27T09:31:00+09:00"
+        }
+      ],
+      "is_major": true,
+      "image_url": "https://image.fnnews.com/resource/media/image/2026/11/27/202611270958183677_e.png",
+      "telegram_sent": true
+    },
+    {
+      "title": "신진 작가와 새 컬렉터의 만남, 서울옥션 《ZERO BASE × 화성》 개최",
+      "link": "https://www.handmk.com/news/articleView.html?idxno=45505",
+      "originallink": "https://www.handmk.com/news/articleView.html?idxno=45505",
+      "media": "핸드메이커(handmaker)",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "CULTURE_ECO",
+      "theme": "문화관광 · 해양생태 브랜드",
+      "theme_short": "문화·관광",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 09:30",
+      "pub_timestamp": "2026-11-27T09:30:00+09:00",
+      "bullets": [
+        "- 신진 작가와 새 컬렉터의 만남, 서울옥션 《ZERO BASE × 화성》 개최",
+        "- 《ZERO BASE × 화성》 /서울옥션 서울옥션이 화성시문화관광재단과 함께 지난 26일부터 오는 12월 1일까지 강남센터 5층에서 《ZERO BASE × 화성》 프리뷰 전시를 연...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.handmk.com/news/photo/202611/45505_109190_56.png",
+      "telegram_sent": false
+    },
+    {
+      "title": "청소년 손끝에서 되살아난 화성 독립운동…AI로 잇는 '만세의 기억'",
+      "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5088445",
+      "originallink": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5088445",
+      "media": "신아일보",
+      "category": "POLICY",
+      "department": "화성시 소관부서 확인중",
+      "dept_label": "참고",
+      "theme_id": "INDUSTRY_AGRI",
+      "theme": "미래 첨단산업 · 스마트 농축수산",
+      "theme_short": "산업·농정",
+      "date_group": "TODAY_LIVE",
+      "time_label": "오늘 08:34",
+      "pub_timestamp": "2026-11-27T08:34:00+09:00",
+      "bullets": [
+        "- 청소년 손끝에서 되살아난 화성 독립운동…AI로 잇는 '만세의 기억'",
+        "- [사진=화성서해마루 유스호스텔] 과거의 만세 함성이 청소년들의 상상력과 AI 기술을 만나 새로운 영상으로 되살아났다. 지역의 독립운동 역사를 배우는 데 머물지 않고, 직접 콘텐츠로...",
+        "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
+      ],
+      "related_articles": [],
+      "is_major": false,
+      "image_url": "https://cdn.shinailbo.co.kr/news/photo/202611/5088445_2085795_303.png",
+      "telegram_sent": false
+    },
     {
       "title": "화성시, 노후 소규모 공동주택 보수 지원 확대…긴급 안전공사 최대 1억...",
       "link": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/11/27/20261127500008?wlog_tag3=naver",
@@ -128,8 +440,30 @@
         "- л…ём„ұмІ  м„ңмҡёмӢңмқҳмӣҗ вҖңмһҘмҠ№л°°кё°м—ӯ нҺҖмҠӨн…Ңмқҙм…ҳ мҳӨнҳ„мЈј м„ңмҡёмӢңмқҳмӣҗ вҖңм„ңмҡё мҲҳ...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성특례시, 노후 소규모 공동주택 보수 지원 확대…긴급공사비 최대 9...",
+          "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160255902092421",
+          "media": "시민일보",
+          "time_label": "오늘 11:34",
+          "pub_timestamp": "2026-11-27T11:34:00+09:00"
+        },
+        {
+          "title": "화성특례시, '2027년 화성시 소규모 공동주택 지원사업' 신청 접수",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2024267",
+          "media": "매일일보",
+          "time_label": "오늘 11:00",
+          "pub_timestamp": "2026-11-27T11:00:00+09:00"
+        },
+        {
+          "title": "[27일 화성시]노후 소규모 공동주택 보수 지원 확대 등",
+          "link": "https://www.asiatime.co.kr/article/20261127500100",
+          "media": "ASIATIME",
+          "time_label": "오늘 10:52",
+          "pub_timestamp": "2026-11-27T10:52:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://imggo.seoul.co.kr/img/go_share.png",
       "telegram_sent": false
     },
@@ -152,8 +486,30 @@
         "- 화성시 AI스마트전략실 빅데이터팀 신환철 팀장 개발 1035팀 경쟁 뚫고 ‘공공 AI 대전환 챌린지’ 대상 망분리 PC서도 구동 가능…지정과제 부문 9개 팀 중 1위 간부 AI 의...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "정명근 화성시장, AI로 공직사회 인수인계 부담 줄인다...'화성바통' 국...",
+          "link": "https://www.ajunews.com/view/20261127110026059",
+          "media": "아주경제",
+          "time_label": "오늘 11:08",
+          "pub_timestamp": "2026-11-27T11:08:00+09:00"
+        },
+        {
+          "title": "화성시, AI경진대회 '화성바통' 국무총리상 영예",
+          "link": "http://www.breaknews.com/1254526",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:14",
+          "pub_timestamp": "2026-11-27T09:14:00+09:00"
+        },
+        {
+          "title": "화성시 AI 인수인계 도우미, ‘화성바통’ 국무총리상",
+          "link": "https://www.sedaily.com/article/20119678?ref=naver",
+          "media": "서울경제",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-27T09:10:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cphoto.asiae.co.kr/listimglink/1/2026112707172725767_1795731447.jpg",
       "telegram_sent": false
     },
@@ -242,6 +598,27 @@
           "media": "이뉴스투데이",
           "time_label": "스크랩 11.26 13:55",
           "pub_timestamp": "2026-11-26T13:55:00+09:00"
+        },
+        {
+          "title": "화성특례시 비전공 민원 공무원, AI ‘바이브코딩’으로 위생행정 플랫...",
+          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611261752243630874",
+          "media": "DNEWS",
+          "time_label": "오늘 11:22",
+          "pub_timestamp": "2026-11-27T11:22:00+09:00"
+        },
+        {
+          "title": "화성 공무원 개발 AI 업무도우미 국무총리상 수상",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3084499",
+          "media": "NEWSCLAIM",
+          "time_label": "오늘 10:50",
+          "pub_timestamp": "2026-11-27T10:50:00+09:00"
+        },
+        {
+          "title": "화성시 공무원이 만든 AI 업무도우미, 전국 공공 AI 경진대회 최고상 수...",
+          "link": "https://www.asiatime.co.kr/article/20261127500087",
+          "media": "ASIATIME",
+          "time_label": "오늘 10:18",
+          "pub_timestamp": "2026-11-27T10:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -267,8 +644,16 @@
         "- 화성특례시의회 조정옥 의원(기획행정위원회). 사진=조정옥 의원실 매일일보 = 한철희 기자 | 조정옥 화성특례시의회 의원(기획행정위원회)은 2026년 행정사무감사에서 읍·면·동 수의...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "여성기업 특례가 ‘수의계약 통로’로 전락했나… 조정옥 화성시의원, ...",
+          "link": "https://www.asiatime.co.kr/article/20261127500055",
+          "media": "ASIATIME",
+          "time_label": "오늘 09:38",
+          "pub_timestamp": "2026-11-27T09:38:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://cdn.m-i.kr/news/photo/202611/2024087_2024950_4017.png",
       "telegram_sent": false
     },
@@ -654,8 +1039,37 @@
         "- 강성규 기자입력 2026-11-26 09:22 수정 2026-11-26 09:22 행정사무감사서 시설 안전관리 문제 제기…화성시와 3개 체육시설 현장 점검 [아시아타임즈 경기취재본...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "화성도시공사, 시 관계자와 감사 지적 체육시설 3곳 안전점검",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2024272",
+          "media": "매일일보",
+          "time_label": "오늘 11:32",
+          "pub_timestamp": "2026-11-27T11:32:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] 장동희 화성특례시의원, 체육시설 안전관리 미흡 지적…후...",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=803742",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 09:46",
+          "pub_timestamp": "2026-11-27T09:46:00+09:00"
+        },
+        {
+          "title": "화성도시공사, 행정사무감사 지적 체육시설 3곳 현장 점검",
+          "link": "http://www.breaknews.com/1254543",
+          "media": "브레이크뉴스",
+          "time_label": "오늘 09:44",
+          "pub_timestamp": "2026-11-27T09:44:00+09:00"
+        },
+        {
+          "title": "화성특례시의회 문화체육위원회, 행정사무감사 지적에 체육시설 3곳 긴...",
+          "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2498022",
+          "media": "이뉴스투데이",
+          "time_label": "오늘 09:10",
+          "pub_timestamp": "2026-11-27T09:10:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/26/.cache/512/20261126500046.jpg",
       "telegram_sent": false
     },
@@ -875,8 +1289,23 @@
         "- 강성규 기자입력 2026-11-25 10:15 수정 2026-11-25 10:15 [아시아타임즈 경기취재본부=강성규 기자]화성시가 지난 23일과 24일 중대시민재해를 예방하고 시설...",
         "- 상세 내용은 기사 원문을 확인하시기 바랍니다."
       ],
-      "related_articles": [],
-      "is_major": false,
+      "related_articles": [
+        {
+          "title": "문체부·문정원, 공공저작물 책임관·담당자 역량 강화 연수 및 우수 사...",
+          "link": "https://www.gosiweek.com/article/1065592975409342",
+          "media": "GOSIWEEK",
+          "time_label": "오늘 09:06",
+          "pub_timestamp": "2026-11-27T09:06:00+09:00"
+        },
+        {
+          "title": "문체부·문정원, 2026년 제2차 공공저작물 역량 강화 연수 및 우수 시상...",
+          "link": "https://www.abcn.kr/news/articleView.html?idxno=95095",
+          "media": "ABCN",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-27T09:00:00+09:00"
+        }
+      ],
+      "is_major": true,
       "image_url": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/25/.cache/512/20261125500086.jpg",
       "telegram_sent": false
     },
@@ -913,6 +1342,20 @@
           "media": "GGILBO",
           "time_label": "오늘 15:32",
           "pub_timestamp": "2026-11-26T15:32:00+09:00"
+        },
+        {
+          "title": "서초구, 식중독 예방관리 우수기관 선정…식약처장 표창",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3764861",
+          "media": "국제뉴스",
+          "time_label": "오늘 09:16",
+          "pub_timestamp": "2026-11-27T09:16:00+09:00"
+        },
+        {
+          "title": "서울 서초구, 신속한 식중독 대응체계로 우수기관 선정…식약처장 표창",
+          "link": "https://www.dailian.co.kr/news/view/1720369/?sc=Naver",
+          "media": "데일리안",
+          "time_label": "오늘 08:48",
+          "pub_timestamp": "2026-11-27T08:48:00+09:00"
         }
       ],
       "is_major": true,
@@ -1602,6 +2045,62 @@
           "media": "현장뉴스",
           "time_label": "스크랩 11.26 05:00",
           "pub_timestamp": "2026-11-26T05:00:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '2026 올해의 상생기업 대상' 중소벤처기업부 장관 표창 수...",
+          "link": "https://www.etnews.com/20261127000153",
+          "media": "전자신문",
+          "time_label": "오늘 11:07",
+          "pub_timestamp": "2026-11-27T11:07:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, ‘2026 올해의 상생기업 대상’ 중소벤처기업부 장관 표창",
+          "link": "https://www.globalepic.co.kr/view.php?ud=2026112710153158084ee4ea3d05_29",
+          "media": "GLOBALEPIC",
+          "time_label": "오늘 10:18",
+          "pub_timestamp": "2026-11-27T10:18:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 중기부 상생기업 표창…협력사 지원 연 200억원",
+          "link": "https://www.thepowernews.co.kr/view.php?ud=202611270951037770de3f0aa1be_7",
+          "media": "THEPOWERNEWS",
+          "time_label": "오늘 09:52",
+          "pub_timestamp": "2026-11-27T09:52:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '올해의 상생기업 대상' 장관 표창…협력사 지원",
+          "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=305985",
+          "media": "NEWSQUEST",
+          "time_label": "오늘 09:50",
+          "pub_timestamp": "2026-11-27T09:50:00+09:00"
+        },
+        {
+          "title": "공급망 상생 힘쓴 SK인텔릭스, 중소벤처기업부 장관 표창",
+          "link": "http://www.datanews.co.kr/news/article.html?no=147894",
+          "media": "DATANEWS",
+          "time_label": "오늘 09:34",
+          "pub_timestamp": "2026-11-27T09:34:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 상생협력 공로로 중기부 장관 표창 수상",
+          "link": "https://www.ddaily.co.kr/page/view/2026112708594753733",
+          "media": "DDAILY",
+          "time_label": "오늘 09:20",
+          "pub_timestamp": "2026-11-27T09:20:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 협력사 269개 품목에 납품대금 연동제...중기부 장관 표창",
+          "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=321129",
+          "media": "WOLYO",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-27T09:00:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 협력사 상생 성과로 중기부 장관 표창",
+          "link": "http://www.issuenbiz.com/news/articleView.html?idxno=82079",
+          "media": "ISSUENBIZ",
+          "time_label": "오늘 08:50",
+          "pub_timestamp": "2026-11-27T08:50:00+09:00"
         }
       ],
       "is_major": true,
@@ -9545,6 +10044,13 @@
           "media": "WIDEDAILY",
           "time_label": "오늘 10:56",
           "pub_timestamp": "2026-11-26T10:56:00+09:00"
+        },
+        {
+          "title": "“계약금 5%·중도금무이자”…‘화성 향남 롯데캐슬 시그니처’ 선착순...",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611270073",
+          "media": "SENTV",
+          "time_label": "오늘 10:14",
+          "pub_timestamp": "2026-11-27T10:14:00+09:00"
         }
       ],
       "is_major": true,
@@ -10099,6 +10605,13 @@
           "media": "UNN",
           "time_label": "오늘 08:48",
           "pub_timestamp": "2026-11-26T08:48:00+09:00"
+        },
+        {
+          "title": "[위클리오늘] ADT캡스, SK인텔릭스(11.27)",
+          "link": "http://www.weeklytoday.com/news/articleView.html?idxno=803727",
+          "media": "WEEKLYTODAY",
+          "time_label": "오늘 10:18",
+          "pub_timestamp": "2026-11-27T10:18:00+09:00"
         }
       ],
       "is_major": true,
@@ -14249,6 +14762,69 @@
           "media": "문화일보",
           "time_label": "스크랩 11.20 23:21",
           "pub_timestamp": "2026-11-20T23:21:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, ‘올해의 상생기업 대상’ 중기부 장관 표창 수상",
+          "link": "https://www.sentv.co.kr/article/view/sentv202611270108",
+          "media": "SENTV",
+          "time_label": "오늘 11:50",
+          "pub_timestamp": "2026-11-27T11:50:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '2026 올해의 상생기업 대상' 중기부 장관 표창 수상…협력...",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=508805",
+          "media": "핀포인트뉴스",
+          "time_label": "오늘 11:48",
+          "pub_timestamp": "2026-11-27T11:48:00+09:00"
+        },
+        {
+          "title": "[상생경영] SK인텔릭스, 동반성장 주간서 장관 표창…협력 성과 인정",
+          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=303617",
+          "media": "FINANCIALPOST",
+          "time_label": "오늘 11:46",
+          "pub_timestamp": "2026-11-27T11:46:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, 협력사 동반성장 상생협력 결실…중기부 장관 표창",
+          "link": "https://www.100ssd.co.kr/news/articleView.html?idxno=214842",
+          "media": "100SSD",
+          "time_label": "오늘 11:28",
+          "pub_timestamp": "2026-11-27T11:28:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '올해의 상생기업 대상' 중기부 장관 표창 수상",
+          "link": "https://www.dailian.co.kr/news/view/1720530/?sc=Naver",
+          "media": "데일리안",
+          "time_label": "오늘 11:19",
+          "pub_timestamp": "2026-11-27T11:19:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '올해의 상생기업 대상' 중기부 장관 표창",
+          "link": "https://zdnet.co.kr/view/?no=20261127090747",
+          "media": "ZDNET",
+          "time_label": "오늘 09:56",
+          "pub_timestamp": "2026-11-27T09:56:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, ‘2026 상생기업 대상’ 중기부 장관 표창 수상",
+          "link": "https://biz.chosun.com/industry/business-venture/2026/11/27/4GZI2PFLTBHDLHWDI2LGXQZOYA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "media": "조선일보",
+          "time_label": "오늘 09:11",
+          "pub_timestamp": "2026-11-27T09:11:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, '2026 올해의 상생기업 대상' 중기부 장관 표창 수상",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=141794",
+          "media": "POPCORNNEWS",
+          "time_label": "오늘 08:54",
+          "pub_timestamp": "2026-11-27T08:54:00+09:00"
+        },
+        {
+          "title": "SK인텔릭스, ‘올해의 상생기업 대상’ 중기부 장관 표창",
+          "link": "https://www.etoday.co.kr/news/view/2653745",
+          "media": "ETODAY",
+          "time_label": "오늘 08:52",
+          "pub_timestamp": "2026-11-27T08:52:00+09:00"
         }
       ],
       "is_major": true,
@@ -15686,6 +16262,13 @@
           "media": "뉴스1",
           "time_label": "오늘 14:42",
           "pub_timestamp": "2026-11-25T14:42:00+09:00"
+        },
+        {
+          "title": "화성시, 중국 심천 하이테크 박람회서 AI·로봇·우주항공 기술 탐색",
+          "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042341",
+          "media": "기호일보",
+          "time_label": "오늘 11:00",
+          "pub_timestamp": "2026-11-27T11:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -18119,6 +18702,41 @@
           "media": "로이슈",
           "time_label": "스크랩 11.26 16:50",
           "pub_timestamp": "2026-11-26T16:50:00+09:00"
+        },
+        {
+          "title": "[금주의 용인특례시] 경기도 주택행정 평가 3년 연속 '대상'…주거환경...",
+          "link": "https://www.joongboo.com/news/articleView.html?idxno=363743753",
+          "media": "중부일보",
+          "time_label": "오늘 10:06",
+          "pub_timestamp": "2026-11-27T10:06:00+09:00"
+        },
+        {
+          "title": "문체부·한국문화정보원, 공공저작물 개방 우수기관 13곳·활용 기업 4곳...",
+          "link": "https://www.handmk.com/news/articleView.html?idxno=45474",
+          "media": "HANDMK",
+          "time_label": "오늘 09:28",
+          "pub_timestamp": "2026-11-27T09:28:00+09:00"
+        },
+        {
+          "title": "문체부‧문정원, 공공저작물 개방‧활용 우수 기관(담당자) 및 기업 발...",
+          "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=250522",
+          "media": "SISUNNEWS",
+          "time_label": "오늘 09:18",
+          "pub_timestamp": "2026-11-27T09:18:00+09:00"
+        },
+        {
+          "title": "문화체육관광부-한국문화정보원, 공공저작물 개방·활용 우수 시상식 2...",
+          "link": "https://dhnews.co.kr/news/view/1065591491752006",
+          "media": "DHNEWS",
+          "time_label": "오늘 09:04",
+          "pub_timestamp": "2026-11-27T09:04:00+09:00"
+        },
+        {
+          "title": "공공저작물 개방·활용 '모범 17곳' 뽑혔다…27일 상암서 한자리에",
+          "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=68517",
+          "media": "NEWSROAD",
+          "time_label": "오늘 09:00",
+          "pub_timestamp": "2026-11-27T09:00:00+09:00"
         }
       ],
       "is_major": true,
@@ -26168,6 +26786,13 @@
           "media": "국제뉴스",
           "time_label": "스크랩 11.26 17:20",
           "pub_timestamp": "2026-11-26T17:20:00+09:00"
+        },
+        {
+          "title": "“이틀 새 6000만원 올랐다”…서울 주춤한 사이 경기 남부 ‘불장’",
+          "link": "https://www.mk.co.kr/article/12219936",
+          "media": "매일경제",
+          "time_label": "오늘 09:49",
+          "pub_timestamp": "2026-11-27T09:49:00+09:00"
         }
       ],
       "is_major": true,
@@ -31872,6 +32497,13 @@
           "media": "FNTIMES",
           "time_label": "오늘 08:24",
           "pub_timestamp": "2026-11-25T08:24:00+09:00"
+        },
+        {
+          "title": "강남구 '현대6차' 44평, 10억 떨어진 64.5억원에 거래 [일일 하락가]",
+          "link": "https://www.fntimes.com/html/view.php?ud=202611270851092780048b718333_18",
+          "media": "FNTIMES",
+          "time_label": "오늘 08:58",
+          "pub_timestamp": "2026-11-27T08:58:00+09:00"
         }
       ],
       "is_major": true,
